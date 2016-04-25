@@ -172,7 +172,7 @@
           <span
           class="tooltips" title="GitHub Commits"><i class="fa fa-heartbeat"></i>&nbsp;<span id="ghcommits">-</span></span>&nbsp;&nbsp;&nbsp;<span class="tooltips"
             title="GitHub Contributors"><i class="fa fa-user-md"></i>&nbsp;<span id="ghcontributors">-</span></span>&nbsp;&nbsp;&nbsp;
-            <span class="tooltips" title="Block Height"><i class="fa fa-cubes"></i>&nbsp;<span id="blockheight">-</span></span>
+            <!--<span class="tooltips" title="Block Height"><i class="fa fa-cubes"></i>&nbsp;<span id="blockheight">-</span></span>-->
               <!-- <span id="et-info-phone"> </span> -->
               <ul class="et-social-icons"> <a href="https://reddit.com/r/decred" class="icon"><span><li class="et-social-icon fa fa-reddit-alien"></li></span></a>&nbsp;&nbsp;
                 <a href="https://twitter.com/decredproject" class="icon"><span><i class="et-social-icon fa fa-twitter"></i></span></a>                </ul>
@@ -751,7 +751,7 @@ $(document).ready(function() {
   var commitcount = 0;
   var repos = ["dcraddrgen", "dcrd", "dcrrpcclient", "dcrutil", "dcrwallet", "decred-release", "Paymetheus", "RFPs"];
 
- var blockexplorer = $.PeriodicalUpdater("https://mainnet.decred.org/api/status", {
+ /*var blockexplorer = $.PeriodicalUpdater("https://mainnet.decred.org/api/status", {
     method: 'get',
     maxCalls: 0,
     autoStop: 0,
@@ -772,7 +772,7 @@ $(document).ready(function() {
       $("#nodes").text("-");
       blockexplorer.stop();
     }
-  });
+  });*/
 
   // TODO sum contributors from all repos
   $.get("https://api.github.com/repos/decred/dcrd/stats/contributors", function(data) {
