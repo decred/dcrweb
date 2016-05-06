@@ -207,85 +207,6 @@ nav a:hover {
 
 /*============================================================*\
 
-	#Table
-
-\*============================================================*/
-
-.show-tickets {
-	float: right;
-    margin-top: -60px;
-	
-	background: url("../images/show.png") no-repeat;
-    height: 32px;
-    width: 32px;
-    
-    cursor: pointer;
-	cursor: hand;
-    
-    -webkit-box-sizing: content-box; 
-    -moz-box-sizing: content-box; 
-    box-sizing: content-box;
-}
-
-input[type=checkbox]{
-    display: none;
-}
-
-input[type=checkbox]:checked ~ .ticket-wrapper {
-    display: block;
-}
-
-.ticket-wrapper {
-	display: none;
-	width: 100%;
-	padding: 30px 0px 0px 0px;
-}
-
-table {
-	width: 100%;
-	padding: 10px;	
-	
-	-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
-}
-
-th {
-	background-color: @heading-primary;
-	text-align: center;
-	padding: 10px;
-	font-size: 1.6em;
-	font-weight: bold;
-	color: #ffffff;
-}
-
-td {
-	vertical-align: middle;
-	text-align: center;
-	padding: 10px;
-	font-size: 1.4em;
-	color: @primary-text-color;
-	word-break: break-all;
-}
-
-tfoot {
-	background-color: @heading-primary;
-	text-align: center;
-	padding: 10px;
-}
-
-tfoot td {
-	font-size: 1.6em;
-	font-weight: bold;
-	color: #ffffff;
-}
-
-/*============================================================*\
-
 	#Footer
 
 \*============================================================*/
@@ -441,7 +362,7 @@ footer p {
 
 .fa-text { padding-right: 5px; }
 .fa-first { padding-left: 20px; }
-.fa-icon { padding-right: 15px; }
+.fa-icon { padding-right: 20px; }
 
 
 /*============================================================*\
@@ -523,6 +444,10 @@ footer p {
 	footer p {
 		padding-top: 5px;
 	}	
+	
+	.tooltip .tooltiptext {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1199px){	
