@@ -1,0 +1,479 @@
+
+/*============================================================*\
+
+	#Imports
+
+\*============================================================*/
+
+/* Variables for the project */
+@import (less) "_variables.less";
+
+/* Fonts for the project */
+@import (less) "_fonts.less";
+
+/* Normalize makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. */
+@import (less) "_normalize.less";
+
+/* Resets */
+@import (less) "_resets.less";
+
+
+
+/*============================================================*\
+
+	#Navigation
+
+\*============================================================*/
+
+nav {
+	font-size: 2.0em;
+	width: 100%;
+	height: 50px;
+	color: @primary-text-color;
+	padding: 15px;
+}
+
+nav a {
+	position: relative;
+	text-decoration: none;
+	color: @primary-text-color;
+	-webkit-tap-highlight-color: transparent;
+	
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	-ms-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+nav a:hover {
+	color: @heading-primary;
+}
+
+.mainnav {
+	width: 100%;
+	margin: 0 auto;
+	background-color: @navbar-background;
+}
+
+.nav {
+	width: 100%;
+	margin: 0 auto;
+	background-color: @navbar-background;
+}
+
+.mainnav-wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+.nav-left {
+	float: left;
+}
+
+.nav-right {
+	float: right;
+}
+
+
+.banner {
+	background-image: url('../images/bg.png'); 
+	background-size: 100% 100%;
+	height: 337px;
+	text-align: center;
+	/*text-shadow: 5px 5px 5px #444444;*/
+}
+
+.banner h1 {
+	padding-top: 120px;
+	color: #333333;
+	font-size: 6.0em;
+	font-style: italic;
+	margin: 0px;
+}
+
+.banner h2 {
+	color: #333333;
+	font-size: 2.0em;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*============================================================*\
+
+	#Content
+
+\*============================================================*/
+
+.divider-three {
+	padding: 30px;
+	float: left;
+	width: 33.3%;
+}
+
+.divider-three h4 {
+	color: @primary-text-color;
+	font-size: 1.8em;
+	line-height: 1.3em;
+	text-align: center;
+	font-weight: normal;
+}
+
+.divider-three h5 {
+	margin-top: 10px;
+	color: @primary-text-color;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.divider-three h5 icon {
+	margin-right: 10px;
+}
+
+.divider-image {
+	background-color: @navbar-background;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	padding: 18px 0px 0px 18px;
+	border-radius: 100px;
+}
+
+.divider-three-content {
+	padding: 10px;
+	background-color: #444444;
+	word-break: normal;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+
+.divider-two {
+	float: left;
+	width: 50%;
+}
+
+.divider-two h3 {
+	color: @primary-text-color;
+	font-size: 2.6em;
+	font-weight: normal;
+	padding-top: 30px;
+}
+
+.divider-two-content {
+	background-color: @navbar-background;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 90%;
+	height: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.left-padding {
+	padding-left: 10%;
+}
+
+.right-padding {
+	padding-right: 10%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+	font-size: 1.2em;
+}
+
+.container-list {
+	color: @primary-text-color;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+
+.container-list li {
+	margin-bottom: 30px;
+}
+
+/*============================================================*\
+
+	#Footer
+
+\*============================================================*/
+
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: @footer-background;
+	color: @footer-text;
+	font-size: 1.2em;
+}
+
+footer a, footer a:visited {
+	color: @footer-links;
+	text-decoration: none;
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	-ms-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+footer a:hover {
+	color: @heading-primary;
+}
+
+footer p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer-content {
+	padding: 10px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*============================================================*\
+
+	#Buttons
+
+\*============================================================*/
+
+.raw-button {
+	vertical-align: middle;
+    border: none;
+    background: transparent none;
+    padding: 0;
+    line-height: 1;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    padding: .5em 1em;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.gray-button {
+	font-size: 2.4em;
+	font-weight: normal;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    -webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	-ms-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.gray-button:hover {
+	background-color: @heading-primary;
+	border: 2px solid @heading-primary;
+}
+
+
+/*============================================================*\
+
+	#Tooltips
+
+\*============================================================*/
+
+.tooltip {
+	position: relative;
+	display: inline;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	position: absolute;
+	width: 200px;
+	color: #FFFFFF;
+	background: #000000;
+	height: auto;
+	line-height: 30px;
+	text-align: center;
+	visibility: hidden;
+	border-radius: 6px;
+}
+
+.tooltip .tooltiptext:after {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -8px;
+	width: 0; height: 0;
+	border-bottom: 8px solid #000000;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 0.9;
+	top: 30px;
+	left: 50%;
+	margin-left: -100px;
+	z-index: 10;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/*============================================================*\
+
+	#Utility Classes
+
+\*============================================================*/
+
+.fl { float: left; }
+.fr { float: right; }
+.fc { float: none; margin-left: auto; margin-right: auto; }
+.fn { float: none; }
+
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.cn { clear: none; }
+
+.bold { font-weight: bold; }
+
+.dark { background-color: #222222; }
+.light { background-color: #333333; }
+
+.center-icon {
+	font-size: 4.0em;
+}
+
+.fa-text { padding-right: 5px; }
+.fa-first { padding-left: 20px; }
+.fa-icon { padding-right: 20px; }
+
+
+/*============================================================*\
+
+	#Media Queries
+
+\*============================================================*/
+
+@media only screen and (max-width: 800px) {	
+	h2 {
+		font-size: 2.5em;
+	}	
+	
+	h5 {
+		font-size: 1.4em;
+	}
+	
+	.show-tickets {
+		margin-top: -50px;
+    }
+    
+    footer ul li {
+		padding: 0px 20px 0px 20px;
+	}
+	
+	.divider-three {
+		width: 100%;
+	}
+	
+	.divider-two {
+		width: 100%;
+		height: 140px;
+		margin-bottom: 20px;
+	}
+	
+	.divider-two-content {
+		margin-top: 20px;
+		height: 140px;
+	}
+	
+	.divider-two h3 {
+		font-size: 2.0em;
+		font-weight: normal;
+		padding-top: 10px;
+	}
+	
+	.left-padding {
+		padding-left: 0%;
+	}
+
+	.right-padding {
+		padding-right: 0%;
+	}
+	
+	.gray-button {
+		font-size: 2.0em;
+	}
+}
+
+@media only screen and (max-width: 500px) {		
+	.divider-three {
+		padding: 10px;
+	}
+	
+	.divider-two h3 {
+		font-size: 1.6em;
+		font-weight: normal;
+		padding-top: 10px;
+	}
+	
+	.divider-two p {
+		font-size: 1.0em;
+	}
+	
+	footer {
+		font-size: 1.0em;
+	}
+	
+	footer p {
+		padding-top: 5px;
+	}	
+	
+	.tooltip .tooltiptext {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1199px){	
+	.divider-three {
+		width: 33.3%;
+		padding: 10px;
+	}
+	
+	.divider-two h3 {
+		font-size: 2.0em;
+		font-weight: normal;
+	}
+	
+	.left-padding {
+		padding-left: 0%;
+	}
+
+	.right-padding {
+		padding-right: 0%;
+	}
+	
+	.gray-button {
+		font-size: 2.0em;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+}

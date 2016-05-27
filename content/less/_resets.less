@@ -1,0 +1,66 @@
+/*============================================================*\
+
+	#Global Elements
+
+\*============================================================*/
+
+*,*:before,*:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+html,body { margin: 0; padding: 0; line-height: 1; width: 100%; position: relative; }
+
+body {
+	font-family: @custom-font;
+	font-size: 62.5%; /* Resets base font size to 10px, so setting font size to 14px in EMs is simple: 1.4em */
+	overflow-x: hidden;
+	background-color: #eeeeee;
+}
+
+iframe { border: 0 none; }
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+p {
+	color: @primary-text-color;
+	font-size: @font-size-copy;
+	line-height: @line-height-copy;
+	margin: 0 0 @font-size-copy;
+}
+
+li p { font-size: 1em; } /* Prevents nested elements' font sizes from increasing */
+
+a {
+	color: @heading-secondary;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-tap-highlight-color: transparent;
+}
+
+a:hover {}
+a:active {}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 { color: @primary-text-color; margin: 0 0 .5em; clear: left; }
+
+* + h1,
+* + .h1,
+* + h2,
+* + .h2,
+* + h3,
+* + .h3,
+* + h4,
+* + .h4,
+* + h5,
+* + .h5,
+* + h6,
+* + .h6 { margin-top: 1em; }
+
+	h1, .h1 { font-size: 4.8em; color: @heading-primary;}
+	h2, .h2 { font-size: 3.6em; color: @heading-primary;}
+	h3, .h3 { font-size: 3.2em; color: @heading-primary; text-align: center; padding-top: 10px;}
+	h4, .h4 { font-size: 2.8em; color: @heading-secondary;}
+	h5, .h5 { font-size: 2.0em; color: @heading-secondary;}
+	h6, .h6 { font-size: 1.6em; color: @heading-secondary;}
+	h7, .h7 { font-size: 1.6em; color: @heading-secondary; font-weight: bold; padding: 0px 0px 10px 0px;}

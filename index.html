@@ -1,879 +1,339 @@
 <!DOCTYPE html>
-<!--[if IE 6]>
+<html lang="en-US"> 
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+		
+		<meta name="description" content="Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.">
+		<meta name="keywords" content="Decred, crypto, currency, cryptocurrency, blockchain, community, technology, bitcoin, altcoin, decentralized">
+		<meta name="author" content="decred.org">
+		<!--<base href="https://decred.org">-->
+		
+		<meta property="og:title" content="Decred | Rethink Digital Currency">
+		<meta property="og:url" content="https://decred.org">
+		<meta property="og:image" content="https://decred.org/content/images/logo.png">
+		<meta property="og:description" content="Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.">
+		<meta property="og:site_name" content="Decred">
+		
+		<!-- Does decred have an offical Google Business page? -->
+		<!--<link href="https://plus.google.com/+Decred" rel="publisher">-->
+		
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./content/css/styles.css">
+		<link rel="stylesheet" href="./content/css/font-awesome-4.5.0.min.css">
+		<link rel="stylesheet" href="./content/css/decred.css">
+		
+		<title>Decred | Rethink Digital Currency</title>
+	</head>
+	
+	<body>
+		<!-- Navbar -->
+		<nav class="mainnav">
+			<div class="mainnav-wrapper">	
+						
+				
+				<div class="nav-left">
+					<!-- TEMP Disabled because the stats from github API only go back a year, also these stats seem 
+						pointless on the landing page. (I would assume anyone who is intrested would look on github)
+					
+					<span class="tooltip">
+						<span class="fa-first fa fa-heartbeat"></span>
+						<span id="ghcommits" class="fa-text">-</span>
+						<span class="tooltiptext">GitHub Commits</span>
+					</span>
+					
+					<span class="tooltip">
+						<span class="fa fa-user-md"></span>
+						<span id="ghcontributors" class="fa-text">-</span>
+						<span class="tooltiptext">GitHub Contributors</span>
+					</span>
+					-->
+					
+					<img src="./content/images/logo_dark.png" alt="" class="fl">
+				</div>
+				
+				<div class="nav-right">
+					<a href="https://reddit.com/r/decred" class="icon fa-icon"><span class="et-social-icon fa fa-reddit-alien"></span></a>
+					<a href="https://twitter.com/decredproject" class="icon"><span class="et-social-icon fa fa-twitter"></span></a>
+				</div>
+				
+			</div>
 
-<html id="ie6" lang="en-US">
+			<div class="cb"></div>
+		</nav>
+		
+		<!-- Heading -->
+		<div class="banner">
+			<h1>DECRED</h1>
+			<h2>Rethink Digital Currency.</h2>
+			<br/>
+			<br/>
+			<a class="raw-button gray-button" href="https://github.com/decred/decred-release/releases">Download</a>
+		</div>
+		
+		<!-- Page -->
+		<div class="content">			
+			
+			<!-- Intros -->
+			<section class="dark">
+				<div class="divider-three">
+					<h4>
+						Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.
+					</h4>
+				</div>
+				
+				<div class="divider-three">
+					<h4>
+						<span class="center-icon icon decred-icon-font"></span>
+					</h4>
+				</div>
+				
+				<div class="divider-three">
+					<h4>
+						The fusion of technology, community, and governance the Decred way means development is self-funding and remains sustainable.
+					</h4>
+				</div>
+				
+				<div class="cb"></div>
+			</section>
+			
+			<!-- About -->
+			<section class="light">
+				<div class="divider-three">
+					<div class="divider-three-content">
+						
+						<!-- Image -->
+						<div class="divider-image">
+							<img src="./content/images/01.png" alt="">
+						</div>
+						
+						<!-- Heading -->
+						<h5>Technology</h5>
+						
+						<!-- Content -->
+						<ul class="container-list">
+							<li>
+								Hybridized proof-of-work proof-of-stake consensus system to strike a balance between miners and voters and create a more robust notion of consensus
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Hybrid_Proof-of-Work_Proof-of-Stake"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								Blake-256 hashing algorithm – not vulnerable to many of the numerous security issues facing Merkle-Damgård construction-based hashing algorithms such as SHA-256
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Blake-256_Hashing_Algorithm"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								secp256k1 signature scheme for ease of integration into existing software or Ed25519/secp256k1-Schnorr to take advantage of Schnorr signatures and their features
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Schnorr-Based_Elliptic_Curve_Cryptography"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								Written entirely in Go using a modular, well-documented, and tested codebase for long-term maintainability
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Modular_Codebase"><span class="fa fa-info-circle"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="divider-three">
+					<div class="divider-three-content">
+						
+						<!-- Image -->
+						<div class="divider-image">
+							<img src="./content/images/02.png" alt="">
+						</div>
+						
+						<!-- Heading -->
+						<h5>Development</h5>
+						
+						<!-- Content -->
+						<ul class="container-list">
+							<li>
+								Multi-stakeholder development ecosystem that welcomes and empowers participants who want to build new and improve on existing features
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Multi-Stakeholder_Development_Ecosystem"><span class="fa fa-info-circle"></span></a>
+							</li>
 
-<![endif]-->
-<!--[if IE 7]>
+							<li>
+								Open and self-funded development via a block subsidy to ensure long-term development sustainability as project and network usage scale upward – Decred improves with use 
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Self-Funded_Development"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								Any party can submit feature proposals and developers are paid for work to fulfill requirements – in full view of the community in a system designed to fight against ingroup-outgroup dynamics
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Participant_Developers"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								Main contributors are the developers responsible for btcsuite (est. early 2013 – present) – a suite of Bitcoin packages and tools, including btcd, a full node, mining capable, Bitcoin implementation
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Makers_of_btcsuite"><span class="fa fa-info-circle"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="divider-three">
+					<div class="divider-three-content">
+						
+						<!-- Image -->
+						<div class="divider-image">
+							<img src="./content/images/03.png" alt="">
+						</div>
+						
+						<!-- Heading -->
+						<h5>Governance</h5>
+						
+						<!-- Content -->
+						<ul class="container-list">
+							<li>
+								Layered form of transparent meritocratic governance that extends beyond proof-of-work and proof-of-stake mechanisms to bring forward and represent insider and outsider voices in the community
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Meritocratic_Governance"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								Bottom-up decision-making through the Decred Assembly – an evolving and inclusive list of community members who make non-financial contributions to the project through their work and effort
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Decred_Assembly"><span class="fa fa-info-circle"></span></a>
+							</li>
+							
+							<li>
+								Project bound by the Decred Constitution on the core principles of finite issuance, privacy, security, fungibility, inclusivity, and progressive development of the technology that keeps these principles together
+								<a class="body-icon" href="https://wiki.decred.org/Introduction#Decred_Constitution"><span class="fa fa-info-circle"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="cb"></div>
+			</section>
+			
+			<!-- Links -->
+			<section class="dark">
+				<div class="divider-three">
+					<h5>
+						<span class="tooltip">
+							<a href="https://decred.org/dtb001.pdf" class="body-icon">
+								<span class="fa-icon fa fa-graduation-cap"></span>
+								<span class="tooltiptext">Technical Brief</span>
+							</a>
+						</span>
+						
+						<span class="tooltip">
+							<a href="https://wiki.decred.org" class="body-icon">
+								<span class="fa-icon fa fa-wikipedia-w"></span>
+								<span class="tooltiptext">Decred Wiki</span>
+							</a>
+						</span>
+						
+						<span class="tooltip">
+							<a href="https://stats.decred.org/" class="body-icon">
+								<span class="fa fa-bar-chart"></span>
+								<span class="tooltiptext">Decred Network Stats</span>
+							</a>
+						</span>
+					</h5>
+				</div>
+				
+				<div class="divider-three">
+					<h5>
+						<span class="tooltip">
+							<a href="https://github.com/decred" class="body-icon">
+								<span class="fa-icon fa fa-github-alt"></span>
+								<span class="tooltiptext">github.com/decred</span>
+							</a>
+						</span>
+						
+						<span class="tooltip">
+							<a href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" class="body-icon">
+								<span class="fa fa-terminal"></span>
+								<span class="tooltiptext">#decred irc.freenode.net</span>
+							</a>
+						</span>
+					</h5>
+				</div>
+				
+				<div class="divider-three">
+					<h5>
+						<span class="tooltip">
+							<a href="https://forum.decred.org/" class="body-icon">
+								<span class="fa-icon fa fa-comments"></span>
+								<span class="tooltiptext">forum.decred.org</span>
+							</a>
+						</span>
+						
+						<span class="tooltip">
+							<a href="https://reddit.com/r/decred" class="body-icon">
+								<span class="fa-icon fa fa-reddit-alien"></span>
+								<span class="tooltiptext">reddit.com/r/decred</span>
+							</a>
+						</span>
+						
+						<span class="tooltip">
+							<a href="https://twitter.com/decredproject" class="body-icon">
+								<span class="fa fa-twitter"></span>
+								<span class="tooltiptext">twitter.com/decredproject</span>
+							</a>
+						</span>
+					</h5>
+				</div>
+				
+				<div class="cb"></div>
+			</section>
+			
+			<!-- Banner -->
+			<div class="banner">
+				
+				<!-- Download -->
+				<div class="divider-two left-padding">
+					<div class="divider-two-content">
+						<h3>Free and Open-Source Software</h3>
+						<p>Get started with Decred for Windows/Mac OS X/Linux/BSD.</p>
+						<a class="raw-button gray-button" href="https://github.com/decred/decred-release/releases">Download</a>
+					</div>
+				</div>
+				
+				<!-- Web wallet -->
+				<div class="divider-two right-padding">
+					<div class="divider-two-content">
+						<h3>Web Wallet Service</h3>
+						<p>Use the web wallet service to send and receive transactions.</p>
+						<a class="raw-button gray-button" href="https://wallet.decred.org/#/create">Create</a>
+					</div>
+				</div>
+				
+				<div class="cb"></div>
+				
+			</div>
 
-<html id="ie7" lang="en-US">
+		</div>
+		
+		<!-- Footer -->
+		<footer>
+			<div class="footer-content">
 
-<![endif]-->
-<!--[if IE 8]>
+				<div class="w100">
+					<p>&#60;&#47;&#62; <a href="https://www.github.com/decred">Decred Developers</a> | 2015 - 2016</p>
+				</div>
+					
+			</div>
+		</footer>
+		
+		<!-- Javascript -->
+		<!--<script src="./content/scripts/scripts.js"></script>-->
+		
+		
+		<!-- Google analytics -->
+		<!--
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<html id="ie8" lang="en-US">
-
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
-<html lang="en-US">
-<!--<![endif]-->
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="/css/font-awesome-4.5.0.min.css">
-  <!--[if lt IE 9]>
-
-	<script src="/js/html5shiv-3.7.3.min.js" type="text/javascript"></script>
-
-	<![endif]-->
-  <script type="text/javascript">
-    document.documentElement.className = 'js';
-  </script>
-  <meta name="google-site-verification" content="h1esFT9wgSAWw2d2HxF_4AgDUVJd6o-MxHBZLmoHh1s"
-  />
-  <title>Decred | Rethink Digital Currency</title>
-  <meta content="Decred v.1.0" name="generator"
-  />
-  <style type="text/css">
-    img.wp-smiley,
-    img.emoji {
-      display: inline !important;
-      border: none !important;
-      box-shadow: none !important;
-      height: 1em !important;
-      width: 1em !important;
-      margin: 0 .07em !important;
-      vertical-align: -0.1em !important;
-      background: none !important;
-      padding: 0 !important;
-    }
-  </style>
-  <link rel='stylesheet' id='simple_tooltips_style-css' href='/css/zebra_tooltips.css'
-  media='all' />
-  <link rel='stylesheet' id='et-gf-montserrat-css' href='/css/google-font-Montserrat.css'
-  type='text/css' media='all' />
-  <link rel='stylesheet' id='divi-style-css' href='/css/decred.css' media='all'
-  />
-  <link rel='stylesheet' id='et-shortcodes-css-css' href='/css/shortcodes.css'
-  media='all' />
-  <link rel='stylesheet' id='et-shortcodes-responsive-css-css' href='/css/shortcodes_responsive.css'
-  media='all' />
-  <link rel='stylesheet' id='magnific-popup-css' href='/css/magnific-popup.css'
-  media='all' />
-  <script type='text/javascript' src='/js/jquery-1.12.1.min.js'></script>
-  <script type='text/javascript' src='/js/jquery.periodicalupdater.min.js'></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-  />
-  <style id="theme-customizer-css">
-    .container,
-    .et_pb_row,
-    .et_pb_slider .et_pb_container,
-    .et_pb_fullwidth_section .et_pb_title_container,
-    .et_pb_fullwidth_section .et_pb_title_featured_container,
-    .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
-      max-width: 1920px;
-    }
-    .et_boxed_layout #page-container,
-    .et_fixed_nav.et_boxed_layout #page-container #top-header,
-    .et_fixed_nav.et_boxed_layout #page-container #main-header,
-    .et_boxed_layout #page-container .container,
-    .et_boxed_layout #page-container .et_pb_row {
-      max-width: 2080px;
-    }
-    #top-header,
-    #et-secondary-nav li ul {
-      background-color: #222222;
-    }
-    #top-header,
-    #top-header a,
-    #et-secondary-nav li li a,
-    #top-header .et-social-icon a:before {
-      font-size: 20px;
-    }
-    @media only screen and ( min-width: 981px) {
-      .et-fixed-header#top-header,
-      .et-fixed-header#top-header #et-secondary-nav li ul {
-        background-color: #222222;
-      }
-    }
-    @media only screen and ( min-width: 2400px) {
-      .et_pb_row {
-        padding: 48px 0;
-      }
-      .et_pb_section {
-        padding: 96px 0;
-      }
-      .single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper {
-        padding-top: 144px;
-      }
-      .et_pb_section.et_pb_section_first {
-        padding-top: inherit;
-      }
-      .et_pb_fullwidth_section {
-        padding: 0;
-      }
-    }
-    @media only screen and ( max-width: 980px) {} @media only screen and ( max-width: 767px) {}
-  </style>
-  <style class="et_heading_font">
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    }
-  </style>
-  <style class="et_body_font">
-    body,
-    input,
-    textarea,
-    select {
-      font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    }
-  </style>
-  <style class="et_secondary_nav_font">
-    #top-header .container {
-      font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    }
-  </style>
-  <style id="module-customizer-css">
-  </style>
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <style type="text/css">
-    .recentcomments a {
-      display: inline !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-  </style>
-  <style type="text/css" id="custom-background-css">
-    body.custom-background {
-      background-color: #222222;
-    }
-  </style>
-  <style type="text/css" id="et-custom-css">
-    #main-header {
-      display: none;
-    }
-    #page-container {
-      padding-top: 0px !important
-    }
-  </style>
-</head>
-
-<body class="home page page-id-2 page-template-default custom-background et_pb_button_helper_class et_fullwidth_secondary_nav et_non_fixed_nav et_show_nav et_secondary_nav_enabled et_secondary_nav_two_panels et_pb_gutter windows et_pb_gutters2 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar unknown">
-  <div id="page-container">
-    <div id="top-header">
-      <div class="container clearfix">
-        <div id="et-info">
-          <div id="blockstats"></div> <i class="icon decred-icon-font logo"></i><i class="logo-top-right">DECRED</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span
-          class="tooltips" title="GitHub Commits"><i class="fa fa-heartbeat"></i>&nbsp;<span id="ghcommits">-</span></span>&nbsp;&nbsp;&nbsp;<span class="tooltips"
-            title="GitHub Contributors"><i class="fa fa-user-md"></i>&nbsp;<span id="ghcontributors">-</span></span>&nbsp;&nbsp;&nbsp;
-            <span class="tooltips" title="Block Height"><i class="fa fa-cubes"></i>&nbsp;<span id="blockheight">-</span></span>
-              <!-- <span id="et-info-phone"> </span> -->
-              <ul class="et-social-icons"> <a href="https://reddit.com/r/decred" class="icon"><span><li class="et-social-icon fa fa-reddit-alien"></li></span></a>&nbsp;&nbsp;
-                <a href="https://twitter.com/decredproject" class="icon"><span><i class="et-social-icon fa fa-twitter"></i></span></a>                </ul>
-        </div>
-        <!-- #et-info -->
-        <div id="et-secondary-menu">
-          <div class="et_duplicate_social_icons">
-            <ul class="et-social-icons"> <a href="https://reddit.com/r/decred" class="icon"><span><li class="et-social-icon fa fa-reddit-alien"></li></span></a>&nbsp;&nbsp;
-              <a href="https://twitter.com/decredproject" class="icon"><span><i class="et-social-icon fa fa-twitter"></i></span></a>              </ul>
-          </div>
-        </div>
-        <!-- #et-secondary-menu -->
-      </div>
-      <!-- .container -->
-    </div>
-    <!-- #top-header -->
-    <header id="main-header" data-height-onload="66">
-      <div class="container clearfix et_menu_container">
-        <div id="et-top-navigation" data-height="66" data-fixed-height="40">
-          <nav id="top-menu-nav">
-            <ul id="top-menu" class="nav">
-              <li class="page_item page-item-2 current_page_item"><a href="/">Landing</a> </li>
-            </ul>
-          </nav>
-          <div id="et_mobile_nav_menu">
-            <div class="mobile_nav closed"> <span class="select_page">Select Page</span> <span class="mobile_menu_bar"></span>              </div>
-          </div>
-        </div>
-        <!-- #et-top-navigation -->
-      </div>
-      <!-- .container -->
-      <div class="et_search_outer">
-        <div class="container et_search_form_container">
-          <form role="search" method="get" class="et-search-form" action="https://www.decred.org/">
-            <input type="search" class="et-search-field" placeholder="Search &hellip;"
-            value="" name="s" title="Search for:" /> </form> <span class="et_close_search_field"></span> </div>
-      </div>
-    </header>
-    <!-- #main-header -->
-    <div id="et-main-area">
-      <div id="main-content">
-        <article id="post-2" class="post-2 page type-page status-publish hentry">
-          <div class="entry-content">
-            <div class="et_pb_section et_pb_fullwidth_section  et_pb_section_0 et_section_regular">
-              <div class="et_pb_module et_pb_slider  et_pb_fullwidth_slider_0">
-                <div class="et_pb_slides">
-                  <div class="et_pb_slide et_pb_bg_layout_light et_pb_media_alignment_center et_pb_slide_0 et-pb-active-slide"
-                  style='background-color:#222222;'>
-                    <div class="et_pb_container clearfix">
-                      <div class="et_pb_slide_description">
-                        <h2 class="et_pb_slide_title">Decred</h2>
-                        <div class="et_pb_slide_content">
-                          <p>Rethink Digital Currency<span class="terminal"></span>                            </p>
-                          </p>
-                        </div>
-                      </div>
-                      <!-- .et_pb_slide_description -->
-                    </div>
-                    <!-- .et_pb_container -->
-                  </div>
-                  <!-- .et_pb_slide -->
-                </div>
-                <!-- .et_pb_slides -->
-              </div>
-              <!-- .et_pb_slider -->
-            </div>
-            <!-- .et_pb_section -->
-            <div class="et_pb_section  et_pb_section_1 et_pb_with_background et_section_regular">
-              <div class=" et_pb_row et_pb_row_0 et_pb_row_fullwidth">
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_0">
-                  <div class="et_pb_blurb et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_blurb_0 et_pb_blurb_position_top">
-                    <div class="et_pb_blurb_content">
-                      <div class="et_pb_blurb_container">
-                        <p>Decred is an open and progressive cryptocurrency with a system
-                          of community-based governance integrated into its blockchain.</p>
-                      </div>
-                    </div>
-                    <!-- .et_pb_blurb_content -->
-                  </div>
-                  <!-- .et_pb_blurb -->
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_1">
-                  <div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_text_0">
-                    <p> <i class="icon decred-icon-font"></i> </p>
-                  </div>
-                  <!-- .et_pb_text -->
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_2">
-                  <div class="et_pb_blurb et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_blurb_1 et_pb_blurb_position_top">
-                    <div class="et_pb_blurb_content">
-                      <div class="et_pb_blurb_container">
-                        <p>The fusion of technology, community, and governance the Decred
-                          way means development is self-funding and remains sustainable.</p>
-                      </div>
-                    </div>
-                    <!-- .et_pb_blurb_content -->
-                  </div>
-                  <!-- .et_pb_blurb -->
-                </div>
-                <!-- .et_pb_column -->
-              </div>
-              <!-- .et_pb_row -->
-            </div>
-            <!-- .et_pb_section -->
-            <div class="et_pb_section et_pb_section_parallax  et_pb_section_2 et_pb_with_background et_section_regular">
-              <div class=" et_pb_row et_pb_row_1 et_pb_row_fullwidth">
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_3">
-                  <div class="et_pb_blurb et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_blurb_2 et_pb_blurb_position_top">
-                    <div class="et_pb_blurb_content">
-                      <div class="et_pb_main_blurb_image"><span class="et-pb-icon et-waypoint et_pb_animation_off et-pb-icon-circle"
-                        style="color: #43a2ca; background-color: #222222;">&#xe00a;</span>                        </div>
-                      <div class="et_pb_blurb_container">
-                        <h4><span class="icon decred-icon-font logo"></span><i class="logo-blurb-header">Technology</i></h4>
-                        <ul>
-                          <li>Hybridized proof-of-work proof-of-stake consensus system
-                            to strike a balance between miners and voters and create
-                            a more robust notion of consensus
-                            <a class="body-icon"
-                            href="https://wiki.decred.org/Introduction#Hybrid_Proof-of-Work_Proof-of-Stake"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Blake-256 hashing algorithm &#8211; not vulnerable to many
-                            of the numerous security issues facing Merkle-Damgård
-                            construction-based hashing algorithms such as SHA-256
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Blake-256_Hashing_Algorithm"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>secp256k1 signature scheme for ease of integration into
-                            existing software or Ed25519/secp256k1-Schnorr to take
-                            advantage of Schnorr signatures and their features
-                            <a
-                            class="body-icon" href="https://wiki.decred.org/Introduction#Schnorr-Based_Elliptic_Curve_Cryptography"><i class="fa fa-info-circle"></i>
-                              </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Written entirely in Go using a modular, well-documented,
-                            and tested codebase for long-term maintainability
-                            <a
-                            class="body-icon" href="https://wiki.decred.org/Introduction#Modular_Codebase"><i class="fa fa-info-circle"></i>
-                              </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <!-- .et_pb_blurb_content -->
-                  </div>
-                  <!-- .et_pb_blurb -->
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_4">
-                  <div class="et_pb_blurb et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_blurb_3 et_pb_blurb_position_top">
-                    <div class="et_pb_blurb_content">
-                      <div class="et_pb_main_blurb_image"><span class="et-pb-icon et-waypoint et_pb_animation_off et-pb-icon-circle"
-                        style="color: #43a2ca; background-color: #222222;">&#xe036;</span>                        </div>
-                      <div class="et_pb_blurb_container">
-                        <h4><span class="icon decred-icon-font logo"></span><i class="logo-blurb-header">Development</i></h4>
-                        <ul>
-                          <li>Multi-stakeholder development ecosystem that welcomes and
-                            empowers participants who want to build new and improve
-                            on existing features
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Multi-Stakeholder_Development_Ecosystem"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Open and self-funded development via a block subsidy to
-                            ensure long-term development sustainability as project
-                            and network usage scale upward &#8211; Decred improves
-                            with use
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Self-Funded_Development"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Any party can submit feature proposals and developers are
-                            paid for work to fulfill requirements &#8211; in full
-                            view of the community in a system designed to fight against
-                            ingroup-outgroup dynamics
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Participant_Developers"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Main contributors are the developers responsible for btcsuite
-                            (est. early 2013 &#8211; present) &#8211; a suite of
-                            Bitcoin packages and tools, including btcd, a full node,
-                            mining capable, Bitcoin implementation
-                            <a class="body-icon"
-                            href="https://wiki.decred.org/Introduction#Makers_of_btcsuite"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <!-- .et_pb_blurb_content -->
-                  </div>
-                  <!-- .et_pb_blurb -->
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_5">
-                  <div class="et_pb_blurb et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_blurb_4 et_pb_blurb_position_top">
-                    <div class="et_pb_blurb_content">
-                      <div class="et_pb_main_blurb_image"><span class="et-pb-icon et-waypoint et_pb_animation_off et-pb-icon-circle"
-                        style="color: #43a2ca; background-color: #222222;">&#xe0ff;</span>                        </div>
-                      <div class="et_pb_blurb_container">
-                        <h4><span class="icon decred-icon-font logo"></span><i class="logo-blurb-header">Governance</i></h4>
-                        <ul>
-                          <li>Layered form of transparent meritocratic governance that
-                            extends beyond proof-of-work and proof-of-stake mechanisms
-                            to bring forward and represent insider and outsider voices
-                            in the community
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Meritocratic_Governance"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Bottom-up decision-making through the Decred Assembly &#8211;
-                            an evolving and inclusive list of community members who
-                            make non-financial contributions to the project through
-                            their work and effort
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Decred_Assembly"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp;</p>
-                          <li>Project bound by the Decred Constitution on the core principles
-                            of finite issuance, privacy, security, fungibility, inclusivity,
-                            and progressive development of the technology that keeps
-                            these principles together
-                            <a class="body-icon" href="https://wiki.decred.org/Introduction#Decred_Constitution"><i class="fa fa-info-circle"></i>
-                            </a>
-                          </li>
-                          <p>&nbsp; </p>
-                        </ul>
-                      </div>
-                    </div>
-                    <!-- .et_pb_blurb_content -->
-                  </div>
-                  <!-- .et_pb_blurb -->
-                </div>
-                <!-- .et_pb_column -->
-              </div>
-              <!-- .et_pb_row -->
-            </div>
-            <!-- .et_pb_section -->
-            <div class="et_pb_section et_pb_section_parallax  et_pb_section_3 et_pb_with_background et_section_regular">
-              <div class=" et_pb_row et_pb_row_2 et_pb_row_fullwidth">
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_6">
-                  <div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_text_1">
-                  <span class="tooltips " style="" title="Technical Brief"><a href="https://decred.org/dtb001.pdf" class="body-icon"><i class="fa fa-graduation-cap"></i></a></span>                    </div>
-                  <!-- .et_pb_text -->
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_7">
-                  <div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_text_2">
-                    <p> <span class="tooltips " style="" title="github.com/decred"><a href="https://github.com/decred" class="body-icon"><i class="fa fa-github-alt"></i></a></span>                      <span class="tooltips " style="" title="#decred&lt;br /&gt; irc.freenode.net"><a href="https://webchat.freenode.net/?channels=decred&uio=d4" class="body-icon"><i class="fa fa-terminal"></i></a></span>                      </div>
-                  <!-- .et_pb_text -->
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_3 et_pb_column_8">
-                  <div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_text_3">
-                    <p> <span class="tooltips " style="" title="forum.decred.org"><a href="https://forum.decred.org/" class="body-icon"><i class="fa fa-comments"></i></a></span>                      <span class="tooltips " style="" title="reddit.com/r/decred"><a href="https://reddit.com/r/decred" class="body-icon"><i class="fa fa-reddit-alien"></i></a></span>                      <span class="tooltips " style="" title="twitter.com/decredproject"><a href="https://twitter.com/decredproject" class="body-icon"><i class="fa fa-twitter"></i></a></span>                      </div>
-                  <!-- .et_pb_text -->
-                </div>
-                <!-- .et_pb_column -->
-              </div>
-              <!-- .et_pb_row -->
-            </div>
-            <!-- .et_pb_section -->
-            <div class="et_pb_section  et_pb_section_5 et_pb_with_background et_section_regular">
-              <div class=" et_pb_row et_pb_row_5">
-                <div class="et_pb_column et_pb_column_1_2 et_pb_column_12">
-                  <div class="et_pb_promo et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_cta_0"
-                  style="background-color: #222222;">
-                    <div class="et_pb_promo_description">
-                      <h2>Free and Open-Source Software</h2>
-                      <p>Get started with Decred for Windows/Mac OS X/Linux/BSD.</p>
-                    </div> <a class="et_pb_promo_button et_pb_button" href="https://github.com/decred/decred-release/releases">Download</a>                    </div>
-                </div>
-                <!-- .et_pb_column -->
-                <div class="et_pb_column et_pb_column_1_2 et_pb_column_13">
-                  <div class="et_pb_promo et_pb_module et_pb_bg_layout_dark et_pb_text_align_center  et_pb_cta_1"
-                  style="background-color: #222222;">
-                    <div class="et_pb_promo_description">
-                      <h2>Web Wallet Service</h2>
-                      <p>Use the web wallet service to send and receive transactions.</p>
-                    </div> <a class="et_pb_promo_button et_pb_button" href="https://wallet.decred.org/#/create">Create</a>                    </div>
-                </div>
-                <!-- .et_pb_column -->
-              </div>
-              <!-- .et_pb_row -->
-            </div>
-            <!-- .et_pb_section -->
-          </div>
-          <!-- .entry-content -->
-        </article>
-        <!-- .et_pb_post -->
-      </div>
-      <!-- #main-content --><span class="et_pb_scroll_top et-pb-icon"></span>
-      <footer id="main-footer">
-        <div id="footer-bottom">
-          <div class="container clearfix">
-            <p id="footer-info"> <i class="fa fa-code"></i> <a href="https://www.github.com/decred">Decred Developers</a>              | 2015-2016</p>
-          </div>
-          <!-- .container -->
-        </div>
-      </footer>
-      <!-- #main-footer -->
-    </div>
-    <!-- #et-main-area -->
-  </div>
-  <!-- #page-container -->
-  <style type="text/css" id="et-builder-advanced-style">
-    .et_pb_text_1 {
-      font-size: 28px;
-    }
-    .et_pb_text_2 {
-      font-size: 28px;
-    }
-    .et_pb_section_3 {
-      background-color: #222222;
-    }
-    .et_pb_blurb_4 {
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px;
-    }
-    .et_pb_blurb_4.et_pb_blurb h4,
-    .et_pb_blurb_4.et_pb_blurb h4 a {
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-    .et_pb_blurb_4.et_pb_blurb {
-      background-color: rgba(255, 255, 255, 0.05);
-      padding-top: 15px !important;
-      padding-right: 15px !important;
-      padding-bottom: 15px !important;
-      padding-left: 15px !important;
-    }
-    .et_pb_text_3 {
-      font-size: 28px;
-    }
-    .et_pb_section_4 {
-      background-color: #333333;
-    }
-    .et_pb_cta_0 {
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px;
-    }
-    .et_pb_cta_1 {
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px;
-    }
-    .et_pb_section_5 {
-      background-color: #222222;
-    }
-    .et_pb_text_4 {
-      font-size: 28px;
-      padding-top: 0px !important;
-      padding-right: 0px !important;
-      padding-bottom: 0px !important;
-      padding-left: 0px !important;
-    }
-    .et_pb_blurb_5.et_pb_blurb {
-      padding-top: 0px !important;
-      padding-right: 0px !important;
-      padding-bottom: 0px !important;
-      padding-left: 0px !important;
-    }
-    .et_pb_blurb_3 {
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px;
-    }
-    .et_pb_blurb_3.et_pb_blurb {
-      background-color: rgba(255, 255, 255, 0.05);
-      padding-top: 15px !important;
-      padding-right: 15px !important;
-      padding-bottom: 15px !important;
-      padding-left: 15px !important;
-    }
-    .et_pb_text_0 {
-      font-size: 74px;
-      padding-top: 0px !important;
-      padding-right: 0px !important;
-      padding-bottom: 0px !important;
-      padding-left: 0px !important;
-    }
-    .et_pb_blurb_0.et_pb_blurb {
-      font-size: 18px;
-      padding-top: 0px !important;
-      padding-right: 0px !important;
-      padding-bottom: 0px !important;
-      padding-left: 0px !important;
-    }
-    .et_pb_section_1 {
-      background-color: #222222;
-    }
-    .et_pb_fullwidth_slider_0 .et_pb_slide_description {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-    .et_pb_slider .et_pb_slide_0 {
-      -moz-background-size: initial;
-      -webkit-background-size: initial;
-      background-size: initial;
-    }
-    .et_pb_blurb_1.et_pb_blurb {
-      font-size: 18px;
-      padding-top: 0px !important;
-      padding-right: 0px !important;
-      padding-bottom: 0px !important;
-      padding-left: 0px !important;
-    }
-    .et_pb_blurb_3.et_pb_blurb h4,
-    .et_pb_blurb_3.et_pb_blurb h4 a {
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-    .et_pb_section_2 {
-      background-color: #333333;
-    }
-    .et_pb_blurb_2 {
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      border-radius: 20px;
-    }
-    .et_pb_blurb_2.et_pb_blurb {
-      background-color: rgba(255, 255, 255, 0.05);
-      padding-top: 15px !important;
-      padding-right: 15px !important;
-      padding-bottom: 15px !important;
-      padding-left: 15px !important;
-    }
-    .et_pb_blurb_2.et_pb_blurb h4,
-    .et_pb_blurb_2.et_pb_blurb h4 a {
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-    .et_pb_slider .et_pb_slide_0 .et_pb_slide_description .et_pb_slide_title {
-      font-weight: bold !important;
-      font-style: italic !important;
-      text-transform: uppercase !important;
-      color: #333333 !important;
-    }
-    .et_pb_slide_0 .et_pb_slide_content {
-      font-size: 18px !important;
-      color: #333333 !important;
-      letter-spacing: 1px !important;
-    }
-    @media only screen and ( min-width: 981px) {
-      .et_pb_row_4 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-      .et_pb_section_5 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-      .et_pb_row_3 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-      .et_pb_section_4 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-      .et_pb_section_2 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-      .et_pb_section_3 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-      .et_pb_section_1 {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-      }
-    }
-  </style>
-  <script type='text/javascript' src='/js/zebra_tooltips-1.2.4.min.js'></script>
-  <script type='text/javascript' src='/js/frontend-builder-global-functions.js'></script>
-  <script type='text/javascript' src='/js/custom.js'></script>
-  <script type='text/javascript' src='/js/waypoints-2.0.2.min.js'></script>
-  <!-- referenced by frontend-builder-scripts but not actively used -->
-  <script type='text/javascript' src='/js/jquery.fitvids-1.1.min.js'></script>
-  <script type='text/javascript' src='/js/jquery.magnific-popup-1.1.0.min.js'></script>
-  <script type='text/javascript'>
-    /* <![CDATA[ */
-    var et_pb_custom = {
-      "ajaxurl": "https:\/\/www.decred.org\/wp-admin\/admin-ajax.php",
-      "images_uri": "https:\/\/www.decred.org\/wp-content\/themes\/Divi\/images",
-      "builder_images_uri": "https:\/\/www.decred.org\/wp-content\/themes\/Divi\/includes\/builder\/images",
-      "et_load_nonce": "4e030e467e",
-      "subscription_failed": "Please, check the fields below to make sure you entered the correct information.",
-      "fill_message": "Please, fill in the following fields:",
-      "contact_error_message": "Please, fix the following errors:",
-      "invalid": "Invalid email",
-      "captcha": "Captcha",
-      "prev": "Prev",
-      "previous": "Previous",
-      "next": "Next",
-      "wrong_captcha": "You entered the wrong number in captcha.",
-      "is_builder_plugin_used": "",
-      "is_divi_theme_used": "1",
-      "widget_search_selector": ".widget_search"
-    };
-    /* ]]> */
-  </script>
-  <script type='text/javascript' src='/js/frontend-builder-scripts.js'></script>
-  <script type="text/javascript">
-    jQuery(function() {
-      jQuery(".tooltips img").closest(".tooltips").css("display",
-        "inline-block");
-      new jQuery.Zebra_Tooltips(jQuery('.tooltips').not('.custom_m_bubble'), {
-        'background_color': '#111111',
-        'color': '#ffffff',
-        'max_width': 500,
-        'opacity': .95,
-        'position': 'center'
-      });
-    });
-  </script>
-  <!-- Powered by Orbisius Child Theme Creator | URL: http://club.orbisius.com/products/wordpress-plugins/orbisius-child-theme-creator/ -->
-  <script src="/js/trianglify-0.4.0.min.js"></script>
-  <script type="text/javascript">
-function dotrianglify() {
-    var obj = {
-      'et_pb_slide et_pb_bg_layout_light et_pb_media_alignment_center et_pb_slide_0 et-pb-active-slide': 'GnBu',
-      'et_pb_section_5': 'GnBu',
-    };
-
-    function addTriangle(classname) {
-      targets = document.getElementsByClassName(classname);
-      for (i = 0; i < targets.length; i++) {
-        target = targets[i];
-        if (target != null) {
-          var dimensions = target.getClientRects()[0];
-          var pattern = Trianglify({
-            width: dimensions.width,
-            height: dimensions.height,
-            x_colors: obj[classname],
-            cell_size: 100 + Math.random() * 0.5
-          });
-          target.style['background-image'] = 'url(' + pattern.png() + ')';
-        }
-      }
-    }
-    addTriangle(
-      'et_pb_slide et_pb_bg_layout_light et_pb_media_alignment_center et_pb_slide_0 et-pb-active-slide'
-    );
-    addTriangle('et_pb_section_5');
-}
-$(window).resize(function() {
-  dotrianglify()
-});
-$(document).ready(function() {
-  // TODO can probably just prune by date of commits (discard anything before Feb 8th, 2016)
-  var btcdprune = ["mdempsky", "stevenroose", "turboroot", "carryforward", "ortutay", "benhc123", "Beldur", "federicobond", "oleganza", "fanquake", "DanielKrawisz", "evansuva", "verokarhu", "mischief", "gsalgado", "ishbir", "jongillham", "toddfries", "aakselrod", "kargakis", "GeertJohan", "jimmysong", "tsenart", "marcopeereboom", "tuxcanfly", "owainga", "Roasbeef", "flammit", "drahn"];
-  var commitcount = 0;
-  var repos = ["dcraddrgen", "dcrd", "dcrrpcclient", "dcrutil", "dcrwallet", "decred-release", "Paymetheus", "RFPs"];
-
- var blockexplorer = $.PeriodicalUpdater("https://mainnet.decred.org/api/status", {
-    method: 'get',
-    maxCalls: 0,
-    autoStop: 0,
-    minTimeout: 5000,
-    maxTimeout: 60000,
-    multiplier: 2,
-    runatonce: true,
-    type: "text",
-    verbose: 0
-  }, function(response, success, xhr, handle) {
-    if (success) {
-      var json = $.parseJSON(response);
-      $("#blockheight").text(json["info"]["blocks"]);
-      // just use connections until we have a proper node counter
-      //$("#nodes").text(json["info"]["connections"]);
-    } else {
-      $("#blockheight").text("-");
-      $("#nodes").text("-");
-      blockexplorer.stop();
-    }
-  });
-
-  // TODO sum contributors from all repos
-  $.get("https://api.github.com/repos/decred/dcrd/stats/contributors", function(data) {
-    var contribs = 0;
-    $.each(data, function( index, value ) {
-      $.each(value, function( index2, value2 ) {
-        if (index2 == "author") {
-          contribs++;
-        }
-      });
-    });
-    if (contribs > 0) {
-      contribs = contribs - btcdprune.length;
-    }
-    $("#ghcontributors").text(contribs);
-  });
-
-  // TODO
-  // 1) use the repos array to generate the stats collecting code
-  // 2) should gracefully backoff and retry on 202 until 200 but in practice there is enough
-  //    site activity that it isn't required
-  $.when(
-    $.get("https://api.github.com/repos/decred/dcraddrgen/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/dcrd/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/dcrrpcclient/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/dcrutil/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/dcrwallet/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/decred-release/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/Paymetheus/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    }),
-    $.get("https://api.github.com/repos/decred/RFPs/stats/commit_activity", function(data) {
-        $.each(data, function( index, value ) {
-          $.each(value, function( index2, value2 ) {
-            if (index2 == "total") {
-              commitcount = commitcount + value2;
-            }
-          });
-        });
-    })
-  ).then(function() {
-    $("#ghcommits").text(commitcount);
-  });
-
-  dotrianglify();
-});
-  </script>
-</body>
-
+		  ga('create', 'US-XXXXXXXX-1', 'auto');
+		  ga('require', 'linkid', 'linkid.js'); //Only required for "Enhanced link attribution"
+		  ga('send', 'pageview');
+		</script>
+		-->
+		
+	</body>
+	
 </html>
