@@ -15,14 +15,13 @@
 		<meta property="og:description" content="Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.">
 		<meta property="og:site_name" content="Decred">
 		
-		<!-- Does decred have an offical Google Business page? -->
-		<!--<link href="https://plus.google.com/+Decred" rel="publisher">-->
-		
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="./content/css/styles.css">
 		<link rel="stylesheet" href="./content/css/font-awesome-4.5.0.min.css">
 		<link rel="stylesheet" href="./content/css/decred.css">
-		
+		<link rel="stylesheet" href="./content/css/jquery-ui.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.jqueryui.min.css">
+
 		<title>Decred | Rethink Digital Currency</title>
 	</head>
 	
@@ -31,28 +30,16 @@
 		<nav class="mainnav">
 			<div class="mainnav-wrapper">	
 						
-				
 				<div class="nav-left">
-					<!-- TEMP Disabled because the stats from github API only go back a year, also these stats seem 
-						pointless on the landing page. (I would assume anyone who is intrested would look on github)
-					
-					<span class="tooltip">
-						<span class="fa-first fa fa-heartbeat"></span>
-						<span id="ghcommits" class="fa-text">-</span>
-						<span class="tooltiptext">GitHub Commits</span>
-					</span>
-					
-					<span class="tooltip">
-						<span class="fa fa-user-md"></span>
-						<span id="ghcontributors" class="fa-text">-</span>
-						<span class="tooltiptext">GitHub Contributors</span>
-					</span>
-					-->
-					
 					<img src="./content/images/logo_dark.png" alt="" class="fl">
+					<!-- generated from https://img.shields.io/badge/stable-v0.1.3-blue.png -->
+					&nbsp;<a href="https://github.com/decred/decred-release/releases/tag/v0.1.3"><img src="./content/images/stable.png" alt="v0.1.3"></a>
+					&nbsp;<img src="./api/?c=gdi"></a>
 				</div>
 				
 				<div class="nav-right">
+					<a href="#" class="icon fa-icon" onClick="event.preventDefault(); stakepoolFinder();"><span class="et-social-icon fa fa-life-ring"></span> Find a stake pool!</a>
+					<a href="https://mainnet.decred.org/blocks" class="icon fa-icon"><span class="et-social-icon fa fa-cubes"></span> <span id="blockheight">-</a>
 					<a href="https://reddit.com/r/decred" class="icon fa-icon"><span class="et-social-icon fa fa-reddit-alien"></span></a>
 					<a href="https://twitter.com/decredproject" class="icon"><span class="et-social-icon fa fa-twitter"></span></a>
 				</div>
@@ -215,6 +202,13 @@
 								<span class="tooltiptext">Technical Brief</span>
 							</a>
 						</span>
+
+						<span class="tooltip">
+							<a href="https://docs.decred.org" class="body-icon">
+								<span class="fa-icon fa fa-book"></span>
+								<span class="tooltiptext">Decred Documentation</span>
+							</a>
+						</span>
 						
 						<span class="tooltip">
 							<a href="https://wiki.decred.org" class="body-icon">
@@ -240,7 +234,7 @@
 								<span class="tooltiptext">github.com/decred</span>
 							</a>
 						</span>
-						
+
 						<span class="tooltip">
 							<a href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" class="body-icon">
 								<span class="fa fa-terminal"></span>
@@ -256,6 +250,13 @@
 							<a href="https://forum.decred.org/" class="body-icon">
 								<span class="fa-icon fa fa-comments"></span>
 								<span class="tooltiptext">forum.decred.org</span>
+							</a>
+						</span>
+
+						<span class="tooltip">
+							<a href="https://slack.decred.org" class="body-icon">
+								<span class="fa-icon fa fa-slack"></span>
+								<span class="tooltiptext">Slack</span>
 							</a>
 						</span>
 						
@@ -317,23 +318,16 @@
 		</footer>
 		
 		<!-- Javascript -->
-		<!--<script src="./content/scripts/scripts.js"></script>-->
-		
-		
-		<!-- Google analytics -->
-		<!--
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script src="./content/scripts/vendor/moment.min.js"></script>
+		<script src="./content/scripts/vendor/jquery-1.12.4.min.js"></script>
+		<script src="./content/scripts/vendor/jquery-ui.min.js"></script>
+		<script src="./content/scripts/vendor/jquery.dataTables.min.js"></script>
+		<script src="./content/scripts/vendor/dataTables.jqueryui.min.js"></script>
+		<script src="./content/scripts/vendor/jquery.periodicalupdater.min.js"></script>
+		<script src="./content/scripts/scripts.js"></script>
 
-		  ga('create', 'US-XXXXXXXX-1', 'auto');
-		  ga('require', 'linkid', 'linkid.js'); //Only required for "Enhanced link attribution"
-		  ga('send', 'pageview');
-		</script>
-		-->
-		
+		<div id="stakepool-dialog" title="Stake Pool Finder"><div id="stakepool-data"></div></div>
+
 	</body>
 	
 </html>
