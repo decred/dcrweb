@@ -93,8 +93,8 @@ var stakepoolFinder = function() {
 	});
 
 	$("#stakepool-dialog").dialog({
-		height: 400,
-		width: $(window).width() - 180,
+		height: $(window).height() - 50,
+		width: $(window).width() - 50,
 		modal: false,
 		buttons: {
         Close: function() {
