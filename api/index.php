@@ -26,11 +26,23 @@ $spdata = array(
         "lastUpdated" => 0,
         "url" => "http://pool.d3c.red",
     ),
+    "Foxtrot" => array(
+        "launchedEpoch" => strtotime("Tue May 31 08:23:00 CDT 2016"),
+        "lastAttempt" => 0,
+        "lastUpdated" => 0,
+        "url" => "https://dcrstakes.com",
+    ),
     "Golf" => array(
         "launchedEpoch" => strtotime("Wed May 25 04:09:00 CDT 2016"),
         "lastAttempt" => 0,
         "lastUpdated" => 0,
         "url" => "https://stakepool.dcrstats.com",
+    ),
+    "Hotel" => array(
+        "launchedEpoch" => strtotime("Sat May 28 14:31:00 CDT 2016"),
+        "lastAttempt" => 0,
+        "lastUpdated" => 0,
+        "url" => "https://stake.decredbrasil.com",
     ),
     "India" => array(
         "launchedEpoch" => strtotime("Sun May 22 13:58:00 CDT 2016"),
