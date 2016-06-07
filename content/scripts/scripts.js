@@ -57,17 +57,20 @@ var stakepoolFinder = function() {
 		},
 		success: function(data, textStatus) {
 			$.each(data, function(poolName, poolData ) {
+				var now = Math.floor((new Date).getTime()/1000);
+				var lastUpdated = poolData["lastUpdated"] - now;
+				var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
 				tableMarkup += '<tr>';
 				tableMarkup += '<td><span>' + moment.unix(poolData["launchedEpoch"]).format("MMMM Do YYYY, HH:mm:ss") + '</span></td>';
 				tableMarkup += '<td>' + poolName + '</td>';
 				tableMarkup += '<td><a href="' + poolData["url"] + '">' + poolData["url"] + '</a></td>';
-				tableMarkup += '<td>' + moment.unix(poolData["lastUpdated"]).format("MMMM Do YYYY, HH:mm:ss") + '</td>';
+				tableMarkup += '<td>' + lastUpdateFormatted + '</td>';
 
 				$.each(fields, function(i, field) {
 					if (poolData.hasOwnProperty(field)) {
 						var value = poolData[field]
 						if (field == "PoolFees") {
-							if (value.substr(-1) != "%") {
+							if (value != "N/A" && value.substr(-1) != "%") {
 								value += "%";
 							}
 						}
