@@ -49,6 +49,12 @@ $spdata = array(
         "lastAttempt" => 0,
         "lastUpdated" => 0,
         "url" => "http://stakepool.eu",
+    ),
+    "Juliett" => array(
+        "launchedEpoch" => strtotime("Sun Jun 12 15:52:00 CDT 2016"),
+        "lastAttempt" => 0,
+        "lastUpdated" => 0,
+        "url" => "http://dcrstakepool.getjumbucks.com",
     )
 );
 
