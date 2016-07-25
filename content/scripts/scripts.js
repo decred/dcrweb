@@ -87,7 +87,7 @@ var stakepoolFinder = function() {
 			$("#stakepool-data").html(tableMarkup);
 			$("#pooldata").DataTable({
 				"jQueryUI": true,
-				"order": [[ 1, 'asc']],
+				"order": [[ 8, 'asc']],
 				"paging": false,
 				"searching": false,
 			});
