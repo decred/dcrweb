@@ -14,6 +14,12 @@ $spdata = array(
         "lastUpdated" => 0,
         "url" => "https://dcr.stakepool.net",
     ),
+    "Charlie" => array(
+        "launchedEpoch" => strtotime("SAt Jul 23 17:11:00 CDT 2016"),
+        "lastAttempt" => 0,
+        "lastUpdated" => 0,
+        "url" => "https://decredstakepool.com"
+    ),
     "Delta" => array(
         "launchedEpoch" => strtotime("Thu May 19 10:19:00 CDT 2016"),
         "lastAttempt" => 0,
