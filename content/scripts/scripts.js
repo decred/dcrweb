@@ -108,6 +108,19 @@ var stakepoolFinder = function() {
 };
 
 $(document).ready(function() {
+	if (platform.os.family == "Windows" || platform.os.family == "Windows Server") {
+		if (platform.os.architecture == "32") {
+			$(".win32dl").show();
+			$(".alldl").hide();
+		} else if (platform.os.architecture == "64") {
+			$(".win64dl").show();
+			$(".alldl").hide();
+		} else {
+			// shouldn't get here
+			$(".windl").show();
+			$(".alldl").hide();
+		}
+	}
 	var blockexplorer = $.PeriodicalUpdater("./api/?c=gis", {
 		method: 'get',
 		maxCalls: 0,
