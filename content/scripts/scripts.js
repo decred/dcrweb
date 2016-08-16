@@ -30,15 +30,15 @@
 })(jQuery);
 
 var stakepoolFinder = function() {
-	var fields = ["PoolFees", "PoolStatus", "Voted", "Missed", "Live", "Immature", "UserCount"];
+	var fields = ["PoolFees", "Voted", "Missed", "Live", "Immature", "UserCount"];
 
 	tableMarkup = '<table id="pooldata" class="datatables ui-widget ui-widget-content">' +
 		'<thead>' +
 			'<tr class="ui-widget-header">' +
-				'<th>Launch Date</th>' +
 				'<th>Pool ID</th>' +
 				'<th>URL</th>' +
-				'<th>Last Updated</th>';
+				'<th>Last Updated</th>' +
+				'<th>Proportion</th>';
 	$.each(fields, function(i, field) {
 		tableMarkup += '<th>' + field + '</th>';
 	});
@@ -57,14 +57,32 @@ var stakepoolFinder = function() {
 		},
 		success: function(data, textStatus) {
 			$.each(data, function(poolName, poolData ) {
+				var overCapacity = 0;
 				var now = Math.floor((new Date).getTime()/1000);
 				var lastUpdated = poolData["lastUpdated"] - now;
 				var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
-				tableMarkup += '<tr>';
-				tableMarkup += '<td><span>' + moment.unix(poolData["launchedEpoch"]).format("MMMM Do YYYY, HH:mm:ss") + '</span></td>';
+				if (lastUpdateFormatted.indexOf("years") > 0) {
+					lastUpdateFormatted = "N/A";
+				}
+				var proplive = poolData["ProportionLive"];
+				if (isNaN(proplive)) {
+					proplive = 0;
+				}
+				var proportion = proplive * 100;
+				proportion = Math.round(proportion * 100) / 100;
+				if (proportion.toString().length == "3") {
+					proportion = proportion + "0";
+				}
+				if (proportion > 5) {
+					overCapacity = 1;
+				}
+				proportion = proportion + "%";
+
+				tableMarkup += (overCapacity ? '<tr class="overcapacity">' : '<tr>');
 				tableMarkup += '<td>' + poolName + '</td>';
 				tableMarkup += '<td><a href="' + poolData["url"] + '">' + poolData["url"] + '</a></td>';
 				tableMarkup += '<td>' + lastUpdateFormatted + '</td>';
+				tableMarkup += '<td>' + proportion + (overCapacity ? ' <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;" title="See warning below"></span>' : "") + '</td>';
 
 				$.each(fields, function(i, field) {
 					if (poolData.hasOwnProperty(field)) {
@@ -85,9 +103,10 @@ var stakepoolFinder = function() {
 
 			tableMarkup += '</tbody></table>';
 			$("#stakepool-data").html(tableMarkup);
+			$(".overcapacity").appendTo("#pooldata");
 			$("#pooldata").DataTable({
+				"order": [], /* no default sort */
 				"jQueryUI": true,
-				"order": [[ 8, 'asc']],
 				"paging": false,
 				"searching": false,
 			});
@@ -133,14 +152,14 @@ $(document).ready(function() {
 		verbose: 0
 	}, function(response, success, xhr, handle) {
 		if (success) {
-		var json = $.parseJSON(response);
-		$("#blockheight").text(json["info"]["blocks"]);
-		// just use connections until we have a proper node counter
-		//$("#nodes").text(json["info"]["connections"]);
+			var json = $.parseJSON(response);
+			$("#blockheight").text(json["info"]["blocks"]);
+			// just use connections until we have a proper node counter
+			//$("#nodes").text(json["info"]["connections"]);
 		} else {
-		$("#blockheight").text("-");
-		$("#nodes").text("-");
-		blockexplorer.stop();
+			$("#blockheight").text("-");
+			$("#nodes").text("-");
+			blockexplorer.stop();
 		}
 	});
 });
