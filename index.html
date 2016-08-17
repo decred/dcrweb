@@ -334,11 +334,11 @@
 		<script src="./content/scripts/scripts.js"></script>
 
 		<div id="stakepool-dialog" title="Stake Pool Finder" style="display: none;">
-			<div class="ui-widget" style="padding: .1em;">
+			<div class="ui-widget">
 				<div class="ui-state-highlight ui-corner-all">
 					<p><span class="ui-icon ui-icon-help" style="float: left; margin-right: .3em;"></span>
 					Stake pools allow you to participate in <a href="https://docs.decred.org/mining/overview/#2-proof-of-stake-pos-mining">Decred Proof-of-stake (PoS) mining</a>
-					without needing to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.</span></p>
+					without needing to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.</p>
 				</div>
 			</div>
 			<div id="stakepool-data"></div>
@@ -347,6 +347,12 @@
 					<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
 					<strong>Notice:</strong> Missed tickets can be caused by a poorly connected <a href="https://docs.decred.org/mining/overview/#1-proof-of-work-pow-mining">Proof-of-work (PoW) miner</a>
 					and may not necessarily be the fault of the pool.</p>
+				</div>
+			</div>
+			<div class="ui-widget">
+				<div class="ui-state-highlight ui-corner-all">
+					<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+					<strong>Warning:</strong> To protect de-centralization of the network, it is recommended to avoid pools that have over 5% of network votes.</p>
 				</div>
 			</div>
 		</div>
