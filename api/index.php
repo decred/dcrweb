@@ -209,7 +209,7 @@ function downloadsImageCache() {
 
 function getInsightStatus() {
     $cacheTTL = 60;
-    $timeOut = 2;
+    $timeOut = 3;
     $status = '{"info":{"blocks":"-"}}';
     $url = "https://mainnet.decred.org/api/status";
 
