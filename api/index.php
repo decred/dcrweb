@@ -9,58 +9,76 @@ if ($GLOBALS["clearcache"]) {
 
 $spdata = array(
     "Bravo" => array(
-        //"launchedEpoch" => strtotime("Sun May 22 17:54:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "https://dcr.stakepool.net",
+        //"LaunchedEpoch" => strtotime("Sun May 22 17:54:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "https://dcr.stakepool.net",
     ),
     "Charlie" => array(
-        //"launchedEpoch" => strtotime("Sat Jul 23 17:11:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "https://decredstakepool.com"
+        //"LaunchedEpoch" => strtotime("Sat Jul 23 17:11:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "https://decredstakepool.com"
     ),
     "Delta" => array(
-        //"launchedEpoch" => strtotime("Thu May 19 10:19:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "https://dcr.stakeminer.com",
+        //"LaunchedEpoch" => strtotime("Thu May 19 10:19:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "https://dcr.stakeminer.com",
     ),
     "Echo" => array(
-        //"launchedEpoch" => strtotime("Mon May 23 12:59:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "http://pool.d3c.red",
+        //"LaunchedEpoch" => strtotime("Mon May 23 12:59:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "http://pool.d3c.red",
     ),
     "Foxtrot" => array(
-        //"launchedEpoch" => strtotime("Tue May 31 08:23:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "https://dcrstakes.com",
+        //"LaunchedEpoch" => strtotime("Tue May 31 08:23:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "https://dcrstakes.com",
     ),
     "Golf" => array(
-        //"launchedEpoch" => strtotime("Wed May 25 04:09:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "https://stakepool.dcrstats.com",
+        //"LaunchedEpoch" => strtotime("Wed May 25 04:09:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "https://stakepool.dcrstats.com",
     ),
     "Hotel" => array(
-        //"launchedEpoch" => strtotime("Sat May 28 14:31:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "https://stake.decredbrasil.com",
+        //"LaunchedEpoch" => strtotime("Sat May 28 14:31:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "https://stake.decredbrasil.com",
     ),
     "India" => array(
-        //"launchedEpoch" => strtotime("Sun May 22 13:58:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "http://stakepool.eu",
+        //"LaunchedEpoch" => strtotime("Sun May 22 13:58:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "http://stakepool.eu",
     ),
     "Juliett" => array(
-        //"launchedEpoch" => strtotime("Sun Jun 12 15:52:00 CDT 2016"),
-        "lastAttempt" => 0,
-        "lastUpdated" => 0,
-        "url" => "http://dcrstakepool.getjumbucks.com",
+        //"LaunchedEpoch" => strtotime("Sun Jun 12 15:52:00 CDT 2016"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "URL" => "http://dcrstakepool.getjumbucks.com",
     )
 );
 
@@ -86,19 +104,23 @@ case "dic":
     break;
 // get insight status
 case "gis":
+    header("Content-Type: application/json");
     $status = getInsightStatus();
     print $status;
     break;
 // get stakepool data
 case "gsd":
+    header("Content-Type: application/json");
     getStakepoolData($spdata);
     $allpooldata = array();
     foreach (array_keys($spdata) as $i) {
         $allpooldata[$i] = apcu_fetch("spcache-{$i}");
     }
     array_shuffle($allpooldata);
-    print json_encode($allpooldata);
+    print json_encode($allpooldata, JSON_NUMERIC_CHECK|JSON_PRETTY_PRINT);
     break;
+default:
+    print "unknown command";
 }
 
 function array_shuffle(&$array) {
@@ -121,16 +143,16 @@ function debugLog($s) {
     }
 }
 
-function downloadsFetchURL($url) {
+function downloadsFetchURL($URL) {
     $timeOut = 5;
-    $c = curl_init($url);
+    $c = curl_init($URL);
     curl_setopt($c, CURLOPT_USERAGENT, "decred/dcrweb bot");
     curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
     curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($c, CURLOPT_TIMEOUT, $timeOut);
     $r = curl_exec($c);
     if ($r === false) {
-        error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping {$url}");
+        error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping {$URL}");
     }
     curl_close($c);
 
@@ -179,7 +201,7 @@ function downloadsGetCount() {
                 }
             }
         }
-        //error_log("count $count");
+        debugLog("count $count");
     }
 
     return $count;
@@ -211,19 +233,19 @@ function getInsightStatus() {
     $cacheTTL = 60;
     $timeOut = 3;
     $status = '{"info":{"blocks":"-"}}';
-    $url = "https://mainnet.decred.org/api/status";
+    $URL = "https://mainnet.decred.org/api/status";
 
     $curStatus = apcu_fetch("gsi");
 
     if (empty($curStatus)) {
-        $c = curl_init($url);
+        $c = curl_init($URL);
         curl_setopt($c, CURLOPT_USERAGENT, "decred/dcrweb bot");
         curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
         curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($c, CURLOPT_TIMEOUT, $timeOut);
         $r = curl_exec($c);
         if ($r === false) {
-            error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping {$url}");
+            error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping {$URL}");
         } else {
             $jd = json_decode($r, true);
             if (!empty($jd)) {
@@ -239,64 +261,200 @@ function getInsightStatus() {
     return $status;
 }
 
-function getStakepoolData($spdata) {
-    $interval = 20 * 60;
-    $timeOut = 2;
-    
-    foreach (array_keys($spdata) as $i) {
-        $d = apcu_fetch("spcache-{$i}");
-        if (isset($d["lastUpdated"]) && time() - $d["lastUpdated"] > $interval && time() - $d["lastAttempt"] > $interval) {
-            debugLog("updating $i: {$d["url"]}");
-            $d["lastAttempt"] = time();
-            $c = curl_init("{$d["url"]}/stats");
-            curl_setopt($c, CURLOPT_USERAGENT, "decred/dcrweb bot");
-            curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
-            curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
-            // XXX if getstakeinfo isn't cached then this takes a long time
-            // XXX should probably be parallelized
-            curl_setopt($c, CURLOPT_TIMEOUT, $timeOut*3);
-            $r = curl_exec($c);
-            if ($r === false) {
-                apcu_store("spcache-{$i}", $d);
-                error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping {$d["url"]}/stats");
-            } else {
-                $nd = array(
-                    "Immature" => "",
-                    "Live" => "",
-                    "Voted" => "",
-                    "Missed" => "",
-                    "PoolFees" => "",
-                    "ProportionLive" => "",
-                    "UserCount" => "",
-                );
-                foreach (array_keys($nd) as $k) {
-                    if (preg_match("/\<span id=\"{$k}\".*?\>(.*?)\<\/span\>/m", $r, $m)) {
-                        $nd[$k] = $m[1];
-                    }
-                }
-                foreach ($nd as $k => $v) {
-                    if ($v == "") {
-                        $nd[$k] = "N/A";
-                    }
-                }
-                foreach ($nd as $k => $v) {
-                    // don't cache failed reads
-                    if (array_key_exists($k, $d) && $d[$k] != "N/A" && $v == "N/A") {
-                        continue;
-                    }
-                    $d[$k] = $v;
-                }
+function getStakepoolStatsAPI($poolURL, $timeOut, $fields) {
+    $empty = array();
 
-                $d["lastAttempt"] = time();
-                $d["lastUpdated"] = time();
-                apcu_store("spcache-{$i}", $d);
-                debugLog("updated $i");
+    $apiURL = "$poolURL/api/v1/stats";
+
+    debugLog("GET $apiURL");
+    $c = curl_init($apiURL);
+    curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
+    curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($c, CURLOPT_SSL_VERIFYPEER, 0);
+    // XXX if getstakeinfo isn't cached then this takes a long time
+    // XXX should probably be parallelized
+    curl_setopt($c, CURLOPT_TIMEOUT, $timeOut*3);
+    $r = curl_exec($c);
+    if ($r === false) {
+        error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping $apiURL");
+        // XXX should probably check to see if the curl error code shows a timeout occurred
+        return array(1, $empty);
+    }
+
+    $httpCode = curl_getinfo($c, CURLINFO_HTTP_CODE);
+    curl_close($c);
+
+    // pools that haven't implemented this yet will likely 404 or possibly
+    // redirect to an error page.
+    if ($httpCode != 200) {
+        debugLog("HTTP status code was $httpCode");
+        return array(0, $empty);
+    }
+
+    $json = json_decode($r, true);
+    if ($json === false) {
+        debugLog("failed to parse $json");
+        return array(0, $empty);
+    } else {
+        if ($json["status"] == "success") {
+            foreach ($fields as $field) {
+                if (!isset($json["data"][$field])) {
+                    debugLog("missing field $field in response");
+                    return array(0, $empty);
+                }
             }
-            curl_close($c);
+            return array(0, $json["data"]);
+        } else if ($json["status"] == "error") {
+            debugLog("API error: {$json["message"]}");
+            return array(0, $empty);
         } else {
-            debugLog("no updates required for {$i}");
+            debugLog("improper json response $r");
+            return array(0 , $empty);
         }
     }
 }
 
+function getStakepoolStatsHTML($poolURL, $timeOut, $fields, $fieldtypes) {
+    $empty = array();
+
+    $htmlURL = "$poolURL/stats";
+
+    debugLog("GET $htmlURL");
+    $c = curl_init($htmlURL);
+    curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
+    curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($c, CURLOPT_SSL_VERIFYPEER, 0);
+    // XXX if getstakeinfo isn't cached then this takes a long time
+    // XXX should probably be parallelized
+    curl_setopt($c, CURLOPT_TIMEOUT, $timeOut*3);
+    $r = curl_exec($c);
+    if ($r === false) {
+        error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping $htmlURL");
+        curl_close($c);
+        return $empty;
+    } else {
+        curl_close($c);
+        $stats = array();
+        foreach ($fields as $field) {
+            if (preg_match("/\<span id=\"{$field}\".*?\>(.*?)\<\/span\>/m", $r, $m)) {
+                if (stristr($m[1], "%")) {
+                    $m[1] = str_replace("%", "", $m[1]);
+                }
+
+                $fieldtype = $fieldtypes[$field];
+                switch ($fieldtype) {
+                case "float":
+                    $stats["field"] = floatval($m[1]);
+                case "int":
+                    $stats[$field] = intval($m[1]);
+                default:
+                    $stats[$field] = strval($m[1]);
+                }
+            }
+        }
+
+        return $stats;
+    }
+}
+
+function getStakepoolData($spdata) {
+    $fields = array(
+            "Immature",
+            "Live",
+            "Voted",
+            "Missed",
+            "PoolFees",
+            "ProportionLive",
+            "UserCount"
+    );
+
+    $fieldtypes = array(
+            "Immature" => "int",
+            "Live" => "int",
+            "Voted" => "int",
+            "Missed" => "int",
+            "PoolFees" => "float",
+            "ProportionLive" => "float",
+            "UserCount" => "int",
+    );
+
+    $interval = 20 * 60;
+    $timeOut = 2;
+    
+    foreach (array_keys($spdata) as $i) {
+        $cachedData = apcu_fetch("spcache-{$i}");
+        $stats = array();
+
+        if (isset($cachedData["LastUpdated"])
+            && time() - $cachedData["LastUpdated"] > $interval
+            && time() - $cachedData["LastAttempt"] > $interval) {
+
+            debugLog("updating {$cachedData["URL"]}");
+            $cachedData["LastAttempt"] = time();
+
+            // need to force these keys into existence for upgrades but we don't
+            // want to overwrite a cached true value
+            if (!isset($d["APIEnabled"])) {
+                $d["APIEnabled"] = false;
+            }
+
+            if (!isset($d["APIVersionsSupported"])) {
+                $d["APIVersionsSupported"] = 0;
+            }
+
+            // first try the API
+            list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields);
+
+            // if the API worked then note that
+            if (!empty($stats)) {
+                debugLog("got stats via API from {$cachedData["URL"]}");
+                $cachedData["APIEnabled"] = true;
+                // FIXME need to detect versions if there's ever more than v1
+                $cachedData["APIVersionsSupported"] = array(1);
+            }
+
+            if (empty($stats)) {
+                // fall back to HTML but only if we didn't timeout
+                if (!$timedOut) {
+                    debugLog("trying stats via HTML from {$cachedData["URL"]}");
+                    $stats = getStakepoolStatsHTML($cachedData["URL"], $timeOut, $fields, $fieldtypes);
+                } else {
+                    debugLog("timed out getting stats via API from {$cachedData["URL"]}");
+                }
+            }
+
+            // update the LastAttempt and continue on failure
+            if (empty($stats)) {
+                debugLog("no stats available from {$cachedData["URL"]}");
+                apcu_store("spcache-{$i}", $cachedData);
+                continue;
+            }
+
+            foreach ($stats as $k => $v) {
+                if ($v == "") {
+                    $stats[$k] = -1;
+                }
+            }
+
+            $cachedData["LastUpdated"] = time();
+            foreach ($fields as $field) {
+                // don't cache failed reads
+                if (array_key_exists($field, $cachedData) && $cachedData[$field] != -1 && $stats[$field] == -1) {
+                    debugLog("skipping caching empty value for $field");
+                    continue;
+                }
+
+                if (isset($stats[$field])) {
+                    $cachedData[$field] = $stats[$field];
+                }
+            }
+
+            apcu_store("spcache-{$i}", $cachedData);
+
+            debugLog("successfully updated {$cachedData["URL"]}");
+        } else {
+            debugLog("no updates required for {$cachedData["URL"]}");
+        }
+    }
+}
 ?>

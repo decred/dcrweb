@@ -59,7 +59,7 @@ var stakepoolFinder = function() {
 			$.each(data, function(poolName, poolData ) {
 				var overCapacity = 0;
 				var now = Math.floor((new Date).getTime()/1000);
-				var lastUpdated = poolData["lastUpdated"] - now;
+				var lastUpdated = poolData["LastUpdated"] - now;
 				var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
 				if (lastUpdateFormatted.indexOf("years") > 0) {
 					lastUpdateFormatted = "N/A";
@@ -80,7 +80,7 @@ var stakepoolFinder = function() {
 
 				tableMarkup += (overCapacity ? '<tr class="overcapacity">' : '<tr>');
 				tableMarkup += '<td>' + poolName + '</td>';
-				tableMarkup += '<td><a href="' + poolData["url"] + '">' + poolData["url"] + '</a></td>';
+				tableMarkup += '<td><a href="' + poolData["URL"] + '">' + poolData["URL"] + '</a></td>';
 				tableMarkup += '<td>' + lastUpdateFormatted + '</td>';
 				tableMarkup += '<td>' + proportion + (overCapacity ? ' <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;" title="See warning below"></span>' : "") + '</td>';
 
@@ -88,9 +88,11 @@ var stakepoolFinder = function() {
 					if (poolData.hasOwnProperty(field)) {
 						var value = poolData[field]
 						if (field == "PoolFees") {
-							if (value != "N/A" && value.substr(-1) != "%") {
-								value += "%";
+							poolFees = "" + poolData[field];
+							if (poolFees != "N/A" && poolFees.substr(-1) != "%") {
+								poolFees += "%";
 							}
+							value = poolFees
 						}
 						tableMarkup += '<td>' + value + '</td>';
 					} else {
