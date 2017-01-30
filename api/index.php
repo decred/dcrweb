@@ -38,7 +38,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
-        "URL" => "http://pool.d3c.red",
+        "URL" => "https://pool.d3c.red",
     ),
     "Foxtrot" => array(
         //"LaunchedEpoch" => strtotime("Tue May 31 08:23:00 CDT 2016"),
