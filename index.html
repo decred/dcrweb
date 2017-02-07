@@ -1,362 +1,310 @@
 <!DOCTYPE html>
-<html lang="en-US"> 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
-		
-		<meta name="description" content="Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.">
-		<meta name="keywords" content="Decred, crypto, currency, cryptocurrency, blockchain, community, technology, bitcoin, altcoin, decentralized">
-		<meta name="author" content="decred.org">
-		<!--<base href="https://decred.org">-->
-		
-		<meta property="og:title" content="Decred | Rethink Digital Currency">
-		<meta property="og:url" content="https://decred.org">
-		<meta property="og:image" content="https://decred.org/content/images/logo.png">
-		<meta property="og:description" content="Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.">
-		<meta property="og:site_name" content="Decred">
-		
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="./content/css/styles.css">
-		<link rel="stylesheet" href="./content/css/font-awesome-4.5.0.min.css">
-		<link rel="stylesheet" href="./content/css/decred.css">
-		<link rel="stylesheet" href="./content/css/jquery-ui.min.css">
-		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.jqueryui.min.css">
-
-		<title>Decred | Rethink Digital Currency</title>
-	</head>
-	
-	<body>
-		<!-- Navbar -->
-		<nav class="mainnav">
-			<div class="mainnav-wrapper">	
-						
-				<div class="nav-left">
-					<img src="./content/images/logo_dark.png" alt="" class="fl">
-					<!-- generated from https://img.shields.io/badge/win%2032bit-v0.7.0-blue.png -->
-					<span class="windl win32dl" style="display: none;">&nbsp;<a href="https://github.com/decred/decred-binaries/releases/download/v0.7.0/decred_0.7.0-beta_x86.msi"><img src="./content/images/releasewin32.png" alt="v0.7.0 32-bit msi"></a></span>
-					<!-- generated from https://img.shields.io/badge/win%2064bit-v0.7.0-blue.png -->
-					<span class="windl win64dl" style="display: none;">&nbsp;<a href="https://github.com/decred/decred-binaries/releases/download/v0.7.0/decred_0.7.0-beta_x64.msi"><img src="./content/images/releasewin64.png" alt="v0.7.0 64-bit msi"></a></span>
-					<!-- generated from https://img.shields.io/badge/release-v0.7.0-blue.png -->
-					<span class="alldl">&nbsp;<a href="https://github.com/decred/decred-release/releases/tag/v0.7.0"><img src="./content/images/release.png" alt="v0.7.0"></a></span>
-					&nbsp;<img src="./api/?c=dic" alt="download count"></a>
-				</div>
-				
-				<div class="nav-right">
-					<a href="#" class="icon fa-icon" onClick="event.preventDefault(); stakepoolFinder();"><span class="et-social-icon fa fa-life-ring"></span> Find a stake pool!</a>
-					<a href="https://mainnet.decred.org/" class="fa-icon icon"><span class="et-social-icon fa fa-cubes"></span> <span id="blockheight">-</a>
-					<a href="https://stats.decred.org/" class="fa-icon icon"><span class="et-social-icon fa fa-bar-chart"></span></a>
-					<a href="https://docs.decred.org/" class="fa-icon icon"><span class="et-social-icon fa fa-book"></span></a>
-				</div>
-				
-			</div>
-
-			<div class="cb"></div>
-		</nav>
-		
-		<!-- Heading -->
-		<div class="banner">
-			<h1>DECRED</h1>
-			<h2>Rethink Digital Currency.</h2>
-			<br/>
-			<br/>
-			<a class="windl win32dl raw-button gray-button" style="display: none;" href="https://github.com/decred/decred-binaries/releases/download/v0.7.0/decred_0.7.0-beta_x86.msi">Download</a>
-			<a class="windl win64dl raw-button gray-button" style="display: none;" href="https://github.com/decred/decred-binaries/releases/download/v0.7.0/decred_0.7.0-beta_x64.msi">Download</a>
-			<a class="alldl raw-button gray-button" href="https://github.com/decred/decred-release/releases/tag/v0.7.0">Download</a>
-		</div>
-		
-		<!-- Page -->
-		<div class="content">			
-			
-			<!-- Intros -->
-			<section class="dark">
-				<div class="divider-three">
-					<h4>
-						Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.
-					</h4>
-				</div>
-				
-				<div class="divider-three">
-					<h4>
-						<span class="center-icon icon decred-icon-font"></span>
-					</h4>
-				</div>
-				
-				<div class="divider-three">
-					<h4>
-						The fusion of technology, community, and governance the Decred way means development is self-funding and remains sustainable.
-					</h4>
-				</div>
-				
-				<div class="cb"></div>
-			</section>
-			
-			<!-- About -->
-			<section class="light">
-				<div class="divider-three">
-					<div class="divider-three-content">
-						
-						<!-- Image -->
-						<div class="divider-image">
-							<img src="./content/images/01.png" alt="">
-						</div>
-						
-						<!-- Heading -->
-						<h5>Technology</h5>
-						
-						<!-- Content -->
-						<ul class="container-list">
-							<li>
-								Hybridized proof-of-work proof-of-stake consensus system to strike a balance between miners and voters and create a more robust notion of consensus
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Hybrid_Proof-of-Work_Proof-of-Stake"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								Blake-256 hashing algorithm – not vulnerable to many of the numerous security issues facing Merkle-Damgård construction-based hashing algorithms such as SHA-256
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Blake-256_Hashing_Algorithm"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								secp256k1 signature scheme for ease of integration into existing software or Ed25519/secp256k1-Schnorr to take advantage of Schnorr signatures and their features
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Schnorr-Based_Elliptic_Curve_Cryptography"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								Written entirely in Go using a modular, well-documented, and tested codebase for long-term maintainability
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Modular_Codebase"><span class="fa fa-info-circle"></span></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="divider-three">
-					<div class="divider-three-content">
-						
-						<!-- Image -->
-						<div class="divider-image">
-							<img src="./content/images/02.png" alt="">
-						</div>
-						
-						<!-- Heading -->
-						<h5>Development</h5>
-						
-						<!-- Content -->
-						<ul class="container-list">
-							<li>
-								Multi-stakeholder development ecosystem that welcomes and empowers participants who want to build new and improve on existing features
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Multi-Stakeholder_Development_Ecosystem"><span class="fa fa-info-circle"></span></a>
-							</li>
-
-							<li>
-								Open and self-funded development via a block subsidy to ensure long-term development sustainability as project and network usage scale upward – Decred improves with use 
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Self-Funded_Development"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								Any party can submit feature proposals and developers are paid for work to fulfill requirements – in full view of the community in a system designed to fight against ingroup-outgroup dynamics
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Participant_Developers"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								Main contributors are the developers responsible for btcsuite (est. early 2013 – present) – a suite of Bitcoin packages and tools, including btcd, a full node, mining capable, Bitcoin implementation
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Makers_of_btcsuite"><span class="fa fa-info-circle"></span></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="divider-three">
-					<div class="divider-three-content">
-						
-						<!-- Image -->
-						<div class="divider-image">
-							<img src="./content/images/03.png" alt="">
-						</div>
-						
-						<!-- Heading -->
-						<h5>Governance</h5>
-						
-						<!-- Content -->
-						<ul class="container-list">
-							<li>
-								Layered form of transparent meritocratic governance that extends beyond proof-of-work and proof-of-stake mechanisms to bring forward and represent insider and outsider voices in the community
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Meritocratic_Governance"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								Bottom-up decision-making through the Decred Assembly – an evolving and inclusive list of community members who make non-financial contributions to the project through their work and effort
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Decred_Assembly"><span class="fa fa-info-circle"></span></a>
-							</li>
-							
-							<li>
-								Project bound by the Decred Constitution on the core principles of finite issuance, privacy, security, fungibility, inclusivity, and progressive development of the technology that keeps these principles together
-								<a class="body-icon" href="https://wiki.decred.org/Introduction#Decred_Constitution"><span class="fa fa-info-circle"></span></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				
-				<div class="cb"></div>
-			</section>
-			
-			<!-- Links -->
-			<section class="dark">
-				<div class="divider-three">
-					<h5>
-						<span class="tooltip">
-							<a href="https://docs.decred.org/research/overview/" class="body-icon">
-								<span class="fa-icon fa fa-graduation-cap"></span>
-								<span class="tooltiptext">Research</span>
-							</a>
-						</span>
-
-						<span class="tooltip">
-							<a href="https://docs.decred.org" class="body-icon">
-								<span class="fa-icon fa fa-book"></span>
-								<span class="tooltiptext">Decred Documentation</span>
-							</a>
-						</span>
-						
-						<span class="tooltip">
-							<a href="https://wiki.decred.org" class="body-icon">
-								<span class="fa-icon fa fa-wikipedia-w"></span>
-								<span class="tooltiptext">Decred Wiki</span>
-							</a>
-						</span>
-						
-						<span class="tooltip">
-							<a href="https://stats.decred.org/" class="body-icon">
-								<span class="fa fa-bar-chart"></span>
-								<span class="tooltiptext">Decred Network Stats</span>
-							</a>
-						</span>
-					</h5>
-				</div>
-				
-				<div class="divider-three">
-					<h5>
-						<span class="tooltip">
-							<a href="https://github.com/decred" class="body-icon">
-								<span class="fa-icon fa fa-github-alt"></span>
-								<span class="tooltiptext">github.com/decred</span>
-							</a>
-						</span>
-
-						<span class="tooltip">
-							<a href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" class="body-icon">
-								<span class="fa fa-terminal"></span>
-								<span class="tooltiptext">#decred irc.freenode.net</span>
-							</a>
-						</span>
-					</h5>
-				</div>
-				
-				<div class="divider-three">
-					<h5>
-						<span class="tooltip">
-							<a href="https://forum.decred.org/" class="body-icon">
-								<span class="fa-icon fa fa-comments"></span>
-								<span class="tooltiptext">forum.decred.org</span>
-							</a>
-						</span>
-
-						<span class="tooltip">
-							<a href="https://slack.decred.org" class="body-icon">
-								<span class="fa-icon fa fa-slack"></span>
-								<span class="tooltiptext">Slack</span>
-							</a>
-						</span>
-						
-						<span class="tooltip">
-							<a href="https://reddit.com/r/decred" class="body-icon">
-								<span class="fa-icon fa fa-reddit-alien"></span>
-								<span class="tooltiptext">reddit.com/r/decred</span>
-							</a>
-						</span>
-						
-						<span class="tooltip">
-							<a href="https://twitter.com/decredproject" class="body-icon">
-								<span class="fa fa-twitter"></span>
-								<span class="tooltiptext">twitter.com/decredproject</span>
-							</a>
-						</span>
-					</h5>
-				</div>
-				
-				<div class="cb"></div>
-			</section>
-			
-			<!-- Banner -->
-			<div class="banner">
-				
-				<!-- Download -->
-				<div class="divider-two left-padding">
-					<div class="divider-two-content">
-						<h3>Free and Open-Source Software</h3>
-						<p>Get started with Decred for Windows/Mac OS X/Linux/BSD.</p>
-						<a class="raw-button gray-button" href="https://github.com/decred/decred-release/releases/tag/v0.7.0">Download</a>
-					</div>
-				</div>
-				
-				<!-- Web wallet -->
-				<div class="divider-two right-padding">
-					<div class="divider-two-content">
-						<h3>Web Wallet Service</h3>
-						<p>Use the web wallet service to send and receive transactions.</p>
-						<a class="raw-button gray-button" href="https://wallet.decred.org/#/create">Create</a>
-					</div>
-				</div>
-				
-				<div class="cb"></div>
-				
-			</div>
-
-		</div>
-		
-		<!-- Footer -->
-		<footer>
-			<div class="footer-content">
-
-				<div class="w100">
-					<p>&#60;&#47;&#62; <a href="https://www.github.com/decred">Decred Developers</a> | 2015 - 2016</p>
-				</div>
-					
-			</div>
-		</footer>
-		
-		<!-- Javascript -->
-		<script src="./content/scripts/vendor/platform.min.js"></script>
-		<script src="./content/scripts/vendor/moment.min.js"></script>
-		<script src="./content/scripts/vendor/jquery-1.12.4.min.js"></script>
-		<script src="./content/scripts/vendor/jquery-ui.min.js"></script>
-		<script src="./content/scripts/vendor/jquery.dataTables.min.js"></script>
-		<script src="./content/scripts/vendor/dataTables.jqueryui.min.js"></script>
-		<script src="./content/scripts/vendor/jquery.periodicalupdater.min.js"></script>
-		<script src="./content/scripts/scripts.js"></script>
-
-		<div id="stakepool-dialog" title="Stake Pool Finder" style="display: none;">
-			<div class="ui-widget">
-				<div class="ui-state-highlight ui-corner-all">
-					<p><span class="ui-icon ui-icon-help" style="float: left; margin-right: .3em;"></span>
-					Stake pools allow you to participate in <a href="https://docs.decred.org/mining/overview/#2-proof-of-stake-pos-mining">Decred Proof-of-stake (PoS) mining</a>
-					without needing to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.</p>
-				</div>
-			</div>
-			<div id="stakepool-data"></div>
-			<div class="ui-widget">
-				<div class="ui-state-highlight ui-corner-all">
-					<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-					<strong>Notice:</strong> Missed tickets can be caused by a poorly connected <a href="https://docs.decred.org/mining/overview/#1-proof-of-work-pow-mining">Proof-of-work (PoW) miner</a>
-					and may not necessarily be the fault of the pool.</p>
-				</div>
-			</div>
-			<div class="ui-widget">
-				<div class="ui-state-highlight ui-corner-all">
-					<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
-					<strong>Warning:</strong> To protect de-centralization of the network, it is recommended to avoid pools that have over 5% of network votes.</p>
-				</div>
-			</div>
-		</div>
-
-	</body>
-	
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>deCRED - decentralised credit</title>
+  <!--<base href="https://www.decred.org">-->
+  <meta content="Open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain." name="description">
+  <meta content="deCRED - decentralised credit" property="og:title">
+  <meta content="Open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain." property="og:description">
+  <meta content="./content/images/ogMainSite.jpg" property="og:image">
+  <meta content="summary" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="./content/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="./content/css/components.css" rel="stylesheet" type="text/css">
+  <link href="./content/css/decred.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Inconsolata:400,400italic,700,700italic","Source Sans Pro:regular,600,700"]
+      }
+    });
+  </script>
+  <script src="./content/js/modernizr.js" type="text/javascript"></script>
+  <!--  Custom favicon  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./content/images/favicon/apple-touch-icon.png?v=fi5jKKtbwv">
+  <link rel="icon" type="image/png" href="./content/images/favicon/favicon-32x32.png?v=fi5jKKtbwv" sizes="32x32">
+  <link rel="icon" type="image/png" href="./content/images/favicon/favicon-16x16.png?v=fi5jKKtbwv" sizes="16x16">
+  <link rel="manifest" href="./content/images/favicon/manifest.json?v=fi5jKKtbwv">
+  <link rel="mask-icon" href="./content/images/favicon/safari-pinned-tab.svg?v=fi5jKKtbwv" color="#2973ff">
+  <link rel="shortcut icon" href="./content/images/favicon/favicon.ico?v=fi5jKKtbwv">
+  <meta name="apple-mobile-web-app-title" content="deCRED - decentralised credit">
+  <meta name="application-name" content="deCRED - decentralised credit">
+  <meta name="msapplication-TileColor" content="#2973ff">
+  <meta name="msapplication-TileImage" content="./content/images/favicon/mstile-144x144.png?v=fi5jKKtbwv">
+  <meta name="msapplication-config" content="./content/images/favicon/browserconfig.xml?v=fi5jKKtbwv">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="fronta">
+    <div class="front">
+      <div class="logo"></div>
+      <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
+      <div class="description font28">Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain.</div>
+      <a class="borderradius4 buttonlearnmore dropshadow font14 fontbold transition w-button" href="#overview">Learn more about Decred</a>
+      <a class="borderradius4 buttongetstarted dropshadow font14 fontbold transition w-button" href="#guide">Get started</a>
+    </div>
+  </div>
+  <div class="below">
+    <div class="statistics">
+      <div class="statisticscontent w-clearfix width1100">
+        <h1 class="font38 fontsemibold h1 margin40">Statistics</h1>
+        <div class="column percentmined w-clearfix">
+          <h2 class="font22 fontregular h2 margin20"><span class="percentnumber fontbold">00.0% </span>mined so far</h2>
+          <div class="borderradius4 margin20 statisticsminedbar">
+            <div class="borderradius4 statisticsmindebarpercent transitionslow"></div>
+          </div>
+        </div>
+        <div class="column supplydistribution w-clearfix">
+          <h2 class="font22 fontregular h2 margin20"><span class="fontbold"></span>Supply distribution</h2>
+          <div class="piechart" id="charts"></div>
+          <div class="networkstatistics">
+            <div class="borderradius4 dropshadow networkstatisticsfloat transitionmodest"></div>
+          </div>
+        </div>
+        <div class="column development w-clearfix">
+          <h2 class="font22 fontregular h2 margin20"><span class="fontbold"></span>Development</h2>
+          <div class="developmentrow">
+            <div class="developmentrowname">Stable Version</div>
+            <a class="backgroundturquoise borderradius4 developmentrownum fontsemibold" id="statisticsRelease" target="_blank">v0.7.0</a>
+          </div>
+          <div class="developmentrow">
+            <div class="developmentrowname">Downloads</div>
+            <a class="backgroundwashedblue borderradius4 developmentrownum fontsemibold" href="#" id="statisticsDownloads">52k total</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overview" id="overview">
+      <div class="overviewblock">
+        <div class="centerblock overviewflex width1100">
+          <img class="overviewimage" src="./content/images/1.svg">
+          <div class="overviewcontent">
+            <div class="overviewtext">
+              <h1 class="colorblue font38 fontsemibold lineheigh45 margin30">Technology</h1>
+              <div class="colorgray font16 margin30">Decred uses a hybridized consensus system to strike a balance between <span class="underline">miners</span>* and users to create a more robust currency.
+                <br>
+                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware.</div>
+              <div class="overviewtextbottom">
+                <a class="colorblue font14 fontsemibold overviewtextbottomlink transition" href="#">Learn more about the technology →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="backgroundgray overviewblock">
+        <div class="centerblock overviewflexreverse width1100">
+          <img class="overviewimage" src="./content/images/2.svg">
+          <div class="overviewcontent">
+            <div class="overviewtext">
+              <h1 class="colorblue font38 fontsemibold lineheigh45 margin30">Development</h1>
+              <div class="colorgray font16 margin30">Decred fosters a multi-stakeholder development ecosystem that welcomes and empowers participants who want to improve on existing features or build new tools.
+                <br>
+                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly fromthe Decred blockchain.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overviewblock">
+        <div class="centerblock overviewflex width1100">
+          <img class="overviewimage" src="./content/images/3.svg">
+          <div class="overviewcontent">
+            <div class="overviewtext">
+              <h1 class="colorblue font38 fontsemibold lineheigh45 margin30">Governance</h1>
+              <div class="colorgray font16 margin30">Decred is constructing a layered governance organization that extends beyond the miners and users to bring forward and represent insider and outsider voices in the community.
+                <br>
+                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="backgroundgray overviewblock">
+        <div class="centerblock overviewflexreverse width1100">
+          <img class="overviewimage" src="./content/images/4.svg">
+          <div class="overviewcontent">
+            <div class="overviewtext">
+              <h1 class="colorblue font38 fontsemibold lineheigh45 margin30">Community and principles</h1>
+              <div class="colorgray font16 margin30">The project is bound by the Decred Constitution, so users can know what to expect: a finite number of coins, decentralized governance and a place to share their views. &nbsp;Decred's community plays an important role in making decisions, both informally via the forum and formally via the blockchain.</div>
+              <div class="overviewtextbottom">
+                <a class="colorblue font14 fontsemibold overviewtextbottomlink transition" href="#">Read the Decred Constitution →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="guide" id="guide">
+      <div class="centerblock width940">
+        <h1 class="colorlightblue font38 fontsemibold lineheigh45 margin65">This tour will help You get started with Decred</h1>
+        <div class="block transitionmodest w-clearfix">
+          <div class="child transitionmodest w-clearfix">
+            <div class="top w-clearfix">
+              <div class="dot">
+                <div class="vertical"></div>
+                <div class="big transition"></div>
+                <div class="vertical"></div>
+              </div>
+              <a class="borderradius4 font24 fontregular header margin20 transition" href="#">Supply distribution</a>
+            </div>
+            <div class="backgroundcyan lineleft"></div>
+            <div class="content transitionmodest w-clearfix">
+              <div class="media"></div>
+              <div class="info w-clearfix">
+                <div class="text">Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus. Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus. Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.</div>
+                <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#">Continue</a>
+                <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+          <div class="child transitionmodest w-clearfix">
+            <div class="top w-clearfix">
+              <div class="dot">
+                <div class="vertical"></div>
+                <div class="small transition"></div>
+                <div class="vertical"></div>
+              </div>
+              <a class="borderradius4 font18 fontregular header margin20 margin5 transition" href="#">Supply distribution</a>
+            </div>
+            <div class="backgroundcyan lineleft"></div>
+            <div class="content transitionmodest w-clearfix">
+              <div class="media"></div>
+              <div class="info w-clearfix">
+                <div class="text">Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; hhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhh hhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh hhhhhhhhhhhlectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus. Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; hhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhh hhhhlectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.</div>
+                <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#">Continue</a>
+                <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block transitionmodest w-clearfix">
+          <div class="child transitionmodest w-clearfix">
+            <div class="top w-clearfix">
+              <div class="dot">
+                <div class="vertical"></div>
+                <div class="big transition"></div>
+                <div class="vertical"></div>
+              </div>
+              <a class="borderradius4 font24 fontregular header margin20 transition" href="#">Supply distribution</a>
+            </div>
+            <div class="backgroundcyan lineleft"></div>
+            <div class="content transitionmodest w-clearfix">
+              <div class="media"></div>
+              <div class="info w-clearfix">
+                <div class="text">Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.</div>
+                <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#">Continue</a>
+                <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+          <div class="child transitionmodest w-clearfix">
+            <div class="top w-clearfix">
+              <div class="dot">
+                <div class="vertical"></div>
+                <div class="small transition"></div>
+                <div class="vertical"></div>
+              </div>
+              <a class="borderradius4 font18 fontregular header margin20 margin5 transition" href="#">Supply distribution</a>
+            </div>
+            <div class="backgroundcyan lineleft"></div>
+            <div class="content transitionmodest w-clearfix">
+              <div class="media"></div>
+              <div class="info w-clearfix">
+                <div class="text">Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; hhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhh hhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh hhhhhhhhhhhlectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus. Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; hhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhh hhhhlectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.</div>
+                <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#">Continue</a>
+                <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+          <div class="child transitionmodest w-clearfix">
+            <div class="top w-clearfix">
+              <div class="dot">
+                <div class="vertical"></div>
+                <div class="small transition"></div>
+                <div class="vertical"></div>
+              </div>
+              <a class="borderradius4 font18 fontregular header margin20 margin5 transition" href="#">Supply distribution</a>
+            </div>
+            <div class="backgroundcyan lineleft"></div>
+            <div class="content transitionmodest w-clearfix">
+              <div class="media"></div>
+              <div class="info w-clearfix">
+                <div class="text">Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; hhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhh hhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh hhhhhhhhhhhlectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus. Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; hhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhhh hhhhhhhhh hhhhlectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.</div>
+                <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#">Continue</a>
+                <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block transitionmodest w-clearfix">
+          <div class="child transitionmodest w-clearfix">
+            <div class="top w-clearfix">
+              <div class="dot">
+                <div class="vertical"></div>
+                <div class="big transition"></div>
+                <div class="vertical"></div>
+              </div>
+              <a class="borderradius4 font24 fontregular header margin20 transition" href="#">Supply distribution</a>
+            </div>
+            <div class="backgroundcyan lineleft"></div>
+            <div class="content transitionmodest w-clearfix">
+              <div class="media"></div>
+              <div class="info w-clearfix">
+                <div class="text">Briefly about the importance / basics of the wallet. Vivamus consequat ligula et finibus finibus. Duis varius, nisl quis consectetur porttitor, &nbsp; lectus ligula maximus felis, in dignissim mi diam at nisi. Morbi eu erat metus.</div>
+                <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#">Continue</a>
+                <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#">Back</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footercolumns width1100">
+        <div class="footerrows w-row">
+          <div class="footerrowscolumn1 w-col w-col-3 w-col-small-small-stack">
+            <a class="footerblocklinkdev" href="https://github.com/decred" target="_blank">Decred Developers</a>
+          </div>
+          <div class="footerrowscolumn1 w-col w-col-2 w-col-small-small-stack">
+            <a class="footerblocklink transition" href="https://docs.decred.org/research/overview/" target="_blank">Technical Brief</a>
+            <a class="footerblocklink transition" href="https://docs.decred.org/" target="_blank">Documentation</a>
+            <a class="footerblocklink transition" href="https://wiki.decred.org/" target="_blank">Wiki</a>
+            <a class="footerblocklink transition" href="https://brand.decred.org/" target="_blank">Logo and Branding</a>
+          </div>
+          <div class="footerrowscolumn1 w-col w-col-2 w-col-small-small-stack">
+            <a class="footerblocklink transition" href="https://stats.decred.org/" target="_blank">Network Stats</a>
+            <a class="footerblocklink transition" href="https://stakepools.decred.org/" target="_blank">Stakepools</a>
+          </div>
+          <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-small-small-stack">
+            <div class="footerblockstatsrow w-clearfix">
+              <a class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" id="footerRelease" target="_blank">v0.4.0</a>
+              <div class="footerblockstatsname">stable</div>
+            </div>
+            <div class="footerblockstatsrow w-clearfix">
+              <a class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="#" id="footerDownloads">52k total</a>
+              <div class="footerblockstatsname">downloads</div>
+            </div>
+          </div>
+          <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-3 w-col-small-small-stack">
+            <a class="icon irc w-inline-block" data-label="#decred irc.freenode.net" href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" target="_blank"></a>
+            <a class="icon slack w-inline-block" data-label="slack" href="https://slack.decred.org/" target="_blank"></a>
+            <a class="forum icon w-inline-block" data-label="forum.decred.org" href="https://forum.decred.org/" target="_blank"></a>
+            <a class="github icon w-inline-block" data-label="github.com/decred" href="https://github.com/decred" target="_blank"></a>
+            <a class="icon twitter w-inline-block" data-label="twitter.com/decredproject" href="https://twitter.com/decredproject" target="_blank"></a>
+            <a class="icon reddit w-inline-block" data-label="reddit.com/r/decred" href="https://www.reddit.com/r/decred/" target="_blank"></a>
+            <div class="backgroundlightblue borderradius4 colorblue dropshadow font12 footerblockindicator opacity000 transition">twitter.com/dfsdsgsdgfcom/decredprojectt</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="./content/js/decred.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="./content/js/verge.min.js"></script>
+  <script src="./content/js/d3.min.js"></script>
+  <script src="./content/js/d3pie.min.js"></script>
+  <script src="./content/js/underscore.min.js"></script>
+  <script src="./content/js/main.js"></script>
+</body>
 </html>
