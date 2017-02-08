@@ -12,6 +12,7 @@ $(document).ready(function() {
 	    APIbinary = 'https://api.github.com/repos/decred/decred-binaries/releases',
 	    APIreleases = 'https://api.github.com/repos/decred/decred-release/releases',
 	    APIstats = 'https://dcrstats.com/api/v1/get_stats',
+	    APIdc = './api/?c=dc',
 	    	jsonPercentMined = pow = pos = devs = all = count = null,
 	    	statisticsRelease = $('#statisticsRelease'),
 	    	statisticsDownloads = $('#statisticsDownloads'),
@@ -131,19 +132,11 @@ $(document).ready(function() {
 
 
 	// get download_count from github
-	$.getJSON(APIreleases, function(data) {
-		for (var i = data.length - 1; i >= 0; i--) {
-			count = count + data[i].assets[0].download_count;
-		}
+	$.getJSON(APIdc, function(data) {
+	   count = data[1];
 	});
-	$.getJSON(APIbinary, function(data) {
-		for (var i = data.length - 1; i >= 0; i--) {
-			count = count + data[i].assets[0].download_count;
-		}
-	});
-	count = Math.round(count/1000);
-	statisticsDownloads.add(footerDownloads).text(count+'k total');
 
+	statisticsDownloads.add(footerDownloads).text(count+' total');
 
 
 	// add calculated percent to UI bar
