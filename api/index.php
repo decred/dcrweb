@@ -420,7 +420,7 @@ function getStakepoolData($spdata) {
                 $d["APIVersionsSupported"] = 0;
             }
 
-            if (!isset([$d]["Network"])) {
+            if (!isset($d["Network"])) {
                 $d["Network"] = $spdata[$i]["Network"];
             }
 
