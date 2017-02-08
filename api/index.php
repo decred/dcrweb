@@ -14,6 +14,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://dcr.stakepool.net",
     ),
     "Charlie" => array(
@@ -22,6 +23,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://decredstakepool.com"
     ),
     "Delta" => array(
@@ -30,6 +32,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://dcr.stakeminer.com",
     ),
     "Echo" => array(
@@ -38,6 +41,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://pool.d3c.red",
     ),
     "Foxtrot" => array(
@@ -46,6 +50,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://dcrstakes.com",
     ),
     "Golf" => array(
@@ -54,6 +59,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://stakepool.dcrstats.com",
     ),
     "Hotel" => array(
@@ -62,6 +68,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "https://stake.decredbrasil.com",
     ),
     "India" => array(
@@ -70,6 +77,7 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "http://stakepool.eu",
     ),
     "Juliett" => array(
@@ -78,7 +86,17 @@ $spdata = array(
         "APIVersionsSupported" => array(),
         "LastAttempt" => 0,
         "LastUpdated" => 0,
+        "Network" => "mainnet",
         "URL" => "http://dcrstakepool.getjumbucks.com",
+    ),
+    "Kilo" => array(
+        //"LaunchedEpoch" => strtotime("Tue Feb  7 17:00:00 CDT 2017"),
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "Network" => "testnet",
+        "URL" => "https://teststakepool.decred.org",
     )
 );
 
@@ -402,6 +420,10 @@ function getStakepoolData($spdata) {
                 $d["APIVersionsSupported"] = 0;
             }
 
+            if (!isset([$d]["Network"])) {
+                $d["Network"] = $spdata[$i]["Network"];
+            }
+
             // first try the API
             list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields);
 
@@ -431,7 +453,7 @@ function getStakepoolData($spdata) {
             }
 
             foreach ($stats as $k => $v) {
-                if ($v == "") {
+                if ($v === "") {
                     $stats[$k] = -1;
                 }
             }
