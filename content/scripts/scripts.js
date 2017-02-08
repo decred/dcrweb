@@ -37,6 +37,7 @@ var stakepoolFinder = function() {
 			'<tr class="ui-widget-header">' +
 				'<th>Pool ID</th>' +
 				'<th>URL</th>' +
+				'<th>Network</th>' +
 				'<th>Last Updated</th>' +
 				'<th>Proportion</th>';
 	$.each(fields, function(i, field) {
@@ -73,14 +74,15 @@ var stakepoolFinder = function() {
 				if (proportion.toString().length == "3") {
 					proportion = proportion + "0";
 				}
-				if (proportion > 5) {
+				if (proportion > 5 && poolData["Network"] == "mainnet") {
 					overCapacity = 1;
 				}
 				proportion = proportion + "%";
 
-				tableMarkup += (overCapacity ? '<tr class="overcapacity">' : '<tr>');
+				tableMarkup += '<tr class="' + poolData["Network"] + (overCapacity ? ' overcapacity"' : '"') + '>';
 				tableMarkup += '<td>' + poolName + '</td>';
 				tableMarkup += '<td><a href="' + poolData["URL"] + '">' + poolData["URL"] + '</a></td>';
+				tableMarkup += '<td>' + poolData["Network"] + '</td>';
 				tableMarkup += '<td>' + lastUpdateFormatted + '</td>';
 				tableMarkup += '<td>' + proportion + (overCapacity ? ' <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;" title="See warning below"></span>' : "") + '</td>';
 
@@ -106,6 +108,7 @@ var stakepoolFinder = function() {
 			tableMarkup += '</tbody></table>';
 			$("#stakepool-data").html(tableMarkup);
 			$(".overcapacity").appendTo("#pooldata");
+			$(".testnet").appendTo("#pooldata");
 			$("#pooldata").DataTable({
 				"order": [], /* no default sort */
 				"jQueryUI": true,
