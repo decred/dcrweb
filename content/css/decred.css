@@ -1698,6 +1698,7 @@ body {
     }
 
 
+/* below are new styles for decred.css */
 .modal {
   position: fixed;
   left: 0px;
@@ -1717,6 +1718,8 @@ body {
   background-color: rgba(12, 30, 62, .2);
 }
 
+
+
 .width1180 {
   position: relative;
   display: block;
@@ -1724,6 +1727,8 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 .width1180.modal {
   position: relative;
@@ -1733,6 +1738,8 @@ body {
   padding: 50px 80px;
   background-color: #fff;
 }
+
+
 
 .stakepool-data {
   position: relative;
@@ -1758,6 +1765,7 @@ body {
   margin-top: 40px;
   margin-right: 80px;
 }
+
 .modalparagraph {
   width: 460px;
   margin-top: 30px;
@@ -1799,6 +1807,8 @@ body {
     float: left;
   }
 }
+
+
 
 @media (max-width: 767px) {
   .modal {
