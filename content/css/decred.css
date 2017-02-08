@@ -143,35 +143,20 @@
   }
 }
 
+a {
+    color: #69d3f5;
+    text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:hover 
+{
+     color:#69d3f5; 
+     text-decoration:underline; 
+     cursor:pointer;  
+}
+a:focus, a:visited {
+     color:##69d3f5;
+}
 
 body {
   background-color: #f4f7f9;
