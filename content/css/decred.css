@@ -1667,3 +1667,119 @@ body {
           margin-bottom: 20px;
       }
     }
+
+
+.modal {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(12, 30, 62, .2);
+}
+
+.width1180 {
+  position: relative;
+  display: block;
+  width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.width1180.modal {
+  position: relative;
+  overflow: auto;
+  max-height: 768px;
+  min-height: 200px;
+  padding: 50px 80px;
+  background-color: #fff;
+}
+
+.stakepool-data {
+  position: relative;
+  min-height: 100px;
+  color: #0c1e3e;
+  font-size: 12px;
+}
+
+.buttonclose {
+  padding: 12px 20px 13px;
+  background-color: #8997a5;
+  text-transform: capitalize;
+}
+
+.buttonclose:hover {
+  background-color: #5a6d81;
+}
+
+.buttonclose.borderradius4.font14.fontsemibold.transition.dropshadow {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.modalparagraph {
+  width: 460px;
+  margin-top: 30px;
+  color: #5a6d81;
+  font-size: 13px;
+  text-align: left;
+}
+
+.modalparagraph.left {
+  float: left;
+}
+
+.modalparagraph.right {
+  float: right;
+}
+
+.modalparagraphbold {
+  color: #fd714a;
+  font-weight: 700;
+}
+
+.modalhide {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .width1180.modal {
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .buttonclose.borderradius4.font14.fontsemibold.transition.dropshadow {
+    margin-right: 60px;
+  }
+  .modalparagraph {
+    width: 100%;
+  }
+  .modalparagraph.right {
+    float: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .modalparagraph {
+    width: 50%;
+  }
+}

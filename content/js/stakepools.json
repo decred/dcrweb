@@ -1,0 +1,129 @@
+{
+    "Echo": {
+        "APIEnabled": true,
+        "APIVersionsSupported": [
+            1
+        ],
+        "LastAttempt": 1486510454,
+        "LastUpdated": 1486510454,
+        "URL": "https:\/\/pool.d3c.red",
+        "Immature": 16,
+        "Live": 325,
+        "Voted": 2287,
+        "Missed": 18,
+        "PoolFees": 5,
+        "ProportionLive": 0.0076055415145558,
+        "UserCount": 126
+    },
+    "India": {
+        "APIEnabled": false,
+        "APIVersionsSupported": [],
+        "LastAttempt": 1486510459,
+        "LastUpdated": 1486510459,
+        "URL": "http:\/\/stakepool.eu",
+        "Immature": 136,
+        "Live": 372,
+        "Voted": 3249,
+        "Missed": 40,
+        "PoolFees": 5,
+        "ProportionLive": 0.0087054198258916,
+        "UserCount": 210
+    },
+    "Foxtrot": {
+        "APIEnabled": false,
+        "APIVersionsSupported": [],
+        "LastAttempt": 1486510454,
+        "LastUpdated": 1486510456,
+        "URL": "https:\/\/dcrstakes.com",
+        "Immature": 0,
+        "Live": 90,
+        "Voted": 2679,
+        "Missed": 57,
+        "PoolFees": 5,
+        "ProportionLive": 0.002106149957877,
+        "UserCount": 73
+    },
+    "Charlie": {
+        "APIEnabled": false,
+        "APIVersionsSupported": [],
+        "LastAttempt": 1486510443,
+        "LastUpdated": 0,
+        "URL": "https:\/\/decredstakepool.com"
+    },
+    "Hotel": {
+        "APIEnabled": true,
+        "APIVersionsSupported": [
+            1
+        ],
+        "LastAttempt": 1486510456,
+        "LastUpdated": 1486510459,
+        "URL": "https:\/\/stake.decredbrasil.com",
+        "Immature": 68,
+        "Live": 203,
+        "Voted": 3048,
+        "Missed": 11,
+        "PoolFees": 5,
+        "ProportionLive": 0.0047505382383226,
+        "UserCount": 187
+    },
+    "Golf": {
+        "APIEnabled": true,
+        "APIVersionsSupported": [
+            1
+        ],
+        "LastAttempt": 1486510456,
+        "LastUpdated": 1486510456,
+        "URL": "https:\/\/stakepool.dcrstats.com",
+        "Immature": 863,
+        "Live": 8647,
+        "Voted": 40232,
+        "Missed": 63,
+        "PoolFees": 5,
+        "ProportionLive": 0.20235420761958,
+        "UserCount": 989
+    },
+    "Bravo": {
+        "APIEnabled": true,
+        "APIVersionsSupported": [
+            1
+        ],
+        "LastAttempt": 1486510442,
+        "LastUpdated": 1486510443,
+        "URL": "https:\/\/dcr.stakepool.net",
+        "Immature": 294,
+        "Live": 2975,
+        "Voted": 10510,
+        "Missed": 7,
+        "PoolFees": 5,
+        "ProportionLive": 0.069619956940934,
+        "UserCount": 249
+    },
+    "Delta": {
+        "APIEnabled": false,
+        "APIVersionsSupported": [],
+        "LastAttempt": 1486510449,
+        "LastUpdated": 1486510454,
+        "URL": "https:\/\/dcr.stakeminer.com",
+        "Immature": 0,
+        "Live": 16,
+        "Voted": 2063,
+        "Missed": 15,
+        "PoolFees": 7.5,
+        "ProportionLive": 0.00037442665917813,
+        "UserCount": 255
+    },
+    "Juliett": {
+        "APIEnabled": false,
+        "APIVersionsSupported": [],
+        "LastAttempt": 1486510459,
+        "LastUpdated": 1486510459,
+        "URL": "http:\/\/dcrstakepool.getjumbucks.com",
+        "Immature": 170,
+        "Live": 1474,
+        "Voted": 10994,
+        "Missed": 45,
+        "PoolFees": 8,
+        "ProportionLive": 0.034494055976786,
+        "UserCount": 109
+    }
+}

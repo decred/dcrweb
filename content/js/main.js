@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-
-
 	// for json API
 	$.ajaxSetup({
 	    async: false
@@ -448,6 +446,132 @@ $(document).ready(function() {
 
 	    	// re-float element networkstatisticsfloat
 	    	$('.networkstatisticssection').eq(0).trigger('click');
+	}, time * 3));
+
+
+	var time = 100,
+	    viewport = $(window),
+
+	    // get json
+	    APIstakepools = 'content/js/stakepools.json',
+
+	    // modal
+	    modal = $('.modal'),
+	    modalClose = $('#modalClose'),
+	    modalOpen = $('#modalOpen');
+
+	    // modal
+	var stakepoolFinder = function() {
+		var fields = ["PoolFees", "Voted", "Missed", "Live", "Immature", "UserCount"];
+
+		tableMarkup = '<table id="pooldata" class="datatables">' +
+			'<thead>' +
+				'<tr class="">' +
+					'<th class="poodIdHeader" style="padding-left: 2px; background-image: none;">Pool ID</th>' +
+					'<th class="addressHeader" style="padding-left: 10px; background-image: none;">Address</th>' +
+					'<th class="lastUpdatedHeader" style="padding-left: 10px; width: 80px; text-align: left;">Last Updated</th>' +
+					'<th>Proportion</th>';
+		$.each(fields, function(i, field) {
+			tableMarkup += '<th>' + field + '</th>';
+		});
+
+		tableMarkup += '</tr></thead><tbody>';
+
+		$("#stakepool-data").html("Loading...");
+		$.ajax({
+			url: APIstakepools,
+			dataType: "json",
+			error: function (jqXHR, textStatus, errorThrown) {
+				errorMarkup ='<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
+				'<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>' +
+				'<strong>Error:</strong> ' + textStatus + ": " + errorThrown + '</p></div></div>';
+			},
+			success: function(data, textStatus) {
+				console.log(data);
+				$.each(data, function(poolName, poolData ) {
+					var overCapacity = 0;
+					var now = Math.floor((new Date).getTime()/1000);
+					var lastUpdated = poolData["LastUpdated"] - now;
+					var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
+					if (lastUpdateFormatted.indexOf("years") > 0) {
+						lastUpdateFormatted = "N/A";
+					}
+					var proplive = poolData["ProportionLive"];
+					if (isNaN(proplive)) {
+						proplive = 0;
+					}
+					var proportion = proplive * 100;
+					proportion = Math.round(proportion * 100) / 100;
+					if (proportion.toString().length == "3") {
+						proportion = proportion + "0";
+					}
+					if (proportion > 5) {
+						overCapacity = 1;
+					}
+					proportion = proportion + "%";
+					tableMarkup += (overCapacity ? '<tr class="overcapacity rowHover transition">' : '<tr class="rowHover transition">');
+					tableMarkup += '<td class="poolId">' + poolName + '</td>';
+					tableMarkup += '<td class="address"><a target="_blank" href="' + poolData["URL"] + '">' + poolData["URL"] + '</a></td>';
+					tableMarkup += '<td class="lastUpdate inconsolata">' + lastUpdateFormatted + '</td>';
+					tableMarkup += '<td class="inconsolata">' + (overCapacity ? ' <span class="inconsolata overcapacityWarning" style="" title="See warning below">'+ proportion +'</span>' : proportion) + '</td>';
+
+					$.each(fields, function(i, field) {
+						if (poolData.hasOwnProperty(field)) {
+							var value = poolData[field]
+							if (field == "PoolFees") {
+								poolFees = "" + poolData[field];
+								if (poolFees != "N/A" && poolFees.substr(-1) != "%") {
+									poolFees += "%";
+								}
+								value = poolFees
+							}
+							tableMarkup += '<td class="inconsolata">' + value + '</td>';
+						} else {
+							tableMarkup += '<td class="inconsolata">N/A</td>';
+						}
+					});
+
+					tableMarkup += '</tr>';
+				});
+				tableMarkup += '</tbody></table>';
+				$("#stakepool-data").html(tableMarkup);
+				$(".overcapacity").appendTo("#pooldata");
+				$("#pooldata").DataTable({
+					//"order": [], /* no default sort */
+					"jQueryUI": false,
+					"paging": false,
+					"searching": false,
+					"info": false,
+					'lengthChange': false
+
+				});
+			},
+		});
+	},
+	displayStakepools = function(viewportThis) {
+	    	if(viewportThis.width() >= 768) {
+			modalOpen.add(modalClose).click(function(e) {
+				if($(this).is(modalOpen)) {
+					stakepoolFinder();
+					modal.removeClass('modalhide');
+					modal.fadeTo(time*2, 1);
+					e.preventDefault();
+				}
+				if($(this).is(modalClose)) {
+					modal.fadeTo(time*2, 0, function() {
+						$(this).addClass('opacity000 modalhide');
+					});
+				}
+			});
+	    	}
+	};
+	displayStakepools(viewport);
+
+
+	// upon resize
+	viewport.resize(_.debounce(function() {
+	    	// modal
+	    	displayStakepools($(this));
 	}, time * 3));
 
 
