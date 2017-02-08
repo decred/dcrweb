@@ -453,7 +453,7 @@ $(document).ready(function() {
 	    viewport = $(window),
 
 	    // get json
-	    APIstakepools = 'content/js/stakepools.json',
+	    APIstakepools = './api/?c=gsd',
 
 	    // modal
 	    modal = $('.modal'),
