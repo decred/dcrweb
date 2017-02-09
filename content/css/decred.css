@@ -143,20 +143,18 @@
   }
 }
 
-a {
-    color: #69d3f5;
-    text-decoration: none;
-}
-
-a:hover 
-{
-     color:#69d3f5; 
-     text-decoration:underline; 
-     cursor:pointer;  
-}
 a:focus, a:visited {
      color:##69d3f5;
 }
+
+.text a, .text a:active, .text a:focus{
+	color: #69d3f5 !important;
+  	text-decoration: none !important;
+}
+.text a:hover{
+	text-decoration: underline !important;
+}
+
 
 body {
   background-color: #f4f7f9;
