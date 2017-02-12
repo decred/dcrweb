@@ -87,7 +87,7 @@ $spdata = array(
         "LastAttempt" => 0,
         "LastUpdated" => 0,
         "Network" => "mainnet",
-        "URL" => "http://dcrstakepool.getjumbucks.com",
+        "URL" => "https://dcr.ubiqsmart.com/",
     ),
     "Kilo" => array(
         //"LaunchedEpoch" => strtotime("Tue Feb  7 17:00:00 CDT 2017"),
