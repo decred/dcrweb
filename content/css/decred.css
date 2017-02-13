@@ -643,9 +643,6 @@ body {
   margin-left: 20px;
   float: right;
   clear: left;
-  background-image: url('../images/example-bg.png');
-  background-position: 0px 0px;
-  background-size: 125px;
 }
 
 .font18 {
