@@ -11,9 +11,8 @@ $(document).ready(function() {
 	    viewport = $(window),
 
 	    // get json
-	    APIbinary = 'https://api.github.com/repos/decred/decred-binaries/releases',
-	    APIreleases = 'https://api.github.com/repos/decred/decred-release/releases',
-	    APIstats = 'https://dcrstats.com/api/v1/get_stats',
+		APIdc = '../api/?c=dc',
+	    APIstats = '../api/?c=gcs',
 	    	jsonPercentMined = pow = pos = devs = all = count = null,
 	    	statisticsRelease = $('#statisticsRelease'),
 	    	statisticsDownloads = $('#statisticsDownloads'),
@@ -104,49 +103,13 @@ $(document).ready(function() {
 	    icon = $('.icon'),
 	    footerBlockIndicator = $('.footerblockindicator'),
 
-	    date = new Date(),
-	    footerBlockLinkDev = $('.footerblocklinkdev');
-
-
-
-	// add date to .footerblocklinkdev
-	footerBlockLinkDev.text(footerBlockLinkDev.text()+' '+date.getFullYear());
-
-
-
-	// get data from external json and output correct values
-	$.getJSON(APIstats, function(json) {
-	    var supply_total = Math.floor((json.coinsupply / 100000000)),
-	        mined = supply_total - 1680000;
-
-	    jsonPercentMined = ((supply_total / 21000000) * 100).toFixed(1);
-
-	    premine = 1680000;
-	    pow = mined * 0.6;
-	    pos = mined * 0.3;
-	    devs = mined * 0.1;
+	// get download_count from API
+	$.getJSON(APIdc, function(data) {
+	   count = data[1];
 	});
-	$.getJSON(APIreleases, function(json) {
-	    statisticsRelease.add(footerRelease).text(json[0].name).attr('href', json[0].html_url);
-	});
+	footerDownloads.text(count+' total');
 
-
-
-	// get download_count from github
-	$.getJSON(APIreleases, function(data) {
-		for (var i = data.length - 1; i >= 0; i--) {
-			count = count + data[i].assets[0].download_count;
-		}
-	});
-	$.getJSON(APIbinary, function(data) {
-		for (var i = data.length - 1; i >= 0; i--) {
-			count = count + data[i].assets[0].download_count;
-		}
-	});
-	count = Math.round(count/1000);
-	footerDownloads.text(count+'k total');
-
-
+	//statisticsDownloads.add(footerDownloads).text(count+' total');
 
 	// show label when hovering icon
 	icon.mouseenter(function() {

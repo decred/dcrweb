@@ -9,9 +9,8 @@ $(document).ready(function() {
 	    viewport = $(window),
 
 	    // get json
-	    APIbinary = 'https://api.github.com/repos/decred/decred-binaries/releases',
 	    APIreleases = 'https://api.github.com/repos/decred/decred-release/releases',
-	    APIstats = 'https://dcrstats.com/api/v1/get_stats',
+	    APIstats = './api/?c=gcs',
 	    APIdc = './api/?c=dc',
 	    	jsonPercentMined = pow = pos = devs = all = count = null,
 	    	statisticsRelease = $('#statisticsRelease'),
@@ -103,19 +102,9 @@ $(document).ready(function() {
 	    icon = $('.icon'),
 	    footerBlockIndicator = $('.footerblockindicator'),
 
-	    date = new Date(),
-	    footerBlockLinkDev = $('.footerblocklinkdev');
-
-
-
-	// add date to .footerblocklinkdev
-	footerBlockLinkDev.text(footerBlockLinkDev.text()+' '+date.getFullYear());
-
-
-
 	// get data from external json and output correct values
 	$.getJSON(APIstats, function(json) {
-	    var supply_total = Math.floor((json.coinsupply / 100000000)),
+	    var supply_total = Math.floor((json.CoinSupplyMinedRaw / 100000000)),
 	        mined = supply_total - 1680000;
 
 	    jsonPercentMined = ((supply_total / 21000000) * 100).toFixed(1);
@@ -125,11 +114,6 @@ $(document).ready(function() {
 	    pos = mined * 0.3;
 	    devs = mined * 0.1;
 	});
-	$.getJSON(APIreleases, function(json) {
-	    statisticsRelease.add(footerRelease).text(json[0].name).attr('href', json[0].html_url);
-	});
-
-
 
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
@@ -462,6 +446,7 @@ $(document).ready(function() {
 				'<tr class="">' +
 					'<th class="poodIdHeader" style="padding-left: 2px; background-image: none;">Pool ID</th>' +
 					'<th class="addressHeader" style="padding-left: 10px; background-image: none;">Address</th>' +
+					'<th class="networkHeader" style="padding-left: 2px; background-image: none;">Network</th>' +
 					'<th class="lastUpdatedHeader" style="padding-left: 10px; width: 80px; text-align: left;">Last Updated</th>' +
 					'<th>Proportion</th>';
 		$.each(fields, function(i, field) {
@@ -480,7 +465,6 @@ $(document).ready(function() {
 				'<strong>Error:</strong> ' + textStatus + ": " + errorThrown + '</p></div></div>';
 			},
 			success: function(data, textStatus) {
-				console.log(data);
 				$.each(data, function(poolName, poolData ) {
 					var overCapacity = 0;
 					var now = Math.floor((new Date).getTime()/1000);
@@ -498,13 +482,14 @@ $(document).ready(function() {
 					if (proportion.toString().length == "3") {
 						proportion = proportion + "0";
 					}
-					if (proportion > 5) {
+					if (proportion > 5 && poolData["Network"] == "mainnet") {
 						overCapacity = 1;
 					}
 					proportion = proportion + "%";
-					tableMarkup += (overCapacity ? '<tr class="overcapacity rowHover transition">' : '<tr class="rowHover transition">');
+					tableMarkup += '<tr class="rowHover transition ' + poolData["Network"] + (overCapacity ? ' overcapacity"' : '"') + '>';
 					tableMarkup += '<td class="poolId">' + poolName + '</td>';
 					tableMarkup += '<td class="address"><a target="_blank" href="' + poolData["URL"] + '">' + poolData["URL"] + '</a></td>';
+					tableMarkup += '<td class="network">' + poolData["Network"] + '</td>';
 					tableMarkup += '<td class="lastUpdate inconsolata">' + lastUpdateFormatted + '</td>';
 					tableMarkup += '<td class="inconsolata">' + (overCapacity ? ' <span class="inconsolata overcapacityWarning" style="" title="See warning below">'+ proportion +'</span>' : proportion) + '</td>';
 
@@ -528,15 +513,18 @@ $(document).ready(function() {
 				});
 				tableMarkup += '</tbody></table>';
 				$("#stakepool-data").html(tableMarkup);
-				$(".overcapacity").appendTo("#pooldata");
+				$("#pooldata").ready(function(event){
+					$(".overcapacity").appendTo("#pooldata");
+					$(".testnet").appendTo("#pooldata");
+				})
+
 				$("#pooldata").DataTable({
-					//"order": [], /* no default sort */
+					"order": [], /* no default sort */
 					"jQueryUI": false,
 					"paging": false,
 					"searching": false,
 					"info": false,
 					'lengthChange': false
-
 				});
 			},
 		});

@@ -78,7 +78,7 @@ $spdata = array(
         "LastAttempt" => 0,
         "LastUpdated" => 0,
         "Network" => "mainnet",
-        "URL" => "http://stakepool.eu",
+        "URL" => "https://stakepool.eu",
     ),
     "Juliett" => array(
         //"LaunchedEpoch" => strtotime("Sun Jun 12 15:52:00 CDT 2016"),
@@ -121,9 +121,15 @@ case "dc":
     break;
 // downloads image cache
 case "dic":
-    header("Content-type: image/svg+xml");
+    header("Content-Type: image/svg+xml");
     $svg = downloadsImageCache();
     print $svg;
+    break;
+// get coin supply
+case "gcs":
+    header("Content-Type: application/json");
+    $gscData = getCoinSupply();
+    print json_encode($gscData, JSON_NUMERIC_CHECK|JSON_PRETTYPRINT);
     break;
 // get insight status
 case "gis":
@@ -273,6 +279,53 @@ function downloadsImageCache() {
     } else {
         return $curSVG;
     }
+}
+
+function getCoinSupply() {
+    $cacheTTL = 60;
+    $timeOut = 3;
+    $URL = "https://mainnet.decred.org/api/status?q=getCoinSupply";
+
+    $curCoinSupply = apcu_fetch("gsc");
+    if (empty($curCoinSupply)) {
+        $c = curl_init($URL);
+        curl_setopt($c, CURLOPT_USERAGENT, "decred/dcrweb bot");
+        curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
+        curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($c, CURLOPT_TIMEOUT, $timeOut);
+        $r = curl_exec($c);
+        if ($r === false) {
+            error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping {$URL}");
+        } else {
+            $jd = json_decode($r, true);
+            if (!empty($jd)) {
+                apcu_store("gsc", $jd["coinsupply"], $cacheTTL);
+                $curCoinSupply = $jd["coinsupply"];
+            } else {
+                $curCoinSupply = "464594945383704";
+            }
+        }
+        curl_close($c);
+    }
+
+    $airdrop = $premine = 840000;
+    $coinSupplyAvailable = round($curCoinSupply / 100000000);
+    $coinSupplyAfterBlock1 = $coinSupplyAvailable - $airdrop - $premine;
+    $coinSupplyTotal = 21000000;
+
+    $data = array(
+        "PercentMined" => round($coinSupplyAvailable/$coinSupplyTotal*100, 1, PHP_ROUND_HALF_UP),
+        "CoinSupplyMined" => $coinSupplyAvailable,
+        "CoinSupplyMinedRaw" => $curCoinSupply,
+        "CoinSupplyTotal" => $coinSupplyTotal,
+        "Airdrop" => round($airdrop/$coinSupplyAvailable*100, 1, PHP_ROUND_HALF_UP),
+        "Pos" => round($coinSupplyAfterBlock1*30/100/$coinSupplyAvailable*100, 1, PHP_ROUND_HALF_UP),
+        "Pow" => round($coinSupplyAfterBlock1*60/100/$coinSupplyAvailable*100, 1, PHP_ROUND_HALF_UP),
+        "Premine" => round($premine/$coinSupplyAvailable*100, 1, PHP_ROUND_HALF_UP),
+        "Subsidy" => round($coinSupplyAfterBlock1*10/100/$coinSupplyAvailable*100, 1, PHP_ROUND_HALF_UP),
+    );
+
+    return $data;
 }
 
 function getInsightStatus() {
@@ -435,21 +488,26 @@ function getStakepoolData($spdata) {
             && time() - $cachedData["LastUpdated"] > $interval
             && time() - $cachedData["LastAttempt"] > $interval) {
 
+            // if a pool's URL changed then we need to force usage of it
+            if ($cachedData["URL"] != $spdata[$i]["URL"]) {
+                $cachedData["URL"] = $spdata[$i]["URL"];
+            }
+
             debugLog("updating {$cachedData["URL"]}");
             $cachedData["LastAttempt"] = time();
 
             // need to force these keys into existence for upgrades but we don't
             // want to overwrite a cached true value
-            if (!isset($d["APIEnabled"])) {
-                $d["APIEnabled"] = false;
+            if (!isset($cachedData["APIEnabled"])) {
+                $cachedData["APIEnabled"] = false;
             }
 
-            if (!isset($d["APIVersionsSupported"])) {
-                $d["APIVersionsSupported"] = 0;
+            if (!isset($cachedData["APIVersionsSupported"])) {
+                $cachedData["APIVersionsSupported"] = 0;
             }
 
-            if (!isset($d["Network"])) {
-                $d["Network"] = $spdata[$i]["Network"];
+            if (!isset($cachedData["Network"])) {
+                $cachedData["Network"] = $spdata[$i]["Network"];
             }
 
             // first try the API
