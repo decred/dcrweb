@@ -87,7 +87,7 @@ $spdata = array(
         "LastAttempt" => 0,
         "LastUpdated" => 0,
         "Network" => "mainnet",
-        "URL" => "https://dcr.ubiqsmart.com/",
+        "URL" => "https://dcr.ubiqsmart.com",
     ),
     "Kilo" => array(
         //"LaunchedEpoch" => strtotime("Tue Feb  7 17:00:00 CDT 2017"),
@@ -129,7 +129,7 @@ case "dic":
 case "gcs":
     header("Content-Type: application/json");
     $gscData = getCoinSupply();
-    print json_encode($gscData, JSON_NUMERIC_CHECK|JSON_PRETTYPRINT);
+    print json_encode($gscData, JSON_NUMERIC_CHECK|JSON_PRETTY_PRINT);
     break;
 // get insight status
 case "gis":
