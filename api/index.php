@@ -87,7 +87,7 @@ $spdata = array(
         "LastAttempt" => 0,
         "LastUpdated" => 0,
         "Network" => "mainnet",
-        "URL" => "http://dcrstakepool.getjumbucks.com",
+        "URL" => "https://dcr.ubiqsmart.com/",
     ),
     "Kilo" => array(
         //"LaunchedEpoch" => strtotime("Tue Feb  7 17:00:00 CDT 2017"),
@@ -113,6 +113,11 @@ case "cc":
     } else {
         print "unauthorized\n";
     }
+    break;
+case "dc":
+    header("Content-Type: application/json");
+    $count = downloadsCount();
+    print json_encode(array("DownloadsCount", $count), JSON_NUMERIC_CHECK);
     break;
 // downloads image cache
 case "dic":
@@ -158,6 +163,29 @@ function array_shuffle(&$array) {
 function debugLog($s) {
     if ($GLOBALS["debug"]) {
         error_log($s);
+    }
+}
+
+function downloadsCount() {
+    $cacheTTL = 4 * 60 * 60;
+
+    // use the cached value if it is present
+    $cachedDownloadsCount = apcu_fetch("downloadsCount");
+    if (!empty($cachedDownloadsCount)) {
+        return $cachedDownloadsCount;
+    }
+
+    // get a new value and cache it if it's good
+    $newDownloadsCount = downloadsGetCount();
+    if ($newDownloadsCount > 0) {
+        $countString = round($newDownloadsCount / 1000) . "k";
+        apcu_store("downloadsCount", $countString, $cacheTTL);
+    }
+
+    // return a default count from just before 0.8.0 if no cache
+    // and couldn't get a new good count
+    if (!$count) {
+        return "61k";
     }
 }
 
