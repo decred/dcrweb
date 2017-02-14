@@ -1,7 +1,7 @@
-decred-web
-==========
+dcrweb
+======
 
-This is the code for the decred.org website.
+This is the code for the [decred.org](https://www.decred.org) website.
 
 ## License
 
