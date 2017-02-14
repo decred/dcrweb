@@ -17,7 +17,7 @@ $spdata = array(
         "Network" => "mainnet",
         "URL" => "https://dcr.stakepool.net",
     ),
-    "Charlie" => array(
+    /* Down/dead?  No response from admin.  "Charlie" => array(
         //"LaunchedEpoch" => strtotime("Sat Jul 23 17:11:00 CDT 2016"),
         "APIEnabled" => false,
         "APIVersionsSupported" => array(),
@@ -25,7 +25,7 @@ $spdata = array(
         "LastUpdated" => 0,
         "Network" => "mainnet",
         "URL" => "https://decredstakepool.com"
-    ),
+    ),*/
     "Delta" => array(
         //"LaunchedEpoch" => strtotime("Thu May 19 10:19:00 CDT 2016"),
         "APIEnabled" => false,
