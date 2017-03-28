@@ -130,25 +130,25 @@ $(document).ready(function() {
 
 	// data for d3pie.js piechart and for labels posiioning right
 	var pieData = [{
-	    "label": "Dev Premine",
-	    "value": 840000,
-	    "color": "#d6e4ff",
+	    "label": "PoW-mined",
+            "value": Math.floor(pow),
+            "color": "#85adff"
+	}, {
+            "label": "PoS-mined",
+            "value": Math.floor(pos),
+            "color": "#5c92ff"
+	}, {
+            "label": "Development Subsidy",
+            "value": Math.floor(devs),
+            "color": "#3377ff"
 	}, {
 	    "label": "Airdrop",
 	    "value": 840000,
 	    "color": "#adc9ff"
 	}, {
-	    "label": "PoW-mined",
-	    "value": Math.floor(pow),
-	    "color": "#85adff"
-	}, {
-	    "label": "PoS-mined",
-	    "value": Math.floor(pos),
-	    "color": "#5c92ff"
-	}, {
-	    "label": "Development Subsidy",
-	    "value": Math.floor(devs),
-	    "color": "#3377ff"
+            "label": "Dev Premine",
+            "value": 840000,
+            "color": "#d6e4ff",
 	}];
 
 
