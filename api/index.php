@@ -17,15 +17,6 @@ $spdata = array(
         "Network" => "mainnet",
         "URL" => "https://dcr.stakepool.net",
     ),
-    /* Down/dead?  No response from admin.  "Charlie" => array(
-        //"LaunchedEpoch" => strtotime("Sat Jul 23 17:11:00 CDT 2016"),
-        "APIEnabled" => false,
-        "APIVersionsSupported" => array(),
-        "LastAttempt" => 0,
-        "LastUpdated" => 0,
-        "Network" => "mainnet",
-        "URL" => "https://decredstakepool.com"
-    ),*/
     "Delta" => array(
         //"LaunchedEpoch" => strtotime("Thu May 19 10:19:00 CDT 2016"),
         "APIEnabled" => false,
@@ -360,10 +351,10 @@ function getInsightStatus() {
     return $status;
 }
 
-function getStakepoolStatsAPI($poolURL, $timeOut, $fields) {
+function getStakepoolStatsAPI($poolURL, $timeOut, $fields, $apiversion) {
     $empty = array();
 
-    $apiURL = "$poolURL/api/v1/stats";
+    $apiURL = "$poolURL/api/v${apiversion}/stats";
 
     debugLog("GET $apiURL");
     $c = curl_init($apiURL);
@@ -413,49 +404,6 @@ function getStakepoolStatsAPI($poolURL, $timeOut, $fields) {
     }
 }
 
-function getStakepoolStatsHTML($poolURL, $timeOut, $fields, $fieldtypes) {
-    $empty = array();
-
-    $htmlURL = "$poolURL/stats";
-
-    debugLog("GET $htmlURL");
-    $c = curl_init($htmlURL);
-    curl_setopt($c, CURLOPT_CONNECTTIMEOUT, $timeOut);
-    curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($c, CURLOPT_SSL_VERIFYPEER, 0);
-    // XXX if getstakeinfo isn't cached then this takes a long time
-    // XXX should probably be parallelized
-    curl_setopt($c, CURLOPT_TIMEOUT, $timeOut*3);
-    $r = curl_exec($c);
-    if ($r === false) {
-        error_log("curl error: " . curl_error($c) . " (errno: " . curl_errno($c)  . ") while scraping $htmlURL");
-        curl_close($c);
-        return $empty;
-    } else {
-        curl_close($c);
-        $stats = array();
-        foreach ($fields as $field) {
-            if (preg_match("/\<span id=\"{$field}\".*?\>(.*?)\<\/span\>/m", $r, $m)) {
-                if (stristr($m[1], "%")) {
-                    $m[1] = str_replace("%", "", $m[1]);
-                }
-
-                $fieldtype = $fieldtypes[$field];
-                switch ($fieldtype) {
-                case "float":
-                    $stats["field"] = floatval($m[1]);
-                case "int":
-                    $stats[$field] = intval($m[1]);
-                default:
-                    $stats[$field] = strval($m[1]);
-                }
-            }
-        }
-
-        return $stats;
-    }
-}
-
 function getStakepoolData($spdata) {
     $fields = array(
             "Immature",
@@ -464,7 +412,8 @@ function getStakepoolData($spdata) {
             "Missed",
             "PoolFees",
             "ProportionLive",
-            "UserCount"
+            "UserCount",
+            "UserCountActive",
     );
 
     $fieldtypes = array(
@@ -475,6 +424,7 @@ function getStakepoolData($spdata) {
             "PoolFees" => "float",
             "ProportionLive" => "float",
             "UserCount" => "int",
+            "UserCountActive" => "int",
     );
 
     $interval = 20 * 60;
@@ -510,24 +460,24 @@ function getStakepoolData($spdata) {
                 $cachedData["Network"] = $spdata[$i]["Network"];
             }
 
-            // first try the API
-            list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields);
+            // first try API v2
+            list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, 2);
 
-            // if the API worked then note that
+            // if API v2 worked then note that
             if (!empty($stats)) {
                 debugLog("got stats via API from {$cachedData["URL"]}");
                 $cachedData["APIEnabled"] = true;
-                // FIXME need to detect versions if there's ever more than v1
-                $cachedData["APIVersionsSupported"] = array(1);
+                $cachedData["APIVersionsSupported"] = array(1, 2);
             }
 
+            // try API v1 if v2 failed but only if we didn't timeout
             if (empty($stats)) {
-                // fall back to HTML but only if we didn't timeout
                 if (!$timedOut) {
-                    debugLog("trying stats via HTML from {$cachedData["URL"]}");
-                    $stats = getStakepoolStatsHTML($cachedData["URL"], $timeOut, $fields, $fieldtypes);
-                } else {
-                    debugLog("timed out getting stats via API from {$cachedData["URL"]}");
+                    list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, 1);
+                    debugLog("got stats via API from {$cachedData["URL"]}");
+                    // if API v1 worked then note that
+                    $cachedData["APIEnabled"] = true;
+                    $cachedData["APIVersionsSupported"] = array(1);
                 }
             }
 
