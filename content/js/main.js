@@ -555,5 +555,8 @@ $(document).ready(function() {
 	    	displayStakepools($(this));
 	}, time * 3));
 
+  if(window.location.href.indexOf('#modalOpen') != -1) {
+	$('#modalOpen').click();
+  }
 
 });
