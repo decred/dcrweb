@@ -88,6 +88,14 @@ $spdata = array(
         "LastUpdated" => 0,
         "Network" => "testnet",
         "URL" => "https://teststakepool.decred.org",
+    ),
+    "Lima" => array(
+        "APIEnabled" => false,
+        "APIVersionsSupported" => array(),
+        "LastAttempt" => 0,
+        "LastUpdated" => 0,
+        "Network" => "mainnet",
+        "URL" => "https://ultrapool.eu",
     )
 );
 
