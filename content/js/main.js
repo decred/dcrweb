@@ -310,6 +310,11 @@ $(document).ready(function() {
 	        child_ = header_.parent().parent(),
 	        block_ = child_.parent(),
 	        h_ = 0;
+	
+	    // do nothing if this section is already open
+	    if (child_.hasClass(active)) {
+	        return;
+	    }
 
 	    // reset counter for continue or back button
 	    counter = header.index(this);
