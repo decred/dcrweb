@@ -142,7 +142,12 @@ case "gsd":
     getStakepoolData($spdata);
     $allpooldata = array();
     foreach (array_keys($spdata) as $i) {
-        $allpooldata[$i] = apcu_fetch("spcache-{$i}");
+        $pooldata = apcu_fetch("spcache-{$i}");
+        if (!in_array(2, $pooldata["APIVersionsSupported"])) {
+            // don't output pools that are stuck on API v1
+            continue;
+        }
+        $allpooldata[$i] = $pooldata;
     }
     array_shuffle($allpooldata);
     print json_encode($allpooldata, JSON_NUMERIC_CHECK|JSON_PRETTY_PRINT);
