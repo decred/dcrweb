@@ -475,17 +475,17 @@ function getStakepoolData($spdata) {
                 $cachedData["Network"] = $spdata[$i]["Network"];
             }
 
-            // first try API v2
+            // first try current API version
             list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, STAKEPOOL_API_CURRENT_VERSION);
 
-            // if API v2 worked then note that
+            // if current API version worked then note that
             if (!empty($stats)) {
                 debugLog("got stats via API from {$cachedData["URL"]}");
                 $cachedData["APIEnabled"] = true;
                 $cachedData["APIVersionsSupported"] = array(1, STAKEPOOL_API_CURRENT_VERSION);
             }
 
-            // try API v1 if v2 failed but only if we didn't timeout
+            // fall back to old API version but only if we didn't timeout
             if (empty($stats)) {
                 if (!$timedOut) {
                     list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, 1);
