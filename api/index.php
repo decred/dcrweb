@@ -3,6 +3,8 @@
 $GLOBALS["clearcache"] = 0;
 $GLOBALS["debug"] = 0;
 
+define("STAKEPOOL_API_CURRENT_VERSION", 2);
+
 if ($GLOBALS["clearcache"]) {
     apcu_clear_cache();
 }
@@ -143,7 +145,7 @@ case "gsd":
     $allpooldata = array();
     foreach (array_keys($spdata) as $i) {
         $pooldata = apcu_fetch("spcache-{$i}");
-        if (!in_array(2, $pooldata["APIVersionsSupported"])) {
+        if (!in_array(STAKEPOOL_API_CURRENT_VERSION, $pooldata["APIVersionsSupported"])) {
             // don't output pools that are stuck on API v1
             continue;
         }
@@ -474,13 +476,13 @@ function getStakepoolData($spdata) {
             }
 
             // first try API v2
-            list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, 2);
+            list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, STAKEPOOL_API_CURRENT_VERSION);
 
             // if API v2 worked then note that
             if (!empty($stats)) {
                 debugLog("got stats via API from {$cachedData["URL"]}");
                 $cachedData["APIEnabled"] = true;
-                $cachedData["APIVersionsSupported"] = array(1, 2);
+                $cachedData["APIVersionsSupported"] = array(1, STAKEPOOL_API_CURRENT_VERSION);
             }
 
             // try API v1 if v2 failed but only if we didn't timeout
