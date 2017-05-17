@@ -102,6 +102,15 @@ $(document).ready(function() {
 	    icon = $('.icon'),
 	    footerBlockIndicator = $('.footerblockindicator'),
 
+	// navigation
+	navigationButton = $('.navigation-button'),
+	    navOpenClose = $('.nav-open-close'),
+	    linkSection = $('.link-section');
+
+	navigationButton.click(function() {
+		navOpenClose.add(linkSection).toggleClass('active');
+	});
+
 	// get data from external json and output correct values
 	$.getJSON(APIstats, function(json) {
 	    var supply_total = Math.floor((json.CoinSupplyMinedRaw / 100000000)),
