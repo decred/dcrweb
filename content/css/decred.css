@@ -1832,6 +1832,21 @@ body {
   background-image: url('../images/commandline.svg');
 }
 
+.section-card-title-download-page.ccminer {
+  background-image: url('../images/ccminer.svg');
+  background-size: 20px 20px;
+}
+
+.section-card-title-download-page.sgminer {
+  background-image: url('../images/sgminer.svg');
+  background-size: 20px 20px;
+}
+
+.section-card-title-download-page.gominer {
+  background-image: url('../images/gominer.svg');
+  background-size: 20px 20px;
+}
+
 .section-card-description-download {
   font-size: 13px;
   line-height: 17px;
