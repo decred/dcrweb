@@ -1762,6 +1762,10 @@ body {
   transition: box-shadow 100ms ease;
 }
 
+.section-card-download-page:target {
+  border: 2px solid #2970ff;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .35);
+}
 .section-card-download-page:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
