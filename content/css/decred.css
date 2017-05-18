@@ -1903,6 +1903,11 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
+  .font28 {
+  font-size: 22px;
+  text-decoration: none;
+}
+
   .logo {
     height: 79px;
     margin-left: -123px;
