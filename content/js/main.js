@@ -577,10 +577,10 @@ $(document).ready(function() {
 	$('.navigation-button').click();
   });
 
-alertbox(platform.os.family);
-alertbox(platform.os.architecture);
+alert(platform.os.family);
+alert(platform.os.architecture);
 
-	if (platform.os.family == "Windows" || platform.os.family == "Windows Server") {
+	if (platform.os.family == "Windows" || platform.os.family == "Windows Server" || platform.os.family == "Windows 7" || platform.os.family == "Windows 7 / Server 2008 R2") {
 		if (platform.os.architecture == "32") {
 			$(".win32dl").show();
 			$(".alldl").hide();
