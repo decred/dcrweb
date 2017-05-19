@@ -598,7 +598,7 @@ $(document).ready(function() {
 	}
 
 	if (platform.os.family == "OS X") {
-			$(".linuxdl").show();
+			$(".macdl").show();
 			$(".alldl").hide();
 	}
 });
