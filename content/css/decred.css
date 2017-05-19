@@ -113,6 +113,22 @@
   display: none;
 }
 
+.macdl {
+  display: none;
+}
+
+.linuxdl {
+  display: none;
+}
+
+.win32dl {
+  display: none;
+}
+
+.win64dl {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .width1180.modal {
     width: 100%;

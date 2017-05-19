@@ -577,4 +577,23 @@ $(document).ready(function() {
 	$('.navigation-button').click();
   });
 
+alert(platform.os.family);
+	if (platform.os.family == "Windows" || platform.os.family == "Windows Server") {
+		if (platform.os.architecture == "32") {
+			$(".win32dl").show();
+			$(".alldl").hide();
+		} else if (platform.os.architecture == "64") {
+			$(".win64dl").show();
+			$(".alldl").hide();
+		} else {
+			// shouldn't get here
+			$(".windl").show();
+			$(".alldl").hide();
+		}
+	}
+
+	if (platform.os.family == "Ubuntu") {
+			$(".linuxdl").show();
+			$(".alldl").hide();
+	}
 });
