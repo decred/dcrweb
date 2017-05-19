@@ -572,5 +572,9 @@ $(document).ready(function() {
   if(window.location.href.indexOf('#modalOpen') != -1) {
 	$('#modalOpen').click();
   }
+  $( "#modalOpen2" ).click(function() {
+    $('#modalOpen').click();
+	$('.navigation-button').click();
+  });
 
 });

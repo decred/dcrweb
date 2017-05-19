@@ -1045,7 +1045,7 @@ body {
   display: block;
   padding-top: 2px;
   padding-bottom: 4px;
-  padding-left: 35px;
+  padding-left: 29px;
   background-image: url('../images/iconDecredLightBlue.svg');
   background-position: 0px 100%;
   background-size: 32px;
@@ -1762,6 +1762,10 @@ body {
   transition: box-shadow 100ms ease;
 }
 
+.section-card-download-page:target {
+  border: 2px solid #2970ff;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, .35);
+}
 .section-card-download-page:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
@@ -1832,6 +1836,21 @@ body {
   background-image: url('../images/commandline.svg');
 }
 
+.section-card-title-download-page.ccminer {
+  background-image: url('../images/ccminer.svg');
+  background-size: 20px 20px;
+}
+
+.section-card-title-download-page.sgminer {
+  background-image: url('../images/sgminer.svg');
+  background-size: 20px 20px;
+}
+
+.section-card-title-download-page.gominer {
+  background-image: url('../images/gominer.svg');
+  background-size: 20px 20px;
+}
+
 .section-card-description-download {
   font-size: 13px;
   line-height: 17px;
@@ -1888,6 +1907,12 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
+  .description.font28 {
+  font-size: 20px;
+  text-decoration: none;
+  line-height:20px;
+}
+
   .logo {
     height: 79px;
     margin-left: -123px;
