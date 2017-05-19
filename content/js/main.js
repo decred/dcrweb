@@ -577,6 +577,8 @@ $(document).ready(function() {
 	$('.navigation-button').click();
   });
 
+alertbox(platform.os.family);
+alertbox(platform.os.architecture);
 
 	if (platform.os.family == "Windows" || platform.os.family == "Windows Server") {
 		if (platform.os.architecture == "32") {
