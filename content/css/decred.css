@@ -1907,9 +1907,10 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
-  .font28 {
-  font-size: 22px;
+  .description.font28 {
+  font-size: 20px;
   text-decoration: none;
+  line-height:20px;
 }
 
   .logo {
