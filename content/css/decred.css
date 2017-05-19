@@ -113,6 +113,26 @@
   display: none;
 }
 
+.macdl {
+  display: none;
+}
+
+.linuxdl {
+  display: none;
+}
+
+.win32dl {
+  display: none;
+}
+
+.win64dl {
+  display: none;
+}
+
+.windl {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .width1180.modal {
     width: 100%;
@@ -1907,6 +1927,7 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
+
   .description.font28 {
   font-size: 20px;
   text-decoration: none;
