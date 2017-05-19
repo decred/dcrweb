@@ -577,7 +577,7 @@ $(document).ready(function() {
 	$('.navigation-button').click();
   });
 
-alert(platform.os.family);
+
 	if (platform.os.family == "Windows" || platform.os.family == "Windows Server") {
 		if (platform.os.architecture == "32") {
 			$(".win32dl").show();
@@ -593,6 +593,11 @@ alert(platform.os.family);
 	}
 
 	if (platform.os.family == "Ubuntu") {
+			$(".linuxdl").show();
+			$(".alldl").hide();
+	}
+
+	if (platform.os.family == "OS X") {
 			$(".linuxdl").show();
 			$(".alldl").hide();
 	}

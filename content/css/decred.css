@@ -129,6 +129,10 @@
   display: none;
 }
 
+.windl {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .width1180.modal {
     width: 100%;
