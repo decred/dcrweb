@@ -592,7 +592,7 @@ $(document).ready(function() {
 		}
 	}
 
-	if (platform.os.family == "Ubuntu") {
+	if (platform.os.family == "CentOS" || platform.os.family == "Debian" || platform.os.family == "Fedora" || platform.os.family == "Gentoo" || platform.os.family == "Kubuntu" || platform.os.family == "Linux Mint" || platform.os.family == "Red Hat" || platform.os.family == "SuSE" || platform.os.family == "Ubuntu" || platform.os.family == "Xubuntu" || platform.os.family == "Linux") {
 			$(".linuxdl").show();
 			$(".alldl").hide();
 	}
