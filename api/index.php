@@ -3,6 +3,7 @@
 $GLOBALS["clearcache"] = 0;
 $GLOBALS["debug"] = 0;
 
+define("STAKEPOOL_API_INITIAL_VERSION", 1);
 define("STAKEPOOL_API_CURRENT_VERSION", 2);
 
 if ($GLOBALS["clearcache"]) {
@@ -145,8 +146,8 @@ case "gsd":
     $allpooldata = array();
     foreach (array_keys($spdata) as $i) {
         $pooldata = apcu_fetch("spcache-{$i}");
-        if (!in_array(STAKEPOOL_API_CURRENT_VERSION, $pooldata["APIVersionsSupported"])) {
-            // don't output pools that are stuck on API v1
+        // skip dcrstakes until they upgrade to the current API
+        if ($pooldata["URL"] == "https://dcrstakes.com" && !in_array(STAKEPOOL_API_CURRENT_VERSION, $pooldata["APIVersionsSupported"])) {
             continue;
         }
         $allpooldata[$i] = $pooldata;
@@ -480,19 +481,26 @@ function getStakepoolData($spdata) {
 
             // if current API version worked then note that
             if (!empty($stats)) {
-                debugLog("got stats via API from {$cachedData["URL"]}");
+                debugLog("got stats via APIv" . STAKEPOOL_API_CURRENT_VERSION . " from {$cachedData["URL"]}");
                 $cachedData["APIEnabled"] = true;
-                $cachedData["APIVersionsSupported"] = array(1, STAKEPOOL_API_CURRENT_VERSION);
+                $cachedData["APIVersionsSupported"] = array(
+                    STAKEPOOL_API_INITIAL_VERSION,
+                    STAKEPOOL_API_CURRENT_VERSION
+                );
             }
 
             // fall back to old API version but only if we didn't timeout
             if (empty($stats)) {
                 if (!$timedOut) {
                     list ($timedOut, $stats) = getStakepoolStatsAPI($cachedData["URL"], $timeOut, $fields, 1);
-                    debugLog("got stats via API from {$cachedData["URL"]}");
                     // if API v1 worked then note that
-                    $cachedData["APIEnabled"] = true;
-                    $cachedData["APIVersionsSupported"] = array(1);
+                    if (!$timedOut && !empty($stats)) {
+                        debugLog("got stats via APIv " . STAKEPOOL_API_INITIAL_VERSION . " from {$cachedData["URL"]}");
+                        $cachedData["APIEnabled"] = true;
+                        $cachedData["APIVersionsSupported"] = array(
+                            STAKEPOOL_API_INITIAL_VERSION
+                        );
+                    }
                 }
             }
 
