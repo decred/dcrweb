@@ -10,6 +10,8 @@ if ($GLOBALS["clearcache"]) {
     apcu_clear_cache();
 }
 
+// header('Access-Control-Allow-Origin: *');
+
 $spdata = array(
     "Bravo" => array(
         //"LaunchedEpoch" => strtotime("Sun May 22 17:54:00 CDT 2016"),
@@ -445,7 +447,7 @@ function getStakepoolData($spdata) {
 
     $interval = 20 * 60;
     $timeOut = 2;
-    
+
     foreach (array_keys($spdata) as $i) {
         $cachedData = apcu_fetch("spcache-{$i}");
         $stats = array();

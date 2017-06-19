@@ -1,0 +1,635 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: src/downloads/index.html:128
+msgid "3RD PARTY WALLETS"
+msgstr ""
+
+#: src/index.html:449
+msgid "<!-- localized footer social media links -->"
+msgstr ""
+
+#: src/index.html:504
+msgid "<!-- localized social media links -->"
+msgstr ""
+
+#: src/index.html:249
+msgid ""
+"<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">begin with D and contain 26-36 alphanumeric characters</a>.</p>\n"
+"\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
+"\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
+msgstr ""
+
+#: src/index.html:176
+msgid ""
+"<p>Decred is a multi-platform digital currency with support for Windows, Mac, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
+"\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
+msgstr ""
+
+#: src/index.html:342
+msgid "<p>Decred is still new, and at this time, the easiest way to purchase it is with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\">Once you have some Bitcoin</a>, it can be traded for Decred <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\">at cryptocurrency exchanges</a>.</p>"
+msgstr ""
+
+#: src/index.html:295
+msgid ""
+"<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p>\n"
+"\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
+"\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
+msgstr ""
+
+#: src/index.html:389
+msgid ""
+"<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2017:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Hard fork voting</li>\n"
+"                <li>A stakeholder-directed DAO</li>\n"
+"                <li>Decentralized control of development funds</li>\n"
+"                <li>Lightning network support</li>\n"
+"                <li>Continuous UI and Design development</li>\n"
+"                <li>Enhanced privacy</li>\n"
+"                <li>Payment integration</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Read about these and more on <a href=\"https://blog.decred.org\" target=\"_blank\">our blog</a> and welcome to Decred: the future of digital currency.</p>"
+msgstr ""
+
+#: src/index.html:225
+msgid ""
+"<p>The Web Wallet is the easiest way to get started with Decred. All users can access it online via <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, without needing to download anything.</p>\n"
+"\t\t<p>For Windows users, <a href=\"downloads/#paymetheus\">Paymetheus wallet</a> will help you get online in just a few minutes.</p>\n"
+"\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
+"    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
+msgstr ""
+
+#: src/index.html:273
+msgid ""
+"<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
+"\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
+msgstr ""
+
+#: src/index.html:199
+msgid ""
+"<p>There are three main ways to interact with Decred:</p>\n"
+"\t\t<p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p>\n"
+"\t\t<p><strong>Proof-of-Work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
+"\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
+msgstr ""
+
+#: src/index.html:365
+msgid ""
+"<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
+"We can't wait to meet you!</p>"
+msgstr ""
+
+#: src/index.html:317
+msgid ""
+"<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
+"\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+msgstr ""
+
+#: src/downloads/index.html:97
+msgid "A cross-platform, automatic installer/updater for the command-line applications."
+msgstr ""
+
+#: src/downloads/index.html:38
+#: src/index.html:484
+msgid "About"
+msgstr ""
+
+#: src/index.html:515
+msgid "Airdrop"
+msgstr ""
+
+#: src/index.html:64
+msgid "All Downloads  →"
+msgstr ""
+
+#: src/index.html:181
+#: src/index.html:205
+#: src/index.html:230
+#: src/index.html:276
+#: src/index.html:299
+#: src/index.html:321
+#: src/index.html:345
+#: src/index.html:369
+#: src/index.html:402
+msgid "Back"
+msgstr ""
+
+#: src/downloads/index.html:42
+#: src/index.html:488
+msgid "Blog"
+msgstr ""
+
+#: src/index.html:336
+msgid "Buying And Trading Decred"
+msgstr ""
+
+#: src/downloads/index.html:69
+msgid "CORE SOFTWARE"
+msgstr ""
+
+#: src/downloads/index.html:107
+msgid "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred team."
+msgstr ""
+
+#: src/index.html:38
+msgid "Close"
+msgstr ""
+
+#: src/downloads/index.html:96
+msgid "Command Line Suite"
+msgstr ""
+
+#: src/index.html:148
+msgid "Community And Principles"
+msgstr ""
+
+#: src/brand/index.html:93
+msgid "Complimentary Colors"
+msgstr ""
+
+#: src/index.html:180
+#: src/index.html:204
+#: src/index.html:229
+#: src/index.html:275
+#: src/index.html:298
+#: src/index.html:320
+#: src/index.html:344
+#: src/index.html:368
+#: src/index.html:401
+msgid "Continue"
+msgstr ""
+
+#: src/downloads/index.html:91
+msgid "Create a browser based Wallet"
+msgstr ""
+
+#: src/brand/index.html:77
+msgid "Dark Blue"
+msgstr ""
+
+#: src/index.html:5
+msgid "Decred - decentralized credit"
+msgstr ""
+
+#: src/downloads/index.html:5
+#: src/downloads/index.html:7
+#: src/downloads/index.html:8
+#: src/downloads/index.html:9
+msgid "Decred - downloads"
+msgstr ""
+
+#: src/brand/index.html:133
+#: src/index.html:415
+msgid "Decred Developers"
+msgstr ""
+
+#: src/downloads/index.html:57
+#: src/index.html:507
+msgid "Decred Developers 2017"
+msgstr ""
+
+#: src/index.html:123
+msgid ""
+"Decred fosters a multi-stakeholder development ecosystem that welcomes and empowers participants who want to improve on existing features or build new tools.\n"
+"                <br>\n"
+"                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
+msgstr ""
+
+#: src/index.html:53
+msgid "Decred is an open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain."
+msgstr ""
+
+#: src/index.html:136
+msgid ""
+"Decred is constructing a layered governance organization that extends beyond the miners and users to bring forward and represent insider and outsider voices in the community.\n"
+"                <br>\n"
+"                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
+msgstr ""
+
+#: src/index.html:107
+msgid ""
+"Decred uses a hybridized consensus system to strike a balance between <u>miners</u>* and users to create a more robust currency.\n"
+"                <br>\n"
+"                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
+msgstr ""
+
+#: src/downloads/index.html:80
+msgid "Decrediton"
+msgstr ""
+
+#: src/index.html:58
+msgid "Decrediton For Linux"
+msgstr ""
+
+#: src/index.html:57
+msgid "Decrediton For Mac OS X"
+msgstr ""
+
+#: src/brand/index.html:123
+msgid "Decred’s identity helps to represent it across different platforms and amongst digital currencies. It helps new and existing users to recognise it, gain trust and become more engaged. The toolkit provides direction and makes it easier for anyone to communicate about Decred. It contains a set of simple + practical tools, principles and guides for different contexts and use cases."
+msgstr ""
+
+#: src/index.html:516
+msgid "Dev Premine"
+msgstr ""
+
+#: src/index.html:122
+#: src/index.html:86
+msgid "Development"
+msgstr ""
+
+#: src/index.html:514
+msgid "Development Subsidy"
+msgstr ""
+
+#: src/brand/index.html:140
+#: src/downloads/index.html:41
+#: src/index.html:422
+#: src/index.html:487
+msgid "Documentation"
+msgstr ""
+
+#: src/brand/index.html:124
+msgid "Download Full Package"
+msgstr ""
+
+#: src/brand/index.html:55
+msgid "Download Logo Package"
+msgstr ""
+
+#: src/index.html:56
+#: src/index.html:57
+#: src/index.html:58
+#: src/index.html:59
+#: src/index.html:60
+#: src/index.html:61
+msgid "Download Wallet"
+msgstr ""
+
+#: src/downloads/index.html:40
+#: src/downloads/index.html:64
+#: src/index.html:486
+#: src/index.html:92
+msgid "Downloads"
+msgstr ""
+
+#: src/downloads/index.html:130
+msgid "Exodus"
+msgstr ""
+
+#: src/downloads/index.html:131
+msgid "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets."
+msgstr ""
+
+#: src/downloads/index.html:133
+msgid "Exodus releases"
+msgstr ""
+
+#: src/index.html:39
+msgid "Find A Stakepool"
+msgstr ""
+
+#: src/index.html:56
+msgid "For Your Computer"
+msgstr ""
+
+#: src/downloads/index.html:72
+msgid "GUI wallet for Windows"
+msgstr ""
+
+#: src/downloads/index.html:81
+msgid "GUI wallet for macOS and Linux"
+msgstr ""
+
+#: src/downloads/index.html:39
+#: src/index.html:485
+#: src/index.html:62
+msgid "Getting Started"
+msgstr ""
+
+#: src/index.html:135
+msgid "Governance"
+msgstr ""
+
+#: src/brand/index.html:107
+msgid "Green"
+msgstr ""
+
+#: src/downloads/index.html:65
+msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"paragraph-link\">Getting Started</a> tour or the <a href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if you want to dig deeper."
+msgstr ""
+
+#: src/index.html:359
+msgid "Join The Community"
+msgstr ""
+
+#: src/brand/index.html:63
+msgid "Key blue"
+msgstr ""
+
+#: src/index.html:111
+msgid "Learn more about the technology"
+msgstr ""
+
+#: src/brand/index.html:100
+msgid "Light blue"
+msgstr ""
+
+#: src/downloads/index.html:85
+msgid "Linux 64-bit"
+msgstr ""
+
+#: src/index.html:423
+msgid "Logo and Branding"
+msgstr ""
+
+#: src/downloads/index.html:47
+#: src/index.html:493
+msgid "Logo and Visuals"
+msgstr ""
+
+#: src/brand/index.html:49
+msgid "Logo package"
+msgstr ""
+
+#: src/downloads/index.html:104
+msgid "MINING SOFTWARE"
+msgstr ""
+
+#: src/index.html:267
+msgid "Mining"
+msgstr ""
+
+#: src/index.html:44
+msgid "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) miner&nbsp;and may not necessarily be the fault of the pool."
+msgstr ""
+
+#: src/brand/index.html:144
+#: src/downloads/index.html:44
+#: src/index.html:426
+#: src/index.html:490
+msgid "Network Stats"
+msgstr ""
+
+#: src/downloads/index.html:93
+msgid "No downloads required."
+msgstr ""
+
+#: src/index.html:44
+msgid "Notice:"
+msgstr ""
+
+#: src/index.html:7
+#: src/index.html:9
+msgid "Open and progressive cryptocurrency with a system of community-based governance integrated into its blockchain."
+msgstr ""
+
+#: src/brand/index.html:114
+msgid "Orange"
+msgstr ""
+
+#: src/index.html:169
+msgid "Overview"
+msgstr ""
+
+#: src/downloads/index.html:71
+msgid "Paymetheus"
+msgstr ""
+
+#: src/index.html:61
+msgid "Paymetheus For Windows"
+msgstr ""
+
+#: src/index.html:59
+msgid "Paymetheus For Windows 32bit"
+msgstr ""
+
+#: src/index.html:60
+msgid "Paymetheus For Windows 64bit"
+msgstr ""
+
+#: src/index.html:383
+msgid "Planned Features"
+msgstr ""
+
+#: src/index.html:513
+msgid "PoS-mined"
+msgstr ""
+
+#: src/index.html:512
+msgid "PoW-mined"
+msgstr ""
+
+#: src/brand/index.html:56
+msgid "Primary Colors"
+msgstr ""
+
+#: src/index.html:311
+msgid "Proof-of-Stake Mining"
+msgstr ""
+
+#: src/index.html:289
+msgid "Proof-of-Work Mining"
+msgstr ""
+
+#: src/brand/index.html:46
+msgid "Quick-use toolkit"
+msgstr ""
+
+#: src/index.html:151
+msgid "Read the Decred Constitution"
+msgstr ""
+
+#: src/index.html:243
+msgid "Send and Receive Decred"
+msgstr ""
+
+#: src/index.html:88
+msgid "Stable Version"
+msgstr ""
+
+#: src/downloads/index.html:46
+#: src/index.html:427
+#: src/index.html:492
+msgid "Stakepools"
+msgstr ""
+
+#: src/index.html:41
+msgid ""
+"Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
+"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+msgstr ""
+
+#: src/index.html:517
+msgid "Start again"
+msgstr ""
+
+#: src/index.html:71
+msgid "Statistics"
+msgstr ""
+
+#: src/index.html:79
+msgid "Supply distribution"
+msgstr ""
+
+#: src/brand/index.html:139
+#: src/downloads/index.html:43
+#: src/index.html:421
+#: src/index.html:489
+msgid "Technical Brief"
+msgstr ""
+
+#: src/index.html:106
+msgid "Technology"
+msgstr ""
+
+#: src/index.html:193
+msgid "The Basics"
+msgstr ""
+
+#: src/index.html:219
+msgid "The Wallets"
+msgstr ""
+
+#: src/index.html:149
+msgid "The project is bound by the Decred Constitution, so users can know what to expect: a finite number of coins, decentralized governance and a place to share their views. &nbsp;Decred's community plays an important role in making decisions, both informally via the forum and formally via the blockchain."
+msgstr ""
+
+#: src/index.html:62
+msgid "The quick tour"
+msgstr ""
+
+#: src/downloads/index.html:114
+msgid "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
+msgstr ""
+
+#: src/downloads/index.html:121
+msgid "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
+msgstr ""
+
+#: src/index.html:160
+msgid "This tour will help you get started with Decred"
+msgstr ""
+
+#: src/index.html:45
+msgid "To protect de-centralization of the network, it is recommended to avoid pools that have over 5% of network votes."
+msgstr ""
+
+#: src/brand/index.html:70
+msgid "Turquiose"
+msgstr ""
+
+#: src/brand/index.html:82
+msgid "Typography"
+msgstr ""
+
+#: src/downloads/index.html:99
+msgid "View on GitHub"
+msgstr ""
+
+#: src/brand/index.html:11
+#: src/brand/index.html:39
+#: src/brand/index.html:9
+msgid "Visual communication toolkit"
+msgstr ""
+
+#: src/downloads/index.html:45
+#: src/index.html:491
+msgid "Voting"
+msgstr ""
+
+#: src/index.html:428
+msgid "Voting Dashboard"
+msgstr ""
+
+#: src/index.html:45
+msgid "Warning:"
+msgstr ""
+
+#: src/downloads/index.html:89
+msgid "Webwallet"
+msgstr ""
+
+#: src/downloads/index.html:76
+msgid "Win 32-bit"
+msgstr ""
+
+#: src/downloads/index.html:74
+msgid "Win 64-bit"
+msgstr ""
+
+#: src/brand/index.html:3
+#: src/downloads/index.html:2
+#: src/index.html:2
+msgid "_direction"
+msgstr ""
+
+#: src/brand/index.html:3
+#: src/downloads/index.html:2
+#: src/index.html:2
+msgid "_language"
+msgstr ""
+
+#: src/downloads/index.html:113
+msgid "ccminer"
+msgstr ""
+
+#: src/downloads/index.html:116
+msgid "ccminer releases"
+msgstr ""
+
+#: src/index.html:8
+msgid "deCRED - decentralized credit"
+msgstr ""
+
+#: src/brand/index.html:10
+#: src/brand/index.html:7
+msgid "deCRED brand"
+msgstr ""
+
+#: src/brand/index.html:154
+#: src/index.html:438
+msgid "downloads"
+msgstr ""
+
+#: src/downloads/index.html:106
+msgid "gominer"
+msgstr ""
+
+#: src/downloads/index.html:109
+msgid "gominer releases"
+msgstr ""
+
+#: src/downloads/index.html:83
+msgid "macOS"
+msgstr ""
+
+#: src/index.html:73
+msgid "mined so far"
+msgstr ""
+
+#: src/downloads/index.html:120
+msgid "sgminer"
+msgstr ""
+
+#: src/downloads/index.html:123
+msgid "sgminer releases"
+msgstr ""
+
+#: src/index.html:433
+msgid "stable"
+msgstr ""
+
+#: src/brand/index.html:153
+#: src/index.html:437
+#: src/index.html:94
+msgid "total"
+msgstr ""
+
+#: src/brand/index.html:141
+msgid "← Main Website"
+msgstr ""
