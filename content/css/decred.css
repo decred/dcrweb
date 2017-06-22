@@ -1840,6 +1840,10 @@ body {
   font-weight: 600;
 }
 
+.section-card-title-download-page.exodus {
+  background-image: url('../images/exodus-color-for-loght-bg.png');
+  background-size: 20px 20px;
+}
 .section-card-title-download-page.paymetheus {
   background-image: url('../images/paymetheus.svg');
 }
