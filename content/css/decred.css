@@ -1027,6 +1027,10 @@ body {
   background-image: url('../images/iconIrc.svg');
 }
 
+.youtube {
+  background-image: url('../images/iconYoutube.svg');
+}
+
 .footerblockindicator {
   display: inline-block;
   margin-top: 9px;
@@ -1664,6 +1668,10 @@ body {
 
 .nav-social-link.nav-reddit {
   background-image: url('../images/icon-nav-reddit.svg');
+}
+
+.nav-social-link.nav-youtube {
+  background-image: url('../images/icon-nav-youtube.svg');
 }
 
 .nav-dcr-dev-link {
