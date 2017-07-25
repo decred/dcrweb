@@ -1,6 +1,6 @@
 {
   "name": "dcrweb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Decred website code",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
     "transifex:pull": "tx pull -a",
     "transifex:push": "grunt nggettext_extract  && tx push -s",
     "build": "grunt",
-    "deploy:build": "npm run build && docker build  --no-cache --rm --force-rm -t decred/dcrweb:$npm_package_version -f dockerfiles/www/Dockerfile .",
+    "deploy:build": "npm run build && docker build  --no-cache --rm --force-rm -t decred/dcrweb:$npm_package_version .",
     "deploy:preflight": "npm run deploy:build && docker run -p 8080:80 --rm decred/dcrweb:$npm_package_version",
     "deploy:run": "npm run build && docker run -d -p 80:80 decred/dcrweb:$npm_package_version",
     "dev": "docker run -p 8080:80 --rm -it -v `pwd`/build:/var/www/html decred/dcrweb"
