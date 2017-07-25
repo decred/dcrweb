@@ -1,0 +1,38 @@
+{
+  "name": "dcrweb",
+  "version": "1.0.2",
+  "description": "Decred website code",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "grunt serve",
+    "transifex:pull": "tx pull -a",
+    "transifex:push": "grunt nggettext_extract  && tx push -s",
+    "build": "grunt",
+    "deploy:build": "npm run build && docker build  --no-cache --rm --force-rm -t decred/dcrweb:$npm_package_version .",
+    "deploy:preflight": "npm run deploy:build && docker run -p 8080:80 --rm decred/dcrweb:$npm_package_version",
+    "deploy:run": "npm run build && docker run -d -p 80:80 decred/dcrweb:$npm_package_version",
+    "dev": "docker run -p 8080:80 --rm -it -v `pwd`/build:/var/www/html decred/dcrweb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decred/dcrweb/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-gettext": "^2.3.10",
+    "connect-livereload": "^0.6.0",
+    "grunt": "^0.4.1",
+    "grunt-angular-gettext": "^2.3.5",
+    "grunt-angular-gettext-generate-html": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "serve-static": "^1.12.3"
+  }
+}

@@ -1,0 +1,713 @@
+# Translators:
+# Peter Banik <peter@froggle.org>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/decred/teams/76223/ru/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: src/downloads/index.html:128
+msgid "3RD PARTY WALLETS"
+msgstr "Сторонние кошельки"
+
+#: src/index.html:449
+msgid "<!-- localized footer social media links -->"
+msgstr ""
+
+#: src/index.html:504
+msgid "<!-- localized social media links -->"
+msgstr ""
+
+#: src/index.html:249
+msgid ""
+"<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">begin with D and contain 26-36 alphanumeric characters</a>.</p>\n"
+"\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
+"\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
+msgstr ""
+"Адрес — это единственное что вам нужно для отправки и получения средств. Его легко сгенерировать в любом кошельке Decred. Адреса Decred всегда <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">начинаются с буквы D и состоят из 26-36 буквено-цифровых знаков</a>.<p>\n"
+"\t\tПосле совершения транзацкии средства чаще всего поступают в течении 5 минут. С отправителя списывается небольшая плата направленная на развитие сети. Ее сумма зависит от количества отправленных средств. Например, отправка 100DCR будет стоить 0.006DCR<p>\n"
+"\t\t<p><a href=\"https://mainnet.decred.org\" target=\"_blank\">Главный обозреватель блоков сети </a> позволяет пользователям искать по блоками и отслеживать транзакции в блокчейне Decred."
+
+#: src/index.html:176
+msgid ""
+"<p>Decred is a multi-platform digital currency with support for Windows, Mac, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
+"\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
+msgstr ""
+"<p>Decred это мультиплатформенная цифровая валюта с поддержкой Windows, Mac и Linux. Удобные кошельки позволяют отправлять, получать и майнить Decred парой кликов.</p>\n"
+"\t\t<p>Для тех кому по душе тонкая настройка, Decred предоставляет полный набор инструментов командной строки позволяющих настроить детали под себя.</p>"
+
+#: src/index.html:342
+msgid ""
+"<p>Decred is still new, and at this time, the easiest way to purchase it is "
+"with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-"
+"dcr/#bitcoin\" title=\"_blank\">Once you have some Bitcoin</a>, it can be "
+"traded for Decred <a href=\"https://docs.decred.org/getting-started"
+"/obtaining-dcr/#exchanges\" title=\"_blank\">at cryptocurrency "
+"exchanges</a>.</p>"
+msgstr ""
+"<p>На данный момент Decred проще всего купить за Биткоины. <a "
+"href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" "
+"title=\"_blank\">Если у вас уже есть Биткоины </a>, то вы с легкостью "
+"сможете обменять их на Decred  <a href=\"https://docs.decred.org/getting-"
+"started/obtaining-dcr/#exchanges\" title=\"_blank\"> через криптовалютные "
+"биржи  и обменники.</a></p>"
+
+#: src/index.html:295
+msgid ""
+"<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p>\n"
+"\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
+"\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
+msgstr ""
+"<p>В <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> транзакции сгруппированы в блоки. Эти блоки проверяются PoW-майнерами. Когда блок проверен он становится постоянной частью сети Decred.</p>\n"
+"\t\t<p>Вы можете стать майнером предоставив часть своих вычислительных ресурсов сети. За это вы будете получать вознаграждение в DCR.</p>\n"
+"\t\t<p>Для удобства и эффективности вы можете присоединиться к <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">майнинговым пулам</a>. Пулы это группы майнеров которые разделяют работу и награды. Присоединие к майнинговым пулам это прекрасная возможность небольшим участникам получать постоянные награды за свою работу."
+
+#: src/index.html:389
+msgid ""
+"<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2017:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Hard fork voting</li>\n"
+"                <li>A stakeholder-directed DAO</li>\n"
+"                <li>Decentralized control of development funds</li>\n"
+"                <li>Lightning network support</li>\n"
+"                <li>Continuous UI and Design development</li>\n"
+"                <li>Enhanced privacy</li>\n"
+"                <li>Payment integration</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Read about these and more on <a href=\"https://blog.decred.org\" target=\"_blank\">our blog</a> and welcome to Decred: the future of digital currency.</p>"
+msgstr ""
+"<p>Часть награды от новых блоков идет на развитие и поддержание сети Decred. Это позволяет быть уверенным в постоянном улучшении, с учетом пожеланий пользователей, в долгосрочной перспективе. Запланированные на 2017 год улучшения:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Голосование по Hark Fork</li>\n"
+"<li>Преобразование в децентрализованную автономную организацию.</li>\n"
+"<li>Децентрализованный контроль над средствами идущими на развитие сети</li>\n"
+"<li>Поддержка Lightning Network</li>\n"
+"<li>Продолжение улучшений в UI и удобстве пользования</li>\n"
+"<li>Улучшение безопасности</li>\n"
+"<li>Интеграция Decred как платежной системы для различных сервисов</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Чтобы узнать подробности ознакомьтесь с нашим <a href=\"https://blog.decred.org\" target=\"_blank\">блогом</a>. Добро пожаловать в будущее цифровой валюты — Decred.</p>"
+
+#: src/index.html:225
+msgid ""
+"<p>The Web Wallet is the easiest way to get started with Decred. All users can access it online via <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, without needing to download anything.</p>\n"
+"\t\t<p>For Windows users, <a href=\"downloads/#paymetheus\">Paymetheus wallet</a> will help you get online in just a few minutes.</p>\n"
+"\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
+"    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
+msgstr ""
+"<p>Веб-кошелек это наиболее простой способ начать использовать Decred. Он доступен онлайн, без необходимости скачивать и устанавливать приложения: <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>\n"
+"</p>\n"
+"\t\t<p>Для пользователей Windows так же доступен удобный и быстрый кошелек <a href=\"downloads/#paymetheus\">Paymetheus</a>.</p>\n"
+"\t\t<p>Для пользователей Mac и Linux подойдет кошелек <a href=\"downloads/#paymetheus\">Decrediton</a>. </p>\n"
+"<p>Для работы рекомендуем ознакомиться с <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Информацией для новых пользователей</a>.</p>"
+
+#: src/index.html:273
+msgid ""
+"<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
+"\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
+msgstr ""
+"<p>Под термином \"майнинг\" понимается процесс проверки безопасности транзакций сети Decred. За свою работу майнеры получают сгенерированные в этом процессе токены Decred.</p>\n"
+"\t\t<p>В Decred существует два метода проверки транзакций:  Proof-of-Work (PoW) и Proof-of-Stake (PoS).</p>"
+
+#: src/index.html:199
+msgid ""
+"<p>There are three main ways to interact with Decred:</p>\n"
+"\t\t<p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p>\n"
+"\t\t<p><strong>Proof-of-Work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
+"\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
+msgstr ""
+"<p>Есть три варианта взаимодействия с Decred</p>\n"
+"\t\t<p><strong>Кошелек</strong>— для отправки и получения средств, а так же участия в PoS-майнинге.</p>\n"
+"\t\t<p><strong> Proof-of-Work майнинг</strong> — использование вычислительных ресурсов для проверки транзакций сети и генерации новых токенов Decred.</p>\n"
+"\t\t<p><strong>Proof-of-Stake майнинг</strong> — Использование средств для голосования по важным вопросам сети и проверки транзакций за вознаграждение.</p>"
+
+#: src/index.html:365
+msgid ""
+"<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
+"We can't wait to meet you!</p>"
+msgstr ""
+"<p>В процессе децентрализации люди с разными идеями, целями и мнениями могут формировать будущее. У вас скорее всего остались вопросы, поэтому присоединяйтесь к нашему сообществу. Здесь вы можете пообщаться с разработчиками, другими пользователями, узнать информацию, задать вопросы или просто хорошо провести время.\n"
+"Добро пожаловать на <a href=\"https://forum.decred.org\" title=\"_blank\">форум</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC-канал</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram-канал</a> и наш <a href=\"https://slack.decred.org\" title=\"_blank\">Slack</a>, для общения с командой в реальном времени. Не забудьте про наш <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> и <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>\n"
+"Будем рады услышать ваше мнение.</p>"
+
+#: src/index.html:317
+msgid ""
+"<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
+"\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+msgstr ""
+"<p>В отличии от PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake майнинг (PoS)</a> требует совсем немного вычислительных ресурсов. Средства Decred используются для покупки голосующих билетов сети. Каждый блок 5 билетов из пула выбираются случайным образом для подтверждения предыдущего блока.</p>\n"
+"\t\t<p>PoS это дополнительный элемент децентрализации сети Decred, кроме того он позволяет пользователям голосовать по важным изменениям сети. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS так же доступен через пулы для легкого доступа к голосующим билетам.</p>"
+
+#: src/downloads/index.html:97
+msgid ""
+"A cross-platform, automatic installer/updater for the command-line "
+"applications."
+msgstr ""
+"Кросс-платформенный автоматический установщик/апдейтер для средств командной"
+" строки."
+
+#: src/downloads/index.html:38 src/index.html:484
+msgid "About"
+msgstr "О Decred"
+
+#: src/index.html:515
+msgid "Airdrop"
+msgstr ""
+
+#: src/index.html:64
+msgid "All Downloads  →"
+msgstr "All Downloads →"
+
+#: src/index.html:181 src/index.html:205 src/index.html:230 src/index.html:276
+#: src/index.html:299 src/index.html:321 src/index.html:345 src/index.html:369
+#: src/index.html:402
+msgid "Back"
+msgstr "Назад"
+
+#: src/downloads/index.html:42 src/index.html:488
+msgid "Blog"
+msgstr "Блог"
+
+#: src/index.html:336
+msgid "Buying And Trading Decred"
+msgstr "Покупка и трейдинг Decred"
+
+#: src/downloads/index.html:69
+msgid "CORE SOFTWARE"
+msgstr "КЛЮЧЕВОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ"
+
+#: src/downloads/index.html:107
+msgid ""
+"CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
+"team."
+msgstr ""
+"CUDA/OpenCL майнер для AMD/NVIDIA GPU. Официально поддерживаемый командой "
+"Decred."
+
+#: src/index.html:38
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/downloads/index.html:96
+msgid "Command Line Suite"
+msgstr "Комплект инструментов командной строки."
+
+#: src/index.html:148
+msgid "Community And Principles"
+msgstr "Сообщество и принципы"
+
+#: src/brand/index.html:93
+msgid "Complimentary Colors"
+msgstr "Дополнительные цвета"
+
+#: src/index.html:180 src/index.html:204 src/index.html:229 src/index.html:275
+#: src/index.html:298 src/index.html:320 src/index.html:344 src/index.html:368
+#: src/index.html:401
+msgid "Continue"
+msgstr "Продолжить"
+
+#: src/downloads/index.html:91
+msgid "Create a browser based Wallet"
+msgstr "Создать web-кошелек"
+
+#: src/brand/index.html:77
+msgid "Dark Blue"
+msgstr "Темно-синий"
+
+#: src/index.html:5
+msgid "Decred - decentralized credit"
+msgstr "Decred - децентрализованная финансовая система"
+
+#: src/downloads/index.html:5 src/downloads/index.html:7
+#: src/downloads/index.html:8 src/downloads/index.html:9
+msgid "Decred - downloads"
+msgstr "Decred - загрузки"
+
+#: src/brand/index.html:133 src/index.html:415
+msgid "Decred Developers"
+msgstr "Разработчики Decred"
+
+#: src/downloads/index.html:57 src/index.html:507
+msgid "Decred Developers 2017"
+msgstr "Разработчики Decred 2017"
+
+#: src/index.html:123
+msgid ""
+"Decred fosters a multi-stakeholder development ecosystem that welcomes and empowers participants who want to improve on existing features or build new tools.\n"
+"                <br>\n"
+"                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
+msgstr ""
+"Decred выступает за демократизацию процесса разработки и приветствует участников желающих улучшать существующие и создавать новые инструменты.\n"
+"<br>\n"
+"<br>Запрос на улучшение может отправить любой пользователь, а независимые разработчики могут получить вознаграждение за внедрение этих улучшений. Фонд оплаты улучшений внедрен напрямую в блокчейн сеть Decred."
+
+#: src/index.html:53
+msgid ""
+"Decred is an open and progressive cryptocurrency with a system of community-"
+"based governance integrated into its blockchain."
+msgstr ""
+"Decred это открытая и прогрессивная криптовалюта управляемая сообществом "
+"через систему интегрированную в блокчейн."
+
+#: src/index.html:136
+msgid ""
+"Decred is constructing a layered governance organization that extends beyond the miners and users to bring forward and represent insider and outsider voices in the community.\n"
+"                <br>\n"
+"                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
+msgstr ""
+"Decred стоит многоступенчатую управляющую организацию базирующуюся на синергии майнеров и пользователей. Дающую права голоса, вне зависимости от степени вовлеченности в комьюнити.\n"
+"<br>\n"
+"<br>Децентрализация — глобальный процесс, а распределенные базы данных только первый шаг к ней."
+
+#: src/index.html:107
+msgid ""
+"Decred uses a hybridized consensus system to strike a balance between <u>miners</u>* and users to create a more robust currency.\n"
+"                <br>\n"
+"                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
+msgstr ""
+"Для создания устойчивой валюты в Decred используется система гибридного консенсуса между <u>майнерами</u>* и пользователями. \n"
+"<br>\n"
+"<br>Обычно майнеры оперирующие инфраструктурой имеют значительное влияние на судьбу сети, в то время как пользователи довольствуются малым. Decred позволяет пользователям иметь прямое влияние на судьбу проекта, без вложений в дорогое майнинговое оборудование."
+
+#: src/downloads/index.html:80
+msgid "Decrediton"
+msgstr "Decrediton"
+
+#: src/index.html:58
+msgid "Decrediton For Linux"
+msgstr "Decrediton для Linux"
+
+#: src/index.html:57
+msgid "Decrediton For Mac OS X"
+msgstr "Decrediton для Mac OS X"
+
+#: src/brand/index.html:123
+msgid ""
+"Decred’s identity helps to represent it across different platforms and "
+"amongst digital currencies. It helps new and existing users to recognise it,"
+" gain trust and become more engaged. The toolkit provides direction and "
+"makes it easier for anyone to communicate about Decred. It contains a set of"
+" simple + practical tools, principles and guides for different contexts and "
+"use cases."
+msgstr ""
+"Фирменный стиль Decred предназначен для правильного позиционирования проекта"
+" на различных платформах и среди других валют. Он способствует узнаванию "
+"среди новых и существующих пользователей, а так же служит вдохновением для "
+"всего комьюнити. Паспорт стандартов фирменного стиля помогает представлять "
+"Decred в различных каналах коммуникации. Он содержит набор простых, понятных"
+" элементов и принципов для использования в различных контекстах."
+
+#: src/index.html:516
+msgid "Dev Premine"
+msgstr ""
+
+#: src/index.html:122 src/index.html:86
+msgid "Development"
+msgstr "Разработка"
+
+#: src/index.html:514
+msgid "Development Subsidy"
+msgstr ""
+
+#: src/brand/index.html:140 src/downloads/index.html:41 src/index.html:422
+#: src/index.html:487
+msgid "Documentation"
+msgstr "Документация"
+
+#: src/brand/index.html:124
+msgid "Download Full Package"
+msgstr "Скачать полный пакет"
+
+#: src/brand/index.html:55
+msgid "Download Logo Package"
+msgstr "Скачать логотипы"
+
+#: src/index.html:56 src/index.html:57 src/index.html:58 src/index.html:59
+#: src/index.html:60 src/index.html:61
+msgid "Download Wallet"
+msgstr "Скачать кошелек"
+
+#: src/downloads/index.html:40 src/downloads/index.html:64 src/index.html:486
+#: src/index.html:92
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: src/downloads/index.html:130
+msgid "Exodus"
+msgstr "Exodus"
+
+#: src/downloads/index.html:131
+msgid ""
+"Exodus is a friendly, all-in-one application, to secure, manage and exchange"
+" blockchain assets."
+msgstr ""
+"Exodus — это удобное приложение для безопасного управления и обмена блокчейн"
+" активов."
+
+#: src/downloads/index.html:133
+msgid "Exodus releases"
+msgstr "Версии Exodus"
+
+#: src/index.html:39
+msgid "Find A Stakepool"
+msgstr "Найти Stakepool"
+
+#: src/index.html:56
+msgid "For Your Computer"
+msgstr "Для вашего компьютера"
+
+#: src/downloads/index.html:72
+msgid "GUI wallet for Windows"
+msgstr "Кошелек с графическим интерфейсом для Windows"
+
+#: src/downloads/index.html:81
+msgid "GUI wallet for macOS and Linux"
+msgstr "Кошелек с графическим интерфейсом для macOS и Linux"
+
+#: src/downloads/index.html:39 src/index.html:485 src/index.html:62
+msgid "Getting Started"
+msgstr "Приступая к работе"
+
+#: src/index.html:135
+msgid "Governance"
+msgstr "Управление"
+
+#: src/brand/index.html:107
+msgid "Green"
+msgstr "Зеленый"
+
+#: src/downloads/index.html:65
+msgid ""
+"If you are new to Decred, be sure to read the <a href=\"../#guide\" class"
+"=\"paragraph-link\">Getting Started</a> tour or the <a "
+"href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if "
+"you want to dig deeper."
+msgstr ""
+"Новым пользователям рекомендуем ознакомиться с туром <a "
+"href=\"https://decred.org/#guide\" class=\"paragraph-link\">Приступая к "
+"работе</a> или <a href=\"https://decred.org/#technology\" class=\"paragraph-"
+"link\">Технической информацией</a> если вы хотите копнуть глубже."
+
+#: src/index.html:359
+msgid "Join The Community"
+msgstr "Присоединиться к сообществу"
+
+#: src/brand/index.html:63
+msgid "Key blue"
+msgstr "Основной синий"
+
+#: src/index.html:111
+msgid "Learn more about the technology"
+msgstr "Узнать больше о технологии"
+
+#: src/brand/index.html:100
+msgid "Light blue"
+msgstr "Голубой"
+
+#: src/downloads/index.html:85
+msgid "Linux 64-bit"
+msgstr "Linux 64-bit"
+
+#: src/index.html:423
+msgid "Logo and Branding"
+msgstr "Логотип и фирменный стиль"
+
+#: src/downloads/index.html:47 src/index.html:493
+msgid "Logo and Visuals"
+msgstr "Логотипы и графика"
+
+#: src/brand/index.html:49
+msgid "Logo package"
+msgstr "Логотипы"
+
+#: src/downloads/index.html:104
+msgid "MINING SOFTWARE"
+msgstr "ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ДЛЯ МАЙНИНГА"
+
+#: src/index.html:267
+msgid "Mining"
+msgstr "Майнинг"
+
+#: src/index.html:44
+msgid ""
+"Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
+"miner&nbsp;and may not necessarily be the fault of the pool."
+msgstr ""
+"Пропущенные билеты могут быть виной Proof-of-work (PoW) майнеров из-за "
+"плохого интернет соединения или устаревшего ПО, и не обязательно являются "
+"проблемой пула."
+
+#: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
+#: src/index.html:490
+msgid "Network Stats"
+msgstr "Статистика сети"
+
+#: src/downloads/index.html:93
+msgid "No downloads required."
+msgstr "Загрузка не требуется."
+
+#: src/index.html:44
+msgid "Notice:"
+msgstr "Обратите внимание:"
+
+#: src/index.html:7 src/index.html:9
+msgid ""
+"Open and progressive cryptocurrency with a system of community-based "
+"governance integrated into its blockchain."
+msgstr ""
+"Открытая и прогрессивная криптовалюта управляемая сообществом через систему "
+"голосования интегрированную в блокчейн."
+
+#: src/brand/index.html:114
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: src/index.html:169
+msgid "Overview"
+msgstr "Обзор"
+
+#: src/downloads/index.html:71
+msgid "Paymetheus"
+msgstr "Paymetheus"
+
+#: src/index.html:61
+msgid "Paymetheus For Windows"
+msgstr "Paymetheus для Windows"
+
+#: src/index.html:59
+msgid "Paymetheus For Windows 32bit"
+msgstr "Paymetheus для Windows 32bit"
+
+#: src/index.html:60
+msgid "Paymetheus For Windows 64bit"
+msgstr "Paymetheus для Windows 64bit"
+
+#: src/index.html:383
+msgid "Planned Features"
+msgstr "Планируемые функции"
+
+#: src/index.html:513
+msgid "PoS-mined"
+msgstr ""
+
+#: src/index.html:512
+msgid "PoW-mined"
+msgstr ""
+
+#: src/brand/index.html:56
+msgid "Primary Colors"
+msgstr "Основные цвета"
+
+#: src/index.html:311
+msgid "Proof-of-Stake Mining"
+msgstr "Proof-of-Stake Майнинг"
+
+#: src/index.html:289
+msgid "Proof-of-Work Mining"
+msgstr "Proof-of-Work Майнинг"
+
+#: src/brand/index.html:46
+msgid "Quick-use toolkit"
+msgstr "Паспорт стандартов"
+
+#: src/index.html:151
+msgid "Read the Decred Constitution"
+msgstr "Прочитать Устав Decred"
+
+#: src/index.html:243
+msgid "Send and Receive Decred"
+msgstr "Получить и отправить Decred"
+
+#: src/index.html:88
+msgid "Stable Version"
+msgstr "Стабильная версия"
+
+#: src/downloads/index.html:46 src/index.html:427 src/index.html:492
+msgid "Stakepools"
+msgstr "PoS-пулы"
+
+#: src/index.html:41
+msgid ""
+"Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
+"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+msgstr ""
+"Stakepool позволяет вам участвовать в Proof-of-Stake (PoS) не беспокоясь \n"
+"<br>о возможных пропущенных билетах из-за плохого интернет соединения или перебоев электроснабжения."
+
+#: src/index.html:517
+msgid "Start again"
+msgstr ""
+
+#: src/index.html:71
+msgid "Statistics"
+msgstr "Статистика"
+
+#: src/index.html:79
+msgid "Supply distribution"
+msgstr "Распределение монет"
+
+#: src/brand/index.html:139 src/downloads/index.html:43 src/index.html:421
+#: src/index.html:489
+msgid "Technical Brief"
+msgstr "Техническая информация"
+
+#: src/index.html:106
+msgid "Technology"
+msgstr "Технология"
+
+#: src/index.html:193
+msgid "The Basics"
+msgstr "Основы"
+
+#: src/index.html:219
+msgid "The Wallets"
+msgstr "Кошельки"
+
+#: src/index.html:149
+msgid ""
+"The project is bound by the Decred Constitution, so users can know what to "
+"expect: a finite number of coins, decentralized governance and a place to "
+"share their views. &nbsp;Decred's community plays an important role in "
+"making decisions, both informally via the forum and formally via the "
+"blockchain."
+msgstr ""
+"Конституция Decred — базис проекта, ее принципы открыты и доступны для всех:"
+" ограниченное количество монет, децентрализация для совместного управления "
+"развитием. Комьюнити играет важную роль на принятие решений через блокчейн и"
+" средства коммуникации."
+
+#: src/index.html:62
+msgid "The quick tour"
+msgstr "Ознакомительный тур"
+
+#: src/downloads/index.html:114
+msgid ""
+"Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
+msgstr ""
+"Сторонний CUDA майнер для NVIDIA GPU. Не поддерживается командой Decred."
+
+#: src/downloads/index.html:121
+msgid ""
+"Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
+msgstr ""
+"Сторонний OpenCL майнер для AMD GPU. Не поддерживается командой Decred."
+
+#: src/index.html:160
+msgid "This tour will help you get started with Decred"
+msgstr "Этот тур поможет вам начать использовать Decred"
+
+#: src/index.html:45
+msgid ""
+"To protect de-centralization of the network, it is recommended to avoid "
+"pools that have over 5% of network votes."
+msgstr ""
+"Для сохранения децентрализации сети мы рекомендуем избегать пулов в которых "
+"более 5% билетов."
+
+#: src/brand/index.html:70
+msgid "Turquiose"
+msgstr "Бирюзовый"
+
+#: src/brand/index.html:82
+msgid "Typography"
+msgstr "Типографика"
+
+#: src/downloads/index.html:99
+msgid "View on GitHub"
+msgstr "Посмотреть на GitHub"
+
+#: src/brand/index.html:11 src/brand/index.html:39 src/brand/index.html:9
+msgid "Visual communication toolkit"
+msgstr "Паспорт стандартов фирменного стиля"
+
+#: src/downloads/index.html:45 src/index.html:491
+msgid "Voting"
+msgstr "Голосование"
+
+#: src/index.html:428
+msgid "Voting Dashboard"
+msgstr "Панель голосования"
+
+#: src/index.html:45
+msgid "Warning:"
+msgstr "Внимание:"
+
+#: src/downloads/index.html:89
+msgid "Webwallet"
+msgstr "web-кошелек"
+
+#: src/downloads/index.html:76
+msgid "Win 32-bit"
+msgstr "Win 32-bit"
+
+#: src/downloads/index.html:74
+msgid "Win 64-bit"
+msgstr "Win 64-bit"
+
+#: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
+msgid "_direction"
+msgstr "ltr"
+
+#: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
+msgid "_language"
+msgstr "ru"
+
+#: src/downloads/index.html:113
+msgid "ccminer"
+msgstr "ccminer"
+
+#: src/downloads/index.html:116
+msgid "ccminer releases"
+msgstr "версии ccminer"
+
+#: src/index.html:8
+msgid "deCRED - decentralized credit"
+msgstr "deCRED — децентрализованные финансы"
+
+#: src/brand/index.html:10 src/brand/index.html:7
+msgid "deCRED brand"
+msgstr "Брэнд deCRED"
+
+#: src/brand/index.html:154 src/index.html:438
+msgid "downloads"
+msgstr "загрузки"
+
+#: src/downloads/index.html:106
+msgid "gominer"
+msgstr "gominer"
+
+#: src/downloads/index.html:109
+msgid "gominer releases"
+msgstr "версии gominer"
+
+#: src/downloads/index.html:83
+msgid "macOS"
+msgstr "macOS"
+
+#: src/index.html:73
+msgid "mined so far"
+msgstr "добыто на данный момент"
+
+#: src/downloads/index.html:120
+msgid "sgminer"
+msgstr "sgminer"
+
+#: src/downloads/index.html:123
+msgid "sgminer releases"
+msgstr "версии sgminer"
+
+#: src/index.html:433
+msgid "stable"
+msgstr "стабильная версия"
+
+#: src/brand/index.html:153 src/index.html:437 src/index.html:94
+msgid "total"
+msgstr "всего"
+
+#: src/brand/index.html:141
+msgid "← Main Website"
+msgstr "← Основной сайт"
