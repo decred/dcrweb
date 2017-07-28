@@ -1,7 +1,9 @@
-# 
+# Translators:
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Slovenian (https://www.transifex.com/decred/teams/76223/sl/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +16,11 @@ msgstr ""
 
 #: src/index.html:449
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:504
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:249
 msgid ""
