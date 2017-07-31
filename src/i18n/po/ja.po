@@ -1,10 +1,11 @@
 # Translators:
 # Jure Kralj <Jure.Kralj@gmail.com>, 2017
 # GoofOff <goofoff@linuxmail.org>, 2017
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: GoofOff <goofoff@linuxmail.org>, 2017\n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/decred/teams/76223/ja/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,11 +18,11 @@ msgstr "アドレスはコインの送信または受け取りに必要であり
 
 #: src/index.html:449
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:504
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:249
 msgid ""
@@ -581,11 +582,11 @@ msgstr ""
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
-msgstr ""
+msgstr "ltr"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_language"
-msgstr ""
+msgstr "ja"
 
 #: src/downloads/index.html:113
 msgid "ccminer"

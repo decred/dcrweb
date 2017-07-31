@@ -18,11 +18,11 @@ msgstr "3RD PARTY WALLETS"
 
 #: src/index.html:449
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!--links de mídias sociais localizados no rodapé -->"
 
 #: src/index.html:504
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!--links de mídias sociais localizadas-->"
 
 #: src/index.html:249
 msgid ""

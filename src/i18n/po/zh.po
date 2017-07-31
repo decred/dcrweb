@@ -2,10 +2,11 @@
 # moondcr <jodo4x@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 # hypernoob <hypernoob@outlook.com>, 2017
+# Hao Jun Tan <hjt257@stern.nyu.edu>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: hypernoob <hypernoob@outlook.com>, 2017\n"
+"Last-Translator: Hao Jun Tan <hjt257@stern.nyu.edu>, 2017\n"
 "Language-Team: Chinese (https://www.transifex.com/decred/teams/76223/zh/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -256,7 +257,7 @@ msgstr ""
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
-msgstr "Decred 是一个将基于社区领导的机制直接集成进它的区块链中的开放式的和革命性的加密货币。"
+msgstr "Decred 是一个将基于社区的治理机制直接集成进它的区块链中的开放式的和革命性的加密货币。"
 
 #: src/index.html:136
 msgid ""
@@ -454,7 +455,7 @@ msgstr "注意："
 msgid ""
 "Open and progressive cryptocurrency with a system of community-based "
 "governance integrated into its blockchain."
-msgstr "将基于社区领导的机制直接集成进它的区块链中的开放式的和革命性的加密货币。"
+msgstr "将基于社区的治理机制直接集成进它的区块链中的开放式的和革命性的加密货币。"
 
 #: src/brand/index.html:114
 msgid "Orange"
@@ -555,7 +556,7 @@ msgstr "技术"
 
 #: src/index.html:193
 msgid "The Basics"
-msgstr "基础"
+msgstr "简介"
 
 #: src/index.html:219
 msgid "The Wallets"
