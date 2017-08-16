@@ -11,8 +11,7 @@ $(document).ready(function() {
 	    viewport = $(window),
 
 	    // get json
-		APIdc = '/api/?c=dc',
-	    APIstats = '/api/?c=gcs',
+		APIdc = 'https://api.decred.org/?c=dc',
 	    	jsonPercentMined = pow = pos = devs = all = count = null,
 	    	statisticsRelease = $('#statisticsRelease'),
 	    	statisticsDownloads = $('#statisticsDownloads'),
