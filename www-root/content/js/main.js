@@ -27,8 +27,8 @@ $(document).ready(function() {
 
 	    // get json
 	    APIreleases = 'https://api.github.com/repos/decred/decred-release/releases',
-	    APIstats = API_ROOT + '/api/?c=gcs',
-	    APIdc = API_ROOT + '/api/?c=dc',
+	    APIstats = API_ROOT + '/?c=gcs',
+	    APIdc = API_ROOT + '/?c=dc',
 	    	jsonPercentMined = pow = pos = devs = all = count = null,
 	    	statisticsRelease = $('#statisticsRelease'),
 	    	statisticsDownloads = $('#statisticsDownloads'),
@@ -460,7 +460,7 @@ $(document).ready(function() {
 	    viewport = $(window),
 
 	    // get json
-	    APIstakepools = API_ROOT + '/api/?c=gsd',
+	    APIstakepools = API_ROOT + '/?c=gsd',
 
 	    // modal
 	    modal = $('.modal'),

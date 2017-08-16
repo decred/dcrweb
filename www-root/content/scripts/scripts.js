@@ -48,7 +48,7 @@ var stakepoolFinder = function() {
 
 	$("#stakepool-data").html("Loading...");
 	$.ajax({
-		url: "./api/",
+		url: "https://api.decred.org/",
 		data: { c: "gsd"},
 		dataType: "json",
 		error: function (jqXHR, textStatus, errorThrown) {
@@ -145,7 +145,7 @@ $(document).ready(function() {
 			$(".alldl").hide();
 		}
 	}
-	var blockexplorer = $.PeriodicalUpdater("/api/?c=gis", {
+	var blockexplorer = $.PeriodicalUpdater("https://api.decred.org/?c=gis", {
 		method: 'get',
 		maxCalls: 0,
 		autoStop: 0,
