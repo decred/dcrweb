@@ -5,7 +5,8 @@ LABEL description="dcrweb"
 LABEL version="1.0"
 LABEL maintainer "peter@froggle.org"
 
-COPY httpd.conf /usr/local/apache2/conf
-
 # copy document root
 COPY build/ /var/www/html/
+
+COPY runtime/httpd.conf /usr/local/apache2/conf
+COPY runtime/httpd-foreground  /usr/local/bin/

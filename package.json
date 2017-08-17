@@ -11,9 +11,9 @@
     "transifex:pull": "tx pull -a",
     "transifex:push": "grunt nggettext_extract  && tx push -s",
     "build": "grunt",
-    "deploy:build": "npm run build && docker build  --no-cache --rm --force-rm -t decred/dcrweb:$npm_package_version .",
-    "deploy:preflight": "npm run deploy:build && docker run -p 8080:80 --rm decred/dcrweb:$npm_package_version",
-    "deploy:run": "npm run build && docker run -d -p 80:80 decred/dcrweb:$npm_package_version",
+    "deploy:build": "npm run build && docker build -t decred/dcrweb .",
+    "deploy:preflight": "npm run deploy:build && docker run -p 8080:80 --rm decred/dcrweb",
+    "deploy:run": "docker run -d -p 80:80 decred/dcrweb",
     "dev": "docker run -p 8080:80 --rm -it -v `pwd`/build:/var/www/html decred/dcrweb"
   },
   "repository": {

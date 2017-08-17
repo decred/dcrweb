@@ -2,9 +2,9 @@ version: '2.1'
 services:
   www:
     build:
-      dockerfile: dockerfiles/www/Dockerfile
+      dockerfile: Dockerfile
       context: .
-    image: decred/dcrweb-www
+    image: decred/dcrweb
     ports:
       - "8080:80"
     healthcheck:
@@ -16,13 +16,8 @@ services:
     depends_on:
       api:
         condition: service_started
-
-
   api:
-    build:
-      dockerfile: dockerfiles/api/Dockerfile
-      context: .
-    image: decred/dcrweb-api
+    image: decred/dcrwebapi
     ports:
       - "8081:80"
     healthcheck:

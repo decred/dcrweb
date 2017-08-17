@@ -17,11 +17,11 @@ msgstr "PORTEFEUILLE 3IEME PARTIE"
 
 #: src/index.html:449
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:504
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:249
 msgid ""

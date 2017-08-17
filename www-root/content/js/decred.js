@@ -1,3 +1,5 @@
+var API_ROOT = 'https://api.decred.org';
+
 /*!
  * Webflow: Front-end site library
  * @license MIT

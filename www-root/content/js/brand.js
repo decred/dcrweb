@@ -11,8 +11,8 @@ $(document).ready(function() {
 	    viewport = $(window),
 
 	    // get json
-		APIdc = '/api/?c=dc',
-	    APIstats = '/api/?c=gcs',
+		APIdc = API_ROOT + '/?c=dc',
+	    APIstats = API_ROOT + '/?c=gcs',
 	    	jsonPercentMined = pow = pos = devs = all = count = null,
 	    	statisticsRelease = $('#statisticsRelease'),
 	    	statisticsDownloads = $('#statisticsDownloads'),

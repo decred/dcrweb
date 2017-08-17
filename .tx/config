@@ -6,3 +6,4 @@ file_filter = src/i18n/po/<lang>.po
 source_file = src/i18n/po/template.pot
 source_lang = en
 type = PO
+
