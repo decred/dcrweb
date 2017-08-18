@@ -37,6 +37,9 @@ ForceLanguagePriority Prefer Fallback
 # language specific subdirectory
 RewriteEngine on
 
+# keep API urls intact
+RedirectMatch ^/api/(.*) https://api.decred.org/$1
+
 # prevent redirect loops
 RewriteCond %{ENV:REDIRECT_STATUS} 200
 RewriteRule .* - [L]
@@ -46,10 +49,6 @@ RewriteRule .* - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} ^/([a-z]{2})/
 RewriteRule .* - [L]
-
-# keep API urls intact
-RewriteCond %{REQUEST_URI} ^/api/
-RewriteRule ^/api/(.*)$ https://api.decred.org/$1 [R=301,L]
 
 # rewrite the request to https://www.decred.org/ to decred.org/<lang_code>/
 # first looks at the 'lang' cookie (set by the language chooser)
