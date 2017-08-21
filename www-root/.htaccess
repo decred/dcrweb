@@ -55,6 +55,6 @@ RewriteRule .* - [L]
 # falls back to first language in the Accept-Language header
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} /$
-RewriteCond %{HTTP_COOKIE} ^lang=([a-z]{2,3})[-,;]? [OR]
+RewriteCond %{HTTP_COOKIE} ;?lang=([a-z]{2,3})[-,;]? [OR]
 RewriteCond %{HTTP:Accept-Language} ^([a-z]{2,3})[-,;]?
-RewriteRule ^(.*)$ %1/$1 [QSA,L]
+RewriteRule ^(.*)$ "${languagemap:%1|en}/$1" [QSA,L]
