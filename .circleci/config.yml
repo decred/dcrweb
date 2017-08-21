@@ -35,8 +35,11 @@ jobs:
       - run: docker tag decred/dcrweb:latest registry.heroku.com/dcrweb/web
       - run: docker push registry.heroku.com/dcrweb/web
 
-workflows:
-  version: 2
-  build-test-and-deploy:
-    jobs:
-      - build:
+# workflows:
+#   version: 2
+#   build-test-and-deploy:
+#     jobs:
+#       - build:
+#           filters:
+#             branches:
+#               only: localization
