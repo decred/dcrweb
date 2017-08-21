@@ -5,6 +5,8 @@ var serveStatic = require('serve-static')
 
 var srcHtmlDocuments = ['src/**/*.html'];
 
+var BUILD_ENV = process.env.BUILD_ENV || 'production';
+
 module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-angular-gettext-generate-html')
   grunt.loadNpmTasks('grunt-angular-gettext')
@@ -97,6 +99,7 @@ module.exports = function (grunt) {
     copy: {
       main: {
         files: [
+          {src: ['src/i18n/languagemap.'+ BUILD_ENV + '.txt'], dest: 'build/languagemap.txt'},
           {expand: true, cwd: 'www-root/', src: ['**'], dest: 'build/', dot: true}
         ],
       },

@@ -30,7 +30,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: yarn deploy:build
+      - run: yarn build:development
+      - run: yarn deploy:build:docker
       - run: docker login --username=_ --password=$HEROKU_TOKEN registry.heroku.com
       - run: docker tag decred/dcrweb:latest registry.heroku.com/dcrweb/web
       - run: docker push registry.heroku.com/dcrweb/web

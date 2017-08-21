@@ -1,0 +1,13 @@
+en en
+zh zh
+ar ar
+pt pt
+ru ru
+nl nl
+it it
+fi fi
+es es
+el el
+hu hu
+de de
+fr fr
