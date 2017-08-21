@@ -1,6 +1,6 @@
 {
   "name": "dcrweb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Decred website code",
   "main": "index.js",
   "directories": {
