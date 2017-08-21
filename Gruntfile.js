@@ -29,7 +29,8 @@ module.exports = function (grunt) {
       dist: {
         options: {
           variables: {
-            packageJson: require('./package.json')
+            packageJson: require('./package.json'),
+            BUILD_ENV: BUILD_ENV
           }
         },
         files: [

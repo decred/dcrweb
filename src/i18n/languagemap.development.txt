@@ -8,6 +8,10 @@ it it
 fi fi
 es es
 el el
-hu hu
-de de
+pl pl
+sv sv
 fr fr
+de de
+ja ja
+id id
+ko ko
