@@ -40,6 +40,3 @@ workflows:
   build-test-and-deploy:
     jobs:
       - build:
-          filters:
-            branches:
-              only: localization
