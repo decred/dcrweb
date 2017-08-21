@@ -32,6 +32,7 @@
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-replace": "^1.0.1",
     "load-grunt-tasks": "^3.5.2",
     "serve-static": "^1.12.3"
   }

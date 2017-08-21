@@ -12,6 +12,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-replace');
 
   grunt.initConfig({
     nggettext_extract: {
@@ -22,6 +23,19 @@ module.exports = function (grunt) {
       }
     },
 
+    replace: {
+      dist: {
+        options: {
+          variables: {
+            packageJson: require('./package.json')
+          }
+        },
+        files: [
+          {expand: true, flatten: false, cwd: 'src/', src: ['**/*.html'], dest: '.tmp/'}
+        ]
+      }
+    },
+
     gt_generate_html: {
       l10n: {
         po: [ 'src/i18n/po/*.po' ],
@@ -29,7 +43,7 @@ module.exports = function (grunt) {
           {
             dest: 'build/{Language}',
             options: {
-              'cwd': 'src/'
+              'cwd': '.tmp/'
             },
             src: ['**/*.html']
           }
@@ -88,7 +102,7 @@ module.exports = function (grunt) {
       },
     },
 
-    clean: ['build']
+    clean: ['build', '.tmp']
   })
 
   grunt.registerTask('serve', [
@@ -96,6 +110,7 @@ module.exports = function (grunt) {
     'watch'
   ]);
 
-  grunt.registerTask('default', ['gt_generate_html', 'copy:main'])
+  grunt.registerTask('build', ['replace', 'gt_generate_html', 'copy:main'])
+  grunt.registerTask('default', ['build'])
 
 }
