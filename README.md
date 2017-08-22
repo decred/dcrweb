@@ -47,6 +47,22 @@ When the master content changes in the HTML files, you'll need to re-generate th
 npm run transifex:push
 ```
 
+#### Adding a new language
+
+  1. Add the new language in Transifex
+  2. In the repository folder, run `npm run transifex:pull`, add the new .po file to git: `git add i18n/po/<LC>.po`
+  3. Enable it for publishing on the [staging site](https://dcrweb.herokuapp.com): add it to `src/i18n/languagemap.development.txt`
+  4. Update language selector in `src/index.html`
+  5. Commit files to git + push to repo
+
+#### Publishing a language
+
+Once you're happy with the translation in a language, you'll need to enable it for production.
+
+  1. Add language to `src/i18n/languagemap.production.txt`
+  2. Edit `#language-selector` in `src/index.html`
+  3. Commit files to git + push to repo
+
 ## Deployment
 
 A Docker configuration is included for building the deployable images (for the public web server and the API server).

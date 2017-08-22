@@ -5,6 +5,8 @@ var serveStatic = require('serve-static')
 
 var srcHtmlDocuments = ['src/**/*.html'];
 
+var BUILD_ENV = process.env.BUILD_ENV || 'production';
+
 module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-angular-gettext-generate-html')
   grunt.loadNpmTasks('grunt-angular-gettext')
@@ -12,6 +14,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-replace');
 
   grunt.initConfig({
     nggettext_extract: {
@@ -22,6 +25,20 @@ module.exports = function (grunt) {
       }
     },
 
+    replace: {
+      dist: {
+        options: {
+          variables: {
+            packageJson: require('./package.json'),
+            BUILD_ENV: BUILD_ENV
+          }
+        },
+        files: [
+          {expand: true, flatten: false, cwd: 'src/', src: ['**/*.html'], dest: '.tmp/'}
+        ]
+      }
+    },
+
     gt_generate_html: {
       l10n: {
         po: [ 'src/i18n/po/*.po' ],
@@ -29,7 +46,7 @@ module.exports = function (grunt) {
           {
             dest: 'build/{Language}',
             options: {
-              'cwd': 'src/'
+              'cwd': '.tmp/'
             },
             src: ['**/*.html']
           }
@@ -83,12 +100,13 @@ module.exports = function (grunt) {
     copy: {
       main: {
         files: [
+          {src: ['src/i18n/languagemap.'+ BUILD_ENV + '.txt'], dest: 'build/languagemap.txt'},
           {expand: true, cwd: 'www-root/', src: ['**'], dest: 'build/', dot: true}
         ],
       },
     },
 
-    clean: ['build']
+    clean: ['build', '.tmp']
   })
 
   grunt.registerTask('serve', [
@@ -96,6 +114,7 @@ module.exports = function (grunt) {
     'watch'
   ]);
 
-  grunt.registerTask('default', ['gt_generate_html', 'copy:main'])
+  grunt.registerTask('build', ['replace', 'gt_generate_html', 'copy:main'])
+  grunt.registerTask('default', ['build'])
 
 }

@@ -1,4 +1,9 @@
 
+function setLanguage(language){
+	Cookies.set('lang', language);
+	location.reload();
+}
+
 $(document).ready(function() {
 
 	// for json API
@@ -17,8 +22,7 @@ $(document).ready(function() {
 
 	$langSelector.on('change', function(e){
 		var language = e.currentTarget.value;
-		Cookies.set('lang', language);
-		location.reload();
+		setLanguage(language);
 	})
 
 	var time = 100,
