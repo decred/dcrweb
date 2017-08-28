@@ -2,6 +2,7 @@
 # moondcr <jodo4x@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 # hypernoob <hypernoob@outlook.com>, 2017
+# Billy Xing <billxingyang@gmail.com>, 2017
 # Hao Jun Tan <hjt257@stern.nyu.edu>, 2017
 msgid ""
 msgstr ""
@@ -414,11 +415,11 @@ msgstr "Linux 64 位"
 
 #: src/index.html:423
 msgid "Logo and Branding"
-msgstr "Logo 和品牌设计"
+msgstr "标志和品牌设计"
 
 #: src/downloads/index.html:47 src/index.html:493
 msgid "Logo and Visuals"
-msgstr "Logo 和视觉设计"
+msgstr "标志和视觉设计"
 
 #: src/brand/index.html:49
 msgid "Logo package"
@@ -441,7 +442,7 @@ msgstr "错失的选票可能是由于连接不稳定的 PoW 矿工造成的，�
 #: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
 #: src/index.html:490
 msgid "Network Stats"
-msgstr "网络统计"
+msgstr "网络数据"
 
 #: src/downloads/index.html:93
 msgid "No downloads required."

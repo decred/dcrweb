@@ -64,7 +64,7 @@ msgid ""
 msgstr ""
 "<p>U <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Rudarenju pomocu hardvera ( PoW )  </a> transakcije su grupirane u blokove. Ti blokovi su potom verificirani od strane PoW rudara. Kada je blok verificiran postaje trajan dio Decred mreze.</p>\n"
 "\t\t<p>Mozes postati rudar ako dediciras dio svojih resursa sa racunala. Za uzvrat, rudari ce biti nagradjeni Decred novcicima.</p>\n"
-"\t\t<p>Za bolju efikasnost mozes se pridruziti <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">rudarskim poolovima</a>. Rudarski poolovi su grupe rudara koji medjusobno rade na istoj zadaci, te doprinose verificiranju ali i dijele nagradu. Pridruzivanje poolu za rudarenje je odlican nacin za zaradu ako imas stariji ili slabiji hardver te omogucava konzistentne isplate.</p>"
+"\t\t<p>Za bolju efikasnost mozes se pridruziti <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">rudarskim poolovima</a>. Rudarski poolovi su grupe rudara koji medjusobno rade na istoj zadaci, te doprinose verificiranju ali i dijele nagradu. Pridruzivanje poolu za rudarenje je odlican nacin za zaradu ako imas stariji ili slabiji hardver te omogucava konstantne isplate.</p>"
 
 #: src/index.html:389
 msgid ""
@@ -99,12 +99,18 @@ msgid ""
 "\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
+"<p>Online novcanik je najlaksi nacin za interakciju sa Decredom. Svi korisnici mogu mu pristupiti online na <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, bez potrebe za preuzimanjem aplikacije.</p>\n"
+"\t\t<p>Za Windows korisnika, <a href=\"downloads/#paymetheus\">Paymetheus novcanik</a>ce mu pomoci da se ukljuci u nekoliko minuta.</p>\n"
+"\t\t<p>Za MacOS i Linux korisnike, <a href=\"downloads/#paymetheus\">Decredtion novcanik</a>je dostupan.</p>\n"
+"<p>Za pomoc kod interakcije sa Decredom, mozes posjetiti nas<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Vodic za pocetike</a>.</p>"
 
 #: src/index.html:273
 msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
 msgstr ""
+"<p>Pojam 'mining' oznacava proces verifikacije transakcija na Decred mrezi i doprinosi njenoj sigurnosti. Zauzvrat, 'mineri' su nagradjeni novo generiranim Decred tokenima.</p>\n"
+"\t\t<p>Decred ima 2 metode verifikacije transakcija: Proof-of-Work (PoW), odnosno rudarenje sa Grafickim karticama and Proof-of-Stake (PoS), odnosno rudarenje sa odredjenim iznosom tokena.</p>"
 
 #: src/index.html:199
 msgid ""
@@ -113,107 +119,119 @@ msgid ""
 "\t\t<p><strong>Proof-of-Work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
 "\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
 msgstr ""
+"<p>Tri su glavna nacina za interakciju sa Decred-om:</p>\n"
+"\t\t<p><strong>Novcanik</strong> -Za slanje i primanje Decred tokena te PoS rudarenje.</p>\n"
+"\t\t<p><strong>Proof-of-Work Rudarenje</strong> - Rudarenje pomocu Vaseg racunala ( graficke kartice ).</p>\n"
+"\t\t<p><strong>Proof-of-Stake Rudarenje</strong> - Koristenjem sredstava za glasanje o vaznim stavkama za razvoj mreze ( nesto kao orocenje sredstava u banci, gdje korisnik zaradjuje kamate ).</p>"
 
 #: src/index.html:365
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
 msgstr ""
+"<p>Preko procesa decentralizacije, ljudi sa razlicitim idejama, ciljevima i misljenjima pomazu nam oblikovati buducnost. Zasigurno ces imati mnogo pitanja, pa nam se mozes pridruziti u zajednici koja se konstantno siri, gdje mozes pricati sa Decred programerima i drugim korisnicima, postaviti pitanja, dobiti informacije ili se jednostavno druziti sa nama. Imamo <a href=\"https://forum.decred.org\" title=\"_blank\">forum korisnika</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC kanal</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram kanal</a>, i <a href=\"https://slack.decred.org\" title=\"_blank\">Slack kanal</a> gdje mozes popricati sa Decred zajednicom. Takodjer, ne zaboravi <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> i <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
+"Nadamo se skorom susretu!</p>"
 
 #: src/index.html:317
 msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
 msgstr ""
+"<p>Za razliku od PoW-a, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake rudarenje (PoS)</a>trazi jako malo resursa. Decred se koristi kako bi se kupili glasacki listici na mrezi. Svakog bloka, pet glasackih listica iz hrpe aktivnih, je nasumicno izabrano kako bi glasali i verificirali prethodni blok.</p>\n"
+"\t\t<p>PoS sluzi kao dodatan sloj decentralizacije Decreda i omogucava korisnicima glasovanje nad promjenama u mrezi.<a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pool-ovi su takodjer dostupni za PoS </a>kako bi osigurali dostupnost tvojih glasackih listica u svakom trenutku.</p>"
 
 #: src/downloads/index.html:97
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr ""
+"Vise-platformni, automatski installer/updater za aplikacije koje koriste "
+"komandnu liniju."
 
 #: src/downloads/index.html:38 src/index.html:484
 msgid "About"
-msgstr ""
+msgstr "O nama"
 
 #: src/index.html:515
 msgid "Airdrop"
-msgstr ""
+msgstr "Airdrop"
 
 #: src/index.html:64
 msgid "All Downloads  →"
-msgstr ""
+msgstr "Svi fajlovi  →"
 
 #: src/index.html:181 src/index.html:205 src/index.html:230 src/index.html:276
 #: src/index.html:299 src/index.html:321 src/index.html:345 src/index.html:369
 #: src/index.html:402
 msgid "Back"
-msgstr ""
+msgstr "Nazad"
 
 #: src/downloads/index.html:42 src/index.html:488
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: src/index.html:336
 msgid "Buying And Trading Decred"
-msgstr ""
+msgstr "Kupovina i trgovanje Decred-om"
 
 #: src/downloads/index.html:69
 msgid "CORE SOFTWARE"
-msgstr ""
+msgstr "CORE SOFTWARE"
 
 #: src/downloads/index.html:107
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
 msgstr ""
+"CUDA / OpenCL rudar za AMD / NVIDIA GPU. Službeno podržan od strane Decred "
+"tima."
 
 #: src/index.html:38
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: src/downloads/index.html:96
 msgid "Command Line Suite"
-msgstr ""
+msgstr "Paket za komandnu liniju"
 
 #: src/index.html:148
 msgid "Community And Principles"
-msgstr ""
+msgstr "Zajednica i načela"
 
 #: src/brand/index.html:93
 msgid "Complimentary Colors"
-msgstr ""
+msgstr "Decred materijali"
 
 #: src/index.html:180 src/index.html:204 src/index.html:229 src/index.html:275
 #: src/index.html:298 src/index.html:320 src/index.html:344 src/index.html:368
 #: src/index.html:401
 msgid "Continue"
-msgstr ""
+msgstr "Nastavi"
 
 #: src/downloads/index.html:91
 msgid "Create a browser based Wallet"
-msgstr ""
+msgstr "Izradite novčanik u web pregledniku"
 
 #: src/brand/index.html:77
 msgid "Dark Blue"
-msgstr ""
+msgstr "Tamno plava"
 
 #: src/index.html:5
 msgid "Decred - decentralized credit"
-msgstr ""
+msgstr "Decred - decentralizirani kredit"
 
 #: src/downloads/index.html:5 src/downloads/index.html:7
 #: src/downloads/index.html:8 src/downloads/index.html:9
 msgid "Decred - downloads"
-msgstr ""
+msgstr "Decred - preuzimanja"
 
 #: src/brand/index.html:133 src/index.html:415
 msgid "Decred Developers"
-msgstr ""
+msgstr "Decred Developeri"
 
 #: src/downloads/index.html:57 src/index.html:507
 msgid "Decred Developers 2017"
-msgstr ""
+msgstr "Decred Developeri 2017"
 
 #: src/index.html:123
 msgid ""
@@ -221,12 +239,17 @@ msgid ""
 "                <br>\n"
 "                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
 msgstr ""
+"Decred objedinjuje ekosustav razvoja koji nagradjuje ucesnike zeljne izradi naprednnih alata i poboljsanja istih.\n"
+"<br>\n"
+"<br>Svatko moze predati zahtjeve za dodatnim funkcijama, a developeri su placeni za rad kako bi ih implementirali uz puni nadzor od strane korisika.  &nbsp;Financiranje za taj rad dolazi direktno iz Decred blockchaina."
 
 #: src/index.html:53
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
 msgstr ""
+"Decred je otvorena i progresivna kriptovaluta s sustavom demokratskog "
+"upravljanja integriranim u svoj blockchain."
 
 #: src/index.html:136
 msgid ""
@@ -234,6 +257,9 @@ msgid ""
 "                <br>\n"
 "                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
 msgstr ""
+"Decred gradi slojevitu organizaciju upravljanja koja se proteže izvan rudara i korisnika kako bi se docarala i predstavila unutarnje i vanjske glasove u zajednici.\n"
+"<br>\n"
+"<br>Decentralizacija je proces, a decentraliziran Ledger samo je prvi korak u tom procesu."
 
 #: src/index.html:107
 msgid ""
@@ -241,18 +267,21 @@ msgid ""
 "                <br>\n"
 "                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
 msgstr ""
+"Decred koristi hibridizirani sustav konsenzusa kako bi uspostavio ravnotežu između <u> rudara</u>* i korisnika, te doprinjeo robusnosti valute.\n"
+"<br>\n"
+"<br>Tipicno, rudari koji upravljaju infrastrukturom imaju znacajan utjecaj, dok korisnici imaju zanemariv ucinak. Decred omogucava korisnicima direktnu interakciju bez potrebe za skupim hardverom."
 
 #: src/downloads/index.html:80
 msgid "Decrediton"
-msgstr ""
+msgstr "Decrediton"
 
 #: src/index.html:58
 msgid "Decrediton For Linux"
-msgstr ""
+msgstr "Decrediton za Linux"
 
 #: src/index.html:57
 msgid "Decrediton For Mac OS X"
-msgstr ""
+msgstr "Decreditom za Mac OS X"
 
 #: src/brand/index.html:123
 msgid ""
@@ -263,83 +292,90 @@ msgid ""
 " simple + practical tools, principles and guides for different contexts and "
 "use cases."
 msgstr ""
+"Decredov identitet pomaže u predstavljnju na različitim platformama i među "
+"digitalnim valutama. Pomaže novim i postojećim korisnicima ga prepoznaju, "
+"steknu povjerenje i postanu angažiraniji. Alat pruža smjernice i olakšava "
+"svakome komunikaciju oko Decred-a. Sadrži niz jednostavnih + praktičnih "
+"alata, principa i vodiča za različite kontekste i slučajeve upotrebe."
 
 #: src/index.html:516
 msgid "Dev Premine"
-msgstr ""
+msgstr "Dev Premine"
 
 #: src/index.html:122 src/index.html:86
 msgid "Development"
-msgstr ""
+msgstr "Razvoj"
 
 #: src/index.html:514
 msgid "Development Subsidy"
-msgstr ""
+msgstr "Podrška za razvoj"
 
 #: src/brand/index.html:140 src/downloads/index.html:41 src/index.html:422
 #: src/index.html:487
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 #: src/brand/index.html:124
 msgid "Download Full Package"
-msgstr ""
+msgstr "Preuzmite cijeli paket"
 
 #: src/brand/index.html:55
 msgid "Download Logo Package"
-msgstr ""
+msgstr "Preuzmite paket logotipa"
 
 #: src/index.html:56 src/index.html:57 src/index.html:58 src/index.html:59
 #: src/index.html:60 src/index.html:61
 msgid "Download Wallet"
-msgstr ""
+msgstr "Preuzmite Novčanik"
 
 #: src/downloads/index.html:40 src/downloads/index.html:64 src/index.html:486
 #: src/index.html:92
 msgid "Downloads"
-msgstr ""
+msgstr "Preuzimanja"
 
 #: src/downloads/index.html:130
 msgid "Exodus"
-msgstr ""
+msgstr "Exodus"
 
 #: src/downloads/index.html:131
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr ""
+"Exodus je pristupacna, all-in-one aplikacija za cuvanje, upravljanje i "
+"razmjenu Blockchain asset-a."
 
 #: src/downloads/index.html:133
 msgid "Exodus releases"
-msgstr ""
+msgstr "Exodus verzije"
 
 #: src/index.html:39
 msgid "Find A Stakepool"
-msgstr ""
+msgstr "Pronađite Stakepool"
 
 #: src/index.html:56
 msgid "For Your Computer"
-msgstr ""
+msgstr "Za vaše računalo"
 
 #: src/downloads/index.html:72
 msgid "GUI wallet for Windows"
-msgstr ""
+msgstr "GUI wallet za Windows"
 
 #: src/downloads/index.html:81
 msgid "GUI wallet for macOS and Linux"
-msgstr ""
+msgstr "GUI wallet za MacOS i Linux"
 
 #: src/downloads/index.html:39 src/index.html:485 src/index.html:62
 msgid "Getting Started"
-msgstr ""
+msgstr "Početak rada"
 
 #: src/index.html:135
 msgid "Governance"
-msgstr ""
+msgstr "Upravljanje"
 
 #: src/brand/index.html:107
 msgid "Green"
-msgstr ""
+msgstr "Zeleno"
 
 #: src/downloads/index.html:65
 msgid ""
@@ -348,174 +384,183 @@ msgid ""
 "href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if "
 "you want to dig deeper."
 msgstr ""
+"Ako ste novi u Decredu, svakako pročitajte <a href=\"../#guide\" class"
+"=\"paragraph-link\"> Početak rada </a> vodic ili <a href = \"../# \"Class "
+"=\" paragraph-link \"> Tehnički pregled </a> ako želite saznati vise."
 
 #: src/index.html:359
 msgid "Join The Community"
-msgstr ""
+msgstr "Pridružite se zajednici"
 
 #: src/brand/index.html:63
 msgid "Key blue"
-msgstr ""
+msgstr "Key blue"
 
 #: src/index.html:111
 msgid "Learn more about the technology"
-msgstr ""
+msgstr "Saznajte više o tehnologiji"
 
 #: src/brand/index.html:100
 msgid "Light blue"
-msgstr ""
+msgstr "Light blue"
 
 #: src/downloads/index.html:85
 msgid "Linux 64-bit"
-msgstr ""
+msgstr "Linux 64-bit"
 
 #: src/index.html:423
 msgid "Logo and Branding"
-msgstr ""
+msgstr "Logotip i brendiranje"
 
 #: src/downloads/index.html:47 src/index.html:493
 msgid "Logo and Visuals"
-msgstr ""
+msgstr "Logotip i vizuali"
 
 #: src/brand/index.html:49
 msgid "Logo package"
-msgstr ""
+msgstr "Paket logotipa"
 
 #: src/downloads/index.html:104
 msgid "MINING SOFTWARE"
-msgstr ""
+msgstr "SOFTVER ZA RUDARENJE"
 
 #: src/index.html:267
 msgid "Mining"
-msgstr ""
+msgstr "Rudarenje"
 
 #: src/index.html:44
 msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
 msgstr ""
+"Propuštene ulaznice mogu biti uzrokovane slabo povezanim&nbsp; Proof-of-work"
+" (PoW) rudarom&nbsp; i možda ne mora nužno biti pogreška Pool-a."
 
 #: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
 #: src/index.html:490
 msgid "Network Stats"
-msgstr ""
+msgstr "Mrežne statistike"
 
 #: src/downloads/index.html:93
 msgid "No downloads required."
-msgstr ""
+msgstr "Nije potrebno preuzimanje."
 
 #: src/index.html:44
 msgid "Notice:"
-msgstr ""
+msgstr "Obavijest:"
 
 #: src/index.html:7 src/index.html:9
 msgid ""
 "Open and progressive cryptocurrency with a system of community-based "
 "governance integrated into its blockchain."
 msgstr ""
+"Otvorena i progresivna kriptovaluta s sustavom upravljanja baziranom na "
+"odlukama zajednice integriranom u svoj blockchain."
 
 #: src/brand/index.html:114
 msgid "Orange"
-msgstr ""
+msgstr "Orange"
 
 #: src/index.html:169
 msgid "Overview"
-msgstr ""
+msgstr "Pregled"
 
 #: src/downloads/index.html:71
 msgid "Paymetheus"
-msgstr ""
+msgstr "Paymetheus"
 
 #: src/index.html:61
 msgid "Paymetheus For Windows"
-msgstr ""
+msgstr "Paymetheus Za Windows"
 
 #: src/index.html:59
 msgid "Paymetheus For Windows 32bit"
-msgstr ""
+msgstr "Paymetheus Za Windows 32 bit"
 
 #: src/index.html:60
 msgid "Paymetheus For Windows 64bit"
-msgstr ""
+msgstr "Paymetheus Za Windows 64bit"
 
 #: src/index.html:383
 msgid "Planned Features"
-msgstr ""
+msgstr "Planirana funkcionalnost"
 
 #: src/index.html:513
 msgid "PoS-mined"
-msgstr ""
+msgstr "PoS izrudareno"
 
 #: src/index.html:512
 msgid "PoW-mined"
-msgstr ""
+msgstr "PoW izrudareno"
 
 #: src/brand/index.html:56
 msgid "Primary Colors"
-msgstr ""
+msgstr "Primary Colors"
 
 #: src/index.html:311
 msgid "Proof-of-Stake Mining"
-msgstr ""
+msgstr "PoS Rudarenje"
 
 #: src/index.html:289
 msgid "Proof-of-Work Mining"
-msgstr ""
+msgstr "PoW rudarenje"
 
 #: src/brand/index.html:46
 msgid "Quick-use toolkit"
-msgstr ""
+msgstr "Alat za brzo korištenje"
 
 #: src/index.html:151
 msgid "Read the Decred Constitution"
-msgstr ""
+msgstr "Pročitajte ustav Decreda"
 
 #: src/index.html:243
 msgid "Send and Receive Decred"
-msgstr ""
+msgstr "Pošaljite i primite Decred"
 
 #: src/index.html:88
 msgid "Stable Version"
-msgstr ""
+msgstr "Stabilna inačica"
 
 #: src/downloads/index.html:46 src/index.html:427 src/index.html:492
 msgid "Stakepools"
-msgstr ""
+msgstr "PoS poolovi"
 
 #: src/index.html:41
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
 msgstr ""
+"PoS poolovi omogućuju vam sudjelovanje u rudarstvu Decred Proof-of-Stake (PoS) bez potrebe za brigom\n"
+"        <br> o gubitku zbog zastoja racunala, nestabilne internetske veze ili nedostatka snage."
 
 #: src/index.html:517
 msgid "Start again"
-msgstr ""
+msgstr "Počni iznova"
 
 #: src/index.html:71
 msgid "Statistics"
-msgstr ""
+msgstr "Statistika"
 
 #: src/index.html:79
 msgid "Supply distribution"
-msgstr ""
+msgstr "Distribucija zaliha"
 
 #: src/brand/index.html:139 src/downloads/index.html:43 src/index.html:421
 #: src/index.html:489
 msgid "Technical Brief"
-msgstr ""
+msgstr "Tehničk pregled"
 
 #: src/index.html:106
 msgid "Technology"
-msgstr ""
+msgstr "Tehnologija"
 
 #: src/index.html:193
 msgid "The Basics"
-msgstr ""
+msgstr "Osnove"
 
 #: src/index.html:219
 msgid "The Wallets"
-msgstr ""
+msgstr "Novčanici"
 
 #: src/index.html:149
 msgid ""
@@ -525,131 +570,137 @@ msgid ""
 "making decisions, both informally via the forum and formally via the "
 "blockchain."
 msgstr ""
+"Projekt je vezan za Decred-ov Ustav, tako da korisnici mogu znati što "
+"očekivati: konačan broj kovanica, decentralizirano upravljanje i mjesto za "
+"dijeljenje svojih stavova. &nbsp;Decred-ova zajednica ima važnu ulogu u "
+"donošenju odluka, neformalno putem foruma i formalno preko blockchaina."
 
 #: src/index.html:62
 msgid "The quick tour"
-msgstr ""
+msgstr "Brzi vodic"
 
 #: src/downloads/index.html:114
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
-msgstr ""
+msgstr "CUDA rudar za NVIDIA GPU. Nije podržan od strane Decred tima."
 
 #: src/downloads/index.html:121
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
-msgstr ""
+msgstr "OpenCL rudar za AMD GPU. Nije podržan od strane Decred tima."
 
 #: src/index.html:160
 msgid "This tour will help you get started with Decred"
-msgstr ""
+msgstr "Ovaj vodic će vam pomoći da započnete s Decredom"
 
 #: src/index.html:45
 msgid ""
 "To protect de-centralization of the network, it is recommended to avoid "
 "pools that have over 5% of network votes."
 msgstr ""
+"Kako bi zaštitili decentralizaciju mreže, preporučuje se izbjegavanje bazena"
+" koji imaju preko 5% glasova na mreži."
 
 #: src/brand/index.html:70
 msgid "Turquiose"
-msgstr ""
+msgstr "Turquiose"
 
 #: src/brand/index.html:82
 msgid "Typography"
-msgstr ""
+msgstr "Tipografija"
 
 #: src/downloads/index.html:99
 msgid "View on GitHub"
-msgstr ""
+msgstr "Posjeti GitHub"
 
 #: src/brand/index.html:11 src/brand/index.html:39 src/brand/index.html:9
 msgid "Visual communication toolkit"
-msgstr ""
+msgstr "Alati za Vizualnu komunikaciju"
 
 #: src/downloads/index.html:45 src/index.html:491
 msgid "Voting"
-msgstr ""
+msgstr "Glasanje"
 
 #: src/index.html:428
 msgid "Voting Dashboard"
-msgstr ""
+msgstr "Panel glasanja"
 
 #: src/index.html:45
 msgid "Warning:"
-msgstr ""
+msgstr "Upozorenje:"
 
 #: src/downloads/index.html:89
 msgid "Webwallet"
-msgstr ""
+msgstr "Web novcanik"
 
 #: src/downloads/index.html:76
 msgid "Win 32-bit"
-msgstr ""
+msgstr "Win 32-bit"
 
 #: src/downloads/index.html:74
 msgid "Win 64-bit"
-msgstr ""
+msgstr "Win 64-bit"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
-msgstr ""
+msgstr "_direction"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_language"
-msgstr ""
+msgstr "_language"
 
 #: src/downloads/index.html:113
 msgid "ccminer"
-msgstr ""
+msgstr "ccminer"
 
 #: src/downloads/index.html:116
 msgid "ccminer releases"
-msgstr ""
+msgstr "ccminer inacice"
 
 #: src/index.html:8
 msgid "deCRED - decentralized credit"
-msgstr ""
+msgstr "DeCRED - decentralizirani kredit"
 
 #: src/brand/index.html:10 src/brand/index.html:7
 msgid "deCRED brand"
-msgstr ""
+msgstr "deCred brand"
 
 #: src/brand/index.html:154 src/index.html:438
 msgid "downloads"
-msgstr ""
+msgstr "preuzimanja"
 
 #: src/downloads/index.html:106
 msgid "gominer"
-msgstr ""
+msgstr "gominer"
 
 #: src/downloads/index.html:109
 msgid "gominer releases"
-msgstr ""
+msgstr "gominer inacice"
 
 #: src/downloads/index.html:83
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: src/index.html:73
 msgid "mined so far"
-msgstr ""
+msgstr "izrudareno do sad"
 
 #: src/downloads/index.html:120
 msgid "sgminer"
-msgstr ""
+msgstr "sgminer"
 
 #: src/downloads/index.html:123
 msgid "sgminer releases"
-msgstr ""
+msgstr "sgminer inacice"
 
 #: src/index.html:433
 msgid "stable"
-msgstr ""
+msgstr "stabilne"
 
 #: src/brand/index.html:153 src/index.html:437 src/index.html:94
 msgid "total"
-msgstr ""
+msgstr "ukupno"
 
 #: src/brand/index.html:141
 msgid "← Main Website"
-msgstr ""
+msgstr "← Glavni Web"

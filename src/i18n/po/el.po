@@ -1,5 +1,4 @@
 # Translators:
-# Peter Banik <peter@froggle.org>, 2017
 # Aldo Iljazi <aldoiljazi@protonmail.com>, 2017
 # Jason Milionis <jasonmili@outlook.com>, 2017
 msgid ""
@@ -30,16 +29,16 @@ msgid ""
 "\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
 "\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
 msgstr ""
-"<p>Μια διεύθυνση είναι το μόνο που χρειάζεται για να στείλετε ή να λάβετε χρηματικά ποσά. Μπορεί να δημιουργηθεί εύκολα από οποιοδήποτε πορτοφόλι Decred. Οι διευθύνσεις Decred πάντοτε <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">ξεκινούν με το λατινικό γράμμα D και περιέχουν 26-36 αλφαριθμητικούς χαρακτήρες</a>.</p>\n"
-"\t\t<p>Αφότου πραγματοποιηθεί μια συναλλαγή, τα χρηματικά ποσά συνήθως εκκαθαρίζονται μέσα σε περίπου 5 λεπτά. Υπάρχει ένα μικρό τέλος για να βοηθήσει τη διατήρηση του δικτύου. Αυτό το τέλος είναι επιπρόσθετο του ποσού συναλλαγής. Για παράδειγμα, μια μεταφορά 100DCR θα επέσυρε ένα τέλος των περίπου 0.006DCR.</p>\n"
-"\t\t<p>Ο<a href=\"https://mainnet.decred.org\" target=\"_blank\"> Κύριος Εξερευνητής Μπλοκ Δικτύου </a>επιτρέπει στους χρήστες να αναζητήσουν όλα τα μπλοκ και όλες τις συναλλαγές στην αλυσίδα μπλοκ του Decred.</p>"
+"<p>Μια διεύθυνση είναι το μόνο που χρειάζεται για να στείλετε ή να λάβετε χρηματικά ποσά. Μπορεί εύκολα να δημιουργηθεί από οποιοδήποτε πορτοφόλι Decred. Οι διευθύνσεις Decred πάντοτε <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">ξεκινούν με το λατινικό γράμμα D και περιέχουν 26-36 αλφαριθμητικούς χαρακτήρες</a>.</p>\n"
+"\t\t<p>Αφότου πραγματοποιηθεί μια συναλλαγή, τα χρηματικά ποσά συνήθως εκκαθαρίζονται μέσα σε περίπου 5 λεπτά. Υπάρχει ένα μικρό τέλος για να βοηθήσει στη διατήρηση του δικτύου. Αυτό το τέλος είναι επιπρόσθετο του ποσού συναλλαγής. Για παράδειγμα, μια μεταφορά 100DCR θα επέσυρε ένα τέλος των περίπου 0,006DCR.</p>\n"
+"\t\t<p>Ο <a href=\"https://mainnet.decred.org\" target=\"_blank\">Κύριος Εξερευνητής Block Δικτύου</a> επιτρέπει στους χρήστες να αναζητήσουν όλα τα blocks και όλες τις συναλλαγές στο blockchain του Decred.</p>"
 
 #: src/index.html:176
 msgid ""
 "<p>Decred is a multi-platform digital currency with support for Windows, Mac, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
-"<p>Το Decred είναι ένα ψηφιακό νόμισμα πολλαπλών πλατφορμών με υποστήριξη για Windows, Mac και Linux. Εύχρηστες εφαρμογές πορτοφολιών επιτρέπουν την αποστολή, τη λήψη και την εξόρυξη Decred με μερικά μόνο κλικ.</p>\n"
+"<p>Το Decred είναι ένα ψηφιακό νόμισμα πολλαπλών πλατφορμών με υποστήριξη για Windows, macOS και Linux. Εύχρηστες εφαρμογές πορτοφολιών επιτρέπουν την αποστολή, τη λήψη και το mining του Decred με μερικά μόνο κλικ.</p>\n"
 "\t\t<p>Σε όσους αρέσει να πειραματίζονται, το Decred παρέχει μια πλήρη σειρά εργαλείων γραμμής εντολών που επιτρέπουν την προσαρμογή της εμπειρίας Decred.</p>"
 
 #: src/index.html:342
@@ -54,9 +53,10 @@ msgstr ""
 "<p>Το Decred είναι ακόμα καινούριο και, αυτή τη στιγμή, ο πιο εύκολος τρόπος"
 " για να το αγοράσετε είναι με την χρήση του Bitcoin. <a "
 "href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" "
-"title=\"_blank\">Μόλις έχετε μερικά Bitcoin</a>, μπορεί να ανταλλαχθούν για "
-"Decred <a href=\"https://docs.decred.org/getting-started/obtaining-"
-"dcr/#exchanges\" title=\"_blank\">σε συναλλακτήρια κρυπτονομισμάτων</a>.</p>"
+"title=\"_blank\">Μόλις αποκτήσετε μερικά Bitcoin</a>, μπορούν να "
+"ανταλλαχθούν για Decred <a href=\"https://docs.decred.org/getting-started"
+"/obtaining-dcr/#exchanges\" title=\"_blank\">σε συναλλακτήρια "
+"κρυπτονομισμάτων</a>.</p>"
 
 #: src/index.html:295
 msgid ""
@@ -64,9 +64,9 @@ msgid ""
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
 "\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
 msgstr ""
-"<p>Στο <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> οι συναλλαγές ταξινομούνται σε μπλοκ. Αυτά τα μπλοκ επικυρώνονται από εξορύκτες PoW. Όταν ένα μπλοκ επικυρώνεται γίνεται μόνιμο τμήμα του δικτύου Decred.</p>\n"
-"\t\t<p>Μπορείτε να γίνετε εξορύκτης αφιερώνοντας την ελεύθερη υπολογιστική ισχύ στο δίκτυο. Ως αντάλλαγμα οι εξορύκτες επιβραβεύονται με Decred.</p>\n"
-"\t\t<p>Για αποδοτικότητα και ευκολία μπορείτε να συμμετάσχετε σε <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">pools εξόρυξης</a>. Τα pools είναι ομάδες εξορυκτών που μοιράζονται την εργασία και χωρίζουν τις ανταμοιβές. Η συμμετοχή σε ένα pool εξόρυξης είναι ένας εξαιρετικός τρόπος για μικρότερους συνεισφορείς να λαμβάνουν σταθερές πληρωμές για την εργασία τους.</p>"
+"<p>Στο <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> οι συναλλαγές ταξινομούνται σε blocks. Αυτά τα blocks επικυρώνονται από τους PoW miners. Όταν ένα block επικυρώνεται γίνεται μόνιμο τμήμα του δικτύου Decred.</p>\n"
+"\t\t<p>Μπορείτε να γίνετε miner αφιερώνοντας ελεύθερη υπολογιστική ισχύ στο δίκτυο. Ως αντάλλαγμα οι miners επιβραβεύονται με Decred.</p>\n"
+"\t\t<p>Για αποδοτικότητα και ευκολία μπορείτε να συμμετάσχετε σε <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. Τα pools είναι ομάδες από miners που μοιράζονται την εργασία και μοιράζονται την ανταμοιβή. Η συμμετοχή σε ένα mining pool είναι ένας εξαιρετικός τρόπος για μικρότερους συνεισφορείς να λαμβάνουν σταθερές πληρωμές για την εργασία τους.</p>"
 
 #: src/index.html:389
 msgid ""
@@ -82,17 +82,17 @@ msgid ""
 "\t\t</ul>\n"
 "\t\t<p>Read about these and more on <a href=\"https://blog.decred.org\" target=\"_blank\">our blog</a> and welcome to Decred: the future of digital currency.</p>"
 msgstr ""
-"<p>Μέρος της ανταμοιβής από καινούρια μπλοκ πηγαίνει για την ανάπτυξη του Decred ώστε να διασφαλιστεί ότι θα εξελίσσεται διαρκώς για να ταυτίζεται με τις ανάγκες και τη θέληση της κοινότητας τώρα και στα χρόνια που έρχονται. Αυτά είναι μόνο μερικά από τα χαρακτηριστικά που έχουν σχεδιαστεί για το 2017:</p>\n"
+"<p>Μέρος της ανταμοιβής από τα καινούρια blocks πηγαίνει για την ανάπτυξη του Decred ώστε να διασφαλιστεί ότι θα εξελίσσεται διαρκώς για να ταυτίζεται με τις ανάγκες και τη θέληση της κοινότητας τώρα και στα επόμενα χρόνια. Αυτά είναι μόνο μερικά από τα χαρακτηριστικά που έχουν σχεδιαστεί για το 2017:</p>\n"
 "\t\t<ul>\n"
-"\t\t<li>Ψήφιση για hard fork</li>\n"
-"                 <li>Ένα κατευθυνόμενο από κατόχους DAO</li>\n"
+"\t\t<li>Ψηφοφορία για hard fork</li>\n"
+"                 <li>Μια αποκεντρωμένη αυτόνομη οργάνωση (DAO) που κατευθύνεται από τους κατόχους του</li>\n"
 "                 <li>Αποκεντρωμένος έλεγχος των χρηματικών ποσών ανάπτυξης</li>\n"
-"                 <li>Υποστήριξη δικτύου Lightning</li>\n"
+"                 <li>Υποστήριξη του δικτύου Lightning</li>\n"
 "                 <li>Συνεχής ανάπτυξη περιβάλλοντος διεπαφής και σχεδιασμού</li>\n"
 "                 <li>Βελτιωμένη ιδιωτικότητα</li>\n"
 "                 <li>Ενσωμάτωση πληρωμών</li>\n"
 "\t\t</ul>\n"
-"\t\t<p>Διαβάστε για αυτά και περισσότερα στο <a href=\"https://blog.decred.org\" target=\"_blank\">ιστολόγιό μας</a> και καλωσορίσατε στο Decred: το μέλλον του ψηφιακού νομίσματος.</p>"
+"\t\t<p>Διαβάστε για αυτά και περισσότερα στο <a href=\"https://blog.decred.org\" target=\"_blank\">ιστολόγιο μας</a> και καλωσορίσατε στο Decred: το μέλλον του ψηφιακού νομίσματος.</p>"
 
 #: src/index.html:225
 msgid ""
@@ -101,9 +101,9 @@ msgid ""
 "\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
-"<p>Το Πορτοφόλι Ιστοτόπου είναι ο ευκολότερος τρόπος για να ξεκινήσετε με το Decred. Όλοι οι χρήστες μπορούν να αποκτήσουν πρόσβαση σε αυτό ηλεκτρονικά διαμέσου του <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, χωρίς να χρειάζεται να κατεβάσουν τίποτε.</p>\n"
-"\t\t<p>Για τους χρήστες Windows, το<a href=\"downloads/#paymetheus\"> Πορτοφόλι Paymetheus</a> θα σας βοηθήσει να είστε online σε μόλις μερικά λεπτά.</p>\n"
-"\t\t<p>Για τους χρήστες Mac και Linux, είναι διαθέσιμο το<a href=\"downloads/#paymetheus\"> Πορτοφόλι Decrediton</a></p>\n"
+"<p>Το Πορτοφόλι Ιστού είναι ο ευκολότερος τρόπος για να ξεκινήσετε με το Decred. Όλοι οι χρήστες μπορούν να αποκτήσουν πρόσβαση σε αυτό ηλεκτρονικά διαμέσου του <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, χωρίς να χρειάζεται να κατεβάσουν τίποτα.</p>\n"
+"\t\t<p>Για τους χρήστες Windows, το <a href=\"downloads/#paymetheus\">πορτοφόλι Paymetheus</a> θα σας βοηθήσει να είστε online σε μόλις μερικά λεπτά.</p>\n"
+"\t\t<p>Για τους χρήστες macOS και Linux, είναι διαθέσιμο το <a href=\"downloads/#paymetheus\">πορτοφόλι Decrediton</a></p>\n"
 "<p>Για να ξεκινήσετε μπορείτε να επισκεφτείτε τον <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Οδηγό για Αρχάριους</a>.</p>"
 
 #: src/index.html:273
@@ -111,7 +111,7 @@ msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
 msgstr ""
-"<p>Ο όρος εξόρυξη συνίσταται στη διαδικασία της επικύρωσης των συναλλαγών στο δίκτυο Decred και στην ασφαλή διαφύλαξή του. Σαν αντάλλαγμα για την εργασία, οι εξορυκτές επιβραβεύονται με φρεσκο-δημιουργημένα Decred.</p>\n"
+"<p>Ο όρος mining συνίσταται στη διαδικασία της επικύρωσης των συναλλαγών στο δίκτυο Decred και στην ασφαλή διαφύλαξή του. Σαν αντάλλαγμα για την εργασία, οι miners επιβραβεύονται με φρέσκο-δημιουργημένα κέρματα Decred.</p>\n"
 "\t\t<p>Το Decred έχει δύο μεθόδους επαλήθευσης συναλλαγών: το Proof-of-Work (PoW) και το Proof-of-Stake (PoS).</p>"
 
 #: src/index.html:199
@@ -122,16 +122,16 @@ msgid ""
 "\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
 msgstr ""
 "<p>Υπάρχουν τρεις κύριοι τρόποι να αλληλεπιδράσετε με το Decred:</p>\n"
-"\t\t<p><strong>Το Πορτοφόλι</strong> - Για την αποστολή και λήψη χρηματικών ποσών αλλά και για την συμμετοχή στην εξόρυξη PoS.</p>\n"
-"\t\t<p><strong>Η εξόρυξη Proof-of-Work</strong> - Χρησιμοποιώντας την υπολογιστική ισχύ για την επικύρωση των συναλλαγών στο δίκτυο και τη δημιουργία καινούριων κερμάτων Decred.</p>\n"
-"\t\t<p><strong>Η εξόρυξη Proof-of-Stake</strong> - Χρησιμοποιώντας χρηματικά ποσά για να ψηφίσετε σε σημαντικά ζητήματα ανάπτυξης του δικτύου και να επικυρώσετε συναλλαγές για επιβραβεύσεις.</p>"
+"\t\t<p><strong>Το Πορτοφόλι</strong> - Για την αποστολή και λήψη χρηματικών ποσών αλλά και για την συμμετοχή στην PoS mining.</p>\n"
+"\t\t<p><strong>Proof-of-Work Mining</strong> - Χρησιμοποιώντας την υπολογιστική ισχύ για την επικύρωση των συναλλαγών στο δίκτυο και τη δημιουργία καινούριων κερμάτων Decred.</p>\n"
+"\t\t<p><strong>Proof-of-Stake Mining</strong> - Χρησιμοποιώντας χρηματικά ποσά για να ψηφίσετε σε σημαντικά ζητήματα ανάπτυξης του δικτύου και να επικυρώσετε συναλλαγές για επιβραβεύσεις.</p>"
 
 #: src/index.html:365
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
 msgstr ""
-"<p>Μέσω των αποκεντρωμένων διεργασιών, άτομα με διαφορετικές ιδέες, στόχους και απόψεις μπορούν να βοηθήσουν να διαμορφωθεί το μέλλον. Πιθανότατα θα έχετε κάποιες ερωτήσεις, οπότε ελάτε στην ολοένα αναπτυσσόμενη κοινότητά μας, όπου μπορείτε να συνδεθείτε με προγραμματιστές και άλλους χρήστες, να λάβετε πληροφορίες, να κάνετε ερωτήσεις ή απλά να καθίσετε. Έχουμε ένα <a href=\"https://forum.decred.org\" title=\"_blank\">forum χρηστών</a>, ένα <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">κανάλι IRC</a>, ένα <a href=\"https://t.me/Decred\" title=\"_blank\">κανάλι Telegram</a> και ένα <a href=\"https://slack.decred.org\" title=\"_blank\">κανάλι Slack</a> όπου μπορείτε να συνομιλήσετε με τους προγραμματιστές και άλλους χρήστες σε πραγματικό χρόνο. Μην ξεχνάτε το <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> και το <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
+"<p>Μέσω των αποκεντρωμένων διεργασιών, άτομα με διαφορετικές ιδέες, στόχους και απόψεις μπορούν να βοηθήσουν να διαμορφωθεί το μέλλον. Πιθανότατα θα έχετε κάποιες ερωτήσεις, οπότε ελάτε στην ολοένα αναπτυσσόμενη κοινότητά μας, όπου μπορείτε να συνδεθείτε με προγραμματιστές και άλλους χρήστες, να λάβετε πληροφορίες, να κάνετε ερωτήσεις ή απλά να αράξετε. Έχουμε ένα <a href=\"https://forum.decred.org\" title=\"_blank\">forum χρηστών</a>, ένα <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">κανάλι IRC</a>, ένα <a href=\"https://t.me/Decred\" title=\"_blank\">κανάλι Telegram</a> και ένα <a href=\"https://slack.decred.org\" title=\"_blank\">κανάλι Slack</a> όπου μπορείτε να συνομιλήσετε με τους προγραμματιστές και άλλους χρήστες σε πραγματικό χρόνο. Μην ξεχνάτε το <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> και το <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "Ανυπομονούμε να σας γνωρίσουμε!</p>"
 
 #: src/index.html:317
@@ -139,20 +139,20 @@ msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
 msgstr ""
-"<p>Αντιθέτως με το PoW, η <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">εξόρυξη Proof-of-Stake (PoS)</a> απαιτεί λίγους υπολογιστικούς πόρους. Χρηματικά ποσά Decred χρησιμοποιούνται για την αγορά εισιτηρίων ψήφου στο δίκτυο. Σε κάθε μπλοκ, πέντε εισιτήρια από το καλάθι των live εισιτηρίων επιλέγονται τυχαία για να ψηφίσουν για την εγκυρότητα του προηγούμενου μπλοκ.</p>\n"
-"\t\t<p>Το PoS προσθέτει ένα επιπλέον στρώμα αποκέντρωσης στο Decred και επιτρέπει στους χρήστες να ψηφίσουν σε προτεινόμενες αλλαγές δικτύου. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Επίσης διαθέσιμα για PoS είναι τα pools</a> για να διασφαλίσετε ότι τα εισιτήριά σας θα είναι έτοιμα να ψηφίσουν οποτεδήποτε κληθούν.</p>"
+"<p>Σε αντίθεση με το PoW, το <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> απαιτεί λίγους υπολογιστικούς πόρους. Χρηματικά ποσά Decred χρησιμοποιούνται για την αγορά εισιτηρίων ψήφου στο δίκτυο. Σε κάθε block, πέντε εισιτήρια από το καλάθι των live εισιτηρίων επιλέγονται τυχαία για να ψηφίσουν για την εγκυρότητα του προηγούμενου block. </p>\n"
+"\t\t<p>Το PoS προσθέτει ένα επιπλέον στρώμα αποκέντρωσης στο Decred και επιτρέπει στους χρήστες να ψηφίσουν σε προτεινόμενες αλλαγές δικτύου. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Τα pools είναι διαθέσιμα και για PoS</a> για να διασφαλίσετε ότι τα εισιτήρια σας θα είναι έτοιμα να ψηφίσουν οποτεδήποτε κληθούν.</p>"
 
 #: src/downloads/index.html:97
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr ""
-"Ένα αυτόματο πρόγραμμα εγκατάστασης / ενημέρωσης πολλαπλών πλατφορμών για "
-"τις εφαρμογές γραμμής εντολών."
+"Ένα αυτόματο πρόγραμμα εγκατάστασης/ενημέρωσης πολλαπλών πλατφορμών για τις "
+"εφαρμογές γραμμής εντολών."
 
 #: src/downloads/index.html:38 src/index.html:484
 msgid "About"
-msgstr "Σχετικά Με"
+msgstr "Σχετικά"
 
 #: src/index.html:515
 msgid "Airdrop"
@@ -185,8 +185,8 @@ msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
 msgstr ""
-"Εξορυκτής CUDA/OpenCL για κάρτες γραφικών AMD/NVIDIA. Επίσημα "
-"υποστηριζόμενος από την ομάδα Decred."
+"CUDA/OpenCL miner για κάρτες γραφικών AMD/NVIDIA. Επίσημα υποστηριζόμενος "
+"από την ομάδα του Decred."
 
 #: src/index.html:38
 msgid "Close"
@@ -243,7 +243,7 @@ msgid ""
 msgstr ""
 "Το Decred καλλιεργεί ένα οικοσύστημα ανάπτυξης πολλαπλών κατόχων που καλωσορίζει και ενδυναμώνει τους συμμετέχοντες που επιθυμούν να βελτιώσουν υπάρχοντα χαρακτηριστικά ή να κατασκευάσουν νέα εργαλεία.\n"
 "<br>\n"
-"<br>Οποιοσδήποτε μπορεί να υποβάλει προτάσεις χαρακτηριστικών και οι προγραμματιστές πληρώνονται για την εργασία τους να εκπληρώσουν προαπαιτούμενα κατά την γνώμη της κοινότητας. &nbsp;Η χρηματοδότηση για αυτή την εργασία προέρχεται απευθείας από την αλυσίδα μπλοκ του Decred."
+"<br>Οποιοσδήποτε μπορεί να υποβάλει προτάσεις χαρακτηριστικών και οι προγραμματιστές πληρώνονται για την εργασία του να εκπληρώσουν προαπαιτούμενα κατά την γνώμη της κοινότητας. &nbsp;Η χρηματοδότηση για αυτή την εργασία προέρχεται απευθείας από το blockchain του Decred."
 
 #: src/index.html:53
 msgid ""
@@ -251,8 +251,7 @@ msgid ""
 "based governance integrated into its blockchain."
 msgstr ""
 "Το Decred είναι ένα ανοιχτό και προοδευτικό κρυπτονόμισμα με ένα σύστημα "
-"διακυβέρνησης βασισμένο στην κοινότητα και ενσωματωμένο στην αλυσίδα μπλοκ "
-"του."
+"διακυβέρνησης βασισμένο στην κοινότητα και ενσωματωμένο στο blockchain του."
 
 #: src/index.html:136
 msgid ""
@@ -260,7 +259,7 @@ msgid ""
 "                <br>\n"
 "                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
 msgstr ""
-"Το Decred οικοδομεί μια πολυεπίπεδη οργάνωση διακυβέρνησης που εκτείνεται πέρα ​​από τους εξορυκτές και τους χρήστες για να προωθήσει και να εκπροσωπήσει τις εσωτερικές και εξωτερικές φωνές στην κοινότητα.\n"
+"Το Decred οικοδομεί μια πολυεπίπεδη οργάνωση διακυβέρνησης που εκτείνεται πέρα ​​από τους miners και τους χρήστες για να προωθήσει και να εκπροσωπήσει τις εσωτερικές και εξωτερικές φωνές στην κοινότητα.\n"
 "                <br>\n"
 "                <br> Η αποκέντρωση είναι μια διαδικασία και ένα αποκεντρωμένο βιβλίο είναι μόνο το πρώτο βήμα σε αυτή τη διαδικασία."
 
@@ -270,9 +269,9 @@ msgid ""
 "                <br>\n"
 "                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
 msgstr ""
-"To Decred χρησιμοποιεί ένα υβριδικό σύστημα συναίνεσης ώστε να επιτευχθεί ισορροπία μεταξύ <u> εξορυκτών</u>* και χρηστών για να δημιουργηθεί ένα πιο στέρεο νόμισμα.\n"
+"To Decred χρησιμοποιεί ένα υβριδικό σύστημα συναίνεσης ώστε να επιτευχθεί ισορροπία μεταξύ των <u>miners</u>* και των χρηστών για να δημιουργηθεί ένα πιο στέρεο νόμισμα.\n"
 "                <br>\n"
-"                <br> Συνήθως, οι εξορυκτές που χειρίζονται την υποδομή ασκούν σημαντική επιρροή, ενώ οι χρήστες έχουν σχετικά μικρό λόγο. Το Decred επιτρέπει στους χρήστες να συμμετέχουν άμεσα στο έργο χωρίς την ανάγκη για δαπανηρό υλικό εξόρυξης."
+"                <br>Συνήθως, οι miners που χειρίζονται την υποδομή ασκούν σημαντική επιρροή, ενώ οι χρήστες έχουν σχετικά μικρό λόγο. Το Decred επιτρέπει στους χρήστες να συμμετέχουν άμεσα στο έργο χωρίς την ανάγκη για δαπανηρό υλικό mining."
 
 #: src/downloads/index.html:80
 msgid "Decrediton"
@@ -280,11 +279,11 @@ msgstr "Decrediton"
 
 #: src/index.html:58
 msgid "Decrediton For Linux"
-msgstr "Decrediton Για Linux"
+msgstr "Decrediton για Linux"
 
 #: src/index.html:57
 msgid "Decrediton For Mac OS X"
-msgstr "Decrediton Για Mac OS X"
+msgstr "Decrediton για macOS"
 
 #: src/brand/index.html:123
 msgid ""
@@ -305,7 +304,7 @@ msgstr ""
 
 #: src/index.html:516
 msgid "Dev Premine"
-msgstr "Προ-εξόρυξη Προγραμματιστών"
+msgstr "Premine Προγραμματιστών"
 
 #: src/index.html:122 src/index.html:86
 msgid "Development"
@@ -313,7 +312,7 @@ msgstr "Ανάπτυξη"
 
 #: src/index.html:514
 msgid "Development Subsidy"
-msgstr "Επίδομα Ανάπτυξης"
+msgstr "Επιχορήγηση Ανάπτυξης"
 
 #: src/brand/index.html:140 src/downloads/index.html:41 src/index.html:422
 #: src/index.html:487
@@ -326,7 +325,7 @@ msgstr "Κατεβάστε Ολόκληρο το Πακέτο"
 
 #: src/brand/index.html:55
 msgid "Download Logo Package"
-msgstr "Λήψη πακέτου λογοτύπου"
+msgstr "Λήψη Πακέτου Λογοτύπου"
 
 #: src/index.html:56 src/index.html:57 src/index.html:58 src/index.html:59
 #: src/index.html:60 src/index.html:61
@@ -348,7 +347,7 @@ msgid ""
 " blockchain assets."
 msgstr ""
 "Το Exodus είναι μια φιλική, όλα-σε-ένα εφαρμογή που ασφαλίζει, διαχειρίζεται"
-" και συναλλάσσει περιουσιακά στοιχεία της αλυσίδας μπλοκ."
+" και συναλλάζει περιουσιακά στοιχεία του blockchain."
 
 #: src/downloads/index.html:133
 msgid "Exodus releases"
@@ -364,11 +363,11 @@ msgstr "Για τον Υπολογιστή σας"
 
 #: src/downloads/index.html:72
 msgid "GUI wallet for Windows"
-msgstr "GUI πορτοφόλι για Windows"
+msgstr "Πορτοφόλι γραφικού περιβάλλοντος για Windows"
 
 #: src/downloads/index.html:81
 msgid "GUI wallet for macOS and Linux"
-msgstr "GUI πορτοφόλι για macOS και Linux"
+msgstr "Πορτοφόλι γραφικού περιβάλλοντος για macOS και Linux"
 
 #: src/downloads/index.html:39 src/index.html:485 src/index.html:62
 msgid "Getting Started"
@@ -389,10 +388,10 @@ msgid ""
 "href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if "
 "you want to dig deeper."
 msgstr ""
-"Εάν είστε καινούριοι στο Decred, φροντίστε να διαβάσετε την ξενάγηση <a "
-"href=\"../#guide\" class=\"paragraph-link\"> Ξεκινώντας </a> ή την <a href ="
-" \"../# \"Class =\" paragraph-link \"> Τεχνική επισκόπηση </a> αν θέλετε να "
-"εμβαθύνετε."
+"Εάν είστε νέοι στο Decred, φροντίστε να διαβάσετε την ξενάγηση <a "
+"href=\"../#guide\" class=\"paragraph-link\">Ξεκινώντας</a> ή την <a "
+"href=\"../#technology\" class=\"paragraph-link\">Τεχνική Επισκόπηση</a> αν "
+"θέλετε να εμβαθύνετε περισσότερο."
 
 #: src/index.html:359
 msgid "Join The Community"
@@ -428,20 +427,20 @@ msgstr "Πακέτο λογοτύπου"
 
 #: src/downloads/index.html:104
 msgid "MINING SOFTWARE"
-msgstr "ΛΟΓΙΣΜΙΚΟ ΕΞΟΡΥΞΗΣ"
+msgstr "ΛΟΓΙΣΜΙΚΟ MINING"
 
 #: src/index.html:267
 msgid "Mining"
-msgstr "Εξόρυξη"
+msgstr "Mining"
 
 #: src/index.html:44
 msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
 msgstr ""
-"Τα χαμένα εισιτήρια μπορούν να προκληθούν από κακή σύνδεση&nbsp;Proof-of-"
-"Work (PoW) εξορυκτή&nbsp;και μπορεί να μην είναι κατ' ανάγκη σφάλμα του "
-"pool."
+"Τα εισιτήρια που δεν ψήφισαν μπορούν να προκληθούν από κακή σύνδεση&nbsp"
+";Proof-of-Work (PoW) miner&nbsp;και μπορεί να μην είναι κατ' ανάγκη σφάλμα "
+"του pool."
 
 #: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
 #: src/index.html:490
@@ -462,7 +461,7 @@ msgid ""
 "governance integrated into its blockchain."
 msgstr ""
 "Ανοικτό και προοδευτικό κρυπτονόμισμα με ένα σύστημα διακυβέρνησης βασισμένο"
-" στην κοινότητα, ενσωματωμένο στην αλυσίδα μπλοκ του."
+" στην κοινότητα, ενσωματωμένο στο blockchain του."
 
 #: src/brand/index.html:114
 msgid "Orange"
@@ -478,15 +477,15 @@ msgstr "Paymetheus"
 
 #: src/index.html:61
 msgid "Paymetheus For Windows"
-msgstr "Paymetheus Για Windows"
+msgstr "Paymetheus για Windows"
 
 #: src/index.html:59
 msgid "Paymetheus For Windows 32bit"
-msgstr "Paymetheus Για Windows 32bit"
+msgstr "Paymetheus για Windows 32bit"
 
 #: src/index.html:60
 msgid "Paymetheus For Windows 64bit"
-msgstr "Paymetheus Για Windows 64bit"
+msgstr "Paymetheus για Windows 64bit"
 
 #: src/index.html:383
 msgid "Planned Features"
@@ -494,11 +493,11 @@ msgstr "Προγραμματισμένες Δυνατότητες"
 
 #: src/index.html:513
 msgid "PoS-mined"
-msgstr "PoS-εξόρυξη"
+msgstr "PoS-mined"
 
 #: src/index.html:512
 msgid "PoW-mined"
-msgstr "PoW-εξόρυξη"
+msgstr "PoW-mined"
 
 #: src/brand/index.html:56
 msgid "Primary Colors"
@@ -506,11 +505,11 @@ msgstr "Κύρια Χρώματα"
 
 #: src/index.html:311
 msgid "Proof-of-Stake Mining"
-msgstr "Εξόρυξη Proof-of-Stake"
+msgstr "Proof-of-Stake Mining"
 
 #: src/index.html:289
 msgid "Proof-of-Work Mining"
-msgstr "Εξόρυξη Proof-of-Work"
+msgstr "Proof-of-Work Mining"
 
 #: src/brand/index.html:46
 msgid "Quick-use toolkit"
@@ -537,12 +536,12 @@ msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
 msgstr ""
-"Τα Stakepools σας επιτρέπουν να συμμετάσχετε στην εξόρυξη Proof-of-Stake (PoS) του Decred, χωρίς να χρειάζεται να ανησυχείτε\n"
-"        <br> σχετικά με τις απώλειες που οφείλονται σε διακοπές του υπολογιστή, κακή συνδεσιμότητα διαδικτύου, ή προβλήματα ενέργειας."
+"Τα stakepools σας επιτρέπουν να συμμετάσχετε στο Proof-of-Stake (PoS) mining του Decred, χωρίς να χρειάζεται να ανησυχείτε\n"
+"        <br>σχετικά με απώλειες που οφείλονται σε διακοπές λειτουργίας του υπολογιστή, κακή συνδεσιμότητα διαδικτύου, ή προβλήματα ενέργειας."
 
 #: src/index.html:517
 msgid "Start again"
-msgstr "Ξανα-ξεκινήστε"
+msgstr "Ξεκινήστε ξανά"
 
 #: src/index.html:71
 msgid "Statistics"
@@ -591,15 +590,15 @@ msgstr "Η γρήγορη ξενάγηση"
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
-"Εξορυκτής CUDA, τρίτου προγραμματιστή, για κάρτες γραφικών NVIDIA. Μη-"
-"υποστηριζόμενο από την ομάδα Decred."
+"CUDA miner, τρίτου προγραμματιστή, για κάρτες γραφικών NVIDIA. Μη-"
+"υποστηριζόμενο από την ομάδα του Decred."
 
 #: src/downloads/index.html:121
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
-"Εξορυκτής OpenCL, τρίτου προγραμματιστή, για κάρτες γραφικών AMD. Μη-"
-"υποστηριζόμενο από την ομάδα Decred."
+"OpenCL miner, τρίτου προγραμματιστή, για κάρτες γραφικών AMD. Μη-"
+"υποστηριζόμενο από την ομάδα του Decred."
 
 #: src/index.html:160
 msgid "This tour will help you get started with Decred"
@@ -611,11 +610,11 @@ msgid ""
 "pools that have over 5% of network votes."
 msgstr ""
 "Προκειμένου να προστατευτεί η αποκεντρωμένη λειτουργία του δικτύου, "
-"συνιστάται η αποφυγή pools που έχουν πάνω από 5% των δικτυακών ψήφων."
+"συνιστάται η αποφυγή των pools που έχουν πάνω από 5% των δικτυακών ψήφων."
 
 #: src/brand/index.html:70
 msgid "Turquiose"
-msgstr "Τυρκουάζ"
+msgstr "Τουρκουάζ"
 
 #: src/brand/index.html:82
 msgid "Typography"
@@ -635,7 +634,7 @@ msgstr "Ψηφοφορία"
 
 #: src/index.html:428
 msgid "Voting Dashboard"
-msgstr "Πίνακας ελέγχου ψηφοφορίας"
+msgstr "Πίνακας Ελέγχου Ψηφοφορίας"
 
 #: src/index.html:45
 msgid "Warning:"
@@ -643,7 +642,7 @@ msgstr "Προσοχή:"
 
 #: src/downloads/index.html:89
 msgid "Webwallet"
-msgstr "Πορτοφόλι Ιστού"
+msgstr "Webwallet"
 
 #: src/downloads/index.html:76
 msgid "Win 32-bit"
@@ -659,7 +658,7 @@ msgstr "_direction"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_language"
-msgstr "el"
+msgstr "_language"
 
 #: src/downloads/index.html:113
 msgid "ccminer"
@@ -695,7 +694,7 @@ msgstr "macOS"
 
 #: src/index.html:73
 msgid "mined so far"
-msgstr "εξορύχθηκαν έως τώρα"
+msgstr "έγιναν mine έως τώρα"
 
 #: src/downloads/index.html:120
 msgid "sgminer"
@@ -707,7 +706,7 @@ msgstr "εκδόσεις sgminer"
 
 #: src/index.html:433
 msgid "stable"
-msgstr "Σταθερό"
+msgstr "σταθερό"
 
 #: src/brand/index.html:153 src/index.html:437 src/index.html:94
 msgid "total"
