@@ -56,5 +56,6 @@ RewriteRule .* - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} /$
 RewriteCond %{HTTP_COOKIE} ;?lang=([a-z]{2,3})[-,;]? [OR]
-RewriteCond %{HTTP:Accept-Language} ^([a-z]{2,3})[-,;]?
+RewriteCond %{HTTP:Accept-Language} ^([a-z]{2,3})[-,;]? [OR]
+RewriteCond en (en)
 RewriteRule ^(.*)$ "${languagemap:%1|en}/$1" [QSA,L]
