@@ -1,4 +1,5 @@
 # Translators:
+# Olcaytu <Ersanhukuk@gmail.com>, 2017
 # Ali Akyurek <aliakyurek@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 # Dogukan Ceylan <dogukanceylan16@hotmail.com>, 2017
@@ -12,32 +13,37 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/downloads/index.html:128
+#: src/downloads/index.html:145
 msgid "3RD PARTY WALLETS"
-msgstr ""
+msgstr "RESMİ OLMAYAN CÜZDANLAR"
 
-#: src/index.html:449
+#: src/index.html:466
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:504
+#: src/index.html:528
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
-#: src/index.html:249
+#: src/index.html:266
 msgid ""
 "<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">begin with D and contain 26-36 alphanumeric characters</a>.</p>\n"
 "\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
 "\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
 msgstr ""
+"<p>Decred gönderip talep edebilmek için tek ihtiyacınız olan bir adres. Adresinizi herhangi bir Decred cüzdanı kullanarak oluşturabilirsiniz. Decred adresleri her zmaan <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">D harfiyle başlar ve 26-36 arası karakter içerir</a>.</p>\n"
+"\t\t<p>Bir işlem gerçekleştirdiğinizde, ortalama 5 dakika içerisinde işleminiz ağ tarafından onaylanır. Ağın devamlılığı için ufak bir miktar gönderim ücreti ödersiniz. Örnek olarak, 100 Decred miktarında bir gönderim için 0.006 Decred kadar bir ücret ödenir.</p>\n"
+"\t\t<p>Tüm Decred işlemlerini ve blok zincirini <a href=\"https://mainnet.decred.org\" target=\"_blank\">Ana Decred Blok Zinciri Görüntüleyicisi</a> aracılığıyla taip edebilirsiniz.</p>"
 
-#: src/index.html:176
+#: src/index.html:193
 msgid ""
-"<p>Decred is a multi-platform digital currency with support for Windows, Mac, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
+"<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
+"<p>Decred Windows, macOS ve Linux platformlarında çalışabilen bir dijital para birimidir. Kolay kullanıma sahip cüzdanlar ile Decred göndermek, almak ve madenciliğini yapmak sadece birkaç tuşla gerçekleştirilebilir. </p>\n"
+"\t\t<p>Değişiklik isteyen kullanıcılar için Decred, tam sürüm komut satırı özellikleri tanımakta. Böylece Decred tecrübenizi geliştirebilirsiniz.</p>"
 
-#: src/index.html:342
+#: src/index.html:359
 msgid ""
 "<p>Decred is still new, and at this time, the easiest way to purchase it is "
 "with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-"
@@ -46,21 +52,24 @@ msgid ""
 "/obtaining-dcr/#exchanges\" title=\"_blank\">at cryptocurrency "
 "exchanges</a>.</p>"
 msgstr ""
-"<p>Decred hala yeni ve satın almanın en kolay yolu, şu an için Bitcoin "
-"kullanmak. <a href=\"https://docs.decred.org/getting-started/obtaining-"
-"dcr/#bitcoin\" title=\"_blank\">Bitcoin'iniz varsa</a>, <a "
-"href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" "
-"title=\"_blank\">kripto para borsalarında</a> Decred ile takas "
-"edebilirsiniz.</p>"
+"<p>Decred henüz çok genç bir proje ve Decred satın almanın halen en kolay "
+"yolu, alternatif kripto para borsalarından Bitcoin kullanarak almak. <a "
+"href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" "
+"title=\"_blank\">Bitcoin'iniz varsa</a>, <a href=\"https://docs.decred.org"
+"/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\">kripto para "
+"borsalarında</a> Decred ile takas edebilirsiniz.</p>"
 
-#: src/index.html:295
+#: src/index.html:312
 msgid ""
 "<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p>\n"
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
 "\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
 msgstr ""
+"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> sistemi sayesinde işlemler bloklar içine sığdırılır. Bu bloklar PoW madencileri tarafından bulunur ve onaylanır. Bir blok onaylandığında Decred ağında kalıcı olarak yerini alır.</p>\n"
+"\t\t<p>İşlem gücünüzü Decred ağına yönlendirerek madencilik yapmaya başlayabilirsiniz. Karşılığında Decred ile ödüllendirilirsiniz.</p>\n"
+"\t\t<p>Verimliliği arttırmak için <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">madencilik havuzlarına</a> katılabilirsiniz. The pools are groups of miners who share the work and split the reward Havuzlar madencilik işlerini ve ödülleri paylaşan birden çok madenciden oluşur. Düşük işlem gücü ile madencilik yapacak kullanıcılar için bir havuza katılmak en iyi yöntemdir.</p>"
 
-#: src/index.html:389
+#: src/index.html:406
 msgid ""
 "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2017:</p>\n"
 "\t\t<ul>\n"
@@ -74,36 +83,51 @@ msgid ""
 "\t\t</ul>\n"
 "\t\t<p>Read about these and more on <a href=\"https://blog.decred.org\" target=\"_blank\">our blog</a> and welcome to Decred: the future of digital currency.</p>"
 msgstr ""
+"<p>Decred blok ödüllerinin bir kısmı geliştirici fonuna aktarılıyor. Bu bütçe Decred kullanıcıları tarafından kabul edilen geliştirme önerilerine, yine Decred kullanıcıları tarafından belirlenen miktarlarla aktarılıyor. 2017'de tamamlanması beklenen özellikler:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li>Ağır Çatallanma Oylaması</li>\n"
+"                <li>Hisse sahibinin yönetiminde merkezsiz ağ</li>\n"
+"                <li>Geliştirici bütçelerinin merkezsiz kontrolü</li>\n"
+"                <li>Lightning network desteği</li>\n"
+"                <li>Sürekli geiştirilen arayüz ve tasarım</li>\n"
+"                <li>Geliştirilmiş gizlilik</li>\n"
+"                <li>Ödeme uygulamaları</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Bunlardan daha fazlasını <a href=\"https://blog.decred.org\" target=\"_blank\">blogumuzda</a> okuyabilirsiniz. Decred'a hoşgeldiniz.</p>"
 
-#: src/index.html:225
+#: src/index.html:242
 msgid ""
 "<p>The Web Wallet is the easiest way to get started with Decred. All users can access it online via <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, without needing to download anything.</p>\n"
 "\t\t<p>For Windows users, <a href=\"downloads/#paymetheus\">Paymetheus wallet</a> will help you get online in just a few minutes.</p>\n"
-"\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
+"\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
+"<p>Tarayıcı tabanlı cüzdan Decred'a başlamanın en kolay yolu. Tüm kullanıcılar <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>adresini ziyaret ederek hiçbir indirme yapmadan cüzdan kurabilir.</p>\n"
+"\t\t<p>Windows kullanıcıları için, <a href=\"downloads/#paymetheus\">Paymetheus cüzdanı</a> sizi dakikalar içinde ağa bağlayabilir.</p>\n"
+"\t\t<p>macOS ve Linux kullanıcıları ise, <a href=\"downloads/#paymetheus\">Decrediton cüzdanını</a> kullanabilir.</p>\n"
+"    <p>Başlamak için yardıma ihtiyacınız varsa: <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Başlangıc Rehberi</a>.</p>"
 
-#: src/index.html:273
+#: src/index.html:290
 msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
 msgstr ""
+"<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure Madencilik kelimesinin tanımı, Decred ağındaki işlemleri onaylamak ve ağın güvenliğini sağlamak. Karşılığında da madenciler buldukları blok başına Decred ile ödüllendiriliyorlar.</p>\n"
+"\t\t<p>Decred ağında işlemleri onaylamanın iki yolu bulunmakta:Proof-of-Work (PoW) ve Proof-of-Stake (PoS) .</p>"
 
-#: src/index.html:199
+#: src/index.html:216
 msgid ""
 "<p>There are three main ways to interact with Decred:</p>\n"
 "\t\t<p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p>\n"
 "\t\t<p><strong>Proof-of-Work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
 "\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
 msgstr ""
-"Reddedilenle etkileşimde bulunmanın üç ana yolu vardır:   - Para gönderme ve"
-" alma ile PoS madenciliğine katılanlar için.2\t\t45Profesyonel-İş "
-"Madenciliği5 - Ağdaki işlemleri doğrulamak için bilgisayar gücünü kullanma "
-"Ve yeni Reddedilen belirteçler üretir.4\t\t67 Kazanç Madenciliğini Teşvik "
-"Etme7 - Önemli ağ gelişimiyle ilgili konularda oy kullanabilmek için para "
-"kullanma ve ödüllere ilişkin işlemleri onaylama."
+"<p>Decred Ağı'nı kullanmanın üç farklı yolu var:</p>\n"
+"\t\t<p><strong>Cüzdan</strong> - Decred göndermek ve Decred olarak ödeme almak, aynı zamanda PoS madenciliği yapmak.</p>\n"
+"\t\t<p><strong>Proof-of-Work Madenciliği</strong> - İşlemci gücünüzü kullanarak Decred Ağı'ndaki işlemleri onaylamak ve yeni Decred tokenleri üretmek.</p>\n"
+"\t\t<p><strong>Proof-of-Stake Madenciliği</strong> - Sahip olduğunuz Decred ile önemli ağ değişiklik tekliflerinde bulunmak ve hali hazırda olan tekliflere oy vermek.</p>"
 
-#: src/index.html:365
+#: src/index.html:382
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
@@ -117,7 +141,7 @@ msgstr ""
 "3IRC channel3, 4Telegram channel4 ve 5Slack channel5 var. 6Twitter6 ve "
 "7Reddit7'yi unutma. Seni tanımak için sabırsızlanıyoruz! "
 
-#: src/index.html:317
+#: src/index.html:334
 msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
@@ -131,7 +155,7 @@ msgstr ""
 "biletlerinizin çağrıldığında her an oylanmaya hazır olmasını sağlamak için "
 "4'lü paketler de mevcuttur."
 
-#: src/downloads/index.html:97
+#: src/downloads/index.html:114
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -139,129 +163,142 @@ msgstr ""
 "Komut satırı uygulamaları için çapraz platformlu, otomatik yükleyici / "
 "güncelleyici."
 
-#: src/downloads/index.html:38 src/index.html:484
+#: src/downloads/index.html:55 src/index.html:508
 msgid "About"
 msgstr "Hakkında"
 
-#: src/index.html:515
+#: src/index.html:539
 msgid "Airdrop"
-msgstr "airdrop"
+msgstr "Ücretsiz Dağıtılan"
 
-#: src/index.html:64
+#: src/index.html:81
 msgid "All Downloads  →"
-msgstr "tüm indirmeler"
+msgstr "Tüm İndirmeler  →"
 
-#: src/index.html:181 src/index.html:205 src/index.html:230 src/index.html:276
-#: src/index.html:299 src/index.html:321 src/index.html:345 src/index.html:369
-#: src/index.html:402
+#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
+#: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
+#: src/index.html:419
 msgid "Back"
 msgstr "Geri"
 
-#: src/downloads/index.html:42 src/index.html:488
+#: src/downloads/index.html:59 src/index.html:512
 msgid "Blog"
 msgstr "Blog"
 
-#: src/index.html:336
+#: src/index.html:353
 msgid "Buying And Trading Decred"
-msgstr "Decred Alım Satım"
+msgstr "Decred Almak ve Satmak"
 
-#: src/downloads/index.html:69
+#: src/downloads/index.html:86
 msgid "CORE SOFTWARE"
-msgstr ""
+msgstr "ÇEKİRDEK YAZILIM"
 
-#: src/downloads/index.html:107
+#: src/downloads/index.html:124
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
 msgstr ""
+"AMD ve NVIDIA ekran kartları için CUDA/OpenCL tabanlı madencilik "
+"yazılımları. Decred takımı tarafından resmi olarak desteklenmektedir."
 
-#: src/index.html:38
+#: src/index.html:55
 msgid "Close"
 msgstr "Kapat"
 
-#: src/downloads/index.html:96
+#: src/downloads/index.html:113
 msgid "Command Line Suite"
-msgstr ""
+msgstr "Komut Satırı Takımı"
 
-#: src/index.html:148
+#: src/index.html:165
 msgid "Community And Principles"
-msgstr ""
+msgstr "Topluluk ve İlkeler"
 
-#: src/brand/index.html:93
+#: src/brand/index.html:110
 msgid "Complimentary Colors"
-msgstr ""
+msgstr "Fahri Renkler"
 
-#: src/index.html:180 src/index.html:204 src/index.html:229 src/index.html:275
-#: src/index.html:298 src/index.html:320 src/index.html:344 src/index.html:368
-#: src/index.html:401
+#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:292
+#: src/index.html:315 src/index.html:337 src/index.html:361 src/index.html:385
+#: src/index.html:418
 msgid "Continue"
 msgstr "Devam et"
 
-#: src/downloads/index.html:91
+#: src/downloads/index.html:108
 msgid "Create a browser based Wallet"
-msgstr ""
+msgstr "Tarayıcı tabanlı cüzdan oluştur"
 
-#: src/brand/index.html:77
+#: src/brand/index.html:94
 msgid "Dark Blue"
-msgstr ""
+msgstr "Lacivert"
 
 #: src/index.html:5
 msgid "Decred - decentralized credit"
-msgstr ""
+msgstr "Decred - merkezsiz kredi"
 
 #: src/downloads/index.html:5 src/downloads/index.html:7
 #: src/downloads/index.html:8 src/downloads/index.html:9
 msgid "Decred - downloads"
-msgstr "decred-indirme"
+msgstr "Decred - dosyalar"
 
-#: src/brand/index.html:133 src/index.html:415
+#: src/brand/index.html:150 src/index.html:432
 msgid "Decred Developers"
 msgstr "Decred Geliştiricileri"
 
-#: src/downloads/index.html:57 src/index.html:507
+#: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
-msgstr "decred geliştiricileri 20017"
+msgstr "Decred Geliştiricileri 2017"
 
-#: src/index.html:123
+#: src/index.html:140
 msgid ""
 "Decred fosters a multi-stakeholder development ecosystem that welcomes and empowers participants who want to improve on existing features or build new tools.\n"
 "                <br>\n"
 "                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
 msgstr ""
+"Decred çoklu hisse modeline benzeyen, hisse sahiplerinin Decred ağında geliştirilecek her yenilik ve uygulama için söz sahibi olduğu merkezsiz bir sistem geliştiriyor.\n"
+"                <br>\n"
+"                <br>Decred ağında bulunan herkes, geliştirme teklifleri sunabilir, bu tekliflere ayrılacak bütçeyi belirleyebilir ve oylayabilir. Bu bütçe doğrudan Decred ağında geliştirici bütçesinden karşılanacak ve merkezsiz olacaktır."
 
-#: src/index.html:53
+#: src/index.html:70
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
 msgstr ""
+"Decred, topluluğun demokratik bir biçimde yönetimine hakim olduğu açık "
+"kaynak kodlu ve sürekli geliştirilen bir kripto para birimidir."
 
-#: src/index.html:136
+#: src/index.html:153
 msgid ""
 "Decred is constructing a layered governance organization that extends beyond the miners and users to bring forward and represent insider and outsider voices in the community.\n"
 "                <br>\n"
 "                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
 msgstr ""
+"Decred'ın geliştirdiği yönetim modeli sayesinde, ağ üzerindeki yönetim ve söz hakkı madencileri aşıyor ve elinde Decred bulunduran tüm kullanıcılara uzanıyor.\n"
+"                <br>\n"
+"                <br> Merkezsiz olma aşama aşama ilerleyen bir olgu ve tam anlamıyla merkezsiz bir ağ bunun ilk adımı."
 
-#: src/index.html:107
+#: src/index.html:124
 msgid ""
 "Decred uses a hybridized consensus system to strike a balance between <u>miners</u>* and users to create a more robust currency.\n"
 "                <br>\n"
 "                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
 msgstr ""
+"Decred çift taraflı bir fikir birliği sistemi üzerine kuruludur. Buna göre  <u>madenciler</u>* ve kullanıcılar arasındaki denge sağlanmaktadır.\n"
+"                <br>\n"
+"                <br>Olağan şartlarda, ağ üzerindeki hakimiyetin büyük bir kısmı madencilerin elindedir. Bu da madencilere isteklerini ağa dayatma hakkı tanır. Decred'da ise sıradan kullanıcılar da ağa üzerindeki değişiklik tekliflerinde, pahalı madencilere sahip olmadansöz hakkı sahibi olmaktadır."
 
-#: src/downloads/index.html:80
+#: src/downloads/index.html:97
 msgid "Decrediton"
-msgstr ""
+msgstr "Decrediton"
 
-#: src/index.html:58
+#: src/index.html:75
 msgid "Decrediton For Linux"
-msgstr ""
+msgstr "Linux için Decrediton"
 
-#: src/index.html:57
-msgid "Decrediton For Mac OS X"
-msgstr ""
+#: src/index.html:74
+msgid "Decrediton For macOS"
+msgstr "macOS için Decrediton"
 
-#: src/brand/index.html:123
+#: src/brand/index.html:140
 msgid ""
 "Decred’s identity helps to represent it across different platforms and "
 "amongst digital currencies. It helps new and existing users to recognise it,"
@@ -270,261 +307,278 @@ msgid ""
 " simple + practical tools, principles and guides for different contexts and "
 "use cases."
 msgstr ""
+"Decred'ın kimliği onun kripto para kullananlar tarafından tanınmasına "
+"yarıyor. Yeni ve var olan kullanıcılar Decred'ı bu kimlik ile tanıyor. Bu "
+"kit sayesinde herkes Decred markasını daha rahat kullanabilir hale geliyor. "
+"Basit ve pratik belgeler ve yardımcı makaleler üretilmesine yardım ediyor."
 
-#: src/index.html:516
+#: src/index.html:540
 msgid "Dev Premine"
-msgstr ""
+msgstr "Geliştiriclerin Önkazımı"
 
-#: src/index.html:122 src/index.html:86
+#: src/index.html:103 src/index.html:139
 msgid "Development"
 msgstr "Gelişim"
 
-#: src/index.html:514
+#: src/index.html:538
 msgid "Development Subsidy"
-msgstr ""
+msgstr "Geliştirici Fonu"
 
-#: src/brand/index.html:140 src/downloads/index.html:41 src/index.html:422
-#: src/index.html:487
+#: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
+#: src/index.html:511
 msgid "Documentation"
-msgstr ""
+msgstr "Belgeler"
 
-#: src/brand/index.html:124
+#: src/brand/index.html:141
 msgid "Download Full Package"
-msgstr ""
+msgstr "Tüm Paketi İndir"
 
-#: src/brand/index.html:55
+#: src/brand/index.html:72
 msgid "Download Logo Package"
-msgstr ""
+msgstr "Logo Paketini İndir"
 
-#: src/index.html:56 src/index.html:57 src/index.html:58 src/index.html:59
-#: src/index.html:60 src/index.html:61
+#: src/index.html:73 src/index.html:74 src/index.html:75 src/index.html:76
+#: src/index.html:77 src/index.html:78
 msgid "Download Wallet"
-msgstr "Cüzdan İndir"
+msgstr "Cüzdanı İndir"
 
-#: src/downloads/index.html:40 src/downloads/index.html:64 src/index.html:486
-#: src/index.html:92
+#: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
+#: src/index.html:510
 msgid "Downloads"
-msgstr ""
+msgstr "İndirmeler"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:147
 msgid "Exodus"
-msgstr ""
+msgstr "Exodus"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:148
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr ""
+"Exodus kullanıcı dostu bir arayüzü sahip, güvenli bir kripto para cüzdanı. "
+"Birçok farklı kripto parayı ve tokeni tek cüzdandan idare etmenizi sağlar."
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:150
 msgid "Exodus releases"
-msgstr ""
-
-#: src/index.html:39
-msgid "Find A Stakepool"
-msgstr ""
+msgstr "Exodus sürümleri"
 
 #: src/index.html:56
+msgid "Find A Stakepool"
+msgstr "Stake Havzu Bul"
+
+#: src/index.html:73
 msgid "For Your Computer"
-msgstr ""
+msgstr "Bilgisayarınız İçin"
 
-#: src/downloads/index.html:72
+#: src/downloads/index.html:89
 msgid "GUI wallet for Windows"
-msgstr ""
+msgstr "Windows için GUI cüzdan"
 
-#: src/downloads/index.html:81
+#: src/downloads/index.html:98
 msgid "GUI wallet for macOS and Linux"
-msgstr ""
+msgstr "Linux ve macOS için GUI cüzdan"
 
-#: src/downloads/index.html:39 src/index.html:485 src/index.html:62
+#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
 msgid "Getting Started"
 msgstr "Başlarken"
 
-#: src/index.html:135
+#: src/index.html:152
 msgid "Governance"
-msgstr ""
+msgstr "Yönetim"
 
-#: src/brand/index.html:107
+#: src/brand/index.html:124
 msgid "Green"
-msgstr ""
+msgstr "Yeşil"
 
-#: src/downloads/index.html:65
+#: src/downloads/index.html:82
 msgid ""
 "If you are new to Decred, be sure to read the <a href=\"../#guide\" class"
 "=\"paragraph-link\">Getting Started</a> tour or the <a "
 "href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if "
 "you want to dig deeper."
 msgstr ""
+"Eğer Decred projesi ile yeni tanıştıysanız, <a href=\"../#guide\" class"
+"=\"paragraph-link\">Başlarken</a> bölümümüzü ya da <a "
+"href=\"../#technology\" class=\"paragraph-link\">Teknik Özet</a> kısmımızı "
+"okumayı unutmayın."
 
-#: src/index.html:359
+#: src/index.html:376
 msgid "Join The Community"
 msgstr "Topluluğa Katılın"
 
-#: src/brand/index.html:63
+#: src/brand/index.html:80
 msgid "Key blue"
-msgstr ""
+msgstr "Anahtar mavi"
 
-#: src/index.html:111
+#: src/index.html:128
 msgid "Learn more about the technology"
-msgstr ""
+msgstr "Teknolojisi hakkında daha fazlasını öğrenin"
 
-#: src/brand/index.html:100
+#: src/brand/index.html:117
 msgid "Light blue"
-msgstr ""
+msgstr "Açık mavi"
 
-#: src/downloads/index.html:85
+#: src/downloads/index.html:102
 msgid "Linux 64-bit"
-msgstr ""
+msgstr "Linux 64-bit"
 
-#: src/index.html:423
+#: src/index.html:440
 msgid "Logo and Branding"
-msgstr ""
+msgstr "Logo ve Marka"
 
-#: src/downloads/index.html:47 src/index.html:493
+#: src/downloads/index.html:64 src/index.html:517
 msgid "Logo and Visuals"
-msgstr ""
+msgstr "Logo ve Görseller"
 
-#: src/brand/index.html:49
+#: src/brand/index.html:66
 msgid "Logo package"
-msgstr ""
+msgstr "Logo paketi"
 
-#: src/downloads/index.html:104
+#: src/downloads/index.html:121
 msgid "MINING SOFTWARE"
-msgstr ""
+msgstr "MADENCİLİK YAZILIMI"
 
-#: src/index.html:267
+#: src/index.html:284
 msgid "Mining"
-msgstr ""
+msgstr "Madencilik"
 
-#: src/index.html:44
+#: src/index.html:61
 msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
 msgstr ""
+"Kaçırılan biletler kimi zaman kötü bağlantısı olan bir Proof-of-work (PoW) "
+"madencisi yüzünden olabilir. Dolayısıyla suç her zaman havuzlarda "
+"olmayabilir."
 
-#: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
-#: src/index.html:490
+#: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
+#: src/index.html:514
 msgid "Network Stats"
 msgstr "Ağ İstatistikleri"
 
-#: src/downloads/index.html:93
+#: src/downloads/index.html:110
 msgid "No downloads required."
-msgstr ""
+msgstr "İndirme gerektirmez."
 
-#: src/index.html:44
+#: src/index.html:61
 msgid "Notice:"
-msgstr ""
+msgstr "Dikkat:"
 
 #: src/index.html:7 src/index.html:9
 msgid ""
 "Open and progressive cryptocurrency with a system of community-based "
 "governance integrated into its blockchain."
 msgstr ""
+"Topluluğun demokratik bir biçimde yönetimine hakim olduğu açık kaynak kodlu "
+"ve sürekli geliştirilen bir kripto para birimi."
 
-#: src/brand/index.html:114
+#: src/brand/index.html:131
 msgid "Orange"
-msgstr ""
+msgstr "Turuncu"
 
-#: src/index.html:169
+#: src/index.html:186
 msgid "Overview"
-msgstr ""
+msgstr "Genel Bakış"
 
-#: src/downloads/index.html:71
+#: src/downloads/index.html:88
 msgid "Paymetheus"
-msgstr ""
+msgstr "Paymetheus"
 
-#: src/index.html:61
+#: src/index.html:78
 msgid "Paymetheus For Windows"
-msgstr ""
+msgstr "Windows İçin Paymetheus"
 
-#: src/index.html:59
+#: src/index.html:76
 msgid "Paymetheus For Windows 32bit"
-msgstr ""
+msgstr "Windows 32bit İçin Paymetheus"
 
-#: src/index.html:60
+#: src/index.html:77
 msgid "Paymetheus For Windows 64bit"
-msgstr ""
+msgstr "Windows 64bit İçin Paymetheus"
 
-#: src/index.html:383
+#: src/index.html:400
 msgid "Planned Features"
-msgstr "Planlanan Özellikler"
+msgstr "Geliştirilen Yenilikler"
 
-#: src/index.html:513
+#: src/index.html:537
 msgid "PoS-mined"
-msgstr ""
+msgstr "PoS ile kazılan"
 
-#: src/index.html:512
+#: src/index.html:536
 msgid "PoW-mined"
-msgstr ""
+msgstr "PoW ile kazılan"
 
-#: src/brand/index.html:56
+#: src/brand/index.html:73
 msgid "Primary Colors"
-msgstr ""
+msgstr "Ana Renkler"
 
-#: src/index.html:311
+#: src/index.html:328
 msgid "Proof-of-Stake Mining"
-msgstr ""
+msgstr "Proof-of-Stake Madenciliği"
 
-#: src/index.html:289
+#: src/index.html:306
 msgid "Proof-of-Work Mining"
-msgstr ""
+msgstr "Proof-of-Work Madenciliği"
 
-#: src/brand/index.html:46
+#: src/brand/index.html:63
 msgid "Quick-use toolkit"
-msgstr ""
+msgstr "Hızlı kullanım kiti"
 
-#: src/index.html:151
+#: src/index.html:168
 msgid "Read the Decred Constitution"
-msgstr ""
+msgstr "Decred'in Ana Felsefesini Oku"
 
-#: src/index.html:243
+#: src/index.html:260
 msgid "Send and Receive Decred"
-msgstr ""
+msgstr "Decred Gönder ve Talep Et"
 
-#: src/index.html:88
+#: src/index.html:105
 msgid "Stable Version"
-msgstr ""
+msgstr "Stabil Sürüm"
 
-#: src/downloads/index.html:46 src/index.html:427 src/index.html:492
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
 msgid "Stakepools"
-msgstr ""
+msgstr "Stake Havuzları"
 
-#: src/index.html:41
+#: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
 msgstr ""
+"Stake havuzları sayesinde Proof-of-Stake (PoS) madenciliği yapabilirsiniz, üstelik \n"
+"        <br>kötü internet bağlantısı ya da stabil olmayan elektrik yüzünden bilet kaçırma probleminizi ortadan kaldırırlar."
 
-#: src/index.html:517
+#: src/index.html:541
 msgid "Start again"
-msgstr ""
+msgstr "Tekrar başla"
 
-#: src/index.html:71
+#: src/index.html:88
 msgid "Statistics"
-msgstr ""
+msgstr "İstatistikler"
 
-#: src/index.html:79
+#: src/index.html:96
 msgid "Supply distribution"
-msgstr ""
+msgstr "Arz dağılımı"
 
-#: src/brand/index.html:139 src/downloads/index.html:43 src/index.html:421
-#: src/index.html:489
+#: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
+#: src/index.html:513
 msgid "Technical Brief"
-msgstr ""
+msgstr "Teknik Özet"
 
-#: src/index.html:106
+#: src/index.html:123
 msgid "Technology"
 msgstr "Teknoloji"
 
-#: src/index.html:193
+#: src/index.html:210
 msgid "The Basics"
 msgstr "Giriş"
 
-#: src/index.html:219
+#: src/index.html:236
 msgid "The Wallets"
 msgstr "Cüzdanlar"
 
-#: src/index.html:149
+#: src/index.html:166
 msgid ""
 "The project is bound by the Decred Constitution, so users can know what to "
 "expect: a finite number of coins, decentralized governance and a place to "
@@ -532,131 +586,141 @@ msgid ""
 "making decisions, both informally via the forum and formally via the "
 "blockchain."
 msgstr ""
+"Bu proje Decred Ana Sözleşmesi ile bağlıdır, dolayısıyla kullanıcılar "
+"projeden ne bekleyeceğini bilebilir: sınırlı sayıda üretilecek Decred, "
+"merkezsiz yönetim modeli ve her türlü görüşün paylaşılabileceği topluluk. "
+"Decred topluluğu alınan tüm kararları beraber almaktadır."
 
-#: src/index.html:62
+#: src/index.html:79
 msgid "The quick tour"
-msgstr ""
+msgstr "Temel bilgiler"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:131
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
+"NVIDIA ekran kartları için resmi olmayan CUDA madencilik yazılımcıları. "
+"Decred takımı tarafından resmi olarak desteklenmemektedir."
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:138
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
+"AMD ekran kartları için resmi olmayan OpenCL madencilik yazılımcıları.  "
+"Decred takımı tarafından resmi olarak desteklenmemektedir."
 
-#: src/index.html:160
+#: src/index.html:177
 msgid "This tour will help you get started with Decred"
-msgstr ""
+msgstr "Bu bilgiler ile Decred'a başlangıç yapabileceksiniz"
 
-#: src/index.html:45
+#: src/index.html:62
 msgid ""
 "To protect de-centralization of the network, it is recommended to avoid "
 "pools that have over 5% of network votes."
 msgstr ""
+"Ağın merkezsiz durumunu koruyabilmek adına, %5'ten fazla oya sahip "
+"havuzlardan kaçınmanızı öneririz."
 
-#: src/brand/index.html:70
+#: src/brand/index.html:87
 msgid "Turquiose"
-msgstr ""
+msgstr "Turkuaz"
 
-#: src/brand/index.html:82
+#: src/brand/index.html:99
 msgid "Typography"
-msgstr ""
+msgstr "Tipografya"
 
-#: src/downloads/index.html:99
+#: src/downloads/index.html:116
 msgid "View on GitHub"
-msgstr ""
+msgstr "GitHub'da Görüntüle"
 
-#: src/brand/index.html:11 src/brand/index.html:39 src/brand/index.html:9
+#: src/brand/index.html:11 src/brand/index.html:56 src/brand/index.html:9
 msgid "Visual communication toolkit"
-msgstr ""
+msgstr "Görsel iletişim kiti"
 
-#: src/downloads/index.html:45 src/index.html:491
+#: src/downloads/index.html:62 src/index.html:515
 msgid "Voting"
-msgstr ""
+msgstr "Oylama"
 
-#: src/index.html:428
+#: src/index.html:445
 msgid "Voting Dashboard"
-msgstr ""
+msgstr "Oy Paneli"
 
-#: src/index.html:45
+#: src/index.html:62
 msgid "Warning:"
-msgstr ""
+msgstr "Uyarı:"
 
-#: src/downloads/index.html:89
+#: src/downloads/index.html:106
 msgid "Webwallet"
-msgstr ""
+msgstr "Webcüzdan"
 
-#: src/downloads/index.html:76
+#: src/downloads/index.html:93
 msgid "Win 32-bit"
-msgstr ""
+msgstr "Win 32-bit"
 
-#: src/downloads/index.html:74
+#: src/downloads/index.html:91
 msgid "Win 64-bit"
-msgstr ""
+msgstr "Win 64-bit"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
-msgstr ""
+msgstr "ltr"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_language"
-msgstr ""
+msgstr "tr"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:130
 msgid "ccminer"
-msgstr ""
+msgstr "ccminer"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:133
 msgid "ccminer releases"
-msgstr ""
+msgstr "ccminer sürümleri"
 
 #: src/index.html:8
 msgid "deCRED - decentralized credit"
-msgstr ""
+msgstr "deCRED - merkezsiz kredi"
 
 #: src/brand/index.html:10 src/brand/index.html:7
 msgid "deCRED brand"
-msgstr ""
+msgstr "deCRED markası"
 
-#: src/brand/index.html:154 src/index.html:438
+#: src/brand/index.html:171 src/index.html:455
 msgid "downloads"
-msgstr ""
-
-#: src/downloads/index.html:106
-msgid "gominer"
-msgstr ""
-
-#: src/downloads/index.html:109
-msgid "gominer releases"
-msgstr ""
-
-#: src/downloads/index.html:83
-msgid "macOS"
-msgstr ""
-
-#: src/index.html:73
-msgid "mined so far"
-msgstr ""
-
-#: src/downloads/index.html:120
-msgid "sgminer"
-msgstr ""
+msgstr "indirmeler"
 
 #: src/downloads/index.html:123
+msgid "gominer"
+msgstr "gominer"
+
+#: src/downloads/index.html:126
+msgid "gominer releases"
+msgstr "gominer sürümleri"
+
+#: src/downloads/index.html:100
+msgid "macOS"
+msgstr "macOS"
+
+#: src/index.html:90
+msgid "mined so far"
+msgstr "toplam kazılan"
+
+#: src/downloads/index.html:137
+msgid "sgminer"
+msgstr "sgminer"
+
+#: src/downloads/index.html:140
 msgid "sgminer releases"
-msgstr ""
+msgstr "sgminer sürümleri"
 
-#: src/index.html:433
+#: src/index.html:450
 msgid "stable"
-msgstr ""
+msgstr "stabil"
 
-#: src/brand/index.html:153 src/index.html:437 src/index.html:94
+#: src/brand/index.html:170 src/index.html:111 src/index.html:454
 msgid "total"
-msgstr ""
+msgstr "toplam"
 
-#: src/brand/index.html:141
+#: src/brand/index.html:158
 msgid "← Main Website"
-msgstr ""
+msgstr "← Anasayfa"

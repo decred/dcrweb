@@ -1,5 +1,4 @@
 # Translators:
-# Thomas Holmbom <tholmbom@sepres.com>, 2017
 # NH <leagueofbeggars@protonmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 msgid ""
@@ -12,37 +11,37 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/downloads/index.html:128
+#: src/downloads/index.html:145
 msgid "3RD PARTY WALLETS"
 msgstr "KOLMANSIEN OSAPUOLTEN LOMPAKKOSOVELLUKSET"
 
-#: src/index.html:449
+#: src/index.html:466
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:504
+#: src/index.html:528
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
-#: src/index.html:249
+#: src/index.html:266
 msgid ""
 "<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">begin with D and contain 26-36 alphanumeric characters</a>.</p>\n"
 "\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
 "\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
 msgstr ""
-"<p>Osoite on kaikki mitä tarvitaan varojen lähettämiseen ja vastaanottamiseen. Sen voi luoda helposti millä tahansa Decred-lompakolla. Decred-osoitteet <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">alkavat aina D-kirjaimella ja sisältävät 26-36 kirjain- ja numeromerkkiä</a>.</p>\n"
+"<p>Osoite on ainoa mitä tarvitaan varojen lähettämiseen ja vastaanottamiseen. Osoitteita voi luoda helposti millä tahansa Decred-lompakolla. Decred-osoitteet <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">alkavat aina D-kirjaimella ja sisältävät 26-36 kirjain- ja numeromerkkiä</a>.</p>\n"
 "\t\t<p>Kun siirto on tehty, varat saapuvat perille yleensä noin 5 minuutissa. Verkon ylläpitämiseksi peritään pieni siirtomaksu. Kulut lisätään siirrettävään summaan, esim. 100DCR:n siirrosta kertyy noin 0.006DCR:n siirtokulut.</p>\n"
-"\t\t<p><a href=\"https://mainnet.decred.org\" target=\"_blank\">Pääverkon Lohkohaku</a>sallii käyttäjien nähdä kaikki Decred-lohkosarjan lohkot ja siirrot.</p>"
+"\t\t<p><a href=\"https://mainnet.decred.org\" target=\"_blank\">Pääverkon Lohkohaku</a> sallii käyttäjien nähdä kaikki Decred-lohkosarjan lohkot ja siirrot.</p>"
 
-#: src/index.html:176
+#: src/index.html:193
 msgid ""
-"<p>Decred is a multi-platform digital currency with support for Windows, Mac, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
+"<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
-"<p>Decred on usealla alustalla toimiva digitaalinen valuutta joka toimii Windows, Mac ja Linux -käyttöjärjestelmissä. Helppokäyttöisillä lompakkosovelluksilla voi lähettää, vastaanottaa ja louhia Decrediä vain muutamalla klikkauksella.</p>\n"
+"<p>Decred on usealla alustalla toimiva digitaalinen valuutta joka toimii Windows, macOS ja Linux -käyttöjärjestelmissä. Helppokäyttöisillä lompakkosovelluksilla voi lähettää, vastaanottaa ja louhia Decrediä vain muutamalla klikkauksella.</p>\n"
 "\t\t<p>Näpertelystä nauttiville Decred tarjoaa kattavia komentojonotyökaluja joilla  Decredin käyttöä pystyy itse räätälöimään.</p>"
 
-#: src/index.html:342
+#: src/index.html:359
 msgid ""
 "<p>Decred is still new, and at this time, the easiest way to purchase it is "
 "with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-"
@@ -58,17 +57,17 @@ msgstr ""
 "started/obtaining-dcr/#exchanges\" title=\"_blank\">kryptovaluutan "
 "kauppapaikoissa</a>. </p>"
 
-#: src/index.html:295
+#: src/index.html:312
 msgid ""
 "<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p>\n"
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
 "\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
 msgstr ""
-"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW) -järjestelmässä</a>rahansiirrot kerätään lohkoihin.  PoW-louhijat hyväksyvät nämä lohkot. Kun lohko on hyväksytty, siitä tulee pysyvä osa Decred verkkoa.</p>\n"
+"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW) -järjestelmässä</a> rahansiirrot kerätään lohkoihin.  PoW-louhijat hyväksyvät nämä lohkot. Kun lohko on hyväksytty, siitä tulee pysyvä osa Decred verkkoa.</p>\n"
 "\t\t<p>Voit alkaa louhijaksi antamalla verkolle tietokoneesi resursseja. Tästä palkkioksi louhijat saavat Decrediä.</p>\n"
-"\t\t<p><a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">Pooliin</a>liittyminen tehostaa ja helpottaa louhintaa. Pool koostuu ryhmästä louhijoita jotka tekevät työn yhdessä ja jakavat palkkion keskenään.  Pooliin liittyminen on oiva tapa ansaita tasaista tuloa vaikka koneesi tehot olisivatkin matalahkot.</p>"
+"\t\t<p><a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">Pooliin</a> liittyminen tehostaa ja helpottaa louhintaa. Pool koostuu ryhmästä louhijoita jotka tekevät työn yhdessä ja jakavat palkkion keskenään.  Pooliin liittyminen on oiva tapa ansaita tasaista tuloa vaikka koneesi tehot olisivatkin matalahkot.</p>"
 
-#: src/index.html:389
+#: src/index.html:406
 msgid ""
 "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2017:</p>\n"
 "\t\t<ul>\n"
@@ -92,22 +91,22 @@ msgstr ""
 "<li>Parannettu yksityisyys</li>\n"
 "<li>Maksuintegraatio</li>\n"
 "\t\t</ul>\n"
-"\t\t<p>Lue lisää näistä, ja muista ominaisuuksista <a href=\"https://blog.decred.org\" target=\"_blank\">blogistamme</a>ja tervetuloa Decrediin, kryptovaluutan tulevaisuuteen.</p>"
+"\t\t<p>Lue lisää näistä, ja muista ominaisuuksista <a href=\"https://blog.decred.org\" target=\"_blank\">blogistamme</a> ja tervetuloa Decrediin, kryptovaluutan tulevaisuuteen.</p>"
 
-#: src/index.html:225
+#: src/index.html:242
 msgid ""
 "<p>The Web Wallet is the easiest way to get started with Decred. All users can access it online via <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, without needing to download anything.</p>\n"
 "\t\t<p>For Windows users, <a href=\"downloads/#paymetheus\">Paymetheus wallet</a> will help you get online in just a few minutes.</p>\n"
-"\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
+"\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
 "<p>Nettilompakko on helpoin tapa aloittaa Decredin käyttäminen. Käyttäjät voivat kirjautua sisään osoitteessa <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, tarvitsematta ladata koneelleen mitään.\n"
 "</p>\n"
 "\t\t<p><a href=\"downloads/#paymetheus\">Paymetheus-lompakko</a> auttaa Windowsin käyttäjiä kirjautumaan vain muutamassa minuutissa.</p>\n"
-"\t\t<p>Mac ja Linux käyttäjille on saatavilla <a href=\"downloads/#paymetheus\">Decredition-lompakko</a>.</p>\n"
+"\t\t<p>macOS ja Linux käyttäjille on saatavilla <a href=\"downloads/#paymetheus\">Decredition-lompakko</a>.</p>\n"
 "<p>Apua aloittelijoille löytyy <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Aloittelijan Oppaastamme</a>.</p>"
 
-#: src/index.html:273
+#: src/index.html:290
 msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
@@ -115,7 +114,7 @@ msgstr ""
 "<p>Louhinta tarkoittaa Decred-verkossa tapahtuvien siirtojen vahvistamista ja sen turvallisena pitämistä. Tästä palkkioksi louhijat saavat tuoreeltaan luotuja Decred kolikoita.</p>\n"
 "\t\t<p>Decredillä on kaksi siirtojen vahvistusmetodia: Proof-of-Work (PoW) sekä Proof-of-Stake (PoS).</p>"
 
-#: src/index.html:199
+#: src/index.html:216
 msgid ""
 "<p>There are three main ways to interact with Decred:</p>\n"
 "\t\t<p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p>\n"
@@ -127,15 +126,15 @@ msgstr ""
 "\t\t<p><strong>Proof-of-Work Louhinta</strong> - Verkossa tapahtuvien siirtojen hyväksyminen tietokoneen resursseja käyttämällä ja uusien Decred kolikoiden luominen.</p>\n"
 "\t\t<p><strong>Proof-of-Stake Louhinta</strong> - Tärkeistä verkon kehitysasioista äänestäminen omistuksessa olevien kolikoiden voimalla ja siirtojen hyväksyminen palkkiota vastaan.</p>"
 
-#: src/index.html:365
+#: src/index.html:382
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
 msgstr ""
-"<p>Keskittämättömien prosessien kautta ihmiset, joilla on erilaisia ideoita, tavoitteita ja mielipiteitä, voivat muokata tulevaisuutta. Jos sinulla on kysyttävää, voit liittyä kasvavaan yhteisöömme jossa voit keskustella kehittäjien ja muiden käyttäjien kanssa, löytää lisätietoa, kysyä kysymyksiä ja muuten vain viettää aikaa. Meillä on käyttäjille <a href=\"https://forum.decred.org\" title=\"_blank\"> oma foorumi</a>,<a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC-kanava</a>,<a href=\"https://t.me/Decred\" title=\"_blank\">Telegram kanava</a>, ja <a href=\"https://slack.decred.org\" title=\"_blank\">Slack kanava</a> missä voit jutella kehittäjien ja muiden ihmisten kanssa reaaliajassa. Toki unohtamatta <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitteriä</a> ja <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddittiä</a>.\n"
+"<p>Keskittämättömien prosessien kautta ihmiset, joilla on erilaisia ideoita, tavoitteita ja mielipiteitä, voivat muokata tulevaisuutta. Jos sinulla on kysyttävää, voit liittyä kasvavaan yhteisöömme jossa voit keskustella kehittäjien ja muiden käyttäjien kanssa, löytää lisätietoa, kysyä kysymyksiä ja muuten vain viettää aikaa. Meillä on käyttäjille <a href=\"https://forum.decred.org\" title=\"_blank\"> oma foorumi</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC-kanava</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram kanava</a> ja <a href=\"https://slack.decred.org\" title=\"_blank\">Slack kanava</a> missä voit jutella kehittäjien ja muiden ihmisten kanssa reaaliajassa. Toki unohtamatta <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitteriä</a> ja <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddittiä</a>.\n"
 "Tervetuloa mukaan joukkoomme!</p>"
 
-#: src/index.html:317
+#: src/index.html:334
 msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
@@ -143,7 +142,7 @@ msgstr ""
 "<p>Toisin kuin PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake louhinta (PoS)</a> vaatii vähemmän tietokoneen resursseja. Kolikoita käytetään äänestyslipukkeiden ostoon Decred verkossa. Jokaisessa lohkossa arvotaan viisi lipuketta voimassa olevien lipukkeiden joukosta, jotka äänestävät edellisen lohkon aitoudesta.</p>\n"
 "\t\t<p>PoS tuo Decrediin lisäominaisuuden käyttäjille äänestää verkon muutoksista ja täten edesauttaa sen keskittämättömyyttä. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Poolit ovat myös käytettävissä PoS:ssa</a> jotta taataan että lipukkeet ovat valmiina äänestykseen kun ne arvotaan.</p>"
 
-#: src/downloads/index.html:97
+#: src/downloads/index.html:114
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -151,37 +150,37 @@ msgstr ""
 "Kaikille alustoille sopiva, automaattinen asennus/päivitysohjelma "
 "komentojonosovellukselle."
 
-#: src/downloads/index.html:38 src/index.html:484
+#: src/downloads/index.html:55 src/index.html:508
 msgid "About"
 msgstr "Tietoa"
 
-#: src/index.html:515
+#: src/index.html:539
 msgid "Airdrop"
 msgstr "Airdrop"
 
-#: src/index.html:64
+#: src/index.html:81
 msgid "All Downloads  →"
-msgstr "Kaikki Lataukset"
+msgstr "Kaikki Lataukset →"
 
-#: src/index.html:181 src/index.html:205 src/index.html:230 src/index.html:276
-#: src/index.html:299 src/index.html:321 src/index.html:345 src/index.html:369
-#: src/index.html:402
+#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
+#: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
+#: src/index.html:419
 msgid "Back"
 msgstr "Takaisin"
 
-#: src/downloads/index.html:42 src/index.html:488
+#: src/downloads/index.html:59 src/index.html:512
 msgid "Blog"
 msgstr "Blogi"
 
-#: src/index.html:336
+#: src/index.html:353
 msgid "Buying And Trading Decred"
 msgstr "Kaupankäynti Decredillä"
 
-#: src/downloads/index.html:69
+#: src/downloads/index.html:86
 msgid "CORE SOFTWARE"
 msgstr "CORE SOVELLUS"
 
-#: src/downloads/index.html:107
+#: src/downloads/index.html:124
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -189,33 +188,33 @@ msgstr ""
 "CUDA/OpenCL louhintasovellus AMD/NVIDIA näytönohjaimille. Decred-tiimin "
 "virallisesti tukema."
 
-#: src/index.html:38
+#: src/index.html:55
 msgid "Close"
 msgstr "Sulje"
 
-#: src/downloads/index.html:96
+#: src/downloads/index.html:113
 msgid "Command Line Suite"
 msgstr "Komentojono-ohjelmisto"
 
-#: src/index.html:148
+#: src/index.html:165
 msgid "Community And Principles"
 msgstr "Yhteisö ja Periaatteet"
 
-#: src/brand/index.html:93
+#: src/brand/index.html:110
 msgid "Complimentary Colors"
-msgstr "Värivaihtoehdot"
+msgstr "Muut värivaihtoehdot"
 
-#: src/index.html:180 src/index.html:204 src/index.html:229 src/index.html:275
-#: src/index.html:298 src/index.html:320 src/index.html:344 src/index.html:368
-#: src/index.html:401
+#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:292
+#: src/index.html:315 src/index.html:337 src/index.html:361 src/index.html:385
+#: src/index.html:418
 msgid "Continue"
 msgstr "Jatka"
 
-#: src/downloads/index.html:91
+#: src/downloads/index.html:108
 msgid "Create a browser based Wallet"
 msgstr "Luo selainpohjainen Lompakko"
 
-#: src/brand/index.html:77
+#: src/brand/index.html:94
 msgid "Dark Blue"
 msgstr "Tummansininen"
 
@@ -228,15 +227,15 @@ msgstr "Decred eli decentralized credit"
 msgid "Decred - downloads"
 msgstr "Decred - lataukset"
 
-#: src/brand/index.html:133 src/index.html:415
+#: src/brand/index.html:150 src/index.html:432
 msgid "Decred Developers"
 msgstr "Decredin Kehittäjät"
 
-#: src/downloads/index.html:57 src/index.html:507
+#: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decredin Kehittäjät 2017"
 
-#: src/index.html:123
+#: src/index.html:140
 msgid ""
 "Decred fosters a multi-stakeholder development ecosystem that welcomes and empowers participants who want to improve on existing features or build new tools.\n"
 "                <br>\n"
@@ -246,7 +245,7 @@ msgstr ""
 "<br>\n"
 "<br>Kuka tahansa voi lähettää parannusehdotuksen ja kehittäjät laittavat ehdotukset eteenpäin koko yhteisön nähtäville. Rahoitus tälle otetaan suoraan Decred-lohkoketjusta."
 
-#: src/index.html:53
+#: src/index.html:70
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
@@ -254,7 +253,7 @@ msgstr ""
 "Decred on avoin ja edistyksellinen kryptovaluutta, jonka yhteisöpohjainen "
 "hallinto on intergroitu sen lohkoketjuun."
 
-#: src/index.html:136
+#: src/index.html:153
 msgid ""
 "Decred is constructing a layered governance organization that extends beyond the miners and users to bring forward and represent insider and outsider voices in the community.\n"
 "                <br>\n"
@@ -264,7 +263,7 @@ msgstr ""
 "<br>\n"
 "<br>Keskittämättömyys on prosessi, ja keskittämätön kirjanpito on vasta tämän prosessin ensimmäinen askel."
 
-#: src/index.html:107
+#: src/index.html:124
 msgid ""
 "Decred uses a hybridized consensus system to strike a balance between <u>miners</u>* and users to create a more robust currency.\n"
 "                <br>\n"
@@ -274,19 +273,19 @@ msgstr ""
 "<br>\n"
 "<br>Tyypillisesti louhijoilla, jotka pyörittävät verkon infrastruktuuria on huomattava määrä valtaa, samalla kun tavallisilla käyttäjillä on verraten vähän vaikutusta. Decred sallii käyttäjien osallistua projektiin suoraan ilman tarvetta kalliille louhintalaitteistolle."
 
-#: src/downloads/index.html:80
+#: src/downloads/index.html:97
 msgid "Decrediton"
 msgstr "Decrediton"
 
-#: src/index.html:58
+#: src/index.html:75
 msgid "Decrediton For Linux"
 msgstr "Decrediton Linuxille"
 
-#: src/index.html:57
-msgid "Decrediton For Mac OS X"
-msgstr "Decrediton Mac OS X:lle"
+#: src/index.html:74
+msgid "Decrediton For macOS"
+msgstr "Decrediton macOSlle"
 
-#: src/brand/index.html:123
+#: src/brand/index.html:140
 msgid ""
 "Decred’s identity helps to represent it across different platforms and "
 "amongst digital currencies. It helps new and existing users to recognise it,"
@@ -302,46 +301,46 @@ msgstr ""
 "ohjeita ja neuvoja eri tilanteisiin joissa tietoisuutta Decredistä voidaan "
 "lisätä."
 
-#: src/index.html:516
+#: src/index.html:540
 msgid "Dev Premine"
 msgstr "Kehitystiimin Premine"
 
-#: src/index.html:122 src/index.html:86
+#: src/index.html:103 src/index.html:139
 msgid "Development"
 msgstr "Kehittäminen"
 
-#: src/index.html:514
+#: src/index.html:538
 msgid "Development Subsidy"
 msgstr "Kehitysrahasto"
 
-#: src/brand/index.html:140 src/downloads/index.html:41 src/index.html:422
-#: src/index.html:487
+#: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
+#: src/index.html:511
 msgid "Documentation"
 msgstr "Dokumentit"
 
-#: src/brand/index.html:124
+#: src/brand/index.html:141
 msgid "Download Full Package"
 msgstr "Lataa Täyspaketti"
 
-#: src/brand/index.html:55
+#: src/brand/index.html:72
 msgid "Download Logo Package"
 msgstr "Lataa Logopaketti"
 
-#: src/index.html:56 src/index.html:57 src/index.html:58 src/index.html:59
-#: src/index.html:60 src/index.html:61
+#: src/index.html:73 src/index.html:74 src/index.html:75 src/index.html:76
+#: src/index.html:77 src/index.html:78
 msgid "Download Wallet"
 msgstr "Lataa Lompakko"
 
-#: src/downloads/index.html:40 src/downloads/index.html:64 src/index.html:486
-#: src/index.html:92
+#: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
+#: src/index.html:510
 msgid "Downloads"
 msgstr "Lataukset"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:147
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:148
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -349,39 +348,39 @@ msgstr ""
 "Exodus on käyttäjäystävällinen all-in-one-sovellus lohkoketju-varojen "
 "turvaamiseen, hoitoon ja vaihtoon."
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:150
 msgid "Exodus releases"
 msgstr "Exodus julkaisut"
 
-#: src/index.html:39
+#: src/index.html:56
 msgid "Find A Stakepool"
 msgstr "Löydä Stakepool"
 
-#: src/index.html:56
+#: src/index.html:73
 msgid "For Your Computer"
 msgstr "Tietokoneellesi"
 
-#: src/downloads/index.html:72
+#: src/downloads/index.html:89
 msgid "GUI wallet for Windows"
 msgstr "GUI-lompakko Windowsille"
 
-#: src/downloads/index.html:81
+#: src/downloads/index.html:98
 msgid "GUI wallet for macOS and Linux"
 msgstr "GUI-lompakko MacOS ja Linuxille"
 
-#: src/downloads/index.html:39 src/index.html:485 src/index.html:62
+#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
 msgid "Getting Started"
 msgstr "Kuinka Päästä Alkuun"
 
-#: src/index.html:135
+#: src/index.html:152
 msgid "Governance"
 msgstr "Hallinto"
 
-#: src/brand/index.html:107
+#: src/brand/index.html:124
 msgid "Green"
 msgstr "Vihreä"
 
-#: src/downloads/index.html:65
+#: src/downloads/index.html:82
 msgid ""
 "If you are new to Decred, be sure to read the <a href=\"../#guide\" class"
 "=\"paragraph-link\">Getting Started</a> tour or the <a "
@@ -389,51 +388,51 @@ msgid ""
 "you want to dig deeper."
 msgstr ""
 "Jos Decred ei ole sinulle vielä tuttu, aloita lukemalla <a "
-"href=\"../#guide\" class=\"paragraph-link\">Kuinka Päästä Alkuun</a>esittely"
-" tai<a href=\"../#technology\" class=\"paragraph-link\">Tekniset "
-"Perusteet</a>jos haluat tutustua tarkemmin."
+"href=\"../#guide\" class=\"paragraph-link\">Kuinka Päästä Alkuun</a> "
+"esittely tai <a href=\"../#technology\" class=\"paragraph-link\">Tekniset "
+"Perusteet</a> jos haluat tutustua tarkemmin."
 
-#: src/index.html:359
+#: src/index.html:376
 msgid "Join The Community"
 msgstr "Liity Yhteisöön"
 
-#: src/brand/index.html:63
+#: src/brand/index.html:80
 msgid "Key blue"
 msgstr "Taivaansininen"
 
-#: src/index.html:111
+#: src/index.html:128
 msgid "Learn more about the technology"
 msgstr "Opi lisää tästä teknologiasta"
 
-#: src/brand/index.html:100
+#: src/brand/index.html:117
 msgid "Light blue"
 msgstr "Vaaleansininen"
 
-#: src/downloads/index.html:85
+#: src/downloads/index.html:102
 msgid "Linux 64-bit"
 msgstr "Linux 64-bittiä"
 
-#: src/index.html:423
+#: src/index.html:440
 msgid "Logo and Branding"
 msgstr "Logo ja Brändäys"
 
-#: src/downloads/index.html:47 src/index.html:493
+#: src/downloads/index.html:64 src/index.html:517
 msgid "Logo and Visuals"
 msgstr "Logo ja Ulkonäkö"
 
-#: src/brand/index.html:49
+#: src/brand/index.html:66
 msgid "Logo package"
 msgstr "Logopaketti"
 
-#: src/downloads/index.html:104
+#: src/downloads/index.html:121
 msgid "MINING SOFTWARE"
 msgstr "LOUHINTASOVELLUS"
 
-#: src/index.html:267
+#: src/index.html:284
 msgid "Mining"
 msgstr "Louhinta"
 
-#: src/index.html:44
+#: src/index.html:61
 msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
@@ -442,16 +441,16 @@ msgstr ""
 "Work (PoW) louhitalaitteistosta tai sovelluksesta eivätkä välttämättä ole "
 "poolin syytä."
 
-#: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
-#: src/index.html:490
+#: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
+#: src/index.html:514
 msgid "Network Stats"
 msgstr "Verkon tilastot"
 
-#: src/downloads/index.html:93
+#: src/downloads/index.html:110
 msgid "No downloads required."
 msgstr "Ei vaadi lataamista."
 
-#: src/index.html:44
+#: src/index.html:61
 msgid "Notice:"
 msgstr "Huomio:"
 
@@ -463,75 +462,75 @@ msgstr ""
 "Avoin ja edistyksellinen kryptovaluutta, jonka yhteisöpohjainen hallinto on "
 "integroitu sen lohkoketjuun"
 
-#: src/brand/index.html:114
+#: src/brand/index.html:131
 msgid "Orange"
 msgstr "Oranssi"
 
-#: src/index.html:169
+#: src/index.html:186
 msgid "Overview"
 msgstr "Yhteenveto"
 
-#: src/downloads/index.html:71
+#: src/downloads/index.html:88
 msgid "Paymetheus"
 msgstr "Paymetheus"
 
-#: src/index.html:61
+#: src/index.html:78
 msgid "Paymetheus For Windows"
 msgstr "Paymetheus Windowsille"
 
-#: src/index.html:59
+#: src/index.html:76
 msgid "Paymetheus For Windows 32bit"
 msgstr "Paymetheus 32-bittiselle Windowsille"
 
-#: src/index.html:60
+#: src/index.html:77
 msgid "Paymetheus For Windows 64bit"
 msgstr "Paymetheus 64-bittiselle Windowsille"
 
-#: src/index.html:383
+#: src/index.html:400
 msgid "Planned Features"
 msgstr "Suunnitellut Ominaisuudet"
 
-#: src/index.html:513
+#: src/index.html:537
 msgid "PoS-mined"
 msgstr "PoS-louhittu"
 
-#: src/index.html:512
+#: src/index.html:536
 msgid "PoW-mined"
 msgstr "PoW-louhittu"
 
-#: src/brand/index.html:56
+#: src/brand/index.html:73
 msgid "Primary Colors"
 msgstr "Päävärit"
 
-#: src/index.html:311
+#: src/index.html:328
 msgid "Proof-of-Stake Mining"
 msgstr "Proof-of-Stake Louhinta"
 
-#: src/index.html:289
+#: src/index.html:306
 msgid "Proof-of-Work Mining"
 msgstr "Proof-of-Work Louhinta"
 
-#: src/brand/index.html:46
+#: src/brand/index.html:63
 msgid "Quick-use toolkit"
 msgstr "Nopeakäyttöiset työkalut"
 
-#: src/index.html:151
+#: src/index.html:168
 msgid "Read the Decred Constitution"
 msgstr "Lue Decredin Perustuslaki"
 
-#: src/index.html:243
+#: src/index.html:260
 msgid "Send and Receive Decred"
 msgstr "Lähetä ja Vastaanota Decrediä"
 
-#: src/index.html:88
+#: src/index.html:105
 msgid "Stable Version"
 msgstr "Vakaa Versio"
 
-#: src/downloads/index.html:46 src/index.html:427 src/index.html:492
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
 msgid "Stakepools"
 msgstr "Stakepoolit"
 
-#: src/index.html:41
+#: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
@@ -539,36 +538,36 @@ msgstr ""
 "Stakepoolit sallivat käyttäjän osallistua Decredin Proof-of-Stake (PoS) louhintaan ilman huolta\n"
 "<br>tietokoneen sammumisesta, heikosta internet-yhteydestä tai sähkökatkoista johtuvista menetyksistä"
 
-#: src/index.html:517
+#: src/index.html:541
 msgid "Start again"
-msgstr "Aloittaa uudelleen"
+msgstr "Takaisin alkuun"
 
-#: src/index.html:71
+#: src/index.html:88
 msgid "Statistics"
 msgstr "Tilastot"
 
-#: src/index.html:79
+#: src/index.html:96
 msgid "Supply distribution"
 msgstr "Distribuutio"
 
-#: src/brand/index.html:139 src/downloads/index.html:43 src/index.html:421
-#: src/index.html:489
+#: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
+#: src/index.html:513
 msgid "Technical Brief"
 msgstr "Tekninen Opas"
 
-#: src/index.html:106
+#: src/index.html:123
 msgid "Technology"
 msgstr "Teknologia"
 
-#: src/index.html:193
+#: src/index.html:210
 msgid "The Basics"
 msgstr "Perusteet"
 
-#: src/index.html:219
+#: src/index.html:236
 msgid "The Wallets"
 msgstr "Lompakot"
 
-#: src/index.html:149
+#: src/index.html:166
 msgid ""
 "The project is bound by the Decred Constitution, so users can know what to "
 "expect: a finite number of coins, decentralized governance and a place to "
@@ -578,33 +577,33 @@ msgid ""
 msgstr ""
 "Projektia sitoo Decredin oma perustuslaki, jotta käyttäjät tietävät mitä "
 "odottaa: Ennalta määrätty rajallinen määrä kolikoita, keskittämätön hallinto"
-" ja mahdollisuus jakaa omia näkemyksiään. Decred yhteisöllä on merkittävä "
-"rooli päätöksenteossa, sekä epävirallisesti forumin kautta että virallisesti"
-" lohkoketjun kautta."
+" ja mahdollisuus jakaa omia näkemyksiään. Decred-yhteisöllä on merkittävä "
+"rooli päätöksenteossa, sekä epävirallisesti foorumin kautta että "
+"virallisesti lohkoketjun kautta."
 
-#: src/index.html:62
+#: src/index.html:79
 msgid "The quick tour"
 msgstr "Pikaesittely"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:131
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "Kolmannen osapuolen CUDA louhintatyökalu NVIDIA näytönohjaimille. Ei Decred-"
 "tiimin tukema."
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:138
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
 "Kolmannen osapuolen OpenCL louhintatyökalu AMD näytönohjaimille. Ei Decred-"
 "tiimin tukema."
 
-#: src/index.html:160
+#: src/index.html:177
 msgid "This tour will help you get started with Decred"
 msgstr "Tämä esittely auttaa sinut alkuun Decredin parissa"
 
-#: src/index.html:45
+#: src/index.html:62
 msgid ""
 "To protect de-centralization of the network, it is recommended to avoid "
 "pools that have over 5% of network votes."
@@ -612,43 +611,43 @@ msgstr ""
 "Verkon keskittämättömyyden suojaamiseksi, on suositeltavaa välttää pooleja "
 "joilla on yli 5% kaikista verkon äänistä."
 
-#: src/brand/index.html:70
+#: src/brand/index.html:87
 msgid "Turquiose"
 msgstr "Turkoosi"
 
-#: src/brand/index.html:82
+#: src/brand/index.html:99
 msgid "Typography"
 msgstr "Typografia"
 
-#: src/downloads/index.html:99
+#: src/downloads/index.html:116
 msgid "View on GitHub"
 msgstr "Katsele GitHubissa"
 
-#: src/brand/index.html:11 src/brand/index.html:39 src/brand/index.html:9
+#: src/brand/index.html:11 src/brand/index.html:56 src/brand/index.html:9
 msgid "Visual communication toolkit"
 msgstr "Visuaaliset työkalut"
 
-#: src/downloads/index.html:45 src/index.html:491
+#: src/downloads/index.html:62 src/index.html:515
 msgid "Voting"
 msgstr "Äänestäminen"
 
-#: src/index.html:428
+#: src/index.html:445
 msgid "Voting Dashboard"
 msgstr "Äänestyspaneeli"
 
-#: src/index.html:45
+#: src/index.html:62
 msgid "Warning:"
 msgstr "Varoitus:"
 
-#: src/downloads/index.html:89
+#: src/downloads/index.html:106
 msgid "Webwallet"
 msgstr "Web-lompakko"
 
-#: src/downloads/index.html:76
+#: src/downloads/index.html:93
 msgid "Win 32-bit"
 msgstr "Win 32-bit"
 
-#: src/downloads/index.html:74
+#: src/downloads/index.html:91
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
@@ -660,11 +659,11 @@ msgstr "ltr"
 msgid "_language"
 msgstr "fi"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:130
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:133
 msgid "ccminer releases"
 msgstr "ccminer julkaisut"
 
@@ -676,42 +675,42 @@ msgstr "deCRED - decentralized credit"
 msgid "deCRED brand"
 msgstr "deCRED brändi"
 
-#: src/brand/index.html:154 src/index.html:438
+#: src/brand/index.html:171 src/index.html:455
 msgid "downloads"
 msgstr "lataukset"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:123
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:109
+#: src/downloads/index.html:126
 msgid "gominer releases"
 msgstr "gominer julkaisut"
 
-#: src/downloads/index.html:83
+#: src/downloads/index.html:100
 msgid "macOS"
 msgstr "macOS"
 
-#: src/index.html:73
+#: src/index.html:90
 msgid "mined so far"
 msgstr "tähän mennessä louhittu"
 
-#: src/downloads/index.html:120
+#: src/downloads/index.html:137
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:140
 msgid "sgminer releases"
 msgstr "sgminer julkaisut"
 
-#: src/index.html:433
+#: src/index.html:450
 msgid "stable"
 msgstr "stabiili"
 
-#: src/brand/index.html:153 src/index.html:437 src/index.html:94
+#: src/brand/index.html:170 src/index.html:111 src/index.html:454
 msgid "total"
 msgstr "yhteensä"
 
-#: src/brand/index.html:141
+#: src/brand/index.html:158
 msgid "← Main Website"
 msgstr "← Pääsivu"

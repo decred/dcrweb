@@ -1,28 +1,29 @@
 # Translators:
 # lte13 <lars.nordmark@gmail.com>, 2017
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: lte13 <lars.nordmark@gmail.com>, 2017\n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Swedish (https://www.transifex.com/decred/teams/76223/sv/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/downloads/index.html:128
+#: src/downloads/index.html:145
 msgid "3RD PARTY WALLETS"
 msgstr "Tredjeparts-plånbok"
 
-#: src/index.html:449
+#: src/index.html:466
 msgid "<!-- localized footer social media links -->"
 msgstr ""
 
-#: src/index.html:504
+#: src/index.html:528
 msgid "<!-- localized social media links -->"
 msgstr ""
 
-#: src/index.html:249
+#: src/index.html:266
 msgid ""
 "<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">begin with D and contain 26-36 alphanumeric characters</a>.</p>\n"
 "\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
@@ -32,16 +33,16 @@ msgstr ""
 "\t\t<p> Det finns även en mindre avgift som hjälper till med underhållet av nätverket. Denna avgift läggs till på transaktionen T.e.x så kommer en transaktion av 100DCR att kräva en avgift på runt 0.006DCR.</p>\n"
 "\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> hjälper användare att leta efter block och transaktioner i Decreds blockkedja.</p>"
 
-#: src/index.html:176
+#: src/index.html:193
 msgid ""
-"<p>Decred is a multi-platform digital currency with support for Windows, Mac, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
+"<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
-"Decred är en digital valuta med stöd för flera plattformar som WIndows, Mac och Linux. Plånböcker som är enkla att använda gö det enkelt att skicka, ta emot och mina bitcoins. \n"
+"Decred är en digital valuta med stöd för flera plattformar som Windows, macOS och Linux. Plånböcker som är enkla att använda gö det enkelt att skicka, ta emot och mina bitcoins. \n"
 "\n"
 "För dom som vill fördjupa sig lite mer så erbjuder Decred en full svit av kommandotolks-verktyg som gör det möjligt att skräddarsy Decred efter eget bevåg."
 
-#: src/index.html:342
+#: src/index.html:359
 msgid ""
 "<p>Decred is still new, and at this time, the easiest way to purchase it is "
 "with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-"
@@ -54,7 +55,7 @@ msgstr ""
 "genom Bitcoin. När du har några Bitcoin, så kan dessa enkelt handlas för "
 "Decred på en handelsplattform för kryptovaluta."
 
-#: src/index.html:295
+#: src/index.html:312
 msgid ""
 "<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p>\n"
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
@@ -66,7 +67,7 @@ msgstr ""
 "\n"
 "För att bli effektiv så kan du gå med i \"mining pools\". Detta är en samling av miners som går ihop för att gemensamt dela på belöningen. Att gå med i en mining pool är ett utmärkt sätt för mindre miners att få en jämn utdelning för sitt arbete."
 
-#: src/index.html:389
+#: src/index.html:406
 msgid ""
 "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2017:</p>\n"
 "\t\t<ul>\n"
@@ -83,28 +84,28 @@ msgstr ""
 "<p>En del av belöningen från nya block går till utvecklingen av Decred för att försäkra att Decred fortsätter att evolvera för att möta nya krav och önskningar från gemenskapen i nuläget och framtiden. Här är några av dom nya funktioner som är planerade för 2017:</p>\n"
 "\t\t<ul>\n"
 "\t\t<li>Hard fork-omröstning</li>\n"
-"                <li>En DAO baserad runt andelsägande (stakeholder)</li>\n"
+"                <li>En DAO baserad runt andelsägande (stakeholding)</li>\n"
 "                <li>Decentraliserad kontroll av medel reserverad för utveckling</li>\n"
 "                <li>Support för \"Lightning network\"</li>\n"
 "                <li>Kontinuerlig utveckling av UI och design</li>\n"
 "                <li>Förbättrad sekretess</li>\n"
 "                <li>Integrerade betalningar </li>\n"
 "\t\t</ul>\n"
-"\t\t<p>Läs mer om dessa och mer på  <a href=\"https://blog.decred.org\" target=\"_blank\">vår blog</a> och välkommen till Decred: framtidens digitala valuta</p>"
+"\t\t<p>Läs mer om dessa och mer på  <a href=\"https://blog.decred.org\" target=\"_blank\">vår blog</a> och låt oss välkomna er till Decred: framtidens digitala valuta.</p>"
 
-#: src/index.html:225
+#: src/index.html:242
 msgid ""
 "<p>The Web Wallet is the easiest way to get started with Decred. All users can access it online via <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, without needing to download anything.</p>\n"
 "\t\t<p>For Windows users, <a href=\"downloads/#paymetheus\">Paymetheus wallet</a> will help you get online in just a few minutes.</p>\n"
-"\t\t<p>For Mac and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
+"\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
 "<p>Web-plånboken är det enklaste sättet att börja med Decred. Alla användare kan komma åt den genom <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, utan att behöva ladda ner någonting.</p>\n"
-"\t\t<p>För Windows-användare så kan plånboken<a href=\"downloads/#paymetheus\">Paymetheust</a> hjälpa dig att sätta upp en plånbok på några minuter.</p>\n"
-"\t\t<p>För Mac- och Linux-användare så finns <a href=\"downloads/#paymetheus\">Decrediton wallet</a> tillgänglig.</p>\n"
+"\t\t<p>För Windows-användare så kan plånboken <a href=\"downloads/#paymetheus\">Paymetheust</a> hjälpa dig att sätta upp en plånbok på några minuter.</p>\n"
+"\t\t<p>För macOS- och Linux-användare så finns <a href=\"downloads/#paymetheus\">Decrediton wallet</a> tillgänglig.</p>\n"
 "    <p>För mer hjälp så kan du besöka <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 
-#: src/index.html:273
+#: src/index.html:290
 msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
@@ -112,7 +113,7 @@ msgstr ""
 "<p>Termen \"mining\" står för den processen som innebär att validera transaktioner på Decreds nätvärk och för att hålla nätverket säkert. I gengäld för detta arbete så blir \"miners\" belönade med nya genererade Decred-mynt. </p>\n"
 "\t\t<p>Decred har två metoder för att validera transaktioner: Proof-of-Work (PoW) och Proof-of-Stake )PoS).</p>"
 
-#: src/index.html:199
+#: src/index.html:216
 msgid ""
 "<p>There are three main ways to interact with Decred:</p>\n"
 "\t\t<p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p>\n"
@@ -124,7 +125,7 @@ msgstr ""
 "\t\t<p><strong>Proof-of-Work Mining</strong> - För att använda datorresurser för att validera transaktioner på nätverket och skapa nya Decred-mynt.</p>\n"
 "\t\t<p><strong>Proof-of-Stake Mining</strong> -  För att använda tillgängliga monetära medel för att rösta på viktiga systemuppgraderingar och för att validera transaktioner för belöningar..</p>"
 
-#: src/index.html:365
+#: src/index.html:382
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
@@ -132,15 +133,15 @@ msgstr ""
 "<p>Genom en decentraliserad process där människor med olika ideér, mål och åsikter tillsammans hjälper till att skapa framtiden, så kommer du antagligen ha några frågor, så gå med i våran växande gemenskap. Här kan du prata med utvecklare och användare, få information, ställa frågor eller bara hänga. Vi har ett <a href=\"https://forum.decred.org\" title=\"_blank\">forum för användare</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram</a>, och en<a href=\"https://slack.decred.org\" title=\"_blank\">Slack</a> där du kan prata med utvecklare och andra i realtid. Glöm inte våran <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> och <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "Hoppas vi syns snart!</p>"
 
-#: src/index.html:317
+#: src/index.html:334
 msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
 msgstr ""
-"<p>TIll skillnad från PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
-"\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+"<p>TIll skillnad från PoW så kräver<a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> lite datorkraft. Decred-mynt används för att köpa röstnings-biljetter på nätverket. Efter varje block så väljs fem slumpmässigt urvalda biljetter för att rösta för giltigheten av det tidigare blocket. </p>\n"
+"\t\t<p>PoS lägger till ett extra lager av decentralisation till Decred och gör det möjligt för användare att rösta på föreslagna ändringar på nätverket. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Det finns även Pools till PoS</a> som kan garantera att dina biljetter är redo att rösta när dom blir utvalda. </p>"
 
-#: src/downloads/index.html:97
+#: src/downloads/index.html:114
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -148,70 +149,70 @@ msgstr ""
 "Ett plattformsoberoende automatiskt installationsprogram  for applikationer "
 "med kommandotolk."
 
-#: src/downloads/index.html:38 src/index.html:484
+#: src/downloads/index.html:55 src/index.html:508
 msgid "About"
 msgstr "Om"
 
-#: src/index.html:515
+#: src/index.html:539
 msgid "Airdrop"
 msgstr "Airdrop"
 
-#: src/index.html:64
+#: src/index.html:81
 msgid "All Downloads  →"
 msgstr "Alla nerladdningar →"
 
-#: src/index.html:181 src/index.html:205 src/index.html:230 src/index.html:276
-#: src/index.html:299 src/index.html:321 src/index.html:345 src/index.html:369
-#: src/index.html:402
+#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
+#: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
+#: src/index.html:419
 msgid "Back"
 msgstr "Tillbaka"
 
-#: src/downloads/index.html:42 src/index.html:488
+#: src/downloads/index.html:59 src/index.html:512
 msgid "Blog"
 msgstr "Blog"
 
-#: src/index.html:336
+#: src/index.html:353
 msgid "Buying And Trading Decred"
 msgstr "Köpa och sälja Decred"
 
-#: src/downloads/index.html:69
+#: src/downloads/index.html:86
 msgid "CORE SOFTWARE"
 msgstr "CORE SOFTWARE"
 
-#: src/downloads/index.html:107
+#: src/downloads/index.html:124
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
 msgstr ""
 "CUDA/OpenCL miner för AMD/NVIDIA GPUs. Stöds officiellt av Decreds team."
 
-#: src/index.html:38
+#: src/index.html:55
 msgid "Close"
 msgstr "Stäng"
 
-#: src/downloads/index.html:96
+#: src/downloads/index.html:113
 msgid "Command Line Suite"
 msgstr "Kommandotolks-verktyg"
 
-#: src/index.html:148
+#: src/index.html:165
 msgid "Community And Principles"
 msgstr "Våran gemenskap och principer"
 
-#: src/brand/index.html:93
+#: src/brand/index.html:110
 msgid "Complimentary Colors"
 msgstr "Komplementfärg"
 
-#: src/index.html:180 src/index.html:204 src/index.html:229 src/index.html:275
-#: src/index.html:298 src/index.html:320 src/index.html:344 src/index.html:368
-#: src/index.html:401
+#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:292
+#: src/index.html:315 src/index.html:337 src/index.html:361 src/index.html:385
+#: src/index.html:418
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: src/downloads/index.html:91
+#: src/downloads/index.html:108
 msgid "Create a browser based Wallet"
 msgstr "Skapa en webbaserad plånbok i din browser"
 
-#: src/brand/index.html:77
+#: src/brand/index.html:94
 msgid "Dark Blue"
 msgstr "Mörkblå"
 
@@ -224,15 +225,15 @@ msgstr "Decred - decentraliserad kredit"
 msgid "Decred - downloads"
 msgstr "Decred - nerladdningar"
 
-#: src/brand/index.html:133 src/index.html:415
+#: src/brand/index.html:150 src/index.html:432
 msgid "Decred Developers"
 msgstr "Decred Developers"
 
-#: src/downloads/index.html:57 src/index.html:507
+#: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decred Developers 2017"
 
-#: src/index.html:123
+#: src/index.html:140
 msgid ""
 "Decred fosters a multi-stakeholder development ecosystem that welcomes and empowers participants who want to improve on existing features or build new tools.\n"
 "                <br>\n"
@@ -240,9 +241,9 @@ msgid ""
 msgstr ""
 "Decred tillhandahåller ett ekosystem för utvecklare och hjälper  dom som vill förbättra systemet eller skapa nya verktyg.\n"
 "                <br>\n"
-"                <br>Alla kan lägga till förslag hur man kan förbättra Decred och utvecklare får betalt för att utföra olika krav. Gemenskapen har full insyn över hur detta går till.  Betalningen för detta arbete kommer från Decreds blockkedja."
+"                <br>Alla kan lägga till förslag hur man kan förbättra Decred och utvecklare får betalt för att utföra olika krav. Gemenskapen har full insyn över hur detta går till och betalningen för detta arbete kommer från Decreds blockkedja."
 
-#: src/index.html:53
+#: src/index.html:70
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
@@ -250,7 +251,7 @@ msgstr ""
 "Decred är en öppen och progressiv kryptovaluta, med ett styrelseskick "
 "baserat runt gemenskap integrerat i blockkedjan. "
 
-#: src/index.html:136
+#: src/index.html:153
 msgid ""
 "Decred is constructing a layered governance organization that extends beyond the miners and users to bring forward and represent insider and outsider voices in the community.\n"
 "                <br>\n"
@@ -260,7 +261,7 @@ msgstr ""
 "                <br>\n"
 "                <br> Decentralisering är en process, och ett decentraliserat register är det första steget i den processen."
 
-#: src/index.html:107
+#: src/index.html:124
 msgid ""
 "Decred uses a hybridized consensus system to strike a balance between <u>miners</u>* and users to create a more robust currency.\n"
 "                <br>\n"
@@ -268,21 +269,21 @@ msgid ""
 msgstr ""
 "Decred använder en hybridiserat konsensus-system för att kunna skapa en baland mellan <u>miners</u>* och andra användare för att skapa en mer robust valuta.\n"
 "                <br>\n"
-"                <br>Vanligtvis så har miners som styr över infrastrukturen ett stort inflytandem medans användare har mindre. Decred hjälper användare att gå med i projektet direkt utan att behöva skaffa dyr mining-hårdvara."
+"                <br>Vanligtvis så har miners som styr över infrastrukturen ett stort inflytande medans användare har mindre. Decred hjälper användare att gå med i projektet direkt utan att behöva skaffa dyr mining-hårdvara."
 
-#: src/downloads/index.html:80
+#: src/downloads/index.html:97
 msgid "Decrediton"
 msgstr "Decrediton"
 
-#: src/index.html:58
+#: src/index.html:75
 msgid "Decrediton For Linux"
 msgstr "Decrediton för Linux"
 
-#: src/index.html:57
-msgid "Decrediton For Mac OS X"
-msgstr "Decrediton för Mac OS X"
+#: src/index.html:74
+msgid "Decrediton For macOS"
+msgstr "Decrediton för macOS"
 
-#: src/brand/index.html:123
+#: src/brand/index.html:140
 msgid ""
 "Decred’s identity helps to represent it across different platforms and "
 "amongst digital currencies. It helps new and existing users to recognise it,"
@@ -291,54 +292,50 @@ msgid ""
 " simple + practical tools, principles and guides for different contexts and "
 "use cases."
 msgstr ""
-"Decreds identitet används till att representera denna på olika plattformar "
-"och kryptovalutor. Denna identitet hjälper nya och erfarna användare att "
-"känna igen den, och skapar förtroende och mer tillit i plattformen.  "
-"Verktygslådan ger direktiv och gör det enklar för vem som helst att "
-"kommunicera Decreds budskap. Denna innehåller en samling av enkla och "
-"praktiska verkyg, principer och guider för olika miljöer och "
-"användningsområden."
+"Decreds identitet används till att representera denna på olika plattformar och kryptovalutor. Denna identitet hjälper nya och erfarna användare att känna igen den, och skapar förtroende och mer tillit i plattformen.  \n"
+"\n"
+"Verktygslådan ger direktiv och gör det enklar för vem som helst att kommunicera Decreds budskap. Denna innehåller en samling av enkla och praktiska verkyg, principer och guider för olika miljöer och användningsområden."
 
-#: src/index.html:516
+#: src/index.html:540
 msgid "Dev Premine"
 msgstr "Dev Premine"
 
-#: src/index.html:122 src/index.html:86
+#: src/index.html:103 src/index.html:139
 msgid "Development"
 msgstr "Utveckling"
 
-#: src/index.html:514
+#: src/index.html:538
 msgid "Development Subsidy"
 msgstr "Utvecklingsbidrag"
 
-#: src/brand/index.html:140 src/downloads/index.html:41 src/index.html:422
-#: src/index.html:487
+#: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
+#: src/index.html:511
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: src/brand/index.html:124
+#: src/brand/index.html:141
 msgid "Download Full Package"
 msgstr "Ladda ner hela paketet"
 
-#: src/brand/index.html:55
+#: src/brand/index.html:72
 msgid "Download Logo Package"
 msgstr "Ladda ner logotyp-paketet"
 
-#: src/index.html:56 src/index.html:57 src/index.html:58 src/index.html:59
-#: src/index.html:60 src/index.html:61
+#: src/index.html:73 src/index.html:74 src/index.html:75 src/index.html:76
+#: src/index.html:77 src/index.html:78
 msgid "Download Wallet"
 msgstr "Ladda ner plånbok"
 
-#: src/downloads/index.html:40 src/downloads/index.html:64 src/index.html:486
-#: src/index.html:92
+#: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
+#: src/index.html:510
 msgid "Downloads"
 msgstr "Nerladdningar"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:147
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:148
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -346,39 +343,39 @@ msgstr ""
 "Exodus är en användarvänlig, allt-i-ett-applikation för att på ett säkert "
 "sätt kunna hantera och byta olika kryptovalutor."
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:150
 msgid "Exodus releases"
 msgstr "Exodus utgåvor"
 
-#: src/index.html:39
+#: src/index.html:56
 msgid "Find A Stakepool"
 msgstr "Hitta en Stakepool"
 
-#: src/index.html:56
+#: src/index.html:73
 msgid "For Your Computer"
 msgstr "För din dator"
 
-#: src/downloads/index.html:72
+#: src/downloads/index.html:89
 msgid "GUI wallet for Windows"
 msgstr "GUI-plånbok för Windows"
 
-#: src/downloads/index.html:81
+#: src/downloads/index.html:98
 msgid "GUI wallet for macOS and Linux"
 msgstr "GUI-plånbok för macOS och Linux"
 
-#: src/downloads/index.html:39 src/index.html:485 src/index.html:62
+#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
 msgid "Getting Started"
 msgstr "Komma igång"
 
-#: src/index.html:135
+#: src/index.html:152
 msgid "Governance"
 msgstr "Styrelseskick"
 
-#: src/brand/index.html:107
+#: src/brand/index.html:124
 msgid "Green"
 msgstr "Grön"
 
-#: src/downloads/index.html:65
+#: src/downloads/index.html:82
 msgid ""
 "If you are new to Decred, be sure to read the <a href=\"../#guide\" class"
 "=\"paragraph-link\">Getting Started</a> tour or the <a "
@@ -390,47 +387,47 @@ msgstr ""
 "href=\"../#technology\" class=\"paragraph-link\">Tekniska beskrivning</a> om"
 " du vill fördjupa dig."
 
-#: src/index.html:359
+#: src/index.html:376
 msgid "Join The Community"
 msgstr "Gå med i gemenskapen"
 
-#: src/brand/index.html:63
+#: src/brand/index.html:80
 msgid "Key blue"
 msgstr "Nyckelblå"
 
-#: src/index.html:111
+#: src/index.html:128
 msgid "Learn more about the technology"
 msgstr "Lär dig mer om teknologin"
 
-#: src/brand/index.html:100
+#: src/brand/index.html:117
 msgid "Light blue"
 msgstr "Ljusblå"
 
-#: src/downloads/index.html:85
+#: src/downloads/index.html:102
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
-#: src/index.html:423
+#: src/index.html:440
 msgid "Logo and Branding"
 msgstr "Logotyp och branding"
 
-#: src/downloads/index.html:47 src/index.html:493
+#: src/downloads/index.html:64 src/index.html:517
 msgid "Logo and Visuals"
 msgstr "Logotyp och visuell identitet"
 
-#: src/brand/index.html:49
+#: src/brand/index.html:66
 msgid "Logo package"
 msgstr "Logotyp-paket"
 
-#: src/downloads/index.html:104
+#: src/downloads/index.html:121
 msgid "MINING SOFTWARE"
 msgstr "MINING SOFTWARE"
 
-#: src/index.html:267
+#: src/index.html:284
 msgid "Mining"
 msgstr "Mining"
 
-#: src/index.html:44
+#: src/index.html:61
 msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
@@ -438,16 +435,16 @@ msgstr ""
 "Orsaken bakom missade biljetter kan vara en &nbsp;Proof-of-work (PoW) "
 "miner&nbsp; med dålig förbindelse och inte nödvändigtvis ett fel hos poolen."
 
-#: src/brand/index.html:144 src/downloads/index.html:44 src/index.html:426
-#: src/index.html:490
+#: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
+#: src/index.html:514
 msgid "Network Stats"
 msgstr "Nätverksstatus"
 
-#: src/downloads/index.html:93
+#: src/downloads/index.html:110
 msgid "No downloads required."
 msgstr "Inga nerladdningar behövs."
 
-#: src/index.html:44
+#: src/index.html:61
 msgid "Notice:"
 msgstr "Notis:"
 
@@ -459,75 +456,75 @@ msgstr ""
 "Öppen och progressiv kryptovaluta, med ett styrelseskick baserat runt "
 "gemenskap integrerat i blockkedjan. "
 
-#: src/brand/index.html:114
+#: src/brand/index.html:131
 msgid "Orange"
 msgstr "Orange"
 
-#: src/index.html:169
+#: src/index.html:186
 msgid "Overview"
 msgstr "Överblick"
 
-#: src/downloads/index.html:71
+#: src/downloads/index.html:88
 msgid "Paymetheus"
 msgstr "Paymetheus"
 
-#: src/index.html:61
+#: src/index.html:78
 msgid "Paymetheus For Windows"
 msgstr "Paymetheus för Windows"
 
-#: src/index.html:59
+#: src/index.html:76
 msgid "Paymetheus For Windows 32bit"
 msgstr "Paymetheus för Windows 32bit"
 
-#: src/index.html:60
+#: src/index.html:77
 msgid "Paymetheus For Windows 64bit"
 msgstr "Paymetheus för Windows 64bit"
 
-#: src/index.html:383
+#: src/index.html:400
 msgid "Planned Features"
 msgstr "Planerade funktioner"
 
-#: src/index.html:513
+#: src/index.html:537
 msgid "PoS-mined"
 msgstr "PoS-mined"
 
-#: src/index.html:512
+#: src/index.html:536
 msgid "PoW-mined"
 msgstr "PoW-mined"
 
-#: src/brand/index.html:56
+#: src/brand/index.html:73
 msgid "Primary Colors"
 msgstr "Primärfärger"
 
-#: src/index.html:311
+#: src/index.html:328
 msgid "Proof-of-Stake Mining"
 msgstr "Proof-of-Stake Mining"
 
-#: src/index.html:289
+#: src/index.html:306
 msgid "Proof-of-Work Mining"
 msgstr "Proof-of-Work Mining"
 
-#: src/brand/index.html:46
+#: src/brand/index.html:63
 msgid "Quick-use toolkit"
 msgstr "Quick-use verktygslåda"
 
-#: src/index.html:151
+#: src/index.html:168
 msgid "Read the Decred Constitution"
 msgstr "Läs Decreds konstitution"
 
-#: src/index.html:243
+#: src/index.html:260
 msgid "Send and Receive Decred"
 msgstr "Skicka och ta emot Decred"
 
-#: src/index.html:88
+#: src/index.html:105
 msgid "Stable Version"
 msgstr "Stabil version"
 
-#: src/downloads/index.html:46 src/index.html:427 src/index.html:492
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
 msgid "Stakepools"
 msgstr "Stakepools"
 
-#: src/index.html:41
+#: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
@@ -535,36 +532,36 @@ msgstr ""
 "Stakepools gör det möjligt för dig att kunna medverka i Decreds Proof-of-Stake (PoS) mining utan att behöva bry dig om\n"
 "        <br>förluster p.g.a din dator inte är igång, dålig internetuppkoppling eller dålig strömförsörjning."
 
-#: src/index.html:517
+#: src/index.html:541
 msgid "Start again"
 msgstr "Börja om"
 
-#: src/index.html:71
+#: src/index.html:88
 msgid "Statistics"
 msgstr "Statistik"
 
-#: src/index.html:79
+#: src/index.html:96
 msgid "Supply distribution"
 msgstr "Fördelning av penningmängd"
 
-#: src/brand/index.html:139 src/downloads/index.html:43 src/index.html:421
-#: src/index.html:489
+#: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
+#: src/index.html:513
 msgid "Technical Brief"
 msgstr "Teknisk beskrivning"
 
-#: src/index.html:106
+#: src/index.html:123
 msgid "Technology"
 msgstr "Teknologi"
 
-#: src/index.html:193
+#: src/index.html:210
 msgid "The Basics"
 msgstr "Grundläggande fakta"
 
-#: src/index.html:219
+#: src/index.html:236
 msgid "The Wallets"
 msgstr "Plånböckerna"
 
-#: src/index.html:149
+#: src/index.html:166
 msgid ""
 "The project is bound by the Decred Constitution, so users can know what to "
 "expect: a finite number of coins, decentralized governance and a place to "
@@ -578,25 +575,25 @@ msgstr ""
 "roll i beslutsfattningen, både informellt via forum och formellt via "
 "blockkedjan."
 
-#: src/index.html:62
+#: src/index.html:79
 msgid "The quick tour"
 msgstr "En snabb rundtur"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:131
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr "Tredjeparts CUDA-miner för NVIDIA GPUs. Stöds inte av Decreds team."
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:138
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr "Tredjeparts OpenCL-miner för AMD GPUs. Stöds inte av Decreds team."
 
-#: src/index.html:160
+#: src/index.html:177
 msgid "This tour will help you get started with Decred"
 msgstr "Denna rundtur hjälper dig komma igång med Decred"
 
-#: src/index.html:45
+#: src/index.html:62
 msgid ""
 "To protect de-centralization of the network, it is recommended to avoid "
 "pools that have over 5% of network votes."
@@ -604,43 +601,43 @@ msgstr ""
 "För att skydda decentraliseringen av nätverket så är bäst att undvika pools "
 "som har över 5% av nätverks-röserna."
 
-#: src/brand/index.html:70
+#: src/brand/index.html:87
 msgid "Turquiose"
 msgstr "Turkos"
 
-#: src/brand/index.html:82
+#: src/brand/index.html:99
 msgid "Typography"
 msgstr "Typografi"
 
-#: src/downloads/index.html:99
+#: src/downloads/index.html:116
 msgid "View on GitHub"
 msgstr "Visa på GitHub"
 
-#: src/brand/index.html:11 src/brand/index.html:39 src/brand/index.html:9
+#: src/brand/index.html:11 src/brand/index.html:56 src/brand/index.html:9
 msgid "Visual communication toolkit"
 msgstr "Verktygslåda för visuell kommunikation"
 
-#: src/downloads/index.html:45 src/index.html:491
+#: src/downloads/index.html:62 src/index.html:515
 msgid "Voting"
 msgstr "Röstning"
 
-#: src/index.html:428
+#: src/index.html:445
 msgid "Voting Dashboard"
 msgstr "Instrumentbräda för röstning"
 
-#: src/index.html:45
+#: src/index.html:62
 msgid "Warning:"
 msgstr "Varning:"
 
-#: src/downloads/index.html:89
+#: src/downloads/index.html:106
 msgid "Webwallet"
 msgstr "Webbplånbok"
 
-#: src/downloads/index.html:76
+#: src/downloads/index.html:93
 msgid "Win 32-bit"
 msgstr "Win 32-bit"
 
-#: src/downloads/index.html:74
+#: src/downloads/index.html:91
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
@@ -652,11 +649,11 @@ msgstr "_riktning"
 msgid "_language"
 msgstr "_språk"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:130
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:133
 msgid "ccminer releases"
 msgstr "ccminer utgåvor"
 
@@ -668,42 +665,42 @@ msgstr "deCRED - decentraliserad kredit"
 msgid "deCRED brand"
 msgstr "deCREDs varumärke"
 
-#: src/brand/index.html:154 src/index.html:438
+#: src/brand/index.html:171 src/index.html:455
 msgid "downloads"
 msgstr "nedladdningar"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:123
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:109
+#: src/downloads/index.html:126
 msgid "gominer releases"
 msgstr "gominer utgåvor"
 
-#: src/downloads/index.html:83
+#: src/downloads/index.html:100
 msgid "macOS"
 msgstr "macOS"
 
-#: src/index.html:73
+#: src/index.html:90
 msgid "mined so far"
 msgstr "mined hittils"
 
-#: src/downloads/index.html:120
+#: src/downloads/index.html:137
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:140
 msgid "sgminer releases"
 msgstr "sgminer utgåvor"
 
-#: src/index.html:433
+#: src/index.html:450
 msgid "stable"
 msgstr "stabil"
 
-#: src/brand/index.html:153 src/index.html:437 src/index.html:94
+#: src/brand/index.html:170 src/index.html:111 src/index.html:454
 msgid "total"
 msgstr "total"
 
-#: src/brand/index.html:141
+#: src/brand/index.html:158
 msgid "← Main Website"
 msgstr "Huvudsida"
