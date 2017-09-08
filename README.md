@@ -15,7 +15,7 @@ Make sure you have [git](https://git-scm.com/) installed.
 
 ```sh
 git clone https://github.com/decred/dcrweb
-cd dcrweb; git checkout localization
+cd dcrweb;
 ```
 
 #### Importing new translations and content updates
