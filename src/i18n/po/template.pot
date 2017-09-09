@@ -172,6 +172,7 @@ msgid "Dark Blue"
 msgstr ""
 
 #: src/index.html:5
+#: src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr ""
 
@@ -190,6 +191,10 @@ msgstr ""
 #: src/downloads/index.html:74
 #: src/index.html:531
 msgid "Decred Developers 2017"
+msgstr ""
+
+#: src/brand/index.html:10
+msgid "Decred brand"
 msgstr ""
 
 #: src/index.html:140
@@ -582,11 +587,6 @@ msgstr ""
 msgid "ccminer releases"
 msgstr ""
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr ""
-
-#: src/brand/index.html:10
 #: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr ""
