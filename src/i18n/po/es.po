@@ -219,7 +219,7 @@ msgstr "Crear una Cartera basada en navegador"
 msgid "Dark Blue"
 msgstr "Azul oscuro"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - crédito descentralizado"
 
@@ -235,6 +235,10 @@ msgstr "Desarrolladores de Decred"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Desarrolladores de Decred 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Marca Decred"
 
 #: src/index.html:140
 msgid ""
@@ -533,7 +537,7 @@ msgstr "Redes de Participación"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Las Redes de Participación le permiten participar en la minería de Prueba-de-Participación (PoS) de Decred sin tener que preocuparse\n"
 "        <br>sobre las pérdidas debidas al tiempo de inactividad de la computadora o energía y conectividad a internet inconsistente. "
@@ -667,11 +671,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "versiónes de ccminer"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - crédito descentralizado"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "Marca deCRED"
 

@@ -1,10 +1,11 @@
 # Translators:
 # Nikola Bencic <bencic.nikola@icloud.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
+# Lav Radis <manastir@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
+"Last-Translator: Lav Radis <manastir@gmail.com>, 2017\n"
 "Language-Team: Croatian (https://www.transifex.com/decred/teams/76223/hr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,11 +18,11 @@ msgstr "Alternativni novcanici"
 
 #: src/index.html:466
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:528
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:266
 msgid ""
@@ -217,7 +218,7 @@ msgstr "Izradite novčanik u web pregledniku"
 msgid "Dark Blue"
 msgstr "Tamno plava"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - decentralizirani kredit"
 
@@ -233,6 +234,10 @@ msgstr "Decred Developeri"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decred Developeri 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Decred brand"
 
 #: src/index.html:140
 msgid ""
@@ -282,7 +287,7 @@ msgstr "Decrediton za Linux"
 
 #: src/index.html:74
 msgid "Decrediton For macOS"
-msgstr "Decreditom za macOS"
+msgstr "Decrediton za macOS"
 
 #: src/brand/index.html:140
 msgid ""
@@ -529,7 +534,7 @@ msgstr "PoS poolovi"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "PoS poolovi omogućuju vam sudjelovanje u rudarstvu Decred Proof-of-Stake (PoS) bez potrebe za brigom\n"
 "        <br> o gubitku zbog zastoja racunala, nestabilne internetske veze ili nedostatka snage."
@@ -658,11 +663,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "ccminer inacice"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "DeCRED - decentralizirani kredit"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCred brand"
 

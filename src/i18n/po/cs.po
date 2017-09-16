@@ -174,7 +174,7 @@ msgstr ""
 msgid "Dark Blue"
 msgstr "Tmavě Modrá"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr ""
 
@@ -189,6 +189,10 @@ msgstr ""
 
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
+msgstr ""
+
+#: src/brand/index.html:10
+msgid "Decred brand"
 msgstr ""
 
 #: src/index.html:140
@@ -463,7 +467,7 @@ msgstr ""
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 
 #: src/index.html:541
@@ -584,11 +588,7 @@ msgstr ""
 msgid "ccminer releases"
 msgstr ""
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr ""
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr ""
 

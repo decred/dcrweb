@@ -17,11 +17,11 @@ msgstr "Tredjeparts-plånbok"
 
 #: src/index.html:466
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:528
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:266
 msgid ""
@@ -216,7 +216,7 @@ msgstr "Skapa en webbaserad plånbok i din browser"
 msgid "Dark Blue"
 msgstr "Mörkblå"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - decentraliserad kredit"
 
@@ -232,6 +232,10 @@ msgstr "Decred Developers"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decred Developers 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Decred varumärke"
 
 #: src/index.html:140
 msgid ""
@@ -527,7 +531,7 @@ msgstr "Stakepools"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepools gör det möjligt för dig att kunna medverka i Decreds Proof-of-Stake (PoS) mining utan att behöva bry dig om\n"
 "        <br>förluster p.g.a din dator inte är igång, dålig internetuppkoppling eller dålig strömförsörjning."
@@ -657,11 +661,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "ccminer utgåvor"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - decentraliserad kredit"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCREDs varumärke"
 

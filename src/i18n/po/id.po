@@ -39,6 +39,8 @@ msgid ""
 "<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
+"<p>Decred adalah mata uang digital multiplatform yang mendukung untuk WIndows, macOs, dan Linux. Aplikasi wallet yang mudah digunakan baik untuk mengirim, menerima, maupun mining Decred hanya melalui beberapa klik. </p>\n"
+"\t\t<p>Bagi yang gemar mengulik, Decred menyediakan seperangkat komando yang memungkinkan untuk menyesuaikan tampilan dan pengalaman dalam menggunakan Decred.</p>"
 
 #: src/index.html:359
 msgid ""
@@ -99,6 +101,10 @@ msgid ""
 "\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
+"<p>Web Wallet adalah cara termudah untuk memulai Decred. Pengguna dapat membukanya di <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, tanpa perlu mengunduh apa pun.</p>\n"
+"\t\t<p>Bagi pengguna Windows, <a href=\"downloads/#paymetheus\">dompet Paymetheus</a> dapat membantu anda online hanya dalam hitungan menit. </p>\n"
+"\t\t<p>Bagi pengguna macOS dan Linux, <a href=\"downloads/#paymetheus\">dompet Decrediton</a>dapat digunakan.</p>\n"
+"<p>Untuk panduan dalam memulai, anda bisa mengunjungi<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Panduan Pemula</a>.</p>"
 
 #: src/index.html:290
 msgid ""
@@ -210,7 +216,7 @@ msgstr "Buat Dompet berbasis browser"
 msgid "Dark Blue"
 msgstr "Biru tua"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - decentralized credit"
 
@@ -226,6 +232,10 @@ msgstr "Pengembang Decred"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Pengembang Decred 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Merek Decred"
 
 #: src/index.html:140
 msgid ""
@@ -275,7 +285,7 @@ msgstr "Decrediton untuk Linux"
 
 #: src/index.html:74
 msgid "Decrediton For macOS"
-msgstr ""
+msgstr "Decrediton untuk macOS"
 
 #: src/brand/index.html:140
 msgid ""
@@ -524,7 +534,7 @@ msgstr "Stakepools"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepools memungkinkan anda berpartisipasi di penambangan Proof-of-Stake (PoS) Decred tanpa harus khawatir\n"
 "<br>tentang kehilangan di kala komputer lemah, koneksi internet yang payah, atau listrik yang naik-turun."
@@ -658,11 +668,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "rilis ccminer"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - decentrilized credit"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "brand deCRED"
 

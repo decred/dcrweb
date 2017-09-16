@@ -103,7 +103,7 @@ msgid ""
 msgstr ""
 "<p>محفظة الويب هي اسهل طريقة للبدء باستخدام ديكريد. باستطاعة جميع المستخدمين الوصول إليها عن طريق الإنترنت بواسطة<a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>، دون الحاجة لتنزيل اي شيء.</p>\n"
 "\t\t<p>لمستخدمي ويندوز، <a href=\"downloads/#paymetheus\">محفظة بايميثيوس</a>ستساعدك لتكون متصل بالشبكة في غضون بضع دقائق.</p>\n"
-"\t\t<p>لمستخدمي ماك و لينوكس،<a href=\"downloads/#paymetheus\"> محفظة ديكريديشن</a> متوفره.</p>\n"
+"\t\t<p>لمستخدمي ماك و لينوكس،<a href=\"downloads/#paymetheus\"> محفظة دكريديتون</a> متوفره.</p>\n"
 "<p> للحصول على المساعدة في عملية البدء يمكنك زيارة<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">دليل المبتدئين</a>.</p>"
 
 #: src/index.html:290
@@ -217,7 +217,7 @@ msgstr "إنشاء محفظة مبنية على متصفح الانترنت"
 msgid "Dark Blue"
 msgstr "الأزرق الداكن"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "ديكريد - المالية اللامركزية"
 
@@ -233,6 +233,10 @@ msgstr "مطوري ديكريد"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "مطوري ديكريد 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "علامة ديكريد التجارية "
 
 #: src/index.html:140
 msgid ""
@@ -274,15 +278,15 @@ msgstr ""
 
 #: src/downloads/index.html:97
 msgid "Decrediton"
-msgstr "ديكريديشن"
+msgstr "ديكريديتون"
 
 #: src/index.html:75
 msgid "Decrediton For Linux"
-msgstr "ديكريديشن للينوكس"
+msgstr "ديكريديتون للينوكس"
 
 #: src/index.html:74
 msgid "Decrediton For macOS"
-msgstr "ديكريديشن لmacOS"
+msgstr "ديكريديتون لmacOS"
 
 #: src/brand/index.html:140
 msgid ""
@@ -531,7 +535,7 @@ msgstr "تجمعات الحصص"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "تجمعات الحصص تسمح لك بالمشاركة  بتعدين ديكريد عن طريق إثبات الحصة (PoS) دون الحاجة للقلق\n"
 " <br>على الخسائر المترتبة من تعطل جهاز الكمبيوتر او اتصال الانترنت المتقطع أو حتى انقطاع التيار الكهربائي."
@@ -664,11 +668,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "إصدارات ccminer"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "ديكريد - المالية اللامركزية"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "علامة ديكريد التجارية"
 

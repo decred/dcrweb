@@ -1,5 +1,5 @@
 # Translators:
-# Sylvain <Meaulnes@protonmail.com>, 2017
+# Sylvain <inactive+SylvainDCR999@transifex.com>, 2017
 # Alex Solo <axel.abso@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 msgid ""
@@ -220,7 +220,7 @@ msgstr "Créer un portefeuille basé sur le navigateur"
 msgid "Dark Blue"
 msgstr "Bleu Foncé"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - crédit décentralisé "
 
@@ -236,6 +236,10 @@ msgstr "Decred Développeurs  "
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decred Développeurs 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Marque Decred"
 
 #: src/index.html:140
 msgid ""
@@ -535,7 +539,7 @@ msgstr "Pool d'enjeu"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepools vous permet de participer à l'extraction de la Preuve-Enjeu (PoS) sans avoir à vous soucier\n"
 "<br>des pertes dues à des temps d'arrêt informatiques, une connectivité Internet flanquée ou une puissance incohérente."
@@ -669,11 +673,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "ccminer releases"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - Crédit décentralisé"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCRED brand"
 

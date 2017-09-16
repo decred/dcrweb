@@ -1,7 +1,9 @@
-# 
+# Translators:
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Thai (https://www.transifex.com/decred/teams/76223/th/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,11 +16,11 @@ msgstr ""
 
 #: src/index.html:466
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:528
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:266
 msgid ""
@@ -171,7 +173,7 @@ msgstr ""
 msgid "Dark Blue"
 msgstr ""
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr ""
 
@@ -186,6 +188,10 @@ msgstr ""
 
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
+msgstr ""
+
+#: src/brand/index.html:10
+msgid "Decred brand"
 msgstr ""
 
 #: src/index.html:140
@@ -458,7 +464,7 @@ msgstr ""
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 
 #: src/index.html:541
@@ -579,11 +585,7 @@ msgstr ""
 msgid "ccminer releases"
 msgstr ""
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr ""
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr ""
 

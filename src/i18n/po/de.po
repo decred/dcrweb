@@ -220,7 +220,7 @@ msgstr "Erstellen Sie eine Browser-basierte Wallet"
 msgid "Dark Blue"
 msgstr "Dunkelblau"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - decentralized credit"
 
@@ -236,6 +236,10 @@ msgstr "Decred Entwickler"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decred Entwickler 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Decred Marke"
 
 #: src/index.html:140
 msgid ""
@@ -536,7 +540,7 @@ msgstr "Stakepools"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepools erlauben Ihne in Decred Proof-of-Stake (PoS) Mining teilnehmen, ohne sich Sorgen zu machen\n"
 "        <br> über Verluste wegen Computer Ausfallzeiten, flankige Internet-Verbindung oder inkonsistente Strom."
@@ -671,11 +675,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "ccminer releases"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED- dezentralized credit"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCRED brand"
 

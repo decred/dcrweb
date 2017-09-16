@@ -217,7 +217,7 @@ msgstr "Maak een portemonnee aan in je browser"
 msgid "Dark Blue"
 msgstr "Donkerblauw"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - decentralized credit"
 
@@ -233,6 +233,10 @@ msgstr "Decred Ontwikkelaars"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Decred Ontwikkelaars 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Decred brand"
 
 #: src/index.html:140
 msgid ""
@@ -533,7 +537,7 @@ msgstr "Stakepools"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepools worden gebruikt om deel te nemen aan Decred Proof-of-Stake (PoS) mining, zonder de zorgen\n"
 "        <br> over misgelopen winsten als gevolg van computer downtime, slechte internet verbinding, of stroomstoringen."
@@ -665,11 +669,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "ccminer releases"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - decentralized credit"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCRED brand"
 

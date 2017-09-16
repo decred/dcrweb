@@ -18,11 +18,11 @@ msgstr "ΠΟΡΤΟΦΟΛΙΑ ΤΡΙΤΩΝ"
 
 #: src/index.html:466
 msgid "<!-- localized footer social media links -->"
-msgstr ""
+msgstr "<!-- localized footer social media links -->"
 
 #: src/index.html:528
 msgid "<!-- localized social media links -->"
-msgstr ""
+msgstr "<!-- localized social media links -->"
 
 #: src/index.html:266
 msgid ""
@@ -219,7 +219,7 @@ msgstr "Δημιουργήστε ένα πορτοφόλι ιστού"
 msgid "Dark Blue"
 msgstr "Σκοτεινό Μπλε"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - αποκεντρωμένο συνάλλαγμα"
 
@@ -235,6 +235,10 @@ msgstr "Προγραμματιστές Decred"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Προγραμματιστές Decred 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Επωνυμία του Decred"
 
 #: src/index.html:140
 msgid ""
@@ -535,7 +539,7 @@ msgstr "Stakepools"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Τα stakepools σας επιτρέπουν να συμμετάσχετε στο Proof-of-Stake (PoS) mining του Decred, χωρίς να χρειάζεται να ανησυχείτε\n"
 "        <br>σχετικά με απώλειες που οφείλονται σε διακοπές λειτουργίας του υπολογιστή, κακή συνδεσιμότητα διαδικτύου, ή προβλήματα ενέργειας."
@@ -669,11 +673,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "εκδόσεις ccminer"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - αποκεντρωμένο συνάλλαγμα"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "επωνυμία deCRED"
 

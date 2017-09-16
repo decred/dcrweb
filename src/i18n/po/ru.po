@@ -219,7 +219,7 @@ msgstr "Создать web-кошелек"
 msgid "Dark Blue"
 msgstr "Темно-синий"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - децентрализованная финансовая система"
 
@@ -235,6 +235,10 @@ msgstr "Разработчики Decred"
 #: src/downloads/index.html:74 src/index.html:531
 msgid "Decred Developers 2017"
 msgstr "Разработчики Decred 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Марка Decred"
 
 #: src/index.html:140
 msgid ""
@@ -534,7 +538,7 @@ msgstr "PoS-пулы"
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepool позволяет вам участвовать в Proof-of-Stake (PoS) не беспокоясь \n"
 "<br>о возможных пропущенных билетах из-за плохого интернет соединения или перебоев электроснабжения."
@@ -665,11 +669,7 @@ msgstr "ccminer"
 msgid "ccminer releases"
 msgstr "версии ccminer"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED — децентрализованные финансы"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "Брэнд deCRED"
 
