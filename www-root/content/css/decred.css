@@ -2536,12 +2536,6 @@ html[lang="ar"] .section-title-download-page {
     padding-left: 30px;
     float: none;
   }
-  .fronta {
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
   .overviewimage {
     height: auto;
   }
@@ -2570,19 +2564,6 @@ html[lang="ar"] .section-title-download-page {
   }
   .width-third {
     margin-bottom: 20px;
-  }
- .button {
-    display: block;
-    float: none;
-    clear: left;
-  }
-  .button.download-wallet {
-    float: left;
-  }
-  .button.getting-started {
-    margin-top: 10px;
-    margin-left: 0px;
-    float: left;
   }
   .button.all-downloads {
     float: none;
