@@ -1,142 +1,136 @@
-$(document).ready(function() {
+$(document).ready(() => {
+  // for json API
+  $.ajaxSetup({
+    async: false,
+  });
+
+  const time = 100;
+  const viewport = $(window);
+
+  // get json
+  const APIdc = `${API_ROOT}/?c=dc`;
+  const APIstats = `${API_ROOT}/?c=gcs`;
+  const jsonPercentMined = null;
+  const pow = null;
+  const pos = null;
+  const devs = null;
+  const all = null;
+  let count = null;
+  const statisticsRelease = $('#statisticsRelease');
+  const statisticsDownloads = $('#statisticsDownloads');
+  const footerRelease = $('#footerRelease');
+  const footerDownloads = $('#footerDownloads');
 
 
+  // font weight
+  const fontRegular = 'fontregular';
+  const fontSemibold = 'fontsemibold';
+  const fontBold = 'fontbold';
 
-	// for json API
-	$.ajaxSetup({
-	    async: false
-	});
+  // font size
+  const font14 = 'font14';
+  const font16 = 'font16';
+  const font18 = 'font18';
+  const font22 = 'font22';
+  const font24 = 'font24';
+  const font28 = 'font28';
+  const font38 = 'font38';
 
-	var time = 100,
-	    viewport = $(window),
+  // font color
+  const colorDarkBlue = 'colordarkblue';
 
-	    // get json
-		APIdc = API_ROOT + '/?c=dc',
-	    APIstats = API_ROOT + '/?c=gcs',
-	    	jsonPercentMined = pow = pos = devs = all = count = null,
-	    	statisticsRelease = $('#statisticsRelease'),
-	    	statisticsDownloads = $('#statisticsDownloads'),
-	    	footerRelease = $('#footerRelease'),
-	    	footerDownloads = $('#footerDownloads'),
+  // line color
+  const verticalBlue = 'verticalblue';
 
+  // bg color
+  const backgroundDarkBlue = 'backgrounddarkblue';
+  const backgroundCyan = 'backgroundcyan';
+  const backgroundGray = 'backgroundgray';
+  const backgroundBlue = 'backgroundblue';
 
-	    // font weight
-	    fontRegular = 'fontregular',
-	    fontSemibold = 'fontsemibold',
-	    fontBold = 'fontbold',
+  // solid color
+  const turquoise = 'turquoise';
 
-	    // font size
-	    font14 = 'font14',
-	    font16 = 'font16',
-	    font18 = 'font18',
-	    font22 = 'font22',
-	    font24 = 'font24',
-	    font28 = 'font28',
-	    font38 = 'font38',
+  // transition
+  const transition = 'transition';
+  const transitionModest = 'transitionmodest';
+  const transitionSlow = 'transitionslow';
 
-	    // font color
-	    colorDarkBlue = 'colordarkblue',
+  // addins
+  const guideBlockContentLast = 'guideblockcontentlast';
+  const cursor = 'cursor';
+  const hand = 'hand';
+  const active = 'active';
+  const counter = 1;
 
-	    // line color
-	    verticalBlue = 'verticalblue',
+  // front
+  const logo = $('.logo');
+  const slogan = $('.slogan');
 
-	    // bg color
-	    backgroundDarkBlue = 'backgrounddarkblue',
-	    backgroundCyan = 'backgroundcyan',
-	    backgroundGray = 'backgroundgray',
-	    backgroundBlue = 'backgroundblue',
+  // statistics
+  const statistics = $('.statistics');
+  const bar = $('.statisticsmindebarpercent');
 
-	    // solid color
-	    turquoise = 'turquoise';
+  const networkStatistics = $('.networkstatistics');
+  const networkStatisticsSection = $('.networkstatisticssection');
+  const networkStatisticsFloat = $('.networkstatisticsfloat');
+  const percentNumber = $('.percentnumber');
+  const percentMined = $('.percentmined');
+  const developmentRowNum = $('.developmentrownum');
 
-	    // transition
-	    transition = 'transition',
-	    transitionModest = 'transitionmodest',
-	    transitionSlow = 'transitionslow',
+  // guide
+  const guide = $('.guide');
+  const block = $('.block');
+  const child = $('.child');
+  const top = $('.top');
+  const dot = $('.dot');
+  const vertical = $('.vertical');
+  const small = $('.small');
+  const big = $('.big');
+  const header = $('.header');
+  const content = $('.content');
+  const lineLeft = $('.lineleft');
+  const media = $('.media');
+  const info = $('.info');
+  const text = $('.text');
+  const buttonContinue = $('.buttoncontinue');
+  const buttonBack = $('.buttonback');
 
-	    // addins
-	    guideBlockContentLast = 'guideblockcontentlast',
-	    cursor = 'cursor',
-	    hand = 'hand',
-	    active = 'active',
-	    counter = 1,
+  // footer
+  const footerBlock = $('.footerblock');
+  const icon = $('.icon');
+  const footerBlockIndicator = $('.footerblockindicator');
 
-	    // front
-	    logo = $('.logo'),
-	    slogan = $('.slogan'),
+  // get download_count from API
+  $.getJSON(APIdc, (data) => {
+    count = data[1];
+  });
+  footerDownloads.text(`${count} total`);
 
-	    // statistics
-	    statistics = $('.statistics'),
-	    bar = $('.statisticsmindebarpercent'),
+  // statisticsDownloads.add(footerDownloads).text(count+' total');
 
-	    networkStatistics = $('.networkstatistics'),
-	    networkStatisticsSection = $('.networkstatisticssection'),
-	    networkStatisticsFloat = $('.networkstatisticsfloat'),
-
-	    percentNumber = $('.percentnumber'),
-	    percentMined = $('.percentmined'),
-
-	    developmentRowNum = $('.developmentrownum'),
-
-	    // guide
-	    guide = $('.guide'),
-	    block = $('.block'),
-	    child = $('.child'),
-
-	    top = $('.top'),
-	    dot = $('.dot'),
-	    vertical = $('.vertical'),
-	    small = $('.small'),
-	    big = $('.big'),
-	    header = $('.header'),
-
-	    content = $('.content'),
-	    lineLeft = $('.lineleft'),
-	    media = $('.media'),
-	    info = $('.info'),
-	    text = $('.text'),
-	    buttonContinue = $('.buttoncontinue'),
-	    buttonBack = $('.buttonback'),
-
-	    // footer
-	    footerBlock = $('.footerblock'),
-	    icon = $('.icon'),
-	    footerBlockIndicator = $('.footerblockindicator'),
-
-	// get download_count from API
-	$.getJSON(APIdc, function(data) {
-	   count = data[1];
-	});
-	footerDownloads.text(count+' total');
-
-	//statisticsDownloads.add(footerDownloads).text(count+' total');
-
-	// show label when hovering icon
-	icon.mouseenter(function() {
-	    footerBlockIndicator.text($(this).attr('data-label')).removeClass('opacity000');
-	}).mouseleave(function() {
-	    footerBlockIndicator.addClass('opacity000');
-	});
+  // show label when hovering icon
+  icon.mouseenter(function () {
+    footerBlockIndicator.text($(this).attr('data-label')).removeClass('opacity000');
+  }).mouseleave(() => {
+    footerBlockIndicator.addClass('opacity000');
+  });
 
 
+  // notification area
+  const notification = $('#notification');
+  const notificationMessage = $('.notification-message-bold');
 
-	// notification area
-      var notification = $('#notification'),
-          notificationMessage = $('.notification-message-bold');
-
-      new Clipboard('.copy-color', {
-          text: function(trigger) {
-              return trigger.getAttribute('data-hex-code');
-          }
-      }).on('success', function(e) {
-          notification.removeClass('up-and-hidden');
-          setTimeout(function(){
-            notification.addClass('up-and-hidden');
-          }, 2000);
-          notificationMessage.text(e.text);
-          e.clearSelection();
-      });
-
-
-
+  new Clipboard('.copy-color', {
+    text(trigger) {
+      return trigger.getAttribute('data-hex-code');
+    },
+  }).on('success', (e) => {
+    notification.removeClass('up-and-hidden');
+    setTimeout(() => {
+      notification.addClass('up-and-hidden');
+    }, 2000);
+    notificationMessage.text(e.text);
+    e.clearSelection();
+  });
 });
