@@ -1,5 +1,5 @@
 node_modules/*
 www-root/content/vendor/*
 www-root/content/scripts/*
-www-root/content/js/decred.js
+www-root/content/vendor/decred.js
 build/**
