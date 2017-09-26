@@ -10,7 +10,7 @@ msgstr ""
 "Language: zh-Hant\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "第三方錢包"
 
@@ -18,7 +18,7 @@ msgstr "第三方錢包"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -101,17 +101,17 @@ msgid ""
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
 msgstr ""
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr "適用於命令行的跨平臺自動安裝／更新程序。"
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "關於"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "空投"
 
@@ -125,7 +125,7 @@ msgstr "所有下載 →"
 msgid "Back"
 msgstr "返回"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "網誌"
 
@@ -137,7 +137,7 @@ msgstr "購買和交易 Decred"
 msgid "CORE SOFTWARE"
 msgstr "核心軟體"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -147,7 +147,7 @@ msgstr "適用於 AMD／NVIDIA 圖形處理器的 CUDA／OpenCL 挖礦軟體，�
 msgid "Close"
 msgstr "關閉"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "命令行套件"
 
@@ -165,7 +165,7 @@ msgstr "補色"
 msgid "Continue"
 msgstr "繼續"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "建立瀏覽器錢包"
 
@@ -186,7 +186,7 @@ msgstr "Decred－下載"
 msgid "Decred Developers"
 msgstr "Decred 開發者"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred 開發者 2017"
 
@@ -243,7 +243,7 @@ msgid ""
 "use cases."
 msgstr ""
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "開發者預挖"
 
@@ -251,12 +251,12 @@ msgstr "開發者預挖"
 msgid "Development"
 msgstr "開發"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "開發補貼"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "文件"
 
@@ -274,21 +274,21 @@ msgid "Download Wallet"
 msgstr "下載錢包"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "下載"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr "Exodus 是一個友好的、一體化的錢包應用，用來保存、管理以及兌換區塊鏈資產。"
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodus 版本"
 
@@ -305,10 +305,10 @@ msgid "GUI wallet for Windows"
 msgstr "適用於 Windows 的 GUI 錢包"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "適用於 macOS 和 Linux 的 GUI 錢包"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr ""
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "入門"
 
@@ -344,7 +344,7 @@ msgstr "深入了解技術"
 msgid "Light blue"
 msgstr "淺藍色"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64 位"
 
@@ -352,7 +352,7 @@ msgstr "Linux 64 位"
 msgid "Logo and Branding"
 msgstr "標誌和品牌設計"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "標誌和視覺設計"
 
@@ -360,7 +360,7 @@ msgstr "標誌和視覺設計"
 msgid "Logo package"
 msgstr "Logo 包"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "挖礦軟體"
 
@@ -375,11 +375,11 @@ msgid ""
 msgstr "錯失的選票可能是由於連接不穩定的 PoW 礦工造成的，並非一定是由於礦池的問題。"
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "網路數據"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "無需下載。"
 
@@ -421,11 +421,11 @@ msgstr "適用於 Windows 64 位的 Paymetheus"
 msgid "Planned Features"
 msgstr "已計劃的功能"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS 挖出"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW 挖出"
 
@@ -457,7 +457,7 @@ msgstr "發送和接收 Decred"
 msgid "Stable Version"
 msgstr "穩定版本"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "PoS 礦池"
 
@@ -467,7 +467,7 @@ msgid ""
 "        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "重新開始"
 
@@ -480,7 +480,7 @@ msgid "Supply distribution"
 msgstr "供應分佈"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "技術簡介"
 
@@ -509,12 +509,12 @@ msgstr ""
 msgid "The quick tour"
 msgstr "快速教學"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr "適用於 NVIDIA 圖形處理器的第三方 CUDA 挖礦軟體，不由 Decred 團隊支持。"
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr "適用於 AMD 圖形處理器的第三方 OpenCL 挖礦軟體，不由 Decred 團隊支持。"
@@ -537,7 +537,7 @@ msgstr "綠松色"
 msgid "Typography"
 msgstr "字體排印"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "在 GitHub 上查看"
 
@@ -545,7 +545,7 @@ msgstr "在 GitHub 上查看"
 msgid "Visual communication toolkit"
 msgstr "視覺傳達工具包"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "投票"
 
@@ -557,7 +557,7 @@ msgstr "投票儀表板"
 msgid "Warning:"
 msgstr "警告："
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "網頁錢包"
 
@@ -569,6 +569,10 @@ msgstr "Windows 32 位"
 msgid "Win 64-bit"
 msgstr "Windows 64 位"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr ""
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "ltr"
@@ -577,11 +581,11 @@ msgstr "ltr"
 msgid "_language"
 msgstr "zh-Hant"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminer 版本"
 
@@ -593,15 +597,15 @@ msgstr "deCRED 品牌"
 msgid "downloads"
 msgstr "下載"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominer 版本"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -609,11 +613,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "已挖出"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminer 版本"
 

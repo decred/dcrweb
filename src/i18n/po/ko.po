@@ -12,7 +12,7 @@ msgstr ""
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "타사 지갑"
 
@@ -20,7 +20,7 @@ msgstr "타사 지갑"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -140,17 +140,17 @@ msgstr ""
 "<p>PoW와 다르게 <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">지분 증명(PoS)</a>은 컴퓨터 연산능력을 필요로 하지는 않습니다. Decred 코인은 주요 안건의 투표를 위한 티켓을 사는데 쓰일 뿐 입니다. 매 블럭마다, 여러 사람이 구입한 티켓 중에서 5개가 이전 블럭의 유효성을 검증하기 위해 랜덤으로 선택됩니다.</p>\n"
 "\t\t<p>PoS는 Decred가 추구하는 분권화를 한 층 더 강화하고, 실 사용자들이 주요한 네트워크 변경 안건에 대해서 직접 투표할 수 있도록 합니다. 컴퓨터를 하루 종일 켜지 않고도 여러분의 티켓이 선택 될 수 있도록 하기 위해 <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS 풀(pool)이 제공 됩니다</a>.</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr "명령어 기반 활용 목적의 다양한 플랫폼, 자동 인스톨러/업데이터 "
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "소개"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "에어드랍"
 
@@ -164,7 +164,7 @@ msgstr "다운로드"
 msgid "Back"
 msgstr "뒤로"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "블로그"
 
@@ -176,7 +176,7 @@ msgstr "Decred 사고 팔기"
 msgid "CORE SOFTWARE"
 msgstr "핵심 소프트웨어"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -186,7 +186,7 @@ msgstr "AMD / NVIDIA GPU 용 CUDA / OpenCL 채굴기. Decred 팀이 공식적으
 msgid "Close"
 msgstr "닫기"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "명령어 세트"
 
@@ -204,7 +204,7 @@ msgstr "기본 색상"
 msgid "Continue"
 msgstr "계속"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "브라우저 지갑 만들기"
 
@@ -225,7 +225,7 @@ msgstr "Decred - 다운로드"
 msgid "Decred Developers"
 msgstr "Decred 개발자"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred 개발자 2017"
 
@@ -295,7 +295,7 @@ msgstr ""
 "사람들로 하여금 Decred에 대해 소통하기 더 수월하게 합니다. 간단하고 실용적인 툴이 제공되며, 여러 상황과 사용자 환경에 따른 "
 "별도의 가이드 또한 제공됩니다."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "개발자 선채굴량"
 
@@ -303,12 +303,12 @@ msgstr "개발자 선채굴량"
 msgid "Development"
 msgstr "개발"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "개발 보조 기금"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "문서"
 
@@ -326,21 +326,21 @@ msgid "Download Wallet"
 msgstr "지갑 다운로드"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "다운로드"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr "Exodus는 블록체인 자산을 보호, 관리 및 교환하기 위한 편리한 올인원 애플리케이션입니다."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodus 지갑 출시"
 
@@ -357,10 +357,10 @@ msgid "GUI wallet for Windows"
 msgstr "GUI 지갑 - 윈도우 버전"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "GUI 지갑 - 맥OS & 리눅스"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr ""
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "시작하기"
 
@@ -399,7 +399,7 @@ msgstr "기술에 대해 더 알아보기"
 msgid "Light blue"
 msgstr "밝은 청색"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "리눅스 64 비트"
 
@@ -407,7 +407,7 @@ msgstr "리눅스 64 비트"
 msgid "Logo and Branding"
 msgstr "로고 및 브랜드"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "로고 및 시각 자료"
 
@@ -415,7 +415,7 @@ msgstr "로고 및 시각 자료"
 msgid "Logo package"
 msgstr "로고 패키지"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "채굴용 프로그램"
 
@@ -432,11 +432,11 @@ msgstr ""
 "있습니다."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "네트워크 통계"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "다운로드 불필요."
 
@@ -478,11 +478,11 @@ msgstr "페이메테우스 (윈도우 64비트)"
 msgid "Planned Features"
 msgstr "개발 예정된 기능"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS 채굴량"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW 채굴량"
 
@@ -514,7 +514,7 @@ msgstr "Decred 보내고 받기"
 msgid "Stable Version"
 msgstr "안정된 버전"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "Stakepools (스테이크풀즈)"
 
@@ -526,7 +526,7 @@ msgstr ""
 "지분 증명 풀(stakepools)을 이용해 <br>컴퓨터가 꺼지거나, 인터넷 연결이 안정적이지 못한 경우에도 손실의 걱정없이 "
 "Decred 지분 증명(PoS) 채굴에 참가 할 수 있습니다. "
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "재시작"
 
@@ -539,7 +539,7 @@ msgid "Supply distribution"
 msgstr "공급량 분포"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "기술 개요"
 
@@ -571,12 +571,12 @@ msgstr ""
 msgid "The quick tour"
 msgstr "둘러보기"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr "NVIDIA GPU CUDA 채굴기. Decred 팀에서 지원하지는 않습니다."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr "AMD GPU OpenCL 채굴기. Decred 팀에서 지원하지는 않습니다."
@@ -599,7 +599,7 @@ msgstr "청록색"
 msgid "Typography"
 msgstr "서체"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "GitHub에서 보기"
 
@@ -607,7 +607,7 @@ msgstr "GitHub에서 보기"
 msgid "Visual communication toolkit"
 msgstr "시각 툴키트"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "투표"
 
@@ -619,7 +619,7 @@ msgstr "투표 현황"
 msgid "Warning:"
 msgstr "경고:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "웹 지갑"
 
@@ -631,6 +631,10 @@ msgstr "윈도우 32비트"
 msgid "Win 64-bit"
 msgstr "윈도우 64비트"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr ""
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "_방향"
@@ -639,11 +643,11 @@ msgstr "_방향"
 msgid "_language"
 msgstr "_언어"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer "
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminer 출시"
 
@@ -655,15 +659,15 @@ msgstr "deCRED 브랜드"
 msgid "downloads"
 msgstr "다운로드"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominer 출시"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "맥 OS"
 
@@ -671,11 +675,11 @@ msgstr "맥 OS"
 msgid "mined so far"
 msgstr "현재 채굴량"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminer 출시"
 

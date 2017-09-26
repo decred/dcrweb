@@ -12,7 +12,7 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "ΠΟΡΤΟΦΟΛΙΑ ΤΡΙΤΩΝ"
 
@@ -20,7 +20,7 @@ msgstr "ΠΟΡΤΟΦΟΛΙΑ ΤΡΙΤΩΝ"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -143,7 +143,7 @@ msgstr ""
 "<p>Σε αντίθεση με το PoW, το <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> απαιτεί λίγους υπολογιστικούς πόρους. Χρηματικά ποσά Decred χρησιμοποιούνται για την αγορά εισιτηρίων ψήφου στο δίκτυο. Σε κάθε block, πέντε εισιτήρια από το καλάθι των live εισιτηρίων επιλέγονται τυχαία για να ψηφίσουν για την εγκυρότητα του προηγούμενου block. </p>\n"
 "\t\t<p>Το PoS προσθέτει ένα επιπλέον στρώμα αποκέντρωσης στο Decred και επιτρέπει στους χρήστες να ψηφίσουν σε προτεινόμενες αλλαγές δικτύου. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Τα pools είναι διαθέσιμα και για PoS</a> για να διασφαλίσετε ότι τα εισιτήρια σας θα είναι έτοιμα να ψηφίσουν οποτεδήποτε κληθούν.</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -151,11 +151,11 @@ msgstr ""
 "Ένα αυτόματο πρόγραμμα εγκατάστασης/ενημέρωσης πολλαπλών πλατφορμών για τις "
 "εφαρμογές γραμμής εντολών."
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "Σχετικά"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "Airdrop"
 
@@ -169,7 +169,7 @@ msgstr "Όλες οι Λήψεις →"
 msgid "Back"
 msgstr "Πίσω"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "Ιστολόγιο"
 
@@ -181,7 +181,7 @@ msgstr "Αγορά και Συναλλαγή Decred"
 msgid "CORE SOFTWARE"
 msgstr "ΚΥΡΙΟ ΛΟΓΙΣΜΙΚΟ"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -193,7 +193,7 @@ msgstr ""
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "Σουίτα Γραμμής Εντολών"
 
@@ -211,7 +211,7 @@ msgstr "Συμπληρωματικά Χρώματα"
 msgid "Continue"
 msgstr "Συνέχεια"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "Δημιουργήστε ένα πορτοφόλι ιστού"
 
@@ -232,7 +232,7 @@ msgstr "Decred - λήψεις"
 msgid "Decred Developers"
 msgstr "Προγραμματιστές Decred"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Προγραμματιστές Decred 2017"
 
@@ -307,7 +307,7 @@ msgstr ""
 "πρακτικών εργαλείων, αρχών και οδηγών για διαφορετικά περιβάλλοντα και "
 "περιπτώσεις χρήσης."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "Premine Προγραμματιστών"
 
@@ -315,12 +315,12 @@ msgstr "Premine Προγραμματιστών"
 msgid "Development"
 msgstr "Ανάπτυξη"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "Επιχορήγηση Ανάπτυξης"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "Τεκμηρίωση"
 
@@ -338,15 +338,15 @@ msgid "Download Wallet"
 msgstr "Κατεβάστε το Πορτοφόλι"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "Λήψεις"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -354,7 +354,7 @@ msgstr ""
 "Το Exodus είναι μια φιλική, όλα-σε-ένα εφαρμογή που ασφαλίζει, διαχειρίζεται"
 " και συναλλάζει περιουσιακά στοιχεία του blockchain."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Εκδόσεις Exodus"
 
@@ -371,10 +371,10 @@ msgid "GUI wallet for Windows"
 msgstr "Πορτοφόλι γραφικού περιβάλλοντος για Windows"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "Πορτοφόλι γραφικού περιβάλλοντος για macOS και Linux"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr "Πορτοφόλι γραφικού περιβάλλοντος για Windows, macOS και Linux"
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "Ξεκινώντας"
 
@@ -414,7 +414,7 @@ msgstr "Μάθετε περισσότερα για την τεχνολογία"
 msgid "Light blue"
 msgstr "Ανοιχτό μπλε"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -422,7 +422,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "Λογότυπο και Επωνυμία"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "Λογότυπο και Γραφικά"
 
@@ -430,7 +430,7 @@ msgstr "Λογότυπο και Γραφικά"
 msgid "Logo package"
 msgstr "Πακέτο λογοτύπου"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "ΛΟΓΙΣΜΙΚΟ MINING"
 
@@ -448,11 +448,11 @@ msgstr ""
 "του pool."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "Στατιστικά Δικτύου"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "Δεν απαιτούνται λήψεις."
 
@@ -496,11 +496,11 @@ msgstr "Paymetheus για Windows 64bit"
 msgid "Planned Features"
 msgstr "Προγραμματισμένες Δυνατότητες"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS-mined"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW-mined"
 
@@ -532,7 +532,7 @@ msgstr "Αποστολή και Λήψη Decred"
 msgid "Stable Version"
 msgstr "Σταθερή Έκδοση"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "Stakepools"
 
@@ -544,7 +544,7 @@ msgstr ""
 "Τα stakepools σας επιτρέπουν να συμμετάσχετε στο Proof-of-Stake (PoS) mining του Decred, χωρίς να χρειάζεται να ανησυχείτε\n"
 "        <br>σχετικά με απώλειες που οφείλονται σε διακοπές λειτουργίας του υπολογιστή, κακή συνδεσιμότητα διαδικτύου, ή προβλήματα ενέργειας."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "Ξεκινήστε ξανά"
 
@@ -557,7 +557,7 @@ msgid "Supply distribution"
 msgstr "Διανομή προμήθειας"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "Τεχνική Ενημέρωση"
 
@@ -591,14 +591,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Η γρήγορη ξενάγηση"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "CUDA miner, τρίτου προγραμματιστή, για κάρτες γραφικών NVIDIA. Μη-"
 "υποστηριζόμενο από την ομάδα του Decred."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -625,7 +625,7 @@ msgstr "Τουρκουάζ"
 msgid "Typography"
 msgstr "Τυπογραφία"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "Προβολή στο GitHub"
 
@@ -633,7 +633,7 @@ msgstr "Προβολή στο GitHub"
 msgid "Visual communication toolkit"
 msgstr "Εργαλειοθήκη οπτικής επικοινωνίας"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "Ψηφοφορία"
 
@@ -645,7 +645,7 @@ msgstr "Πίνακας Ελέγχου Ψηφοφορίας"
 msgid "Warning:"
 msgstr "Προσοχή:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "Webwallet"
 
@@ -657,6 +657,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "_direction"
@@ -665,11 +669,11 @@ msgstr "_direction"
 msgid "_language"
 msgstr "_language"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "εκδόσεις ccminer"
 
@@ -681,15 +685,15 @@ msgstr "επωνυμία deCRED"
 msgid "downloads"
 msgstr "λήψεις"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "εκδόσεις gominer"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -697,11 +701,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "έγιναν mine έως τώρα"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "εκδόσεις sgminer"
 

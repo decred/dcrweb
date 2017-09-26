@@ -12,7 +12,7 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "3RD PARTY WALLETS"
 
@@ -20,7 +20,7 @@ msgstr "3RD PARTY WALLETS"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -142,18 +142,18 @@ msgstr ""
 "<p>Tidak seperti PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> membutuhkan sumber daya komputasi yang sedikit. Dana Decred digunakan untuk membeli tiket voting pada jaringan. Setiap blok, lima tiket dari pool live ticket dipilih secara acak pada validasi blok sebelumnya.</p>\n"
 "\t\t<p>PoS menambahkan lapisan ekstra desentralisasi pada Decred dan memungkinkan pengguna untuk memilih perubahan jaringan yang disarankan. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pool juga tersedia untuk PoS</a> demi memastikan tiket anda sudah siap dipilih kapan pun.</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr ""
 "Installer/updater otomatis yang lintas platform untuk aplikasi command-line."
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "Tentang"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "Airdrop"
 
@@ -167,7 +167,7 @@ msgstr "Semua Download → "
 msgid "Back"
 msgstr "Kembali"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "Blog"
 
@@ -179,7 +179,7 @@ msgstr "Beli dan Tukar Decred"
 msgid "CORE SOFTWARE"
 msgstr "SOFTWARE POKOK"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -190,7 +190,7 @@ msgstr ""
 msgid "Close"
 msgstr "Tutup"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "Command Line Suite"
 
@@ -208,7 +208,7 @@ msgstr "Warna Komplementer"
 msgid "Continue"
 msgstr "Lanjut"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "Buat Dompet berbasis browser"
 
@@ -229,7 +229,7 @@ msgstr "Decred - downloads"
 msgid "Decred Developers"
 msgstr "Pengembang Decred"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Pengembang Decred 2017"
 
@@ -303,7 +303,7 @@ msgstr ""
 "dari sejumlah alat sederhana yang praktis, prinsip-prinsip dan panduan untuk"
 " beragam konteks dan kasus-kasus umum."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "Dev Premine"
 
@@ -311,12 +311,12 @@ msgstr "Dev Premine"
 msgid "Development"
 msgstr "Pengembangan"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "Subsidi Pengembangan"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "Dokumentasi"
 
@@ -334,15 +334,15 @@ msgid "Download Wallet"
 msgstr "Download Dompet"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "Downloads"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -350,7 +350,7 @@ msgstr ""
 "Exodus adalah aplikasi all-in-one yang mudah untuk mengamankan, mengelola, "
 "dan menukar aset blockchain."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Rilis Exodus"
 
@@ -367,10 +367,10 @@ msgid "GUI wallet for Windows"
 msgstr "Dompet GUI untuk Windows"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "Dompet GUI untuk macOS dan Linux"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr "Dompet GUI untuk Windows, macOS dan Linux"
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "Mulai"
 
@@ -410,7 +410,7 @@ msgstr "Pelajari lebih lanjut"
 msgid "Light blue"
 msgstr "Biru muda"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -418,7 +418,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "Logo dan Branding"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "Logo dan Visual"
 
@@ -426,7 +426,7 @@ msgstr "Logo dan Visual"
 msgid "Logo package"
 msgstr "Paket logo"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "MINING SOFTWARE"
 
@@ -443,11 +443,11 @@ msgstr ""
 "Work (PoW); dan belum tentu kesalahan dari pool."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "Statistik Jaringan"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "Download tidak diperlukan"
 
@@ -491,11 +491,11 @@ msgstr "Paymetheus untuk Windows 64bit"
 msgid "Planned Features"
 msgstr "Rencana Fitur"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS-mined"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW-mined"
 
@@ -527,7 +527,7 @@ msgstr "Kirim dan Terima Decred"
 msgid "Stable Version"
 msgstr "Versi Stabil"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "Stakepools"
 
@@ -539,7 +539,7 @@ msgstr ""
 "Stakepools memungkinkan anda berpartisipasi di penambangan Proof-of-Stake (PoS) Decred tanpa harus khawatir\n"
 "<br>tentang kehilangan di kala komputer lemah, koneksi internet yang payah, atau listrik yang naik-turun."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "Mulai kembali"
 
@@ -552,7 +552,7 @@ msgid "Supply distribution"
 msgstr "Distribusi persediaan"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "Ringkasan Teknis"
 
@@ -586,14 +586,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Tur kilat"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "Penambang pihak ketiga CUDA untuk NVIDIA GPUs tidak didukung oleh tim "
 "Decred."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -620,7 +620,7 @@ msgstr "Pirus"
 msgid "Typography"
 msgstr "Tipografi"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "Lihat di GitHub"
 
@@ -628,7 +628,7 @@ msgstr "Lihat di GitHub"
 msgid "Visual communication toolkit"
 msgstr "Toolkit komunikasi visual"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "Voting"
 
@@ -640,7 +640,7 @@ msgstr "Dasbor Voting"
 msgid "Warning:"
 msgstr "Peringatan:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "Webwallet"
 
@@ -652,6 +652,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "_arahan"
@@ -660,11 +664,11 @@ msgstr "_arahan"
 msgid "_language"
 msgstr "id"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "rilis ccminer"
 
@@ -676,15 +680,15 @@ msgstr "brand deCRED"
 msgid "downloads"
 msgstr "unduhan"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "rilis gominer"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -692,11 +696,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "tambangan sejauh ini"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "rilis sgminer"
 

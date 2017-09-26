@@ -13,7 +13,7 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "サードパーティー製ウォレット"
 
@@ -21,7 +21,7 @@ msgstr "サードパーティー製ウォレット"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -142,17 +142,17 @@ msgstr ""
 "<p>PoWとは違い、<a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stakeマイニング (PoS)</a>は、ほとんどコンピューターリソースを消費しません。ネットワーク上での投票チケット購入には、Decredによるファンドが利用されます。各ブロックにおいて、ライブチケットのプールの中にある５枚のチケットがランダムに選択され、直前のブロックの妥当性を保証するために利用されます。</p>\n"
 "\t\t<p>PoSは、もう一つの非中央集権の追加レイヤーをDecredに追加し、ユーザーが提案されたネットワーク上の変更に対して投票することを可能にします。<a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoSのためのプール</a>も利用可能で、あなたのチケットが常に選択されたときにいつでも対応できることを確実にします。</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr "コマンドラインアプリケーション向け自動インストーラー/アップデーター（クロスプラットフォーム）"
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "私たちについて"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "エアドロップ"
 
@@ -166,7 +166,7 @@ msgstr "すべてのダウンロード"
 msgid "Back"
 msgstr "戻る"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "ブログ"
 
@@ -178,7 +178,7 @@ msgstr "Decredの購入および取引"
 msgid "CORE SOFTWARE"
 msgstr "コア ソフトウェア"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -188,7 +188,7 @@ msgstr "AMD/NVIDIA GPU対応CUDA/OpenCLマイナー。Decredチームによる�
 msgid "Close"
 msgstr "閉じる"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "コマンドライン版"
 
@@ -206,7 +206,7 @@ msgstr "補色"
 msgid "Continue"
 msgstr "次へ"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "ブラウザー版ウォレット作成"
 
@@ -227,7 +227,7 @@ msgstr "Decred - ダウンロード"
 msgid "Decred Developers"
 msgstr "Decred開発者"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred Developers 2017"
 
@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 "Decredのアイデンティティは、異なるプラットフォームにわたって、そしてデジタル通貨の中でそれを表現するのに役立ちます。新規のユーザーおよび既存のユーザーがそれを理解するのに役立ち、信頼性が高まり、より引き込まれるようになります。このツールキットは方向性を示し、誰もがDecredについてより簡単に情報交換できるようになります。ツールキットにはシンプルで実践的なツールのセットと、様々なコンテキストやユースケース向けの方針、ガイドが含まれています。"
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "開発者プレマイン"
 
@@ -301,12 +301,12 @@ msgstr "開発者プレマイン"
 msgid "Development"
 msgstr "開発"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "開発支援費"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
@@ -324,21 +324,21 @@ msgid "Download Wallet"
 msgstr "ウォレットをダウンロード"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "ダウンロード"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr "Exodusは、セキュアにブロックチェーン資産を管理、交換することが出来る、ユーザーフレンドリーなオールインワンパッケージです。"
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodusリリース"
 
@@ -355,10 +355,10 @@ msgid "GUI wallet for Windows"
 msgstr "Windows対応ウォレット"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "macOS Linux対応GUIウォレット"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr ""
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "スタートする"
 
@@ -397,7 +397,7 @@ msgstr "技術についての詳細はこちら"
 msgid "Light blue"
 msgstr "ライトブルー"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -405,7 +405,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "ロゴおよびブランド"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "ロゴおよびビジュアル"
 
@@ -413,7 +413,7 @@ msgstr "ロゴおよびビジュアル"
 msgid "Logo package"
 msgstr "ロゴパッケージ"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "マイニングソフトウェア"
 
@@ -428,11 +428,11 @@ msgid ""
 msgstr "投票の失敗はProof-of-work(PoW)採掘者の接続状態によって起こる可能性があり、プールに原因があるとは限りません。"
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "ネットワークステータス"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "ダウンロードは不要です。"
 
@@ -474,11 +474,11 @@ msgstr "Windows 64bit対応 Paymetheus"
 msgid "Planned Features"
 msgstr "計画的特徴"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS採掘"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW採掘"
 
@@ -510,7 +510,7 @@ msgstr "Decredの送金と入金"
 msgid "Stable Version"
 msgstr "安定版"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "ステークプール"
 
@@ -521,7 +521,7 @@ msgid ""
 msgstr ""
 "ステークプールを利用すれば、コンピュータのダウンタイム、不安定なインターネット接続、一貫性のない電力などによる損失を心配することなくPoSマイニングができます。"
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "もう一度"
 
@@ -534,7 +534,7 @@ msgid "Supply distribution"
 msgstr "サプライ配布"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "技術概要"
 
@@ -565,12 +565,12 @@ msgstr ""
 msgid "The quick tour"
 msgstr "クイックツアー"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr "NVIDIA GPU対応 サードパーティ製CUDAマイナー。Decredチームはサポートを行っておりません。"
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr "AMD GPU対応 サードパーティ製OpenCLマイナー。Decredチームはサポートを行っておりません。"
@@ -593,7 +593,7 @@ msgstr "ターコイズ"
 msgid "Typography"
 msgstr "タイポグラフィー"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "GitHubで見る"
 
@@ -601,7 +601,7 @@ msgstr "GitHubで見る"
 msgid "Visual communication toolkit"
 msgstr "視覚化コミュニケーションツールキット"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "投票"
 
@@ -613,7 +613,7 @@ msgstr "投票ダッシュボード"
 msgid "Warning:"
 msgstr "警告"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "ウェブウォレット"
 
@@ -625,6 +625,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr ""
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "ltr"
@@ -633,11 +637,11 @@ msgstr "ltr"
 msgid "_language"
 msgstr "ja"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminerリリース"
 
@@ -649,15 +653,15 @@ msgstr "deCRED 商標"
 msgid "downloads"
 msgstr "ダウンロード"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominerリリース"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -665,11 +669,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "これまでに採掘されました"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminerリリース"
 

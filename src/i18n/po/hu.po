@@ -10,7 +10,7 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "KÜLSŐ (HARMADIK FÉL) PÉNZTÁRCÁK"
 
@@ -18,7 +18,7 @@ msgstr "KÜLSŐ (HARMADIK FÉL) PÉNZTÁRCÁK"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -144,17 +144,17 @@ msgstr ""
 "<p>A PoW bányászattal ellentétben, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">a Proof-of-Stake bányászathoz (PoS)</a> csak kevés számítási kapacitásra van szükség. Decred tokenek ellenében lehet szavazójegyeket vásárolni, amelyekből minden blokk véglegesítésekor 5 jegyet választ ki szavazásra a hálózat véletlenszerűen. </p>\n"
 "\t\t<p>A PoS bányászat egy további decentralizációs réteget biztosít a Decred hálózaton, ennek segítéségével a felhasználók szavazhatnak javasolt változtatásokról. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS bányász pool-ok</a> teszik lehetővé, hogy folyamatosan részt tudj venni a szavazásokban, amikor a szavazójegyeidet kihúzza az algoritmus.</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr "Parancssor interfész több platformos, automatikus telepítője"
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "A Decred-ről"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "Airdrop"
 
@@ -168,7 +168,7 @@ msgstr "Összes letöltés →"
 msgid "Back"
 msgstr "Vissza"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "Blog"
 
@@ -180,7 +180,7 @@ msgstr "Decred vásárlása és kereskedés"
 msgid "CORE SOFTWARE"
 msgstr "ALAPSZOFTVER"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -192,7 +192,7 @@ msgstr ""
 msgid "Close"
 msgstr "Bezár"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "Parancssor interfész"
 
@@ -210,7 +210,7 @@ msgstr "Kiegészítő színek"
 msgid "Continue"
 msgstr "Tovább"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "Böngésző pénztárca"
 
@@ -231,7 +231,7 @@ msgstr "Decred - letöltések"
 msgid "Decred Developers"
 msgstr "Decred fejlesztők"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred fejlesztők 2017"
 
@@ -305,7 +305,7 @@ msgstr ""
 "Tartalmaz több egyszerű eszközt, dizájn elveket és irányvonalat különféle "
 "felhasználásokra és kontextusokban."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "Fejlesztő premine"
 
@@ -313,12 +313,12 @@ msgstr "Fejlesztő premine"
 msgid "Development"
 msgstr "Fejlesztés"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "Fejlesztői támogatás"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "Dokumentáció"
 
@@ -336,15 +336,15 @@ msgid "Download Wallet"
 msgstr "Pénztárca letöltés"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "Letöltések"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -352,7 +352,7 @@ msgstr ""
 "Az Exodus egy felhasználóbarát pénztárca blockchain vagyontárgyak "
 "kezelésére."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodus kiadások"
 
@@ -369,10 +369,10 @@ msgid "GUI wallet for Windows"
 msgstr "GUI pénztárca Windows-ra"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "GUI pénztárca macOS-re és Linux-ra"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr "GUI pénztárca Windows, macOS és Linux operációs rendszerekre"
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "Kezdőknek"
 
@@ -413,7 +413,7 @@ msgstr "Ismerkedj a technológiával"
 msgid "Light blue"
 msgstr "Halvány kék"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -421,7 +421,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "Logo és brand"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "Logo és vizuális anyagok"
 
@@ -429,7 +429,7 @@ msgstr "Logo és vizuális anyagok"
 msgid "Logo package"
 msgstr "Logo csomag"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "BÁNYÁSZ SZOFTVER"
 
@@ -446,11 +446,11 @@ msgstr ""
 "bányász okozhatja, és nem feltétlenül a pool hibája."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "Hálózat statisztikák"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "Nincs szükség letöltésre."
 
@@ -494,11 +494,11 @@ msgstr "Paymetheus Windows-ra (64bit)"
 msgid "Planned Features"
 msgstr "Tervezett funkciók"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "Bányászva (PoS)"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "Bányászva (PoW)"
 
@@ -530,7 +530,7 @@ msgstr "Fogadj és küldj Decred-et"
 msgid "Stable Version"
 msgstr "Stabil verzió"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "Stakepool-ok"
 
@@ -542,7 +542,7 @@ msgstr ""
 "A Stakepool-ok lehetővé teszik, hogy részt vegyél a Decred Proof-of-Stake (PoS) bányászatban anélkül, \n"
 "<br>hogy aggódnod kellene a számítógéped leállása, az internetkapcsolat megszakadása vagy áramkimaradás miatt."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "Vissza az elejére"
 
@@ -555,7 +555,7 @@ msgid "Supply distribution"
 msgstr "Kínálat eloszlása"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "Technikai bevezető"
 
@@ -589,14 +589,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Gyors túra"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "Third party CUDA bányász szoftver NVIDIA GPU-khoz.  A Decred team nem "
 "támogatja."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -622,7 +622,7 @@ msgstr "Türkiz"
 msgid "Typography"
 msgstr "Tipográfia"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "A GitHub-on"
 
@@ -630,7 +630,7 @@ msgstr "A GitHub-on"
 msgid "Visual communication toolkit"
 msgstr "Vizuális kommunikáció tookit"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "Szavazás"
 
@@ -642,7 +642,7 @@ msgstr "Szavazás eredmények"
 msgid "Warning:"
 msgstr "Figyelmeztetés:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "Online pénztárca"
 
@@ -654,6 +654,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "ltr"
@@ -662,11 +666,11 @@ msgstr "ltr"
 msgid "_language"
 msgstr "hu"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminer kiadások"
 
@@ -678,15 +682,15 @@ msgstr "Decred arculat"
 msgid "downloads"
 msgstr "letöltések"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominer kiadások"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -694,11 +698,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "bányászva eddig"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminer kiadások"
 

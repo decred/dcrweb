@@ -12,7 +12,7 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "محافظ من جهة خارجية"
 
@@ -20,7 +20,7 @@ msgstr "محافظ من جهة خارجية"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -143,17 +143,17 @@ msgstr ""
 "<p>على خلاف تعدين إثبات العمل (PoW)، <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">تعدين إثبات الحصة (PoS)</a> يتطلب القليل من الموارد الحاسوبية. تستخدم وحدات ديكريد لشراء تذاكر تسمح بالتصويت داخل الشبكة، وفي كل كتلة يتم اختيار 5 تذاكر بشكل عشوائى من تجمع التذاكر للتصويت على صحة معاملات الكتلة السابقة. </p>\n"
 "\t\t<p>تعدين إثبات الحصة (PoS) يضيف طبقة من اللامركزية لديكريد ويتيح للمستخدمين التصويت على التغيرات المقترحة للشبكة. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">هنالك تجمعات خاصة بتعدين إثبات الحصة (PoS)</a> لتضمن جاهزية تذاكرك للتصويت في حال النداء عليها.</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr "مثبت/محدث تلقائي لتطبيقات سطر الأوامر يدعم أنظمة متعددة."
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "حَوْل"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "وُزِّع مجانا"
 
@@ -167,7 +167,7 @@ msgstr "جميع التنزيلات"
 msgid "Back"
 msgstr "رجوع"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "المدوّنة"
 
@@ -179,7 +179,7 @@ msgstr "شراء وتداول ديكريد"
 msgid "CORE SOFTWARE"
 msgstr "البرامج الأساسية"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -191,7 +191,7 @@ msgstr ""
 msgid "Close"
 msgstr "إغلاق"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "مجموعة برامج سطر الأوامر"
 
@@ -209,7 +209,7 @@ msgstr "الألوان المُكمِّلة"
 msgid "Continue"
 msgstr "متابعة"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "إنشاء محفظة مبنية على متصفح الانترنت"
 
@@ -230,7 +230,7 @@ msgstr "ديكريد - التنزيلات"
 msgid "Decred Developers"
 msgstr "مطوري ديكريد"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "مطوري ديكريد 2017"
 
@@ -304,7 +304,7 @@ msgstr ""
 "على مجموعة من العينات + الأدوات العملية والمبادئ والمعايير لمختلف السياقات "
 "والاستخدامات."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "مُعدَّن مسبقا للمطورين"
 
@@ -312,12 +312,12 @@ msgstr "مُعدَّن مسبقا للمطورين"
 msgid "Development"
 msgstr "التطوير"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "ميزانية التطوير"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "التوثيق"
 
@@ -335,15 +335,15 @@ msgid "Download Wallet"
 msgstr "تنزيل المحفظة"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "التنزيلات"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "اكسودوس"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -351,7 +351,7 @@ msgstr ""
 "اكسودوس هو تطبيق سهل الاستخدام يتيح حماية وإدارة وتبادل أصول سلسلة الكتل في "
 "مكان واحد."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "إصدارات اكسودوس"
 
@@ -368,10 +368,10 @@ msgid "GUI wallet for Windows"
 msgstr "محفظة ذات واجهة مستخدم رسومية لويندوز"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "محفظة ذات واجهة مستخدم رسومية لMacOS ولينوكس"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr ""
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "البداية"
 
@@ -411,7 +411,7 @@ msgstr "اعرف المزيد عن التقنية"
 msgid "Light blue"
 msgstr "الأزرق الفاتح"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "لينوكس 64-بت"
 
@@ -419,7 +419,7 @@ msgstr "لينوكس 64-بت"
 msgid "Logo and Branding"
 msgstr "الشعار والعلامة التجارية"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "الشعار والمرئيات"
 
@@ -427,7 +427,7 @@ msgstr "الشعار والمرئيات"
 msgid "Logo package"
 msgstr "حزمة الشعار"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "برنامج التعدين"
 
@@ -444,11 +444,11 @@ msgstr ""
 "PoW)&nbsp;وليس بالضرورة أن يكون خلل من التجمع."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "إحصائيات الشبكة"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "لا حاجة لأي تنزيلات."
 
@@ -492,11 +492,11 @@ msgstr "بايميثيوس لويندوز 64-بت"
 msgid "Planned Features"
 msgstr "المزايا المخطّط لها"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "عُدِّن بواسطة إثبات الحصة"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "عُدِّن بواسطة إثبات العمل"
 
@@ -528,7 +528,7 @@ msgstr "ارسال واستقبال ديكريد"
 msgid "Stable Version"
 msgstr "النسخة المستقرة "
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "تجمعات الحصص"
 
@@ -540,7 +540,7 @@ msgstr ""
 "تجمعات الحصص تسمح لك بالمشاركة  بتعدين ديكريد عن طريق إثبات الحصة (PoS) دون الحاجة للقلق\n"
 " <br>على الخسائر المترتبة من تعطل جهاز الكمبيوتر او اتصال الانترنت المتقطع أو حتى انقطاع التيار الكهربائي."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "ابدأ مرة أخرى"
 
@@ -553,7 +553,7 @@ msgid "Supply distribution"
 msgstr "توزيع الموارد"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "نبذة تقنية"
 
@@ -586,14 +586,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "جولة سريعة"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "مُعدِّن CUDA مطور من جهة خارجية لوحدة معالجة الرسوميات NVIDIA. غير مدعوم من "
 "قبل فريق ديكريد."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -620,7 +620,7 @@ msgstr "الفيروزي"
 msgid "Typography"
 msgstr "أسلوب الخط"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr " عرض على GitHub"
 
@@ -628,7 +628,7 @@ msgstr " عرض على GitHub"
 msgid "Visual communication toolkit"
 msgstr "مكتبة أدوات التواصل النظري "
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "التصويت"
 
@@ -640,7 +640,7 @@ msgstr "اللوحة الرئيسية للتصويت "
 msgid "Warning:"
 msgstr "تحذير:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "محفظة الويب "
 
@@ -652,6 +652,10 @@ msgstr "ويندوز 32-بت"
 msgid "Win 64-bit"
 msgstr "ويندوز 64-بت"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr ""
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "rtl"
@@ -660,11 +664,11 @@ msgstr "rtl"
 msgid "_language"
 msgstr "ar"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "إصدارات ccminer"
 
@@ -676,15 +680,15 @@ msgstr "علامة ديكريد التجارية"
 msgid "downloads"
 msgstr "التنزيلات"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "إصدارات gominer"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -692,11 +696,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "عُدِّن حتى هذه اللحظة "
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "إصدارات sgminer"
 

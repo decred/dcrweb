@@ -11,7 +11,7 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "Tredjeparts-plånbok"
 
@@ -19,7 +19,7 @@ msgstr "Tredjeparts-plånbok"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -141,7 +141,7 @@ msgstr ""
 "<p>TIll skillnad från PoW så kräver<a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> lite datorkraft. Decred-mynt används för att köpa röstnings-biljetter på nätverket. Efter varje block så väljs fem slumpmässigt urvalda biljetter för att rösta för giltigheten av det tidigare blocket. </p>\n"
 "\t\t<p>PoS lägger till ett extra lager av decentralisation till Decred och gör det möjligt för användare att rösta på föreslagna ändringar på nätverket. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Det finns även Pools till PoS</a> som kan garantera att dina biljetter är redo att rösta när dom blir utvalda. </p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -149,11 +149,11 @@ msgstr ""
 "Ett plattformsoberoende automatiskt installationsprogram  for applikationer "
 "med kommandotolk."
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "Om"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "Airdrop"
 
@@ -167,7 +167,7 @@ msgstr "Alla nerladdningar →"
 msgid "Back"
 msgstr "Tillbaka"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "Blog"
 
@@ -179,7 +179,7 @@ msgstr "Köpa och sälja Decred"
 msgid "CORE SOFTWARE"
 msgstr "CORE SOFTWARE"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -190,7 +190,7 @@ msgstr ""
 msgid "Close"
 msgstr "Stäng"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "Kommandotolks-verktyg"
 
@@ -208,7 +208,7 @@ msgstr "Komplementfärg"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "Skapa en webbaserad plånbok i din browser"
 
@@ -229,7 +229,7 @@ msgstr "Decred - nerladdningar"
 msgid "Decred Developers"
 msgstr "Decred Developers"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred Developers 2017"
 
@@ -300,7 +300,7 @@ msgstr ""
 "\n"
 "Verktygslådan ger direktiv och gör det enklar för vem som helst att kommunicera Decreds budskap. Denna innehåller en samling av enkla och praktiska verkyg, principer och guider för olika miljöer och användningsområden."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "Dev Premine"
 
@@ -308,12 +308,12 @@ msgstr "Dev Premine"
 msgid "Development"
 msgstr "Utveckling"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "Utvecklingsbidrag"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -331,15 +331,15 @@ msgid "Download Wallet"
 msgstr "Ladda ner plånbok"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "Nerladdningar"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -347,7 +347,7 @@ msgstr ""
 "Exodus är en användarvänlig, allt-i-ett-applikation för att på ett säkert "
 "sätt kunna hantera och byta olika kryptovalutor."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodus utgåvor"
 
@@ -364,10 +364,10 @@ msgid "GUI wallet for Windows"
 msgstr "GUI-plånbok för Windows"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "GUI-plånbok för macOS och Linux"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr "GUI-plånbok för Windows, macOS och Linux"
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "Komma igång"
 
@@ -407,7 +407,7 @@ msgstr "Lär dig mer om teknologin"
 msgid "Light blue"
 msgstr "Ljusblå"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -415,7 +415,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "Logotyp och branding"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "Logotyp och visuell identitet"
 
@@ -423,7 +423,7 @@ msgstr "Logotyp och visuell identitet"
 msgid "Logo package"
 msgstr "Logotyp-paket"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "MINING SOFTWARE"
 
@@ -440,11 +440,11 @@ msgstr ""
 "miner&nbsp; med dålig förbindelse och inte nödvändigtvis ett fel hos poolen."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "Nätverksstatus"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "Inga nerladdningar behövs."
 
@@ -488,11 +488,11 @@ msgstr "Paymetheus för Windows 64bit"
 msgid "Planned Features"
 msgstr "Planerade funktioner"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS-mined"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW-mined"
 
@@ -524,7 +524,7 @@ msgstr "Skicka och ta emot Decred"
 msgid "Stable Version"
 msgstr "Stabil version"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "Stakepools"
 
@@ -536,7 +536,7 @@ msgstr ""
 "Stakepools gör det möjligt för dig att kunna medverka i Decreds Proof-of-Stake (PoS) mining utan att behöva bry dig om\n"
 "        <br>förluster p.g.a din dator inte är igång, dålig internetuppkoppling eller dålig strömförsörjning."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "Börja om"
 
@@ -549,7 +549,7 @@ msgid "Supply distribution"
 msgstr "Fördelning av penningmängd"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "Teknisk beskrivning"
 
@@ -583,12 +583,12 @@ msgstr ""
 msgid "The quick tour"
 msgstr "En snabb rundtur"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr "Tredjeparts CUDA-miner för NVIDIA GPUs. Stöds inte av Decreds team."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr "Tredjeparts OpenCL-miner för AMD GPUs. Stöds inte av Decreds team."
@@ -613,7 +613,7 @@ msgstr "Turkos"
 msgid "Typography"
 msgstr "Typografi"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "Visa på GitHub"
 
@@ -621,7 +621,7 @@ msgstr "Visa på GitHub"
 msgid "Visual communication toolkit"
 msgstr "Verktygslåda för visuell kommunikation"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "Röstning"
 
@@ -633,7 +633,7 @@ msgstr "Instrumentbräda för röstning"
 msgid "Warning:"
 msgstr "Varning:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "Webbplånbok"
 
@@ -645,6 +645,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "_riktning"
@@ -653,11 +657,11 @@ msgstr "_riktning"
 msgid "_language"
 msgstr "_språk"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminer utgåvor"
 
@@ -669,15 +673,15 @@ msgstr "deCREDs varumärke"
 msgid "downloads"
 msgstr "nedladdningar"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominer utgåvor"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -685,11 +689,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "mined hittils"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminer utgåvor"
 
