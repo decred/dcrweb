@@ -16,8 +16,12 @@ $(document).ready(function() {
 	if(Cookies.get('lang')){
 		$langSelector.val(Cookies.get('lang'));
 	} else if(navigator.languages.length){
+		const fallbackLanguage = 'en';
 		var prefLanguage = navigator.languages[0].split('-');
-		$langSelector.val(prefLanguage);
+    var languagesList = $langSelector.children('option').map(function() { return this.value; }).toArray();
+    prefLanguage = languagesList.indexOf(prefLanguage) !== -1 ? prefLanguage : fallbackLanguage;
+
+    $langSelector.val(prefLanguage);
 	}
 
 	$langSelector.on('change', function(e){
