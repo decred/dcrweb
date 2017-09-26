@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "grunt serve",
+    "lint": "node_modules/.bin/eslint .",
     "transifex:pull": "tx pull -a",
     "transifex:push": "grunt nggettext_extract  && tx push -s",
     "build": "grunt",
@@ -26,7 +27,11 @@
   "license": "ISC",
   "devDependencies": {
     "angular-gettext": "^2.3.10",
+    "connect": "^3.6.5",
     "connect-livereload": "^0.6.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
     "grunt": "^0.4.1",
     "grunt-angular-gettext": "^2.3.5",
     "grunt-angular-gettext-generate-html": "^1.0.3",
