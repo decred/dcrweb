@@ -11,7 +11,7 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "Сторонние кошельки"
 
@@ -19,7 +19,7 @@ msgstr "Сторонние кошельки"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -143,7 +143,7 @@ msgstr ""
 "<p>В отличии от PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake майнинг (PoS)</a> требует совсем немного вычислительных ресурсов. Средства Decred используются для покупки голосующих билетов сети. Каждый блок 5 билетов из всех билетов сети выбираются случайным образом для подтверждения предыдущего блока.</p>\n"
 "\t\t<p>PoS это дополнительный элемент децентрализации сети Decred, кроме того он позволяет пользователям голосовать по важным изменениям сети. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS так же доступен через пулы для круглосуточной доступности ваших билетов.</a>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -151,11 +151,11 @@ msgstr ""
 "Кросс-платформенный автоматический установщик/апдейтер для приложений "
 "командной строки."
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "О Decred"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "Airdrop"
 
@@ -169,7 +169,7 @@ msgstr "Все Загрузки →"
 msgid "Back"
 msgstr "Назад"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "Блог"
 
@@ -181,7 +181,7 @@ msgstr "Покупка и трейдинг Decred"
 msgid "CORE SOFTWARE"
 msgstr "КЛЮЧЕВОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -193,7 +193,7 @@ msgstr ""
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "Комплект инструментов командной строки."
 
@@ -211,7 +211,7 @@ msgstr "Дополнительные цвета"
 msgid "Continue"
 msgstr "Продолжить"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "Создать web-кошелек"
 
@@ -219,7 +219,7 @@ msgstr "Создать web-кошелек"
 msgid "Dark Blue"
 msgstr "Темно-синий"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - децентрализованная финансовая система"
 
@@ -232,9 +232,13 @@ msgstr "Decred - загрузки"
 msgid "Decred Developers"
 msgstr "Разработчики Decred"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Разработчики Decred 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Марка Decred"
 
 #: src/index.html:140
 msgid ""
@@ -302,7 +306,7 @@ msgstr ""
 "Decred в различных каналах коммуникации. Он содержит набор простых, понятных"
 " элементов и принципов для использования в различных контекстах."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "Премайн разработчиков"
 
@@ -310,12 +314,12 @@ msgstr "Премайн разработчиков"
 msgid "Development"
 msgstr "Разработка"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "Субсидия на разработку"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "Документация"
 
@@ -333,15 +337,15 @@ msgid "Download Wallet"
 msgstr "Скачать кошелек"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -349,7 +353,7 @@ msgstr ""
 "Exodus — это удобное приложение для безопасного управления и обмена блокчейн"
 " активов."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Версии Exodus"
 
@@ -366,10 +370,10 @@ msgid "GUI wallet for Windows"
 msgstr "Кошелек с графическим интерфейсом для Windows"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "Кошелек с графическим интерфейсом для macOS и Linux"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr "Кошелек с графическим интерфейсом для Windows, macOS и Linux"
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "Приступая к работе"
 
@@ -409,7 +413,7 @@ msgstr "Узнать больше о технологии"
 msgid "Light blue"
 msgstr "Голубой"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -417,7 +421,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "Логотип и фирменный стиль"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "Логотипы и графика"
 
@@ -425,7 +429,7 @@ msgstr "Логотипы и графика"
 msgid "Logo package"
 msgstr "Логотипы"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ДЛЯ МАЙНИНГА"
 
@@ -443,11 +447,11 @@ msgstr ""
 "проблемой пула."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "Статистика сети"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "Загрузка не требуется."
 
@@ -491,11 +495,11 @@ msgstr "Paymetheus для Windows 64bit"
 msgid "Planned Features"
 msgstr "Планируемые функции"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "Намайнено в PoS"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "Намайнено в PoW"
 
@@ -527,19 +531,19 @@ msgstr "Получить и отправить Decred"
 msgid "Stable Version"
 msgstr "Стабильная версия"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "PoS-пулы"
 
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepool позволяет вам участвовать в Proof-of-Stake (PoS) не беспокоясь \n"
 "<br>о возможных пропущенных билетах из-за плохого интернет соединения или перебоев электроснабжения."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "Начать с начала"
 
@@ -552,7 +556,7 @@ msgid "Supply distribution"
 msgstr "Распределение монет"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "Техническая информация"
 
@@ -585,13 +589,13 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Ознакомительный тур"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "Сторонний CUDA майнер для NVIDIA GPU. Не поддерживается командой Decred."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -617,7 +621,7 @@ msgstr "Бирюзовый"
 msgid "Typography"
 msgstr "Типографика"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "Посмотреть на GitHub"
 
@@ -625,7 +629,7 @@ msgstr "Посмотреть на GitHub"
 msgid "Visual communication toolkit"
 msgstr "Паспорт стандартов фирменного стиля"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "Голосование"
 
@@ -637,7 +641,7 @@ msgstr "Панель голосования"
 msgid "Warning:"
 msgstr "Внимание:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "Web-кошелек"
 
@@ -649,6 +653,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "ltr"
@@ -657,19 +665,15 @@ msgstr "ltr"
 msgid "_language"
 msgstr "ru"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "версии ccminer"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED — децентрализованные финансы"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "Брэнд deCRED"
 
@@ -677,15 +681,15 @@ msgstr "Брэнд deCRED"
 msgid "downloads"
 msgstr "загрузки"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "версии gominer"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -693,11 +697,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "добыто на данный момент"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "версии sgminer"
 

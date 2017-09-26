@@ -14,7 +14,7 @@ msgstr ""
 "Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "第三方钱包"
 
@@ -28,7 +28,7 @@ msgstr ""
 "<a class=\"icon youku w-inline-block\" data-label=\"Youku\" "
 "href=\"https://i.youku.com/decred\" target=\"_blank\"></a>"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr ""
 " <a class=\"nav-qq nav-social-link w-inline-block\" data-label=\"qq\" "
@@ -53,6 +53,8 @@ msgid ""
 "<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
+"<p>Decred 是一个支持 Windows、macOS 和 Linux 的跨平台数字货币。易于使用的钱包只需点击几下即可实现 Decred 的发送、接收和挖矿，非常容易上手。</p>\n"
+"\t\t<p>对于那些喜欢自己折腾的人，Decred 提供了一套完整的命令行工具，允许用户自定 Decred 的使用体验。</p>"
 
 #: src/index.html:359
 msgid ""
@@ -112,6 +114,10 @@ msgid ""
 "\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
+"<p>使用网页钱包是开始体验 Decred 最简单的方式，所有用户都可以通过 <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a> 访问网页钱包，而无需下载任何内容。</p>\n"
+"\t\t<p>对于 Windows 用户而言，<a href=\"downloads/#paymetheus\">Paymetheus 钱包</a> 可以让您在短短几分钟内就准备就绪。</p>\n"
+"\t\t<p>对于 macOS 和 Linux 用户而言，可以使用 <a href=\"downloads/#paymetheus\">Decrediton 钱包</a>。</p>\n"
+"  <p>为了帮助您快速开始，您可以访问我们的<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">新手指引</a>。</p>"
 
 #: src/index.html:290
 msgid ""
@@ -149,17 +155,17 @@ msgstr ""
 "<p>和 PoW 不同，<a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">权益证明（PoS）挖矿</a>只需要很少的计算资源，Decred 代币被用来购买网络上的选票；每一个区块会在所有活动状态的选票中随机地选择 5 张来投票决定上一个区块的合法性。</p>\n"
 "\t\t<p>PoS 添加了一个额外的去中心化层，在建议网络作出变更的时候允许用户来投票决定。<a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">矿池同样可用于 PoS 中</a>，以确保您的选票可以在任何被选中的时候都能及时进行投票表决。"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
 msgstr "适用于命令行的跨平台自动安装／更新程序。"
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "关于"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "空投"
 
@@ -173,7 +179,7 @@ msgstr "所有下载 →"
 msgid "Back"
 msgstr "返回"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "博客"
 
@@ -185,7 +191,7 @@ msgstr "购买和交易 Decred"
 msgid "CORE SOFTWARE"
 msgstr "核心软件"
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -195,7 +201,7 @@ msgstr "适用于 AMD／NVIDIA 图形处理器的 CUDA／OpenCL 挖矿软件，�
 msgid "Close"
 msgstr "关闭"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "命令行套件"
 
@@ -213,7 +219,7 @@ msgstr "补色"
 msgid "Continue"
 msgstr "继续"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "创建浏览器钱包"
 
@@ -221,7 +227,7 @@ msgstr "创建浏览器钱包"
 msgid "Dark Blue"
 msgstr "深蓝色"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred－去中心化信用代币"
 
@@ -234,9 +240,13 @@ msgstr "Decred－下载"
 msgid "Decred Developers"
 msgstr "Decred 开发者"
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred 开发者 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Decred 品牌"
 
 #: src/index.html:140
 msgid ""
@@ -299,7 +309,7 @@ msgstr ""
 "的特征有助于令它在不同平台和众多数字货币当中成为代表，它帮助新的和现有的用户意识到这一点，获得他们的信任并令他们更乐于参与。该工具包提供指导以让任何人都能更容易理解"
 " Decred，它包含一组适用于不同场景和应用下的简单+实用的工具、原则以及指引。"
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "开发者预挖"
 
@@ -307,12 +317,12 @@ msgstr "开发者预挖"
 msgid "Development"
 msgstr "开发"
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "开发补贴"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "文档"
 
@@ -330,21 +340,21 @@ msgid "Download Wallet"
 msgstr "下载钱包"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "下载"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr "Exodus 是一个友好的、一体化的钱包应用，用来保存、管理以及兑换区块链资产。"
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodus 版本"
 
@@ -361,10 +371,10 @@ msgid "GUI wallet for Windows"
 msgstr "适用于 Windows 的 GUI 钱包"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "适用于 macOS 和 Linux 的 GUI 钱包"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr ""
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "入门"
 
@@ -403,7 +413,7 @@ msgstr "深入了解技术"
 msgid "Light blue"
 msgstr "浅蓝色"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64 位"
 
@@ -411,7 +421,7 @@ msgstr "Linux 64 位"
 msgid "Logo and Branding"
 msgstr "标志和品牌设计"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "标志和视觉设计"
 
@@ -419,7 +429,7 @@ msgstr "标志和视觉设计"
 msgid "Logo package"
 msgstr "Logo 包"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "挖矿软件"
 
@@ -434,11 +444,11 @@ msgid ""
 msgstr "错失的选票可能是由于连接不稳定的 PoW 矿工造成的，并非一定是由于矿池的问题。"
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "网络数据"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "无需下载。"
 
@@ -480,11 +490,11 @@ msgstr "适用于 Windows 64 位的 Paymetheus"
 msgid "Planned Features"
 msgstr "已计划的功能"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PoS 挖出"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PoW 挖出"
 
@@ -516,19 +526,19 @@ msgstr "发送和接收 Decred"
 msgid "Stable Version"
 msgstr "稳定版本"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "PoS 矿池"
 
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "PoS 矿池允许您参与 Decred 的权益证明（PoS）挖矿，\n"
 "       <br>而不必担心由于电脑停机、网络连接丢失，以及停电等时候所造成的损失。"
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "重新开始"
 
@@ -541,7 +551,7 @@ msgid "Supply distribution"
 msgstr "供应分布"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "技术简介"
 
@@ -572,12 +582,12 @@ msgstr ""
 msgid "The quick tour"
 msgstr "快速教程"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr "适用于 NVIDIA 图形处理器的第三方 CUDA 挖矿软件，不由 Decred 团队支持。"
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr "适用于 AMD 图形处理器的第三方 OpenCL 挖矿软件，不由 Decred 团队支持。"
@@ -600,7 +610,7 @@ msgstr "绿松色"
 msgid "Typography"
 msgstr "字体排印"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "在 GitHub 上查看"
 
@@ -608,7 +618,7 @@ msgstr "在 GitHub 上查看"
 msgid "Visual communication toolkit"
 msgstr "视觉传达工具包"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "投票"
 
@@ -620,7 +630,7 @@ msgstr "投票仪表板"
 msgid "Warning:"
 msgstr "警告："
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "网页钱包"
 
@@ -632,6 +642,10 @@ msgstr "Windows 32 位"
 msgid "Win 64-bit"
 msgstr "Windows 64 位"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "ltr"
@@ -640,19 +654,15 @@ msgstr "ltr"
 msgid "_language"
 msgstr "zh"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminer 版本"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED－去中心化信用代币"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCRED 品牌"
 
@@ -660,15 +670,15 @@ msgstr "deCRED 品牌"
 msgid "downloads"
 msgstr "下载"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominer 版本"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -676,11 +686,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "已挖出"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminer 版本"
 

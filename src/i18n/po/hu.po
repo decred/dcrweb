@@ -1,22 +1,18 @@
 # Translators:
-# DZ <denyszayets@gmail.com>, 2017
-# Diego <diegox104@gmail.com>, 2017
-# Andrea M <constellation1983@yahoo.it>, 2017
-# abicidieffe <lamaildiebayannunci@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
-"Language-Team: Italian (https://www.transifex.com/decred/teams/76223/it/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/decred/teams/76223/hu/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
-msgstr "WALLET DI TERZE PARTI"
+msgstr "KÜLSŐ (HARMADIK FÉL) PÉNZTÁRCÁK"
 
 #: src/index.html:466
 msgid "<!-- localized footer social media links -->"
@@ -32,17 +28,20 @@ msgid ""
 "\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
 "\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
 msgstr ""
-"<p>Un indirizzo è l'unica cosa che serve per inviare o ricevere fondi. Può essere facilmente generato da qualsiasi wallet Decred. Gli indirizzi Decred iniziano <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">sempre con D e contengono 26-36 caratteri alfanumerici</a>.</p>\n"
-"\t\t<p>Dopo che una transazione è stata fatta, i fondi arrivano  solitamente in 5 minuti. C'è una piccola commissione da pagare per contribuire al sostentamento del network. Questa commissione è in aggiunta all'importo della transazione. E.g. un trasferimento di 100 DCR avrà una commissione di circa 0.006 DCR.</p>\n"
-"\t\t<p>Il<a href=\"https://mainnet.decred.org\" target=\"_blank\"> Main Network Block Explorer</a> permette agli utenti di cercare tra tutti i blocchi e le transazioni nella blockchain di Decred.</p>"
+"<p>Csak egy Decred cím szükséges ahhoz, hogy pénzt küldj vagy fogadj, ezt többféle Decred tárcával létrehozhatod. A Decred címek mindig <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">D-vel kezdődnek és 26-36 alfanumerikus karaktert tartalmaznak</a>.</p>\n"
+"\n"
+"<p>A tranzakciót követően az átutalás általában kb. 5 percen belül megjelennek. A hálózat karbantartásához egy kis díj jár, például 100 DCR elküldésének díja körülbelül 0,006 DCR.</p>\n"
+"\n"
+"<p>A <a href=\"https://mainnet.decred.org\" target=\"_blank\">Blokk Böngésző</a> segítségével böngészheted a blokkláncot, kereshetsz a blokkok és tranzakciók között.</p>"
 
 #: src/index.html:193
 msgid ""
 "<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
-"<p>Decred è una valuta digitale multi-piattaforma con supporto per Windows, macOS e Linux. Le applicazioni di wallet sono facili da usare e permettono di inviare, ricevere e minare Decred con pochi click.</p>\n"
-"\t\t<p>Per chi ama smanettare, Decred mette a disposizione una suite completa di strumenti a riga di comando che consentono di personalizzare l'esperienza con Decred. "
+"<p>A Decred többplatformos e-pénz, amely Windows, Mac és Linux platformokon elérhető. Az egyszerűen használható pénztárca-alkalmazások lehetővé teszik a Decred küldését, fogadását és bányászatát néhány kattintással.</p>\n"
+"\n"
+"<p>Azok számára, akik szeretnek bütykölni, a Decred egy komplett parancssori interfészt kínál, melynek segítségével a Decred valamennyi funkciója elérhető.</p>"
 
 #: src/index.html:359
 msgid ""
@@ -53,12 +52,12 @@ msgid ""
 "/obtaining-dcr/#exchanges\" title=\"_blank\">at cryptocurrency "
 "exchanges</a>.</p>"
 msgstr ""
-"<P> Decred è ancora agli inizi, ed in questo momento, il modo più semplice "
-"per acquistarlo è tramite Bitcoin. <a href=\"https://docs.decred.org"
-"/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\"> Una volta che "
-"avrete dei Bitcoin </a>, potrete scambiarli con dei Decred <a Href = "
-"\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title ="
-" \"_ blank\">attraverso un exchange di criptovalute</a>.</ P>"
+"<p>A Decred még mindig új, és ebben az időben a legegyszerűbb megvásárlás "
+"módja a Bitcoin. Miután van egy <a href=\"https://docs.decred.org/getting-"
+"started/obtaining-dcr/#bitcoin\" title=\"_blank\">Bitcoin-od</a>, akkor "
+"tudsz kereskedni Decred-del a <a href=\"https://docs.decred.org/getting-"
+"started/obtaining-dcr/#exchanges\" title=\"_blank\">digitális valuta "
+"tőzsdéken</a>.</p>"
 
 #: src/index.html:312
 msgid ""
@@ -66,9 +65,9 @@ msgid ""
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
 "\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
 msgstr ""
-"<p>Nel <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW) </a>le transazioni sono raggruppate in blocchi. Questi blocchi sono convalidati dai miners PoW. Quando un blocco è convalidato diventa una parte permanente del network Decred.</p>\n"
-"\t\t<p>Potete diventare miner dedicando le risorse computazionali disponibili al network. in cambio di questo ai miners vengono riconosciuti dei Decred.</p>\n"
-"\t\t<p>Per efficienza e convenienza potete aderire ai <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. I pools sono gruppi di miners che condividono il lavoro e dividono la ricompensa. Aderire ad un mining pool è un modo eccellente per i piccoli collaboratori di ricevere pagamenti costanti per il proprio lavoro."
+"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\"> Proof-of-Work (PoW) </a> folyamatban tranzakciók blokkokba csoportosulnak, ezeket a blokkokat a PoW bányászok hitelesítik. Ha egy blokkot érvényesítenek, a Decred hálózat állandó része lesz. </p>\n"
+"<p> Bányásszá válhat azzal, hogy a tartalék számítástechnikai erőforrásokat a hálózatra fordítja. Ennek fejében a bányászok jutalmazzák a Decred-et. </p>\n"
+"<p> A hatékonyság és kényelem érdekében <a href = \"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title = \"_ blank \"> célszerű csatlakozni egy bányász pool-hoz</a>. A pool-ok olyan bányászcsoportok, akik osztoznak a munkában, és megosztják a jutalmat. A bányászati medencéhez való csatlakozás kiváló módja annak, hogy a kisebb munkatársak egyenletes kifizetéseket kapjanak munkájukért. </p>"
 
 #: src/index.html:406
 msgid ""
@@ -84,17 +83,18 @@ msgid ""
 "\t\t</ul>\n"
 "\t\t<p>Read about these and more on <a href=\"https://blog.decred.org\" target=\"_blank\">our blog</a> and welcome to Decred: the future of digital currency.</p>"
 msgstr ""
-"<p>Parte del guadagno ricavato dai nuovi blocchi va allo sviluppo di Decred per assicurare che continuerà ad evolversi per soddisfare le esigenze ed i desideri della community ora e negli anni a venire. Queste sono solo alcune delle funzionalità pianificate per il 2017:</p>\n"
-"\t\t<ul>\n"
-"\t\t<li>Votazione hard fork</li>\n"
-"                <li>Una DAO controllata dagli stakeholder</li>\n"
-"                <li>Controllo decentralizzato dei fondi per lo sviluppo</li>\n"
-"                <li>Supporto al lightning network</li>\n"
-"                <li>Continuo sviluppo di UI e Design</li>\n"
-"                <li>Miglioramento della privacy</li>\n"
-"                <li>Integrazione dei pagamenti</li>\n"
-"\t\t</ul>\n"
-"\t\t<p> Leggete di queste ed altre cose sul <a href=\"https://blog.decred.org\" target=\"_blank\">nostro blog</a> e benvenuti in Decred: il futuro della valuta digitale.</p>"
+"<p>Az új blokkokból származó jutalom része a Decred fejlesztésének irányába megy, annak biztosítása érdekében, hogy folyamatosan fejlődjön a közösség szükségleteinek és igényeinek kielégítése érdekében, az elkövetkező években és az elkövetkező években. Ezek csak néhány a 2017-re tervezett jellemzők:</p>\n"
+"\n"
+"<ul>\n"
+"<li>Kemény peremválasztás</li>\n"
+"<li>Az érdekeltek által irányított DAO</li>\n"
+"<li>A fejlesztési alapok decentralizált ellenőrzése</li>\n"
+"<li>Villám hálózati támogatás</li>\n"
+"<li>Folyamatos felhasználói felület és formatervezés</li>\n"
+"<li>Továbbfejlesztett adatvédelem</li>\n"
+"<li>Fizetési integráció</li>\n"
+"</ul>\n"
+"<p>Olvasd el ezeket és még többet a <a href=\"https://blog.decred.org\" target=\"_blank\">blogunkon</a>, és üdvözlünk a Decred közösségben - ez a digitális valuta jövője.</p>"
 
 #: src/index.html:242
 msgid ""
@@ -103,18 +103,18 @@ msgid ""
 "\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
-"<p>Il Wallet Web è la maniera più facile di iniziare con  Decred. Tutti gli utenti possono accedervi online tramite <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, senza bisogno di scaricare nulla.</p>\n"
-"\t\t<p>Per gli utenti Windows, <a href=\"downloads/#paymetheus\">il wallet Paymetheus</a> vi aiuterà ad essere online in pochi minuti.</p>\n"
-"\t\t<p>Per gli utenti macOS e Linux,  è disponibile <a href=\"downloads/#paymetheus\">il wallet Decrediton</a>\n"
-"    <p>Per un aiuto iniziale potete visitare la nostra <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Guida per Principianti</a>.</p>"
+"<p>A webes pénztárca a legegyszerűbb módja, hogy elindulj a Decred-del. Minden felhasználó hozzáférhet online a <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>-on keresztül anélkül, hogy bármit le kellene töltened.</p>\n"
+"\t\t<p>Ha Windows-t használsz, <a href=\"downloads/#paymetheus\">Paymetheus pénztárca</a> segítségével néhány perc alatt csatlakozhatsz.</p>\n"
+"\t\t<p>macOS és Linux felhasználók számára <a href=\"downloads/#paymetheus\">Decrediton tárca </a> elérhető.</p>\n"
+"    <p>A kezdő lépésekhez látogass el a <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Kezdők útmutatójába</a>.</p>"
 
 #: src/index.html:290
 msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
 msgstr ""
-"<p>Il termine mining identifica il processo di convalida delle transazioni nel network di Decred e permette di renderlo sicuro. In cambio di questo lavoro, ai miners vengono riconosciuti dei token Decred appena generati. </p>\n"
-"\t\t<p>Decred ha due metodi per convalidare le transazioni: Proof-of-Work (PoW) e Proof-of-Stake (PoS).</p>"
+"A \"bányászat\" kifejezés azt a folyamatot jelenti, amely a hálózat hitelességét garantálja. A bányászok munkájuk fejében részesülnek az újonnan generált Decred tokenekből.</p>\n"
+"\t\t<p>A Decred hálózat kétféle tranzakció hitelesítés zajlik: Proof-of-Work (PoW) és Proof-of-Stake (PoS).</p>"
 
 #: src/index.html:216
 msgid ""
@@ -123,38 +123,36 @@ msgid ""
 "\t\t<p><strong>Proof-of-Work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
 "\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
 msgstr ""
-"<p>Ci sono tre metodi principali per interagire con Decred:</p>\n"
-"\t\t<p><strong>Il Wallet</strong> - Per inviare e ricevere fondi nonché partecipare al mining PoS.</p>\n"
-"\t\t<p><strong>Mining Proof-of-Work</strong> - Utilizza la potenza di calcolo per convalidare le transazioni sul network e generare nuovi token Decred.</p>\n"
-"\t\t<p><strong>Mining Proof-of-Stake</strong> - Utilizza i fondi per votare su importanti questioni di sviluppo del network e convalidare transazioni ricavandone un compenso.</p>"
+"<p>Háromféleképpen tudsz résztvenni a Decred hálózatban:</p>\n"
+"\t\t<p><strong>Egy pénztárcával</strong> - összegek küldésére és fogadására, valamint a PoS bányászatban való részvételre.</p>\n"
+"\t\t<p><strong>Proof-of-Work bányászat</strong> - Számítási kapacitással tranzakciókat hitelesítve generálhatsz új Decred tokeneket.</p>\n"
+"\t\t<p><strong>Proof-of-Stake bányászat</strong> - Források lekötésével szavazhatsz a hálózat fejlesztését érintő döntésekről, és tranzakciókat hitelesíthetsz jutalom ellenében.</p>"
 
 #: src/index.html:382
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
 msgstr ""
-"<p>Attraverso processi decentralizzati, persone con differenti idee, obiettivi, e opinioni possono contribuire a plasmare il futuro. Probabilmente avrete delle domande, quindi partecipate alla nostra crescente community, dove potrete entrare in contatto con gli sviluppatori e con altri utenti, ottenere informazioni, fare domande, o semplicemente passare del tempo. Abbiamo un <a href=\"https://forum.decred.org\" title=\"_blank\">forum utenti</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">canale IRC</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">canale Telegram</a>, e<a href=\"https://slack.decred.org\" title=\"_blank\"> canale Slack</a> dove potrete chattare con gli sviluppatori e con altri utenti in tempo reale. Senza dimenticare <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> e <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
-"Non vediamo l'ora di incontrarvi!</p>"
+"<p>A decentralizált folyamatok lehetővé teszik, hogy emberek különböző ötletekkel, célokkal és véleményekkel hozzájáruljanak a jövő alakításához. Valószínű, hogy neked is akadnak majd kérdéseid – ha így van, csatlakozz növekvő közösségünkhöz, ahol találkozhatsz a fejlesztőkkel és a többi felhasználóval, információt gyűjthetsz, kérdéseket tehetsz fel, vagy csak úgy ellehetsz nálunk. Van <a href=\"https://forum.decred.org\" title=\"_blank\">felhasználói fórumunk</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC csatornánk</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram</a>, és <a href=\"https://slack.decred.org\" title=\"_blank\">Slack csatornánk</a> ahol elérheted a többieket és a fejlesztőket valós időben.  Ne felejtsd a <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> és <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a> oldalainkat sem.\n"
+"</p>Reméljük, hamarosan találkozunk!"
 
 #: src/index.html:334
 msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
 msgstr ""
-"<p>A differenza del PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">il mining Proof-of-Stake (PoS)</a> richiede poche risorse computazionali. I fondi Decred sono usati per acquistare tickets di voto sul network. Per ogni blocco, cinque tickets del pool dei tickets attivi sono scelti a caso per votare sulla validità del blocco precedente. </p>\n"
-"\t\t<p>Il PoS aggiunge un livello extra di decentralizzazione a Decred e consente agli utenti di votare sulle modifiche del network proposte. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Dei Pools sono disponibili anche per il PoS</a> e garantiscono che i vostri tickets siano pronti a votare ogni volta che sono chiamati.</p>"
+"<p>A PoW bányászattal ellentétben, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">a Proof-of-Stake bányászathoz (PoS)</a> csak kevés számítási kapacitásra van szükség. Decred tokenek ellenében lehet szavazójegyeket vásárolni, amelyekből minden blokk véglegesítésekor 5 jegyet választ ki szavazásra a hálózat véletlenszerűen. </p>\n"
+"\t\t<p>A PoS bányászat egy további decentralizációs réteget biztosít a Decred hálózaton, ennek segítéségével a felhasználók szavazhatnak javasolt változtatásokról. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS bányász pool-ok</a> teszik lehetővé, hogy folyamatosan részt tudj venni a szavazásokban, amikor a szavazójegyeidet kihúzza az algoritmus.</p>"
 
 #: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
-msgstr ""
-"Un installer/updater cross-platform, automatico per le applicazioni command-"
-"line."
+msgstr "Parancssor interfész több platformos, automatikus telepítője"
 
 #: src/downloads/index.html:55 src/index.html:509
 msgid "About"
-msgstr "Informazioni su"
+msgstr "A Decred-ről"
 
 #: src/index.html:540
 msgid "Airdrop"
@@ -162,13 +160,13 @@ msgstr "Airdrop"
 
 #: src/index.html:81
 msgid "All Downloads  →"
-msgstr "Tutti i Download  →"
+msgstr "Összes letöltés →"
 
 #: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
 #: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
 #: src/index.html:419
 msgid "Back"
-msgstr "Indietro"
+msgstr "Vissza"
 
 #: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
@@ -176,70 +174,70 @@ msgstr "Blog"
 
 #: src/index.html:353
 msgid "Buying And Trading Decred"
-msgstr "Comprare e Scambiare Decred"
+msgstr "Decred vásárlása és kereskedés"
 
 #: src/downloads/index.html:86
 msgid "CORE SOFTWARE"
-msgstr "SOFTWARE CORE"
+msgstr "ALAPSZOFTVER"
 
 #: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
 msgstr ""
-"Miner CUDA/OpenCL per GPU AMD/NVIDIA. Ufficialmente supportato dal team "
-"Decred."
+"CUDA/OpenCL bányász szoftver AMD és NVIDIA GPU-khoz. A Decred team "
+"hivatalosan támogatja. "
 
 #: src/index.html:55
 msgid "Close"
-msgstr "Chiudi"
+msgstr "Bezár"
 
 #: src/downloads/index.html:115
 msgid "Command Line Suite"
-msgstr "Suite Command Line"
+msgstr "Parancssor interfész"
 
 #: src/index.html:165
 msgid "Community And Principles"
-msgstr "Community e Principi"
+msgstr "Közösség és elvek"
 
 #: src/brand/index.html:110
 msgid "Complimentary Colors"
-msgstr "Colori gratuiti"
+msgstr "Kiegészítő színek"
 
 #: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:292
 #: src/index.html:315 src/index.html:337 src/index.html:361 src/index.html:385
 #: src/index.html:418
 msgid "Continue"
-msgstr "Continua"
+msgstr "Tovább"
 
 #: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
-msgstr "Crea un wallet basato sul browser"
+msgstr "Böngésző pénztárca"
 
 #: src/brand/index.html:94
 msgid "Dark Blue"
-msgstr "Blu Scuro"
+msgstr "Sötétkék"
 
 #: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
-msgstr "Decred - credito decentralizzato"
+msgstr "Decred - decentralizált e-pénz"
 
 #: src/downloads/index.html:5 src/downloads/index.html:7
 #: src/downloads/index.html:8 src/downloads/index.html:9
 msgid "Decred - downloads"
-msgstr "Decred - downloads"
+msgstr "Decred - letöltések"
 
 #: src/brand/index.html:150 src/index.html:432
 msgid "Decred Developers"
-msgstr "Sviluppatori Decred"
+msgstr "Decred fejlesztők"
 
 #: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
-msgstr "Sviluppatori Decred 2017"
+msgstr "Decred fejlesztők 2017"
 
 #: src/brand/index.html:10
 msgid "Decred brand"
-msgstr "Marca Decred"
+msgstr "Decred brand kézikönyv"
 
 #: src/index.html:140
 msgid ""
@@ -247,17 +245,17 @@ msgid ""
 "                <br>\n"
 "                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
 msgstr ""
-"Decred promuove un ecosistema di sviluppo multi-stakeholder che accoglie e valorizza i partecipanti che vogliono migliorare le funzioni esistenti o creare nuovi strumenti.\n"
-"                <br>\n"
-"                <br>Chiunque può proporre nuove funzionalità, e gli sviluppatori sono pagati per realizzarle sotto il pieno controllo della community. &nbsp;Le risorse per questo lavoro arrivano direttamente dalla blockchain di Decred."
+"A Decred elősegíti az érdekelt felek fejlesztési ökoszisztémáját, amely üdvözli és felhatalmazza azokat a résztvevőket, akik a meglévő funkciók fejlesztését vagy új eszközöket akarnak fejleszteni.\n"
+"\n"
+"<br><br>Bárki benyújthat szolgáltatási javaslatokat, és a fejlesztők fizetik a munkájukhoz, hogy teljesítsék a követelményeket a közösség teljes nézetében. E munka finanszírozása közvetlenül a Decred blockchain-ból származik."
 
 #: src/index.html:70
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
 msgstr ""
-"Decred è una criptovaluta aperta e progressista con un sistema di governance"
-" basato sulla community ed integrato nella propria blockchain."
+"A Decred egy nyílt, szabad és progresszív e-pénz,  blokkláncra épülő "
+"közösségi kormányzási rendszerrel."
 
 #: src/index.html:153
 msgid ""
@@ -265,9 +263,9 @@ msgid ""
 "                <br>\n"
 "                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
 msgstr ""
-"Decred sta costruendo un'organizzazione di governance su più livelli che si estende oltre i miner e gli utenti per portare avanti e rappresentare voci interne ed esterne alla community.\n"
-"                <br>\n"
-"                <br> La decentralizzazione è un processo, ed un registro decentralizzato è solo il primo passo in questo processo."
+"A Decred olyan réteges kormányzati szervezetet hoz létre, amely túlmutat a bányászokon és a felhasználókon, hogy előmozdítsa és képviselje a bennfentes és a kívülálló hangokat a közösségben.\n"
+"\n"
+"<br><br>A decentralizáció egy folyamat, és a decentralizált főkönyv csak az első lépés a folyamatban."
 
 #: src/index.html:124
 msgid ""
@@ -275,9 +273,9 @@ msgid ""
 "                <br>\n"
 "                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
 msgstr ""
-"Decred utilizza un sistema di consenso ibrido per trovare un equilibrio tra <u>miners</u>* ed utenti creando una valuta più robusta.\n"
-"                <br>\n"
-"                <br>Tipicamente, i miners che gestiscono l'infrastruttura esercitano una notevole influenza mentre gli utenti hanno un peso relativamente basso. Decred consente agli utenti di partecipare al progetto direttamente senza bisogno di un costoso hardware per il mining."
+"A Decred hibrid konszenzusrendszert alkalmaz, hogy egyensúlyt teremtsen a <u>bányászok</u> * és a felhasználók között egy erőteljesebb pénznem létrehozása érdekében.\n"
+"\n"
+"<br><br>Az infrastruktúrát működtető bányászok jellemzően jelentős befolyást gyakorolnak, míg a felhasználók viszonylag kevés befolyást gyakorolnak. A Decred lehetővé teszi a felhasználóknak a projektben való közvetlen részvétel lehetőségét anélkül, hogy drága bányászati hardverre lenne szükségük."
 
 #: src/downloads/index.html:97
 msgid "Decrediton"
@@ -285,11 +283,11 @@ msgstr "Decrediton"
 
 #: src/index.html:75
 msgid "Decrediton For Linux"
-msgstr "Decrediton Per Linux"
+msgstr "Decrediton Linux-ra"
 
 #: src/index.html:74
 msgid "Decrediton For macOS"
-msgstr "Decrediton Per macOS"
+msgstr "Decrediton macOS-re"
 
 #: src/brand/index.html:140
 msgid ""
@@ -300,47 +298,47 @@ msgid ""
 " simple + practical tools, principles and guides for different contexts and "
 "use cases."
 msgstr ""
-"L'identità di Decred contribuisce a rappresentarlo sulle varie piattaforme e"
-" tra le valute digitali. Aiuta gli utenti ed i neofiti a riconoscerlo, "
-"ottenere fiducia e partecipare in modo più attivo. Il toolkit fornisce un "
-"orientamento e facilita le comunicazioni relative a Decred. Contiene un set "
-"di semplici e pratici strumenti, principi e guide per contesti differenti e "
-"diversi casi d'uso."
+"A Decred identitása reprezentálja a különböző platformok és digitális "
+"devizák között.  A célja, hogy meglevő és új felhasználók számára könnyen "
+"megkülönböztethető legyen, bizalmat és elkötelezettséget ébresszen.  Ez a "
+"csomag irányt mutat és segít benne, hogy a Decred-ről kommunikálj.  "
+"Tartalmaz több egyszerű eszközt, dizájn elveket és irányvonalat különféle "
+"felhasználásokra és kontextusokban."
 
 #: src/index.html:541
 msgid "Dev Premine"
-msgstr "Preminato Sviluppatori"
+msgstr "Fejlesztő premine"
 
 #: src/index.html:103 src/index.html:139
 msgid "Development"
-msgstr "Sviluppo"
+msgstr "Fejlesztés"
 
 #: src/index.html:539
 msgid "Development Subsidy"
-msgstr "Sussidio di Sviluppo"
+msgstr "Fejlesztői támogatás"
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
 #: src/index.html:512
 msgid "Documentation"
-msgstr "Documentazione"
+msgstr "Dokumentáció"
 
 #: src/brand/index.html:141
 msgid "Download Full Package"
-msgstr "Download Pacchetto Completo"
+msgstr "Teljes csomag letöltése"
 
 #: src/brand/index.html:72
 msgid "Download Logo Package"
-msgstr "Download Pacchetto Logo"
+msgstr "Logo letöltése"
 
 #: src/index.html:73 src/index.html:74 src/index.html:75 src/index.html:76
 #: src/index.html:77 src/index.html:78
 msgid "Download Wallet"
-msgstr "Download Wallet"
+msgstr "Pénztárca letöltés"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
 #: src/index.html:511
 msgid "Downloads"
-msgstr "Downloads"
+msgstr "Letöltések"
 
 #: src/downloads/index.html:149
 msgid "Exodus"
@@ -351,40 +349,40 @@ msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
 msgstr ""
-"Exodus è una applicazione intuitiva e multifunzione, per mettere in "
-"sicurezza, gestire e scambiare assets blockchain."
+"Az Exodus egy felhasználóbarát pénztárca blockchain vagyontárgyak "
+"kezelésére."
 
 #: src/downloads/index.html:152
 msgid "Exodus releases"
-msgstr "Rilasci Exodus"
+msgstr "Exodus kiadások"
 
 #: src/index.html:56
 msgid "Find A Stakepool"
-msgstr "Trova uno Stakepool"
+msgstr "Keress egy Stakepool-t"
 
 #: src/index.html:73
 msgid "For Your Computer"
-msgstr "Per il Vostro Computer"
+msgstr "A számítógépedre"
 
 #: src/downloads/index.html:89
 msgid "GUI wallet for Windows"
-msgstr "Wallet GUI per Windows"
+msgstr "GUI pénztárca Windows-ra"
 
 #: src/downloads/index.html:98
 msgid "GUI wallet for Windows, macOS and Linux"
-msgstr "Wallet GUI per Windows, macOS e Linux"
+msgstr "GUI pénztárca Windows, macOS és Linux operációs rendszerekre"
 
 #: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
-msgstr "Per Iniziare"
+msgstr "Kezdőknek"
 
 #: src/index.html:152
 msgid "Governance"
-msgstr "Governance"
+msgstr "Kormányzás"
 
 #: src/brand/index.html:124
 msgid "Green"
-msgstr "Verde"
+msgstr "Zöld"
 
 #: src/downloads/index.html:82
 msgid ""
@@ -393,26 +391,27 @@ msgid ""
 "href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if "
 "you want to dig deeper."
 msgstr ""
-"Se siete nuovi a Decred, assicuratevi di leggere la guida <a "
-"href=\"../#guide\" class=\"paragraph-link\">Per Iniziare</a> oppure la <a "
-"href=\"../#technology\" class=\"paragraph-link\">Panoramica Tecnica</a> se "
-"volete approfondire."
+"Ha most ismerkedsz a Decred-del, olvasd el a <a "
+"href=\"https://decred.org/#guide\" class=\"paragraph-link\">Kezdőknek</a> "
+"bevezetőt, vagy a <a href=\"https://decred.org/#technology\" class"
+"=\"paragraph-link\">Technikai áttekintő</a> oldalt, ha jobban bele szeretnél"
+" mélyedni."
 
 #: src/index.html:376
 msgid "Join The Community"
-msgstr "Entrare Nella Community"
+msgstr "Csatlakozz a közösséghez"
 
 #: src/brand/index.html:80
 msgid "Key blue"
-msgstr "Chiave blu"
+msgstr "Alap kék"
 
 #: src/index.html:128
 msgid "Learn more about the technology"
-msgstr "Ulteriori informazioni sulla tecnologia"
+msgstr "Ismerkedj a technológiával"
 
 #: src/brand/index.html:117
 msgid "Light blue"
-msgstr "Azzurro"
+msgstr "Halvány kék"
 
 #: src/downloads/index.html:104
 msgid "Linux 64-bit"
@@ -420,61 +419,60 @@ msgstr "Linux 64-bit"
 
 #: src/index.html:440
 msgid "Logo and Branding"
-msgstr "Logo e Branding"
+msgstr "Logo és brand"
 
 #: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
-msgstr "Logo ed Elementi visivi"
+msgstr "Logo és vizuális anyagok"
 
 #: src/brand/index.html:66
 msgid "Logo package"
-msgstr "Pacchetto Logo"
+msgstr "Logo csomag"
 
 #: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
-msgstr "SOFTWARE MINING"
+msgstr "BÁNYÁSZ SZOFTVER"
 
 #: src/index.html:284
 msgid "Mining"
-msgstr "Mining"
+msgstr "Bányászat"
 
 #: src/index.html:61
 msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
 msgstr ""
-"I Tickets persi possono essere causati da un &nbsp;Proof-of-work (PoW) "
-"miner&nbsp; con una cattiva connessione; e può non essere necessariamente "
-"colpa del pool."
+"A nem fogadott jegyeket a rosszul csatlakoztatott Proof-of-Work (PoW) "
+"bányász okozhatja, és nem feltétlenül a pool hibája."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
 #: src/index.html:515
 msgid "Network Stats"
-msgstr "Statistiche Network"
+msgstr "Hálózat statisztikák"
 
 #: src/downloads/index.html:112
 msgid "No downloads required."
-msgstr "Nessun download richiesto."
+msgstr "Nincs szükség letöltésre."
 
 #: src/index.html:61
 msgid "Notice:"
-msgstr "Nota:"
+msgstr "Figyelem:"
 
 #: src/index.html:7 src/index.html:9
 msgid ""
 "Open and progressive cryptocurrency with a system of community-based "
 "governance integrated into its blockchain."
 msgstr ""
-"Criptovaluta aperta e progressista con un sistema di governance basato sulla"
-" community ed integrato nella propria blockchain."
+"Nyílt, szabad és progresszív digitális deviza, blokkláncra épülő közösségi "
+"kormányzási rendszerrel."
 
 #: src/brand/index.html:131
 msgid "Orange"
-msgstr "Arancio"
+msgstr "Narancs"
 
 #: src/index.html:186
 msgid "Overview"
-msgstr "Panoramica"
+msgstr "Áttekintés"
 
 #: src/downloads/index.html:88
 msgid "Paymetheus"
@@ -482,96 +480,96 @@ msgstr "Paymetheus"
 
 #: src/index.html:78
 msgid "Paymetheus For Windows"
-msgstr "Paymetheus Per Windows"
+msgstr "Paymetheus Windows-ra"
 
 #: src/index.html:76
 msgid "Paymetheus For Windows 32bit"
-msgstr "Paymetheus Per Windows 32bit"
+msgstr "Paymetheus Windows-ra (32bit)"
 
 #: src/index.html:77
 msgid "Paymetheus For Windows 64bit"
-msgstr "Paymetheus Per Windows 64bit"
+msgstr "Paymetheus Windows-ra (64bit)"
 
 #: src/index.html:400
 msgid "Planned Features"
-msgstr "Funzionalità Pianificate"
+msgstr "Tervezett funkciók"
 
 #: src/index.html:538
 msgid "PoS-mined"
-msgstr "Minato tramite PoS"
+msgstr "Bányászva (PoS)"
 
 #: src/index.html:537
 msgid "PoW-mined"
-msgstr "Minato tramite PoW"
+msgstr "Bányászva (PoW)"
 
 #: src/brand/index.html:73
 msgid "Primary Colors"
-msgstr "Colori Primari"
+msgstr "Elsődleges színek"
 
 #: src/index.html:328
 msgid "Proof-of-Stake Mining"
-msgstr "Proof-of-Stake Mining"
+msgstr "Proof-of-Stake bányászat"
 
 #: src/index.html:306
 msgid "Proof-of-Work Mining"
-msgstr "Proof-of-Work Mining"
+msgstr "Proof-of-Work bányászat"
 
 #: src/brand/index.html:63
 msgid "Quick-use toolkit"
-msgstr "Toolkit rapido"
+msgstr "Gyors toolkit"
 
 #: src/index.html:168
 msgid "Read the Decred Constitution"
-msgstr "Leggi la Costituzione di Decred"
+msgstr "Olvasd el a Decred Alkotmányt"
 
 #: src/index.html:260
 msgid "Send and Receive Decred"
-msgstr "Inviare e Ricevere Decred"
+msgstr "Fogadj és küldj Decred-et"
 
 #: src/index.html:105
 msgid "Stable Version"
-msgstr "Versione Stabile"
+msgstr "Stabil verzió"
 
 #: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
-msgstr "Stakepools"
+msgstr "Stakepool-ok"
 
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
-"Gli stakepools permettono di partecipare al Proof-of-Stake (PoS) mining di Decred senza bisogno di preoccuparsi\n"
-"<br>delle perdite dovute ai tempi di inattività del computer, della connessione internet scadente, o dell'alimentazione irregolare."
+"A Stakepool-ok lehetővé teszik, hogy részt vegyél a Decred Proof-of-Stake (PoS) bányászatban anélkül, \n"
+"<br>hogy aggódnod kellene a számítógéped leállása, az internetkapcsolat megszakadása vagy áramkimaradás miatt."
 
 #: src/index.html:542
 msgid "Start again"
-msgstr "Inizia da capo"
+msgstr "Vissza az elejére"
 
 #: src/index.html:88
 msgid "Statistics"
-msgstr "Statistiche"
+msgstr "Statisztikák"
 
 #: src/index.html:96
 msgid "Supply distribution"
-msgstr "Distribuzione dell'offerta"
+msgstr "Kínálat eloszlása"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
 #: src/index.html:514
 msgid "Technical Brief"
-msgstr "Sommario Tecnico"
+msgstr "Technikai bevezető"
 
 #: src/index.html:123
 msgid "Technology"
-msgstr "Tecnologia"
+msgstr "Technológia"
 
 #: src/index.html:210
 msgid "The Basics"
-msgstr "Le Basi"
+msgstr "Az alapok"
 
 #: src/index.html:236
 msgid "The Wallets"
-msgstr "I Wallet"
+msgstr "Pénztárcák"
 
 #: src/index.html:166
 msgid ""
@@ -581,73 +579,72 @@ msgid ""
 "making decisions, both informally via the forum and formally via the "
 "blockchain."
 msgstr ""
-"Il progetto è vincolato alla Costituzione di Decred, per questo gli utenti "
-"sanno esattamente cosa aspettarsi: un numero finito di monete, governance "
-"decentralizzata ed un luogo dove condividere le proprie opinioni. &nbsp;La "
-"community di Decred gioca un ruolo importante nel prendere le decisioni, sia"
-" informalmente tramite il forum sia formalmente tramite la blockchain."
+"A projektet a Decred Alkotmány köti, így a felhasználók tudják, mire "
+"számíthatnak: egy véges számú érme, decentralizált kormányzás és egy hely, "
+"ahol megoszthatják véleményüket. A Decred közössége fontos szerepet játszik "
+"a döntések meghozatalában, mind a fórumon keresztül, mind hivatalosan a "
+"blockchain-en keresztül."
 
 #: src/index.html:79
 msgid "The quick tour"
-msgstr "Guida veloce"
+msgstr "Gyors túra"
 
 #: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
-"Miner CUDA di terzi parti per GPU NVIDIA. Non sono supportati dal team di "
-"Decred."
+"Third party CUDA bányász szoftver NVIDIA GPU-khoz.  A Decred team nem "
+"támogatja."
 
 #: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
-"Miner OpenCL di terzi parti per GPU AMD. Non sono supportati dal team di "
-"Decred."
+"Third party CUDA bányász szoftver AMD GPU-khoz. A Decred team nem támogatja."
 
 #: src/index.html:177
 msgid "This tour will help you get started with Decred"
-msgstr "Questa guida vi aiuterà ad iniziare con Decred"
+msgstr "Gyors bevezető a Decred világába"
 
 #: src/index.html:62
 msgid ""
 "To protect de-centralization of the network, it is recommended to avoid "
 "pools that have over 5% of network votes."
 msgstr ""
-"Per salvaguardare la de-centralizzazione del network, si consiglia di "
-"evitare i pool che detengono più del 5% dei voti del network."
+"A hálózat decentralizációjának megóvása érdekében ajánlott elkerülni azokat "
+"a poolokat, amelyek több mint 5% -a hálózati szavazattal rendelkezik."
 
 #: src/brand/index.html:87
 msgid "Turquiose"
-msgstr "Turchese"
+msgstr "Türkiz"
 
 #: src/brand/index.html:99
 msgid "Typography"
-msgstr "Tipografia"
+msgstr "Tipográfia"
 
 #: src/downloads/index.html:118
 msgid "View on GitHub"
-msgstr "Visualizza su GitHub"
+msgstr "A GitHub-on"
 
 #: src/brand/index.html:11 src/brand/index.html:56 src/brand/index.html:9
 msgid "Visual communication toolkit"
-msgstr "Toolkit di comunicazione visiva"
+msgstr "Vizuális kommunikáció tookit"
 
 #: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
-msgstr "Votazione"
+msgstr "Szavazás"
 
 #: src/index.html:445
 msgid "Voting Dashboard"
-msgstr "Dashboard Votazione"
+msgstr "Szavazás eredmények"
 
 #: src/index.html:62
 msgid "Warning:"
-msgstr "Attenzione:"
+msgstr "Figyelmeztetés:"
 
 #: src/downloads/index.html:108
 msgid "Webwallet"
-msgstr "Webwallet"
+msgstr "Online pénztárca"
 
 #: src/downloads/index.html:93
 msgid "Win 32-bit"
@@ -663,11 +660,11 @@ msgstr "Windows"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
-msgstr "_direction"
+msgstr "ltr"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_language"
-msgstr "_language"
+msgstr "hu"
 
 #: src/downloads/index.html:132
 msgid "ccminer"
@@ -675,15 +672,15 @@ msgstr "ccminer"
 
 #: src/downloads/index.html:135
 msgid "ccminer releases"
-msgstr "rilasci ccminer"
+msgstr "ccminer kiadások"
 
 #: src/brand/index.html:7
 msgid "deCRED brand"
-msgstr "marchio deCRED"
+msgstr "Decred arculat"
 
 #: src/brand/index.html:171 src/index.html:455
 msgid "downloads"
-msgstr "downloads"
+msgstr "letöltések"
 
 #: src/downloads/index.html:125
 msgid "gominer"
@@ -691,7 +688,7 @@ msgstr "gominer"
 
 #: src/downloads/index.html:128
 msgid "gominer releases"
-msgstr "rilasci gominer"
+msgstr "gominer kiadások"
 
 #: src/downloads/index.html:102
 msgid "macOS"
@@ -699,7 +696,7 @@ msgstr "macOS"
 
 #: src/index.html:90
 msgid "mined so far"
-msgstr "estratti fino ad ora"
+msgstr "bányászva eddig"
 
 #: src/downloads/index.html:139
 msgid "sgminer"
@@ -707,16 +704,16 @@ msgstr "sgminer"
 
 #: src/downloads/index.html:142
 msgid "sgminer releases"
-msgstr "rilasci sgminer"
+msgstr "sgminer kiadások"
 
 #: src/index.html:450
 msgid "stable"
-msgstr "stabile"
+msgstr "stabil"
 
 #: src/brand/index.html:170 src/index.html:111 src/index.html:454
 msgid "total"
-msgstr "totale"
+msgstr "összes"
 
 #: src/brand/index.html:158
 msgid "← Main Website"
-msgstr "← Sito Principale"
+msgstr "← Főoldal"

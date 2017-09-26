@@ -1,5 +1,5 @@
 # Translators:
-# Sylvain <Meaulnes@protonmail.com>, 2017
+# Sylvain <inactive+SylvainDCR999@transifex.com>, 2017
 # Alex Solo <axel.abso@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:147
 msgid "3RD PARTY WALLETS"
 msgstr "PORTEFEUILLES TIERS"
 
@@ -20,7 +20,7 @@ msgstr "PORTEFEUILLES TIERS"
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:528
+#: src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -144,7 +144,7 @@ msgstr ""
 "<p>Contrairement au PdT, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Preuve-d-Enjeu (PdE)</a> demande peut de ressources. Les fonds Decred sont utilisés pour acheter des tickets de vote sur le réseau. Chaque bloc, 5 tickets de la pool sont choisis de façon aléatoire pour voter sur la validité de bloc précédent. </p>\n"
 "\t\t<p>PdE ajoute une couche supplémentaire de décentralisation à Decred et authorise les utilisateurs à voter sur les changement de réseau suggéré. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Le pools aussi sont disponibles pour le PdE</a> pour assurer que vos tickets soit près à être appelés a voter.</p>"
 
-#: src/downloads/index.html:114
+#: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -152,11 +152,11 @@ msgstr ""
 "Un installateur/programmeur automatique multiplate-forme pour les "
 "applications de ligne de commande."
 
-#: src/downloads/index.html:55 src/index.html:508
+#: src/downloads/index.html:55 src/index.html:509
 msgid "About"
 msgstr "À propos"
 
-#: src/index.html:539
+#: src/index.html:540
 msgid "Airdrop"
 msgstr "Airdrop"
 
@@ -170,7 +170,7 @@ msgstr "Tout les téléchargements "
 msgid "Back"
 msgstr "Retour"
 
-#: src/downloads/index.html:59 src/index.html:512
+#: src/downloads/index.html:59 src/index.html:513
 msgid "Blog"
 msgstr "Blog"
 
@@ -182,7 +182,7 @@ msgstr "Acheter et Échanger Decred"
 msgid "CORE SOFTWARE"
 msgstr "PROGRAMME CORE "
 
-#: src/downloads/index.html:124
+#: src/downloads/index.html:126
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -194,7 +194,7 @@ msgstr ""
 msgid "Close"
 msgstr "Fermer"
 
-#: src/downloads/index.html:113
+#: src/downloads/index.html:115
 msgid "Command Line Suite"
 msgstr "Suite de commande de ligne"
 
@@ -212,7 +212,7 @@ msgstr "Couleurs complémentaires"
 msgid "Continue"
 msgstr "Continuer"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:110
 msgid "Create a browser based Wallet"
 msgstr "Créer un portefeuille basé sur le navigateur"
 
@@ -220,7 +220,7 @@ msgstr "Créer un portefeuille basé sur le navigateur"
 msgid "Dark Blue"
 msgstr "Bleu Foncé"
 
-#: src/index.html:5
+#: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
 msgstr "Decred - crédit décentralisé "
 
@@ -233,9 +233,13 @@ msgstr "Decred - téléchargements"
 msgid "Decred Developers"
 msgstr "Decred Développeurs  "
 
-#: src/downloads/index.html:74 src/index.html:531
+#: src/downloads/index.html:74 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred Développeurs 2017"
+
+#: src/brand/index.html:10
+msgid "Decred brand"
+msgstr "Marque Decred"
 
 #: src/index.html:140
 msgid ""
@@ -304,7 +308,7 @@ msgstr ""
 "de principes et de guides pratiques simples pour différents contextes et cas"
 " d'utilisation."
 
-#: src/index.html:540
+#: src/index.html:541
 msgid "Dev Premine"
 msgstr "Dev Prémine"
 
@@ -312,12 +316,12 @@ msgstr "Dev Prémine"
 msgid "Development"
 msgstr "Développement "
 
-#: src/index.html:538
+#: src/index.html:539
 msgid "Development Subsidy"
 msgstr "Développement subsidiaire "
 
 #: src/brand/index.html:157 src/downloads/index.html:58 src/index.html:439
-#: src/index.html:511
+#: src/index.html:512
 msgid "Documentation"
 msgstr "Documentation"
 
@@ -335,15 +339,15 @@ msgid "Download Wallet"
 msgstr "Téléchager le Portefeuille"
 
 #: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
-#: src/index.html:510
+#: src/index.html:511
 msgid "Downloads"
 msgstr "Téléchagements"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:149
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:148
+#: src/downloads/index.html:150
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -351,7 +355,7 @@ msgstr ""
 "Exodus est une application conviviale, tout-en-un, pour sécuriser, gérer et "
 "échanger des actifs de chaînes de blocs."
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:152
 msgid "Exodus releases"
 msgstr "Exodus releases"
 
@@ -368,10 +372,10 @@ msgid "GUI wallet for Windows"
 msgstr "Portefeuille GUI pour Windows"
 
 #: src/downloads/index.html:98
-msgid "GUI wallet for macOS and Linux"
-msgstr "Portefeuille GUI pour MacOS et Linux"
+msgid "GUI wallet for Windows, macOS and Linux"
+msgstr "Portefeuille GUI pour Windows, macOS et Linux"
 
-#: src/downloads/index.html:56 src/index.html:509 src/index.html:79
+#: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
 msgstr "Commencer"
 
@@ -411,7 +415,7 @@ msgstr "Apprendre à propos de la technologie"
 msgid "Light blue"
 msgstr "Bleu claire"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:104
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -419,7 +423,7 @@ msgstr "Linux 64-bit"
 msgid "Logo and Branding"
 msgstr "Logo et Branding"
 
-#: src/downloads/index.html:64 src/index.html:517
+#: src/downloads/index.html:64 src/index.html:518
 msgid "Logo and Visuals"
 msgstr "Logo et visuels"
 
@@ -427,7 +431,7 @@ msgstr "Logo et visuels"
 msgid "Logo package"
 msgstr "Logo package"
 
-#: src/downloads/index.html:121
+#: src/downloads/index.html:123
 msgid "MINING SOFTWARE"
 msgstr "PROGRAMME DE MINAGE"
 
@@ -444,11 +448,11 @@ msgstr ""
 "-de-Travail (PdT) et peut ne pas être nécessairement le défaut de la pool."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
-#: src/index.html:514
+#: src/index.html:515
 msgid "Network Stats"
 msgstr "Stats réseau"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:112
 msgid "No downloads required."
 msgstr "Pas de téléchargement requis."
 
@@ -492,11 +496,11 @@ msgstr "Paymetheus Pour Windows 64bit"
 msgid "Planned Features"
 msgstr "Fonctionnalités planifiées"
 
-#: src/index.html:537
+#: src/index.html:538
 msgid "PoS-mined"
 msgstr "PdE-miné"
 
-#: src/index.html:536
+#: src/index.html:537
 msgid "PoW-mined"
 msgstr "PdT-miné"
 
@@ -528,19 +532,19 @@ msgstr "Envoyez et recevoir Decred"
 msgid "Stable Version"
 msgstr "Version Stable"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:516
+#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
 msgstr "Pool d'enjeu"
 
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
-"        <br>about losses due computer downtime, flanky internet connectivity, or inconsistent power."
+"        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
 "Stakepools vous permet de participer à l'extraction de la Preuve-Enjeu (PoS) sans avoir à vous soucier\n"
 "<br>des pertes dues à des temps d'arrêt informatiques, une connectivité Internet flanquée ou une puissance incohérente."
 
-#: src/index.html:541
+#: src/index.html:542
 msgid "Start again"
 msgstr "Recommencer"
 
@@ -553,7 +557,7 @@ msgid "Supply distribution"
 msgstr "Distribution d'approvisionnement"
 
 #: src/brand/index.html:156 src/downloads/index.html:60 src/index.html:438
-#: src/index.html:513
+#: src/index.html:514
 msgid "Technical Brief"
 msgstr "Caractère Technique. "
 
@@ -587,14 +591,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Un tour rapide"
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:133
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "Troisième partie CUDA mineur pour NVIDIA GPUs. Non supportées par le team "
 "Decred."
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:140
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -621,7 +625,7 @@ msgstr "Turquoise"
 msgid "Typography"
 msgstr "Typographie"
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:118
 msgid "View on GitHub"
 msgstr "Vues sur GitHub"
 
@@ -629,7 +633,7 @@ msgstr "Vues sur GitHub"
 msgid "Visual communication toolkit"
 msgstr "Boîte à outils de communication visuelle"
 
-#: src/downloads/index.html:62 src/index.html:515
+#: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
 msgstr "Vote"
 
@@ -641,7 +645,7 @@ msgstr "Tableau de Bord de Vote"
 msgid "Warning:"
 msgstr "Attention:"
 
-#: src/downloads/index.html:106
+#: src/downloads/index.html:108
 msgid "Webwallet"
 msgstr "Portefeuille en ligne"
 
@@ -653,6 +657,10 @@ msgstr "Win 32-bit"
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
+#: src/downloads/index.html:100
+msgid "Windows"
+msgstr "Windows"
+
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
 msgstr "ltr"
@@ -661,19 +669,15 @@ msgstr "ltr"
 msgid "_language"
 msgstr "fr"
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:132
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:135
 msgid "ccminer releases"
 msgstr "ccminer releases"
 
-#: src/index.html:8
-msgid "deCRED - decentralized credit"
-msgstr "deCRED - Crédit décentralisé"
-
-#: src/brand/index.html:10 src/brand/index.html:7
+#: src/brand/index.html:7
 msgid "deCRED brand"
 msgstr "deCRED brand"
 
@@ -681,15 +685,15 @@ msgstr "deCRED brand"
 msgid "downloads"
 msgstr "Téléchargements "
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:125
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:128
 msgid "gominer releases"
 msgstr "gominer releases"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:102
 msgid "macOS"
 msgstr "macOS"
 
@@ -697,11 +701,11 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "Minés depuis"
 
-#: src/downloads/index.html:137
+#: src/downloads/index.html:139
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:142
 msgid "sgminer releases"
 msgstr "sgminer releases"
 
