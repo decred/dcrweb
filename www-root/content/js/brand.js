@@ -107,7 +107,7 @@ $(document).ready(function() {
 	$.getJSON(APIdc, function(data) {
 	   count = data[1];
 	});
-	footerDownloads.text(count+' total');
+	footerDownloads.text(count);
 
 	//statisticsDownloads.add(footerDownloads).text(count+' total');
 
