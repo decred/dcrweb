@@ -8,3 +8,5 @@ it it
 fi fi
 es es
 el el
+ja ja
+ko ko

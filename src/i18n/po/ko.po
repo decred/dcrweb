@@ -1,6 +1,7 @@
 # Translators:
-# Mitchell Hong <mitchell.a.hong@gmail.com>, 2017
+# KR C2 <e2f@e4net.net>, 2017
 # Nam-Kyun Kim <kimnk905@gmail.com>, 2017
+# Mitchell Hong <mitchell.a.hong@gmail.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
@@ -30,17 +31,17 @@ msgid ""
 "\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. E.g. a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
 "\t\t<p>The <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a> allows users to search all the blocks and transactions in the Decred blockchain.</p>"
 msgstr ""
-"<p>지갑 주소를 이용해 자금을 보내거나 받을 수 있습니다. 주소는 모든 Decred 지갑에서 생성할 수 있습니다. Decred의 주소는 <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">D로 시작하는 26-36개의 알파벳과 숫자의 조합 입니다.\n"
-"\t\t<p>송금이 실행된 뒤, 약 5분 안에 송금이 이루어지며, 이 때, 네트워크를 유지하기 위한 소정의 수수료가 거래량에 더해집니다. 예를들어 100 DCR을 보냈을 경우에 0.006 DCR 정도의 수수료가 붙습니다. \n"
-"\t\t<p>Decred 블럭체인에서 만들어진 모든 블록과 송금 과정은 Main Network Block Explorer에 확인 할 수 있습니다. "
+"<p>지갑 주소를 이용해 자금을 보내거나 받을 수 있습니다. 주소는 모든 Decred 지갑에서 쉽게 생성할 수 있습니다. 모든 Decred 지갑의 주소는 <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">D로 시작하는 26-36개의 알파벳과 숫자의 조합으로 구성됩니다</a>.</p>\n"
+"\t\t<p>송금이 실행된 뒤, 약 5분 안에 송금이 이루어지며, 이때 네트워크를 유지하기 위한 소정의 수수료가 거래량에 더해집니다. 예를 들어 100DCR을 보내는 경우 0.006DCR 정도의 수수료가 발생합니다.</p>\n"
+"\t\t<p>Decred 블록체인에서 만들어진 모든 블록과 모든 송금 과정은 <a href=\"https://mainnet.decred.org\" target=\"_blank\">Main Network Block Explorer</a>에서 확인하실 수 있습니다.</p>"
 
 #: src/index.html:193
 msgid ""
 "<p>Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.</p>\n"
 "\t\t<p>For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.</p>"
 msgstr ""
-"<p> Decred는 Windows, macOS 및 Linux 등의 다중 플랫폼을 지원하는 디지털 통화입니다. 사용하기 쉬운 지갑 프로그램에서 단 몇 번의 클릭만으로 송금 전송 및 수신과 채굴을 수행 할 수 있습니다. </ p>\n"
-"<p> 조금 더 전문적으로 이용하고 싶은 사용자를 위해서는 맞춤식 Decred 환경을 구성할 수 있는 명령어 기반의 완전한 툴을 제공합니다. </ p>"
+"<p> Decred는 Windows, macOS 및 Linux 등의 다중 플랫폼을 지원하는 디지털 통화입니다. 저희가 제공하는 지갑을 이용하면 단 몇 번의 클릭만으로 송금 전송 및 수신과 채굴을 편리하게 수행 할 수 있습니다.</p>\n"
+"\t\t<p> 조금 더 전문적으로 이용하고 싶은 사용자를 위해서는 맞춤식 Decred 환경을 구성할 수 있는 명령어 기반의 완전한 툴을 제공합니다.</p>"
 
 #: src/index.html:359
 msgid ""
@@ -51,10 +52,11 @@ msgid ""
 "/obtaining-dcr/#exchanges\" title=\"_blank\">at cryptocurrency "
 "exchanges</a>.</p>"
 msgstr ""
-"<p>Decred가 탄생한지 오래되지 않았기 때문에, 지금으로써는 비트코인을 이용하여 구입하는 것이 가장 쉽게 구입할 수 있는 "
-"방법입니다. <a href=\"https://docs.decred.org/getting-started/obtaining-"
-"dcr/#bitcoin\" title=\"_blank\">먼저 비트코인을 구입하고 나서, 주요 가상화폐 거래소에서 Decred로 교환할 "
-"수 있습니다."
+"<p>Decred가 출시된지가 오래되지는 않았기 때문에, 지금으로써는 비트코인을 이용하여 구입하는 것이 가장 쉽게 구입할 수 있는 "
+"방법입니다.<a href=\"https://docs.decred.org/getting-started/obtaining-"
+"dcr/#bitcoin\" title=\"_blank\">먼저 비트코인을 구입하고 나서</a>, <a "
+"href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" "
+"title=\"_blank\">암호화폐 거래소에서 Decred로 교환</a>할 수 있습니다.</p>"
 
 #: src/index.html:312
 msgid ""
@@ -62,9 +64,9 @@ msgid ""
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
 "\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
 msgstr ""
-"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">작업 입증 (PoW)</a>과정에서 여러개의 거래는 블록으로 묶이게 됩니다. 그리고 블럭들을 PoW 채굴자가 입증함으로써, 그 블록은 Decred 네트워크에 영구적으로 기록됩니다. \n"
+"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">작업증명 (PoW)</a>과정에서 여러 개의 거래가 블록 단위로 묶이게 됩니다. 이후에 블록들이 PoW 채굴기에서 인증되면, 그 블록은 Decred 네트워크에 영구적으로 기록됩니다.</p>\n"
 "\t\t<p>채굴자가 되려면 네트워크에 연결할 여분의 전용 컴퓨터를 사용하여야 합니다. 채굴의 보상으로 Decred가 지급됩니다.</p> \n"
-"\t\t<p>효율성과 편리함을 원한다면 채굴 공동체 <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">(mining pool)</a>에 참여하실 수도 있습니다. 이 공동체는 채굴자들의 그룹이며 작업과 보상을 나누어 가집니다. 채굴 공동체에 참가 하시는 것은 비교적 작은 규모의 채굴자들이 그들의 일에 대한 일정한 보상을 받을 수 있는 좋은 방법입니다. "
+"\t\t<p>효율성과 편리함을 위해 <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">채굴 연합(mining pool)</a>에 참여하실 수도 있습니다. 이러한 연합체는 채굴자들의 그룹이며 작업과 보상을 나누어 가집니다. 채굴 연합에 참가 하시는 것은 비교적 작은 규모의 채굴자들도 일에 대한 일정한 보상을 받을 수 있도록 하는 좋은 방법입니다.</p>"
 
 #: src/index.html:406
 msgid ""
@@ -80,17 +82,17 @@ msgid ""
 "\t\t</ul>\n"
 "\t\t<p>Read about these and more on <a href=\"https://blog.decred.org\" target=\"_blank\">our blog</a> and welcome to Decred: the future of digital currency.</p>"
 msgstr ""
-"<p>Decred가 지속적으로 커뮤니티의 개발 요구를 만족시키기 위해, 새로운 블록의 작업증명 과정에서 생기는 보상의 일부분가 Decred의 개발팀에게 가게 됩니다. 다음은 2017년도에 계획되어있는 주요 개발 사항들입니다.\n"
+"<p>Decred가 지속적으로 커뮤니티의 개발 요구를 만족시키기 위해, 새로운 블록의 작업증명 과정에서 생기는 보상의 일부는 Decred의 개발팀에게 전달됩니다. 다음은 2017년도에 계획되어있는 주요 개발 사항들입니다.</p>\n"
 "\t\t<ul>\n"
-"\t\t<li>하드 포크 투표 (Hard fork voting)</li>\n"
-"<li>주주들에 의해 의결되는 분권 자치 조직 (A stakeholder-directed DAO)</li>\n"
-"<li>개발용 자금의 통제권의 분산화</li>\n"
+"\t\t<li>하드 포크 투표</li>\n"
+"<li>보유자에 의해 의결되는 분권 자치 기구</li>\n"
+"<li>개발용 자금 통제권의 분권화</li>\n"
 "<li>라이트닝 네트워크 (Lightning Network) 지원</li>\n"
-"<li>지속적인 사용자 인터페이스(GUI)와 디자인 개선</li>\n"
-"<li>보안성 향상 (Privacy Enhancement)</li>\n"
-"<li>결제기능 농합 (Payment Integration)</li>\n"
+"<li>지속적인 사용자 인터페이스(UI)와 디자인 개선</li>\n"
+"<li>보안성 향상</li>\n"
+"<li>결제기능 통합</li>\n"
 "\t\t</ul>\n"
-"\t\t<p>이것들에 대한 더 자세한 내용은 <a href=\"https://blog.decred.org\" target=\"_blank\">저희 블로그</a>에서 확인하실 수 있습니다. 디지털 화폐의 미래인 Decred에 오신 여러분을 환영합니다. "
+"\t\t<p>이것들에 대한 더 자세한 내용은 <a href=\"https://blog.decred.org\" target=\"_blank\">저희 블로그</a>에서 확인하실 수 있습니다. 디지털 통화의 미래인 Decred에 오신 여러분을 환영합니다.</p>"
 
 #: src/index.html:242
 msgid ""
@@ -99,9 +101,9 @@ msgid ""
 "\t\t<p>For macOS and Linux users, <a href=\"downloads/#paymetheus\">Decrediton wallet</a> is available.</p>\n"
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
-"<p>웹 지갑은 Decred를 처음 이용하시는 분도 이용할 수 있는 가장 쉬운 지갑입니다. 모든 사용자들은 <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>에 접속하여 어떠한 설치과정 없이도 자신의 개인 지갑에 접속 할 수 있습니다.</p>\n"
-"\t\t윈도우 사용자는 페이메테우스 (Paymetheus) 지갑을 사용하시면 몇분안에 접속 하실 수 있습니다.<p>\n"
-"\t\t<p>맥과 리눅스 사용자는 <a href=\"downloads/#paymetheus\">디크레디튼 (Decrediton) 지갑</a>을 사용하세요.</p>\n"
+"<p>웹 지갑은 Decred를 처음 이용하시는 분도 쉽게 이용할 수 있는 가장 쉬운 지갑 입니다. 모든 사용자들은 <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>에 접속하여 어떠한 설치과정 없이도 자신의 개인 지갑에 접속할 수 있습니다.</p>\n"
+"\t\t<p>Windows 사용자는 <a href=\"downloads/#paymetheus\">페이메테우스 (Paymetheus) 지갑</a>을 사용하시면 몇 분 안에 접속하실 수 있습니다.</p>\n"
+"\t\t<p>macOS와 Linux 사용자는 <a href=\"downloads/#paymetheus\">디크레디튼 (Decrediton) 지갑</a>을 사용하세요.</p>\n"
 "<p>도움이 필요하신 분들을 위해 홈페이지에서 <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">초보자 메뉴얼</a>을 제공합니다. </p>"
 
 #: src/index.html:290
@@ -109,8 +111,8 @@ msgid ""
 "<p>The term mining stands for the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred tokens.</p>\n"
 "\t\t<p>Decred has two methods of validating transactions: Proof-of-Work (PoW) and Proof-of-Stake (PoS).</p>"
 msgstr ""
-"<p>채굴의 의미는 Decred 네트워크에서 이루어지는 거래들을 인증하고 그 거래들이 안전하게 실행되도록 하는 과정입니다. 보상으로, 채굴자(miner)들은 새롭게 생성된 Decred 토큰으로 보상을 받게 됩니다.</p>\n"
-"\t\t<p>Decred가 거래들을 인증하는 방법은 두 가지가 있습니다: 작업 인증 (PoW)과 지분 인증(PoS)입니다. "
+"<p>채굴은 Decred 네트워크에서 이루어지는 거래들을 인증하고 그 거래들이 안전하게 실행되도록 하는 과정을 의미합니다. 그 과정을 수행하는 채굴자(miner)에게는 새롭게 생성된 Decred 코인이 보상으로 지급됩니다.</p>\n"
+"\t\t<p>Decred가 거래들을 인증하는 방법은 두 가지가 있습니다. 바로 작업증명(PoW)과 지분증명(PoS)입니다.</p>"
 
 #: src/index.html:216
 msgid ""
@@ -119,32 +121,32 @@ msgid ""
 "\t\t<p><strong>Proof-of-Work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
 "\t\t<p><strong>Proof-of-Stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
 msgstr ""
-"<p> Decred는 크게 세가지 주요 기능을 통해 경험하실 수 있습니다. </ p>\n"
-"<p> <strong> 지갑 </ strong> - 자금 송금 및 PoS 채굴에 사용됩니다. </ p>\n"
-"<p> <strong> 작업 증명 채굴 (PoW) </ strong> - 컴퓨터의 연산능력을 사용하여 네트워크에서 송금의 유효성을 검사함으로써 새로 생성되는 Decred 코인을 받습니다. </ p>\n"
-"<p> <strong> 지분 증명 채굴 (PoS) </ strong> - 중요한 네트워크 개발 안건에 대해 투표하고 작업 증명을 유효화 하는데 사용되며, 보상이 지급됩니다. </ p>"
+"<p> Decred와 상호작용하는 데에는 크게 세 가지 방법이 있습니다.</p>\n"
+"\t\t<p><strong>지갑</strong> - 자금 송금 및 PoS 채굴에 사용됩니다.</p>\n"
+"\t\t<p><strong>작업증명 채굴(PoW)</strong> - 컴퓨터의 연산능력을 사용하여 네트워크에서 송금의 유효성을 검사함으로써 새로 생성되는 Decred 코인을 받습니다.</p>\n"
+"\t\t<p> <strong> 지분증명 채굴(PoS)</strong> - 중요한 네트워크 개발 안건에 대해 투표하고 작업증명을 유효화하는데 사용되며, 보상이 지급됩니다.</p>"
 
 #: src/index.html:382
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
 msgstr ""
-"분권화 시스템을 통해서, 사람들은 다른 아이디어와 목표와 의견을 가지고 미래를 만들 수 있습니다. 궁금한 점이 있다면, 다른 유저들이나 개발자들을 만날 수 있고 정보를 얻고 질문을 물어보거나 쉬어 가실 수 있는 저희 커뮤니티에 방문 하십시오. 개발자들과 다른 유저들과 얘기 할 수 있는 <a href=\"https://forum.decred.org\" title=\"_blank\">유저 포럼</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC 채널</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">텔레그램 채널</a>, 그리고 <a href=\"https://slack.decred.org\" title=\"_blank\">슬랙 채널</a>이 있습니다. <a href=\"https://twitter.com/decredproject\" title=\"_blank\">트위터</a>와 <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">레딧</a>도 잊지 마세요. \n"
-"주저 하지 말고 서둘러 방문 하십시오!<p>"
+"<p>분권화 시스템을 통해서, 여러 다른 사람들이 서로의 아이디어와 목표, 의견을 제시하여 미래를 만들어 갈 수 있습니다. 궁금한 점이 있다면, 다른 사용자나 개발자로부터 정보를 얻거나 궁금한 점을 물어보고, 어울릴 수 있는 저희 커뮤니티에 방문하십시오. 개발자들과 다른 사용자와 대화할 수 있는 <a href=\"https://forum.decred.org\" title=\"_blank\">사용자 포럼</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC 채널</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">텔레그램 채널</a>, 그리고 <a href=\"https://slack.decred.org\" title=\"_blank\">슬랙 채널</a>이 있습니다. <a href=\"https://twitter.com/decredproject\" title=\"_blank\">트위터</a>와 <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">레딧</a>도 잊지 마십시오. \n"
+"주저하지 말고 서둘러 방문하십시오!</p>"
 
 #: src/index.html:334
 msgid ""
 "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. Every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
 "\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
 msgstr ""
-"<p>PoW와 다르게 <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">지분 증명(PoS)</a>은 컴퓨터 연산능력을 필요로 하지는 않습니다. Decred 코인은 주요 안건의 투표를 위한 티켓을 사는데 쓰일 뿐 입니다. 매 블럭마다, 여러 사람이 구입한 티켓 중에서 5개가 이전 블럭의 유효성을 검증하기 위해 랜덤으로 선택됩니다.</p>\n"
-"\t\t<p>PoS는 Decred가 추구하는 분권화를 한 층 더 강화하고, 실 사용자들이 주요한 네트워크 변경 안건에 대해서 직접 투표할 수 있도록 합니다. 컴퓨터를 하루 종일 켜지 않고도 여러분의 티켓이 선택 될 수 있도록 하기 위해 <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS 풀(pool)이 제공 됩니다</a>.</p>"
+"<p>PoW와 다르게 <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">지분증명(PoS)</a>은 컴퓨터 연산능력을 필요로 하지는 않습니다. Decred 코인은 주요 안건의 투표를 위한 티켓을 사는데 쓰일 뿐입니다. 매 블록마다, 여러 사람이 구입한 티켓 중에서 5개가 이전 블록의 유효성을 검증하기 위해 무작위로 선택됩니다.</p>\n"
+"\t\t<p>PoS는 Decred가 추구하는 분권화를 한 층 더 강화하고, 실사용자들이 제시된 네트워크 변경 안건에 직접 투표할 수 있도록 합니다. 여러분의 티켓이 선택될 수 있도록 하기 위해 언제든 <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">PoS 풀(pool)을 제공합니다</a>.</p>"
 
 #: src/downloads/index.html:116
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
-msgstr "명령어 기반 활용 목적의 다양한 플랫폼, 자동 인스톨러/업데이터 "
+msgstr "크로스 플랫폼 명령어 기반 자동 설치/업데이트 애플리케이션"
 
 #: src/downloads/index.html:55 src/index.html:509
 msgid "About"
@@ -156,7 +158,7 @@ msgstr "에어드랍"
 
 #: src/index.html:81
 msgid "All Downloads  →"
-msgstr "다운로드"
+msgstr "모든 다운로드  →"
 
 #: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
 #: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
@@ -170,7 +172,7 @@ msgstr "블로그"
 
 #: src/index.html:353
 msgid "Buying And Trading Decred"
-msgstr "Decred 사고 팔기"
+msgstr "Decred 사고 거래하기"
 
 #: src/downloads/index.html:86
 msgid "CORE SOFTWARE"
@@ -180,7 +182,7 @@ msgstr "핵심 소프트웨어"
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
-msgstr "AMD / NVIDIA GPU 용 CUDA / OpenCL 채굴기. Decred 팀이 공식적으로 지원합니다."
+msgstr "AMD / NVIDIA GPU용 CUDA / OpenCL 채굴기. Decred 팀이 공식적으로 지원합니다."
 
 #: src/index.html:55
 msgid "Close"
@@ -214,7 +216,7 @@ msgstr "어두운 파란색"
 
 #: src/index.html:5 src/index.html:8
 msgid "Decred - decentralized credit"
-msgstr "Decred - decentralized credit"
+msgstr "Decred - 분권화된 신용 거래"
 
 #: src/downloads/index.html:5 src/downloads/index.html:7
 #: src/downloads/index.html:8 src/downloads/index.html:9
@@ -239,7 +241,7 @@ msgid ""
 "                <br>\n"
 "                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
 msgstr ""
-"Decred는 주주에 의한 개발환경을 조성하고 있습니다. 주주의 의사에 따라 기존의 기능을 개선하거나 새로운 기능을 개발하려는 참가자들에게 권한을 부여합니다. \n"
+"Decred는 Decred 보유자에 의한 개발환경을 조성하고 있습니다. 보유자의 의사에 따라 기존의 기능을 개선하거나 새로운 기능을 개발하려는 참가자들에게 권한을 부여합니다. \n"
 "                <br>\n"
 "                <br> 누구나 기능 제안서를 제출할 수 있으며, 개발자가 되어 커뮤니티의 전체적인 관점에서 요구 사항을 충족시키는 작업을 수행하고 보수를 받을 수도 있습니다. &nbsp;이 과정에 대한 재원은 Decred 블록체인에서 직접 제공됩니다."
 
@@ -247,7 +249,7 @@ msgstr ""
 msgid ""
 "Decred is an open and progressive cryptocurrency with a system of community-"
 "based governance integrated into its blockchain."
-msgstr "Decred는 블록체인에 통합 된 커뮤니티 기반의 거버넌스 시스템이 구축되어 있는 매우 개방적이고 진보적인 암호화폐 입니다."
+msgstr "Decred는 커뮤니티 기반의 거버넌스 시스템을 블록체인상에 구현한 매우 개방적이고 기술진보적인 암호화폐입니다."
 
 #: src/index.html:153
 msgid ""
@@ -255,9 +257,9 @@ msgid ""
 "                <br>\n"
 "                <br> Decentralization is a process, and a decentralized ledger is only the first step in that process."
 msgstr ""
-"Decred는 계층화 된 거버넌스 조직을 구성함으로써 채굴자를 넘어 실제 사용자가 커뮤니티 내부 및 외부의 목소리를 전달하고 대표할 수 있도록 합니다.\n"
+"Decred는 계층화된 거버넌스 조직을 구성함으로써 채굴자를 넘어 실제 사용자가 커뮤니티 내부 및 외부의 목소리를 전달하고 대표할 수 있도록 합니다.\n"
 "                <br>\n"
-"                <br> 분권화는 하나의 과정이며 분권화 된 장부는 그 과정의 첫 번째 단계 일뿐입니다."
+"                <br> 분권화는 하나의 과정이며 분권화된 장부는 그 과정의 첫 번째 단계일 뿐입니다."
 
 #: src/index.html:124
 msgid ""
@@ -265,9 +267,9 @@ msgid ""
 "                <br>\n"
 "                <br>Typically, the miners who operate the infrastructure wield considerable influence while the users have relatively little sway. Decred allows users to participate in the project directly without the need for expensive mining hardware."
 msgstr ""
-"Decred는 채굴자*와 사용자간의 균형을 유지하여 보다 완전한 화폐를 만들기 위해 하이브리드 형태의 합의 시스템을 구축하였습니다.\n"
+"Decred는 <u>채굴자</u>*와 사용자간의 균형을 유지하여 보다 완전한 화폐를 만들기 위해 하이브리드 형태의 합의 시스템을 구축하였습니다.\n"
 "<br>\n"
-"<br> 일반적으로 인프라를 운영하는 채굴자는 상당한 영향력을 행사하고 사용자는 상대적으로 적은 영향력을 행사해 왔습니다. 그러나 Decred는 사용자가 값 비싼 채굴 장비 없이도 프로젝트에 직접 참여할 수 있도록 합니다."
+"<br> 일반적으로 인프라를 운영하는 채굴자는 상당한 영향력을 행사하고 사용자는 상대적으로 적은 영향력을 행사해 왔습니다. 그러나 Decred는 사용자가 값비싼 채굴 장비 없이도 프로젝트에 직접 참여할 수 있도록 합니다."
 
 #: src/downloads/index.html:97
 msgid "Decrediton"
@@ -275,11 +277,11 @@ msgstr "디크레디튼 (Decrediton)"
 
 #: src/index.html:75
 msgid "Decrediton For Linux"
-msgstr "디크레디튼 - 리눅스"
+msgstr "Linux용 디크레디튼"
 
 #: src/index.html:74
 msgid "Decrediton For macOS"
-msgstr "디크레디튼 - 맥"
+msgstr "macOS용 디크레디튼"
 
 #: src/brand/index.html:140
 msgid ""
@@ -290,7 +292,7 @@ msgid ""
 " simple + practical tools, principles and guides for different contexts and "
 "use cases."
 msgstr ""
-"Decred의 독자성은 수많은 플랫폼과 가상 화폐 가운데에서도 가장 뛰어납니다. 아마도 이 점은 기존의 투자자 뿐만 아니라 미래의 "
+"Decred의 독자성은 수많은 플랫폼과 디지털 통화 가운데에서도 가장 뛰어납니다. 아마도 이 점은 기존의 투자자 뿐만 아니라 미래의 "
 "투자자도 인정하고 보다 신뢰하게 되며, 이윽고 마음을 사로 잡히게 될 부분이라 생각합니다. Decred의 툴키트는 방향을 제시하고 모든 "
 "사람들로 하여금 Decred에 대해 소통하기 더 수월하게 합니다. 간단하고 실용적인 툴이 제공되며, 여러 상황과 사용자 환경에 따른 "
 "별도의 가이드 또한 제공됩니다."
@@ -346,19 +348,19 @@ msgstr "Exodus 지갑 출시"
 
 #: src/index.html:56
 msgid "Find A Stakepool"
-msgstr "PoS 풀(pool) 찾기"
+msgstr "지분 증명 풀(Stakepool) 찾기"
 
 #: src/index.html:73
 msgid "For Your Computer"
-msgstr "당신의 컴퓨터를 위해"
+msgstr "여러분의 컴퓨터를 위해"
 
 #: src/downloads/index.html:89
 msgid "GUI wallet for Windows"
-msgstr "GUI 지갑 - 윈도우 버전"
+msgstr "Windows용 GUI 지갑"
 
 #: src/downloads/index.html:98
 msgid "GUI wallet for Windows, macOS and Linux"
-msgstr ""
+msgstr "Windows, macOS 및 Linux 용 GUI 지갑"
 
 #: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
@@ -366,7 +368,7 @@ msgstr "시작하기"
 
 #: src/index.html:152
 msgid "Governance"
-msgstr "관리"
+msgstr "거버넌스"
 
 #: src/brand/index.html:124
 msgid "Green"
@@ -379,9 +381,9 @@ msgid ""
 "href=\"../#technology\" class=\"paragraph-link\">Technical Overview</a> if "
 "you want to dig deeper."
 msgstr ""
-"Decred를 처음 사용하는 경우 <a href=\"../#guide\" class=\"paragraph-link\"> 시작하기 </a>"
-" 또는 <a href = \"../# 기술을 읽으십시오 \"class =\"paragraph-link \"> 기술 개요 둘러보기 "
-"</a>를 읽어보십시오."
+"Decred를 처음 사용하는 경우 <a href=\"../#guide\" class=\"paragraph-link\">시작하기</a> "
+"또는 <a href=\"../#technology\" class=\"paragraph-link\">기술 개요 둘러보기</a>를 "
+"읽어보십시오."
 
 #: src/index.html:376
 msgid "Join The Community"
@@ -401,7 +403,7 @@ msgstr "밝은 청색"
 
 #: src/downloads/index.html:104
 msgid "Linux 64-bit"
-msgstr "리눅스 64 비트"
+msgstr "Linux 64 비트"
 
 #: src/index.html:440
 msgid "Logo and Branding"
@@ -428,8 +430,7 @@ msgid ""
 "Missed tickets can be caused by a poorly connected&nbsp;Proof-of-work (PoW) "
 "miner&nbsp;and may not necessarily be the fault of the pool."
 msgstr ""
-"누락 된 티켓은 작업 입증 (PoW) 채굴자의 연결 상태가 좋지 않은 경우 발생할 수 있으며, &nbsp; 풀의 결함이 아닐 수 "
-"있습니다."
+"작업증명(PoW) 채굴자의 연결 상태가 좋지 않은 경우 누락된 티켓이 발생할 수 있으며&nbsp;풀의 결함이 아닐 수 있습니다."
 
 #: src/brand/index.html:161 src/downloads/index.html:61 src/index.html:443
 #: src/index.html:515
@@ -438,7 +439,7 @@ msgstr "네트워크 통계"
 
 #: src/downloads/index.html:112
 msgid "No downloads required."
-msgstr "다운로드 불필요."
+msgstr "다운로드가 필요 없습니다."
 
 #: src/index.html:61
 msgid "Notice:"
@@ -448,11 +449,11 @@ msgstr "공지:"
 msgid ""
 "Open and progressive cryptocurrency with a system of community-based "
 "governance integrated into its blockchain."
-msgstr "블록체인에 통합 된 커뮤니티 기반의 거버넌스 시스템을 보유한 개방적이고 진보적인 가상화폐"
+msgstr "블록체인에 통합된 커뮤니티 기반의 거버넌스 시스템을 보유한 개방적이고 진보적인 암호화폐"
 
 #: src/brand/index.html:131
 msgid "Orange"
-msgstr "오렌지색"
+msgstr "주황색"
 
 #: src/index.html:186
 msgid "Overview"
@@ -464,15 +465,15 @@ msgstr "페이메테우스"
 
 #: src/index.html:78
 msgid "Paymetheus For Windows"
-msgstr "페이메테우스 - 윈도우 버전"
+msgstr "Windows용 페이메테우스"
 
 #: src/index.html:76
 msgid "Paymetheus For Windows 32bit"
-msgstr "페이메테우스 (윈도우 32비트)"
+msgstr "Windows 32비트용 페이메테우스"
 
 #: src/index.html:77
 msgid "Paymetheus For Windows 64bit"
-msgstr "페이메테우스 (윈도우 64비트)"
+msgstr "Windows 64비트용 페이메테우스"
 
 #: src/index.html:400
 msgid "Planned Features"
@@ -492,11 +493,11 @@ msgstr "주요 색상"
 
 #: src/index.html:328
 msgid "Proof-of-Stake Mining"
-msgstr "지분 증명 (PoS) 채굴"
+msgstr "지분증명(PoS) 채굴"
 
 #: src/index.html:306
 msgid "Proof-of-Work Mining"
-msgstr "작업 증명 (PoW) 채굴"
+msgstr "작업증명(PoW) 채굴"
 
 #: src/brand/index.html:63
 msgid "Quick-use toolkit"
@@ -516,15 +517,15 @@ msgstr "안정된 버전"
 
 #: src/downloads/index.html:63 src/index.html:444 src/index.html:517
 msgid "Stakepools"
-msgstr "Stakepools (스테이크풀즈)"
+msgstr "지분 증명 풀(Stakepool)"
 
 #: src/index.html:58
 msgid ""
 "Stakepools allow you to participate in Decred Proof-of-Stake (PoS) mining without needing to worry\n"
 "        <br>about losses due computer downtime, flaky internet connectivity, or inconsistent power."
 msgstr ""
-"지분 증명 풀(stakepools)을 이용해 <br>컴퓨터가 꺼지거나, 인터넷 연결이 안정적이지 못한 경우에도 손실의 걱정없이 "
-"Decred 지분 증명(PoS) 채굴에 참가 할 수 있습니다. "
+"지분 증명 풀(stakepools)을 이용해 컴퓨터가 꺼지거나, 인터넷 연결이 안정적이지 못한 경우에도\n"
+"<br>손실의 걱정없이 Decred 지분증명(PoS) 채굴에 참가 할 수 있습니다. "
 
 #: src/index.html:542
 msgid "Start again"
@@ -553,7 +554,7 @@ msgstr "기초"
 
 #: src/index.html:236
 msgid "The Wallets"
-msgstr "지갑들"
+msgstr "지갑"
 
 #: src/index.html:166
 msgid ""
@@ -563,9 +564,9 @@ msgid ""
 "making decisions, both informally via the forum and formally via the "
 "blockchain."
 msgstr ""
-"이 프로젝트는 Decred 헌법에 의거하여 사용자가 예상하는 것들 (코인 발행량, 탈중앙화 정책, 의견 공유 포럼 등)을 당연히 알 수 "
-"있도록 합니다. &nbsp;Decred의 커뮤니티는 비공식적으로는 포럼을 통해 그리고 공식적으로는 블록체인 상의 투표를 통해 의사 결정에"
-" 중요한 역할을 합니다."
+"이 프로젝트는 Decred 헌법에 의거하여 사용자가 예상하는 것들 (코인 발행량, 탈중앙화 거버넌스, 의견 공유 포럼 등)을 알 수 "
+"있도록 합니다. &nbsp;Decred의 커뮤니티는 비공식적으로는 포럼을 통해 그리고 공식적으로는 블록체인을 통해 의사 결정에 중요한 "
+"역할을 합니다."
 
 #: src/index.html:79
 msgid "The quick tour"
@@ -589,7 +590,7 @@ msgstr "이 둘러보기를 통해 Decred에 대해 알아보세요."
 msgid ""
 "To protect de-centralization of the network, it is recommended to avoid "
 "pools that have over 5% of network votes."
-msgstr "네트워크의 중앙화를 방지하려면 네트워크 투표 수가 5 %를 초과하는 풀은 사용하지 않는 것이 좋습니다."
+msgstr "네트워크의 중앙화를 방지하려면 네트워크 투표 수가 5%를 초과하는 풀은 사용하지 않는 것이 좋습니다."
 
 #: src/brand/index.html:87
 msgid "Turquiose"
@@ -605,7 +606,7 @@ msgstr "GitHub에서 보기"
 
 #: src/brand/index.html:11 src/brand/index.html:56 src/brand/index.html:9
 msgid "Visual communication toolkit"
-msgstr "시각 툴키트"
+msgstr "시각 커뮤니케이션 툴키트"
 
 #: src/downloads/index.html:62 src/index.html:516
 msgid "Voting"
@@ -625,23 +626,23 @@ msgstr "웹 지갑"
 
 #: src/downloads/index.html:93
 msgid "Win 32-bit"
-msgstr "윈도우 32비트"
+msgstr "Windows 32비트"
 
 #: src/downloads/index.html:91
 msgid "Win 64-bit"
-msgstr "윈도우 64비트"
+msgstr "Windows 64비트"
 
 #: src/downloads/index.html:100
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"
-msgstr "_방향"
+msgstr "_direction"
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_language"
-msgstr "_언어"
+msgstr "_language"
 
 #: src/downloads/index.html:132
 msgid "ccminer"
@@ -669,7 +670,7 @@ msgstr "gominer 출시"
 
 #: src/downloads/index.html:102
 msgid "macOS"
-msgstr "맥 OS"
+msgstr "macOS"
 
 #: src/index.html:90
 msgid "mined so far"
@@ -693,4 +694,4 @@ msgstr "총"
 
 #: src/brand/index.html:158
 msgid "← Main Website"
-msgstr "홈페이지"
+msgstr "← 홈페이지"
