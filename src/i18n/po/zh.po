@@ -115,7 +115,7 @@ msgid ""
 "    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
 msgstr ""
 "<p>使用网页钱包是开始体验 Decred 最简单的方式，所有用户都可以通过 <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a> 访问网页钱包，而无需下载任何内容。</p>\n"
-"\t\t<p>对于 Windows 用户而言，<a href=\"downloads/#paymetheus\">Paymetheus 钱包</a> 可以让您在短短几分钟内就准备就绪。</p>\n"
+"\t\t<p>对于 Windows 用户而言，<a href=\"downloads/#paymetheus\">Paymetheus 钱包</a>可以让您在短短几分钟内就准备就绪。</p>\n"
 "\t\t<p>对于 macOS 和 Linux 用户而言，可以使用 <a href=\"downloads/#paymetheus\">Decrediton 钱包</a>。</p>\n"
 "  <p>为了帮助您快速开始，您可以访问我们的<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">新手指引</a>。</p>"
 
@@ -137,14 +137,14 @@ msgstr ""
 "<p>Decred 有 3 种主要的交互方式：</p>\n"
 "\t\t<p><strong>钱包</strong>－用于发送和接收代币，以及参与 PoS 挖矿。</p>\n"
 "\t\t<p><strong>PoW 挖矿</strong>－使用计算能力在网络上验证交易，然后获得新产生的 Decred 代币。</p>\n"
-"\t\t<p><strong>PoS 挖矿</strong>－使用代币在重要的开发事项上来进行投票及验证交易，同时获得奖励。"
+"\t\t<p><strong>PoS 挖矿</strong>－使用代币在重要的开发事项上来进行投票及验证交易，同时获得奖励。</p>"
 
 #: src/index.html:382
 msgid ""
 "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
 "We can't wait to meet you!</p>"
 msgstr ""
-"<p>通过去中心化的管理机制，拥有不同点子、目标和意见的人可以共同塑造未来。或许您会有一些疑问，那就加入我们不断壮大的社区吧；在那里您可以认识开发者和其他用户、获取信息、提出问题或是单纯地打发时间。您可以通过我们的<a href=\"https://forum.decred.org\" title=\"_blank\">用户论坛</a>、<a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">聊天室</a>、<a href=\"https://t.me/Decred\" title=\"_blank\">Telegram 频道</a>和 <a href=\"https://slack.decred.org\" title=\"_blank\">Slack 频道</a>实时地与开发者和其他用户取得联系。当然，不要忘了还有 <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> 和  <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>。\n"
+"<p>通过去中心化的管理机制，拥有不同点子、目标和意见的人可以共同塑造未来。或许您会有一些疑问，那就加入我们不断壮大的社区吧；在那里您可以认识开发者和其他用户、获取信息、提出问题或是单纯地打发时间。您可以通过我们的<a href=\"https://forum.decred.org\" title=\"_blank\">用户论坛</a>、<a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">聊天室</a>、<a href=\"https://t.me/Decred\" title=\"_blank\">Telegram 频道</a>和 <a href=\"https://slack.decred.org\" title=\"_blank\">Slack 频道</a>实时地与开发者和其他用户取得联系。当然，不要忘了还有 <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> 和 <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>。\n"
 "快来加入我们吧！</p>"
 
 #: src/index.html:334
@@ -254,7 +254,7 @@ msgid ""
 "                <br>\n"
 "                <br>Anyone can submit feature proposals, and developers are paid for work to fulfill requirements in full view of the community. &nbsp;Funding for this work comes directly from the Decred blockchain."
 msgstr ""
-"Decred 促成了一个多利益相关的发展生态系统，欢迎并且授权想要改进和构建新方法的参与者。\n"
+"Decred 促成了一个多利益相关者的发展生态系统，欢迎并且授权想要改进和构建新方法的参与者。\n"
 "<br>\n"
 "<br>任何人都可以提交功能提案，而开发者可以为了满足这些来自社区的要求而工作从而获得报酬，这些用于支付开发的资金全部直接来自于 Decred 的区块链。"
 
@@ -372,7 +372,7 @@ msgstr "适用于 Windows 的 GUI 钱包"
 
 #: src/downloads/index.html:98
 msgid "GUI wallet for Windows, macOS and Linux"
-msgstr ""
+msgstr "适用于 Windows, macOS 和 Linux 的 GUI 钱包"
 
 #: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
