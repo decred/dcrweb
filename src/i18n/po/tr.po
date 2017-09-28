@@ -14,15 +14,15 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:151
 msgid "3RD PARTY WALLETS"
 msgstr "3. PARTİ CÜZDANLAR"
 
-#: src/index.html:466
+#: src/brand/index.html:184 src/index.html:466
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:529
+#: src/downloads/index.html:75 src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -156,7 +156,7 @@ msgstr ""
 "biletlerinizin çağrıldığında her an oylanmaya hazır olmasını sağlamak için "
 "4'lü paketler de mevcuttur."
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:120
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -176,9 +176,9 @@ msgstr "Ücretsiz Dağıtılan"
 msgid "All Downloads  →"
 msgstr "Tüm İndirmeler  →"
 
-#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
-#: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
-#: src/index.html:419
+#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:270
+#: src/index.html:293 src/index.html:316 src/index.html:338 src/index.html:362
+#: src/index.html:386 src/index.html:419
 msgid "Back"
 msgstr "Geri"
 
@@ -190,11 +190,11 @@ msgstr "Blog"
 msgid "Buying And Trading Decred"
 msgstr "Decred Almak ve Satmak"
 
-#: src/downloads/index.html:86
+#: src/downloads/index.html:90
 msgid "CORE SOFTWARE"
 msgstr "ÇEKİRDEK YAZILIM"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:130
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Close"
 msgstr "Kapat"
 
-#: src/downloads/index.html:115
+#: src/downloads/index.html:119
 msgid "Command Line Suite"
 msgstr "Komut Satırı Takımı"
 
@@ -218,13 +218,13 @@ msgstr "Topluluk ve İlkeler"
 msgid "Complimentary Colors"
 msgstr "Fahri Renkler"
 
-#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:292
-#: src/index.html:315 src/index.html:337 src/index.html:361 src/index.html:385
-#: src/index.html:418
+#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:269
+#: src/index.html:292 src/index.html:315 src/index.html:337 src/index.html:361
+#: src/index.html:385 src/index.html:418
 msgid "Continue"
 msgstr "Devam et"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:114
 msgid "Create a browser based Wallet"
 msgstr "Tarayıcı tabanlı cüzdan oluştur"
 
@@ -245,7 +245,7 @@ msgstr "Decred - dosyalar"
 msgid "Decred Developers"
 msgstr "Decred Geliştiricileri"
 
-#: src/downloads/index.html:74 src/index.html:532
+#: src/downloads/index.html:78 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred Geliştiricileri 2017"
 
@@ -291,7 +291,7 @@ msgstr ""
 "                <br>\n"
 "                <br>Olağan şartlarda, ağ üzerindeki hakimiyetin büyük bir kısmı madencilerin elindedir. Bu da madencilere isteklerini ağa dayatma hakkı tanır. Decred'da ise sıradan kullanıcılar da ağa üzerindeki değişiklik tekliflerinde, pahalı madencilere sahip olmadansöz hakkı sahibi olmaktadır."
 
-#: src/downloads/index.html:97
+#: src/downloads/index.html:101
 msgid "Decrediton"
 msgstr "Decrediton"
 
@@ -347,16 +347,16 @@ msgstr "Logo Paketini İndir"
 msgid "Download Wallet"
 msgstr "Cüzdanı İndir"
 
-#: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
+#: src/downloads/index.html:57 src/downloads/index.html:85 src/index.html:109
 #: src/index.html:511
 msgid "Downloads"
 msgstr "İndirmeler"
 
-#: src/downloads/index.html:149
+#: src/downloads/index.html:153
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:154
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -364,7 +364,7 @@ msgstr ""
 "Exodus kullanıcı dostu bir arayüzü sahip, güvenli bir kripto para cüzdanı. "
 "Birçok farklı kripto parayı ve tokeni tek cüzdandan idare etmenizi sağlar."
 
-#: src/downloads/index.html:152
+#: src/downloads/index.html:156
 msgid "Exodus releases"
 msgstr "Exodus sürümleri"
 
@@ -376,11 +376,11 @@ msgstr "Stake Havzu Bul"
 msgid "For Your Computer"
 msgstr "Bilgisayarınız İçin"
 
-#: src/downloads/index.html:89
+#: src/downloads/index.html:93
 msgid "GUI wallet for Windows"
 msgstr "Windows için GUI cüzdan"
 
-#: src/downloads/index.html:98
+#: src/downloads/index.html:102
 msgid "GUI wallet for Windows, macOS and Linux"
 msgstr "Windows, Linux ve macOS için GUI cüzdan"
 
@@ -396,7 +396,7 @@ msgstr "Yönetim"
 msgid "Green"
 msgstr "Yeşil"
 
-#: src/downloads/index.html:82
+#: src/downloads/index.html:86
 msgid ""
 "If you are new to Decred, be sure to read the <a href=\"../#guide\" class"
 "=\"paragraph-link\">Getting Started</a> tour or the <a "
@@ -424,7 +424,7 @@ msgstr "Teknolojisi hakkında daha fazlasını öğrenin"
 msgid "Light blue"
 msgstr "Açık mavi"
 
-#: src/downloads/index.html:104
+#: src/downloads/index.html:108
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -440,7 +440,7 @@ msgstr "Logo ve Görseller"
 msgid "Logo package"
 msgstr "Logo paketi"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:127
 msgid "MINING SOFTWARE"
 msgstr "MADENCİLİK YAZILIMI"
 
@@ -462,7 +462,7 @@ msgstr ""
 msgid "Network Stats"
 msgstr "Ağ İstatistikleri"
 
-#: src/downloads/index.html:112
+#: src/downloads/index.html:116
 msgid "No downloads required."
 msgstr "İndirme gerektirmez."
 
@@ -486,7 +486,7 @@ msgstr "Turuncu"
 msgid "Overview"
 msgstr "Genel Bakış"
 
-#: src/downloads/index.html:88
+#: src/downloads/index.html:92
 msgid "Paymetheus"
 msgstr "Paymetheus"
 
@@ -542,7 +542,8 @@ msgstr "Decred Gönder ve Talep Et"
 msgid "Stable Version"
 msgstr "Stabil Sürüm"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
+#: src/brand/index.html:162 src/downloads/index.html:63 src/index.html:444
+#: src/index.html:517
 msgid "Stakepools"
 msgstr "Stake Havuzları"
 
@@ -600,14 +601,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Temel bilgiler"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:137
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "NVIDIA ekran kartları için resmi olmayan CUDA madencilik yazılımcıları. "
 "Decred takımı tarafından resmi olarak desteklenmemektedir."
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:144
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -634,7 +635,7 @@ msgstr "Turkuaz"
 msgid "Typography"
 msgstr "Tipografya"
 
-#: src/downloads/index.html:118
+#: src/downloads/index.html:122
 msgid "View on GitHub"
 msgstr "GitHub'da Görüntüle"
 
@@ -646,7 +647,7 @@ msgstr "Görsel iletişim kiti"
 msgid "Voting"
 msgstr "Oylama"
 
-#: src/index.html:445
+#: src/brand/index.html:163 src/index.html:445
 msgid "Voting Dashboard"
 msgstr "Oy Paneli"
 
@@ -654,19 +655,19 @@ msgstr "Oy Paneli"
 msgid "Warning:"
 msgstr "Uyarı:"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:112
 msgid "Webwallet"
 msgstr "Webcüzdan"
 
-#: src/downloads/index.html:93
+#: src/downloads/index.html:97
 msgid "Win 32-bit"
 msgstr "Win 32-bit"
 
-#: src/downloads/index.html:91
+#: src/downloads/index.html:95
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:104
 msgid "Windows"
 msgstr "Windows"
 
@@ -678,11 +679,11 @@ msgstr "ltr"
 msgid "_language"
 msgstr "tr"
 
-#: src/downloads/index.html:132
+#: src/downloads/index.html:136
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:135
+#: src/downloads/index.html:139
 msgid "ccminer releases"
 msgstr "ccminer sürümleri"
 
@@ -690,19 +691,19 @@ msgstr "ccminer sürümleri"
 msgid "deCRED brand"
 msgstr "deCRED markası"
 
-#: src/brand/index.html:171 src/index.html:455
+#: src/brand/index.html:173 src/index.html:455
 msgid "downloads"
 msgstr "indirmeler"
 
-#: src/downloads/index.html:125
+#: src/downloads/index.html:129
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:128
+#: src/downloads/index.html:132
 msgid "gominer releases"
 msgstr "gominer sürümleri"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:106
 msgid "macOS"
 msgstr "macOS"
 
@@ -710,19 +711,19 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "toplam kazılan"
 
-#: src/downloads/index.html:139
+#: src/downloads/index.html:143
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:142
+#: src/downloads/index.html:146
 msgid "sgminer releases"
 msgstr "sgminer sürümleri"
 
-#: src/index.html:450
+#: src/brand/index.html:168 src/index.html:450
 msgid "stable"
 msgstr "stabil"
 
-#: src/brand/index.html:170 src/index.html:111 src/index.html:454
+#: src/brand/index.html:172 src/index.html:111 src/index.html:454
 msgid "total"
 msgstr "toplam"
 

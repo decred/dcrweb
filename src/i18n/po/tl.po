@@ -11,15 +11,15 @@ msgstr ""
 "Language: tl\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/downloads/index.html:147
+#: src/downloads/index.html:151
 msgid "3RD PARTY WALLETS"
 msgstr "3RD PARTY WALLETS"
 
-#: src/index.html:466
+#: src/brand/index.html:184 src/index.html:466
 msgid "<!-- localized footer social media links -->"
 msgstr "<!-- localized footer social media links -->"
 
-#: src/index.html:529
+#: src/downloads/index.html:75 src/index.html:529
 msgid "<!-- localized social media links -->"
 msgstr "<!-- localized social media links -->"
 
@@ -141,7 +141,7 @@ msgstr ""
 "<p>Hindi tulad ng PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\"> Ang pagmimina ng Proof-of-Stake (PoS) </a> ay nangangailangan ng maliit na mapagkukunan ng computing. Ang pondo sa Decred ay ginagamit upang bumili ng mga tiket sa pagboto sa network. Bawat bloke, limang tiket mula sa pool ng mga live na tiket ay pinili nang random upang bumoto sa bisa ng nakaraang block. </p>\n"
 "\t\t<p> PoS nagdadagdag ng isang dagdag na layer ng desentralisasyon sa Decred at nagbibigay-daan sa mga gumagamit upang bumoto sa mga iminungkahing mga pagbabago sa network. Available din ang <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\"> Pool para sa PoS </a> upang matiyak na ang iyong mga tiket ay handa nang bumoto tuwing tinawag sila."
 
-#: src/downloads/index.html:116
+#: src/downloads/index.html:120
 msgid ""
 "A cross-platform, automatic installer/updater for the command-line "
 "applications."
@@ -161,9 +161,9 @@ msgstr "Airdrop"
 msgid "All Downloads  →"
 msgstr "Lahat ng Mga Pag-download →"
 
-#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:293
-#: src/index.html:316 src/index.html:338 src/index.html:362 src/index.html:386
-#: src/index.html:419
+#: src/index.html:198 src/index.html:222 src/index.html:247 src/index.html:270
+#: src/index.html:293 src/index.html:316 src/index.html:338 src/index.html:362
+#: src/index.html:386 src/index.html:419
 msgid "Back"
 msgstr "Bumalik"
 
@@ -175,11 +175,11 @@ msgstr "Blog"
 msgid "Buying And Trading Decred"
 msgstr "Pagbili At Trading Decred"
 
-#: src/downloads/index.html:86
+#: src/downloads/index.html:90
 msgid "CORE SOFTWARE"
 msgstr "CORE SOFTWARE"
 
-#: src/downloads/index.html:126
+#: src/downloads/index.html:130
 msgid ""
 "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
 "team."
@@ -191,7 +191,7 @@ msgstr ""
 msgid "Close"
 msgstr "Isara"
 
-#: src/downloads/index.html:115
+#: src/downloads/index.html:119
 msgid "Command Line Suite"
 msgstr "Command Line Suite"
 
@@ -203,13 +203,13 @@ msgstr "Komunidad At Mga Prinsipyo"
 msgid "Complimentary Colors"
 msgstr "Mga Libreng Kulay"
 
-#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:292
-#: src/index.html:315 src/index.html:337 src/index.html:361 src/index.html:385
-#: src/index.html:418
+#: src/index.html:197 src/index.html:221 src/index.html:246 src/index.html:269
+#: src/index.html:292 src/index.html:315 src/index.html:337 src/index.html:361
+#: src/index.html:385 src/index.html:418
 msgid "Continue"
 msgstr "Magpatuloy"
 
-#: src/downloads/index.html:110
+#: src/downloads/index.html:114
 msgid "Create a browser based Wallet"
 msgstr "Lumikha ng isang batay sa Wallet na browser"
 
@@ -230,7 +230,7 @@ msgstr "Decred - downloads"
 msgid "Decred Developers"
 msgstr "Decred Developers"
 
-#: src/downloads/index.html:74 src/index.html:532
+#: src/downloads/index.html:78 src/index.html:532
 msgid "Decred Developers 2017"
 msgstr "Decred Developers 2017"
 
@@ -276,7 +276,7 @@ msgstr ""
 "                <br>\n"
 "                <br> Kadalasan, ang mga minero na nagpapatakbo ng imprastraktura ay may malaking impluwensiya habang ang mga gumagamit ay medyo maliit na ugoy. Ang Decred nagpapahintulot sa mga user na lumahok sa proyekto nang direkta nang hindi nangangailangan ng mahal na hardware sa pagmimina."
 
-#: src/downloads/index.html:97
+#: src/downloads/index.html:101
 msgid "Decrediton"
 msgstr "Decrediton"
 
@@ -335,16 +335,16 @@ msgstr "I-download ang Logo Package"
 msgid "Download Wallet"
 msgstr "I-download ang Wallet"
 
-#: src/downloads/index.html:57 src/downloads/index.html:81 src/index.html:109
+#: src/downloads/index.html:57 src/downloads/index.html:85 src/index.html:109
 #: src/index.html:511
 msgid "Downloads"
 msgstr "Mga Pag-download"
 
-#: src/downloads/index.html:149
+#: src/downloads/index.html:153
 msgid "Exodus"
 msgstr "Exodus"
 
-#: src/downloads/index.html:150
+#: src/downloads/index.html:154
 msgid ""
 "Exodus is a friendly, all-in-one application, to secure, manage and exchange"
 " blockchain assets."
@@ -352,7 +352,7 @@ msgstr ""
 "Ang Exodos ay isang friendly, lahat-ng-sa-isang application, upang ma-"
 "secure, pamahalaan at palitan ng blockchain asset."
 
-#: src/downloads/index.html:152
+#: src/downloads/index.html:156
 msgid "Exodus releases"
 msgstr "Paglabas ng Exodos"
 
@@ -364,11 +364,11 @@ msgstr "Maghanap ng isang Stakepool"
 msgid "For Your Computer"
 msgstr "Para sa Iyong Computer"
 
-#: src/downloads/index.html:89
+#: src/downloads/index.html:93
 msgid "GUI wallet for Windows"
 msgstr "GUI wallet para sa Windows"
 
-#: src/downloads/index.html:98
+#: src/downloads/index.html:102
 msgid "GUI wallet for Windows, macOS and Linux"
 msgstr "GUI wallet para sa Windows, macOS at Linux"
 
@@ -384,7 +384,7 @@ msgstr "Pamamahala"
 msgid "Green"
 msgstr "Green"
 
-#: src/downloads/index.html:82
+#: src/downloads/index.html:86
 msgid ""
 "If you are new to Decred, be sure to read the <a href=\"../#guide\" class"
 "=\"paragraph-link\">Getting Started</a> tour or the <a "
@@ -412,7 +412,7 @@ msgstr "Matuto nang higit pa tungkol sa teknolohiya"
 msgid "Light blue"
 msgstr "Light blue"
 
-#: src/downloads/index.html:104
+#: src/downloads/index.html:108
 msgid "Linux 64-bit"
 msgstr "Linux 64-bit"
 
@@ -428,7 +428,7 @@ msgstr "Logo at Visuals"
 msgid "Logo package"
 msgstr "Logo package"
 
-#: src/downloads/index.html:123
+#: src/downloads/index.html:127
 msgid "MINING SOFTWARE"
 msgstr "MINING SOFTWARE"
 
@@ -450,7 +450,7 @@ msgstr ""
 msgid "Network Stats"
 msgstr "Network Stats"
 
-#: src/downloads/index.html:112
+#: src/downloads/index.html:116
 msgid "No downloads required."
 msgstr "Walang kinakailangang pag-download."
 
@@ -474,7 +474,7 @@ msgstr "Orange"
 msgid "Overview"
 msgstr "Pangkalahatang-ideya"
 
-#: src/downloads/index.html:88
+#: src/downloads/index.html:92
 msgid "Paymetheus"
 msgstr "Paymetheus"
 
@@ -530,7 +530,8 @@ msgstr "Magpadala at Tumanggap ng Decred"
 msgid "Stable Version"
 msgstr "Stable Version"
 
-#: src/downloads/index.html:63 src/index.html:444 src/index.html:517
+#: src/brand/index.html:162 src/downloads/index.html:63 src/index.html:444
+#: src/index.html:517
 msgid "Stakepools"
 msgstr "Stakepools"
 
@@ -590,14 +591,14 @@ msgstr ""
 msgid "The quick tour"
 msgstr "Ang mabilis na paglilibot"
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:137
 msgid ""
 "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 "Third party CUDA miner para sa NVIDIA GPUs. Hindi sinusuportahan ng pangkat "
 "na Decred."
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:144
 msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
@@ -624,7 +625,7 @@ msgstr "Turquiose"
 msgid "Typography"
 msgstr "Typography"
 
-#: src/downloads/index.html:118
+#: src/downloads/index.html:122
 msgid "View on GitHub"
 msgstr "Tingnan sa GitHub"
 
@@ -636,7 +637,7 @@ msgstr "Toolkit ng visual na komunikasyon"
 msgid "Voting"
 msgstr "Pagboto"
 
-#: src/index.html:445
+#: src/brand/index.html:163 src/index.html:445
 msgid "Voting Dashboard"
 msgstr "Dashboard ng Pagboto"
 
@@ -644,19 +645,19 @@ msgstr "Dashboard ng Pagboto"
 msgid "Warning:"
 msgstr "Babala:"
 
-#: src/downloads/index.html:108
+#: src/downloads/index.html:112
 msgid "Webwallet"
 msgstr "Webwallet"
 
-#: src/downloads/index.html:93
+#: src/downloads/index.html:97
 msgid "Win 32-bit"
 msgstr "Win 32-bit"
 
-#: src/downloads/index.html:91
+#: src/downloads/index.html:95
 msgid "Win 64-bit"
 msgstr "Win 64-bit"
 
-#: src/downloads/index.html:100
+#: src/downloads/index.html:104
 msgid "Windows"
 msgstr "Windows"
 
@@ -668,11 +669,11 @@ msgstr "_direction"
 msgid "_language"
 msgstr "_language"
 
-#: src/downloads/index.html:132
+#: src/downloads/index.html:136
 msgid "ccminer"
 msgstr "ccminer"
 
-#: src/downloads/index.html:135
+#: src/downloads/index.html:139
 msgid "ccminer releases"
 msgstr "ccminer releases"
 
@@ -680,19 +681,19 @@ msgstr "ccminer releases"
 msgid "deCRED brand"
 msgstr "deCRED brand"
 
-#: src/brand/index.html:171 src/index.html:455
+#: src/brand/index.html:173 src/index.html:455
 msgid "downloads"
 msgstr "downloads"
 
-#: src/downloads/index.html:125
+#: src/downloads/index.html:129
 msgid "gominer"
 msgstr "gominer"
 
-#: src/downloads/index.html:128
+#: src/downloads/index.html:132
 msgid "gominer releases"
 msgstr "Release ng gominer"
 
-#: src/downloads/index.html:102
+#: src/downloads/index.html:106
 msgid "macOS"
 msgstr "macOS"
 
@@ -700,19 +701,19 @@ msgstr "macOS"
 msgid "mined so far"
 msgstr "Minahan sa ngayon"
 
-#: src/downloads/index.html:139
+#: src/downloads/index.html:143
 msgid "sgminer"
 msgstr "sgminer"
 
-#: src/downloads/index.html:142
+#: src/downloads/index.html:146
 msgid "sgminer releases"
 msgstr "sgminer releases"
 
-#: src/index.html:450
+#: src/brand/index.html:168 src/index.html:450
 msgid "stable"
 msgstr "Matatag"
 
-#: src/brand/index.html:170 src/index.html:111 src/index.html:454
+#: src/brand/index.html:172 src/index.html:111 src/index.html:454
 msgid "total"
 msgstr "total"
 
