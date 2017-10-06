@@ -2583,6 +2583,12 @@ html[lang="ar"] .section-title-download-page {
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1240px) {
+  .front {
+    width: 62%;
+  }
+}
+
    html.w-mod-touch * {
       background-attachment: none !important;
     }
