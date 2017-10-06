@@ -2611,7 +2611,7 @@ html[lang="ar"] .section-title-download-page {
       cursor: pointer;
       cursor: hand;
     }
-    @media (min-width: 992px) and (max-width: 1024px) {
+    @media (min-width: 992px) and (max-width: 1230px) {
       .front {
         width: 480px;
       }
