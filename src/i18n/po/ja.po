@@ -65,7 +65,7 @@ msgid ""
 "\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
 "\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
 msgstr ""
-"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work(PoW)</a>では、トランザクションはブロックに分けられます。そしてこれらのブロックはPoWマイナーによって検証されます。検証されたブロックは、Decredのネットワークに永久的に保存されることになります。</p>\n"
+"<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work(PoW)</a>では、トランザクションはブロックに分けられ、PoWマイナーによって検証されます。検証されたブロックは、Decredのネットワークに永久的に保存されることになります。</p>\n"
 "\t\t<p>計算資源をネットワークに提供することでマイナーになることができます。マイナーにはその報酬としてDecredが与えられます。</p>\n"
 "\t\t<p>効率や利便性を求める場合は、<a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">マイニングプール</a>に参加することが可能です。プールとは、作業や報酬をシェアするマイナーたちのグループです。小規模マイニングで一定の報酬を得るには、マイニングプールへの参加がおすすめです。</p>"
 

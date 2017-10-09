@@ -369,7 +369,7 @@ msgstr "محفظة ذات واجهة مستخدم رسومية لويندوز"
 
 #: src/downloads/index.html:102
 msgid "GUI wallet for Windows, macOS and Linux"
-msgstr ""
+msgstr "محفظة ذات واجهة مستخدم رسومية لنظام ويندوز و ماك و لينكس "
 
 #: src/downloads/index.html:56 src/index.html:510 src/index.html:79
 msgid "Getting Started"
@@ -655,7 +655,7 @@ msgstr "ويندوز 64-بت"
 
 #: src/downloads/index.html:104
 msgid "Windows"
-msgstr ""
+msgstr "ويندوز "
 
 #: src/brand/index.html:3 src/downloads/index.html:2 src/index.html:2
 msgid "_direction"

@@ -1,11 +1,11 @@
 # Translators:
+# Lav Radis <manastir@gmail.com>, 2017
 # Nikola Bencic <bencic.nikola@icloud.com>, 2017
 # Peter Banik <peter@froggle.org>, 2017
-# Lav Radis <manastir@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Lav Radis <manastir@gmail.com>, 2017\n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Croatian (https://www.transifex.com/decred/teams/76223/hr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: src/downloads/index.html:151
 msgid "3RD PARTY WALLETS"
-msgstr "Alternativni novcanici"
+msgstr "Alternativni novčanici "
 
 #: src/brand/index.html:184 src/index.html:466
 msgid "<!-- localized footer social media links -->"
