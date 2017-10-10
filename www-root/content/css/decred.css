@@ -1818,7 +1818,7 @@ html[lang="ar"] body {
   opacity: 0.85;
 }
 
-.logo-download-page {
+.logo-download-page, .logo-stakepool-page {
   display: block;
   width: 100%;
   height: 101px;
@@ -1833,13 +1833,13 @@ html[lang="ar"] body {
   background-repeat: no-repeat;
 }
 
-.logo-download-page:hover {
+.logo-download-page:hover, .logo-stakepool-page:hover {
   opacity: 0.85;
 }
 
-.header-download-page {
+.header-download-page, .header-stakepool-page {
   width: 430px;
-  margin-top: 100px;
+  margin-top: 15px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -1854,7 +1854,7 @@ html[lang="ar"] body {
   flex: 0 auto;
 }
 
-.main-download-page {
+.main-download-page, .main-stakepool-page {
   display: block;
   width: 1180px;
   height: 100%;
@@ -1936,7 +1936,7 @@ html[lang="ar"] .section-title-download-page {
   background-position: 95% 10px;
 }
 
-.download-page {
+.download-page, .stakepool-page {
   background-image: none;
   color: #0c1e3e;
 }
@@ -1962,7 +1962,7 @@ html[lang="ar"] .section-title-download-page {
   text-decoration: underline;
 }
 
-.header-title-download-page {
+.header-title-download-page, .header-title-stakepool-page {
   margin-bottom: 15px;
   color: #2970ff;
   font-size: 28px;
@@ -2240,14 +2240,14 @@ html[lang="ar"] .section-title-download-page {
     position: relative;
     padding-left: 0px;
   }
-  .logo-download-page {
+  .logo-download-page, .logo-stakepool-page {
     height: 82px;
     margin-left: 0px;
   }
-  .header-download-page {
+  .header-download-page, .header-stakepool-page {
     margin-top: 60px;
   }
-  .main-download-page {
+  .main-download-page, .main-stakepool-page {
     width: 100%;
     padding-right: 20px;
     padding-left: 70px;
@@ -2474,13 +2474,13 @@ html[lang="ar"] .section-title-download-page {
     margin-left: 0px;
     float: none;
   }
-  .logo-download-page {
+  .logo-download-page, .logo-stakepool-page {
     margin-left: 0px;
   }
-  .header-download-page {
+  .header-download-page, .header-stakepool-page {
     margin-top: 40px;
   }
-  .main-download-page {
+  .main-download-page, .main-stakepool-page {
     padding-left: 20px;
   }
   .section-download-page {
@@ -2568,7 +2568,7 @@ html[lang="ar"] .section-title-download-page {
   .button.all-downloads {
     float: none;
   }
-  .header-download-page {
+  .header-download-page, .header-stakepool-page {
     width: 100%;
   }
   .section-download-page {
