@@ -4,6 +4,14 @@ function setLanguage(language){
 	location.reload();
 }
 
+function setFallbackLanguage() {
+  const fallbackLanguage = 'en';
+  Cookies.set('lang', fallbackLanguage);
+  $langSelector.val(fallbackLanguage);
+
+  location.reload();
+}
+
 $(document).ready(function() {
 
 	// for json API
@@ -15,14 +23,18 @@ $(document).ready(function() {
 
 	if(Cookies.get('lang')){
 		$langSelector.val(Cookies.get('lang'));
-	} else if(navigator.languages.length){
-		const fallbackLanguage = 'en';
+	} else if(navigator && navigator.languages && navigator.languages.length){
 		var prefLanguage = navigator.languages[0].split('-');
     var languagesList = $langSelector.children('option').map(function() { return this.value; }).toArray();
-    prefLanguage = languagesList.indexOf(prefLanguage) !== -1 ? prefLanguage : fallbackLanguage;
 
-    $langSelector.val(prefLanguage);
-	}
+    if (languagesList.indexOf(prefLanguage) !== -1) {
+      $langSelector.val(prefLanguage);
+    } else {
+      setFallbackLanguage();
+    }
+	} else {
+	  setFallbackLanguage();
+  }
 
 	$langSelector.on('change', function(e){
 		var language = e.currentTarget.value;
