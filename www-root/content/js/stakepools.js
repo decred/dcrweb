@@ -86,7 +86,8 @@ $(document).ready(function() {
                 "paging": false,
                 "searching": false,
                 "info": false,
-                'lengthChange': false
+                'lengthChange': false,
+                'responsive': true
             });
         },
     });
