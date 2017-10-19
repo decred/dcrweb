@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 64" style="enable-background:new 0 0 32 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#D5EDFA;}
+	.st3{fill:#FFFFFF;}
+</style>
+<g id="Layer_2_1_" class="st0">
+</g>
+<g id="specctr" class="st0">
+	<g id="Dimensions" class="st1">
+	</g>
+	<g id="Spacing" class="st1">
+	</g>
+	<g id="Text_Properties" class="st1">
+	</g>
+	<g id="Object_Properties" class="st1">
+	</g>
+</g>
+<path class="st2" d="M23,36H9c-2.8,0-5,2.2-5,5v14c0,2.8,2.2,5,5,5h14c2.8,0,5-2.2,5-5V41C28,38.2,25.8,36,23,36z M12,55H9V44h3V55z
+	 M10.5,42.7c-1,0-1.8-0.8-1.8-1.8s0.8-1.8,1.8-1.8s1.8,0.8,1.8,1.8S11.5,42.7,10.5,42.7z M24,55h-3v-5.6c0-3.4-4-3.1-4,0V55h-3V44h3
+	v1.8c1.4-2.6,7-2.8,7,2.5V55z"/>
+<path class="st3" d="M23,4H9C6.2,4,4,6.2,4,9v14c0,2.8,2.2,5,5,5h14c2.8,0,5-2.2,5-5V9C28,6.2,25.8,4,23,4z M12,23H9V12h3V23z
+	 M10.5,10.7c-1,0-1.8-0.8-1.8-1.8s0.8-1.8,1.8-1.8S12.2,8,12.2,9S11.5,10.7,10.5,10.7z M24,23h-3v-5.6c0-3.4-4-3.1-4,0V23h-3V12h3
+	v1.8c1.4-2.6,7-2.8,7,2.5V23z"/>
+</svg>
