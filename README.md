@@ -15,7 +15,7 @@ Make sure you have [git](https://git-scm.com/) installed.
 
 ```sh
 git clone https://github.com/decred/dcrweb
-cd dcrweb;
+cd dcrweb
 ```
 
 #### Importing new translations and content updates
@@ -31,7 +31,7 @@ When you run this for the first time, you'll be asked to log in with your Transi
 To push the changes to staging:
 
 ```sh
-git commit -m'Translation update'
+git commit -m 'Translation update'
 git push origin
 ```
 
@@ -128,4 +128,4 @@ This will start the development web server at `http://localhost:8080`
 
 ## License
 
-decredweb is licensed under the liberal ISC License.
+dcrweb is licensed under the liberal ISC License.
