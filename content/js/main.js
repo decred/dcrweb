@@ -36,7 +36,7 @@ $(window).load(function () {
 		$langSelector.on('change', function(e){
 			var language = e.currentTarget.value;
 			setLanguage(language);
-		});*/
+		});
 
 	var time = 100,
 		viewport = $(window),
