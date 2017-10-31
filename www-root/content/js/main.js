@@ -21,21 +21,20 @@ $(window).load(function () {
 
 	// language selector
 	$langSelector = $("#language-selector");
-	
+
 		if(Cookies.get('lang')){
 			$langSelector.val(Cookies.get('lang'));
 		} else if(navigator.languages.length){
 			const fallbackLanguage = 'en';
 			var prefLanguage = navigator.languages[0].split('-');
-		var languagesList = $langSelector.children('option').map(function() { return this.value; }).toArray();
+		var languagesList = $langSelector.children('.lang-selection').map(function() { return this.getAttribute('data-language'); }).toArray();
 		prefLanguage = languagesList.indexOf(prefLanguage) !== -1 ? prefLanguage : fallbackLanguage;
-	
+
 		$langSelector.val(prefLanguage);
 		}
-	
-		$langSelector.on('change', function(e){
-			var language = e.currentTarget.value;
-			setLanguage(language);
+
+		$langSelector.on('click', '.lang-selection', function(e){
+			setLanguage(e.currentTarget.getAttribute('data-language'));
 		});
 
 	var time = 100,
@@ -54,7 +53,7 @@ $(window).load(function () {
 		footerRelease = $('#footerRelease'),
 		footerDownloads = $('#footerDownloads'),
 
-		
+
 
 		// font weight
 		fontRegular = 'fontregular',
@@ -197,13 +196,13 @@ $(window).load(function () {
 		teamMember.hide();
 		teamMembers.each(function(i){
 			var filteredMember = $(this).find('[data-filter="' + selectedCatergory + '"]');
-			
+
 			filteredMember.fadeTo(time*2, 1);
 		});
 	}).eq(0).trigger('click');
 
 	teamCorporateLogo.add(teamSlack).on('mouseenter', function() {
-		
+
 		// get text
 		var dataBaloonGetText = '';
 		if($(this).is(teamCorporateLogo)) {
@@ -213,12 +212,12 @@ $(window).load(function () {
 		if($(this).is(teamSlack)) {
 			dataBalloonTop.hide();
 			dataBaloonGetText = $(this).parent().parent().attr('data-slack');
-		}	
+		}
 		dataBalloonBottom.text(dataBaloonGetText);
 
 		// balloon follow
 		$(this).mousemove( function(e) {
-			teamDataBalloon.css({'left': e.pageX-(teamDataBalloon.width()/2), 'top': e.pageY+20});    
+			teamDataBalloon.css({'left': e.pageX-(teamDataBalloon.width()/2), 'top': e.pageY+20});
 		});
 
 		teamDataBalloon.addClass('active');
@@ -227,7 +226,7 @@ $(window).load(function () {
 	});
 
 	teamCorporateLogo.add(teamTwitter).on('mouseenter', function() {
-		
+
 		// get text
 		var dataBaloonGetText = '';
 		if($(this).is(teamCorporateLogo)) {
@@ -237,12 +236,12 @@ $(window).load(function () {
 		if($(this).is(teamTwitter)) {
 			dataBalloonTop.hide();
 			dataBaloonGetText = $(this).parent().parent().attr('data-twitter');
-		}	
+		}
 		dataBalloonBottom.text(dataBaloonGetText);
 
 		// balloon follow
 		$(this).mousemove( function(e) {
-			teamDataBalloon.css({'left': e.pageX-(teamDataBalloon.width()/2), 'top': e.pageY+20});    
+			teamDataBalloon.css({'left': e.pageX-(teamDataBalloon.width()/2), 'top': e.pageY+20});
 		});
 
 		teamDataBalloon.addClass('active');
@@ -289,14 +288,14 @@ $(window).load(function () {
 	playButton.add(mobilePlayButton).add($('.video-modal-close')).click( function() {
 		if($(this).is(playButton) || $(this).is(mobilePlayButton)) {
 			videoModal.addClass('active');
-			
+
 			// play media element
 			videoModalPlayPauseButton.children().eq(0).click();
 			return false;
 		}
 		if($(this).is($('.video-modal-close'))) {
 			videoModal.removeClass('active');
-			
+
 			// play media element
 			videoModalPlayPauseButton.children().eq(0).click();
 			jQuery.each(mejs.players, function(key, val) {
@@ -352,7 +351,7 @@ $(window).load(function () {
 	}).slice(0, trianglesHide).forEach( function(e) {
 		triangle.eq(e).hide();
 	}, this);
-	
+
 	function numberWithSpaces(x) {
 		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 	}
@@ -647,7 +646,7 @@ $(window).load(function () {
 	});
 
 
-	
+
 
 
 });
