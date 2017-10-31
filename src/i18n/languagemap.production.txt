@@ -10,3 +10,4 @@ es es
 el el
 ja ja
 ko ko
+fr fr
