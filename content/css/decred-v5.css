@@ -2205,7 +2205,6 @@ body {
 }
 
 .lang-menu {
-  display: none;
   position: absolute;
   z-index: 0;
   overflow: hidden;
