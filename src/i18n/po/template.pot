@@ -232,7 +232,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
@@ -263,6 +263,7 @@ msgid "Dark Blue"
 msgstr ""
 
 #: src/index.html:6
+#: src/index.html:8
 msgid "Decred - Autonomous Digital Currency"
 msgstr ""
 
@@ -284,10 +285,6 @@ msgstr ""
 
 #: src/stakepools/index.html:6
 msgid "Decred - Stakepools"
-msgstr ""
-
-#: src/index.html:8
-msgid "Decred - decentralised creditÄ"
 msgstr ""
 
 #: src/press/index.html:130
@@ -423,7 +420,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
@@ -449,7 +446,7 @@ msgstr ""
 #: src/contributors/index.html:328
 #: src/downloads/index.html:118
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Downloads"
@@ -494,7 +491,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:222
-#: src/index.html:577
+#: src/index.html:586
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
@@ -543,7 +540,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
@@ -597,7 +594,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:222
-#: src/index.html:577
+#: src/index.html:586
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Mission"
@@ -618,7 +615,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
@@ -627,7 +624,7 @@ msgstr ""
 #: src/brand/index.html:186
 #: src/contributors/index.html:329
 #: src/downloads/index.html:224
-#: src/index.html:579
+#: src/index.html:588
 #: src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
@@ -676,7 +673,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:222
-#: src/index.html:577
+#: src/index.html:586
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
@@ -729,7 +726,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:118
 #: src/stakepools/index.html:186
@@ -813,7 +810,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:223
-#: src/index.html:578
+#: src/index.html:587
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
@@ -842,7 +839,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:222
-#: src/index.html:577
+#: src/index.html:586
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
@@ -893,7 +890,7 @@ msgstr ""
 #: src/brand/index.html:187
 #: src/contributors/index.html:330
 #: src/downloads/index.html:225
-#: src/index.html:580
+#: src/index.html:589
 #: src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"

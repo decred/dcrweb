@@ -345,8 +345,8 @@ msgid "Decred - Stakepools"
 msgstr "Decred - Stakepools"
 
 #: src/index.html:8
-msgid "Decred - decentralised creditÄ"
-msgstr "Decred - decentralised creditÄ"
+msgid "Decred - Autonomous Digital Currency"
+msgstr "Decred - Autonomous Digital Currency"
 
 #: src/press/index.html:130
 msgid ""

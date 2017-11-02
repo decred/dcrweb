@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -286,7 +286,7 @@ msgid "Decred - Stakepools"
 msgstr ""
 
 #: src/index.html:8
-msgid "Decred - decentralised creditÄ"
+msgid "Decred - Autonomous Digital Currency"
 msgstr ""
 
 #: src/press/index.html:130
