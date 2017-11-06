@@ -42,15 +42,15 @@ table.dataTable {
     background-repeat: no-repeat;
     background-position: center right; }
   table.dataTable thead .sorting {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_asc {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_desc {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_asc_disabled {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_desc_disabled {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable tbody th,
   table.dataTable tbody td {
     padding: 8px 10px; }
@@ -399,13 +399,13 @@ table.dataTable td {
       color: #fd714a !important;
   }
   table.dataTable thead .sorting {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_asc {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_desc {
-    background-image: url("http://eeter.co/decred/sort.svg"); }
+    background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_asc_disabled {
-    background-image: url("http://eeter.co/decred/sortDisabled.svg"); }
+    background-image: url("../images/sortDisabled.svg"); }
   table.dataTable thead .sorting_desc_disabled {
-    background-image: url("http://eeter.co/decred/sortDisabled.svg"); }
+    background-image: url("../images/sortDisabled.svg"); }
   /*custom*/
