@@ -291,6 +291,7 @@ $(window).load(function () {
 
 			// play media element
 			videoModalPlayPauseButton.children().eq(0).click();
+			_paq.push(['trackEvent', 'Video', 'Play', 'Intro']);
 			return false;
 		}
 		if($(this).is($('.video-modal-close'))) {
@@ -298,6 +299,7 @@ $(window).load(function () {
 
 			// play media element
 			videoModalPlayPauseButton.children().eq(0).click();
+			_paq.push(['trackEvent', 'Video', 'Close', 'Intro']);
 			jQuery.each(mejs.players, function(key, val) {
 				val.pause();
 			});
