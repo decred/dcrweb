@@ -380,6 +380,10 @@ msgstr ""
 msgid "Decred press"
 msgstr ""
 
+#: src/stakepools/index.html:8
+msgid "Decred stakepools"
+msgstr ""
+
 #: src/index.html:234
 msgid "Decred uses a censorship-resistant blockchain-anchored public proposal platform, which empowers users to submit their own projects for self-funding from DCR’s block subsidy. Politeia (Pi) ensures the ecosystem remains sustainable and thrives."
 msgstr ""
@@ -804,6 +808,7 @@ msgid "View on Github →"
 msgstr ""
 
 #: src/brand/index.html:7
+#: src/brand/index.html:9
 msgid "Visual communication toolkit"
 msgstr ""
 
