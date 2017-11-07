@@ -42,12 +42,12 @@
   <meta name="theme-color" content="#ffffff">
   <style type="text/css">
     .footerblockindicator {
+        word-break: break-all;
         -ms-word-break: break-all;
-        word-break: break-all; // Non standard for webkit
-        word-break: break-word;
+        -webkit-word-break: break-word;
+        hyphens: auto;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
-        hyphens: auto;
       }
       .turquoise {
         fill: #2ed8a3;
@@ -102,7 +102,6 @@
       .column {
         margin-bottom: 20px;
       }
-    }
     </style>
      <!-- Piwik -->
   <script type="text/javascript">
