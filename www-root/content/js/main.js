@@ -9,11 +9,6 @@ function setLanguage(language){
 
 $(window).load(function () {
 
-	// for css cache
-	$('link').each( function() {
-		$(this).attr('href', $(this).attr('href')+'?'+Math.random().toString(36).substr(2, 5));
-	});
-
 	// for json API
 	$.ajaxSetup({
 		async: false
