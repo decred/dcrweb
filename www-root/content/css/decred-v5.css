@@ -4761,3 +4761,8 @@ text-decoration: none;
 .windl {
   display: none;
 }
+
+
+.hidden {
+  visibility: hidden;
+}
