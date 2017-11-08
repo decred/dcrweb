@@ -40,6 +40,11 @@ RewriteEngine on
 # keep API urls intact
 RedirectMatch ^/api/(.*) https://api.decred.org/$1
 
+# fix trailing slash handling
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(.*[^/])$
+RewriteRule ^(.*)$ "%1/" [R,L]
+
 # prevent redirect loops
 RewriteCond %{ENV:REDIRECT_STATUS} 200
 RewriteRule .* - [L]

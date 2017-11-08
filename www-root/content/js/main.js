@@ -181,11 +181,12 @@ $(window).load(function () {
 
 	// team subpage
 	teamMember.hide();
+	teamMembers.removeClass('hidden');
 	teamFilterButton.click(function () {
 		teamFilterButton.not($(this)).removeClass('active');
 		$(this).addClass('active');
 
-		var selectedCatergory = $(this).text().toLowerCase(),
+		var selectedCatergory = $(this).data('filter').toLowerCase(),
 			membersToSort = [];
 
 		teamMember.hide();
