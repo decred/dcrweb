@@ -428,6 +428,10 @@ body {
   background-color: #0c1e3e;
 }
 
+.guide .header {
+  cursor: pointer;
+}
+
 .width940 {
   display: block;
   width: 940px;
