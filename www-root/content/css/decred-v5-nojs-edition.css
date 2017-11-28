@@ -3145,6 +3145,33 @@ body {
   width: 960px;
 }
 
+.ptsjs.nojs-contractors {
+  background-image: url('../images/nojs/pt1.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ptsjs.nojs-press {
+  background-image: url('../images/nojs/pt2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.ptsjs.nojs-stakepools {
+  background-image: url('../images/nojs/pt3.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.ptsjs.nojs-downloads {
+  background-image: url('../images/nojs/pt4.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
 .team-filter {
   position: relative;
   z-index: 1;
