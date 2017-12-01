@@ -593,18 +593,6 @@ $(window).load(function () {
 		stakepoolFinder();
 		};
 
-	// upon window load
-	// first view
-	bgIllustration.css('width', (viewport.width() / 2) - 80);
-	bgGhost.css('width', (viewport.width() / 2) + 80);
-	// upon resize
-	viewport.resize(function () {
-
-		// first view
-			bgIllustration.css('width', ($(this).width() / 2) - 80);
-			bgGhost.css('width', ($(this).width() / 2) + 80);
-	});
-
 	// navigation menu
 	navigationButton.click( function() {
 		navOpenClose.add(linkSection).toggleClass('active');
