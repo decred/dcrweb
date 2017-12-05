@@ -2096,7 +2096,7 @@ body {
 .bg-illustration {
   position: relative;
   overflow: hidden;
-  width: calc(50% + 80px);
+  width: calc(50% - 80px);
   height: 100vh;
   background-image: url('../images/front-bg-anim_.gif'), -webkit-linear-gradient(270deg, #091440, #091440);
   background-image: url('../images/front-bg-anim_.gif'), linear-gradient(180deg, #091440, #091440);
