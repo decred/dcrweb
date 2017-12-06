@@ -56,11 +56,11 @@ RewriteCond %{REQUEST_URI} ^/([a-z]{2})/
 RewriteRule .* - [L]
 
 # rewrite the request to https://www.decred.org/ to decred.org/<lang_code>/
-# first looks at the 'lang' cookie (set by the language chooser)
+# first looks at the 'langv2' cookie (set by the language chooser)
 # falls back to first language in the Accept-Language header
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} /$
-RewriteCond %{HTTP_COOKIE} ;?lang=([a-z]{2,3})[-,;]? [OR]
+RewriteCond %{HTTP_COOKIE} ;?langv2=([a-z]{2,3})[-,;]? [OR]
 RewriteCond %{HTTP:Accept-Language} ^([a-z]{2,3})[-,;]? [OR]
 RewriteCond en (en)
 RewriteRule ^(.*)$ "${languagemap:%1|en}/$1" [QSA,L]
