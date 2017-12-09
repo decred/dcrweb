@@ -1,0 +1,1069 @@
+# Translators:
+# hypernoob <hypernoob@outlook.com>, 2017
+# Peter Banik <peter@froggle.org>, 2017
+# e2f_cn c5 <jarvisn@ecinnovations.com>, 2017
+# moondcr <jodo4x@gmail.com>, 2017
+# Billy Xing <billxingyang@gmail.com>, 2017
+# TING-YI SHIH <love775588972@gmail.com>, 2017
+# Ashley Chen <chenhuanxian.ashley@outlook.com>, 2017
+# Hao Jun Tan <hjt257@stern.nyu.edu>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Last-Translator: Hao Jun Tan <hjt257@stern.nyu.edu>, 2017\n"
+"Language-Team: Chinese (https://www.transifex.com/decred/teams/79156/zh/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/brand/index.html:149 src/contributors/index.html:294
+#: src/downloads/index.html:183 src/index.html:543 src/press/index.html:199
+#: src/stakepools/index.html:152
+msgid "2017 Roadmap"
+msgstr "2017 蓝图"
+
+#: src/downloads/index.html:167
+msgid "3RD PARTY WALLETS"
+msgstr "第 3 方钱包"
+
+#: src/brand/index.html:64
+msgid "<br>Visual communication toolkit"
+msgstr "<br>视觉通信工具包"
+
+#: src/brand/index.html:140
+msgid ""
+"<p class=\"brand colordarkblue font28 margin65\">Decred’s visual identities "
+"objectives are to represent it amongst digital currencies, support "
+"consistent use across a variety of platforms as well be memorable and "
+"engaging for onboarding new adopters. This is achived through a correct "
+"usage of the logo, type setting, color direction and graphic assets. We have"
+" developed a simple style templates suitable for all users as well for "
+"designers to produce more complex materials.</p><a "
+"href=\"/media/visual_toolkit.pdf\" target=\"_blank\" class=\"brand colorblue"
+" font16\">Download Full Package ↓</a>"
+msgstr ""
+"<p class=\"brand colordarkblue font28 margin65\">Decred "
+"的视觉识别目标是使用多种数字货币对其进行表示、支持跨平台统一使用、并为新注册用户留下深刻和愉悦的印象。为了实现这一目标，我们选择使用正确的徽标、类型设置、颜色方向和图形资产。我还们开发出一个样式简单的模型，该模型适合所有用户，而且能够帮助设计人员生产更加复杂的材料。</p><a"
+" href=\"/media/visual_toolkit.pdf\" target=\"_blank\" class=\"brand "
+"colorblue font16\">全套下载 ↓</a>"
+
+#: src/index.html:381
+msgid ""
+"<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">begin with D and contain 26-36 alphanumeric characters</a>.</p>\n"
+"\t\t<p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. That is, a transfer of 100DCR would incur a fee of about 0.006DCR.</p>\n"
+"\t\t<p>The block explorers <a href=\"https://mainnet.decred.org\" target=\"_blank\">mainnet.decred.org</a> and <a href=\"https://explorer.dcrdata.org\" target=\"_blank\">explorer.dcrdata.org</a> allow users to search all the blocks and transactions in the Decred blockchain.</p>"
+msgstr ""
+"<p>只需一个地址，即可轻松发送或接收代币。而地址可以在任意 Decred 钱包中生成。Decred 地址通常<a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">以字母 D 开头并包含 26-36 个字母或数字字符</a>。</p>\n"
+"\t\t<p>代币通常在每笔交易完成后的 5 分钟之内结算，而且会产生一小笔手续费以便用于网络维护，这笔费用将在交易金额的基础上额外产生；比如：一笔金额为 100 DCR 的交易通常会产生 0.006 DCR 的手续费。</p>\n"
+"\t\t<p>区块浏览器 <a href=\"https://mainnet.decred.org\" target=\"_blank\">mainnet.decred.org</a> 和 <a href=\"https://explorer.dcrdata.org\" target=\"_blank\">explorer.dcrdata.org</a> 允许用户在 Decred 区块链上搜索所有的区块和交易。</p>"
+
+#: src/index.html:473
+msgid ""
+"<p>Decred is still new, and at this time, the easiest way to purchase it is "
+"with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-"
+"dcr/#bitcoin\" title=\"_blank\">Once you have some Bitcoin</a>, it can be "
+"traded for Decred <a href=\"https://docs.decred.org/getting-started"
+"/obtaining-dcr/#exchanges\" title=\"_blank\">at digital currency "
+"exchanges</a>.</p>"
+msgstr ""
+"<p>Decred 仍然是一种新的加密货币，目前，最简单的购买方式是使用比特币。<a href=\"https://docs.decred.org"
+"/getting-started/obtaining-dcr/#bitcoin\" "
+"title=\"_blank\">只要您持有一些比特币</a>，就可以在<a href=\"https://docs.decred.org"
+"/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\">数字货币交易所</a>兑换 "
+"Decred。</p>"
+
+#: src/index.html:427
+msgid ""
+"<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p>\n"
+"\t\t<p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p>\n"
+"\t\t<p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
+msgstr ""
+"<p>在<a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">工作量证明机制 (PoW) </a>中，交易被打包到区块中，这些区块由 PoW 矿工进行验证；当区块得到验证后，它就永久地成为 Decred 网络的一部分。</p>\n"
+"\t\t<p>您可以通过将闲置的计算资源（算力）贡献给 Decred 网络而成为一名矿工，矿工会得到 Decred 作为奖励。</p>\n"
+"\t\t<p>为了提高挖矿的效率和便捷性，您可以加入<a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">矿池</a>。矿池是矿工们组成的团体，他们共同分担工作，并根据算力贡献来分配挖矿的奖励。对算力较低的个体矿工而言，加入矿池是获得持续、稳定挖矿收益的绝佳方式。</p>"
+
+#: src/index.html:518
+msgid ""
+"<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2017:</p>\n"
+"\t\t<ul>\n"
+"\t\t<li translate=\"\">Hard fork voting</li>\n"
+"                <li>A stakeholder-directed DAO</li>\n"
+"                <li>Decentralized control of development funds</li>\n"
+"                <li>Lightning network support</li>\n"
+"                <li>Continuous UI and Design development</li>\n"
+"                <li>Enhanced privacy</li>\n"
+"                <li>Payment integration</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+msgstr ""
+"<p>来自新区块的一部分奖励将用于支持 Decred 项目的发展，以确保它能够持续改善，满足现在和未来几年内社区的需求和愿景。以下是我们计划在 2017 年发布的一些功能：</p>\n"
+"\t\t<ul>\n"
+"\t\t<li translate=\"\">硬分叉投票</li>\n"
+"                <li>成为一个直接由利益相关者领导的去中心化组织</li>\n"
+"                <li>对发展基金的控制实现去中心化</li>\n"
+"                <li>支持闪电网络</li>\n"
+"                <li>持续改进用户界面和功能设计</li>\n"
+"                <li>增强匿名性</li>\n"
+"                <li>实现支付一体化</li>\n"
+"\t\t</ul>\n"
+"\t\t<p>您也可以在我们的博客上阅读到以上及更多关于 Decred 的信息。<a href=\"https://blog.decred.org\" target=\"_blank\">欢迎来到 Decred 的世界－数字货币的未来</a></p>"
+
+#: src/index.html:358
+msgid ""
+"<p>The Web Wallet is the easiest way to get started with Decred. All users can access it online via <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a>, without the need to download anything.</p>\n"
+"\t\t<p>For Windows, macOS, and Linux users, <a href=\"downloads/#decrediton\">Decrediton wallet</a> is available.</p>\n"
+"    <p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">Beginner’s Guide</a>.</p>"
+msgstr ""
+"<p>使用网页钱包是开始体验 Decred 的最简单方式，所有用户都可以通过 <a href=\"https://wallet.decred.org\" target=\"_blank\">wallet.decred.org</a> 访问网页钱包，而无需下载任何内容。</p>\n"
+"\t\t<p>对于 Windows、macOS 和 Linux 用户而言，可以使用 <a href=\"downloads/#decrediton\">Decrediton 钱包</a>。</p>\n"
+"  <p>为了帮助您快速入门，您可以访问我们的<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\">新手指南</a>。</p>"
+
+#: src/index.html:405
+msgid ""
+"<p>The term mining represents the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred coins.</p>\n"
+"\t\t<p>Decred has two methods of validating transactions: Proof-of-work (PoW) and Proof-of-stake (PoS).</p>"
+msgstr ""
+"<p>挖矿一词代表的是在 Decred 网络中验证交易的过程，以保证网络的安全性；作为工作回报，矿工会得到一些新产生的 Decred 代币作为奖励。</p>\n"
+"\t\t<p>Decred 有两种验证交易的方式：工作量证明 (PoW) 和权益证明 (PoS)。</p>"
+
+#: src/index.html:333
+msgid ""
+"<p>There are three main ways to interact with Decred:</p>\n"
+"\t\t<p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p>\n"
+"\t\t<p><strong>Proof-of-work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p>\n"
+"\t\t<p><strong>Proof-of-stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
+msgstr ""
+"<p>Decred 主要有 3 种交互方式：</p>\n"
+"\t\t<p><strong>钱包</strong>－用于发送和接收代币，以及参与 PoS 挖矿。</p>\n"
+"\t\t<p><strong>PoW 挖矿</strong>－使用计算能力在网络上验证交易，然后获得新产生的 Decred 代币。</p>\n"
+"\t\t<p><strong>PoS 挖矿</strong>－使用代币在重要的网络发展事项上来进行投票并验证交易，从而获得奖励。</p>"
+
+#: src/index.html:495
+msgid ""
+"<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://forum.decred.org\" title=\"_blank\">user forum</a>, <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\n"
+"We can't wait to meet you!</p>"
+msgstr ""
+"<p>通过去中心化的管理机制，拥有不同想法、目标和意见的人可以共同塑造未来。或许您会有一些疑问，那就加入我们不断壮大的社区吧；在那里您可以认识开发者和其他用户、获取信息、提出问题或只是单纯地打发时间。您可以通过我们的<a href=\"https://forum.decred.org\" title=\"_blank\">用户论坛</a>、<a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">聊天室</a>、<a href=\"https://t.me/Decred\" title=\"_blank\">Telegram 频道</a>和 <a href=\"https://slack.decred.org\" title=\"_blank\">Slack 频道</a>与开发者和其他用户进行实时沟通。当然，不要忘了还有 <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> 和 <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>。\n"
+"快来加入我们吧！</p>"
+
+#: src/index.html:449
+msgid ""
+"<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. In every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>\n"
+"\t\t<p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+msgstr ""
+"<p>与 PoW 不同，<a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">权益证明  (PoS) 挖矿</a>只需要很少的计算资源，可使用 Decred 代币购买网络上的选票；每一个区块会在所有活动状态的选票中随机选择 5 张来投票决定上个区块的合法性。</p>\n"
+"\t\t<p>PoS 给 Decred 添加了一个额外的去中心化层，允许用户来投票决定变更网络的建议。<a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">矿池同样可用于 PoS </a>，以确保您的选票可以在任何被选中的情况下都能及时进行投票表决。"
+
+#: src/index.html:171
+msgid "<span class=\"mission-chart-mined percent\">29.4%</span>  mined so far"
+msgstr "到目前为止挖出 <span class=\"mission-chart-mined percent\">29.4%</span>"
+
+#: src/press/index.html:186
+msgid "A beginner’s guide to Decred"
+msgstr "Decred 新手入门指南"
+
+#: src/index.html:210
+msgid "A censorship-resistant blockchain-anchored public proposal platform"
+msgstr "阻止审查的基于区块链的公共建议平台"
+
+#: src/downloads/index.html:144
+msgid ""
+"A cross-platform, automatic installer/updater for the command-line "
+"applications."
+msgstr "适用于命令行应用程序的跨平台自动安装／更新程序。"
+
+#: src/contributors/index.html:274 src/contributors/index.html:280
+msgid "Advisor"
+msgstr "顾问"
+
+#: src/contributors/index.html:131
+msgid "Advisory"
+msgstr "咨询"
+
+#: src/index.html:145
+msgid "All Downloads →"
+msgstr "所有下载 →"
+
+#: src/index.html:271
+msgid ""
+"All software developed as part of Decred shall be free and<br>open source-"
+"software."
+msgstr "所有作为 Decred 的一部分而开发的软件应免费且<br>开源。"
+
+#: src/press/index.html:172
+msgid ""
+"Amid Bitcoin Centralization Worries, Developers Start New Currency Called "
+"Decred"
+msgstr "出于对比特币集中化的担忧，开发人员开始使用新货币 Decred"
+
+#: src/index.html:209
+msgid ""
+"An innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) consensus "
+"voting system"
+msgstr "创新混合工作量证明 (PoW) 和权益证明 (PoS) 的共识投票系统"
+
+#: src/index.html:226
+msgid "Atomic Swaps"
+msgstr "原子交换"
+
+#: src/index.html:162
+msgid "Autonomy is self-rule. Stakeholders make the rules."
+msgstr "自治是自我治理。利益相关者制定规则。"
+
+#: src/index.html:315 src/index.html:338 src/index.html:362 src/index.html:385
+#: src/index.html:408 src/index.html:431 src/index.html:452 src/index.html:475
+#: src/index.html:498 src/index.html:530
+msgid "Back"
+msgstr "返回"
+
+#: src/brand/index.html:148 src/contributors/index.html:293
+#: src/downloads/index.html:182 src/index.html:542 src/press/index.html:198
+#: src/stakepools/index.html:151
+msgid "Become a Contributor"
+msgstr "成为贡献者"
+
+#: src/brand/index.html:148 src/contributors/index.html:293
+#: src/downloads/index.html:182 src/index.html:542 src/press/index.html:198
+#: src/stakepools/index.html:151
+msgid "Brand Resources"
+msgstr "品牌资源"
+
+#: src/index.html:174
+msgid "Built from 100% proven open-source technology."
+msgstr "使用经过证明的 100% 开源技术进行构建。"
+
+#: src/brand/index.html:149 src/contributors/index.html:294
+#: src/downloads/index.html:183 src/index.html:543 src/press/index.html:199
+#: src/stakepools/index.html:152
+msgid "Business Brief"
+msgstr "业务简介"
+
+#: src/index.html:467
+msgid "Buying and Trading Decred"
+msgstr "购买和交易 Decred"
+
+#: src/downloads/index.html:128
+msgid "CORE SOFTWARE"
+msgstr "核心软件"
+
+#: src/downloads/index.html:152
+msgid ""
+"CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred "
+"team."
+msgstr "适用于 AMD／NVIDIA 图形处理器的 CUDA／OpenCL 挖矿软件，由 Decred 团队提供官方支持。"
+
+#: src/press/index.html:158
+msgid "Chicago developers launch Decred, a Bitcoin alternative"
+msgstr "芝加哥开发人员推出了比特币替代品 Decred"
+
+#: src/downloads/index.html:143
+msgid "Command-line app suite"
+msgstr "命令行应用套件"
+
+#: src/contributors/index.html:131
+msgid "Community"
+msgstr "社区"
+
+#: src/brand/index.html:111
+msgid "Complimentary Colors"
+msgstr "补色"
+
+#: src/index.html:220
+msgid "Consensus Voting"
+msgstr "共识投票"
+
+#: src/index.html:314 src/index.html:337 src/index.html:361 src/index.html:384
+#: src/index.html:407 src/index.html:430 src/index.html:451 src/index.html:474
+#: src/index.html:497 src/index.html:529
+msgid "Continue"
+msgstr "继续"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/stakepools/index.html:186
+msgid "Contributors"
+msgstr "贡献者"
+
+#: src/contributors/index.html:115
+msgid "Corporate Contractor"
+msgstr "企业承包人"
+
+#: src/downloads/index.html:139
+msgid "Create a browser based Wallet →"
+msgstr "创建浏览器钱包 →"
+
+#: src/index.html:212
+msgid "Cross-chain atomic swaps between different digital currencies"
+msgstr "不同数字货币之间的交叉链式原子交换"
+
+#: src/index.html:244
+msgid "Cross-platform Wallets"
+msgstr "跨平台钱包"
+
+#: src/index.html:213
+msgid "Cross-platform wallets for ease of use"
+msgstr "易于使用的跨平台钱包"
+
+#: src/brand/index.html:100
+msgid "Dark Blue"
+msgstr "深蓝色"
+
+#: src/index.html:6 src/index.html:8
+msgid "Decred - Autonomous Digital Currency"
+msgstr "Decred - 自主数字货币"
+
+#: src/brand/index.html:6
+msgid "Decred - Brand"
+msgstr "Decred - 品牌"
+
+#: src/contributors/index.html:6
+msgid "Decred - Contributors"
+msgstr "Decred - 贡献者"
+
+#: src/downloads/index.html:6
+msgid "Decred - Downloads"
+msgstr "Decred - 下载"
+
+#: src/press/index.html:7
+msgid "Decred - Press"
+msgstr "Decred - 新闻报道"
+
+#: src/stakepools/index.html:6
+msgid "Decred - Stakepools"
+msgstr "Decred - PoS 矿池"
+
+#: src/press/index.html:130
+msgid ""
+"Decred Adds Atomic Swap Support for Exchange-Free Cryptocurrency Trading"
+msgstr "Decred 为自由兑换加密货币交易增加了原子交换支持"
+
+#: src/press/index.html:165
+msgid ""
+"Decred Releases v1.0: The World&#x27;s First Cryptocurrency of the People, "
+"for the People, and by the People"
+msgstr "Decred 版本 v1.0：世界上第一个“民有、民享、民治”的加密货币"
+
+#: src/press/index.html:144
+msgid "Decred Technical Analysis - Continuing upward momentum"
+msgstr "Decred 技术分析 - 继续发展势头"
+
+#: src/press/index.html:179
+msgid ""
+"Decred and Litecoin completed something called a cross-chain atomic swap"
+msgstr "Decred 和 Litecoin 完成了交叉链式原子交换"
+
+#: src/brand/index.html:8
+msgid "Decred brand"
+msgstr "Decred 品牌"
+
+#: src/index.html:227
+msgid ""
+"Decred does not require reliance on centralized exchanges. With cross-chain "
+"atomic swaps between different digital currencies, users can conduct "
+"trustless over-the-counter (OTC) trades without a third party."
+msgstr ""
+"Decred 不需要依赖于集中化兑换。通过不同数字货币之间的交叉链式原子交换，用户可以在没有第三方的情况下进行不可靠的场外 (OTC) 交易。"
+
+#: src/downloads/index.html:8
+msgid "Decred downloads"
+msgstr "Decred 下载"
+
+#: src/index.html:251
+msgid ""
+"Decred enjoys active development. Current milestones include a full "
+"stakeholder-directed decentralized autonomous organization (DAO) and "
+"enhanced user privacy."
+msgstr "Decred 正在积极开发。目前的里程碑包括一个完整的直接由利益相关者领导的去中心化组织 (DAO) 和增强的用户隐私。"
+
+#: src/index.html:245
+msgid ""
+"Decred features accessible wallets through graphical user interfaces (GUIs) "
+"across all major operating systems (Windows, macOS, and Linux). For more "
+"technical users, command line interface (CLI) wallets are also available."
+msgstr ""
+"Decred 通过所有主要操作系统 (Windows、macOS 和 Linux) 上的图形用户界面 (GUI) "
+"对可访问的钱包进行功能设置。对于更多技术用户，还可以使用命令行接口 (CLI) 钱包。"
+
+#: src/press/index.html:125
+msgid ""
+"Decred has been acknowledged as a leading cryptocurrency project by the "
+"Chicago Tribune, Bitcoin Magazine and Nasdaq. Below is a gallery of recent "
+"mentions."
+msgstr "Decred 被《芝加哥论坛报》《比特币杂志》和纳斯达克誉为最重要的加密货币项目。以下是最近的报道合辑。"
+
+#: src/index.html:239
+msgid ""
+"Decred implements smart contracts that work. Lightning Network (LN) is one "
+"such application of a low-latency off-chain system that allows for near-"
+"instant micropayments in DCR. With LN, Decred directly competes with "
+"existing fiat payment systems."
+msgstr ""
+"Decred 实施有效的智能合同。闪电网络 (LN) 是一种低延迟区块链外系统的应用程序，它允许以 DCR 进行即时的微支付。通过 LN，Decred "
+"可直接与现有的法定支付系统竞争。"
+
+#: src/brand/index.html:148 src/contributors/index.html:293
+#: src/downloads/index.html:182 src/index.html:542 src/press/index.html:198
+#: src/stakepools/index.html:151
+msgid "Decred in the Press"
+msgstr "新闻报道中的 Decred"
+
+#: src/index.html:312
+msgid ""
+"Decred is a multi-platform digital currency with support for Windows, macOS,"
+" and Linux. Easy-to-use wallet apps enable sending, receiving, and mining "
+"Decred with just a few clicks."
+msgstr ""
+"Decred 是一个支持 Windows、macOS 和 Linux 的多平台数字货币。使用钱包应用，只需点击几下即可实现 Decred "
+"的发送、接收和挖矿，非常容易使用。"
+
+#: src/index.html:138
+msgid "Decred is an autonomous digital currency."
+msgstr "Decred 是一种自主数字货币。"
+
+#: src/contributors/index.html:7 src/contributors/index.html:9
+#: src/downloads/index.html:7 src/downloads/index.html:9 src/index.html:7
+#: src/index.html:9 src/press/index.html:8 src/stakepools/index.html:7
+#: src/stakepools/index.html:9
+msgid ""
+"Decred is an autonomous digital currency. With a hybrid consensus system, it"
+" is built to be a decentralized, sustainable, and self-ruling currency where"
+" stakeholders make the rules."
+msgstr "Decred 是一种自主数字货币。通过混合共识系统，利益相关者可以制定规则，将其构建为去中心化、可持续和自治的货币。"
+
+#: src/index.html:207
+msgid ""
+"Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:<p></p>\n"
+"            <ul>\n"
+"              <li translate=\"\">An innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) consensus voting system</li>\n"
+"              <li translate=\"\">A censorship-resistant blockchain-anchored public proposal platform</li>\n"
+"              <li translate=\"\">Smart contracts that work such as Lightning Network</li>\n"
+"              <li translate=\"\">Cross-chain atomic swaps between different digital currencies</li>\n"
+"              <li translate=\"\">Cross-platform wallets for ease of use</li>\n"
+"            </ul>"
+msgstr ""
+"Decred 永续发展。我们的开发活动和质量处在该领域的前沿。Decred 软件的功能包括：<p></p>\n"
+"            <ul>\n"
+"              <li translate=\"\">创新混合工作量证明 (PoW) 和权益证明 (PoS) 的共识投票系统</li>\n"
+"              <li translate=\"\">抵抗审查的基于区块链的公共建议平台</li>\n"
+"              <li translate=\"\">有效的智能合同，例如闪电网络</li>\n"
+"              <li translate=\"\">不同数字货币之间的交叉链式原子交换</li>\n"
+"              <li translate=\"\">易于使用的跨平台钱包</li>\n"
+"            </ul>"
+
+#: src/press/index.html:137
+msgid ""
+"Decred launches decentralized voting process for blockchain protocol changes"
+msgstr "Decred 启动区块链协议变更的去中心化投票流程"
+
+#: src/press/index.html:9
+msgid "Decred press"
+msgstr "Decred 新闻报道"
+
+#: src/stakepools/index.html:8
+msgid "Decred stakepools"
+msgstr "Decred PoS 矿池"
+
+#: src/index.html:233
+msgid ""
+"Decred uses a censorship-resistant blockchain-anchored public proposal "
+"platform, which empowers users to submit their own projects for self-funding"
+" from DCR’s block subsidy. Politeia (Pi) ensures the ecosystem remains "
+"sustainable and thrives."
+msgstr ""
+"Decred 使用阻止审查的基于区块链的公共建议平台，授权用户从 DCR 的区块补贴中提交自我筹资的项目。Politeia (Pi) "
+"确保生态系统的可持续性和蓬勃发展。"
+
+#: src/index.html:221
+msgid ""
+"Decred uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) "
+"system to give stakeholders decision-making power about the set of consensus"
+" rules to activate. This allows for a seamless transition from one set of "
+"rules to another while keeping the existing blockchain ecosystem intact."
+msgstr ""
+"Decred 使用创新混合工作量证明 (PoW) 和权益证明 (PoS) "
+"系统，为利益相关者提供激活共识规则集的决策制定权。可实现从一组规则无缝过渡到另一组规则，同时保持现有区块链生态系统不变。"
+
+#: src/contributors/index.html:129
+msgid ""
+"Decred uses an novel contractor model which allows for proven contributors "
+"to be remunerated for their good work. This approach has helped forge a "
+"strong global team of developers, designers, and strategists, as well as a "
+"robust community. We welcome contributions from anyone who wishes to "
+"demonstrate their effort and skill in pursuit of the project's mission."
+msgstr ""
+"Decred "
+"采用一种新颖的承包模式，它能够让得到证明的贡献者因其出色的工作而获得报酬。这种方法有助于打造了一个由开发者、设计师和策略家组成的强大的全球团队，以及活跃的社区。对于那些愿意为完成项目使命而付出努力和技能的人才，我们欢迎他们做出贡献。"
+
+#: src/downloads/index.html:130
+msgid "Decrediton"
+msgstr "Decrediton"
+
+#: src/index.html:141
+msgid "Decrediton For Linux"
+msgstr "适用于 Linux 的 Decrediton"
+
+#: src/index.html:140
+msgid "Decrediton For Mac OS X"
+msgstr "适用于 Mac OS X 的 Decrediton"
+
+#: src/index.html:144
+msgid "Decrediton For Windows"
+msgstr ""
+
+#: src/index.html:142
+msgid "Decrediton For Windows 32bit"
+msgstr ""
+
+#: src/index.html:143
+msgid "Decrediton For Windows 64bit"
+msgstr ""
+
+#: src/contributors/index.html:131
+msgid "Design"
+msgstr "设计"
+
+#: src/contributors/index.html:136 src/contributors/index.html:178
+msgid "Developer"
+msgstr "开发人员"
+
+#: src/contributors/index.html:131
+msgid "Development"
+msgstr "开发"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/stakepools/index.html:186
+msgid "Documentation"
+msgstr "文档"
+
+#: src/index.html:140 src/index.html:141 src/index.html:142 src/index.html:143
+#: src/index.html:144
+msgid "Download"
+msgstr "下载"
+
+#: src/brand/index.html:79
+msgid "Download Logo Package ↓"
+msgstr "下载 Logo 包 ↓"
+
+#: src/index.html:139
+msgid "Download Wallet"
+msgstr "下载钱包"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:118 src/downloads/index.html:217
+#: src/index.html:586 src/press/index.html:233 src/stakepools/index.html:186
+msgid "Downloads"
+msgstr "下载"
+
+#: src/index.html:180
+msgid "Empowering individuals, groups, and companies."
+msgstr "授权个人、小组和公司。"
+
+#: src/index.html:279
+msgid ""
+"Everyone has the right to communicate opinions and ideas without fear of "
+"censorship. Consideration shall be given to all constructive speech that is "
+"based in fact and reason."
+msgstr "每个人都可以交流观点和想法，而不用担心审查。应考虑所有基于事实和理由的建设性言论。"
+
+#: src/downloads/index.html:169
+msgid "Exodus"
+msgstr "Exodus"
+
+#: src/downloads/index.html:170
+msgid ""
+"Exodus is a friendly, all-in-one application, to secure, manage and exchange"
+" blockchain assets."
+msgstr "Exodus 是一个友好的一体化钱包应用，用来保存、管理以及兑换区块链资产。"
+
+#: src/downloads/index.html:171
+msgid "Exodus releases →"
+msgstr "Exodus 版本 →"
+
+#: src/index.html:206
+msgid "Features for the future."
+msgstr "未来的功能。"
+
+#: src/index.html:139
+msgid "For Your Computer"
+msgstr "适用于您的电脑"
+
+#: src/index.html:278
+msgid "Free Speech and Consideration"
+msgstr "自由言论与思考"
+
+#: src/index.html:270
+msgid "Free and<br>Open-Source Software"
+msgstr "免费<br>开源软件"
+
+#: src/brand/index.html:184 src/contributors/index.html:327
+#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/stakepools/index.html:185
+msgid "Get Started"
+msgstr "入门"
+
+#: src/downloads/index.html:131
+msgid "Graphic UI wallet for Windows, macOS and Linux."
+msgstr "适用于 Windows、macOS 和 Linux 的图形用户界面钱包。"
+
+#: src/brand/index.html:125
+msgid "Green"
+msgstr "绿色"
+
+#: src/index.html:520
+msgid "Hard fork voting"
+msgstr "硬叉投票"
+
+#: src/brand/index.html:166
+msgid ""
+"Hex color code <span class=\"notification-message-bold\">#000000</span> "
+"copied to clipboard"
+msgstr "复制到剪切板的十六进制颜色代码 <span class=\"notification-message-bold\">#000000</span>"
+
+#: src/press/index.html:151
+msgid ""
+"How Decentralized Exchanges Make Bitcoin More Resilient (and Us More Free)"
+msgstr "去中心化兑换如何让比特币更有弹性 (让我们更自由)"
+
+#: src/downloads/index.html:125
+msgid ""
+"If you are new to Decred, be sure to read the <a href=\"../#guide\" "
+"class=\"link subpage-description\">Getting Started Tour</a> or the <a "
+"href=\"../#platform\" class=\"link subpage-description\">Technical "
+"Overview</a> if you want to dig deeper. If you are downloading the Decred "
+"binaries, please follow these <a target=\"_blank\" "
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"#verifying-binaries\" class=\"link subpage-description\">Binary "
+"Verification</a> steps to verify the checksums."
+msgstr ""
+
+#: src/contributors/index.html:208
+msgid "Illustrator, Designer"
+msgstr "插图师、设计师"
+
+#: src/index.html:283
+msgid ""
+"Inclusivity represents a multi-stakeholder system and an active effort shall"
+" be maintained to include a diverse set of views and users."
+msgstr "包容性意味着要打造一个多方利益相关者系统，并应该努力接纳多种观点和各类用户。"
+
+#: src/index.html:274
+msgid "Incremental Privacy and Security"
+msgstr "增加隐私与安全性"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/stakepools/index.html:186
+msgid "Interacting with Decred"
+msgstr "与 Decred 交互"
+
+#: src/contributors/index.html:262
+msgid "International Ops Lead"
+msgstr "国际运营领导者"
+
+#: src/index.html:489
+msgid "Join the Community"
+msgstr "加入社区"
+
+#: src/brand/index.html:86
+msgid "Key blue"
+msgstr "主调蓝色"
+
+#: src/contributors/index.html:142
+msgid "Lead Developer"
+msgstr "主要开发者"
+
+#: src/brand/index.html:118
+msgid "Light blue"
+msgstr "浅蓝色"
+
+#: src/index.html:238
+msgid "Lightning Network"
+msgstr "闪电网络"
+
+#: src/downloads/index.html:134
+msgid "Linux 64-bit ↓"
+msgstr "Linux 64 位 ↓"
+
+#: src/brand/index.html:74
+msgid "Logo package"
+msgstr "Logo 包"
+
+#: src/downloads/index.html:149
+msgid "MINING SOFTWARE"
+msgstr "挖矿软件"
+
+#: src/index.html:399
+msgid "Mining"
+msgstr "挖矿"
+
+#: src/stakepools/index.html:141
+msgid ""
+"Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner"
+" and may not necessarily be the fault of the pool."
+msgstr "错失的票数可能是由于连接不稳定的工作量证明 (PoW) 矿工造成的，而并非一定是矿池的原因。"
+
+#: src/brand/index.html:184 src/contributors/index.html:327
+#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/stakepools/index.html:185
+msgid "Mission"
+msgstr "任务"
+
+#: src/index.html:160
+msgid "Misson"
+msgstr "任务"
+
+#: src/contributors/index.html:214
+msgid "Motion Designer"
+msgstr "动画设计师"
+
+#: src/index.html:282
+msgid "Multi-Stakeholder Inclusivity"
+msgstr "多方利益相关者包容性"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/stakepools/index.html:186
+msgid "Network Stats"
+msgstr "网络数据"
+
+#: src/brand/index.html:186 src/contributors/index.html:329
+#: src/downloads/index.html:218 src/index.html:587 src/press/index.html:234
+#: src/stakepools/index.html:187
+msgid "News"
+msgstr "新闻"
+
+#: src/downloads/index.html:140
+msgid "No downloads required."
+msgstr "无需下载。"
+
+#: src/stakepools/index.html:141
+msgid "Notice:"
+msgstr "注意："
+
+#: src/brand/index.html:132
+msgid "Orange"
+msgstr "橙色"
+
+#: src/index.html:175
+msgid ""
+"Our modular codebase offers unique adaptability and can scale to the latest "
+"blockchain technology. Decred’s technology enabled the world’s first "
+"successful direct on-chain user-activated consensus vote. This represents a "
+"revolutionary approach to stakeholder governance where our community directs"
+" the project and makes decisions together."
+msgstr ""
+"我们的模块化代码库提供了独特的适应性，且可以扩展到最新的区块链技术。Decred "
+"的技术为全球首个成功的直接链上用户激活投票提供了支持。这代表着利益相关者治理的革命性方法，通过这一方法我们的社区能够主导项目并共同作出决定。"
+
+#: src/index.html:305
+msgid "Overview"
+msgstr "概览"
+
+#: src/index.html:512
+msgid "Planned Features"
+msgstr "已计划的功能"
+
+#: src/brand/index.html:184 src/contributors/index.html:327
+#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/stakepools/index.html:185
+msgid "Platform"
+msgstr "平台"
+
+#: src/index.html:232
+msgid "Politeia"
+msgstr "Politeia"
+
+#: src/brand/index.html:79
+msgid "Primary Colors"
+msgstr "原色"
+
+#: src/index.html:275
+msgid ""
+"Privacy and security technology shall be implemented on a continuing and "
+"incremental basis, both proactively and on-demand in response to attacks."
+msgstr "隐私和安全性技术应以持续、渐进的方式实施，应根据需要主动应对攻击。"
+
+#: src/contributors/index.html:256
+msgid "Project Lead"
+msgstr "项目领导人"
+
+#: src/index.html:443
+msgid "Proof-of-stake Mining"
+msgstr "权益证明挖矿"
+
+#: src/index.html:421
+msgid "Proof-of-work Mining"
+msgstr "工作量证明挖矿"
+
+#: src/brand/index.html:71
+msgid "Quick-use toolkit"
+msgstr "快速使用工具包"
+
+#: src/index.html:375
+msgid "Send and Receive Decred"
+msgstr "发送和接收 Decred"
+
+#: src/index.html:163
+msgid ""
+"Since 2016, Decred has striven to solve blockchain governance. Our "
+"innovative consensus voting model empowers stakeholders and allows for the "
+"seamless transition from one set of rules to another. Decentralized "
+"decision-making and self-funding have enabled us to build a robust, evolving"
+" digital currency, free from third party influence."
+msgstr ""
+"自 2016 年起，Decred "
+"一直致力于解决区块链治理问题。我们的创新型投票模型加强了利益相关者的自主权，并允许从一组规则无缝过渡到另一组规则。去中心化决策制定和自我筹资使我们能够建立一个强大且不断发展的数字货币，而不受第三方的影响。"
+
+#: src/index.html:211
+msgid "Smart contracts that work such as Lightning Network"
+msgstr "有效的智能合同，例如闪电网络"
+
+#: src/index.html:250
+msgid "Soon™"
+msgstr "即将推出"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/stakepools/index.html:118 src/stakepools/index.html:186
+msgid "Stakepools"
+msgstr "PoS 矿池"
+
+#: src/stakepools/index.html:125
+msgid ""
+"Stakepools allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.\n"
+"              <noscript>\n"
+"                  <div><a href=\"https://dcr.stakepool.net\" target=\"_blank\">dcr.stakepool.net</a><br>\n"
+"                    <a href=\"https://dcr.stakeminer.com\" target=\"_blank\">dcr.stakeminer.com</a><br>\n"
+"                    <a href=\"https://pool.d3c.red\" target=\"_blank\">pool.d3c.red</a><br>\n"
+"                    <a href=\"https://stakepool.dcrstats.com\" target=\"_blank\">stakepool.dcrstats.com</a><br>\n"
+"                    <a href=\"https://stakepool.eu\" target=\"_blank\">stakepool.eu</a><br>\n"
+"                    <a href=\"https://dcr.ubiqsmart.com\" target=\"_blank\">dcr.ubiqsmart.com</a><br>\n"
+"                    <a href=\"https://teststakepool.decred.org\" target=\"_blank\">teststakepool.decred.org</a><br>\n"
+"                    <a href=\"https://ultrapool.eu\" target=\"_blank\">ultrapool.eu</a><br>\n"
+"                  </div>\n"
+"                  <div class=\"section-title-text\">JavaScript required</div><div class=\"mission-copy\">We're sorry, but this Website doesn't work properly<br>without JavaScript enabled.</div>\n"
+"              </noscript>"
+msgstr ""
+
+#: src/contributors/index.html:268
+msgid "Strategic Comms Lead"
+msgstr "策略通信领导者"
+
+#: src/contributors/index.html:131
+msgid "Strategy"
+msgstr "策略"
+
+#: src/brand/index.html:149 src/contributors/index.html:294
+#: src/downloads/index.html:183 src/index.html:543 src/press/index.html:199
+#: src/stakepools/index.html:152
+msgid "Technical Overview"
+msgstr "技术概览"
+
+#: src/index.html:327
+msgid "The Basics"
+msgstr "简介"
+
+#: src/index.html:352
+msgid "The Wallets"
+msgstr "钱包"
+
+#: src/index.html:289
+msgid ""
+"These principles have been established in an effort to create an equitable "
+"and sustainable framework within which to achieve Decred's goal to be an "
+"autonomous and decentralized currency where all stakeholders have a real "
+"voice."
+msgstr ""
+"这些原则的制定是为了创造一个公平和可持续的框架，然后在这个框架内，实现将 Decred "
+"打造成为咱自主和去中心化货币的目标，同时让所有利益相关者都可以表达真实想法。"
+
+#: src/downloads/index.html:157
+msgid ""
+"Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
+msgstr "适用于 NVIDIA 图形处理器的第三方 CUDA 挖矿软件。Decred 团队不提供支持。"
+
+#: src/downloads/index.html:162
+msgid ""
+"Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
+msgstr "适用于 AMD 图形处理器的第三方 OpenCL 挖矿软件。Decred 团队不提供支持。"
+
+#: src/index.html:296
+msgid "This tour will help you get started with Decred"
+msgstr "此教程将会帮助您开始使用 Decred"
+
+#: src/stakepools/index.html:142
+msgid ""
+"To encourage decentralization of the network, it is recommended to avoid "
+"pools that have over 5% of network votes."
+msgstr "为了鼓励网络的去中心化，建议避免使用拥有超过全网络 5% 票数的矿池。"
+
+#: src/brand/index.html:93
+msgid "Turquiose"
+msgstr "绿松色"
+
+#: src/brand/index.html:105
+msgid "Typography"
+msgstr "字体排印"
+
+#: src/downloads/index.html:145
+msgid "View on Github →"
+msgstr "在 Github 上查看 →"
+
+#: src/brand/index.html:7 src/brand/index.html:9
+msgid "Visual communication toolkit"
+msgstr "视觉通信工具包"
+
+#: src/brand/index.html:185 src/contributors/index.html:328
+#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/stakepools/index.html:186
+msgid "Voting System"
+msgstr "投票系统"
+
+#: src/stakepools/index.html:142
+msgid "Warning:"
+msgstr "警告："
+
+#: src/index.html:146
+msgid "Watch Video"
+msgstr "观看视频"
+
+#: src/index.html:181
+msgid ""
+"We are community-powered. Stakeholders who participate in Decred’s decision-"
+"making are rewarded for their efforts. Sustainable funding and a resilient "
+"contractor model allow for anyone to join Decred at any time and engage in "
+"its governance. Decred’s value is in the people who work on it - together "
+"we’re building the decentralized future we want to see."
+msgstr ""
+"我们得到了社区的支持。参与 Decred 决策的利益相关者因其付出的努力而获得报酬。可持续的资金和弹性的承包模式允许任何人随时加入 Decred "
+"并参与管理。Decred 的价值在从事这项工作的精英身上得以体现 - 让我们一起构建令人期待的去中心化未来。"
+
+#: src/downloads/index.html:138
+msgid "Webwallet"
+msgstr "网页钱包"
+
+#: src/index.html:288
+msgid "We’re bound by the following guiding principles."
+msgstr "我们受到以下指导原则的约束。"
+
+#: src/brand/index.html:184 src/contributors/index.html:327
+#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/stakepools/index.html:185
+msgid "What is Decred"
+msgstr "Decred 是什么"
+
+#: src/contributors/index.html:122
+msgid "Who is Decred?"
+msgstr "Decred 是谁？"
+
+#: src/downloads/index.html:132
+msgid "Windows ↓"
+msgstr "Windows ↓"
+
+#: src/brand/index.html:3 src/contributors/index.html:3
+#: src/downloads/index.html:3 src/index.html:3 src/press/index.html:4
+#: src/stakepools/index.html:3
+msgid "_direction"
+msgstr "ltr"
+
+#: src/brand/index.html:3 src/contributors/index.html:3
+#: src/downloads/index.html:3 src/index.html:3 src/press/index.html:4
+#: src/stakepools/index.html:3
+msgid "_language"
+msgstr "zh"
+
+#: src/downloads/index.html:156
+msgid "ccminer"
+msgstr "ccminer"
+
+#: src/downloads/index.html:158
+msgid "ccminer releases →"
+msgstr "ccminer 版本 →"
+
+#: src/brand/index.html:187 src/contributors/index.html:330
+#: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
+#: src/stakepools/index.html:188
+msgid "coming soon"
+msgstr "即将推出"
+
+#: src/contributors/index.html:244
+msgid "community coordinator"
+msgstr "社区协调人"
+
+#: src/contributors/index.html:238
+msgid "community manager BR"
+msgstr "巴西社区经理"
+
+#: src/contributors/index.html:232
+msgid "designer"
+msgstr "设计师"
+
+#: src/contributors/index.html:148 src/contributors/index.html:154
+#: src/contributors/index.html:160 src/contributors/index.html:166
+#: src/contributors/index.html:172 src/contributors/index.html:184
+#: src/contributors/index.html:190 src/contributors/index.html:196
+#: src/contributors/index.html:202
+msgid "developer"
+msgstr "开发者"
+
+#: src/brand/index.html:155 src/contributors/index.html:300
+#: src/downloads/index.html:189 src/index.html:549 src/press/index.html:205
+#: src/stakepools/index.html:158
+msgid "downloads"
+msgstr "下载"
+
+#: src/downloads/index.html:151
+msgid "gominer"
+msgstr "gominer"
+
+#: src/downloads/index.html:153
+msgid "gominer releases →"
+msgstr "gominer 版本 →"
+
+#: src/contributors/index.html:220
+msgid "illustrator"
+msgstr "插图师"
+
+#: src/contributors/index.html:226
+msgid "lead designer"
+msgstr "首席设计师"
+
+#: src/downloads/index.html:133
+msgid "macOS ↓"
+msgstr "macOS ↓"
+
+#: src/index.html:169
+msgid "of total"
+msgstr "总计"
+
+#: src/contributors/index.html:250
+msgid "reddit manager"
+msgstr "reddit 经理"
+
+#: src/downloads/index.html:161
+msgid "sgminer"
+msgstr "sgminer"
+
+#: src/downloads/index.html:163
+msgid "sgminer releases →"
+msgstr "sgminer 版本"
+
+#: src/brand/index.html:152 src/contributors/index.html:297
+#: src/downloads/index.html:186 src/index.html:546 src/press/index.html:202
+#: src/stakepools/index.html:155
+msgid "stable"
+msgstr "稳定"
+
+#: src/index.html:194
+msgid ""
+"— <a href=\"https://twitter.com/jimmysong\" target=\"_blank\">Jimmy "
+"Song</a>, Bitcoin Developer<span class=\"quotes-by-title\"></span>"
+msgstr ""
+"— <a href=\"https://twitter.com/jimmysong\" target=\"_blank\">Jimmy "
+"Song</a>，比特币开发者<span class=\"quotes-by-title\"></span>"
+
+#: src/index.html:193
+msgid "“Decred is an innovative crypto with some amazing developers.&quot;"
+msgstr "“Decred 是由杰出开发者设计的创新性加密方式。”"
