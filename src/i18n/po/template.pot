@@ -612,7 +612,7 @@ msgid "Mission"
 msgstr ""
 
 #: src/index.html:160
-msgid "Misson"
+msgid "Mission"
 msgstr ""
 
 #: src/contributors/index.html:214
