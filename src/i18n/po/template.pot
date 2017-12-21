@@ -17,6 +17,14 @@ msgstr ""
 msgid "3RD PARTY WALLETS"
 msgstr ""
 
+#: src/index.html:561
+msgid "<!-- localized footer social media links -->"
+msgstr ""
+
+#: src/index.html:611
+msgid "<!-- localized social media links -->"
+msgstr ""
+
 #: src/brand/index.html:64
 msgid "<br>Visual communication toolkit"
 msgstr ""
@@ -232,7 +240,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
@@ -436,7 +444,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
@@ -462,7 +470,7 @@ msgstr ""
 #: src/contributors/index.html:328
 #: src/downloads/index.html:118
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Downloads"
@@ -507,7 +515,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:216
-#: src/index.html:585
+#: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
@@ -534,7 +542,7 @@ msgid "How Decentralized Exchanges Make Bitcoin More Resilient (and Us More Free
 msgstr ""
 
 #: src/downloads/index.html:125
-msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"link subpage-description\">Getting Started Tour</a> or the <a href=\"../#platform\" class=\"link subpage-description\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a target=\"_blank\" href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md#verifying-binaries\" class=\"link subpage-description\">Binary Verification</a> steps to verify the checksums."
+msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"link subpage-description\">Getting Started Tour</a> or the <a href=\"../#platform\" class=\"link subpage-description\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a target=\"_blank\" href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md#verifying-binaries\" class=\"link subpage-description\">Binary Verification</a> steps to verify the checksums."
 msgstr ""
 
 #: src/contributors/index.html:208
@@ -552,7 +560,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
@@ -605,13 +613,10 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:216
-#: src/index.html:585
+#: src/index.html:160
+#: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
-msgid "Mission"
-msgstr ""
-
-#: src/index.html:160
 msgid "Mission"
 msgstr ""
 
@@ -626,7 +631,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
@@ -635,7 +640,7 @@ msgstr ""
 #: src/brand/index.html:186
 #: src/contributors/index.html:329
 #: src/downloads/index.html:218
-#: src/index.html:587
+#: src/index.html:598
 #: src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
@@ -668,7 +673,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:216
-#: src/index.html:585
+#: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
@@ -721,7 +726,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:118
 #: src/stakepools/index.html:186
@@ -810,7 +815,7 @@ msgstr ""
 #: src/brand/index.html:185
 #: src/contributors/index.html:328
 #: src/downloads/index.html:217
-#: src/index.html:586
+#: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
@@ -839,7 +844,7 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:216
-#: src/index.html:585
+#: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
@@ -882,7 +887,7 @@ msgstr ""
 #: src/brand/index.html:187
 #: src/contributors/index.html:330
 #: src/downloads/index.html:219
-#: src/index.html:588
+#: src/index.html:599
 #: src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
