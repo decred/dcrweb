@@ -534,7 +534,7 @@ msgid "How Decentralized Exchanges Make Bitcoin More Resilient (and Us More Free
 msgstr ""
 
 #: src/downloads/index.html:125
-msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"link subpage-description\">Getting Started Tour</a> or the <a href=\"../#platform\" class=\"link subpage-description\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a target=\"_blank\" href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md#verifying-binaries\" class=\"link subpage-description\">Binary Verification</a> steps to verify the checksums."
+msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"link subpage-description\">Getting Started Tour</a> or the <a href=\"../#platform\" class=\"link subpage-description\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a target=\"_blank\" href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md#verifying-binaries\" class=\"link subpage-description\">Binary Verification</a> steps to verify the checksums."
 msgstr ""
 
 #: src/contributors/index.html:208
@@ -605,13 +605,10 @@ msgstr ""
 #: src/brand/index.html:184
 #: src/contributors/index.html:327
 #: src/downloads/index.html:216
-#: src/index.html:585
+#: src/index.html:160
+#: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
-msgid "Mission"
-msgstr ""
-
-#: src/index.html:160
 msgid "Mission"
 msgstr ""
 
