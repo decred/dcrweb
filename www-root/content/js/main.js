@@ -17,20 +17,25 @@ $(window).load(function () {
 	// language selector
 	$langSelector = $("#language-selector");
 
-		if(Cookies.get('langv2')){
-			$langSelector.val(Cookies.get('langv2'));
-		} else if(navigator.languages.length){
-			const fallbackLanguage = 'en';
-			var prefLanguage = navigator.languages[0].split('-');
+	if(Cookies.get('langv2')){
+		$langSelector.val(Cookies.get('langv2'));
+	} else {
+		const fallbackLanguage = 'en';
+		var prefLanguage = fallbackLanguage;
 		var languagesList = $langSelector.children('.lang-selection').map(function() { return this.getAttribute('data-language'); }).toArray();
-		prefLanguage = languagesList.indexOf(prefLanguage) !== -1 ? prefLanguage : fallbackLanguage;
-
-		$langSelector.val(prefLanguage);
+		if(navigator.languages !== undefined && navigator.languages.length){
+			var navLanguage = navigator.languages[0].split('-')[0];
+			prefLanguage = languagesList.indexOf(navLanguage) !== -1 ? navLanguage : fallbackLanguage;
+		} else {
+			var navLanguage = navigator.language.split('-')[0];
+			prefLanguage = languagesList.indexOf(navLanguage) !== -1 ? navLanguage : fallbackLanguage;
 		}
+		$langSelector.val(prefLanguage);
+	}
 
-		$langSelector.on('click', '.lang-selection', function(e){
-			setLanguage(e.currentTarget.getAttribute('data-language'));
-		});
+	$langSelector.on('click', '.lang-selection', function(e){
+		setLanguage(e.currentTarget.getAttribute('data-language'));
+	});
 
 	var time = 100,
 		viewport = $(window),
