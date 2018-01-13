@@ -502,23 +502,41 @@ $(window).load(function () {
 
 	// stakepools
 	var stakepoolFinder = function() {
-			var fields = ["PoolFees", "Voted", "Missed", "Live", "Immature", "UserCount"];
+			$("#stakepool-data").html("Loading...");
+
+			var fields = ["Live", "Immature", "Voted", "Missed", "ProportionMissed", "PoolFees", "UserCountActive", "Launched"];
 
 			tableMarkup = '<table id="pooldata" class="datatables">' +
 				'<thead>' +
 				'<tr class="">' +
-				'<th class="poodIdHeader" style="padding-left: 2px; background-image: none;">ID</th>' +
-				'<th class="addressHeader" style="padding-left: 10px; background-image: none;">Address</th>' +
-				'<th class="networkHeader" style="padding-left: 2px; background-image: none;">Network</th>' +
-				'<th class="lastUpdatedHeader" style="padding-left: 10px; width: 80px; text-align: left;">Last Updated</th>' +
+				'<th class="poolIdHeader" style="padding-left: 2px; background-image: none;">ID</th>' +
+				'<th class="addressHeader" style="padding-left: 2px; background-image: none;">Address</th>' +
+				'<th class="lastUpdatedHeader">Last Updated</th>' +
 				'<th>Proportion</th>';
+
 			$.each(fields, function (i, field) {
+				switch (field) {
+					case "ProportionMissed":
+					field = "Missed %";
+					break;
+
+					case "PoolFees":
+					field = "Fees";
+					break;
+
+					case "UserCountActive":
+					field = "Users";
+					break;
+
+					default:
+					// add whitespaces to CamelCase
+					field = field.split(/(?=[A-Z])/).join(' ')
+				}
+
 				tableMarkup += '<th>' + field + '</th>';
 			});
 
 			tableMarkup += '</tr></thead><tbody>';
-
-			$("#stakepool-data").html("Loading...");
 
 			$.ajax({
 				url: APIstakepools,
@@ -542,34 +560,57 @@ $(window).load(function () {
 							proplive = 0;
 						}
 						var proportion = proplive * 100;
-						proportion = Math.round(proportion * 100) / 100;
-						if (proportion.toString().length == "3") {
-							proportion = proportion + "0";
-						}
 						if (proportion > 5 && poolData["Network"] == "mainnet") {
 							overCapacity = 1;
 						}
-						proportion = proportion + "%";
+						proportion = proportion.toFixed(2) + "%";
 						tableMarkup += '<tr class="rowHover transition ' + poolData["Network"] + (overCapacity ? ' overcapacity"' : '"') + '>';
 						tableMarkup += '<td class="poolId">' + poolName + '</td>';
-						tableMarkup += '<td class="address"><a target="_blank" href="' + poolData["URL"] + '">' + poolData["URL"] + '</a></td>';
-						tableMarkup += '<td class="network">' + poolData["Network"] + '</td>';
+						tableMarkup += '<td class="address"><a target="_blank" href="' + poolData["URL"] + '">' + poolData["URL"].replace("https://", "") + '</a></td>';
 						tableMarkup += '<td class="lastUpdate inconsolata">' + lastUpdateFormatted + '</td>';
 						tableMarkup += '<td class="inconsolata">' + (overCapacity ? ' <span class="inconsolata overcapacityWarning" style="" title="See warning below">' + proportion + '</span>' : proportion) + '</td>';
 
 						$.each(fields, function (i, field) {
-							if (poolData.hasOwnProperty(field)) {
-								var value = poolData[field]
-								if (field == "PoolFees") {
-									poolFees = "" + poolData[field];
-									if (poolFees != "N/A" && poolFees.substr(-1) != "%") {
-										poolFees += "%";
-									}
-									value = poolFees
+							var value = 'N/A';
+							var order = null;
+
+							if (poolData.hasOwnProperty(field)) value = poolData[field]
+
+							switch (field) {
+								case "ProportionMissed":
+								var total = poolData["Missed"] + poolData["Voted"];
+								if (total !== 0) {
+									proportionMissed = 100 * poolData["Missed"] / total
+									value = proportionMissed.toFixed(2) + "%"
 								}
-								tableMarkup += '<td class="inconsolata">' + value + '</td>';
+								break;
+
+								case "PoolFees":
+								poolFees = "" + value;
+								if (poolFees != "N/A" && poolFees.substr(-1) != "%") {
+									poolFees += "%";
+								}
+								value = poolFees
+								break;
+
+								case "Launched":
+								var launchDate = new Date(poolData["Launched"] * 1000);
+								var duration = moment.duration(launchDate - new Date()).humanize(true);
+								order = launchDate.getTime();
+
+								value = '<time' +
+									'  style="white-space: nowrap' +
+									'" datetime="' + launchDate.toISOString() +
+									'" title="' + launchDate.toString() +
+									'">' + duration +
+									'</time>';
+								break;
+							}
+
+							if (order) {
+								tableMarkup += '<td class="inconsolata" data-order="' + order + '">' + value + '</td>';
 							} else {
-								tableMarkup += '<td class="inconsolata">N/A</td>';
+								tableMarkup += '<td class="inconsolata">' + value + '</td>';
 							}
 						});
 
@@ -583,8 +624,10 @@ $(window).load(function () {
 					})
 
 					$("#pooldata").DataTable({
-						"order": [],
-						/* no default sort */
+						"ordering": true,
+						"order": [
+							[2, 'asc'] // sort by network so testnet is at the end
+						],
 						"jQueryUI": false,
 						"paging": false,
 						"searching": false,
