@@ -5,15 +5,16 @@ msgstr ""
 "Project-Id-Version: \n"
 
 #: src/brand/index.html:149
+#: src/community/index.html:202
 #: src/contributors/index.html:294
-#: src/downloads/index.html:183
+#: src/downloads/index.html:182
 #: src/index.html:543
 #: src/press/index.html:199
 #: src/stakepools/index.html:152
 msgid "2017 Roadmap"
 msgstr ""
 
-#: src/downloads/index.html:167
+#: src/downloads/index.html:166
 msgid "3RD PARTY WALLETS"
 msgstr ""
 
@@ -111,7 +112,7 @@ msgstr ""
 msgid "A censorship-resistant blockchain-anchored public proposal platform"
 msgstr ""
 
-#: src/downloads/index.html:144
+#: src/downloads/index.html:143
 msgid "A cross-platform, automatic installer/updater for the command-line applications."
 msgstr ""
 
@@ -162,8 +163,9 @@ msgid "Back"
 msgstr ""
 
 #: src/brand/index.html:148
+#: src/community/index.html:201
 #: src/contributors/index.html:293
-#: src/downloads/index.html:182
+#: src/downloads/index.html:181
 #: src/index.html:542
 #: src/press/index.html:198
 #: src/stakepools/index.html:151
@@ -171,8 +173,9 @@ msgid "Become a Contributor"
 msgstr ""
 
 #: src/brand/index.html:148
+#: src/community/index.html:201
 #: src/contributors/index.html:293
-#: src/downloads/index.html:182
+#: src/downloads/index.html:181
 #: src/index.html:542
 #: src/press/index.html:198
 #: src/stakepools/index.html:151
@@ -184,8 +187,9 @@ msgid "Built from 100% proven open-source technology."
 msgstr ""
 
 #: src/brand/index.html:149
+#: src/community/index.html:202
 #: src/contributors/index.html:294
-#: src/downloads/index.html:183
+#: src/downloads/index.html:182
 #: src/index.html:543
 #: src/press/index.html:199
 #: src/stakepools/index.html:152
@@ -196,11 +200,11 @@ msgstr ""
 msgid "Buying and Trading Decred"
 msgstr ""
 
-#: src/downloads/index.html:128
+#: src/downloads/index.html:127
 msgid "CORE SOFTWARE"
 msgstr ""
 
-#: src/downloads/index.html:152
+#: src/downloads/index.html:151
 msgid "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred team."
 msgstr ""
 
@@ -208,11 +212,24 @@ msgstr ""
 msgid "Chicago developers launch Decred, a Bitcoin alternative"
 msgstr ""
 
-#: src/downloads/index.html:143
+#: src/community/index.html:109
+#: src/community/index.html:7
+#: src/community/index.html:9
+msgid "Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out."
+msgstr ""
+
+#: src/downloads/index.html:142
 msgid "Command-line app suite"
 msgstr ""
 
+#: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:131
+#: src/contributors/index.html:328
+#: src/downloads/index.html:216
+#: src/index.html:597
+#: src/press/index.html:233
+#: src/stakepools/index.html:186
 msgid "Community"
 msgstr ""
 
@@ -238,8 +255,9 @@ msgid "Continue"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:217
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
@@ -250,7 +268,7 @@ msgstr ""
 msgid "Corporate Contractor"
 msgstr ""
 
-#: src/downloads/index.html:139
+#: src/downloads/index.html:138
 msgid "Create a browser based Wallet →"
 msgstr ""
 
@@ -277,6 +295,10 @@ msgstr ""
 
 #: src/brand/index.html:6
 msgid "Decred - Brand"
+msgstr ""
+
+#: src/community/index.html:8
+msgid "Decred - Community"
 msgstr ""
 
 #: src/contributors/index.html:6
@@ -340,8 +362,9 @@ msgid "Decred implements smart contracts that work. Lightning Network (LN) is on
 msgstr ""
 
 #: src/brand/index.html:148
+#: src/community/index.html:201
 #: src/contributors/index.html:293
-#: src/downloads/index.html:182
+#: src/downloads/index.html:181
 #: src/index.html:542
 #: src/press/index.html:198
 #: src/stakepools/index.html:151
@@ -384,6 +407,10 @@ msgstr ""
 msgid "Decred launches decentralized voting process for blockchain protocol changes"
 msgstr ""
 
+#: src/community/index.html:160
+msgid "Decred on social media."
+msgstr ""
+
 #: src/press/index.html:9
 msgid "Decred press"
 msgstr ""
@@ -404,7 +431,7 @@ msgstr ""
 msgid "Decred uses an novel contractor model which allows for proven contributors to be remunerated for their good work. This approach has helped forge a strong global team of developers, designers, and strategists, as well as a robust community. We welcome contributions from anyone who wishes to demonstrate their effort and skill in pursuit of the project's mission."
 msgstr ""
 
-#: src/downloads/index.html:130
+#: src/downloads/index.html:129
 msgid "Decrediton"
 msgstr ""
 
@@ -442,8 +469,9 @@ msgid "Development"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:217
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
@@ -467,9 +495,10 @@ msgid "Download Wallet"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:118
-#: src/downloads/index.html:217
+#: src/downloads/index.html:117
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
@@ -484,15 +513,15 @@ msgstr ""
 msgid "Everyone has the right to communicate opinions and ideas without fear of censorship. Consideration shall be given to all constructive speech that is based in fact and reason."
 msgstr ""
 
-#: src/downloads/index.html:169
+#: src/downloads/index.html:168
 msgid "Exodus"
 msgstr ""
 
-#: src/downloads/index.html:170
+#: src/downloads/index.html:169
 msgid "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets."
 msgstr ""
 
-#: src/downloads/index.html:171
+#: src/downloads/index.html:170
 msgid "Exodus releases →"
 msgstr ""
 
@@ -504,6 +533,10 @@ msgstr ""
 msgid "For Your Computer"
 msgstr ""
 
+#: src/index.html:313
+msgid "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
+msgstr ""
+
 #: src/index.html:278
 msgid "Free Speech and Consideration"
 msgstr ""
@@ -513,15 +546,16 @@ msgid "Free and<br>Open-Source Software"
 msgstr ""
 
 #: src/brand/index.html:184
+#: src/community/index.html:235
 #: src/contributors/index.html:327
-#: src/downloads/index.html:216
+#: src/downloads/index.html:215
 #: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
 msgstr ""
 
-#: src/downloads/index.html:131
+#: src/downloads/index.html:130
 msgid "Graphic UI wallet for Windows, macOS and Linux."
 msgstr ""
 
@@ -541,8 +575,8 @@ msgstr ""
 msgid "How Decentralized Exchanges Make Bitcoin More Resilient (and Us More Free)"
 msgstr ""
 
-#: src/downloads/index.html:125
-msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"link subpage-description\">Getting Started Tour</a> or the <a href=\"../#platform\" class=\"link subpage-description\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a target=\"_blank\" href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md#verifying-binaries\" class=\"link subpage-description\">Binary Verification</a> steps to verify the checksums."
+#: src/downloads/index.html:124
+msgid "If you are new to Decred, be sure to read the <a href=\"../#guide\" class=\"link subpage-description\">Getting Started Tour</a> or the <a href=\"../#platform\" class=\"link subpage-description\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a target=\"_blank\" href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\" class=\"link subpage-description\">Binary Verification</a> steps to verify the checksums."
 msgstr ""
 
 #: src/contributors/index.html:208
@@ -558,8 +592,9 @@ msgid "Incremental Privacy and Security"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:217
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
@@ -568,6 +603,10 @@ msgstr ""
 
 #: src/contributors/index.html:262
 msgid "International Ops Lead"
+msgstr ""
+
+#: src/community/index.html:102
+msgid "Join our community!"
 msgstr ""
 
 #: src/index.html:489
@@ -590,7 +629,7 @@ msgstr ""
 msgid "Lightning Network"
 msgstr ""
 
-#: src/downloads/index.html:134
+#: src/downloads/index.html:133
 msgid "Linux 64-bit ↓"
 msgstr ""
 
@@ -598,7 +637,7 @@ msgstr ""
 msgid "Logo package"
 msgstr ""
 
-#: src/downloads/index.html:149
+#: src/downloads/index.html:148
 msgid "MINING SOFTWARE"
 msgstr ""
 
@@ -611,8 +650,9 @@ msgid "Missed tickets can be caused by a poorly connected proof-of-work (PoW) m
 msgstr ""
 
 #: src/brand/index.html:184
+#: src/community/index.html:235
 #: src/contributors/index.html:327
-#: src/downloads/index.html:216
+#: src/downloads/index.html:215
 #: src/index.html:160
 #: src/index.html:596
 #: src/press/index.html:232
@@ -629,8 +669,9 @@ msgid "Multi-Stakeholder Inclusivity"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:217
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
@@ -638,15 +679,16 @@ msgid "Network Stats"
 msgstr ""
 
 #: src/brand/index.html:186
+#: src/community/index.html:237
 #: src/contributors/index.html:329
-#: src/downloads/index.html:218
+#: src/downloads/index.html:217
 #: src/index.html:598
 #: src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
 msgstr ""
 
-#: src/downloads/index.html:140
+#: src/downloads/index.html:139
 msgid "No downloads required."
 msgstr ""
 
@@ -671,8 +713,9 @@ msgid "Planned Features"
 msgstr ""
 
 #: src/brand/index.html:184
+#: src/community/index.html:235
 #: src/contributors/index.html:327
-#: src/downloads/index.html:216
+#: src/downloads/index.html:215
 #: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
@@ -724,8 +767,9 @@ msgid "Soon™"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:217
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:118
@@ -750,6 +794,10 @@ msgid ""
 "              </noscript>"
 msgstr ""
 
+#: src/community/index.html:161
+msgid "Stay up to date and follow Decred on our social media channels."
+msgstr ""
+
 #: src/contributors/index.html:268
 msgid "Strategic Comms Lead"
 msgstr ""
@@ -759,8 +807,9 @@ msgid "Strategy"
 msgstr ""
 
 #: src/brand/index.html:149
+#: src/community/index.html:202
 #: src/contributors/index.html:294
-#: src/downloads/index.html:183
+#: src/downloads/index.html:182
 #: src/index.html:543
 #: src/press/index.html:199
 #: src/stakepools/index.html:152
@@ -779,11 +828,11 @@ msgstr ""
 msgid "These principles have been established in an effort to create an equitable and sustainable framework within which to achieve Decred's goal to be an autonomous and decentralized currency where all stakeholders have a real voice."
 msgstr ""
 
-#: src/downloads/index.html:157
+#: src/downloads/index.html:156
 msgid "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
 msgstr ""
 
-#: src/downloads/index.html:162
+#: src/downloads/index.html:161
 msgid "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
 
@@ -803,7 +852,7 @@ msgstr ""
 msgid "Typography"
 msgstr ""
 
-#: src/downloads/index.html:145
+#: src/downloads/index.html:144
 msgid "View on Github →"
 msgstr ""
 
@@ -813,8 +862,9 @@ msgid "Visual communication toolkit"
 msgstr ""
 
 #: src/brand/index.html:185
+#: src/community/index.html:236
 #: src/contributors/index.html:328
-#: src/downloads/index.html:217
+#: src/downloads/index.html:216
 #: src/index.html:597
 #: src/press/index.html:233
 #: src/stakepools/index.html:186
@@ -833,7 +883,7 @@ msgstr ""
 msgid "We are community-powered. Stakeholders who participate in Decred’s decision-making are rewarded for their efforts. Sustainable funding and a resilient contractor model allow for anyone to join Decred at any time and engage in its governance. Decred’s value is in the people who work on it - together we’re building the decentralized future we want to see."
 msgstr ""
 
-#: src/downloads/index.html:138
+#: src/downloads/index.html:137
 msgid "Webwallet"
 msgstr ""
 
@@ -842,8 +892,9 @@ msgid "We’re bound by the following guiding principles."
 msgstr ""
 
 #: src/brand/index.html:184
+#: src/community/index.html:235
 #: src/contributors/index.html:327
-#: src/downloads/index.html:216
+#: src/downloads/index.html:215
 #: src/index.html:596
 #: src/press/index.html:232
 #: src/stakepools/index.html:185
@@ -854,11 +905,12 @@ msgstr ""
 msgid "Who is Decred?"
 msgstr ""
 
-#: src/downloads/index.html:132
+#: src/downloads/index.html:131
 msgid "Windows ↓"
 msgstr ""
 
 #: src/brand/index.html:3
+#: src/community/index.html:3
 #: src/contributors/index.html:3
 #: src/downloads/index.html:3
 #: src/index.html:3
@@ -868,6 +920,7 @@ msgid "_direction"
 msgstr ""
 
 #: src/brand/index.html:3
+#: src/community/index.html:3
 #: src/contributors/index.html:3
 #: src/downloads/index.html:3
 #: src/index.html:3
@@ -876,17 +929,18 @@ msgstr ""
 msgid "_language"
 msgstr ""
 
-#: src/downloads/index.html:156
+#: src/downloads/index.html:155
 msgid "ccminer"
 msgstr ""
 
-#: src/downloads/index.html:158
+#: src/downloads/index.html:157
 msgid "ccminer releases →"
 msgstr ""
 
 #: src/brand/index.html:187
+#: src/community/index.html:238
 #: src/contributors/index.html:330
-#: src/downloads/index.html:219
+#: src/downloads/index.html:218
 #: src/index.html:599
 #: src/press/index.html:235
 #: src/stakepools/index.html:188
@@ -918,19 +972,20 @@ msgid "developer"
 msgstr ""
 
 #: src/brand/index.html:155
+#: src/community/index.html:208
 #: src/contributors/index.html:300
-#: src/downloads/index.html:189
+#: src/downloads/index.html:188
 #: src/index.html:549
 #: src/press/index.html:205
 #: src/stakepools/index.html:158
 msgid "downloads"
 msgstr ""
 
-#: src/downloads/index.html:151
+#: src/downloads/index.html:150
 msgid "gominer"
 msgstr ""
 
-#: src/downloads/index.html:153
+#: src/downloads/index.html:152
 msgid "gominer releases →"
 msgstr ""
 
@@ -942,7 +997,7 @@ msgstr ""
 msgid "lead designer"
 msgstr ""
 
-#: src/downloads/index.html:133
+#: src/downloads/index.html:132
 msgid "macOS ↓"
 msgstr ""
 
@@ -954,17 +1009,18 @@ msgstr ""
 msgid "reddit manager"
 msgstr ""
 
-#: src/downloads/index.html:161
+#: src/downloads/index.html:160
 msgid "sgminer"
 msgstr ""
 
-#: src/downloads/index.html:163
+#: src/downloads/index.html:162
 msgid "sgminer releases →"
 msgstr ""
 
 #: src/brand/index.html:152
+#: src/community/index.html:205
 #: src/contributors/index.html:297
-#: src/downloads/index.html:186
+#: src/downloads/index.html:185
 #: src/index.html:546
 #: src/press/index.html:202
 #: src/stakepools/index.html:155
