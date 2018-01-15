@@ -1,5 +1,7 @@
 *~
 .vscode/
 node_modules/
-build/
-.tmp/
+
+/.tmp/
+/build/
+/package-lock.json

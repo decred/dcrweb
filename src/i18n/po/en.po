@@ -4,6 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
 
 #: src/brand/index.html:149 src/contributors/index.html:294
 #: src/downloads/index.html:189 src/index.html:544 src/press/index.html:199
