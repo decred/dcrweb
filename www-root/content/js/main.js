@@ -627,19 +627,9 @@ $(window).load(function () {
 		$(".alldl").hide();
 	}
 
-	$('#mediaplayer').mediaelementplayer({
-		pluginPath: "/path/to/shims/",
-	// When using jQuery's `mediaelementplayer`, an `instance` argument
-	// is available in the `success` callback
-		success: function(mediaElement, originalNode, instance) {
-			// do things
-		}
-	});
-
-
-
-
-
+	if (typeof $('#mediaplayer').mediaelementplayer !== 'undefined') {
+        $('#mediaplayer').mediaelementplayer();
+	}
 });
 
 
