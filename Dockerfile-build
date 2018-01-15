@@ -1,0 +1,14 @@
+FROM node:8.9.4
+
+LABEL description="dcrweb build"
+LABEL version="1.0"
+LABEL maintainer "holdstockjamie@gmail.com"
+
+USER root
+WORKDIR /root
+
+COPY ./ /root/
+
+RUN npm install -g grunt
+
+CMD npm install && npm run deploy:build && chmod -R a+rw build

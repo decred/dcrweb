@@ -6,7 +6,7 @@ LABEL version="1.0"
 LABEL maintainer "peter@froggle.org"
 
 # copy document root
-COPY build/ /var/www/html/
+COPY docker-build/ /var/www/html/
 
 COPY runtime/httpd.conf /usr/local/apache2/conf
 COPY runtime/httpd-foreground  /usr/local/bin/

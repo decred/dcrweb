@@ -2,9 +2,9 @@ version: '2.1'
 services:
   www:
     build:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-build
       context: .
-    image: decred/dcrweb
+    image: decred/dcrweb-build
     ports:
       - "8080:80"
     healthcheck:
