@@ -1,8 +1,8 @@
 *~
 .vscode/
-node_modules/
-src/
-www-root/
-content/
 .git/
 .tmp/
+node_modules/
+docker_build/
+build_docker.sh
+build/

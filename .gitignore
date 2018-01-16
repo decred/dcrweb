@@ -1,7 +1,7 @@
 *~
 .vscode/
 node_modules/
-
+docker-build/
 /.tmp/
 /build/
 /package-lock.json

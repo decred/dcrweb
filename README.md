@@ -65,25 +65,23 @@ Once you're happy with the translation in a language, you'll need to enable it f
 
 ## Deployment
 
-A Docker configuration is included for building the deployable images (for the public web server and the API server).
+A Docker configuration is included for building the deployable images of dcrweb.
 
 ### Prerequisites
-  - NodeJS >= v6 (e.g. [nvm](https://github.com/creationix/nvm))
-  - grunt: `npm install -g grunt-cli`
+  - docker
 
 ### Building the Docker images
 
 ```sh
 git clone https://github.com/decred/dcrweb
 cd dcrweb
-npm install
-npm run deploy:build
+./build_docker.sh
 ```
+This builds a docker container which can then be run using:
 
 ```sh
-npm run deploy:preflight
+docker run -d --rm -p <local port>:80 decred/dcrweb:latest
 ```
-Runs the docker image exposing port 8080: `http://localhost:8080`
 
 ### Push to Dockerhub
 
@@ -101,7 +99,7 @@ docker push decred/dcrweb
 
 ```sh
 docker pull decred/dcrweb
-docker run -d --rm -p [local port]]:80 decred/dcrweb:latest
+docker run -d --rm -p <local port>:80 decred/dcrweb:latest
 ```
 
 Runs the docker image exposing the specified local port.
