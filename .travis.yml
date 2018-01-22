@@ -1,19 +1,7 @@
 sudo: required
 
-language: node_js
-node_js:
-  - "node"
-  - "8"
-  - "7"
-  - "6"
-
 services:
   - docker
 
-install:
-  - npm install -g grunt-cli
-  - npm install
-  - npm run deploy:build
-
 script:
-  - docker build -t dcrweb .
+  - sh build_docker.sh
