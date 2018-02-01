@@ -646,6 +646,6 @@ for (var i = 0; i < pathEls.length; i++) {
     loop: true,
     direction: 'alternate',
     easing: 'easeInOutSine',
-    autoplay: true
+    autoplay: false
   });
 }
