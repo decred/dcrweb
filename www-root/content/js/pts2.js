@@ -13,7 +13,7 @@
     // create a line and get 200 interpolated points
     let offset = space.size.$multiply(0.2).x;
     let line = new Group( new Pt( 0, offset ), new Pt( space.size.x, space.size.y-offset ) );
-    let pts = Line.subpoints( line, 200 );
+    let pts = Line.subpoints( line, 160 );
 
     // get perpendicular unit vectors from each points on the line
     let pps = pts.map( (p) => Geom.perpendicular( p.$subtract( line[0] ).unit() ).add(p) );
