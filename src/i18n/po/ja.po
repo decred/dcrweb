@@ -1,6 +1,6 @@
 # Translators:
 # miwoo <mihiro.as@gmail.com>, 2017
-# e2f_AYS <e2fhouse@outlook.com>, 2017
+# e2f_AYS, 2017
 # GoofOff <goofoff@linuxmail.org>, 2017
 # Tomohiro Iizuka <iizuka@alinous.org>, 2017
 # Peter Banik <peter@froggle.org>, 2017
@@ -25,6 +25,14 @@ msgstr "2017年度予定"
 #: src/downloads/index.html:167
 msgid "3RD PARTY WALLETS"
 msgstr "サードパーティー製ウォレット"
+
+#: src/index.html:561
+msgid "<!-- localized footer social media links -->"
+msgstr "<!-- localized footer social media links -->"
+
+#: src/index.html:611
+msgid "<!-- localized social media links -->"
+msgstr "<!-- localized social media links -->"
 
 #: src/brand/index.html:64
 msgid "<br>Visual communication toolkit"
@@ -279,7 +287,7 @@ msgid "Continue"
 msgstr "次へ"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
 msgstr "コントリビューター"
@@ -529,7 +537,7 @@ msgid "Development"
 msgstr "開発"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
 msgstr "ドキュメンテーション"
@@ -549,7 +557,7 @@ msgstr "ウォレットをダウンロード"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
 #: src/downloads/index.html:118 src/downloads/index.html:217
-#: src/index.html:586 src/press/index.html:233 src/stakepools/index.html:186
+#: src/index.html:597 src/press/index.html:233 src/stakepools/index.html:186
 msgid "Downloads"
 msgstr "ダウンロード"
 
@@ -595,7 +603,7 @@ msgid "Free and<br>Open-Source Software"
 msgstr "無料の<br>オープンソースソフトウェア"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
 msgstr "使用方法"
@@ -632,7 +640,7 @@ msgid ""
 "href=\"../#platform\" class=\"link subpage-description\">Technical "
 "Overview</a> if you want to dig deeper. If you are downloading the Decred "
 "binaries, please follow these <a target=\"_blank\" "
-"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md"
 "#verifying-binaries\" class=\"link subpage-description\">Binary "
 "Verification</a> steps to verify the checksums."
 msgstr ""
@@ -652,7 +660,7 @@ msgid "Incremental Privacy and Security"
 msgstr "プライバシーとセキュリティの強化"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
 msgstr "Decredの使用"
@@ -704,13 +712,9 @@ msgid ""
 msgstr "チケットの紛失はProof-of-work(PoW)を行うマイナーの接続状態に問題の場合があり、プールの問題とは限りません。"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
-#: src/stakepools/index.html:185
+#: src/downloads/index.html:216 src/index.html:160 src/index.html:596
+#: src/press/index.html:232 src/stakepools/index.html:185
 msgid "Mission"
-msgstr "ミッション"
-
-#: src/index.html:160
-msgid "Misson"
 msgstr "ミッション"
 
 #: src/contributors/index.html:214
@@ -722,13 +726,13 @@ msgid "Multi-Stakeholder Inclusivity"
 msgstr "マルチステークホルダーの包括性"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
 msgstr "ネットワークステータス"
 
 #: src/brand/index.html:186 src/contributors/index.html:329
-#: src/downloads/index.html:218 src/index.html:587 src/press/index.html:234
+#: src/downloads/index.html:218 src/index.html:598 src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
 msgstr "最新情報"
@@ -764,7 +768,7 @@ msgid "Planned Features"
 msgstr "導入予定機能"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
 msgstr "プラットフォーム"
@@ -823,7 +827,7 @@ msgid "Soon™"
 msgstr "Soon™"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:118 src/stakepools/index.html:186
 msgid "Stakepools"
 msgstr "ステークプール"
@@ -913,7 +917,7 @@ msgid "Visual communication toolkit"
 msgstr "ビジュアルコミュニケーションツールキット"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
 msgstr "投票システム"
@@ -946,7 +950,7 @@ msgid "We’re bound by the following guiding principles."
 msgstr "私たちは次の原則に従います。"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
 msgstr "Decredとは"
@@ -980,7 +984,7 @@ msgid "ccminer releases →"
 msgstr "ccminerリリース →"
 
 #: src/brand/index.html:187 src/contributors/index.html:330
-#: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
+#: src/downloads/index.html:219 src/index.html:599 src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
 msgstr "まもなく登場"

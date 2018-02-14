@@ -2,10 +2,11 @@
 # e2f_EPV Translator <e2f_EPV@outlook.com>, 2017
 # e2f_es_ t7 <e2f_es_t7@outlook.com>, 2017
 # Gustavo Diego Melgarejo <gdiego.uy@gmail.com>, 2017
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Gustavo Diego Melgarejo <gdiego.uy@gmail.com>, 2017\n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/decred/teams/79156/es/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,6 +22,14 @@ msgstr "Hoja de ruta para 2017"
 #: src/downloads/index.html:167
 msgid "3RD PARTY WALLETS"
 msgstr "CARTERAS DE TERCEROS"
+
+#: src/index.html:561
+msgid "<!-- localized footer social media links -->"
+msgstr "<!-- localized footer social media links -->"
+
+#: src/index.html:611
+msgid "<!-- localized social media links -->"
+msgstr "<!-- localized social media links -->"
 
 #: src/brand/index.html:64
 msgid "<br>Visual communication toolkit"
@@ -297,7 +306,7 @@ msgid "Continue"
 msgstr "Continuar"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
 msgstr "Contribuyentes"
@@ -563,15 +572,15 @@ msgstr "Decrediton para Mac OS X"
 
 #: src/index.html:144
 msgid "Decrediton For Windows"
-msgstr ""
+msgstr "Decrediton para Windows"
 
 #: src/index.html:142
 msgid "Decrediton For Windows 32bit"
-msgstr ""
+msgstr "Decrediton  para Windows 32bit"
 
 #: src/index.html:143
 msgid "Decrediton For Windows 64bit"
-msgstr ""
+msgstr "Decrediton  para Windows 64bit"
 
 #: src/contributors/index.html:131
 msgid "Design"
@@ -586,7 +595,7 @@ msgid "Development"
 msgstr "Desarrollo"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
 msgstr "Documentación"
@@ -606,7 +615,7 @@ msgstr "Descargar cartera"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
 #: src/downloads/index.html:118 src/downloads/index.html:217
-#: src/index.html:586 src/press/index.html:233 src/stakepools/index.html:186
+#: src/index.html:597 src/press/index.html:233 src/stakepools/index.html:186
 msgid "Downloads"
 msgstr "Descargas"
 
@@ -657,7 +666,7 @@ msgid "Free and<br>Open-Source Software"
 msgstr "Software libre y<br>de código abierto"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
 msgstr "Comenzar"
@@ -696,7 +705,7 @@ msgid ""
 "href=\"../#platform\" class=\"link subpage-description\">Technical "
 "Overview</a> if you want to dig deeper. If you are downloading the Decred "
 "binaries, please follow these <a target=\"_blank\" "
-"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md"
 "#verifying-binaries\" class=\"link subpage-description\">Binary "
 "Verification</a> steps to verify the checksums."
 msgstr ""
@@ -719,7 +728,7 @@ msgid "Incremental Privacy and Security"
 msgstr "Privacidad y seguridad progresiva"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
 msgstr "Interactuar con Decred"
@@ -773,13 +782,9 @@ msgstr ""
 "Prueba de Trabajo (PoW) sin ser necesariamente culpa del grupo."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
-#: src/stakepools/index.html:185
+#: src/downloads/index.html:216 src/index.html:160 src/index.html:596
+#: src/press/index.html:232 src/stakepools/index.html:185
 msgid "Mission"
-msgstr "Misión"
-
-#: src/index.html:160
-msgid "Misson"
 msgstr "Misión"
 
 #: src/contributors/index.html:214
@@ -791,13 +796,13 @@ msgid "Multi-Stakeholder Inclusivity"
 msgstr "Inclusión de múltiples partes interesadas"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
 msgstr "Estadísticas de red"
 
 #: src/brand/index.html:186 src/contributors/index.html:329
-#: src/downloads/index.html:218 src/index.html:587 src/press/index.html:234
+#: src/downloads/index.html:218 src/index.html:598 src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
 msgstr "Noticias"
@@ -839,7 +844,7 @@ msgid "Planned Features"
 msgstr "Funcionalidades planificadas"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
 msgstr "Plataforma"
@@ -905,7 +910,7 @@ msgid "Soon™"
 msgstr "Próximamente™"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:118 src/stakepools/index.html:186
 msgid "Stakepools"
 msgstr "Redes de participación"
@@ -1004,7 +1009,7 @@ msgid "Visual communication toolkit"
 msgstr "Kit de herramientas de comunicación visual"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
 msgstr "Sistema de votación"
@@ -1042,7 +1047,7 @@ msgid "We’re bound by the following guiding principles."
 msgstr "Nos regimos por los siguientes principios rectores."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
 msgstr "Qué es Decred"
@@ -1076,7 +1081,7 @@ msgid "ccminer releases →"
 msgstr "versiones de ccminer →"
 
 #: src/brand/index.html:187 src/contributors/index.html:330
-#: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
+#: src/downloads/index.html:219 src/index.html:599 src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
 msgstr "próximamente"
