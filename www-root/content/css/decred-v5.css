@@ -163,6 +163,7 @@ body {
 }
 
 .description.font38 {
+  padding-top: 56px;
   line-height: 42px;
 }
 
@@ -425,7 +426,7 @@ body {
 }
 
 .guide {
-  background-color: #0c1e3e;
+  background-color: #091440;
 }
 
 .guide .header {
@@ -702,6 +703,13 @@ body {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #0c1e3e;
+}
+
+.fronta.join-slack {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .charts {
@@ -1502,12 +1510,15 @@ body {
 }
 
 .button.download-wallet {
-  margin-top: 31px;
+  height: 38px;
+  margin-top: 41px;
+  padding-top: 9px;
   clear: left;
   background-color: #2ed8a3;
   background-image: url('../images/button-wallet.svg');
   background-position: 20px 50%;
   background-repeat: no-repeat;
+  font-weight: 600;
 }
 
 .button.download-wallet:hover {
@@ -1531,21 +1542,39 @@ body {
 }
 
 .button.all-downloads {
-  padding-top: 2px;
-  padding-bottom: 4px;
+  margin-top: 5px;
+  margin-left: 22px;
+  padding: 2px 0px 0px;
   float: left;
   clear: left;
+  border-bottom: 1px solid #e2e2e2;
   border-radius: 0px;
   background-color: transparent;
   box-shadow: none;
   -webkit-transition-property: none;
   transition-property: none;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .button.all-downloads:hover {
   color: #f4f7f9;
+}
+
+.button.os-specific {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 22px;
+  clear: left;
+  border-style: none;
+  border-radius: 0px;
+  background-color: transparent;
+  box-shadow: none;
+  color: hsla(0, 0%, 100%, .7);
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: none;
 }
 
 .button-description {
@@ -2948,7 +2977,7 @@ body {
 
 .svg-embed {
   width: 100%;
-  min-height: 320px;
+  height: 320px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -3021,6 +3050,7 @@ body {
 }
 
 .firstview-left {
+  position: relative;
   width: 570px;
   -webkit-transition: opacity 100ms linear;
   transition: opacity 100ms linear;
@@ -3758,6 +3788,33 @@ text-decoration: none;
   line-height: 22px;
 }
 
+.community-join {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+	
+.community-section-left {
+  width: 40%;
+}
+	
+.community-section-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+  	
+.first-view-buttons {
+  position: absolute;
+}
+
 @media (max-width: 991px) {
   body {
     background-attachment: fixed;
@@ -4158,6 +4215,17 @@ text-decoration: none;
     width: 100%;
     margin-left: 0px;
   }
+  .subpage-content.community {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
   .team-filter-button {
     margin-left: 0px;
   }
@@ -4199,6 +4267,31 @@ text-decoration: none;
   }
   .gif-ontop-svg {
     height: 20px;
+  }
+  .video-modal-wrapper {
+    width: 90%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  .community-card {
+    width: 30%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
+  .community-section-description {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    margin-left: 50px;
+    padding-right: 0px;
+  }
+  .first-view-buttons {
+    margin-left: 92px;
   }
 }
 
@@ -4447,6 +4540,9 @@ text-decoration: none;
   .button.all-downloads {
     display: none;
   }
+  .button.os-specific {
+    display: none;
+  }
   .alldl {
     display: none;
   }
@@ -4638,6 +4734,13 @@ text-decoration: none;
     -ms-flex-line-pack: start;
     align-content: flex-start;
   }
+  .subpage-content.community {
+    margin-left: 0px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
   .team-filter-button {
     margin-right: 30px;
   }
@@ -4645,6 +4748,9 @@ text-decoration: none;
     width: 46%;
     height: 325px;
   }
+  .press-release.im {
+    height: auto;
+	}
   .press-release-image-wrap {
     position: relative;
     -webkit-box-pack: center;
@@ -4656,14 +4762,23 @@ text-decoration: none;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+  .press-release-image-wrap.im {
+   height: 164px;
+  }
   .press-release-image {
     position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+  }
+  .press-release-copy-title.im {
+    display: none;
   }
   .mobile-play-button {
     position: relative;
@@ -4678,6 +4793,25 @@ text-decoration: none;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+  .community-card {
+    width: 47%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .community-section-description {
+    margin-top: 40px;
+    margin-bottom: 26px;
+    margin-left: 0px;
+  }
+  .platform-image-source {
+   max-width: 120%;
+  }
+  .community-section-title {
+   width: 100%;
+  }
+  .community-section-subtitle {
+    width: 100%;
   }
 }
 
@@ -4903,6 +5037,15 @@ text-decoration: none;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+  .community-card {
+   width: 100%;
+  }
+  .community-section-description {
+   margin-top: 30px;
+  }
+  .platform-image-source {
+   max-width: 100%;
   }
 }
 

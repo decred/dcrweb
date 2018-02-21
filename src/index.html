@@ -62,8 +62,7 @@
         }
         .slogan,
         .description,
-        .download-wallet,
-        .all-downloads {
+        .first-view-buttons {
           margin-left: 105px;
         }
       }
@@ -132,17 +131,23 @@
   <div class="fronta">
     <div class="full-width">
       <div class="_960 firstview">
-        <div class="firstview-left w-clearfix">
+        <div class="firstview-left">
           <div class="logo"></div>
           <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
           <div class="description font38" translate>Decred is an autonomous digital currency.</div>
-          <a class="button download-wallet w-button alldl" href="downloads/"><span translate>Download Wallet</span><span class="button-description" translate>For Your Computer</span></a>
-          <a class="button download-wallet w-button macdl" href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.dmg"><span translate>Download</span><span class="button-description" translate>Decrediton For Mac OS X</span></a>
-          <a class="button download-wallet w-button linuxdl" href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.tar.gz"><span translate>Download</span><span class="button-description" translate>Decrediton For Linux</span></a>
-          <a class="button download-wallet w-button win32dl" href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.exe"><span translate>Download</span><span class="button-description" translate>Decrediton For Windows 32bit</span></a>
-          <a class="button download-wallet w-button win64dl" href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.exe"><span translate>Download</span><span class="button-description" translate>Decrediton For Windows 64bit</span></a>
-          <a class="button download-wallet w-button windl" href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.exe"><span translate>Download</span><span class="button-description" translate>Decrediton For Windows</span></a>
-          <a href="downloads/" class="all-downloads button w-button" translate>All Downloads →</a>
+
+          <div class="first-view-buttons w-clearfix">
+            <a href="downloads/" class="button download-wallet w-button alldl"><span translate>Download Wallet</span></a><div class="button os-specific alldl"><span translate>For Your Computer</span></div>
+            <a href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.dmg" class="button download-wallet w-button macdl"><span translate>Download Wallet</span></a><div class="button os-specific macdl"><span translate>Decrediton For Mac OS X</span></div>
+            <a href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.tar.gz" class="button download-wallet w-button linuxdl"><span translate>Download Wallet</span></a><div class="button os-specific linuxdl"><span translate>Decrediton For Linux</span></div>
+            <a href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.exe" class="button download-wallet w-button win32dl"><span translate>Download Wallet</span></a><div class="button os-specific win32dl"><span translate>Decrediton For Windows 32bit</span></div>
+            <a href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.exe" class="button download-wallet w-button win64dl"><span translate>Download Wallet</span></a><div class="button os-specific win64dl"><span translate>Decrediton For Windows 64bit</span></div>
+            <a href="https://github.com/decred/decred-binaries/releases/download/v1.1.3/decrediton-v1.1.3.exe" class="button download-wallet w-button windl"><span translate>Download Wallet</span></a><div class="button os-specific windl"><span translate>Decrediton For Windows</span></div>
+            <a href="downloads/" class="button all-downloads w-button" translate>All Downloads →</a>
+          </div>
+
+          
+
           <div class="mobile-play-button"><a href="https://www.youtube.com/watch?v=GAMp5V_gG1E" translate>Watch Video</a></div>
         </div>
         <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>

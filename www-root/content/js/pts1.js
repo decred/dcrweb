@@ -13,7 +13,7 @@
 
     // creatr 200 random points
     start:( bound ) => {
-      pts = Create.distributeRandom( space.innerBound, 200 );
+      pts = Create.distributeRandom( space.innerBound, 160 );
     }, 
 
     animate: (time, ftime) => {
