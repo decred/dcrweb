@@ -6,3 +6,4 @@ es es
 ja ja
 ko ko
 de de
+pl pl

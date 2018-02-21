@@ -2,10 +2,11 @@
 # e2f_ru_r4 <e2f_ru_r4@outlook.com>, 2017
 # e2f_ru_c3 <e2f_ru_c3@outlook.com>, 2017
 # Hungry Zombie <a@brothers.band>, 2017
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: Hungry Zombie <a@brothers.band>, 2017\n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Russian (https://www.transifex.com/decred/teams/79156/ru/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,6 +22,14 @@ msgstr "План развития на 2017 год"
 #: src/downloads/index.html:167
 msgid "3RD PARTY WALLETS"
 msgstr "СТОРОННИЕ КОШЕЛЬКИ"
+
+#: src/index.html:561
+msgid "<!-- localized footer social media links -->"
+msgstr "<!-- localized footer social media links -->"
+
+#: src/index.html:611
+msgid "<!-- localized social media links -->"
+msgstr "<!-- localized social media links -->"
 
 #: src/brand/index.html:64
 msgid "<br>Visual communication toolkit"
@@ -292,7 +301,7 @@ msgid "Continue"
 msgstr "Продолжить"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
 msgstr "Участники"
@@ -578,7 +587,7 @@ msgid "Development"
 msgstr "Разработка"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
 msgstr "Документация"
@@ -598,7 +607,7 @@ msgstr "Загрузить кошелек"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
 #: src/downloads/index.html:118 src/downloads/index.html:217
-#: src/index.html:586 src/press/index.html:233 src/stakepools/index.html:186
+#: src/index.html:597 src/press/index.html:233 src/stakepools/index.html:186
 msgid "Downloads"
 msgstr "Загрузки"
 
@@ -649,7 +658,7 @@ msgid "Free and<br>Open-Source Software"
 msgstr "Бесплатное и<br>открытое программное обеспечение"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
 msgstr "Начать"
@@ -687,7 +696,7 @@ msgid ""
 "href=\"../#platform\" class=\"link subpage-description\">Technical "
 "Overview</a> if you want to dig deeper. If you are downloading the Decred "
 "binaries, please follow these <a target=\"_blank\" "
-"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md"
 "#verifying-binaries\" class=\"link subpage-description\">Binary "
 "Verification</a> steps to verify the checksums."
 msgstr ""
@@ -710,7 +719,7 @@ msgid "Incremental Privacy and Security"
 msgstr "Постепенное наращивание конфиденциальности и безопасности"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
 msgstr "Взаимодействие с Decred"
@@ -764,13 +773,9 @@ msgstr ""
 " PoW-майнеров, а не обязательно по вине пула."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
-#: src/stakepools/index.html:185
+#: src/downloads/index.html:216 src/index.html:160 src/index.html:596
+#: src/press/index.html:232 src/stakepools/index.html:185
 msgid "Mission"
-msgstr "Миссия"
-
-#: src/index.html:160
-msgid "Misson"
 msgstr "Миссия"
 
 #: src/contributors/index.html:214
@@ -782,13 +787,13 @@ msgid "Multi-Stakeholder Inclusivity"
 msgstr "Привлечение множества участников"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
 msgstr "Статистика сети"
 
 #: src/brand/index.html:186 src/contributors/index.html:329
-#: src/downloads/index.html:218 src/index.html:587 src/press/index.html:234
+#: src/downloads/index.html:218 src/index.html:598 src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
 msgstr "Новости"
@@ -829,7 +834,7 @@ msgid "Planned Features"
 msgstr "Планируемые функции"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
 msgstr "Платформа"
@@ -897,7 +902,7 @@ msgid "Soon™"
 msgstr "Скоро™"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:118 src/stakepools/index.html:186
 msgid "Stakepools"
 msgstr "PoS-пулы"
@@ -996,7 +1001,7 @@ msgid "Visual communication toolkit"
 msgstr "Паспорт стандартов фирменного стиля"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
 msgstr "Система голосования"
@@ -1034,7 +1039,7 @@ msgid "We’re bound by the following guiding principles."
 msgstr "Мы руководствуемся следующими принципами."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
 msgstr "Что такое Decred"
@@ -1068,7 +1073,7 @@ msgid "ccminer releases →"
 msgstr "версии ccminer →"
 
 #: src/brand/index.html:187 src/contributors/index.html:330
-#: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
+#: src/downloads/index.html:219 src/index.html:599 src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
 msgstr "скоро"

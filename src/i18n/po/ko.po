@@ -5,10 +5,11 @@
 # KR C1 <e2f8581452@outlook.com>, 2017
 # yoko nakama <inactive+yokono@transifex.com>, 2017
 # KR R1 <e2fr1_333@hotmail.com>, 2017
+# Peter Banik <peter@froggle.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Last-Translator: KR R1 <e2fr1_333@hotmail.com>, 2017\n"
+"Last-Translator: Peter Banik <peter@froggle.org>, 2017\n"
 "Language-Team: Korean (https://www.transifex.com/decred/teams/79156/ko/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,6 +25,14 @@ msgstr "2017년 로드맵"
 #: src/downloads/index.html:167
 msgid "3RD PARTY WALLETS"
 msgstr "타사 지갑"
+
+#: src/index.html:561
+msgid "<!-- localized footer social media links -->"
+msgstr "<!-- localized footer social media links -->"
+
+#: src/index.html:611
+msgid "<!-- localized social media links -->"
+msgstr "<!-- localized social media links -->"
 
 #: src/brand/index.html:64
 msgid "<br>Visual communication toolkit"
@@ -280,7 +289,7 @@ msgid "Continue"
 msgstr "계속"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
 msgstr "기여한 사람들"
@@ -542,7 +551,7 @@ msgid "Development"
 msgstr "개발"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
 msgstr "문서"
@@ -562,7 +571,7 @@ msgstr "지갑 다운로드"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
 #: src/downloads/index.html:118 src/downloads/index.html:217
-#: src/index.html:586 src/press/index.html:233 src/stakepools/index.html:186
+#: src/index.html:597 src/press/index.html:233 src/stakepools/index.html:186
 msgid "Downloads"
 msgstr "다운로드"
 
@@ -608,7 +617,7 @@ msgid "Free and<br>Open-Source Software"
 msgstr "소스 코드의 <br>자유 공개"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
 msgstr "시작하기"
@@ -645,7 +654,7 @@ msgid ""
 "href=\"../#platform\" class=\"link subpage-description\">Technical "
 "Overview</a> if you want to dig deeper. If you are downloading the Decred "
 "binaries, please follow these <a target=\"_blank\" "
-"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md"
 "#verifying-binaries\" class=\"link subpage-description\">Binary "
 "Verification</a> steps to verify the checksums."
 msgstr ""
@@ -665,7 +674,7 @@ msgid "Incremental Privacy and Security"
 msgstr "익명성과 보안성의 향상"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
 msgstr "Decred와 상호작용하기"
@@ -717,13 +726,9 @@ msgid ""
 msgstr "작업증명(PoW) 채굴자의 연결 상태가 좋지 않은 경우 누락된 티켓이 발생할 수 있으며 풀의 결함이 아닐 수 있습니다."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
-#: src/stakepools/index.html:185
+#: src/downloads/index.html:216 src/index.html:160 src/index.html:596
+#: src/press/index.html:232 src/stakepools/index.html:185
 msgid "Mission"
-msgstr "미션"
-
-#: src/index.html:160
-msgid "Misson"
 msgstr "미션"
 
 #: src/contributors/index.html:214
@@ -735,13 +740,13 @@ msgid "Multi-Stakeholder Inclusivity"
 msgstr "다양한 투자자에 대한 포용"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
 msgstr "네트워크 통계"
 
 #: src/brand/index.html:186 src/contributors/index.html:329
-#: src/downloads/index.html:218 src/index.html:587 src/press/index.html:234
+#: src/downloads/index.html:218 src/index.html:598 src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
 msgstr "뉴스"
@@ -779,7 +784,7 @@ msgid "Planned Features"
 msgstr "개발 예정된 기능"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
 msgstr "플랫폼"
@@ -839,7 +844,7 @@ msgid "Soon™"
 msgstr "곧™ 개발 예정"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:118 src/stakepools/index.html:186
 msgid "Stakepools"
 msgstr "지분 증명 풀(Stakepool)"
@@ -930,7 +935,7 @@ msgid "Visual communication toolkit"
 msgstr "시각 커뮤니케이션 툴키트"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
 msgstr "투표 시스템"
@@ -964,7 +969,7 @@ msgid "We’re bound by the following guiding principles."
 msgstr "저희는 다음의 원칙을 준수합니다."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
 msgstr "Decred는 무엇인가요"
@@ -998,7 +1003,7 @@ msgid "ccminer releases →"
 msgstr "ccminer 출시 →"
 
 #: src/brand/index.html:187 src/contributors/index.html:330
-#: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
+#: src/downloads/index.html:219 src/index.html:599 src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
 msgstr "출시 예정"

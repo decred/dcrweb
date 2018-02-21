@@ -23,6 +23,14 @@ msgstr "Roadmap 2017"
 msgid "3RD PARTY WALLETS"
 msgstr "DRITTANBIETER-WALLETS"
 
+#: src/index.html:561
+msgid "<!-- localized footer social media links -->"
+msgstr "<!-- localized footer social media links -->"
+
+#: src/index.html:611
+msgid "<!-- localized social media links -->"
+msgstr "<!-- localized social media links -->"
+
 #: src/brand/index.html:64
 msgid "<br>Visual communication toolkit"
 msgstr "<br>Visuelles Kommunikations-Toolkit"
@@ -295,7 +303,7 @@ msgid "Continue"
 msgstr "Weiter"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Contributors"
 msgstr "Mitwirkende"
@@ -582,7 +590,7 @@ msgid "Development"
 msgstr "Entwicklung"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Documentation"
 msgstr "Dokumentation"
@@ -602,7 +610,7 @@ msgstr "Wallet herunterladen"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
 #: src/downloads/index.html:118 src/downloads/index.html:217
-#: src/index.html:586 src/press/index.html:233 src/stakepools/index.html:186
+#: src/index.html:597 src/press/index.html:233 src/stakepools/index.html:186
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -653,7 +661,7 @@ msgid "Free and<br>Open-Source Software"
 msgstr "Kostenlose<br>Open-Source-Software"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Get Started"
 msgstr "Legen Sie los"
@@ -692,7 +700,7 @@ msgid ""
 "href=\"../#platform\" class=\"link subpage-description\">Technical "
 "Overview</a> if you want to dig deeper. If you are downloading the Decred "
 "binaries, please follow these <a target=\"_blank\" "
-"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.2/README.md"
 "#verifying-binaries\" class=\"link subpage-description\">Binary "
 "Verification</a> steps to verify the checksums."
 msgstr ""
@@ -715,7 +723,7 @@ msgid "Incremental Privacy and Security"
 msgstr "Inkrementeller Datenschutz und Sicherheit"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Interacting with Decred"
 msgstr "Interagieren mit Decred"
@@ -770,13 +778,9 @@ msgstr ""
 "beim Pool."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
-#: src/stakepools/index.html:185
+#: src/downloads/index.html:216 src/index.html:160 src/index.html:596
+#: src/press/index.html:232 src/stakepools/index.html:185
 msgid "Mission"
-msgstr "Mission"
-
-#: src/index.html:160
-msgid "Misson"
 msgstr "Mission"
 
 #: src/contributors/index.html:214
@@ -788,13 +792,13 @@ msgid "Multi-Stakeholder Inclusivity"
 msgstr "Multi-Stakeholder-Inklusivität"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Network Stats"
 msgstr "Netzwerkstatistik"
 
 #: src/brand/index.html:186 src/contributors/index.html:329
-#: src/downloads/index.html:218 src/index.html:587 src/press/index.html:234
+#: src/downloads/index.html:218 src/index.html:598 src/press/index.html:234
 #: src/stakepools/index.html:187
 msgid "News"
 msgstr "Neuigkeiten"
@@ -835,7 +839,7 @@ msgid "Planned Features"
 msgstr "Geplante Features"
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "Platform"
 msgstr "Plattform"
@@ -903,7 +907,7 @@ msgid "Soon™"
 msgstr "Bald™"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:118 src/stakepools/index.html:186
 msgid "Stakepools"
 msgstr "Stakepools"
@@ -1002,7 +1006,7 @@ msgid "Visual communication toolkit"
 msgstr "Visuelles Kommunikations-Toolkit"
 
 #: src/brand/index.html:185 src/contributors/index.html:328
-#: src/downloads/index.html:217 src/index.html:586 src/press/index.html:233
+#: src/downloads/index.html:217 src/index.html:597 src/press/index.html:233
 #: src/stakepools/index.html:186
 msgid "Voting System"
 msgstr "Abstimmungssystem"
@@ -1040,7 +1044,7 @@ msgid "We’re bound by the following guiding principles."
 msgstr "Wir sehen uns den folgenden Richtlinien verpflichtet."
 
 #: src/brand/index.html:184 src/contributors/index.html:327
-#: src/downloads/index.html:216 src/index.html:585 src/press/index.html:232
+#: src/downloads/index.html:216 src/index.html:596 src/press/index.html:232
 #: src/stakepools/index.html:185
 msgid "What is Decred"
 msgstr "Was ist Decred?"
@@ -1074,7 +1078,7 @@ msgid "ccminer releases →"
 msgstr "Ccminer Releases →"
 
 #: src/brand/index.html:187 src/contributors/index.html:330
-#: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
+#: src/downloads/index.html:219 src/index.html:599 src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
 msgstr "demnächst verfügbar"
