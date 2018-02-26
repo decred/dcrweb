@@ -7,3 +7,6 @@ ja ja
 ko ko
 de de
 pl pl
+fa fa
+tr tr
+ar ar
