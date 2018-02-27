@@ -16,3 +16,5 @@ id id
 hu hu
 ja ja
 ko ko
+fa fa
+tr tr
