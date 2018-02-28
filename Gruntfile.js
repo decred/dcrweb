@@ -44,7 +44,7 @@ module.exports = function (grunt) {
         po: [ 'src/i18n/po/*.po' ],
         source: [
           {
-            dest: 'build/{Language}',
+            dest: 'docker-build/{Language}',
             options: {
               'cwd': '.tmp/'
             },
@@ -60,7 +60,7 @@ module.exports = function (grunt) {
           module: 'dcrweb'
         },
         files: {
-          'build/content/js/translations.js': ['i18n/po/*.po']
+          'docker-build/content/js/translations.js': ['i18n/po/*.po']
         }
       }
     },
@@ -100,8 +100,8 @@ module.exports = function (grunt) {
     copy: {
       main: {
         files: [
-          {src: ['src/i18n/languagemap.'+ BUILD_ENV + '.txt'], dest: 'build/languagemap.txt'},
-          {expand: true, cwd: 'www-root/', src: ['**'], dest: 'build/', dot: true}
+          {src: ['src/i18n/languagemap.'+ BUILD_ENV + '.txt'], dest: 'docker-build/languagemap.txt'},
+          {expand: true, cwd: 'www-root/', src: ['**'], dest: 'docker-build/', dot: true}
         ],
       },
     },
