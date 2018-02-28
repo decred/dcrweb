@@ -12,7 +12,11 @@
     "transifex:push": "grunt nggettext_extract  && tx push -s",
     "build": "grunt",
     "build:development": "BUILD_ENV=development grunt",
-    "deploy:build": "npm run build"
+    "deploy:build": "npm run build",
+    "deploy:build:docker": "npm run build && docker build -t decred/dcrweb -f Dockerfile-serve .",
+    "deploy:preflight": "npm run deploy:build:docker && docker run -p 8080:80 --rm decred/dcrweb",
+    "deploy:run": "docker run -d -p 80:80 decred/dcrweb",
+    "dev": "docker run -p 8080:80 --rm -v `pwd`/build:/var/www/html decred/dcrweb"
   },
   "repository": {
     "type": "git",

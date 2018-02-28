@@ -13,5 +13,5 @@ RUN npm install -g grunt
 
 CMD npm install && \
     npm run deploy:build && \
-    cp -r /root/build/. /docker-build/ && \
+    cp -r /root/docker-build/. /docker-build/ && \
     chmod -R a+rwx /docker-build
