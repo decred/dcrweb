@@ -53,7 +53,7 @@ table.dataTable {
     background-image: url("../images/sort.svg"); }
   table.dataTable tbody th,
   table.dataTable tbody td {
-    padding: 8px 10px; }
+    padding: 4px 2px; }
   table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
     border-top: 1px solid #e2e2e2; }
   table.dataTable.row-border tbody tr:first-child th,
@@ -382,14 +382,12 @@ table.dataTable td {
   .address > a:hover, .address > a:active, .address > a:focus {
       text-decoration: underline;
   }
-  .lastUpdate {
-      text-align: left !important;
-  }
-  .poolIdHeader, .addressHeader, .lastUpdateHeader {
+  .poolIdHeader, .addressHeader {
       text-align: left !important;
   }
   #pooldata > thead > tr > th, #pooldata > tbody > tr {
       border-bottom: 1px solid #e2e2e2 !important;
+      white-space: nowrap;
   }
   #pooldata > thead > tr > th {
       font-weight: 700 !important;
