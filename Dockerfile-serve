@@ -4,7 +4,7 @@ LABEL description="dcrweb serve"
 LABEL version="1.0"
 LABEL maintainer "holdstockjamie@gmail.com"
 
-COPY docker-build/ /var/www/html/
+COPY docker-build/ /usr/local/apache2/htdocs/
 
 COPY runtime/httpd.conf        /usr/local/apache2/conf
 COPY runtime/httpd-foreground  /usr/local/bin/
