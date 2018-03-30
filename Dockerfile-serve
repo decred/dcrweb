@@ -1,4 +1,4 @@
-FROM httpd:alpine
+FROM httpd:2.4
 
 LABEL description="dcrweb serve"
 LABEL version="1.0"
