@@ -106,23 +106,31 @@ Runs the docker image exposing the specified local port.
 
 ## Development
 
-```sh
-git clone https://github.com/decred/dcrweb
-cd dcrweb
-npm install
-```
+1. Install prerequisites:
 
-Start file watcher:
+   * Node v8 (preferably via [nvm](https://github.com/creationix/nvm))
+   * `grunt`
+   * Docker
 
-```sh
-grunt watch
-```
+2. Clone repo
+    ```sh
+    git clone https://github.com/decred/dcrweb
+    cd dcrweb
+    yarn install
+    ```
 
-And in another terminal (in the same directory):
-```sh
-grunt serve
-```
-This will start the development web server at `http://localhost:8080`
+3. Start development web server:
+    ```sh
+    yarn dev
+    ```
+
+4. Start file watcher:
+
+    ```sh
+    grunt watch
+    ```
+
+You should now be able to access the site at `http://localhost:8080`
 
 ## License
 

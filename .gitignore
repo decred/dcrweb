@@ -5,3 +5,5 @@ docker-build/
 /.tmp/
 /build/
 /package-lock.json
+.idea/
+yarn-error.log
