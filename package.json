@@ -16,7 +16,7 @@
     "deploy:build:docker": "yarn run build && docker build -t decred/dcrweb -f Dockerfile-serve .",
     "deploy:preflight": "yarn run deploy:build:docker && docker run -p 8080:80 --rm decred/dcrweb",
     "deploy:run": "docker run -d -p 80:80 decred/dcrweb",
-    "dev": "docker run -p 8080:80 --rm -v `pwd`/build:/usr/local/apache2/htdocs decred/dcrweb"
+    "dev": "yarn deploy:build:docker && docker run -p 8080:80 --rm -v `pwd`/docker-build:/usr/local/apache2/htdocs decred/dcrweb"
   },
   "repository": {
     "type": "git",
