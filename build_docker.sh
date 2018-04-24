@@ -1,30 +1,9 @@
 #!/bin/bash -e
-
-# Build docker image to build dcrweb
-docker build . \
-	-f ./Dockerfile-build \
-	-t decred/dcrweb-build
-if [ $? != 0 ]; then
-	echo 'docker build failed'
-	exit 1
-fi
-
-# Prepare build output dir
-rm -rf docker-build
-mkdir docker-build
-
-# Build dcrweb in docker image
-docker run --rm \
-	-v $(pwd)/docker-build:/docker-build \
-	decred/dcrweb-build:latest
-if [ $? != 0 ]; then
-	echo 'docker run failed'
-	exit 1
-fi
+# Requires docker 17.05 and higher
 
 # Build docker image to serve dcrweb
 docker build . \
-	-f ./Dockerfile-serve \
+	-f ./Dockerfile \
 	-t decred/dcrweb
 if [ $? != 0 ]; then
 	echo 'docker build failed'
