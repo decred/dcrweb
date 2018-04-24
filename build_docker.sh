@@ -1,5 +1,5 @@
 #!/bin/bash -e
-# Requires docker 17.05 and higher
+# Requires docker 17.05 or higher
 
 # Build docker image to serve dcrweb
 docker build . \
