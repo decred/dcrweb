@@ -7,7 +7,7 @@ function setLanguage(language){
 	location.reload();
 }
 
-$(window).load(function () {
+$(document).ready(function () {
 
 	// for json API
 	$.ajaxSetup({
@@ -19,6 +19,8 @@ $(window).load(function () {
 
 	if(Cookies.get('langv2')){
 		$langSelector.val(Cookies.get('langv2'));
+		var currentLanguage = $('.lang-selection[data-language=' + Cookies.get('langv2') + ']').text();
+		$('.lang-current').html(currentLanguage);
 	} else {
 		const fallbackLanguage = 'en';
 		var prefLanguage = fallbackLanguage;
@@ -31,11 +33,15 @@ $(window).load(function () {
 			prefLanguage = languagesList.indexOf(navLanguage) !== -1 ? navLanguage : fallbackLanguage;
 		}
 		$langSelector.val(prefLanguage);
+
+		var currentLanguage = $('.lang-selection[data-language=' + prefLanguage + ']').text();
+		$('.lang-current').html(currentLanguage);
 	}
 
 	$langSelector.on('click', '.lang-selection', function(e){
 		setLanguage(e.currentTarget.getAttribute('data-language'));
 	});
+
 
 	var time = 100,
 		viewport = $(window),
