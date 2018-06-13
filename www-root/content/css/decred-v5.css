@@ -6147,7 +6147,16 @@ body {
 }
 
 .roadmap__header {
-  background: url('../images/dcr-roadmap-header@2x.png') center no-repeat;
+  position: relative;
+}
+
+.roadmap__header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .roadmap__description {
