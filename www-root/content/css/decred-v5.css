@@ -1725,6 +1725,25 @@ body {
   font-size: 21px;
   line-height: 35px;
   text-decoration: none;
+  position: relative;
+}
+
+.navigation-link.external:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: block;
+  background: url('../images/press-coverage-hover-icon.svg') center/cover no-repeat;
+  display: inline-block;
+  margin-left: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.25s ease-in-out;
+}
+
+.navigation-link.external:hover:after {
+  opacity: 1;
+  visibility: visible;
 }
 
 .navigation-link:hover {
