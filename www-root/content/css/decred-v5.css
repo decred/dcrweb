@@ -3453,7 +3453,7 @@ body {
 }
 
 .team-filter-button {
-  margin-right: 0;
+  margin-right: 48px;
   margin-bottom: 15px;
   margin-left: 10px;
   padding: 6px 20px 7px;
@@ -4478,7 +4478,7 @@ body {
 .filter-card {
   overflow: hidden;
   width: 306.67px;
-  height: auto;
+  height: 200px;
   margin-right: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -6472,7 +6472,6 @@ body {
   background: #F3F5F6;
   padding: 20px;
   margin-bottom: 20px;
-  border-left: 2px solid #E6EAED;
 }
 
 .press__releases-box p {
@@ -6524,14 +6523,6 @@ body {
   color: #091440;
 }
 
-.subpage__toggle span {
-  vertical-align: middle;
-}
-
-.subpage__toggle img {
-  margin-right: 10px;
-}
-
 .toggleable .subpage-content {
   opacity: 0;
   visibility: hidden;
@@ -6544,37 +6535,4 @@ body {
   opacity: 1;
   visibility: visible;
   position: relative;
-}
-
-.companies .filter-card:hover {
-  transform: translateY(-5px);
-}
-
-.company__image {
-  margin-bottom: 20px;
-}
-
-.company__title {
-  color: #091440;
-  font-size: 19px;
-  line-height: 22px;
-  margin-bottom: 0;
-}
-
-.company__link {
-  font-size: 11px;
-  line-height: 15px;
-  text-decoration: none;
-  margin: 10px 0 20px 0;
-  display: block;
-}
-
-.company__link:hover, .company__link:visited, .company__link:focus {
-  color: #2970FF;
-}
-
-.company__description {
-  color: #596D81;
-  font-size: 13px;
-  line-height: 15px;
 }
