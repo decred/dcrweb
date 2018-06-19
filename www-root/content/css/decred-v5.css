@@ -26,6 +26,18 @@
        url('../fonts/source-sans-pro-v9-latin-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
 }
 
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
 body {
   background-color: #f4f7f9;
   background-image: url('../images/bg_.jpg');
