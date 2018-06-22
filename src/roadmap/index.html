@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!--  Last Published: Tue Apr 10 2018 19:44:58 GMT+0000 (UTC)  -->
+<html lang="{{'_language'|translate}}" dir="{{'_direction'|translate}}">
+<head>
+  <meta charset="utf-8">
+  <title translate>Decred - Roadmap</title>
+  <meta content="{{'Please note that our primary goal is to provide You with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change.'|translate}}" name="description">
+  <meta content="{{'Decred - Exchanges'|translate}}" property="og:title">
+  <meta content="{{'Please note that our primary goal is to provide You with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change.'|translate}}" property="og:description">
+  <meta content="https://decred.org/ogMainSite.jpg" property="og:image">
+  <meta content="summary" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="/content/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/content/css/components.css" rel="stylesheet" type="text/css">
+  <link href="/content/css/decred-v5.css" rel="stylesheet" type="text/css">
+  <noscript>
+    <link href="/content/css/decred-v5-nojs-edition.css" rel="stylesheet" type="text/css">
+  </noscript>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">
+      ! function(o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+      }(window, document);
+    </script>
+  <link href="/content/images/32.png" rel="shortcut icon" type="image/x-icon">
+  <link href="/content/images/256.png" rel="apple-touch-icon">
+  <link href="/content/css/dataTables.css" rel="stylesheet" type="text/css">
+  <!--  Custom favicon  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/content/images/favicon/apple-touch-icon.png?v=fi5jKKtbwv">
+  <link rel="icon" type="image/png" href="/content/images/favicon/favicon-32x32.png?v=fi5jKKtbwv" sizes="32x32">
+  <link rel="icon" type="image/png" href="/content/images/favicon/favicon-16x16.png?v=fi5jKKtbwv" sizes="16x16">
+  <link rel="manifest" href="/content/images/favicon/manifest.json?v=fi5jKKtbwv">
+  <link rel="mask-icon" href="/content/images/favicon/safari-pinned-tab.svg?v=fi5jKKtbwv" color="#2973ff">
+  <link rel="shortcut icon" href="/content/images/favicon/favicon.ico?v=fi5jKKtbwv">
+  <meta name="apple-mobile-web-app-title" content="Decred - Autonomous Digital Currency">
+  <meta name="application-name" content="Decred - Autonomous Digital Currency">
+  <meta name="msapplication-TileColor" content="#2973ff">
+  <meta name="msapplication-TileImage" content="/content/images/favicon/mstile-144x144.png?v=fi5jKKtbwv">
+  <meta name="msapplication-config" content="/content/images/favicon/browserconfig.xml?v=fi5jKKtbwv">
+  <meta name="theme-color" content="#ffffff">
+  <style>
+      html {
+        /* Adjust font size */
+        font-size: 100%;
+        -webkit-text-size-adjust: 100%;
+        /* Font varient */
+        font-variant-ligatures: none;
+        -webkit-font-variant-ligatures: none;
+        /* Smoothing */
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+      }
+    </style>
+  <style type="text/css">
+      @media (min-width: 768px) and (max-width: 991px) {
+        .filter-cards-wrap {
+          width: calc(100% + 20px);
+        }
+      }
+      .footerblockindicator {
+        -ms-word-break: break-all;
+        word-break: break-all; // Non standard for webkit
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+      }
+      .turquoise {
+        fill: #2ed8a3;
+      }
+      .hand {
+        cursor: pointer;
+        cursor: hand;
+      }
+      @media (min-width: 992px) and (max-width: 1024px) {
+        .front {
+          width: 480px;
+        }
+        .width1100 {
+          width: 100%;
+          padding-left: 60px;
+          padding-right: 60px;
+        }
+        /*footer*/
+        .footerrowscolumn1.footerblockstats,
+        .footerrowscolumn1.footerblockicon {
+          width: 20.666667%;
+        }
+        .networkstatistics {
+          width: 237px;
+        }
+        /*statistics*/
+        .statisticsminedbar.borderradius4.margin20 {
+          width: 100%;
+        }
+        .column.percentmined {
+          width: 100%;
+        }
+        .column.supplydistribution {
+          width: 397px;
+        }
+        .column.development {
+          margin-left: 23px;
+          padding-left: 27px;
+        }
+        .filter-cards-wrap {
+          width: calc(100% + 10px);
+        }
+        .column {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+</head>
+<body class="body">
+  <div class="fronta subpage roadmap__header">
+    <video autoplay loop muted poster="/videos/roadmap-fallback.jpg">
+       <source src="/videos/roadmap-video-bg.mp4" type="video/mp4">
+       <source src="/videos/roadmap-video-bg.webm" type="video/webm">
+       <source src="/videos/roadmap-video-bg.ogv" type="video/ogg">
+    </video>
+    <div class="_960 subpage-header"><a href="https://decred.org" class="subpage-logo w-inline-block"></a></div>
+    <div class="_960 subpage-header">
+      <div class="subpage-title" translate>Roadmap</div>
+    </div>
+  </div>
+  <div class="below subpage">
+    <div class="full-width">
+      <div class="_960 ">
+        <div class="subpage-content-section ex roadmap-container">
+          <div class="subpage-content-header">
+            <div class="text-block-5" translate>Insight into our future,<br/> overview of the past.</div>
+            <div class="subpage-content-header-footer">
+              <div class="subpage-description ex" translate>Please note that our primary goal is to provide You with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change.</div>
+              <div class="roadmap__filter-legend">
+                <p data-group="new" class="roadmap__filter-legend-item new">0</p>
+                <p data-group="ongoing" class="roadmap__filter-legend-item ongoing">0</p>
+                <p data-group="completed" class="roadmap__filter-legend-item completed">0</p>
+              </div>
+              <div class="ex-filter roadmap__filter">
+                <a href="#" data-group="new" class="filter-button new w-button"><span>New</span></a>
+                <a href="#" data-group="ongoing" class="filter-button ongoing w-button">Ongoing</a>
+                <a href="#" data-group="completed" class="filter-button completed w-button">Completed</a>
+              </div>
+            </div>
+          </div>
+          <div class="subpage-content roadmap">
+            <div class="filter-cards-wrap w-clearfix">
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/marketingCompleted.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Identity Release</p>
+                  <p class="roadmap__addition-date">Completed Q1 2017</p>
+                  <p class="roadmap__description">Instead of taking the typical wallet service approach where wallets connect to a centralized server, we have added support for a proper SPV mechanism that uses compact filters and works over the P2P network.</p>
+                  <a class="roadmap__more-link" href="https://medium.com/decred/decred-developing-identity-and-design-system-for-a-digital-currency-17df76ab67c8">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/SHA256Completed.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">DCP-0002 - SHA256 Opcode</p>
+                  <p class="roadmap__addition-date">Completed 2018-01-19</p>
+                  <p class="roadmap__description">Part of the 2nd consensus vote. Enabled Hashlocks and Hash-Time Locked Contracts to work using the SHA-256 algorithm. This allows these features to work across other chains that don't use Decred's Blake256 algorithm. As a result, Decred can support off-chain atomic swaps using the Lightning Network.</p>
+                  <a class="roadmap__more-link" href="https://medium.com/decred/decred-developing-identity-and-design-system-for-a-digital-currency-17df76ab67c8" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/lockTimeComplete.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">DCP-0003 - Relative Lock Time Support</p>
+                  <p class="roadmap__addition-date">Completed 2018-01-19</p>
+                  <p class="roadmap__description">Part of the 2nd consensus vote. Provided consensus-enforced relative time locks, which added the ability to allow transaction inputs to remain invalid until a set# of blocks or time passes. Needed for many use cases, including hash time-locked contracts, Lightning Network, and escrows with timeouts.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcps/blob/master/dcp-0003/dcp-0003.mediawiki" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/changeProposalCompleted.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Decred Change Proposal (DCP) Process</p>
+                  <p class="roadmap__addition-date">Completed Q2 2017</p>
+                  <p class="roadmap__description">A design document that describes potential protocol or consensus changes to Decred. Due to Decred's decentralized governance structure, any proposed changes to consensus require super-majority stakeholder approval via the integrated on-chain proof-of-stake voting infrastructure.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcps/blob/master/dcp-0000/dcp-0000.mediawiki" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/privacyActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Initial Privacy Release</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Privacy is on the 2018 Roadmap, and work has begun in earnest. More details will be available later in 2018, when working code will be released along with a description of the approach. It will be a different method than those used by existing privacy coins.</p>
+                  <a class="roadmap__more-link" href="https://twitter.com/decredproject/status/975082629102882816" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/ticketSplitActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Ticket Splitting</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Ticket splitting will allow pools to 'build' tickets using multiple contributions of DCR, each less than the current ticket price. Smaller stakeholders would have a closer experience to the overall average of 28 days to vote. The entry barrier to participation in project governance will be reduced.</p>
+                  <a class="roadmap__more-link" href="https://matheusd.com/post/ticket-splitting-challenges/" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/diffAlgorythmCompleted.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">DCP-0001 - Improve Ticket Pricing Algorithm</p>
+                  <p class="roadmap__addition-date">Completed 2017-07-09</p>
+                  <p class="roadmap__description">This was the first enhancement implemented via an on-chain consensus vote. It improved the pricing algorithm for tickets, which resulted in a more intuitive staking experience. Prior to this, ticket prices would fluctuate rapidly between low and high, causing periods where fees had to be increased.</p>
+                  <a class="roadmap__more-link" href="https://blog.decred.org/2017/04/03/A-New-Ticket-Price-Algorithm/" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/atomicSwapsComplete.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">On-chain Atomic Swaps</p>
+                  <p class="roadmap__addition-date">Completed Q3 2017</p>
+                  <p class="roadmap__description">An on-chain atomic swap is a trade between two cryptocurrencies without the need for a trusted third party. Atomic swaps allow for peer-to-peer exchange between DCR and all supported currencies. This technology has many potential future applications, such as decentralized exchange.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/atomicswap" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/decreditonIntegrActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Payment Integration Support</p>
+                  <p class="roadmap__addition-date">Added Q1 2017</p>
+                  <p class="roadmap__description">We support the integration of Decred in the context of transmitting value. Giving people the ability to accept DCR as payment and spend it creates utility, liquidity and value for Decred. The integration work can take many forms: developing plugins, exchange listings, or payment processor support.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrpayments" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;completed&quot;]" class="filter-card filter-completed w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/timeStampingCompleted.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Blockchain-based Timestamps</p>
+                  <p class="roadmap__addition-date">Completed Q2 2017</p>
+                  <p class="roadmap__description">Blockchain-based timestamps make it possible to prove that a set of data existed at a certain point in time. dcrtime (Decred specific timestamping) will be a major component of the future proposal system, and also allows for third parties to make use of the service by paying a transaction fee.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrtime" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/dectrlOfFundsActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Decentralized Control of Dev Funds</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Stakeholder voting will allow funds to be allocated implement successful proposals. Decentralised Autonomous Entities (DAEs) will be able to take ownership of funds by way of a simple on-chain smart contract that delegates control over funds in a contract to a group of individuals.</p>
+                  <a class="roadmap__more-link" href="https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/androidWalletsActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Android Wallet</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Decred wallet for Android is being developed by Raedah Group. It will employ the novel light wallet (SPV) technology with enhanced privacy called 'compact filters'. Additionally, it will have two other modes of operation: connect to custom node or run a full node for maximum security.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrandroid" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/spv-wallet-support.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">SPV Wallet Support</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Instead of taking the typical wallet service approach where wallets connect to a centralized server, or using 'bloom filters' which compromise privacy, we are working on a proper SPV mechanism that uses 'compact filters' and works over the P2P network.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrwallet/issues/1000" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/trezorActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Trezor Decrediton Integration</p>
+                  <p class="roadmap__addition-date">Added Q4 2017</p>
+                  <p class="roadmap__description">Enable storing and sending of Decred using Trezor hardware wallet.</p>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/DAEActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Decentralized Autonomous Entities</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Add support for user-created decentralized autonomous entities (DAEs), with decentralized control of funds as their basis. Instead of focusing on speculative tokenization seen in "ICOs", a DAE will be built around an on-chain smart contract delegating control over funds to a group of individuals.</p>
+                  <a class="roadmap__more-link" href="https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/DEXActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Proposal For a Decentralized Exchange</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">A proposal for a full-fledged decentralized exchange expanding on the atomicswap tools that we released in 2017. Unlike the profit-centric models common in the space, it will aim to be open, welcoming involvement from other cryptocurrencies. The project will be formalized as a Politeia proposal.</p>
+                  <a class="roadmap__more-link" href="https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/scalabilityOpsActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Scalability Optimizations: Signature Algorithm</p>
+                  <p class="roadmap__addition-date">Added Q4 2017</p>
+                  <p class="roadmap__description">The signature hash can be substantially improved to benefit offline transaction signing devices such as hardware wallets or lightweight air-gapped cold wallets. As a side bonus, its performance can be greatly improved. This change will require a consensus vote.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrd/issues/950" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/politeiaActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Politeia Proposal System</p>
+                  <p class="roadmap__addition-date">Added Q4 2017</p>
+                  <p class="roadmap__description">The core of Decred's proposal system, Politeia, is in development and will allow stakeholders to browse, submit and vote on proposals they would like implemented. After a successful vote, the required funds will be allocated to their implementation.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/politeia" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/decreditonIntegrActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Decrediton Politeia Integration</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Enabling stakeholders to view proposals and cast votes directly from Decrediton wallet is a big step towards effective governance and seamless stakeholder participation.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/decrediton/issues/1244" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/decreditonIntegrActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Decrediton Integrations: SPV</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Decrediton will gain a new light client mode of operation. It won't need to download and store the blockchain, but some functions will not be available. SPV approach underneath is called compact filters and is a substantial privacy improvement over traditional bloom filters.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/decrediton/issues/1243" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/decreditonIntegrActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Decrediton Integrations: Lightning Network</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Enable managing of Lightning Network payments and channels directly from Decrediton wallet.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/decrediton" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/scalabilityOpsActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Scalability Optimizations: Block Header Commitments</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Adding extra data to the block header allows to bring the security of light clients close to that of full nodes. This may also have a positive impact on privacy by reducing leaks of coin ownership information. An elegant change to the block header is proposed that doesn't break existing mining hardware.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrd/issues/971" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/scalabilityOpsActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Scalability Optimizations: Multipeer Syncing</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Enable efficient multi-peer parallel downloads of blockchain data.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrd/issues/1145" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;new&quot;]" class="filter-card filter-new w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/scalabilityOpsActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Scalability Optimizations: Schnorr Signatures</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">Signatures from multiple private keys can be aggregated into a single signature, leading to a substantial savings on network and storage for Decred nodes.</p>
+                  <a class="roadmap__more-link" href="https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/" target="_blank">More Information →</a>
+                </div>
+              </div>
+              <div data-groups="[&quot;ongoing&quot;]" class="filter-card filter-ongoing w-inline-block">
+                <div class="filter-card-footer w-clearfix">
+                  <img src="/content/images/roadmap/LNActive.svg" class="roadmap__image">
+                  <p class="roadmap__card-title">Lightning Network</p>
+                  <p class="roadmap__addition-date">Added Q1 2018</p>
+                  <p class="roadmap__description">The Lightning Network allows users to create off-chain transactions that optionally settle on-chain. This has clear benefits for both scaling and privacy. Most of the work to port Lightning Labs’ lnd to Decred is done.</p>
+                  <a class="roadmap__more-link" href="https://github.com/decred/dcrlnd" target="_blank">More Information →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="footercolumns width1100">
+          <div class="footerrows w-row">
+            <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3"><a href="https://github.com/decred" target="_blank" class="footerblocklinkdev">Decred Developers</a></div>
+            <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3"><a href="../brand/" class="footerblocklink transition" translate>Brand Resources</a><a href="../press/" class="footerblocklink transition" translate>Decred in the Press</a><a href="../recruiting" target="_blank" class="footerblocklink transition" translate>Become a Contributor</a></div>
+            <div class="footerrowscolumn1 w-col w-col-2 w-col-medium-2"><a href="https://docs.decred.org/research/overview/" target="_blank" class="footerblocklink transition" translate>Technical Overview</a><a href="/business_brief.pdf" target="_blank" class="footerblocklink transition" translate>Business Brief</a><a href="https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/" target="_blank" class="footerblocklink transition" translate>2018 Roadmap</a></div>
+            <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
+              <div class="footerblockstatsrow w-clearfix"><a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="https://github.com/decred/decred-release/releases/tag/v1.1.2" target="_blank">v1.1.2</a>
+                <div class="footerblockstatsname" translate>stable</div>
+              </div>
+              <div class="footerblockstatsrow w-clearfix"><a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink">52k total</a>
+                <div class="footerblockstatsname" translate>downloads</div>
+              </div>
+            </div>
+            <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2"><a target="_blank" href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" data-label="#decred irc.freenode.net" class="icon irc w-inline-block"></a><a target="_blank" href="https://slack.decred.org/" data-label="slack" class="icon slack w-inline-block"></a><a target="_blank" href="https://forum.decred.org/" data-label="forum.decred.org" class="forum icon w-inline-block"></a><a target="_blank" href="https://github.com/decred" data-label="github.com/decred" class="github icon w-inline-block"></a><a target="_blank" href="https://twitter.com/decredproject" data-label="twitter.com/decredproject" class="icon twitter w-inline-block"></a><a target="_blank" href="https://www.reddit.com/r/decred/" data-label="reddit.com/r/decred/" class="icon reddit w-inline-block"></a><a target="_blank" href="https://www.youtube.com/decredchannel" data-label="Decred Youtube channel" class="icon w-inline-block youtube"></a><a target="_blank" href="https://medium.com/decred" data-label="Decred Medium" class="icon w-inline-block medium"></a>
+              <div class="backgroundlightblue borderradius4 colorblue dropshadow font12 footerblockindicator opacity000 transition">twitter.com/decredproject</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="_960">
+    <div class="navigation w-clearfix">
+      <div class="navigation-button">
+        <div class="nav-open-close"></div>
+      </div>
+      <!-- <div class="lang-menu w-clearfix">
+        <div class="lang-current">ENG</div>
+        <div class="lang-select">
+          <div data-language="en" class="lang-selection">eng</div>
+          <div data-language="zh" class="lang-selection">中文</div>
+          <div data-language="pt" class="lang-selection">POR</div>
+          <div data-language="ru" class="lang-selection">RUS</div>
+          <div data-language="nl" class="lang-selection">NED</div>
+        </div>
+      </div> -->
+      <div class="link-section">
+        <div class="nav-links-wrap w-clearfix">
+          <div class="navigation-group-title" translate>What is Decred</div><a href="../#mission" class="navigation-link" translate>Mission</a><a href="../#platform" class="navigation-link" translate>Platform</a><a href="../#guide" class="navigation-link" translate>Get Started</a>
+          <div class="navigation-group-title whitespace" translate>Interacting with Decred</div><a href="/downloads" class="navigation-link" translate>Downloads</a><a href="https://voting.decred.org/" class="navigation-link external" translate>Voting System</a><a href="../stakepools/" class="navigation-link" translate>Stakepools</a><a href="https://stats.decred.org/" class="navigation-link external" translate>Network Stats</a><a href="https://docs.decred.org/" class="navigation-link external" translate>Documentation</a><a href="../community/" class="navigation-link" translate>Community</a><a href="../contributors/" class="navigation-link" translate>Contributors</a><a href="/exchanges" class="navigation-link" translate>Exchanges</a><a href="../roadmap/" class="navigation-link" translate>Roadmap</a>
+          <div class="disabled navigation-link" translate>News</div>
+          <div class="disabled-link-tag" translate>coming soon</div>
+        </div>
+        <div class="nav-social w-clearfix"><a href="https://slack.decred.org/" class="nav-slack nav-social-link w-inline-block"></a><a target="_blank" href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" class="nav-irc nav-social-link w-inline-block"></a><a target="_blank" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter w-inline-block"></a><a target="_blank" href="https://forum.decred.org/" class="nav-forum nav-social-link w-inline-block"></a><a target="_blank" href="https://github.com/decred" class="nav-github nav-social-link w-inline-block"></a><a href="https://www.reddit.com/r/decred/" target="_blank" class="nav-reddit nav-social-link w-inline-block"></a><a href="https://www.youtube.com/decredchannel" target="_blank" class="nav-social-link nav-youtube w-inline-block"></a><a href="https://medium.com/decred" target="_blank" class="nav-social-link nav-medium w-inline-block"></a><a href="https://github.com/decred" target="_blank" class="nav-dcr-dev-link">Decred Developers</a></div>
+      </div>
+    </div>
+  </div>
+  <script src="/content/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/content/js/decred-v5.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="/content/js/pts.min.js"></script>
+  <script src="/content/js/verge.min.js"></script>
+  <script src="/content/js/underscore.min.js"></script>
+  <script src="/content/js/jquery.cookie.js"></script>
+  <script src="/content/js/moment.min.js"></script>
+  <script src="/content/js/jquery.dataTables.min.js"></script>
+  <script src="/content/js/anime.min.js"></script>
+  <script src="/content/js/platform.min.js"></script>
+  <script src="/content/js/main.js"></script>
+  <script src="/content/js/pts5.js"></script>
+  <script src="/content/js/modernizr.custom.min.js"></script>
+  <script src="/content/js/jquery.shuffle.js"></script>
+  <script src="/content/js/main-ex.js"></script>
+  <style>
+      html.w-mod-touch * {
+        background-attachment: none !important;
+      }
+      .text a,
+      .text a:active,
+      .text a:focus {
+        color: #69d3f5 !important;
+        text-decoration: none !important;
+      }
+      .text a:hover {
+        text-decoration: underline !important;
+      }
+      .filter-cards-wrap {
+        overflow: visible !important;
+      }
+    </style>
+</body>
+</html>

@@ -47,8 +47,22 @@ $(function(){
         filters.removeClass('is-checked is-hover');
         that.addClass('is-checked');
 
+        var group = $(this).attr('data-group');
+
+        $('.roadmap__filter-legend-item').removeClass('is-checked');
+        $(".roadmap__filter-legend-item[data-group='" + group +"']").addClass('is-checked');
+
         $grid.shuffle('shuffle', $(this).attr('data-group'));
     });
+
+    var newfilter = $('.filter-new').length;
+    $('.roadmap__filter-legend-item[data-group="new"]').html(newfilter);
+
+    var ongoing = $('.filter-ongoing').length;
+    $('.roadmap__filter-legend-item[data-group="ongoing"]').html(ongoing);
+
+    var completed = $('.filter-completed').length;
+    $('.roadmap__filter-legend-item[data-group="completed"]').html(completed);
 
 
     // shuffle js .filter-card hover fix

@@ -7,7 +7,39 @@ function setLanguage(language){
 	location.reload();
 }
 
-$(window).load(function () {
+$(document).ready(function () {
+
+	$('.subpage__toggle a').on('click', function() {
+		$('.subpage__toggle a').removeClass(active);
+		$(this).addClass('active');
+		var toggle = $(this).attr("data-toggle");
+		$('.subpage-content-section div').removeClass('active');
+		$('.subpage-content-section').find('div.'+ toggle).addClass('active');
+	});
+
+	$('.press__releases-item').on('click', function() {
+		$a = $(this);
+
+		$('.press__releases-item').not(this).removeClass('active');
+		$(this).toggleClass('active');
+
+		$('.press__releases-item').not(this).find('.press__releases-arrow').removeClass('active');
+		$(this).find('.press__releases-arrow').toggleClass('active');
+
+		$('.press__releases-content').slideUp();
+
+		if($(this).next('.press__releases-content').is(":visible")) {
+			$(this).next('.press__releases-content').slideUp();
+		} else {
+			$(this).next('.press__releases-content').slideToggle( "slow", function(){
+			if ($(this).is(":visible")) { 
+				$('html,body').animate({ 
+					scrollTop: $(this).offset().top - 100
+				}, "slow")
+			}
+		});
+		}
+	});
 
 	// for json API
 	$.ajaxSetup({
@@ -19,6 +51,8 @@ $(window).load(function () {
 
 	if(Cookies.get('langv2')){
 		$langSelector.val(Cookies.get('langv2'));
+		var currentLanguage = $('.lang-selection[data-language=' + Cookies.get('langv2') + ']').text();
+		$('.lang-current').html(currentLanguage);
 	} else {
 		const fallbackLanguage = 'en';
 		var prefLanguage = fallbackLanguage;
@@ -31,11 +65,15 @@ $(window).load(function () {
 			prefLanguage = languagesList.indexOf(navLanguage) !== -1 ? navLanguage : fallbackLanguage;
 		}
 		$langSelector.val(prefLanguage);
+
+		var currentLanguage = $('.lang-selection[data-language=' + prefLanguage + ']').text();
+		$('.lang-current').html(currentLanguage);
 	}
 
 	$langSelector.on('click', '.lang-selection', function(e){
 		setLanguage(e.currentTarget.getAttribute('data-language'));
 	});
+
 
 	var time = 100,
 		viewport = $(window),

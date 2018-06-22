@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #41be53;
+      }
+
+      .cls-2 {
+        fill: #c4ecca;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_313_1" data-name="Symbol 313 – 1" transform="translate(-233 -577)">
+    <path id="XMLID_17_" class="cls-1" d="M363,118.333V120a1.667,1.667,0,1,0,3.333,0V100H363Z" transform="translate(-105.8 483.667)"/>
+    <rect id="XMLID_16_" class="cls-1" width="6.667" height="1.667" transform="translate(247.2 593.667)"/>
+    <path id="XMLID_15_" class="cls-1" d="M92.507,300H88v1.667h15V300H92.507Z" transform="translate(150.867 297)"/>
+    <path id="XMLID_14_" class="cls-1" d="M92.507,350H88v1.667h15V350H92.507Z" transform="translate(150.867 250.333)"/>
+    <g id="Group_2008" data-name="Group 2008" transform="translate(233 577)">
+      <g id="XMLID_5_" transform="translate(2.533 1.667)">
+        <path id="Path_1346" data-name="Path 1346" class="cls-2" d="M59.667,30h0V25H38V50a1.65,1.65,0,0,0,1.647,1.667H61.313A1.65,1.65,0,0,1,59.667,50V30ZM41.333,33.333H48v8.2H41.333Zm15,15h-15V46.667h15Zm0-3.333h-15V43.333h15Zm0-3.333H49.667V40h6.667Zm0-3.333H49.667V36.667h6.667Zm0-3.333H49.667V33.333h6.667Zm0-3.333h-15V28.333h15Z" transform="translate(-38 -25)"/>
+      </g>
+      <path id="XMLID_4_" class="cls-1" d="M88,76.667v1.667h15V75H88Z" transform="translate(-82.133 -70)"/>
+      <rect id="XMLID_3_" class="cls-1" width="6.667" height="8.2" transform="translate(5.867 10)"/>
+      <rect id="XMLID_2_" class="cls-1" width="6.667" height="1.667" transform="translate(14.2 10)"/>
+      <rect id="XMLID_1_" class="cls-1" width="6.667" height="1.667" transform="translate(14.2 13.333)"/>
+      <rect id="Rectangle_850" data-name="Rectangle 850" class="cls-3" width="30" height="30"/>
+    </g>
+  </g>
+</svg>
