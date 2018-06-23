@@ -41,10 +41,10 @@ msgstr ""
 " visuais da Decred são para representar moedas digitais, apoiar a utilização"
 " consistente através de uma variedade de plataformas assim como ser "
 "memorável e envolvente para novos integrantes. Isto é alcançado através da "
-"utilização correta do logótipo, composição tipográfica, direção da cor e "
+"utilização correta do logotipo, composição tipográfica, direção da cor e "
 "qualidades gráficas. Desenvolvemos uns modelos de estilo simples adequados "
 "para todos os utilizadores assim como para os designers produzirem materiais"
-" mais complexo.</p><a href=\"/media/visual_toolkit.pdf\" target=\"_blank\" "
+" mais complexos.</p><a href=\"/media/visual_toolkit.pdf\" target=\"_blank\" "
 "class=\"brand colorblue font16\">Transferir o Pacote Completo ↓</a>"
 
 #: src/index.html:381
@@ -100,12 +100,12 @@ msgstr ""
 "<p>Parte da recompensa dos novos blocos vai para o desenvolvimento da Decred para assegurar que continuará a evoluir para cumprir as necessidades e desejos da comunidade agora e nos próximos anos. Estas são algumas das características planejadas para 2017:</p>\n"
 "\t\t<ul>\n"
 "\t\t<li translate=\"\">Votação hard fork</li>\n"
-" <li>DAO gerida pelos investidores</li>\n"
-"<li>Controle descentralizado dos fundos de desenvolvimento</li>\n"
-"<li>Suporte à Lightning Network</li>\n"
-"<li>Desenvolvimento de Experiência do usuário e Design contínuos</li>\n"
-"<li>Privacidade melhorada</li>\n"
-"<li>Integração de pagamento</li>\n"
+"                <li>DAO gerida pelos investidores</li>\n"
+"                <li>Controle descentralizado dos fundos de desenvolvimento</li>\n"
+"                <li>Suporte à Lightning Network</li>\n"
+"                <li>Desenvolvimento de Experiência do usuário e Design contínuos</li>\n"
+"                <li>Privacidade melhorada</li>\n"
+"                <li>Integração de pagamento</li>\n"
 "\t\t</ul>\n"
 "\t\t<p>Leia sobre isso e mais no nosso blog. <a href=\"https://blog.decred.org\" target=\"_blank\">Bem-vindo à Decred: o futuro da moeda digital autônoma</a></p> "
 
@@ -309,7 +309,7 @@ msgstr "Criar uma base de navegador Wallet →"
 
 #: src/index.html:313
 msgid "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
-msgstr "Para aqueles que gostam de quebrar a cabeça, a Decred fornece um repositório de ferramentas de linhas de comenado permitindo a customização da experiência."
+msgstr "Para aqueles que gostam de quebrar a cabeça, a Decred fornece um repositório de ferramentas de linhas de comando permitindo a customização da experiência."
 
 #: src/index.html:212
 msgid "Cross-chain atomic swaps between different digital currencies"
@@ -337,7 +337,7 @@ msgstr "Decred - Marca"
 
 #: src/contributors/index.html:6
 msgid "Decred - Contributors"
-msgstr "Decred - Contribuintes"
+msgstr "Decred - Contribuidores"
 
 #: src/downloads/index.html:6
 msgid "Decred - Downloads"
@@ -374,8 +374,7 @@ msgstr "Análise técnica da Decred - dinâmica ascendente contínua"
 msgid ""
 "Decred and Litecoin completed something called a cross-chain atomic swap"
 msgstr ""
-"A Decred e a Litecoin completaram algo designado uma troca atómica de cross-"
-"chain"
+"A Decred e a Litecoin completaram algo chamado como troca atômica de cadeia cruzada"
 
 #: src/brand/index.html:8
 msgid "Decred brand"
@@ -388,7 +387,7 @@ msgid ""
 "trustless over-the-counter (OTC) trades without a third party."
 msgstr ""
 "A Decred não exige crédito nos câmbios centralizados. Com as trocas atómicas"
-" de cross-chain entre moedas digitais diferentes, os utilizadores podem "
+" de cadeia cruzada entre moedas digitais diferentes, os utilizadores podem "
 "realizar trocas livres sem terceiros."
 
 #: src/downloads/index.html:8
@@ -683,7 +682,7 @@ msgstr ""
 msgid ""
 "How Decentralized Exchanges Make Bitcoin More Resilient (and Us More Free)"
 msgstr ""
-"Como é que descentralizar câmbios torna o bitcoin mais resistente (e a Nós "
+"Como Exchanges descentralizadas tornam o bitcoin mais resistente (e Nós "
 "Mais Livres)"
 
 #: src/downloads/index.html:125
@@ -697,6 +696,14 @@ msgid ""
 "#verifying-binaries\" class=\"link subpage-description\">Binary "
 "Verification</a> steps to verify the checksums."
 msgstr ""
+"Se você é novo no Decred, deve ler o <a href=\"../#guide\" "
+"class=\"link subpage-description\">Tour de Primeiros Passos</a> ou a <a "
+"href=\"../#platform\" class=\"link subpage-description\">Visão geral "
+"técnica</a> caso queira se aprofundar. Se vocÇe está baixando os binários "
+"do Decred, por favor siga este passo de <a target=\"_blank\" "
+"href=\"https://github.com/decred/decred-binaries/blob/v1.1.0/README.md"
+"#verifying-binaries\" class=\"link subpage-description\">Verificação "
+"Binária</a> para confirmar os checksums."
 
 #: src/contributors/index.html:208
 msgid "Illustrator, Designer"
@@ -920,6 +927,19 @@ msgid ""
 "                  <div class=\"section-title-text\">JavaScript required</div><div class=\"mission-copy\">We're sorry, but this Website doesn't work properly<br>without JavaScript enabled.</div>\n"
 "              </noscript>"
 msgstr ""
+"Stakepools lhe permitem participar no sistema proof-of-stake (PoS) do Decred sem se preocupar com perdas decorrentes de falha computacional, perda na conectividade de internet , ou inconstâncias na energia.\n"
+"              <noscript>\n"
+"                  <div><a href=\"https://dcr.stakepool.net\" target=\"_blank\">dcr.stakepool.net</a><br>\n"
+"                    <a href=\"https://dcr.stakeminer.com\" target=\"_blank\">dcr.stakeminer.com</a><br>\n"
+"                    <a href=\"https://pool.d3c.red\" target=\"_blank\">pool.d3c.red</a><br>\n"
+"                    <a href=\"https://stakepool.dcrstats.com\" target=\"_blank\">stakepool.dcrstats.com</a><br>\n"
+"                    <a href=\"https://stakepool.eu\" target=\"_blank\">stakepool.eu</a><br>\n"
+"                    <a href=\"https://dcr.ubiqsmart.com\" target=\"_blank\">dcr.ubiqsmart.com</a><br>\n"
+"                    <a href=\"https://teststakepool.decred.org\" target=\"_blank\">teststakepool.decred.org</a><br>\n"
+"                    <a href=\"https://ultrapool.eu\" target=\"_blank\">ultrapool.eu</a><br>\n"
+"                  </div>\n"
+"                  <div class=\"section-title-text\">JavaScript requerido</div><div class=\"mission-copy\">Sentimos muito, mas este Website não funciona corretamente<br>sem o JavaScript habilitado.</div>\n"
+"              </noscript>"
 
 #: src/contributors/index.html:268
 msgid "Strategic Comms Lead"
@@ -966,7 +986,7 @@ msgid ""
 "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
 msgstr ""
 "Software de mineração OpenCL de terceiros para GPUs AMD. Não suportado pela "
-"equipa da Decred."
+"equipe do Decred."
 
 #: src/index.html:296
 msgid "This tour will help you get started with Decred"
@@ -1071,7 +1091,7 @@ msgstr "lançamentos ccminer →"
 #: src/downloads/index.html:219 src/index.html:588 src/press/index.html:235
 #: src/stakepools/index.html:188
 msgid "coming soon"
-msgstr "brevemente"
+msgstr "em breve"
 
 #: src/contributors/index.html:244
 msgid "community coordinator"
@@ -1117,7 +1137,7 @@ msgstr "designer principal"
 
 #: src/downloads/index.html:133
 msgid "macOS ↓"
-msgstr "macOS ↓"
+msgstr "MacOS ↓"
 
 #: src/index.html:169
 msgid "of total"
@@ -1147,7 +1167,7 @@ msgid ""
 "Song</a>, Bitcoin Developer<span class=\"quotes-by-title\"></span>"
 msgstr ""
 "— <a href=\"https://twitter.com/jimmysong\" target=\"_blank\">Jimmy "
-"Song</a>, Programador Bitcoin<span class=\"quotes-by-title\"></span>"
+"Song</a>, Desenvolvedor Bitcoin<span class=\"quotes-by-title\"></span>"
 
 #: src/index.html:193
 msgid "“Decred is an innovative crypto with some amazing developers.&quot;"
