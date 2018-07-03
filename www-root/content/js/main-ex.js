@@ -12,6 +12,8 @@ $(function(){
     var $grid = $('.filter-cards-wrap');
         //$sizer = $grid.find('.shuffle__sizer');
 
+    var Shuffle = window.Shuffle;
+
     $grid.shuffle({
         itemSelector: '.filter-card',
         initialSort: {
@@ -20,6 +22,8 @@ $(function(){
             }
         }
     });
+
+    $('.filter-cards-wrap--roadmap').shuffle('shuffle', 'new');
 
     // filter icons display tail
     filter.not(all).on('mouseenter', function() {
