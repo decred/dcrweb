@@ -6657,7 +6657,7 @@ body {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .shadowbox {
     width: 100%;
   }
