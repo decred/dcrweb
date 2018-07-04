@@ -6553,23 +6553,40 @@ body {
 .shadow-box {
   margin-bottom: 20px;
   width: 83%;
-  display: inline-block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row-reverse;
   box-shadow: -5px 5px 25px -5px rgba(9, 20, 64, 0.34);
+}
+.w-50 {
+  width: 50%;
 }
 @media screen and (max-width: 768px) {
   .shadow-box {
     width: 100%;
   }
 }
+@media screen and (max-width: 576px) {
+  .shadow-box {
+    display: inline-block;
+    width: 100%;
+  }
+  .w-50 {
+    width: 100%;
+  }
+}
 .shadow-box__content {
   padding: 20px 20px 5px;
-  float: left;
-  width: 50%;
+  flex: 2;
+  flex-direction: column-reverse;
 }
 @media screen and (max-width: 576px) {
   .shadow-box__content {
+    flex: none;
     padding: 20px;
-    float: none;
     width: 100%;
   }
 }
@@ -6597,21 +6614,30 @@ body {
   text-decoration: underline;
 }
 .shadow-box__image {
-  float: right;
-  width: 50%;
+  flex: 1;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
 }
 @media screen and (max-width: 576px) {
   .shadow-box__image {
-    float: none;
+    flex: none;
     width: 100%;
   }
 }
 .shadow-box__image img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
-
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
 .shadowbox {
+  flex: 1;
   margin-bottom: 20px;
   margin-left: 1.458%;
   width: 49%;
@@ -6621,8 +6647,12 @@ body {
 .shadowbox.first {
   margin-left: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 959px) {
+  .d-flex {
+    display: block;
+  }
   .shadowbox {
+    flex: none;
     width: 70%;
     margin-left: 0;
   }
@@ -6637,7 +6667,7 @@ body {
   float: left;
   width: 50%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 659px) {
   .shadowbox__content {
     width: 100%;
     float: none;
@@ -6656,7 +6686,7 @@ body {
   margin-bottom: 20px;
   min-height: 120px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 659px) {
   .shadowbox__content p {
     min-height: inherit;
   }
@@ -6676,7 +6706,7 @@ body {
   float: right;
   width: 50%;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 659px) {
   .shadowbox {
     width: 100%;
   }
@@ -6766,12 +6796,10 @@ body {
   }
 }
 .toolkit-text {
-  padding: 15px 15px 5px;
+  text-align: center;
+  padding: 15px 0 5px;
 }
-@media screen and (max-width: 576px) {
-  .toolkit-text {
-    padding: 15px 5px 5px;
-  }
+@media screen and (max-width: 659px) {
   .toolkit-text a {
     font-size: 11px;
   }
