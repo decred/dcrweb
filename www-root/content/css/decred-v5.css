@@ -2119,6 +2119,11 @@ body {
   background-size: 20px 20px;
 }
 
+.section-card-title-download-page.coinomi {
+  background-image: url('../images/coinomi-color-for-loght-bg.png');
+  background-size: 20px 20px;
+}
+
 .section-card-description-download {
   font-size: 13px;
   line-height: 17px;
