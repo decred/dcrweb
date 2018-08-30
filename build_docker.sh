@@ -1,14 +1,10 @@
-#!/bin/bash -e
-# Requires docker 17.05 or higher
+#!/usr/bin/env bash
 
+set -ex
+
+# Requires docker 17.05 or higher
 # Build docker image to serve dcrweb
-docker build . \
-	-f ./Dockerfile \
-	-t decred/dcrweb
-if [ $? != 0 ]; then
-	echo 'docker build failed'
-	exit 1
-fi
+docker build -t decred/dcrweb .
 
 echo ""
 echo "==================="
