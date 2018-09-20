@@ -1535,6 +1535,12 @@ body {
   cursor: pointer;
 }
 
+@media (max-height: 720px) {
+  .navigation {
+    top: 15px;
+  }
+}
+
 .button {
   overflow: hidden;
   padding-top: 6px;
@@ -1702,6 +1708,13 @@ body {
   font-size: 22px;
   text-align: left;
   text-decoration: none;
+}
+
+@media (max-height: 720px) {
+  .link-section {
+    padding-top: 25px;
+    overflow-y: scroll;
+  }
 }
 
 .link-section.visible {
