@@ -1764,6 +1764,8 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: 0.25s ease-in-out;
+  position: absolute;
+  top: 10px;
 }
 
 .navigation-link.external:hover:after {
