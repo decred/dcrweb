@@ -5438,13 +5438,13 @@ body {
     margin-bottom: 15px;
   }
   .button.download-wallet {
-    display: none;
+    display: none !important;
   }
   .button.all-downloads {
-    display: none;
+    display: none !important;
   }
   .button.os-specific {
-    display: none;
+    display: none !important;
   }
   .alldl {
     display: none;
@@ -6851,4 +6851,9 @@ body {
 }
 .git-decred--content a:hover {
   text-decoration: underline;
+}
+
+.mobile-play-button a {
+  color: #fff;
+  text-decoration: none;
 }
