@@ -1501,6 +1501,7 @@ body {
   display: block;
   width: 460px;
   float: left;
+  max-width: 100%;
 }
 
 .modalparagraph.right {
