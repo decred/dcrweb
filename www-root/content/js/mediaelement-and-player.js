@@ -2875,7 +2875,7 @@ _mejs2.default.TrackFormatParser = {
 						text = text + '\n' + lines[i];
 						i++;
 					}
-					text = text.trim().replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, "<a href='$1' target='_blank'>$1</a>");
+					text = text.trim().replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, "<a href='$1' target='_blank' rel='noopener noreferrer'>$1</a>");
 					entries.push({
 						identifier: identifier,
 						start: (0, _time.convertSMPTEtoSeconds)(timecode[1]) === 0 ? 0.200 : (0, _time.convertSMPTEtoSeconds)(timecode[1]),
@@ -2945,7 +2945,7 @@ _mejs2.default.TrackFormatParser = {
 				if (_temp.start === 0) {
 					_temp.start = 0.200;
 				}
-				_temp.text = lines.eq(_i16).innerHTML.trim().replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, "<a href='$1' target='_blank'>$1</a>");
+				_temp.text = lines.eq(_i16).innerHTML.trim().replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, "<a href='$1' target='_blank' rel='noopener noreferrer'>$1</a>");
 				entries.push(_temp);
 			}
 			return entries;

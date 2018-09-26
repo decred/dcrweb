@@ -604,7 +604,7 @@ $(document).ready(function () {
 						proportion = proportion.toFixed(2) + "%";
 						tableMarkup += '<tr class="rowHover transition ' + poolData["Network"] + (overCapacity ? ' overcapacity"' : '"') + '>';
 						tableMarkup += '<td class="poolId">' + poolName + '</td>';
-						tableMarkup += '<td class="address"><a target="_blank" href="' + poolData["URL"] + '">' + poolData["URL"].replace("https://", "") + '</a></td>';
+						tableMarkup += '<td class="address"><a target="_blank" rel="noopener noreferrer" href="' + poolData["URL"] + '">' + poolData["URL"].replace("https://", "") + '</a></td>';
 						tableMarkup += '<td class="lastUpdate inconsolata">' + lastUpdateFormatted + '</td>';
 						tableMarkup += '<td class="inconsolata">' + (overCapacity ? ' <span class="inconsolata overcapacityWarning" style="" title="See warning below">' + proportion + '</span>' : proportion) + '</td>';
 
