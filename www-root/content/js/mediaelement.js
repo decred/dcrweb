@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				media.addEventListener('loadedmetadata', function () {
 					var src = media.originalNode.getAttribute('src').replace('&amp;', '&');
 					if (renderer && src) {
-						renderer.querySelector('.src').innerHTML = '<a href="' + src + '" target="_blank">' + src + '</a>';
+						renderer.querySelector('.src').innerHTML = '<a href="' + src + '" target="_blank" rel="noopener noreferrer">' + src + '</a>';
 						renderer.querySelector('.renderer').innerHTML = media.rendererName;
 						renderer.querySelector('.error').innerHTML = '';
 					}
