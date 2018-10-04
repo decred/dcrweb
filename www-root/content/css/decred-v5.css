@@ -2160,6 +2160,11 @@ body {
   background-size: 20px 20px;
 }
 
+.section-card-title-download-page.cobo {
+  background-image: url('../images/cobo-color-for-loght-bg.png');
+  background-size: 20px 20px;
+}
+
 .section-card-description-download {
   font-size: 13px;
   line-height: 17px;
