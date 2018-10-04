@@ -688,34 +688,51 @@ $(document).ready(function () {
 		if (platform.os.architecture == "32") {
 			$(".win32dl").show();
 			$(".alldl").hide();
-			document.getElementById("decreditonlinux").style.color = "#a2a7b0";
-			document.getElementById("decreditonmac").style.color = "#a2a7b0";
+
+			if($("#decreditonlinux").length || $("#decreditonmac").length) {
+				$("#decreditonlinux").style.color = "#a2a7b0";
+				$("#decreditonmac").style.color = "#a2a7b0";
+			}
+
 		} else if (platform.os.architecture == "64") {
 			$(".win64dl").show();
 			$(".alldl").hide();
-			document.getElementById("decreditonlinux").style.color = "#a2a7b0";
-			document.getElementById("decreditonmac").style.color = "#a2a7b0";
+
+			if($("#decreditonlinux").length || $("#decreditonmac").length) {
+				$("#decreditonlinux").style.color = "#a2a7b0";
+				$("#decreditonmac").style.color = "#a2a7b0";
+			}
+
 		} else {
 			// shouldn't get here
 			$(".windl").show();
 			$(".alldl").hide();
-			document.getElementById("decreditonlinux").style.color = "#a2a7b0";
-			document.getElementById("decreditonmac").style.color = "#a2a7b0";
+
+			if($("#decreditonmac").length || $("#decreditonlinux").length) {
+				$("#decreditonlinux").style.color = "#a2a7b0";
+				$("#decreditonmac").style.color = "#a2a7b0";
+			}
 		}
 	}
 
 	if (platform.os.family == "CentOS" || platform.os.family == "Debian" || platform.os.family == "Fedora" || platform.os.family == "Gentoo" || platform.os.family == "Kubuntu" || platform.os.family == "Linux Mint" || platform.os.family == "Red Hat" || platform.os.family == "SuSE" || platform.os.family == "Ubuntu" || platform.os.family == "Ubuntu Chromium" || platform.os.family == "Xubuntu" || platform.os.family == "Linux") {
 		$(".linuxdl").show();
 		$(".alldl").hide();
-		document.getElementById("decreditonwindows").style.color = "#a2a7b0";
-		document.getElementById("decreditonmac").style.color = "#a2a7b0";
+
+		if($("#decreditonmac").length || $("#decreditonwindows").length) {
+			$("#decreditonmac").style.color = "#a2a7b0";
+			$("#decreditonwindows").style.color = "#a2a7b0";
+		}
 	}
 
 	if (platform.os.family == "OS X") {
 		$(".macdl").show();
 		$(".alldl").hide();
-		document.getElementById("decreditonlinux").style.color = "#a2a7b0";
-		document.getElementById("decreditonwindows").style.color = "#a2a7b0";
+
+		if($("#decreditonlinux").length || $("#decreditonwindows").length) {
+			$("#decreditonlinux").style.color = "#a2a7b0";
+			$("#decreditonwindows").style.color = "#a2a7b0";
+		}
 	}
 
 	if (typeof $('#mediaplayer').mediaelementplayer !== 'undefined') {
