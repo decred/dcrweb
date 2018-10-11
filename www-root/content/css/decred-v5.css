@@ -1081,18 +1081,16 @@ body {
   padding-bottom: 4px;
   padding-left: 35px;
   background-image: url('../images/iconDecredLightBlue.svg');
-  background-position: 0px 100%;
-  background-size: 32px;
+  background-position: 5px 2px;
+  background-size: 20px;
   background-repeat: no-repeat;
   color: #d5edfa;
   font-weight: 600;
   text-decoration: none;
+  transition: 0.25s;
 }
 
 .footerblocklinkdev:hover {
-  background-image: url('../images/iconDecredWhite.svg');
-  background-position: 0px 100%;
-  background-size: 32px;
   color: #fff;
 }
 
@@ -2033,6 +2031,7 @@ body {
   background-image: url('../images/in-house.svg');
   background-position: 97% 10px;
   background-repeat: no-repeat;
+  background-size: 20px;
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .16);
   -webkit-transition: box-shadow 100ms ease;
   transition: 200ms ease;
