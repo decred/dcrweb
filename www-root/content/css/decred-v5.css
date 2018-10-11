@@ -4583,6 +4583,12 @@ body {
   height: 140px;
 }
 
+.filter-card-image-wrap img {
+  max-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 .filter-card-footer {
   position: relative;
   z-index: 1;
