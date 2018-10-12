@@ -4806,10 +4806,7 @@ body {
     float: right;
   }
   .footerblocklinkdev {
-    background-position: 0px -1px;
-  }
-  .footerblocklinkdev:hover {
-    background-position: 0px -1px;
+    background-position: 0px 2px;
   }
   .footerrows {
     padding-right: 20px;
@@ -5389,10 +5386,6 @@ body {
     display: block;
     margin-bottom: 15px;
     padding-left: 29px;
-    background-position: -5px -6px;
-  }
-  .footerblocklinkdev:hover {
-    background-position: -5px -6px;
   }
   .footerrows {
     padding-right: 0px;
