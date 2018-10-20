@@ -514,7 +514,7 @@ body {
 }
 
 .backgroundcyan {
-  background-color: #69d3f5;
+  background-color: #70cbff;
   color: #0c1e3e;
 }
 
@@ -587,7 +587,7 @@ body {
 }
 
 .backgrounddarkblue {
-  background-color: #0c1e3e;
+  background-color: #091440;
 }
 
 .child {
@@ -1291,7 +1291,7 @@ body {
 }
 
 .height-122.width-122.margin20.ii {
-  background-image: url('../images/inconsolata.svg');
+  background-image: url('../images/sourceCode.svg');
   background-position: 50% 50%;
   background-size: 68px;
   background-repeat: no-repeat;
@@ -1364,7 +1364,7 @@ body {
 }
 
 .backgroundroyalblue {
-  background-color: #2971ff;
+  background-color: #2970ff;
 }
 
 .backgroundgreen {
@@ -1372,7 +1372,7 @@ body {
 }
 
 .backgroundorange {
-  background-color: #fd714a;
+  background-color: #ed6d47;
 }
 
 .notification.brand {
