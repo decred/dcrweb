@@ -54,7 +54,6 @@
       }
       .hand {
         cursor: pointer;
-        cursor: hand;
       }
       @media (min-width: 1024px) and (max-width: 1212px) {
         .logo {
@@ -644,9 +643,7 @@ We can't wait to meet you!</p></div>
         <link href="/content/css/mediaplayer-custom.css" rel="stylesheet" type="text/css">
         <script src="/content/js/mediaelement-and-player.js"></script>
         <script src="/content/js/mediaelement.js"></script>
-        <video id="player1" width="1280" height="720" style="max-width:100%;" poster="/content/images/video_preview_img.svg" preload="none" controls="" playsinline="" webkit-playsinline="">
-        <source src="https://www.youtube.com/watch?v=GAMp5V_gG1E" type="video/x-youtube">
-        </video>
+        <video id="player1" class="video-stream" poster="/content/images/video_preview_img.svg" preload="none" controls="controls" x-webkit-airplay="allow" data-youtube-id="GAMp5V_gG1E" src="https://www.youtube.com/watch?v=GAMp5V_gG1E&html5=True"></video>
       </div>
     </div>
   </div>
@@ -663,9 +660,6 @@ We can't wait to meet you!</p></div>
   <script src="/content/js/platform.min.js"></script>
   <script src="/content/js/main.js"></script>
   <style>
-      html.w-mod-touch * {
-        background-attachment: none !important;
-      }
       .text a,
       .text a:active,
       .text a:focus {
