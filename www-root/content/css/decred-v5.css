@@ -3357,12 +3357,37 @@ body {
   color: #2970ff;
 }
 
+.subpage-description.ulink {
+  color: #2970ff;
+  text-decoration: underline;
+}
+
 .subpage-description.ex {
   margin-top: 27px;
 }
 
 .subpage-description.ex {
   font-size: 13px;
+}
+
+.subpage-description p {
+  margin-bottom: 24px;
+}
+
+.subpage-description ol {
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+
+.subpage-description ul{
+  margin-bottom: 0;
+  margin-left: -24px;
+  padding-left: 24px;
+}
+
+.subpage-description__image {
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -4637,6 +4662,25 @@ body {
   .text-block-5 {
     font-size: 34px;
   }
+}
+
+.text-block-7 {
+  color: #2970ff;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.text-block-9 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 19px;
+  line-height: 23px;
 }
 
 .subpage-content-header-footer {
@@ -6966,4 +7010,94 @@ body {
 
 .politeia-notice__button span {
   vertical-align: middle;
+}
+
+.comments-box {
+  margin-left: -24px;
+  margin-bottom: 46px;
+  padding: 24px;
+  display: flex;
+  background-color: #e9f8fe;
+  border-left: 2px solid #70cbff;
+}
+
+.comments-box__image {
+  margin-right: 48px;
+}
+
+.comments-box__image img {
+  max-width: none;
+}
+
+.comments-box__content {
+
+}
+
+.comments-box__content .comments {
+  color: #091440;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.comments-box__content .author {
+  color: #2970ff;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+
+.d-flex .subpage-description.ex {
+  margin-top: 0;
+}
+
+.get-into {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-image: url(../images/Intersection.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.get-into__content {
+  padding: 24px;
+  background-color: rgba(9, 20, 64, 0.9);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get-into__content {
+  min-height: 174px;
+  width: 310px;
+}
+
+.get-into__content.first {
+  min-height: 368px;
+  width: 310px;
+}
+
+.get-into__content p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.get-into__content a {
+  font-size: 13px;
+  line-height: 16px;
+  color: #70cbff;
+  margin-bottom: 0;
 }
