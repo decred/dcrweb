@@ -84,6 +84,18 @@ $(function(){
         $(this).css('margin-top', '0px');
     });
 
+    $('#hide-all').click(function(){
+    $('#x-menu').toggle(500);
+    $('#hide-all').hide();
+    $('#show-all').show();
+    $('#up-down').show(200);
+    });
 
+    $('#show-all').click(function(){
+    $('#x-menu').toggle(500);
+    $('#show-all').hide();
+    $('#up-down').hide();
+    $('#hide-all').show(200)
+    });
     
 });
