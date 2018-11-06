@@ -7177,11 +7177,10 @@ body {
   color: #70cbff;
   margin-bottom: 0;
 }
-
 .outline {
-  position: fixed;
+  position: absolute;
   left: 720px;
-  top: 440px;
+  top: 100px;
   right: 0px;
   z-index: 999;
   display: none;
@@ -7213,6 +7212,10 @@ body {
   line-height: 28px;
   color: #2970ff;
   cursor: pointer;
+}
+.stuck {
+  position: fixed;
+  top: 110px;
 }
 #up-down img {
   margin: 0 5px;
