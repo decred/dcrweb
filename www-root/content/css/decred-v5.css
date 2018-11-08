@@ -7162,14 +7162,14 @@ body {
 .get-into {
   margin-right: 10px;
   margin-bottom: 10px;
-  background-image: url(../images/Intersection.png);
-  -webkit-background-size: cover;
-  background-size: cover;
+}
+.get-into a .get-into__content {
+  text-decoration: none;
 }
 
 .get-into__content {
   padding: 24px;
-  background-color: rgba(9, 20, 64, 0.9);
+  background-color: #1b41b3;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -7183,7 +7183,20 @@ body {
   min-height: 174px;
   max-width: 310px;
 }
-
+.external {
+  width: 16px;
+  height: 16px;
+  background-image: url(/content/images/external.svg);
+}
+.get-into__content:hover {
+  cursor: pointer;
+}
+.get-into__content:hover .text-block-9 {
+  text-decoration: underline;
+}
+.get-into__content:hover .external {
+  background-image: url(/content/images/externalHover.svg);
+}
 .get-into__content.first {
   min-height: 358px;
 }
@@ -7191,15 +7204,17 @@ body {
   font-size: 13px;
   line-height: 16px;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
-.get-into__content a {
+p.get-into__link {
   font-size: 13px;
   line-height: 16px;
   color: #70cbff;
   margin-bottom: 0;
+  text-decoration: underline;
 }
+
 .outline {
   position: absolute;
   left: 720px;
@@ -7243,4 +7258,31 @@ body {
 #up-down img {
   margin: 0 5px;
   cursor: pointer;
+}
+.overflow {
+  overflow: visible;
+}
+.print-version {
+  position: absolute;
+  right: 0;
+  top: -22px;
+  z-index: 2;
+  background-color: #2970ff;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.print-pdf a {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 146px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-decoration: none;
 }
