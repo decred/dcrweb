@@ -7120,23 +7120,48 @@ body {
   align-items: center;
 }
 
+.d-block {
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   .d-flex__text {
     display: block;
   }
 }
 
-.flex-column {
-  flex-direction: column;
-}
-
 .d-flex .subpage-description.ex {
   margin-top: 0;
 }
 
+.row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .col-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    max-width: 100%;
+  }
+}
+@media (max-width: 679px) {
+  .col-flex {
+    display: block;
+  }
+}
+
 .get-into {
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   background-image: url(../images/Intersection.png);
   -webkit-background-size: cover;
   background-size: cover;
@@ -7156,14 +7181,12 @@ body {
 
 .get-into__content {
   min-height: 174px;
-  width: 310px;
+  max-width: 310px;
 }
 
 .get-into__content.first {
-  min-height: 368px;
-  width: 310px;
+  min-height: 358px;
 }
-
 .get-into__content p {
   font-size: 13px;
   line-height: 16px;
