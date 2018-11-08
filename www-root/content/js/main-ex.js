@@ -111,25 +111,79 @@ $(function(){
     },{offset:'10'});
 
     var sections = $('.panelSection');
+    var scrollspy = $('#x-menu li');
     var i = 0;
-    console.log(sections);
+
+    $('a.section-target').click(function(){
+        var target = $(this).data('section');
+        $('html,body').animate({ 
+            scrollTop: $('.panelSection#' + target).offset().top - 10
+        }, "slow")
+    });
+
+    function briefNavigation(i){
+        
+        console.log(i);
+
+        //$(scrollspy).removeClass('active');
+        //$(scrollspy[i]).addClass('active');
+
+        if(i < sections.length - 1){
+            var next = '#' + sections[i+1].id;
+            $('.next-section').attr("href", next);
+            $('.next-section').show();
+        } else {
+            $('.next-section').hide();
+        }
+
+        if (i > 0) {
+            var prev = '#' + sections[i-1].id;
+            $('.prev-section').attr("href", prev);
+            $('.prev-section').show();
+        } else {
+            $('.prev-section').hide();
+        }
+    }
+
+    sections.each(function () {
+       new Waypoint.Inview({
+          element: this,
+          enter: function(direction) {
+             console.log(this.element.id + ' enter');
+          },
+          entered: function(direction) {
+             console.log(this.element.id + ' entered');
+             $('#x-menu li').removeClass('active');
+             $('#x-menu li a[data-section="' + this.element.id +'"]').parent().addClass('active');
+          },
+          exit: function(direction) {
+             console.log(this.element.id + ' exit');
+          },
+          exited: function(direction) {
+             console.log(this.element.id + ' exited');
+          }
+       })
+    })
 
     sections.waypoint(function(direction) {
       if (direction === 'down') {
-        i++;
-        if(i == 0){
-            $('.prev-section').show();
+        briefNavigation(i);
+        if(i <= sections.length - 1){
+            i++;
         }
-        var next = '#' + sections[i].id;
-        var prev = '#' + sections[i-1].id;
-        $('.next-section').attr("href", next);
-        $('.prev-section').attr("href", prev);
-      } 
-      if (direction === 'up') {
-        i--;
-        
-        $('.next-section').attr("href", next);
-        $('.prev-section').attr("href", prev);
       }
-    },{offset:'0'});
+    }, {
+        offset: '10'
+    });
+
+    sections.waypoint(function(direction) {
+      if (direction === 'up') {
+        if(i > 0) {
+            i--;
+        }
+        briefNavigation(i);
+      }
+    }, {
+        offset: '10'
+    });
 });

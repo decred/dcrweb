@@ -4689,6 +4689,7 @@ body {
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 16px;
+  padding-top: 20px;
 }
 @media screen and (max-width: 320px) {
   .text-block-7 {
@@ -7205,6 +7206,18 @@ body {
 .outline ul {
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
+  padding-top: 15px;
+  margin-left:-10px;
+}
+.outline li {
+  background: #fff;
+  padding-left: 10px;
+  border-radius: 5px;
+  transition: 0.25s;
+}
+.outline li.active {
+  background: #E9F8FE;
 }
 .outline li a {
   text-decoration: none;
@@ -7212,6 +7225,15 @@ body {
   line-height: 28px;
   color: #2970ff;
   cursor: pointer;
+}
+.outline #hide-all {
+  width: 50px; 
+  text-align: right;
+}
+.outline #show-all {
+  display: none; 
+  width: 50px; 
+  text-align: right;
 }
 .stuck {
   position: fixed;

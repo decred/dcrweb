@@ -132,32 +132,32 @@
         <div class="outline basic-sticky">
           <div class="text-block-8">Outline 
             <div id="up-down" style="display: none;">
-              <a class="prev-section"><img src="/content/images/up.svg" height="20" alt=""></a> 
-              <a class="next-section"><img src="/content/images/down.svg" height="20" alt=""></a> 
+              <a class="prev-section section-target" data-section=""><img src="/content/images/up.svg" height="20" alt=""></a> 
+              <a class="next-section section-target" data-section="why"><img src="/content/images/down.svg" height="20" alt=""></a> 
             </div> 
-            <a id="hide-all" style="width: 50px; text-align: right;" href="#">Hide</a><a id="show-all" style="display: none; width: 50px; text-align: right;" href="#">Show All</a></div>
-          <ul id="x-menu" style="padding-top: 15px;">
-            <li><a href="#what">What is Decred?</a></li>
-            <li><a href="#why">Why is Decred needed?</a></li>
-            <li><a href="#how-work">How Does Decred Work?</a></li>
-            <li><a href="#how-organized">How is work on Decred organized</a></li>
-            <li><a href="#2018">Decred in Q4 2018</a></li>
-            <li><a href="#get-into">Get into Decred</a></li>
+            <a id="hide-all" href="#">Hide</a><a id="show-all" href="#">Show All</a></div>
+          <ul id="x-menu">
+            <li><a class="section-target" data-section="what">What is Decred?</a></li>
+            <li><a class="section-target" data-section="why">Why is Decred needed?</a></li>
+            <li><a class="section-target" data-section="how-decred-works">How Does Decred Work?</a></li>
+            <li><a class="section-target" data-section="how-organized">How is work on Decred organized</a></li>
+            <li><a class="section-target" data-section="2018">Decred in Q4 2018</a></li>
+            <li><a class="section-target" data-section="get-into">Get into Decred</a></li>
           </ul>
         </div>
 
-        <div class="subpage-content-section ex">
+        <div class="subpage-content-section ex" id="brief">
           <div class="subpage-content-header">
             <div class="subpage-content-header-footer">
-              <div class="subpage-description ex" translate>
-                <div id="what" class="text-block-7 panelSection" translate>What is Decred?</div>
+              <div id="what" class="subpage-description panelSection ex" translate>
+                <div class="text-block-7" translate>What is Decred?</div>
                     <p>Decred is an autonomous digital currency that is <a class="subpage-description ulink" href="#">governed directly by its voting stakeholders</a>. Stakeholders vote to decide whether changes to the consensus rules are adopted. Decred’s development is funded by a portion of the block reward, and stakeholders decide how these funds should be spent.</p>
                 </div>
             </div>
           </div>
           <div class="subpage-content">
-            <div class="subpage-description ex" translate>
-              <div id="why" class="text-block-7 panelSection">Why is Decred needed?</div>
+            <div id="why" class="subpage-description panelSection ex" translate>
+              <div class="text-block-7">Why is Decred needed?</div>
                 <p>Decred was born out of its <a class="subpage-description ulink" href="#">founders’ experiences with Bitcoin’s governance</a>. Company 0 developed a Bitcoin full node implementation called btcsuite but became disillusioned by the process through which the Bitcoin protocol was being governed. The Bitcoin Core developers and Proof-of-Work miners are strong constituencies that can effectively veto any change to the consensus rules — other stakeholders in the Bitcoin ecosystem have minimal influence. The absence of a clear method of making decisions results in protracted disputes, sometimes culminating in a chain split, whereby a sub-community breaks off and creates an alternative version of the currency, weakening network effects.</p>
 
                 <p style="margin-bottom: 0;">Decred <a class="subpage-description ulink" href="#">iterates on Bitcoin</a> by laying a foundation of strong governance to build on, with a formal method of making decisions about the consensus rules baked into the protocol. Decred avoids over-reliance on specific developers by allowing the blockchain to fund its own development. It curtails the power of PoW miners by establishing a new constituency (PoS voters) to validate their work.</p>
@@ -173,8 +173,9 @@
               </div>
             </div>
 
-            <div class="subpage-description ex" translate>
-              <div id="how-work" class="text-block-7 panelSection">How does Decred work?</div>
+            <div id="how-decred-works" class="panelSection ex" translate>
+              <div class="text-block-7">How does Decred work?</div>
+              <div class="subpage-description">
                 <p>Decred uses an innovative hybrid Proof-of-Work (PoW)/Proof-of-Stake (PoS) system which capitalizes on the strengths of each approach. PoW in Decred serves the same purpose as in Bitcoin, but miners only receive 60% of the block reward. 30% of the Decred block reward goes to PoS voters, and 10% goes into a project treasury to fund development.</p>
 
                 <p style="margin-bottom: 0;">Holders of the Decred currency can participate in PoS voting by time-locking funds in exchange for tickets. Tickets confer voting rights, and ticket voting determines:</p>
@@ -186,59 +187,61 @@
                 </ol>
 
                 <p style="margin-bottom: 0;">The time-locking mechanism ensures that voters have “skin in the game”, and the PoS portion of the block reward incentivizes participation.</p>
+              </div>
             </div>
 
-            <div class="comments-box">
-              <div class="comments-box__image">
-                <img src="/content/images/comments-symbol.svg" width="42" height="42" alt="">
+              <div class="comments-box">
+                <div class="comments-box__image">
+                  <img src="/content/images/comments-symbol.svg" width="42" height="42" alt="">
+                </div>
+                <div class="comments-box__content">
+                  <p class="comments">“Best-in-class governance paired with perpetual funding and an open and collaborative environment with users and developers is the DNA that could achieve a breakthrough in blockchain development. If Decred can achieve this, it can not only become one of the major cryptocurrencies, but a much richer core chain with a thriving ecosystem around it.”</p>
+                  <p class="author"><a class="subpage-description ulink" href="#">BlueYard Capital</a></p>
+                </div>
               </div>
-              <div class="comments-box__content">
-                <p class="comments">“Best-in-class governance paired with perpetual funding and an open and collaborative environment with users and developers is the DNA that could achieve a breakthrough in blockchain development. If Decred can achieve this, it can not only become one of the major cryptocurrencies, but a much richer core chain with a thriving ecosystem around it.”</p>
-                <p class="author"><a class="subpage-description ulink" href="#">BlueYard Capital</a></p>
+              
+              <div class="d-flex__text">
+                <div class="subpage-description ex" translate>
+                  <div class="text-block-7">The evolution of Decred</div>
+                    <p>Decred launched in February 2016, following two years of initial work by Company 0. At launch, <a class="subpage-description ulink" href="#">8% of the total supply was pre-mined</a>, with 4% being used to compensate the developers for their work prior to launch (at a rate of $0.49 per DCR) and 4% being freely air-dropped to people who signed up (2,972 participants each received 282.63795424 DCR).</p>
+
+                    <p>In the early stages of the project, the focus was on implementing and honing the <a class="subpage-description ulink" href="#">process for amending the consensus rules</a>. The power to change a blockchain’s consensus rules can overrule any other decision within the system. Once the blockchain is up and running, it is likely impossible to change the method of making these decisions, because whoever holds that power is unlikely to relinquish it voluntarily.</p>
+
+                    <div class="subpage-description__image sm">
+                      <img src="http://via.placeholder.com/400x300" alt="">
+                    </div>
+
+                    <p>The first change to Decred’s consensus rules to be adopted was approved by ticket-voters in June 2017, marking the first occasion when any cryptocurrency upgrade was deployed automatically following a user voting approval process.</p>
+
+                    <p>With the process of adopting changes to the consensus rules working well, Decred’s focus shifted to building <a class="subpage-description ulink" href="#">Politeia</a>, a platform for governing the project treasury and setting a course for Decred’s future development. Politeia is built to deliver critical features for a decentralized governance plat- form, like transparent and accountable censorship, and a voting system tied to PoS tickets. The custodians who have administered the project treasury thus far have done so frugally, with an attitude that major expenditures should wait until they can be formally approved by stakeholders. The result is a <a class="subpage-description ulink" href="#">treasury</a> with considerable savings — greater than 570K DCR, which is worth more than  million at September 2018 prices, and represents around 80% of the DCR that has accrued to the treasury from the block reward thus far.</p>
+
+                    <p style="margin-bottom: 0;">Decred is poised to accelerate its development, in the direction set by its stakeholders. The treasury’s large balance will amplify the effect of DCR price increases on its spending power, and its continual replenishment means that long-term developer support is guaranteed.</p>
+                </div>
+                <div class="subpage-description__image lg">
+                  <img src="http://via.placeholder.com/400x300" alt="">
+                </div>
               </div>
-            </div>
+
+              <div class="comments-box">
+                <div class="comments-box__image">
+                  <img src="/content/images/comments-symbol.svg" width="42" height="42" alt="">
+                </div>
+                <div class="comments-box__content">
+                  <p class="comments">“Remarkable characteristics that are a testament to the DNA of the team behind Decred: there was no sale of DCR to investors, no venture funding, and no payment to exchanges to be listed—underscoring that the Decred team and contributors are all about doing the right thing for long-term (as manifested in their constitution for the project).”</p>
+                  <p class="author"><a class="subpage-description ulink" href="#">BlueYard Capital</a></p>
+                </div>
+              </div>
+
+              <div class="subpage-description ex" translate>
+                  <p>Decred’s hybrid PoW/PoS system also makes it more resistant to majority attacks than pure PoW cryptocurrencies, because both the PoW and PoS components would need to be subverted. To make an apples to apples comparison with Bitcoin (i.e., assume the same market cap, hashrate, and cost of mining equipment), the cost of mounting a majority attack on Decred would be around 22 times greater than Bitcoin.</p>
+
+                  <p style="margin-bottom: 0;">Decred’s strong resistance to chain splits also makes this kind of attack much harder to execute in practice, because “secret mining” is not possible. The active participation of PoS tickets is required in every Decred block. The protocol is hostile to any chain which does not have the ongoing and active support of Decred ticket-holders — whether that’s a temporary chain used to execute double-spend attacks or an attempted hard fork that doesn’t have stakeholder support.</p>
+              </div>
+            
             
             <div class="d-flex__text">
-              <div class="subpage-description ex" translate>
-                <div class="text-block-7">The evolution of Decred</div>
-                  <p>Decred launched in February 2016, following two years of initial work by Company 0. At launch, <a class="subpage-description ulink" href="#">8% of the total supply was pre-mined</a>, with 4% being used to compensate the developers for their work prior to launch (at a rate of $0.49 per DCR) and 4% being freely air-dropped to people who signed up (2,972 participants each received 282.63795424 DCR).</p>
-
-                  <p>In the early stages of the project, the focus was on implementing and honing the <a class="subpage-description ulink" href="#">process for amending the consensus rules</a>. The power to change a blockchain’s consensus rules can overrule any other decision within the system. Once the blockchain is up and running, it is likely impossible to change the method of making these decisions, because whoever holds that power is unlikely to relinquish it voluntarily.</p>
-
-                  <div class="subpage-description__image sm">
-                    <img src="http://via.placeholder.com/400x300" alt="">
-                  </div>
-
-                  <p>The first change to Decred’s consensus rules to be adopted was approved by ticket-voters in June 2017, marking the first occasion when any cryptocurrency upgrade was deployed automatically following a user voting approval process.</p>
-
-                  <p>With the process of adopting changes to the consensus rules working well, Decred’s focus shifted to building <a class="subpage-description ulink" href="#">Politeia</a>, a platform for governing the project treasury and setting a course for Decred’s future development. Politeia is built to deliver critical features for a decentralized governance plat- form, like transparent and accountable censorship, and a voting system tied to PoS tickets. The custodians who have administered the project treasury thus far have done so frugally, with an attitude that major expenditures should wait until they can be formally approved by stakeholders. The result is a <a class="subpage-description ulink" href="#">treasury</a> with considerable savings — greater than 570K DCR, which is worth more than  million at September 2018 prices, and represents around 80% of the DCR that has accrued to the treasury from the block reward thus far.</p>
-
-                  <p style="margin-bottom: 0;">Decred is poised to accelerate its development, in the direction set by its stakeholders. The treasury’s large balance will amplify the effect of DCR price increases on its spending power, and its continual replenishment means that long-term developer support is guaranteed.</p>
-              </div>
-              <div class="subpage-description__image lg">
-                <img src="http://via.placeholder.com/400x300" alt="">
-              </div>
-            </div>
-
-            <div class="comments-box">
-              <div class="comments-box__image">
-                <img src="/content/images/comments-symbol.svg" width="42" height="42" alt="">
-              </div>
-              <div class="comments-box__content">
-                <p class="comments">“Remarkable characteristics that are a testament to the DNA of the team behind Decred: there was no sale of DCR to investors, no venture funding, and no payment to exchanges to be listed—underscoring that the Decred team and contributors are all about doing the right thing for long-term (as manifested in their constitution for the project).”</p>
-                <p class="author"><a class="subpage-description ulink" href="#">BlueYard Capital</a></p>
-              </div>
-            </div>
-
-            <div class="subpage-description ex" translate>
-                <p>Decred’s hybrid PoW/PoS system also makes it more resistant to majority attacks than pure PoW cryptocurrencies, because both the PoW and PoS components would need to be subverted. To make an apples to apples comparison with Bitcoin (i.e., assume the same market cap, hashrate, and cost of mining equipment), the cost of mounting a majority attack on Decred would be around 22 times greater than Bitcoin.</p>
-
-                <p style="margin-bottom: 0;">Decred’s strong resistance to chain splits also makes this kind of attack much harder to execute in practice, because “secret mining” is not possible. The active participation of PoS tickets is required in every Decred block. The protocol is hostile to any chain which does not have the ongoing and active support of Decred ticket-holders — whether that’s a temporary chain used to execute double-spend attacks or an attempted hard fork that doesn’t have stakeholder support.</p>
-            </div>
-            
-            <div class="d-flex__text">
-              <div class="subpage-description ex" translate>
-                <div id="how-organized" class="text-block-7 panelSection">How is work on Decred organized?</div>
+              <div id="how-organized" class="subpage-description panelSection ex" translate>
+                <div class="text-block-7">How is work on Decred organized?</div>
                   <p>Decred uses a novel autonomous contractor model that allows for new individuals, groups, and companies to be paid for contributing to the project. Decred’s longstanding developers are open source software veterans and enthusiasts, and so Decred’s way of organizing and funding development is designed to fit with the open source ethos. Autonomy of contributors and meritocracy are the key principles around which work on Decred is organized.</p>
 
                   <p style="margin-bottom: 0;">Decred’s treasury funds are purely for the advancement of the project, free of any other constraints. It is unprecedented for open source projects to have access to this kind of funding. One of the big advantages of commons-based peer production is that contributors can efficiently select pieces of work that fit with their skills and interests. Decred aims to unlock the true potential of this approach by developing a funding model tailored to this new way of working.</p>
@@ -256,8 +259,8 @@
             </div>
             
             <div class="d-flex__text">
-              <div class="subpage-description ex" translate>
-                <div id="2018" class="text-block-7 panelSection">Decred in Q4 2018</div>
+              <div id="2018" class="subpage-description panelSection ex" translate>
+                <div class="text-block-7">Decred in Q4 2018</div>
                   <p><a class="subpage-description ulink" href="#">SPV Wallet Support</a> — Instead of taking the typical wallet service approach where wallets connect to a centralized server, we have added support for a proper SPV mechanism that uses compact filters and works over the P2P network, an approach which does more to protect the privacy of users.</p>
 
                   <p><a class="subpage-description ulink" href="#">Network Security</a> — A large number of ASIC manufacturers have released or announced ASICs for Decred in 2018, and the network’s PoW hashrate has increased from around 300 Thash/s in September 2017 to over 100,000 Thash/s in September 2018 - a 333x increase.</p>
@@ -273,8 +276,8 @@
               </div>
             </div>
 
-            <div class="subpage-description ex" translate>
-              <div id="get-into" class="text-block-7 panelSection">Get into Decred</div>
+            <div id="get-into" class="subpage-description panelSection ex" translate>
+              <div class="text-block-7">Get into Decred</div>
               <div class="d-flex">
                 <div class="get-into">
                   <div class="get-into__content first">
@@ -402,7 +405,7 @@
   <script src="/content/js/modernizr.custom.min.js"></script>
   <script src="/content/js/jquery.shuffle.js"></script>
   <script src="/content/js/jquery.waypoints.min.js"></script>
-  <script src="/content/js/sticky.min.js"></script>
+  <script src="/content/js/inview.min.js"></script>
   <script src="/content/js/main-ex.js"></script>
   <style>
       html.w-mod-touch * {
