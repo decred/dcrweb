@@ -85,24 +85,24 @@ $(function(){
     });
 
     $('#hide-all').click(function(){
-    $('#x-menu').toggle(500);
-    $('#hide-all').hide();
-    $('#show-all').show();
-    $('#up-down').show(200);
+        $('#x-menu').toggle(500);
+        $('#hide-all').hide();
+        $('#show-all').show();
+        $('#up-down').show(200);
     });
 
     $('#show-all').click(function(){
-    $('#x-menu').toggle(500);
-    $('#show-all').hide();
-    $('#up-down').hide();
-    $('#hide-all').show(200)
+        $('#x-menu').toggle(500);
+        $('#show-all').hide();
+        $('#up-down').hide();
+        $('#hide-all').show(200)
     });
 
     $('.basic-sticky').waypoint(function(direction) {
         $(this[0,'element']).addClass("stuck");
     });
 
-    $('.subpage-content-header').waypoint(function(direction) {
+    $('.subpage-content-section').waypoint(function(direction) {
       if (direction === 'down') {
         $('.basic-sticky').addClass('stuck');
       } else {
@@ -111,79 +111,36 @@ $(function(){
     },{offset:'10'});
 
     var sections = $('.panelSection');
-    var scrollspy = $('#x-menu li');
-    var i = 0;
 
     $('a.section-target').click(function(){
-        var target = $(this).data('section');
         $('html,body').animate({ 
-            scrollTop: $('.panelSection#' + target).offset().top - 10
+            scrollTop: $('.panelSection#' + $(this).data('section')).offset().top - 10
         }, "slow")
     });
-
-    function briefNavigation(i){
-        
-        console.log(i);
-
-        //$(scrollspy).removeClass('active');
-        //$(scrollspy[i]).addClass('active');
-
-        if(i < sections.length - 1){
-            var next = '#' + sections[i+1].id;
-            $('.next-section').attr("href", next);
-            $('.next-section').show();
-        } else {
-            $('.next-section').hide();
-        }
-
-        if (i > 0) {
-            var prev = '#' + sections[i-1].id;
-            $('.prev-section').attr("href", prev);
-            $('.prev-section').show();
-        } else {
-            $('.prev-section').hide();
-        }
-    }
 
     sections.each(function () {
        new Waypoint.Inview({
           element: this,
-          enter: function(direction) {
-             console.log(this.element.id + ' enter');
-          },
           entered: function(direction) {
-             console.log(this.element.id + ' entered');
-             $('#x-menu li').removeClass('active');
-             $('#x-menu li a[data-section="' + this.element.id +'"]').parent().addClass('active');
-          },
-          exit: function(direction) {
-             console.log(this.element.id + ' exit');
-          },
-          exited: function(direction) {
-             console.log(this.element.id + ' exited');
+            $('#x-menu li').removeClass('active');
+            $('#x-menu li a[data-section="' + this.element.id +'"]').parent().addClass('active');
+            console.log(this.element.id + ' entered');
+            var index = $( '.panelSection' ).index( $('#' + this.element.id) );
+            var total = $( '.panelSection' ).length;
+            if(index < total - 1) {
+                var next = index + 1;
+                var prev = index - 1;
+                $('.next-section').attr('data-section', $('.panelSection').eq(next).attr('id'));
+                $('.prev-section').attr('data-section', $('.panelSection').eq(prev).attr('id'));
+                $('.prev-section').show();
+                $('.next-section').show();
+            } else if (index = 0) {
+                $('.prev-section').hide();
+            } else if(index > total - 1) {
+                $('.next-section').hide();
+            }
+
           }
        })
     })
-
-    sections.waypoint(function(direction) {
-      if (direction === 'down') {
-        briefNavigation(i);
-        if(i <= sections.length - 1){
-            i++;
-        }
-      }
-    }, {
-        offset: '10'
-    });
-
-    sections.waypoint(function(direction) {
-      if (direction === 'up') {
-        if(i > 0) {
-            i--;
-        }
-        briefNavigation(i);
-      }
-    }, {
-        offset: '10'
-    });
 });
