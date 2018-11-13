@@ -7239,7 +7239,6 @@ p.get-into__link {
 
 .outline {
   position: absolute;
-  left: 720px;
   top: 100px;
   right: 0px;
   z-index: 999;
@@ -7252,14 +7251,14 @@ p.get-into__link {
   background-color: #fff;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
 }
+@media screen and (max-width: 991px) {
+  .outline {
+    right: 20px;
+  }
+}
 @media screen and (min-width: 768px) {
   .outline {
     display: block;
-  }
-}
-@media screen and (max-width: 768px) {
-  .outline {
-    left: 490px;
   }
 }
 .outline ul {
@@ -7331,22 +7330,17 @@ p.get-into__link {
 .print-version {
   position: absolute;
   right: 0;
-  top: -68px;
+  top: -22px;
   z-index: 2;
 }
 @media screen and (max-width: 991px) {
   .print-version {
     right: 20px;
-    top: -53px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .print-version {
-    top: -43px;
+    
   }
 }
 @media screen and (max-width: 730px) {
   .print-version {
-    top: -57px;
+    top: -36px;
   }
 }
