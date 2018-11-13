@@ -7239,6 +7239,7 @@ p.get-into__link {
 
 .outline {
   position: absolute;
+  left: 720px;
   top: 100px;
   right: 0px;
   z-index: 999;
@@ -7259,6 +7260,11 @@ p.get-into__link {
 @media screen and (min-width: 768px) {
   .outline {
     display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .outline {
+    left: 490px;
   }
 }
 .outline ul {
