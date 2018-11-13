@@ -7255,6 +7255,7 @@ p.get-into__link {
 @media screen and (max-width: 991px) {
   .outline {
     right: 20px;
+    left: auto;
   }
 }
 @media screen and (min-width: 768px) {
