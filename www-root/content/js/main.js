@@ -246,7 +246,7 @@ $(document).ready(function () {
 		var dataBaloonGetText = '';
 		if($(this).is(teamCorporateLogo)) {
 			dataBalloonTop.show()
-			dataBaloonGetText = $(this).parent().attr('data-corporate-name');
+			dataBaloonGetText = $(this).parent().attr('data-corporate-id');
 		}
 		if($(this).is(teamSlack)) {
 			dataBalloonTop.hide();
@@ -270,7 +270,7 @@ $(document).ready(function () {
 		var dataBaloonGetText = '';
 		if($(this).is(teamCorporateLogo)) {
 			dataBalloonTop.show()
-			dataBaloonGetText = $(this).parent().attr('data-corporate-name');
+			dataBaloonGetText = $(this).parent().attr('data-corporate-id');
 		}
 		if($(this).is(teamTwitter)) {
 			dataBalloonTop.hide();
