@@ -6967,3 +6967,32 @@ body {
 .politeia-notice__button span {
   vertical-align: middle;
 }
+
+.void-404 {
+  background-color: #091440;
+  background-image: none;
+}
+.void_odyssey {
+  margin: 0 auto;
+  text-align: center;
+}
+.void_odyssey--logo {
+  padding: 30px 0;
+}
+.void_odyssey--logo img {
+  height: 30px;
+}
+.void_odyssey img {
+  margin-bottom: 27px;
+}
+.void_odyssey .btn {
+  padding: 11px 20px;
+  border: 1px solid #70cbff;
+  background: transparent;
+  color: #70cbff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.void_odyssey .btn span {
+  text-decoration: underline;
+}
