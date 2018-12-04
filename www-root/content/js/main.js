@@ -586,6 +586,7 @@ $(document).ready(function () {
 				},
 				success: function (data, textStatus) {
 					$.each(data, function (poolName, poolData) {
+					  if (poolData["Network"] === 'testnet') return;
 						var overCapacity = 0;
 						var now = Math.floor((new Date).getTime() / 1000);
 						var lastUpdated = poolData["LastUpdated"] - now;
@@ -658,13 +659,12 @@ $(document).ready(function () {
 					$("#stakepool-data").html(tableMarkup);
 					$("#pooldata").ready(function (event) {
 						$(".overcapacity").appendTo("#pooldata");
-						$(".testnet").appendTo("#pooldata");
 					})
 
 					$("#pooldata").DataTable({
 						"ordering": true,
 						"order": [
-							[2, 'asc'] // sort by network so testnet is at the end
+							[4, 'asc'] // sort by Proportion
 						],
 						"jQueryUI": false,
 						"paging": false,
