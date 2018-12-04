@@ -1,5 +1,5 @@
 # Build image
-FROM node:10.13.0
+FROM node:10.14.1
 
 LABEL description="dcrweb build"
 LABEL version="1.0"
