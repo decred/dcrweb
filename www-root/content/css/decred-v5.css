@@ -4166,6 +4166,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.right a {
+  color: white;
+}
+
+.no-bgimage {
+  background-image: none;
+}
+
 .wrapper.slack-join {
   position: relative;
   display: -webkit-box;
