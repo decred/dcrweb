@@ -6219,20 +6219,6 @@ body {
   display: inline-block;
 }
 
-.roadmap__header {
-  position: relative;
-}
-
-.roadmap__header video {
-  position: absolute;
-  top: 0;
-  left: -1%;
-  width: 102%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-
 .roadmap__header:after {
   content: "";
   position: absolute;
@@ -6309,7 +6295,6 @@ body {
   }
 }
 
-
 .roadmap__filter .filter-button {
   float: none;
   color: #596D81;
@@ -6342,6 +6327,20 @@ body {
 
 .roadmap__filter-legend-item.is-checked {
   color: #091440;
+}
+
+.video-header {
+  position: relative;
+}
+
+.video-header video {
+  position: absolute;
+  top: 0;
+  left: -1%;
+  width: 102%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
 .filter-button.new:before {
