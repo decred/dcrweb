@@ -118,8 +118,12 @@
     </style>
 </head>
 <body class="body">
-  <div class="fronta subpage">
-    
+  <div class="fronta subpage video-header">
+    <video autoplay loop muted poster="/videos/headers/briefs/fallback.jpg">
+       <source src="/videos/headers/briefs/video.mp4" type="video/mp4">
+       <source src="/videos/headers/briefs/video.webm" type="video/webm">
+       <source src="/videos/headers/briefs/video.ogv" type="video/ogg">
+    </video>
     <div class="_960 subpage-header"><a href="https://decred.org" class="subpage-logo w-inline-block"></a></div>
     <div class="_960 subpage-header">
       <div class="subpage-title" translate>Brief</div>
@@ -132,7 +136,7 @@
 
         <div class="print-version">
           <div class="print-pdf">
-            <a class="button politeia-notice__button" href="#">
+            <a class="button politeia-notice__button" href="https://decred.org/business_brief.pdf" target="_blank">
               <img src="/content/images/printPDF.svg" width="20" height="20" alt=""> <span>Print Version</span>
             </a>
           </div>
