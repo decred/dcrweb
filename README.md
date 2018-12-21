@@ -3,7 +3,9 @@ dcrweb
 
 This is the code for the [decred.org](https://www.decred.org) website.
 
-[![CircleCI](https://circleci.com/gh/peterzen/dcrweb.svg?style=svg)](https://circleci.com/gh/peterzen/dcrweb)
+[![Build Status](https://travis-ci.org/decred/dcrweb.png?branch=master)](https://travis-ci.org/decred/dcrweb)
+[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
+
 
 ## Localization
 
