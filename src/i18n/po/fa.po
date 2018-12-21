@@ -1059,13 +1059,13 @@ msgstr "Windows ↓"
 #: src/downloads/index.html:3 src/index.html:3 src/press/index.html:4
 #: src/stakepools/index.html:3
 msgid "_direction"
-msgstr ""
+msgstr "rtl"
 
 #: src/brand/index.html:3 src/contributors/index.html:3
 #: src/downloads/index.html:3 src/index.html:3 src/press/index.html:4
 #: src/stakepools/index.html:3
 msgid "_language"
-msgstr ""
+msgstr "fa"
 
 #: src/downloads/index.html:156
 msgid "ccminer"
