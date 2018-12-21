@@ -6331,6 +6331,7 @@ body {
 
 .video-header {
   position: relative;
+  background-color: #0a1741;
 }
 
 .video-header video {
