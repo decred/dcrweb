@@ -84,6 +84,63 @@ $(function(){
         $(this).css('margin-top', '0px');
     });
 
+    $('#hide-all').click(function(){
+        $('#x-menu').toggle(500);
+        $('#hide-all').hide();
+        $('#show-all').show();
+        $('#up-down').show(200);
+    });
 
-    
+    $('#show-all').click(function(){
+        $('#x-menu').toggle(500);
+        $('#show-all').hide();
+        $('#up-down').hide();
+        $('#hide-all').show(200)
+    });
+
+    $('.basic-sticky').waypoint(function(direction) {
+        $(this[0,'element']).addClass("stuck");
+    });
+
+    $('.subpage-content-section').waypoint(function(direction) {
+      if (direction === 'down') {
+        $('.basic-sticky').addClass('stuck');
+      } else {
+        $('.basic-sticky').removeClass('stuck');
+      }
+    },{offset:'10'});
+
+    var sections = $('.panelSection');
+
+    $('a.section-target').click(function(){
+        $('html,body').animate({ 
+            scrollTop: $('.panelSection#' + $(this).data('section')).offset().top - 10
+        }, "slow")
+    });
+
+    sections.each(function () {
+       new Waypoint.Inview({
+          element: this,
+          entered: function(direction) {
+            $('#x-menu li').removeClass('active');
+            $('#x-menu li a[data-section="' + this.element.id +'"]').parent().addClass('active');
+            console.log(this.element.id + ' entered');
+            var index = $( '.panelSection' ).index( $('#' + this.element.id) );
+            var total = $( '.panelSection' ).length;
+            if(index < total - 1) {
+                var next = index + 1;
+                var prev = index - 1;
+                $('.next-section').attr('data-section', $('.panelSection').eq(next).attr('id'));
+                $('.prev-section').attr('data-section', $('.panelSection').eq(prev).attr('id'));
+                $('.prev-section').show();
+                $('.next-section').show();
+            } else if (index = 0) {
+                $('.prev-section').hide();
+            } else if(index > total - 1) {
+                $('.next-section').hide();
+            }
+
+          }
+       })
+    })
 });
