@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ or .Params.language .Site.LanguageCode }}" dir="ltr">
+
+  {{ partial "head.html" . }}
+
+  <body class="body">
+
+    {{ partial "top-gfx-elements.html" . }}
+
+    {{ if .IsHome }}
+    {{ end }}
+
+    {{ block "main" . -}}{{- end }}
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "navbar.html" . }}
+
+    {{ partial "video-modal.html" . }}
+
+    {{ partial "footer-assets.html" . }}
+
+  </body>
+</html>

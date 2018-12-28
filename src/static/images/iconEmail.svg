@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 64" style="enable-background:new 0 0 32 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#D5EDFA;}
+</style>
+<g id="Layer_2_1_" class="st0">
+</g>
+<g id="specctr" class="st0">
+	<g id="Dimensions" class="st1">
+	</g>
+	<g id="Spacing" class="st1">
+	</g>
+	<g id="Text_Properties" class="st1">
+	</g>
+	<g id="Object_Properties" class="st1">
+	</g>
+</g>
+<path class="st2" d="M16,4C9.4,4,4,9.4,4,16s5.4,12,12,12s12-5.4,12-12S22.6,4,16,4z M23,11l-7,5.7L9,11C9,11,23,11,23,11z M23,21H9
+	v-8.5l7,5.7l7-5.7V21z"/>
+<path class="st3" d="M16,36C9.4,36,4,41.4,4,48s5.4,12,12,12s12-5.4,12-12S22.6,36,16,36z M23,43l-7,5.7L9,43C9,43,23,43,23,43z
+	 M23,53H9v-8.5l7,5.7l7-5.7V53z"/>
+</svg>

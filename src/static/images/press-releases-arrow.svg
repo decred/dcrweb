@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #596d81;
+      }
+    </style>
+  </defs>
+  <path id="XMLID_86_" class="cls-1" d="M715,138l5-5-5-5Z" transform="translate(138 -715) rotate(90)"/>
+</svg>

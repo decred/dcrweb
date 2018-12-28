@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+
+  {{ if .IsHome }}
+
+    <h3>list.html home</h3>
+      {{range where .Site.Pages "Section" "=" "home"}}
+        {{ .Content }}
+      {{ end }}
+
+  {{ else }}
+
+    <h3>list.html else</h3>
+
+  {{ end }}
+
+
+
+{{ end }}
+

@@ -1,0 +1,16 @@
+binance:
+  name: Binance.com
+  url: https://binance.com
+  tags:
+    - high_liquidity
+
+bisq:
+  name: Bisq
+  url: https://bisq.network
+  tags:
+    - atomic_swaps
+    - decentralized
+
+bleutrade:
+  url: https://bleutrade.com
+  name: Bleu Trade
