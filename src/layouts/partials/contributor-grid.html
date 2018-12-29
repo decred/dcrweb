@@ -1,0 +1,41 @@
+
+
+
+{{ $companies := .Site.Data.contributor_companies }}
+{{ $items := index .Site.Data.contributors  }}
+
+
+<div class="team-filter">
+    <a href="#" data-filter="development" class="active team-filter-button w-button" translate>Development</a>
+    <a href="#" data-filter="design" class="team-filter-button w-button" translate>Design</a>
+    <a href="#" data-filter="community" class="team-filter-button w-button" translate>Community</a>
+    <a href="#" data-filter="marketing" class="team-filter-button w-button" translate>Marketing</a>
+    <a href="#" data-filter="strategy" class="team-filter-button w-button" translate>Strategy</a>
+</div>
+
+<div class="team-members w-clearfix hidden">
+        {{ range $items }}
+        <div data-id="Abubakar Suleiman" data-slack="{{ .slack_alias }}"  data-corporate-id="{{ .company_id }}" data-filter="{{ .group }}" class="team-member w-clearfix">
+            <div class="team-member-avatar"><img alt="" src="/images/{{ .avatar_image }}" class="image"></div>
+            <div class="team-member-name">{{ .name }}</div>
+            <div class="team-member-title">{{ .title }}</div><a target="_blank" rel="noopener noreferrer" href="https://raedahgroup.com" target="_blank" rel="noopener noreferrer" class="team-corporate-logo w-inline-block"><img alt="" src="/content/images/team_raedah.svg"></a>
+            <div class="team-member-social"><a target="_blank" rel="noopener noreferrer" href="https://decred.slack.com/team/DA7NZ77C1" class="slack team-member-social-link w-inline-block">
+                <img alt="" src="/content/images/team_slack.svg" class="team-member-social-link-image"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ .twitter_alias }}" class="twitter team-member-social-link w-inline-block">
+                    <img alt="" src="/content/images/team_twitter.svg" class="team-member-social-link-image">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ .github_id }}" class="team-member-social-link w-inline-block">
+                    <img alt="" src="/content/images/team_github.svg" class="team-member-social-link-image">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://LinkedIn.com/in/{{ .linkedin_alias }}" class="linkedin team-member-social-link w-inline-block">
+                    <img alt="" src="/content/images/team_linkedin.svg" class="team-member-social-link-image">
+                </a>
+            </div>
+        </div>
+
+            {{ .name }} - {{ .title }}
+            {{ if ne .company_id nil }}
+            ({{ index $companies .company_id "name" }})
+            {{ end }}
+        {{ end }}
+</div>

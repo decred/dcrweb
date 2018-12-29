@@ -1,8 +1,12 @@
 - name: Abubakar Suleiman
   title: Mobile Developer
   slack_alias: macsleven
+  twitter_alias: macsleven
   slack_id: 2FDA7NZ77C1
+  linkedin_alias: macsleven
   github_id: macsleven
+  group: development
+  avatar_image: team_51.svg
 
 - name: Alex Yocom-Piatt
   title: Developer
@@ -10,3 +14,10 @@
   slack_id: 2FU0X1198US
   github_id: ay-p
   company_id: c0
+  group: development
+
+- name: Clarissa Peerebom
+  title: Marketing & Events
+  twitter_id: DeCredBAB
+  company_id: c1
+  group: marketing

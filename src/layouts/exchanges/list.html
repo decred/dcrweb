@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+
+<h1>{{ T "exchanges_title" }}</h1>
+{{ T "exchanges_description" | markdownify }}
+
+<div class="exchange-list">
+{{ $items := index .Site.Data.exchanges }}
+{{ range $items }}
+    <div class="exchange-item">
+        <a href="{{ .url }}">{{ .name }}</a>
+        <ul class="exchange-tag-list">
+            {{ range .tags }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}
+</div>
+
+{{ partial "footer" . }}

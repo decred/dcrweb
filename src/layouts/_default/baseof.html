@@ -5,14 +5,27 @@
 
   <body class="body">
 
-    {{ partial "top-gfx-elements.html" . }}
-
     {{ if .IsHome }}
+
+        {{ block "content-top" . -}}{{- end }}
+
+        {{ block "fronta" . -}}{{- end }}
+
+        <div class="below">
+          {{ block "main" . -}}{{- end }}
+          {{ partial "footer.html" . }}
+        </div>
+
+    {{ else }}
+        {{ block "content-top" . -}}{{- end }}
+        {{ block "fronta" . -}}{{- end }}
+        <div class="below subpage">
+          {{ block "main" . -}}{{- end }}
+          {{ partial "footer.html" . }}
+        </div>
     {{ end }}
 
-    {{ block "main" . -}}{{- end }}
 
-    {{ partial "footer.html" . }}
 
     {{ partial "navbar.html" . }}
 
