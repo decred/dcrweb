@@ -1,0 +1,567 @@
+-
+  slack_alias: macsleven
+  twitter_alias: macsleven
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_51.svg"
+  name: "Abubakar Suleiman"
+  title: "Mobile Developer"
+  slack_id: DA7NZ77C1
+  linkedin_url: "https://LinkedIn.com/in/macsleven"
+  medium_alias: macsleven
+-
+  slack_alias: "ay-p"
+  twitter_alias: "_alyp"
+  company_id: c0
+  group: development
+  avatar_image: "team_1.svg"
+  name: "Alex Yocom-Piatt"
+  title: Developer
+  slack_id: U0X1198US
+  github_id: alexlyp
+-
+  slack_alias: collins
+  twitter_alias: "beansgum"
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_46.svg"
+  name: "Collins Olanrewaju"
+  title: "Mobile Developer"
+  slack_id: DA9B1EM3R
+  github_id: "C-ollins"
+-
+  slack_alias: freethinkingaway
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_57.svg"
+  name: "Cruz Molina"
+  title: "dcrdata Developer"
+  slack_id: UB7GBFQEM
+  github_id: freethinkingaway
+-
+  slack_alias: BAB
+  twitter_alias: "DeCredBAB"
+  company_id: c1
+  group: marketing
+  avatar_image: "team_44.svg"
+  name: "Clarissa Peereboom"
+  title: "Marketing & Events"
+  slack_id: U7ZEZGVGE
+  linkedin_url: "https://www.linkedin.com/in/clarissa-peereboom-0b2b4936"
+-
+  slack_alias: davecgh
+  twitter_alias: "davecgh"
+  company_id: c0
+  group: development
+  avatar_image: "team_2.svg"
+  name: "Dave Collins"
+  title: "Lead Developer"
+  slack_id: U0ST3DKEX
+  github_id: davecgh
+-
+  slack_alias: dhill
+  twitter_alias: "dajohi"
+  company_id: c0
+  group: development
+  avatar_image: "team_3.svg"
+  name: "David Hill"
+  title: developer
+  slack_id: U41H8AY0Z
+  github_id: dajohi
+-
+  slack_alias: klka
+  company_id: block_42
+  group: development
+  avatar_image: "team_67.svg"
+  name: "Dmitry Fedorov"
+  title: Developer
+  slack_id: UALCYK2C9
+-
+  slack_alias: dnldd
+  group: development
+  avatar_image: "team_8.svg"
+  name: "Donald Adu-Poku"
+  title: developer
+  slack_id: U53LKS5U0
+  github_id: dnldd
+-
+  slack_alias: Dustorf
+  twitter_alias: "lefebvre_dustin"
+  group: marketing
+  avatar_image: "team_64.svg"
+  name: "Dustin LeFebvre"
+  title: Marketing
+  slack_id: U9AS0DRAM
+  linkedin_url: "https://www.linkedin.com/in/dustinlefebvre"
+-
+  slack_alias: fernandoabolafio
+  group: development
+  avatar_image: "team_39.svg"
+  name: "Fernando Abolafio"
+  title: developer
+  slack_id: U7ZA2CW02
+  linkedin_url: "https://www.linkedin.com/in/fernandoabolafio"
+  github_id: fernandoabolafio
+-
+  slack_alias: karamble
+  twitter_alias: "karamblez"
+  group: development
+  avatar_image: "team_12.svg"
+  name: "Holger Klein"
+  title: developer
+  slack_id: U3ZFYHCUC
+  github_id: karamble
+-
+  slack_alias: huyntsgs
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_58.svg"
+  name: "Huy Nguyen Tuan"
+  title: "dcrwallet Developer"
+  slack_id: UB074QYLC
+  github_id: huyntsgs
+-
+  slack_alias: jholdstock
+  group: development
+  avatar_image: "team_9.svg"
+  name: "Jamie Holdstock"
+  title: developer
+  slack_id: U1VGWQMRD
+  github_id: jholdstock
+-
+  slack_alias: chappjc
+  twitter_alias: "chappjc"
+  group: development
+  avatar_image: "team_7.svg"
+  name: "Jonathan Chappelow"
+  title: Developer
+  slack_id: U0TU00PGD
+  github_id: chappjc
+-
+  slack_alias: jrick
+  twitter_alias: "joshrickmar"
+  company_id: c0
+  group: development
+  avatar_image: "team_5.svg"
+  name: "Josh Rickmar"
+  title: developer
+  slack_id: U0R91T81Y
+  github_id: jrick
+-
+  slack_alias: jzsantoro14
+  company_id: raedah_group
+  group: design
+  avatar_image: "team_50.svg"
+  name: "Justin Santoro"
+  title: "design & Video Production"
+  slack_id: DA9B7BT0X
+-
+  slack_alias: mcedward
+  twitter_alias: "mc_edward"
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_48.svg"
+  name: "Macaulay Davies"
+  title: developer
+  slack_id: DA96HCYMC
+  github_id: McEdward
+-
+  slack_alias: moo31337
+  twitter_alias: "marco_peereboom"
+  company_id: c0
+  group: development
+  avatar_image: "team_6.svg"
+  name: "Marco Peereboom"
+  title: developer
+  slack_id: U4J25MBU0
+  github_id: marcopeereboom
+-
+  slack_alias: kart
+  company_id: eeter
+  group: design
+  avatar_image: "team_13.svg"
+  name: "Kärt Koosa"
+  title: Illustrator
+  slack_id: " Designer"
+  linkedin_url: U5D29D50F
+-
+  slack_alias: kyle_firethought
+  twitter_alias: "kyleFirethought"
+  group: design
+  avatar_image: "team_14.svg"
+  name: "Kyle Chivers"
+  title: "Motion Designer"
+  slack_id: U60H90MS4
+  linkedin_url: "https://www.linkedin.com/company/27009401/"
+-
+  slack_alias: Maria
+  company_id: block_42
+  group: design
+  avatar_image: "team_68.svg"
+  name: "Maria Pleshkova"
+  title: Designer
+  slack_id: UB53WBNTZ
+-
+  slack_alias: matheusd
+  group: development
+  avatar_image: "team_34.svg"
+  name: "Matheus Degiovani"
+  title: developer
+  slack_id: U6DPT0X0B
+  linkedin_url: "https://br.linkedin.com/in/matheus-degiovani-69ab0166"
+  github_id: matheusd
+-
+  slack_alias: migwi
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_59.svg"
+  name: "Migwi Ndung'u"
+  title: "dcrdata Developer"
+  slack_id: UA5UTAK6E
+  github_id: dmigwi
+-
+  slack_alias: papa_carp
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_61.svg"
+  name: "Mike Fullmann"
+  title: "dcrdata Developer"
+  slack_id: UA60YSX19
+  github_id: papacarp
+-
+  slack_alias: rmykolas
+  company_id: eeter
+  group: development
+  avatar_image: "team_53.svg"
+  name: "Mykolas Raižys"
+  title: developer
+  slack_id: U9ZS2G277
+  linkedin_url: "https://www.linkedin.com/in/mykolasraizys"
+  medium_alias: "@rmykolas"
+-
+  slack_alias: Nick
+  company_id: block_42
+  group: development
+  avatar_image: "team_66.svg"
+  name: "Nick Kaeshko"
+  title: "Project Manager"
+  slack_id: UA1843AS1
+  linkedin_url: "https://www.linkedin.com/in/kaeshko/"
+-
+  slack_alias: rogueelement
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_49.svg"
+  name: "Oluwandabira Alawode"
+  title: developer
+  slack_id: DA89QRWRG
+  github_id: RogueElement
+-
+  slack_alias: peter_zen
+  group: development
+  avatar_image: "team_10.svg"
+  name: "Peter Banik"
+  title: developer
+  slack_id: U4T3MAY2X
+  github_id: peterzen
+-
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_62.svg"
+  name: "Philipp Maluta"
+  title: "iOS Developer"
+  linkedin_url: ensoreus
+-
+  slack_alias: "Richard-Red"
+  group: strategy
+  avatar_image: "team_65.svg"
+  name: "Richard Red"
+  title: "Research and Strategy"
+  slack_id: U7E9T3DFD
+  github_id: RichardRed0x
+  medium_alias: "@richardred"
+-
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_63.svg"
+  name: "Rohit Nagori"
+  title: "iOS Developer"
+  github_id: ktr09
+-
+  slack_alias: sndurkin
+  group: development
+  avatar_image: "team_11.svg"
+  name: "Sean Durkin"
+  title: developer
+  slack_id: D7NA04LRM
+  github_id: sndurkin
+-
+  slack_alias: oktapodia
+  group: development
+  avatar_image: "team_35.svg"
+  name: "Sebastien Bramille"
+  title: developer
+  slack_id: U6DPT0X0B
+  github_id: oktapodia
+-
+  slack_alias: s_ben
+  twitter_alias: "zen_bacon"
+  group: development
+  avatar_image: "team_71.svg"
+  name: "Seth Benton"
+  title: developer
+  slack_id: UCJ4YJA69
+  github_id: "s-ben"
+-
+  slack_alias: raedah
+  company_id: raedah_group
+  group: development
+  avatar_image: "team_45.svg"
+  name: "Steven Wagner"
+  title: developer
+  slack_id: D5LRQ2K6D
+  github_id: raedah
+-
+  slack_alias: "Tiago Alves"
+  group: development
+  avatar_image: "team_40.svg"
+  name: "Tiago Alves"
+  title: developer
+  slack_id: U7ZHWJCFP
+  linkedin_url: "https://www.linkedin.com/in/tiagoalvesdulce"
+  github_id: tiagoalvesdulce
+-
+  slack_alias: vctt
+  group: development
+  avatar_image: "team_41.svg"
+  name: "Victor Oliveira"
+  title: developer
+  slack_id: U77HBPDBK
+  linkedin_url: "https://www.linkedin.com/in/victor-oliveira-3a9b8675"
+  github_id: vctt94
+-
+  slack_alias: DZ
+  twitter_alias: "denyszayets"
+  company_id: cryptobits
+  group: community
+  avatar_image: "team_42.svg"
+  name: "Denys Zayets"
+  title: "Community Manager (Italy & Russia)"
+  slack_id: U6BN2RMQA
+-
+  slack_alias: butterfly
+  twitter_alias: "in_insaf"
+  group: community
+  avatar_image: "team_69.svg"
+  name: "Insaf Nori"
+  title: "Community Manager (Middle East)"
+  slack_id: U6RC8P404
+  linkedin_url: "team_twitter.svg"
+-
+  slack_alias: Guang
+  twitter_alias: "GuangGuang168"
+  group: community
+  avatar_image: "team_70.svg"
+  name: Guang
+  title: "Community Manager (Asia)"
+  slack_id: U8P7X0CFN
+-
+  slack_alias: lustosa
+  twitter_alias: "marcelolustosa"
+  group: design
+  avatar_image: "team_16.svg"
+  name: "Marcelo Lustosa"
+  title: illustrator
+  slack_id: U410SNRNW
+-
+  slack_alias: sander
+  company_id: eeter
+  group: design
+  avatar_image: "team_17.svg"
+  name: "Sander Meentalo"
+  title: designer
+  slack_id: U1ESPK615
+-
+  slack_alias: linnutee
+  company_id: eeter
+  group: design
+  avatar_image: "team_15.svg"
+  name: "Tanel August Lind"
+  title: "lead designer"
+  slack_id: U0RDK8J5U
+  linkedin_url: "https://www.linkedin.com/in/tanel-august-lind-78556855/"
+-
+  slack_alias: bill
+  group: community
+  avatar_image: "team_56.svg"
+  name: "Bill Xing"
+  title: "Asia outreach"
+  slack_id: U6EV8PTHC
+-
+  slack_alias: emiliomann
+  group: community
+  avatar_image: "team_18.svg"
+  name: "Emilio Mann"
+  title: "Community manager (BR)"
+  slack_id: U3KQ3QWDR
+-
+  slack_alias: hgiron
+  twitter_alias: "gironhenrique"
+  group: community
+  avatar_image: "team_27.svg"
+  name: "Henrique Giron"
+  title: "Decred TV Brazil Host"
+  slack_id: U3ZQ3LTE3
+-
+  slack_alias: inkz
+  twitter_alias: "inkzgferrari"
+  group: community
+  avatar_image: "team_28.svg"
+  name: "Gustavo Ferrari"
+  title: "Decred TV Brazil Host"
+  slack_id: U3ZQ3LTE3
+-
+  slack_alias: oregonisaac
+  group: community
+  avatar_image: "team_54.svg"
+  name: "Oregon Isaac"
+  title: "Community Manager"
+  slack_id: U4X5L6Y2X
+-
+  slack_alias: Jesiki
+  company_id: raedah_group
+  group: community
+  avatar_image: "team_60.svg"
+  name: "Jessica Eggleston"
+  title: "Conference Coordinator"
+  slack_id: UAG6W3GFP
+  github_id: jesiki
+-
+  slack_alias: joshuam
+  twitter_alias: "joshuam_"
+  group: community
+  avatar_image: "team_36.svg"
+  name: "Joshua Mark"
+  title: "Asia Pacific Outreach"
+  slack_id: U5UQ03JDT
+  linkedin_url: "https://au.linkedin.com/in/joshuambuirski"
+-
+  slack_alias: lukebp
+  twitter_alias: "lukebp_"
+  group: community
+  avatar_image: "team_29.svg"
+  name: "Luke Powell"
+  title: "Decred Roundtable Host"
+  slack_id: U50V9M38E
+-
+  slack_alias: nkpla
+  twitter_alias: "nkplasma"
+  group: community
+  avatar_image: "team_30.svg"
+  name: "Namkyun Kim"
+  title: "Community Manager (KR)"
+  slack_id: U6U173R9R
+-
+  slack_alias: nickb
+  twitter_alias: "nbdeagle"
+  group: community
+  avatar_image: "team_37.svg"
+  name: "Nick Boariu"
+  title: "Docs and Analytics"
+  slack_id: U6ALQKCNQ
+  github_id: nickboariu
+-
+  slack_alias: haon
+  twitter_alias: "NoahPierau"
+  group: community
+  avatar_image: "team_19.svg"
+  name: "Noah Pierau"
+  title: "Community Manager"
+  slack_id: U4SRV5JMP
+  github_id: noahpierau
+-
+  slack_alias: praxis
+  twitter_alias: "Innigkeit"
+  group: community
+  avatar_image: "team_20.svg"
+  name: "Jure Kralj"
+  title: "Reddit Manager"
+  slack_id: U137PAT9T
+-
+  slack_alias: dezryth
+  twitter_alias: "scottrchristian"
+  group: community
+  avatar_image: "team_26.svg"
+  name: "Scott Christian"
+  title: "Facebook Manager"
+  slack_id: U6DGNKHJN
+-
+  slack_alias: trace
+  twitter_alias: "traceagain"
+  group: community
+  avatar_image: "team_38.svg"
+  name: "Trace Trebilco"
+  title: "Decred Assembly Host"
+  slack_id: U7190LS75
+-
+  slack_alias: ingsoc
+  twitter_alias: "realingsoc"
+  group: community
+  avatar_image: "team_21.svg"
+  name: "Phillip Conrad"
+  title: "Twitter Ops"
+  slack_id: U0NRS2FKN
+-
+  slack_alias: lindseym
+  twitter_alias: "LindseyMelissaM"
+  group: raedah_group
+  avatar_image: marketing
+  name: "team_47.svg"
+  title: "Lindsey McConaghy"
+  slack_id: "Public Relations"
+  linkedin_url: DA7P0REHF
+  github_id: "https://www.linkedin.com/in/lindsey-melissa-mcconaghy-a5960822/"
+-
+  slack_alias: timhebel
+  twitter_alias: "tim_hebel"
+  company_id: beanstalk
+  group: marketing
+  avatar_image: "team_55.svg"
+  name: "Tim Hebel"
+  title: "Digital Marketing"
+  slack_id: U6PBQ22SF
+  linkedin_url: "https://www.linkedin.com/in/tim-hebel"
+-
+  slack_alias: "jy-p"
+  company_id: c0
+  group: strategy
+  avatar_image: "team_22.svg"
+  name: "Jake Yocom-Piatt"
+  title: "Project Lead"
+  slack_id: U0RKDET27
+-
+  slack_alias: jz
+  twitter_alias: "jz_bz"
+  group: strategy
+  avatar_image: "team_23.svg"
+  name: "Jonathan Zeppettini"
+  title: "International Ops Lead"
+  slack_id: U40F6GKNU
+-
+  slack_alias: sef
+  group: development
+  avatar_image: "team_72.svg"
+  name: "Youssef Boukenken"
+  title: developer
+  slack_id: U652HC01Z
+  github_id: sefbkn
+-
+  slack_alias: zubairzia0
+  group: strategy
+  avatar_image: "team_73.svg"
+  name: "Zubair Zia"
+  title: "Research and Outreach"
+  slack_id: U4FJ1STBL
+  linkedin_url: "https://www.linkedin.com/in/zubairzia0/"
+  github_id: zubairzia0
+  medium_alias: zubairzia

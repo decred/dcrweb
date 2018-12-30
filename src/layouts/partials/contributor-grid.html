@@ -15,27 +15,43 @@
 
 <div class="team-members w-clearfix hidden">
         {{ range $items }}
-        <div data-id="Abubakar Suleiman" data-slack="{{ .slack_alias }}"  data-corporate-id="{{ .company_id }}" data-filter="{{ .group }}" class="team-member w-clearfix">
+        <div data-id="{{ .name }}" data-slack="{{ .slack_alias }}"  data-corporate-id="{{ .company_id }}" data-filter="{{ .group }}" class="team-member w-clearfix">
             <div class="team-member-avatar"><img alt="" src="/images/{{ .avatar_image }}" class="image"></div>
             <div class="team-member-name">{{ .name }}</div>
-            <div class="team-member-title">{{ .title }}</div><a target="_blank" rel="noopener noreferrer" href="https://raedahgroup.com" target="_blank" rel="noopener noreferrer" class="team-corporate-logo w-inline-block"><img alt="" src="/content/images/team_raedah.svg"></a>
-            <div class="team-member-social"><a target="_blank" rel="noopener noreferrer" href="https://decred.slack.com/team/DA7NZ77C1" class="slack team-member-social-link w-inline-block">
-                <img alt="" src="/content/images/team_slack.svg" class="team-member-social-link-image"></a>
+            <div class="team-member-title">{{ .title }}</div>
+            {{ if ne .company_id nil }}
+            {{ $company := index $companies .company_id  }}
+                <a target="_blank" rel="noopener noreferrer" href="{{ $company.url }}" class="team-corporate-logo w-inline-block">
+                    <img alt="" src="/images/{{ $company.logo }}">
+                </a>
+            {{ end }}
+
+            <div class="team-member-social">
+                {{ if ne .slack_alias nil }}
+                <a target="_blank" rel="noopener noreferrer" href="https://decred.slack.com/team/{{ .slack_alias }}" class="slack team-member-social-link w-inline-block">
+                    <img alt="" src="/images/team_slack.svg" class="team-member-social-link-image">
+                </a>
+                {{ end }}
+
+                {{ if ne .twitter_alias nil }}
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ .twitter_alias }}" class="twitter team-member-social-link w-inline-block">
-                    <img alt="" src="/content/images/team_twitter.svg" class="team-member-social-link-image">
+                    <img alt="" src="/images/team_twitter.svg" class="team-member-social-link-image">
                 </a>
+                {{ end }}
+
+                {{ if ne .github_id nil }}
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ .github_id }}" class="team-member-social-link w-inline-block">
-                    <img alt="" src="/content/images/team_github.svg" class="team-member-social-link-image">
+                    <img alt="" src="/images/team_github.svg" class="team-member-social-link-image">
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://LinkedIn.com/in/{{ .linkedin_alias }}" class="linkedin team-member-social-link w-inline-block">
-                    <img alt="" src="/content/images/team_linkedin.svg" class="team-member-social-link-image">
+                {{ end }}
+
+                {{ if ne .linkedin_url nil }}
+                <a target="_blank" rel="noopener noreferrer" href="{{ .linkedin_url }}" class="linkedin team-member-social-link w-inline-block">
+                    <img alt="" src="/images/team_linkedin.svg" class="team-member-social-link-image">
                 </a>
+                {{ end }}
             </div>
         </div>
 
-            {{ .name }} - {{ .title }}
-            {{ if ne .company_id nil }}
-            ({{ index $companies .company_id "name" }})
-            {{ end }}
         {{ end }}
 </div>

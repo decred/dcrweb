@@ -1,0 +1,35 @@
+c1:
+  name: "Company One LLC"
+  url: https://www.companyone.io
+  logo: "team_company_one.svg"
+
+c0:
+  name: "Company Zero LLC"
+  url: https://www.companyzero.com
+  logo: "team_company_zero.svg"
+
+raedah_group:
+  name: "Raedah Group LLC"
+  url: https://raedahgroup.com
+  logo: "team_raedah.svg"
+
+block_42:
+  name: "Block 42"
+  url: http://42block.io
+  logo: "team_b42.svg"
+
+beanstalk:
+  name: "Beanstalk Web Solutions LLC"
+  url: https://beanstalkwebsolutions.com
+  logo: "team_company_beanstalk.svg"
+
+eeter:
+  name: "EETER CO PLC"
+  url: https://eeter.co
+  logo: "team_eeter.svg"
+
+cryptobits:
+  name: "CRYPTOBITS TECH LLC."
+  url: https://www.cryptobits.co
+  logo: "team_cryptobits.svg"
+
