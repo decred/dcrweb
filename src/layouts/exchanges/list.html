@@ -1,20 +1,35 @@
-{{ partial "head" . }}
 
-<h1>{{ T "exchanges_title" }}</h1>
-{{ T "exchanges_description" | markdownify }}
 
-<div class="exchange-list">
-{{ $items := index .Site.Data.exchanges }}
-{{ range $items }}
-    <div class="exchange-item">
-        <a href="{{ .url }}">{{ .name }}</a>
-        <ul class="exchange-tag-list">
-            {{ range .tags }}
-            <li>{{ . }}</li>
-            {{ end }}
-        </ul>
-    </div>
+{{ define "content-top" }}
+<div class="tail"></div>
 {{ end }}
-</div>
 
-{{ partial "footer" . }}
+{{ define "fronta" }}
+<div class="fronta subpage video-header">
+    <!--<video autoplay loop muted poster="/videos/headers/exchanges/fallback.jpg">-->
+        <!--<source src="/videos/headers/exchanges/video.mp4" type="video/mp4">-->
+        <!--<source src="/videos/headers/exchanges/video.webm" type="video/webm">-->
+        <!--<source src="/videos/headers/exchanges/video.ogv" type="video/ogg">-->
+    <!--</video>-->
+    <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a></div>
+    <div class="_960 subpage-header">
+        <div class="subpage-title" translate>{{ .Title }}</div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section ex">
+                    {{ partial "exchanges-grid" . }}
+            </div>
+        </div>
+    </div>
+{{end}}
+
+{{ define "custom-assets" }}
+<script src="/js/pts5.js"></script>
+<script src="/js/jquery.shuffle.js"></script>
+<script src="/js/main-ex.js"></script>
+{{ end }}

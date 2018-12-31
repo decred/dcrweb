@@ -1,0 +1,38 @@
+
+
+
+{{ $exchanges := .Site.Data.exchanges.exchanges }}
+{{ $tags := .Site.Data.exchanges.tags }}
+
+<div class="subpage-content-header">
+    <div class="text-block-5" translate>Decred on Exchanges</div>
+    <div class="subpage-content-header-footer">
+        <div class="subpage-description ex" translate>Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys.</div>
+        <div class="ex-filter w-clearfix">
+            <a href="#" data-group="all" class="filter-button all is-checked w-button" translate>Show all</a>
+            {{ range $tags }}
+                <a href="#" tail="{{ .name }}" data-group="{{ .id }}" class="filter-button {{  .id }} w-button"></a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+
+<div class="subpage-content exchanges">
+    <div class="filter-cards-wrap w-clearfix">
+
+    {{ range $exchanges }}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-groups="[&quot;{{ delimit .tags "&quot;,&quot;" }}&quot;]" class="filter-card w-inline-block">
+            <div class="filter-card-image-wrap"><img alt="" src="/images/{{ .logo_src }}" srcset="{{ .image_srcset }}" sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" class="filter-card-image"></div>
+            <div class="filter-card-footer w-clearfix">
+                <div class="filter-card-title">{{ .name }}</div>
+                {{ range .tags }}
+                {{ $tag := index $tags }}
+                <div tail="{{ $tag }}" class="filter-button {{ . }} is-checked"></div>
+                {{ end }}
+            </div>
+        </a>
+    {{ end }}
+    </div>
+</div>
+

@@ -33,5 +33,7 @@
 
     {{ partial "footer-assets.html" . }}
 
+    {{ block "custom-assets" . -}}{{- end }}
+
   </body>
 </html>
