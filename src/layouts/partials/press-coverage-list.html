@@ -1,0 +1,15 @@
+{{ $press_coverage_items := .Site.Data.press.coverage }}
+
+{{ range $press_coverage_items }}
+<div class="press__coverage-item">
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+        <img alt="" class="press__coverage-icon" src="/images/press-coverage-icon.svg" width="30" />
+        <div class="press__coverage-wrapper">
+            <p><span class="press__title">{{ .title }}</span>
+                <span class="press__source"> ({{ .source }})</span></p>
+            <p class="press__date">{{ .date }}</p>
+        </div>
+        <img alt="" class="press__coverage-hover-icon" src="/images/press-coverage-hover-icon.svg" width="16" />
+    </a>
+</div>
+{{ end }}
