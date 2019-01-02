@@ -2,6 +2,8 @@
 
 
 {{ $exchanges := .Site.Data.exchanges.exchanges }}
+{{ $otc := .Site.Data.exchanges.otc }}
+{{ $payment_providers := .Site.Data.exchanges.payment }}
 {{ $tags := .Site.Data.exchanges.tags }}
 
 <div class="subpage-content-header">
@@ -34,5 +36,41 @@
         </a>
     {{ end }}
     </div>
+
+
+    <div class="subsection-description w-clearfix">
+        <div class="subsection-title" translate>Decred OTC Traders</div>
+        <div class="subsection-subtitle" translate>Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher.</div>
+    </div>
+
+    {{ range $otc }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card ex w-inline-block">
+        <div class="filter-card-image-wrap"><img alt="" src="/images/{{ .logo_src }}" srcset="{{ .image_srcset }}" sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" class="filter-card-image"></div>
+        <div class="filter-card-footer w-clearfix">
+            <div class="filter-card-title">{{ .name }}</div>
+        </div>
+    </a>
+    {{ end }}
+
+
+    <div class="subsection-description w-clearfix">
+        <div class="subsection-title" translate>Decred Payment Processors</div>
+        <div class="subsection-subtitle" translate>Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms.</div>
+    </div>
+
+
+
+    {{ range $payment_providers }}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card ex w-inline-block">
+        <div class="filter-card-image-wrap"><img alt="" src="/images/{{ .logo_src }}" srcset="{{ .image_srcset }}" sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" class="filter-card-image"></div>
+        <div class="filter-card-footer w-clearfix">
+            <div class="filter-card-title">{{ .name }}</div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+
+
+
 </div>
 
