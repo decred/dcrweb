@@ -1,0 +1,34 @@
+
+
+{{ define "content-top" }}
+<div class="preload-on-background subpage"></div>
+{{ end }}
+
+
+
+{{ define "main" }}
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section">
+                <div class="subpage-description">{{ .Content }}
+                    <noscript>
+                        <div>
+                            {{ range .Params.noscript_pools }}
+                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a><br/>
+                            {{ end }}
+                        </div>
+                        <div class="section-title-text">JavaScript required</div><div class="mission-copy">We're sorry, but this Website doesn't work properly<br/>without JavaScript enabled.</div>
+                    </noscript>
+                </div>
+
+                <div class="subpage-content w-clearfix">
+                    <div id="stakepool-data" class="stakepool-data"></div>
+                    <div class="modalparagraph left" >{{ safeHTML .Params.warning_copy.left }}</div>
+                    <div class="modalparagraph right">{{ safeHTML .Params.warning_copy.right }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}
+
+
