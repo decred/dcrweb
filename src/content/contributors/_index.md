@@ -1,5 +1,17 @@
 ---
 title: Who is Decred?
+teams:
+    - name: Development
+      id: development
+    - name: Design
+      id: design
+    - name: Community
+      id: community
+    - name: Marketing
+      id: marketing
+    - name: Strategy
+      id: strategy
+      
 ---
 
 

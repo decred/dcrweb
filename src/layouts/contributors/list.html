@@ -14,9 +14,18 @@
     <div class="full-width">
         <div class="_960">
             <div class="subpage-content-section">
-                <div class="subpage-description" translate>{{ .Content }}</div>
+                <div class="subpage-description">{{ .Content }}</div>
                 <div class="subpage-content">
-                    {{ partial "contributor-grid" . }}
+
+                    <div class="team-filter">
+                        {{ range .Params.teams }}
+                            <a href="#" data-filter="{{ .id }}" class="active team-filter-button w-button">{{ .name }}</a>
+                        {{ end }}
+                    </div>
+
+                    <div class="team-members w-clearfix hidden">
+                        {{ partial "contributor-grid" . }}
+                    </div>
                 </div>
             </div>
         </div>
