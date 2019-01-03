@@ -16,9 +16,11 @@
                     <source src="/videos/headers/{{ .Section }}/video.webm" type="video/webm">
                     <source src="/videos/headers/{{ .Section }}/video.ogv" type="video/ogg">
                 </video>
-                <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a></div>
                 <div class="_960 subpage-header">
-                    <div class="subpage-title" translate>{{ .Title }}</div>
+                    <a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a>
+                </div>
+                <div class="_960 subpage-header">
+                    <div class="subpage-title">{{ .Title }}</div>
                 </div>
             </div>
         {{ end }}
@@ -29,13 +31,16 @@
         </div>
 
     {{ else }}
-        {{ block "content-top" . -}}{{- end }}
+
+        {{ block "content-top" . }}
+        {{ end }}
+
         {{ block "fronta" . -}}{{- end }}
-        <div class="below subpage">
-          {{ block "main" . -}}{{- end }}
-          {{ partial "footer.html" . }}
-        </div>
-    {{ end }}
+            <div class="below subpage">
+              {{ block "main" . -}}{{- end }}
+              {{ partial "footer.html" . }}
+            </div>
+        {{ end }}
 
 
 
