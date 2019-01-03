@@ -1,0 +1,13 @@
+{{ $channels := .Site.Data.community.channels }}
+
+{{ range $channels }}
+
+<a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card w-inline-block">
+    <div class="platform-image"><img alt=""  src="{{ .img_src }}" srcset="{{ .img_srcset }}" sizes="(max-width: 479px) 92vw, (max-width: 767px) 100vw, (max-width: 991px) 96vw, 982px" class="platform-image-source"></div>
+    <div class="platform-text-block">
+        <div class="platform-name">{{ .name }}</div>
+    </div>
+</a>
+
+
+{{ end }}

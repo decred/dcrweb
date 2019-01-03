@@ -1,0 +1,36 @@
+
+
+{{ define "content-top" }}
+<div class="preload-on-background subpage"></div>
+<div class="team-data-balloon">
+    <div class="data-balloon-top">Corporate Contractor</div>
+    <div class="data-balloon-bottom">Company Zero LLC</div>
+</div>
+{{ end }}
+
+{{ define "fronta" }}
+<div class="fronta subpage video-header">
+    <video autoplay loop muted poster="/videos/headers/community/fallback.jpg">
+        <source src="/videos/headers/community/video.mp4" type="video/mp4">
+        <source src="/videos/headers/community/video.webm" type="video/webm">
+        <source src="/videos/headers/community/video.ogv" type="video/ogg">
+    </video>
+    <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a></div>
+    <div class="_960 subpage-header">
+        <div class="subpage-title" translate>{{ .Title }}</div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section">
+                <div class="subpage-description" translate>{{ .Content }}</div>
+                <div class="subpage-content community">
+                    {{ partial "community-grid" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}
