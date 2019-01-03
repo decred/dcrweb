@@ -260,8 +260,10 @@ body {
   background-color: #fff;
 }
 
-.below.brand {
+.below.subpage.brand {
   z-index: 2;
+  top: 100% !important;
+  margin-top: 0 !important;
 }
 
 .below.subpage {
