@@ -1,0 +1,41 @@
+
+
+{{ define "content-top" }}
+<div class="preload-on-background subpage"></div>
+{{ end }}
+
+
+
+{{ define "main" }}
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section">
+                <div class="subpage-description" translate>{{ .Content }}</div>
+                <div class="subpage-content">
+                    {{ range .Params.app_categories }}
+                    <div class="section-download-page w-clearfix">
+                        <div class="section-title-download-page">{{ .category }}</div>
+                            {{ range .apps }}
+                                <div class="section-card-download-page {{ if ne .is_third_party false }}third-party{{end}}" id="{{ .id }}">
+                                    <div class="{{ .id }} section-card-title-download-page">{{ .name }}</div>
+                                    <div class="section-card-description-download">{{ .description }}</div>
+                                    <div class="section-card-download-links-download-page w-clearfix">
+                                        {{ range .links }}
+                                            <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
+                                                {{ .title }}
+                                                {{ if eq .is_direct_download true }}↓
+                                                {{ else }}→
+                                                {{ end }}
+                                            </a>
+                                            <div class="separator"></div>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}

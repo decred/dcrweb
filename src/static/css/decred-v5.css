@@ -2197,6 +2197,10 @@ body {
   background-color: #0c1e3e;
 }
 
+.section-card-download-links-download-page > .separator:last-child {
+  display: none;
+}
+
 .nav-links-wrap {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
