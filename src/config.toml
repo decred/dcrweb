@@ -1,3 +1,24 @@
 baseURL = "http://localhost:1313/"
 languageCode = "en-us"
-title = "decred"
+title = "Decred "
+
+
+DefaultContentLanguage = "en"
+copyright = "Decred Developers"
+
+[languages]
+  [languages.en]
+    languageName = "english"
+    contentDir = "content/en"
+    weight = 10
+
+  [languages.de]
+    languageName = "german"
+    contentDir = "content/de"
+    weight = 30
+
+  [languages.pt]
+    languageName = "português"
+    contentDir = "content/pt"
+    weight = 30
+
