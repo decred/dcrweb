@@ -1,67 +1,114 @@
 {{ define "content-top" }}
-<div class="preload-on-background"></div>
-
-<div class="bg w-clearfix">
-    <div class="bg-gradient">
-        <div class="bg-gradient-ghost"></div>
+    <div class="preload-on-background"></div>
+    <div class="bg w-clearfix">
+        <div class="bg-gradient">
+            <div class="bg-gradient-ghost"></div>
+        </div>
+        <div class="bg-illustration">
+            <div class="active bg-illustration-ghost"></div>
+        </div>
     </div>
-    <div class="bg-illustration">
-        <div class="active bg-illustration-ghost"></div>
-    </div>
-</div>
 {{ end }}
 
 
 
 {{ define "fronta" }}
 
-{{ $download_links := where (index .Site.Data.downloads.links "decrediton") "is_direct_download" true }}
+    {{ $download_links := where (index .Site.Data.downloads.links "decrediton") "is_direct_download" true }}
 
-<div class="fronta">
-    <div class="full-width">
-        <div class="_960 firstview">
-            <div class="firstview-left">
-                <div class="logo"></div>
-                <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
-                <div class="description font38" translate>Decred is an autonomous digital currency.</div>
+    <div class="fronta">
+        <div class="full-width">
+            <div class="_960 firstview">
+                <div class="firstview-left">
+                    <div class="logo"></div>
+                    <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
+                    <div class="description font38" translate>Decred is an autonomous digital currency.</div>
 
-                <div class="first-view-buttons w-clearfix">
-                    <a href="downloads/" class="button download-wallet w-button alldl">
-                        <span translate>Download Wallet</span>
-                    </a>
-                    <div class="button os-specific alldl"><span translate>For Your Computer</span></div>
+                    <div class="first-view-buttons w-clearfix">
+                        <a href="downloads/" class="button download-wallet w-button alldl">
+                            <span translate>Download Wallet</span>
+                        </a>
+                        <div class="button os-specific alldl"><span translate>For Your Computer</span></div>
 
-                    {{ range $download_links }}
-                        <a href="{{ .url }}" class="button download-wallet w-button {{ .platform }}"><span translate>Download Wallet</span></a><div class="button os-specific {{ .platform }}"><span translate>Decrediton for {{ .title }}</span></div>
-                    {{ end }}
+                        {{ range $download_links }}
+                            <a href="{{ .url }}" class="button download-wallet w-button {{ .platform }}"><span translate>Download Wallet</span></a><div class="button os-specific {{ .platform }}"><span translate>Decrediton for {{ .title }}</span></div>
+                        {{ end }}
 
-                    <a href="/downloads/" class="button all-downloads w-button" translate>All Downloads →</a>
+                        <a href="/downloads/" class="button all-downloads w-button" translate>All Downloads →</a>
+                    </div>
+
+                    <div class="mobile-play-button"><a href="https://www.youtube.com/watch?v=GAMp5V_gG1E" translate>Watch Video</a></div>
                 </div>
-
-                <div class="mobile-play-button"><a href="https://www.youtube.com/watch?v=GAMp5V_gG1E" translate>Watch Video</a></div>
+                <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>
             </div>
-            <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>
         </div>
     </div>
-</div>
 {{ end }}
 
 {{ define "main" }}
 
-
   {{ if .IsHome }}
 
-      {{range where .Site.Pages "Section" "=" "home"}}
-        {{ .Content }}
-      {{ end }}
+        <div class="full-width politeia-notice">
+            <div class="_960">
+                <div class="politeia-notice__content">
+                    <img class="politeia-notice__logo" alt="Politeia" src="/images/icon-politeia.svg">
+                    <div class="politeia-notice__text">
+                        {{ range where .Site.Pages "Params.page_id" "politeia_notice" }}
+                        {{ .Content }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  {{ else }}
+        <div class="full-width">
+            <div class="_960">
+                <div id="mission" class="mission">
+                    {{ range where .Site.Pages "Params.page_id" "mission" }}
+                    {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
 
-    <h3>_default/list.html</h3>
+        <div class="full-width">
+            <div class="_960">
+                <div class="quotes">
+                    {{ range where .Site.Pages "Params.page_id" "quotes" }}
+                    {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width gray-bg">
+            <div class="_960">
+                <div id="platform" class="platform">
+                    {{ range where .Site.Pages "Params.page_id" "platform" }}
+                    {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        <div class="dark-gray-bg full-width">
+            <div class="_960">
+                <div class="principles">
+                    {{ range where .Site.Pages "Params.page_id" "principles" }}
+                    {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+        <div class="guide" id="guide">
+            {{ range where .Site.Pages "Params.page_id" "guide" }}
+            {{ .Content }}
+            {{ end }}
+        </div>
+
 
   {{ end }}
-
-
-
 {{ end }}
 
