@@ -15,7 +15,13 @@
                                     <div class="{{ .id }} section-card-title-download-page">{{ .name }}</div>
                                     <div class="section-card-description-download">{{ .description }}</div>
                                     <div class="section-card-download-links-download-page w-clearfix">
-                                        {{ range .links }}
+                                        {{ $links := "" }}
+                                        {{ if eq .links nil }}
+                                            {{ $links = index $.Site.Data.downloads.links .id }}
+                                        {{ else }}
+                                            {{ $links = .links }}
+                                        {{ end }}
+                                        {{ range $links }}
                                             <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
                                                 {{ .title }}
                                                 {{ if eq .is_direct_download true }}↓

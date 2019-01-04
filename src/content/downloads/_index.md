@@ -2,35 +2,16 @@
 title: Downloads
 app_categories:
   - category: Core software
+    id: core
     apps:
       - name: Decrediton
         id: decrediton
-        description: Graphic UI wallet for Windows, macOS and Linux
+        description: Graphical UI wallet for Windows, macOS and Linux
         is_third_party: false
-        links:
-            - title: macOS
-              id: decreditonmac
-              url: https://github.com/decred/decred-binaries/releases/download/v1.3.1/decrediton-v1.3.1.dmg
-              is_direct_download: true
-            - title: Linux
-              id: decreditonlinux
-              url: https://github.com/decred/decred-binaries/releases/download/v1.3.1/decrediton-v1.3.1.tar.gz
-              is_direct_download: true
-            - title: Windows
-              id: decreditonwindows
-              url: https://github.com/decred/decred-binaries/releases/download/v1.3.1/decrediton-v1.3.1.exe
-              is_direct_download: true
-            - title: Release notes
-              url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v130
       - name: Command-line app suite
         id: commandline
         description: A cross-platform, automatic installer/updater for the command-line applications.
         is_third_party: false
-        links:
-            - title: View on Github
-              url: https://github.com/decred/decred-release/releases/tag/v1.3.0
-            - title: Release notes
-              url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v130
               
   - category: Mining software
     apps:
