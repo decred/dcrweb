@@ -1,5 +1,5 @@
 ---
-title: Stakepools
+title: Voting Service Providers
 noscript_pools:
     - url: https://dcr.stakeminer.com
       name: dcr.stakeminer.com
@@ -17,9 +17,9 @@ noscript_pools:
       name: ultrapool.eu
 
 warning_copy:
-    left: <span class="modalparagraphbold">Notice:</span>&nbsp;<span translate>Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the pool.
-    right: <span class="modalparagraphbold">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid pools that have over 5% of network votes.
+    left: <span class="modalparagraphbold">Notice:</span>&nbsp;<span translate>Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider.
+    right: <span class="modalparagraphbold">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes.
 ---
 
-Stakepools allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.
+Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.
 

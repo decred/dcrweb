@@ -151,7 +151,7 @@ page_id: guide
                 <div class="media"><img src="/images/07_pos.png" alt="Proof-of-Stake"></div>
                 <div class="info w-clearfix">
                     <div class="text" translate><p>Unlike PoW, <a href="https://docs.decred.org/mining/proof-of-stake/" title="_blank" rel="noopener noreferrer">Proof-of-stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. In every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p>
-                        <p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href="https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool" title="_blank" rel="noopener noreferrer">Pools are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p></div>
+                        <p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href="https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool" title="_blank" rel="noopener noreferrer">Pools - called Voting Service Providers (VSPs) - are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p></div>
                     <a class="borderradius4 buttoncontinue dropshadow font14 fontsemibold transition w-button" href="#" translate>Continue</a>
                     <a class="borderradius4 buttonback dropshadow font14 fontsemibold transition w-button" href="#" translate>Back</a>
                 </div>
