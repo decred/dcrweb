@@ -19,7 +19,9 @@
             </div>
             <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
                 <div class="footerblockstatsrow w-clearfix">
-                    <a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="{{ $current_release.release_url }}" target="_blank" rel="noopener noreferrer">{{ $current_release.version }}</a>
+                    {{ with $current_release }}
+                        <a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="{{ .release_url_base }}/{{ .current_version }}" target="_blank" rel="noopener noreferrer">{{ .current_version }}</a>
+                    {{ end }}
                     <div class="footerblockstatsname">{{ T "general_release_stable" }}</div>
                 </div>
                 <div class="footerblockstatsrow w-clearfix"><a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="/downloads/">52k {{ T "general_total" }}</a>
