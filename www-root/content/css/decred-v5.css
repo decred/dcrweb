@@ -6437,6 +6437,7 @@ body {
 .video-header {
   position: relative;
   background-color: #0a1741;
+  overflow: hidden;
 }
 
 .video-header video {
