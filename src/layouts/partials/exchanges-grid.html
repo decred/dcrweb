@@ -7,11 +7,11 @@
 {{ $tags := .Site.Data.exchanges.tags }}
 
 <div class="subpage-content-header">
-    <div class="text-block-5" translate>Decred on Exchanges</div>
+    <div class="text-block-5">{{ T "exchanges_subtitle" }}</div>
     <div class="subpage-content-header-footer">
-        <div class="subpage-description ex" translate>Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys.</div>
+        <div class="subpage-description ex">{{ T "exchanges_description" }}</div>
         <div class="ex-filter w-clearfix">
-            <a href="#" data-group="all" class="filter-button all is-checked w-button" translate>Show all</a>
+            <a href="#" data-group="all" class="filter-button all is-checked w-button">{{ T "exchanges_showall" }}</a>
             {{ range $tags }}
                 <a href="#" tail="{{ .name }}" data-group="{{ .id }}" class="filter-button {{  .id }} w-button"></a>
             {{ end }}
@@ -37,10 +37,9 @@
     {{ end }}
     </div>
 
-
     <div class="subsection-description w-clearfix">
-        <div class="subsection-title" translate>Decred OTC Traders</div>
-        <div class="subsection-subtitle" translate>Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher.</div>
+        <div class="subsection-title">{{ T "exchanges_otc_title" }}</div>
+        <div class="subsection-subtitle">{{ T "exchanges_otc_description" }}</div>
     </div>
 
     {{ range $otc }}
@@ -52,13 +51,10 @@
     </a>
     {{ end }}
 
-
     <div class="subsection-description w-clearfix">
-        <div class="subsection-title" translate>Decred Payment Processors</div>
-        <div class="subsection-subtitle" translate>Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms.</div>
+        <div class="subsection-title">{{ T "exchanges_payment_title" }}</div>
+        <div class="subsection-subtitle">{{ T "exchanges_payment_description" }}</div>
     </div>
-
-
 
     {{ range $payment_providers }}
     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card ex w-inline-block">

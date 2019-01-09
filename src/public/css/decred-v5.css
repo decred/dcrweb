@@ -260,8 +260,10 @@ body {
   background-color: #fff;
 }
 
-.below.brand {
+.below.subpage.brand {
   z-index: 2;
+  top: 100% !important;
+  margin-top: 0 !important;
 }
 
 .below.subpage {
@@ -2195,6 +2197,10 @@ body {
   margin-left: 2px;
   float: left;
   background-color: #0c1e3e;
+}
+
+.section-card-download-links-download-page > .separator:last-child {
+  display: none;
 }
 
 .nav-links-wrap {

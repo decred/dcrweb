@@ -2,24 +2,25 @@
 
 {{ define "content-top" }}
 <div class="team-data-balloon">
-    <div class="data-balloon-top">Corporate Contractor</div>
+    <div class="data-balloon-top">{{ T "contributors_corporate_contractor" }}</div>
     <div class="data-balloon-bottom"></div>
 </div>
 {{ end }}
-
 
 
 {{ define "main" }}
     <div class="full-width">
         <div class="_960">
             <div class="subpage-content-section">
-                <div class="subpage-description">{{ .Content }}</div>
+                <div class="subpage-description">{{ T "contributors_description"  }}</div>
                 <div class="subpage-content">
 
                     <div class="team-filter">
-                        {{ range .Params.teams }}
-                            <a href="#" data-filter="{{ .id }}" class="active team-filter-button w-button">{{ .name }}</a>
-                        {{ end }}
+                        <a href="#" data-filter="development" class="active team-filter-button w-button">{{ T "contributors_development" }}</a>
+                        <a href="#" data-filter="design" class="active team-filter-button w-button">{{ T "contributors_design" }}</a>
+                        <a href="#" data-filter="community" class="active team-filter-button w-button">{{ T "contributors_community" }}</a>
+                        <a href="#" data-filter="marketing" class="active team-filter-button w-button">{{ T "contributors_marketing" }}</a>
+                        <a href="#" data-filter="strategy" class="active team-filter-button w-button">{{ T "contributors_strategy" }}</a>
                     </div>
 
                     <div class="team-members w-clearfix hidden">

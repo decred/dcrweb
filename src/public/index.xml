@@ -1,14 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Autonomous Digital Currency on Decred </title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Autonomous Digital Currency on Decred </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Decred Developers</copyright>
+    <lastBuildDate>Thu, 20 Dec 2018 15:00:30 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Decred Releases Proposal for Decentralized Exchange (“DEX”) with Eye toward Disrupting Billion-Dollar Exchange Market</title>
+      <link>http://localhost:1313/press/2018-06-05_dex_proposal/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/press/2018-06-05_dex_proposal/</guid>
+      <description>Privacy, security, fewer barriers to entry and absence of unnecessary fees among the benefits of next phase of blockchain evolution
+ Chicago, IL June 5, 2018 —Decred (DCR), an autonomous digital currency with built-in governance, today released a formal proposal for a new kind of decentralized exchange. Known by its temporary working name “DEX,” the proposal suggests replacing the billion-dollar centralized cryptocurrency exchange market with a trustless peer-to-peer model.</description>
+    </item>
+    
+    <item>
+      <title>Decred Rocks Consensus 2018 with Updates to Acclaimed Blockchain Governance Platform – Booth #230, May 14-16, NYC</title>
+      <link>http://localhost:1313/press/2018-05-14_decred_rocks_consensus/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/press/2018-05-14_decred_rocks_consensus/</guid>
+      <description>Showcase to Include Latest Features for Lightning Network Integration, Atomic Swaps and Politeia, Decred’s Tool for Timestamping and Storing Data Off-Chain
+ Value of Decred (DCR) has increased XX% YTD, on the heels of new releases, MIT talk, endorsements from influential investors and profiles in leading trade outlets
+New York, NY May 14, 2018—Decred, an autonomous digital currency with smart governance, today showcases the latest updates to its acclaimed blockchain platform.</description>
+    </item>
+    
+    <item>
+      <title>Decred Adds First Intelligent Proposal System to Advance Blockchain Governance</title>
+      <link>http://localhost:1313/press/2017-10-26_decred_adds_support/</link>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/press/2017-10-26_decred_adds_support/</guid>
+      <description>System Powered by Politeia, a Standalone Tool for Storing Off-Chain Data That Is Both Versioned and Timestamped for Broader Use in Record Storage, Identity Systems, Supply Chains
+ _Chicago, IL October 26, 2017_—Decred, an autonomous digital currency, has launched the first intelligent blockchain proposal system. Powered by Politeia, a standalone tool for off-chain data storage, the system sets a new standard for blockchain governance, allowing anyone in the community to submit a formal proposal that will be timestamped and versioned in an off-chain repository.</description>
+    </item>
+    
+    <item>
+      <title>Decred Adds Support for Atomic Swaps</title>
+      <link>http://localhost:1313/press/2017-09-20_decred_adds_support/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/press/2017-09-20_decred_adds_support/</guid>
+      <description>Deployment Delivers on Hotly Anticipated Technology, Allowing for Direct, On-Chain Exchanges between Users of Decred, Bitcoin and Litecoin
+ _Chicago, IL September 20, 2017_—Decred, the cryptocurrency for the people, has become one of the first cryptocurrency projects to offer on-chain atomic swaps. With this announcement, Decred (DCR), Bitcoin (BTC) and Litecoin (LTC) users can now do direct over-the-counter (“OTC”) trades without third-party exchanges. This advancement disintermediates the exchange process, allowing for greater market fluency.</description>
+    </item>
+    
+    <item>
+      <title>Decred Integrates with Exodus to Offer Secure Transfer of Blockchain Assets</title>
+      <link>http://localhost:1313/press/2017-06-23_decred_integrates/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/press/2017-06-23_decred_integrates/</guid>
+      <description>Extension of the DCR and Exodus Networks Comes on the Heels of a Flurry of Other Upgrades from the Cryptocurrency Industry Stalwarts
+ _Chicago, IL June 23, 2017_—Decred (DCR), the cryptocurrency for the people by Bitcoin developers, today announced that it is supported by Exodus, the first desktop multi-asset wallet app that allows users to secure, manage, and exchange blockchain assets. With this partnership, Decred participants can enjoy complete and easy control of their currency.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/guide/</guid>
+      <description>This tour will help you get started with Decred     Overview    Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.
+For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience.
+ Continue Back        The Basics    There are three main ways to interact with Decred:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/mission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/mission/</guid>
+      <description>Mission  Autonomy is self-rule. Stakeholders make the rules. Since 2016, Decred has striven to solve blockchain governance. Our innovative consensus voting model empowers stakeholders and allows for the seamless transition from one set of rules to another. Decentralized decision-making and self-funding have enabled us to build a robust, evolving digital currency, free from third party influence.   JavaScript requiredWe&#39;re sorry, but this Website doesn&#39;t work properlywithout JavaScript enabled.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/platform/</guid>
+      <description>Platform  Features for the future. Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:
+ An innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) consensus voting system A censorship-resistant blockchain-anchored public proposal platform Smart contracts that work such as Lightning Network Cross-chain atomic swaps between different digital currencies Cross-platform wallets for ease of use    Consensus Voting Decred uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) system to give stakeholders decision-making power about the set of consensus rules to activate.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/politeia_notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/politeia_notice/</guid>
+      <description>Decred’s Proposal System is Live Politeia allows Decred users and stakeholders to propose, discuss, collaborate on, and fund new projects, initiatives, and consensus changes.
+ View Proposals</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/principles/</guid>
+      <description>Free and
+Open-Source Software All software developed as part of Decred shall be free and
+open source-software.  Incremental Privacy and Security Privacy and security technology shall be implemented on a continuing and incremental basis, both proactively and on-demand in response to attacks.  Free Speech and Consideration Everyone has the right to communicate opinions and ideas without fear of censorship. Consideration shall be given to all constructive speech that is based in fact and reason.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/quotes/</guid>
+      <description>“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.” — Joel Monégro &amp; Chris Burniske, Placeholder </description>
+    </item>
     
   </channel>
 </rss>

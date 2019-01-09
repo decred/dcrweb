@@ -1,0 +1,21 @@
+baseURL: https://decred.org/
+languageCode: en-us
+title: Decred 
+
+DefaultContentLanguage: en
+
+languages: 
+    en:
+        languageName: english
+        contentDir: content/en
+        weight: 10
+    de:
+        languageName: german
+        contentDir: content/de
+        weight: 30
+
+    pt:
+        languageName: português
+        contentDir: content/pt
+        weight: 30
+
