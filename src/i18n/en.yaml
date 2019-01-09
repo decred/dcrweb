@@ -11,6 +11,13 @@
   id: general_total
   translation: total
 
+-
+  id: general_javascript_warning
+  translation: JavaScript required
+
+-
+  id: general_javascript_warning_description
+  translation: We're sorry, but this Website doesn't work properly without JavaScript enabled.
 
 # exchanges section
 -
@@ -155,8 +162,81 @@
   id: contributors_description
   translation: Decred uses a novel contractor model which allows for proven contributors to be remunerated for their good work. This approach has helped forge a strong global team of developers, designers, and strategists, as well as a robust community. We welcome contributions from anyone who wishes to demonstrate their effort and skill in pursuit of the project's mission.
 
-# exchanges section
 
+#roadmap
+-
+  id: roadmap_tag_new
+  translation: New
+
+-
+  id: roadmap_tag_ongoing
+  translation: Ongoing
+
+-
+  id: roadmap_tag_completed
+  translation: Completed
+
+-
+  id: roadmap_moreinfo
+  translation: More Information
+
+-
+  id: roadmap_tag_subtitle
+  translation: Insight into our future, overview of the past
+
+-
+  id: roadmap_description
+  translation: Please note that our primary goal is to provide you with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change.
+
+# brand section
+
+-
+  id: brand_guide_0
+  translation: "Visual communication toolkit"
+-
+  id: brand_guide_1
+  translation: "Quick-use toolkit"
+-
+  id: brand_guide_2
+  translation: "Logo package"
+-
+  id: brand_guide_3
+  translation: "Download Logo Package"
+-
+  id: brand_guide_4
+  translation: "Primary Colors"
+-
+  id: brand_guide_5
+  translation: "Key blue"
+-
+  id: brand_guide_6
+  translation: Turquiose
+-
+  id: brand_guide_7
+  translation: "Dark Blue"
+-
+  id: brand_guide_8
+  translation: Typography
+-
+  id: brand_guide_9
+  translation: "Complimentary Colors"
+-
+  id: brand_guide_10
+  translation: "Light blue"
+-
+  id: brand_guide_11
+  translation: Green
+-
+  id: brand_guide_12
+  translation: Orange
+-
+  id: brand_guide_13
+  translation: "Decred’s visual identity objectives are to ensure unique representation amongst digital currencies, support consistent use across a variety of platforms as well as be memorable and engaging for onboarding new adopters. This is achieved through correct usage of the logo, type setting, color direction and graphic assets. We have developed simple style templates suitable for all users as well as for designers to produce more complex materials."
+-
+  id: brand_guide_14
+  translation: "View github/dcrdesign repo for design packages, guidelines and documentations"
+
+# exchanges section
 -
   id: exchanges_otc_title
   translation: Decred OTC Traders
@@ -207,6 +287,17 @@
   id: home_watch_video
   translation: Watch Video
 
+-
+  id: home_decrediton_for_macdl
+  translation: Decrediton for macOS
+
+-
+  id: home_decrediton_for_linuxdl
+  translation: Decrediton for Linux
+
+-
+  id: home_decrediton_for_windl
+  translation: Decrediton for Windows
 
 # politeia notice
 -
@@ -474,3 +565,81 @@
 -
   id: home_guide_41
   translation: Back
+
+
+# downloads section
+- id: downloads_description
+  translation: If you are new to Decred, be sure to read the <a href="../#guide">Getting Started Tour</a> or the <a href="../#platform">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a href="https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries">Binary Verification</a> steps to verify the checksums.
+
+
+
+- id: downloads_category_core
+  translation: Core software
+
+- id: downloads_category_mining_software
+  translation: Mining software
+
+
+- id: downloads_app_decrediton
+  translation: Graphical UI wallet for Windows, macOS and Linux
+
+- id: downloads_app_commandline
+  translation: A cross-platform, automatic installer/updater for the command-line applications.
+
+- id: downloads_app_gominer
+  translation: CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred team.
+
+- id: downloads_app_ccminer
+  translation: Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team.
+
+- id: downloads_app_sgminer
+  translation: Third party OpenCL miner for AMD GPUs. Not supported by the Decred team.
+
+- id: downloads_app_exodus
+  translation: Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets.
+
+- id: downloads_app_coinomi
+  translation: Securely store, manage and exchange Bitcoin, Ethereum, and more than 500 other blockchain assets.
+
+- id: downloads_app_bitbill
+  translation: Bitbill is a decentralized cryptocurrency wallet. You own your private keys.
+
+- id: downloads_app_anybit
+  translation: Anybit is a mobile wallet available for Android and iOS with built in price and news tracking.
+
+- id: downloads_app_atomicwallet
+  translation: Multi-asset desktop wallet with built in exchange via non-custodial atomic swaps and decentralized order book.
+
+- id: downloads_app_guarda
+  translation: Guarda is represented by Web, Desktop and Mobile multi-currency wallets.
+
+- id: downloads_app_cobo
+  translation: From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens
+
+# stakepools / Voting Service Providers
+
+- id: stakepools_description
+  translation: Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power.
+
+
+- id: stakepools_warning_1
+  translation: <span class="modalparagraphbold">Notice:</span>&nbsp;<span translate>Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider.
+
+- id: stakepools_warning_2
+  translation: <span class="modalparagraphbold">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes.
+
+# community section
+- id: community_description
+  translation: Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. The public channels on Matrix, Slack, and Discord have been bridged. You can choose any of these platforms and still participate in discussions with Decred community members on the others.
+
+# press section
+
+- id: press_description
+  translation: Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Below is a gallery of recent mentions.
+
+- id: press_coverage
+  translation: Coverage
+
+- id: press_releases
+  translation: Releases
+

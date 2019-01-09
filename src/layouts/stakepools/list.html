@@ -4,22 +4,22 @@
     <div class="full-width">
         <div class="_960">
             <div class="subpage-content-section">
-                <div class="subpage-description">{{ .Content }}
+                <div class="subpage-description">{{ T "stakepools_description"  }}
                     <noscript>
                         <div>
-                            {{ range .Params.noscript_pools }}
-                            <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a><br/>
+                            {{ range .Site.Data.stakepools.stakepools }}
+                                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a><br/>
                             {{ end }}
                         </div>
-                        <div class="section-title-text">JavaScript required</div>
-                        <div class="mission-copy">We're sorry, but this Website doesn't work properly<br/>without JavaScript enabled.</div>
+                        <div class="section-title-text">{{ T "general_javascript_warning" }}</div>
+                        <div class="mission-copy">{{ T "general_javascript_warning_description" }}</div>
                     </noscript>
                 </div>
 
                 <div class="subpage-content w-clearfix">
                     <div id="stakepool-data" class="stakepool-data"></div>
-                    <div class="modalparagraph left" >{{ safeHTML .Params.warning_copy.left }}</div>
-                    <div class="modalparagraph right">{{ safeHTML .Params.warning_copy.right }}</div>
+                    <div class="modalparagraph left" >{{ safeHTML (T "stakepools_warning_1") }}</div>
+                    <div class="modalparagraph right">{{ safeHTML (T "stakepools_warning_2") }}</div>
                 </div>
             </div>
         </div>

@@ -35,7 +35,8 @@
                                 <span>{{ T "home_download_wallet" }}</span>
                             </a>
                             <div class="button os-specific {{ .platform }}">
-                                <span translate>Decrediton for {{ .title }}</span>
+                                {{ $msg_id := print "home_decrediton_for_" .platform }}
+                                <span>{{ T $msg_id  }}</span>
                             </div>
                         {{ end }}
 
@@ -96,7 +97,7 @@
 
         <div class="guide" id="guide">
             <div class="centerblock width940">
-                {{ partial "home/guide_conv.html" . }}
+                {{ partial "home/guide.html" . }}
             </div>
         </div>
 

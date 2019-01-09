@@ -1,34 +1,40 @@
 
 
 {{ define "main" }}
+
+    {{ $items := .Site.Data.roadmap }}
+
     <div class="full-width">
         <div class="_960">
             <div class="subpage-content-section ex roadmap-container">
                 <div class="subpage-content-header">
-                    <div class="subpage-description ex">{{ .Content }}</div>
+                    <div class="subpage-description ex">
+                        <div class="text-block-5">{{ T "roadmap_tag_subtitle" }}</div>
+                        {{ T "roadmap_description" }}
+                    </div>
                     <div class="subpage-content-header-footer">
                         <div class="roadmap__filter-legend">
-                            {{ range .Params.filters }}
-                                <p data-group="{{ .id }}" class="roadmap__filter-legend-item {{ .id }} {{ if eq .is_checked true }}is-checked{{ end }}">0</p>
-                            {{ end }}
+                            <p data-group="new" class="roadmap__filter-legend-item new is-checked">0</p>
+                            <p data-group="ongoing" class="roadmap__filter-legend-item ongoing">0</p>
+                            <p data-group="completed" class="roadmap__filter-legend-item completed">0</p>
                         </div>
                         <div class="ex-filter roadmap__filter">
-                            {{ range .Params.filters }}
-                                <a href="#" data-group="{{ .id }}" class="filter-button {{ .id }} w-button {{ if eq .is_checked true }}is-checked{{ end }}"><span>{{ .name }}</span></a>
-                            {{ end }}
+                            <a href="#" data-group="new" class="filter-button new w-button is-checked"><span>{{ T "roadmap_tag_new" }}</span></a>
+                            <a href="#" data-group="ongoing" class="filter-button new w-button"><span>{{ T "roadmap_tag_ongoing" }}</span></a>
+                            <a href="#" data-group="completed" class="filter-button new w-button"><span>{{ T "roadmap_tag_completed" }}</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="subpage-content roadmap">
                     <div class="filter-cards-wrap filter-cards-wrap--roadmap w-clearfix">
-                        {{ range .Params.items }}
+                        {{ range $items }}
                         <div data-groups="[&quot;{{ .tags }}&quot;]" class="filter-card filter-{{ .tags }} w-inline-block">
                             <div class="filter-card-footer w-clearfix">
                                 <img src="/images/{{ .image }}" class="roadmap__image">
                                 <p class="roadmap__card-title">{{ .title }}</p>
                                 <p class="roadmap__addition-date">{{ .date }}</p>
                                 <p class="roadmap__description">{{ .description }}</p>
-                                <a class="roadmap__more-link" href="{{ .link }}">More Information →</a>
+                                <a class="roadmap__more-link" href="{{ .link }}">{{ T "roadmap_moreinfo" }} →</a>
                             </div>
                         </div>
                         {{ end }}

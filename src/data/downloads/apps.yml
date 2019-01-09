@@ -1,0 +1,76 @@
+- category: core
+  apps:
+    - name: Decrediton
+      id: decrediton
+      is_third_party: false
+    - name: Command-line app suite
+      id: commandline
+      is_third_party: false
+
+- category: mining_software
+  apps:
+    - name: gominer
+      id: gominer
+      is_third_party: false
+      links:
+        - title: gominer releases
+          url: https://github.com/decred/decred-binaries/releases/tag/v1.0.0_gominer
+
+    - name: ccminer
+      id: ccminer
+      is_third_party: true
+      links:
+        - title: ccminer releases
+          url: https://github.com/tpruvot/ccminer/releases
+
+    - name: sgminer
+      id: sgminer
+      links:
+        - title: sgminer releases
+          url: https://github.com/tpruvot/sgminer/releases
+
+- category: 3rd party wallets
+  apps:
+    - name: Exodus
+      id: exodus
+      links:
+        - title: Exodus releases
+          url: https://www.exodus.io/releases/
+
+    - name: Coinomi
+      id: coinomi
+      links:
+        - title: Coinomi releases
+          url: https://www.coinomi.com/downloads/
+
+    - name: Bitbill
+      id: bitbill
+      links:
+        - title: Bitbill releases
+          url: https://www.bitbill.com/en/
+
+    - name: AnyBit
+      id: anybit
+      links:
+        - title: AnyBit releases
+          url: https://www.anybit.io/
+
+    - name: Atomic
+      id: atomicwallet
+      links:
+        - title: Atomic Wallet releases
+          url: https://atomicwallet.io/
+
+    - name: Guarda
+      id: guarda
+      links:
+        - title: Guarda releases
+          url: https://guarda.co/
+
+    - name: Cobo
+      id: cobo
+      links:
+        - title: Cobo releases
+          url: https://cobo.com
+
+

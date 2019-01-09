@@ -3,10 +3,10 @@
 {{ define "main" }}
     <div class="full-width">
         <div class="_960">
-            <div class="subpage-description">Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Below is a gallery of recent mentions.</div>
+            <div class="subpage-description">{{ T "press_description" }}</div>
             <div class="subpage__toggle">
-                <a data-toggle="press__coverage" class="active">Coverage</a>
-                <a data-toggle="press__releases">Releases</a>
+                <a data-toggle="press__coverage" class="active">{{ T "press_coverage" }}</a>
+                <a data-toggle="press__releases">{{ T "press_releases" }}</a>
             </div>
         </div>
     </div>
@@ -15,11 +15,11 @@
         <div class="_960">
             <div class="subpage-content-section toggleable">
                 <div class="press press__coverage subpage-content w-clearfix active">
-                    {{ partial "press-coverage-list" . }}
+                    {{ partial "press/coverage-list" . }}
                 </div>
 
                 <div class="press press__releases subpage-content w-clearfix">
-                    {{ partial "press-release-list" . }}
+                    {{ partial "press/release-list" . }}
                 </div>
             </div>
         </div>
