@@ -290,11 +290,11 @@ $(document).ready(function () {
 
 	// language menu
 	// when loaded add data-language to langCurrent
-	langSelection.each( function() {
-		if ($(this).text().toUpperCase() === langCurrent.text().toUpperCase()) {
-			langCurrent.attr('data-language', $(this).attr('data-language'));
-		}
-	});
+	// langSelection.each( function() {
+	// 	if ($(this).text().toUpperCase() === langCurrent.text().toUpperCase()) {
+	// 		langCurrent.attr('data-language', $(this).attr('data-language'));
+	// 	}
+	// });
 	langCurrent.add(langSelect).add(langSelection).on('change click', function () {
 		langMenu.toggleClass('active');
 

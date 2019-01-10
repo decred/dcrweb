@@ -1,24 +1,8 @@
 <div class="lang-menu w-clearfix">
-    <div class="lang-current">Lang</div>
+    <div class="lang-current">{{ .Site.Language }}</div>
     <div class="lang-select" id="language-selector">
-
-        <ul>
-            {{ range .Translations }}
-            <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
-            {{ end }}
-        </ul>
-
-        <div class="lang-selection" data-language="en">ENG</div>
-        <div class="lang-selection" data-language="zh">中文</div>
-        <div class="lang-selection" data-language="ko">한국어‎‎</div>
-        <div class="lang-selection" data-language="ja">日本語</div>
-        <div class="lang-selection" data-language="pt">POR</div>
-        <div class="lang-selection" data-language="ru">RUS</div>
-        <div class="lang-selection" data-language="tr">TUR</div>
-        <div class="lang-selection" data-language="fa">فارسی</div>
-        <div class="lang-selection" data-language="ar">العَرَبِيَّة‎‎</div>
-        <div class="lang-selection" data-language="es">SPA</div>
-        <div class="lang-selection" data-language="de">GER</div>
-        <div class="lang-selection" data-language="pl">POL</div>
+        {{ range $.Site.Home.AllTranslations }}
+        <div class="lang-selection"><a href="{{ .Permalink }}" data-language="{{ .Lang }}">{{ .Language.LanguageName }}</a></div>
+        {{ end }}
     </div>
 </div>

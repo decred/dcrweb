@@ -2439,7 +2439,7 @@ body {
   float: left;
 }
 
-.lang-selection {
+.lang-select .lang-selection {
   width: 100%;
   height: 25px;
   padding-top: 7px;
@@ -2448,7 +2448,12 @@ body {
   line-height: 11px;
 }
 
-.lang-selection:hover {
+.lang-select .lang-selection a {
+    text-decoration: none;
+    color: #666;
+}
+
+.lang-select .lang-selection a:hover {
   color: #2970ff;
 }
 

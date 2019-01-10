@@ -1,21 +1,56 @@
 baseURL: https://decred.org/
 languageCode: en-us
-title: Decred 
+title: Decred
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
-DefaultContentLanguage: en
 
 languages: 
     en:
-        languageName: english
         contentDir: content/en
         weight: 10
-    de:
-        languageName: german
-        contentDir: content/de
+        languageName: ENG
+    zh:
+        languageName: 中文
+        contentDir: content/zh
+        weight: 20
+    ko:
+        languageName: 한국어
+        contentDir: content/ko
         weight: 30
-
+    ja:
+        languageName: 日本語
+        contentDir: content/ja
+        weight: 40
     pt:
-        languageName: português
+        languageName: POR
         contentDir: content/pt
-        weight: 30
-
+        weight: 50
+    ru:
+        languageName: RUS
+        contentDir: content/ru
+        weight: 60
+    tr:
+        languageName: TUR
+        contentDir: content/tr
+        weight: 70
+    fa:
+        languageName: فارسی
+        contentDir: content/fa
+        weight: 80
+    ar:
+        languageName: العَرَبِيَّة
+        contentDir: content/ar
+        weight: 90
+    es:
+        languageName: SPA
+        contentDir: content/es
+        weight: 100
+    de:
+        languageName: GER
+        contentDir: content/de
+        weight: 110
+    pl:
+        languageName: POL
+        contentDir: content/pl
+        weight: 120
