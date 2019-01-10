@@ -29,11 +29,11 @@
   },
   {
     "id": "title",
-    "translation": "Decred - Autonomous Digital Currency"
+    "translation": "Decred – Autonome digitale Währung"
   },
   {
     "id": "description",
-    "translation": "Decred is an autonomous digital currency. With a hybrid consensus system, it is built to be a decentralized, sustainable, and self-ruling currency where stakeholders make the rules."
+    "translation": "Decred ist eine autonome digitale Währung. Mit einem hybriden Konsenssystem ist es als dezentralisierte, nachhaltige und selbstbestimmte Währung gestaltet, bei der die Stakeholder die Regeln bestimmen."
   },
   {
     "id": "general_copyright",
@@ -41,15 +41,15 @@
   },
   {
     "id": "nav_brand_resources",
-    "translation": "Brand Resources"
+    "translation": "Markenressourcen"
   },
   {
     "id": "nav_in_the_press",
-    "translation": "Decred in the Press"
+    "translation": "Decred in den Medien"
   },
   {
     "id": "nav_become_contributor",
-    "translation": "Become a Contributor"
+    "translation": "Werden Sie ein Mitwirkender"
   },
   {
     "id": "nav_tech_overview",
@@ -57,7 +57,7 @@
   },
   {
     "id": "nav_business_brief",
-    "translation": "Business Brief"
+    "translation": "Geschäftskonzept"
   },
   {
     "id": "nav_roadmap",
@@ -65,7 +65,7 @@
   },
   {
     "id": "nav_whatis",
-    "translation": "What is Decred"
+    "translation": "Was ist Decred?"
   },
   {
     "id": "nav_mission",
@@ -73,15 +73,15 @@
   },
   {
     "id": "nav_platform",
-    "translation": "Platform"
+    "translation": "Plattform"
   },
   {
     "id": "nav_getstarted",
-    "translation": "Starte"
+    "translation": "Legen Sie los"
   },
   {
     "id": "nav_interacting",
-    "translation": "Interacting with Decred"
+    "translation": "Interagieren mit Decred"
   },
   {
     "id": "nav_downloads",
@@ -113,7 +113,7 @@
   },
   {
     "id": "nav_contributors",
-    "translation": "Contributors"
+    "translation": "Mitwirkende"
   },
   {
     "id": "nav_exchanges",
@@ -125,7 +125,7 @@
   },
   {
     "id": "contributors_corporate_contractor",
-    "translation": "Corporate Contractor"
+    "translation": "Geschäftlicher Subunternehmer"
   },
   {
     "id": "contributors_development",
@@ -145,11 +145,11 @@
   },
   {
     "id": "contributors_strategy",
-    "translation": "Strategy"
+    "translation": "Strategie"
   },
   {
     "id": "contributors_description",
-    "translation": "Decred uses a novel contractor model which allows for proven contributors to be remunerated for their good work. This approach has helped forge a strong global team of developers, designers, and strategists, as well as a robust community. We welcome contributions from anyone who wishes to demonstrate their effort and skill in pursuit of the project's mission."
+    "translation": "Decred verwendet ein neuartiges Subunternehmermodell, in dem bewährte Subunternehmen für ihre gute Arbeit honoriert werden können. Dieser Ansatz hat dabei geholfen, ein starkes weltweites Team aus Entwicklern, Designern und Strategen einerseits und eine solide Community andererseits zu bilden. Wir begrüßen jeden Beitrag von Menschen, die der Mission dieses Projekts ihre Arbeit und Fähigkeiten zur Verfügung stellen möchten."
   },
   {
     "id": "roadmap_tag_new",
@@ -161,7 +161,7 @@
   },
   {
     "id": "roadmap_tag_completed",
-    "translation": "Completed"
+    "translation": "Fertig"
   },
   {
     "id": "roadmap_moreinfo",
@@ -197,11 +197,11 @@
   },
   {
     "id": "brand_guide_5",
-    "translation": "Key blue"
+    "translation": "Königsblau"
   },
   {
     "id": "brand_guide_6",
-    "translation": "Turquiose"
+    "translation": "Türkis"
   },
   {
     "id": "brand_guide_7",
@@ -229,7 +229,7 @@
   },
   {
     "id": "brand_guide_13",
-    "translation": "Decred’s visual identity objectives are to ensure unique representation amongst digital currencies, support consistent use across a variety of platforms as well as be memorable and engaging for onboarding new adopters. This is achieved through correct usage of the logo, type setting, color direction and graphic assets. We have developed simple style templates suitable for all users as well as for designers to produce more complex materials."
+    "translation": "Die Ziele von Decreds visuellen Identitäten sind die Repräsentation unter den digitalen Währungen, die Unterstützung von einheitlicher Verwendung über eine Vielzahl von Plattformen hinweg sowie Einsteigern ein einzigartiges und fesselndes Erlebnis zu bieten. Dies wird durch den korrekten Einsatz von Logo, Schriftsatz, Farbgebung und grafischen Elementen gewährleistet. Wir haben stilistisch einfach gehaltene Vorlagen entwickelt, die für sämtliche Nutzer und Entwickler gleichermaßen geeignet sind, um komplexere Materialien zu erzeugen."
   },
   {
     "id": "brand_guide_14",
@@ -265,11 +265,11 @@
   },
   {
     "id": "home_for_computer",
-    "translation": "Für Deine Computer"
+    "translation": "Für Ihren Computer"
   },
   {
     "id": "home_mainheading",
-    "translation": "Decred is an autonomous digital currency."
+    "translation": "Decred ist eine autonome digitale Währung."
   },
   {
     "id": "home_all_downloads",
@@ -277,7 +277,7 @@
   },
   {
     "id": "home_watch_video",
-    "translation": "Watch Video"
+    "translation": "Video ansehen"
   },
   {
     "id": "home_decrediton_for_macdl",
@@ -309,23 +309,23 @@
   },
   {
     "id": "home_mission_title_1",
-    "translation": "Autonomy is self-rule. Stakeholders make the rules."
+    "translation": "Autonomie ist Selbstbestimmung. Die Stakeholder machen die Regeln."
   },
   {
     "id": "home_mission_body_1",
-    "translation": "Since 2016, Decred has striven to solve blockchain governance. Our innovative consensus voting model empowers stakeholders and allows for the seamless transition from one set of rules to another. Decentralized decision-making and self-funding have enabled us to build a robust, evolving digital currency, free from third party influence."
+    "translation": "Seit 2016 arbeitet Decred an einer Lösung für Blockchain-Governance. Unser innovatives Konsensabstimmungsmodell bemächtigt die Stakeholder und ermöglicht einen nahtlosen Übergang von einem Regelwerk zu einem anderen. Dezentralisierte Entscheidungsfindung und Selbstfinanzierung haben es uns ermöglicht, eine robuste, sich entfaltende digitale Währung zu entwickeln, die völlig unabhängig vom Einfluss Dritter funktioniert."
   },
   {
     "id": "home_mission_title_2",
-    "translation": "Built from 100% proven open-source technology."
+    "translation": "Basiert auf 100% bewährter Open-Source-Technologie."
   },
   {
     "id": "home_mission_body_2",
-    "translation": "Our modular codebase offers unique adaptability and can scale to the latest blockchain technology. Decred’s technology enabled the world’s first successful direct on-chain user-activated consensus vote. This represents a revolutionary approach to stakeholder governance where our community directs the project and makes decisions together."
+    "translation": "Unsere modulare Codebasis bietet eine einzigartige Anpassungsfähigkeit und kann sich an die neueste Blockchain-Technologie anpassen. Die Technologie von Decred ermöglicht die weltweit erste erfolgreiche nutzeraktivierte Konsensabstimmung in der Chain. Dies stellt einen revolutionären Ansatz für Stakeholder-Governance dar, in dem unsere Community selbst das Projekt leitet und gemeinsam Entscheidungen fällt."
   },
   {
     "id": "home_mission_chart_1",
-    "translation": "of total"
+    "translation": "von insgesamt"
   },
   {
     "id": "home_mission_chart_2",
@@ -333,11 +333,11 @@
   },
   {
     "id": "home_mission_title_3",
-    "translation": "Empowering individuals, groups, and companies."
+    "translation": "Individuen, Gruppen und Unternehmen bemächtigen."
   },
   {
     "id": "home_mission_body_3",
-    "translation": "We are community-powered. Stakeholders who participate in Decred’s decision-making are rewarded for their efforts. Sustainable funding and a resilient contractor model allow for anyone to join Decred at any time and engage in its governance. Decred’s value is in the people who work on it - together we’re building the decentralized future we want to see."
+    "translation": "Unser Motor ist die Community. Stakeholder, die sich an Entscheidungsprozessen von Decred beteiligen, werden für ihre Mühen belohnt. Nachhaltige Finanzierung und ein robustes Subunternehmermodell ermöglichen es allen Interessierten, Decred jederzeit beizutreten und bei seiner Governance mitzuwirken. Der Wert von Decred liegt bei den Leuten, die daran arbeiten – gemeinsam bauen wir die dezentralisierte Zukunft, die wir möchten."
   },
   {
     "id": "home_quotes_quote",
@@ -345,11 +345,11 @@
   },
   {
     "id": "home_platform_platform",
-    "translation": "Platform"
+    "translation": "Plattform"
   },
   {
     "id": "home_platform_features",
-    "translation": "Features for the future."
+    "translation": "Features für die Zukunft."
   },
   {
     "id": "home_platform_built",
@@ -357,31 +357,31 @@
   },
   {
     "id": "home_platform_innovative",
-    "translation": "An innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) consensus voting system"
+    "translation": "Ein innovatives und hybrides, auf Proof-of-Work (PoW) und Proof-of-Stake (PoS) basierendes Konsens-Abstimmungssystem"
   },
   {
     "id": "home_platform_censorship",
-    "translation": "A censorship-resistant blockchain-anchored public proposal platform"
+    "translation": "Eine zensurfreie und in Blockchain-Technologie verankerte öffentliche Vorschlagsplattform"
   },
   {
     "id": "home_platform_smartcontract",
-    "translation": "Smart contracts that work such as Lightning Network"
+    "translation": "Intelligente Verträge, die funktionieren – wie zum Beispiel Lightning Network"
   },
   {
     "id": "home_platform_atomicswap",
-    "translation": "Cross-chain atomic swaps between different digital currencies"
+    "translation": "Chain-übergreifende Atomic Swaps zwischen unterschiedlichen digitalen Währungen"
   },
   {
     "id": "home_platform_wallets_ease",
-    "translation": "Cross-platform wallets for ease of use"
+    "translation": "Plattformübergreifende Wallets zur einfachen Handhabung"
   },
   {
     "id": "home_platform_consensus",
-    "translation": "Consensus Voting"
+    "translation": "Konsensabstimmung"
   },
   {
     "id": "home_platform_hybrid",
-    "translation": "Decred uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) system to give stakeholders decision-making power about the set of consensus rules to activate. This allows for a seamless transition from one set of rules to another while keeping the existing blockchain ecosystem intact."
+    "translation": "Decred verwendet ein innovatives hybrides, auf Proof-of-Work (PoW) und Proof-of-Stake (PoS) basierendes System, das Stakeholdern Entscheidungsgewalt über das zu aktivierende Konsensregelwerk gibt. Dies ermöglicht einen nahtlosen Übergang von einem Regelwerk zu einem anderen, während das bestehende Blockchain-Ökosystem weiterhin intakt bleibt."
   },
   {
     "id": "home_platform_swaps",
@@ -389,7 +389,7 @@
   },
   {
     "id": "home_platform_decent",
-    "translation": "Decred does not require reliance on centralized exchanges. With cross-chain atomic swaps between different digital currencies, users can conduct trustless over-the-counter (OTC) trades without a third party."
+    "translation": "Decred ist unabhängig von zentralisiertem Austausch. Mit chain-übergreifenden Atomic Swaps zwischen unterschiedlichen digitalen Währungen können Nutzer direkt gehandelte Geschäfte ohne vertrauenswürdige Dritte abwickeln."
   },
   {
     "id": "home_platform_politeia",
@@ -397,7 +397,7 @@
   },
   {
     "id": "home_platform_proposal",
-    "translation": "Decred uses a censorship-resistant blockchain-anchored public proposal platform, which empowers users to submit their own projects for self-funding from DCR’s block subsidy. Politeia (Pi) ensures the ecosystem remains sustainable and thrives."
+    "translation": "Decred verwendet eine zensurfreie und in Blockchain-Technologie verankerte öffentliche Vorschlagsplattform, durch die Nutzer ihre eigenen Projekte zur Selbstfinanzierung aus DCR Block-Geldern einreichen können. Politeia (Pi) gewährleistet, dass das Ökosystem nachhaltig bleibt und gedeiht."
   },
   {
     "id": "home_platform_lightning",
@@ -405,75 +405,75 @@
   },
   {
     "id": "home_platform_ln_contracts",
-    "translation": "Decred implements smart contracts that work. Lightning Network (LN) is one such application of a low-latency off-chain system that allows for near-instant micropayments in DCR. With LN, Decred directly competes with existing fiat payment systems."
+    "translation": "Decred arbeitet mit intelligenten Verträgen, die funktionieren. Lightning Network (LN) ist eine dieser Anwendungen eines chain-unabhängigen Systems mit geringer Latenzzeit, die nahezu augenblickliche Kleinbetragzahlungen in DCR ermöglichen. Dank LN stellt Decred eine direkte Konkurrenz für bestehende Fiat-Zahlsysteme dar."
   },
   {
     "id": "home_platform_wallets",
-    "translation": "Cross-platform Wallets"
+    "translation": "Plattformübergreifende Wallets"
   },
   {
     "id": "home_platform_accessible",
-    "translation": "Decred features accessible wallets through graphical user interfaces (GUIs) across all major operating systems (Windows, macOS, and Linux). For more technical users, command line interface (CLI) wallets are also available."
+    "translation": "Decred bietet einfach bedienbare Wallets mit grafischen Benutzeroberflächen (GUIs) für alle wichtigen Betriebssysteme (Windows, macOS und Linux). Für technisch versiertere Nutzer sind auch Wallets mit Kommandozeilenschnittstelle (CLI) erhältlich."
   },
   {
     "id": "home_platform_soon",
-    "translation": "Soon™"
+    "translation": "Bald™"
   },
   {
     "id": "home_platform_active",
-    "translation": "Decred enjoys active development. Current milestones include a full stakeholder-directed decentralized autonomous organization (DAO) and enhanced user privacy."
+    "translation": "Decred fördert aktive Entwicklung. Derzeitige Meilensteine sind beispielsweise eine vollständig Stakeholder-gerichtete dezentralisierte autonome Organisation (DAO) und erweiterter Datenschutz für Nutzer."
   },
   {
     "id": "home_principles_oss",
-    "translation": "Free and Open-Source Software"
+    "translation": "Kostenlose<br>Open-Source-Software"
   },
   {
     "id": "home_principles_free",
-    "translation": "All software developed as part of Decred shall be free and open source-software."
+    "translation": "Jegliche Software, die im Rahmen von Decred entwickelt wird, ist kostenlose<br>Open-Source-Software."
   },
   {
     "id": "home_principles_incremental",
-    "translation": "Incremental Privacy and Security"
+    "translation": "Inkrementeller Datenschutz und Sicherheit"
   },
   {
     "id": "home_principles_privacy",
-    "translation": "Privacy and security technology shall be implemented on a continuing and incremental basis, both proactively and on-demand in response to attacks."
+    "translation": "Technologie für Datenschutz und Sicherheit wird fortlaufend und stufenweise eingeführt, sowohl als vorbeugende Maßnahme als auch im Bedarfsfall als Reaktion auf konkrete Angriffe."
   },
   {
     "id": "home_principles_speech",
-    "translation": "Free Speech and Consideration"
+    "translation": "Redefreiheit und Rücksicht"
   },
   {
     "id": "home_principles_everyone",
-    "translation": "Everyone has the right to communicate opinions and ideas without fear of censorship. Consideration shall be given to all constructive speech that is based in fact and reason."
+    "translation": "Alle haben das Recht, Meinungen und Ideen auszutauschen, ohne Zensur fürchten zu müssen. Alle konstruktiven Äußerungen, die auf Tatsachen und Vernunft fußen, finden Berücksichtigung."
   },
   {
     "id": "home_principles_multi_stakeholder",
-    "translation": "Multi-Stakeholder Inclusivity"
+    "translation": "Multi-Stakeholder-Inklusivität"
   },
   {
     "id": "home_principles_inclusivity",
-    "translation": "Inclusivity represents a multi-stakeholder system and an active effort shall be maintained to include a diverse set of views and users."
+    "translation": "Inklusivität steht für ein Multi-Stakeholder-System, in dem die Berücksichtigung von vielfältigen Ansichten und Nutzern aktiv unterstützt wird."
   },
   {
     "id": "home_principles_bound",
-    "translation": "We’re bound by the following guiding principles."
+    "translation": "Wir sehen uns den folgenden Richtlinien verpflichtet."
   },
   {
     "id": "home_principles_equitable",
-    "translation": "These principles have been established in an effort to create an equitable and sustainable framework within which to achieve Decred's goal to be an autonomous and decentralized currency where all stakeholders have a real voice."
+    "translation": "Diese Prinzipien wurden festgelegt, um einen gerechten und nachhaltigen Rahmen zu etablieren, in dem Decreds Ziel, eine autonome und dezentralisierte Währung zu erschaffen, bei der alle Stakeholder tatsächlich über Mitspracherecht verfügen, verwirklicht werden kann."
   },
   {
     "id": "home_guide_0",
-    "translation": "This tour will help you get started with Decred"
+    "translation": "Diese Tour hilft Ihnen dabei, mit Decred loszulegen."
   },
   {
     "id": "home_guide_1",
-    "translation": "Overview"
+    "translation": "Übersicht"
   },
   {
     "id": "home_guide_2",
-    "translation": "Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks."
+    "translation": "Decred ist eine plattformübergreifende digitale Währung und unterstützt sowohl Windows als auch macOS und Linux. Einfach zu bedienende Wallet-Apps ermöglichen Senden, Erhalten und Decred-Mining mit nur wenigen Klicks."
   },
   {
     "id": "home_guide_3",
@@ -481,31 +481,31 @@
   },
   {
     "id": "home_guide_4",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_5",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_6",
-    "translation": "The Basics"
+    "translation": "Die Grundlagen"
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>There are three main ways to interact with Decred:</p><p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p><p><strong>Proof-of-work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p><p><strong>Proof-of-stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
+    "translation": "<p>Die drei wichtigsten Möglichkeiten, mit Decred zu interagieren, sind:</p>\n\t\t<p><strong>Die Wallet</strong> – Für das Senden und Erhalten von Geldbeträgen sowie die Teilnahme an PoS-Mining.</p>\n\t\t<p><strong>Proof-of-Work-Mining</strong> – Mithilfe von Rechenleistung Transaktionen im Netzwerk validieren und neue Decred-Tokens generieren.</p>\n\t\t<p><strong>Proof-of-Stake-Mining</strong> – Mittel einsetzen, um über wichtige Netzwerkentwicklungsangelegenheiten abzustimmen und Transaktionen gegen Belohnung zu validieren.</p>"
   },
   {
     "id": "home_guide_8",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_9",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_10",
-    "translation": "The Wallet"
+    "translation": "Die Wallets"
   },
   {
     "id": "home_guide_11",
@@ -513,27 +513,27 @@
   },
   {
     "id": "home_guide_12",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_13",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_14",
-    "translation": "Send and Receive Decred"
+    "translation": "Decred senden und empfangen"
   },
   {
     "id": "home_guide_15",
-    "translation": "<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\" rel=\"noopener noreferrer\">begin with D and contain 26-36 alphanumeric characters</a>.</p><p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. That is, a transfer of 100DCR would incur a fee of about 0.006DCR.</p><p>The block explorers <a href=\"https://mainnet.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">mainnet.decred.org</a> and <a href=\"https://explorer.dcrdata.org\" target=\"_blank\" rel=\"noopener noreferrer\">explorer.dcrdata.org</a> allow users to search all the blocks and transactions in the Decred blockchain.</p>"
+    "translation": "<p>Das einzige, was erforderlich ist, um Geld senden oder empfangen zu können, ist eine Adresse. Diese kann ganz einfach aus jeder Decred-Wallet heraus generiert werden. Decred-Adressen beginnen immer <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">mit einem D und enthalten 26-36 alphanumerische Zeichen</a>.</p>\n\t\t<p>Nach der Durchführung einer Transaktion wird das Geld normalerweise nach ca. 5 Minuten übertragen. Dabei fällt eine kleine Gebühr zur Instandhaltung des Netzwerks an. Diese Gebühr wird zusätzlich zum Transaktionsbetrag verrechnet, so entsteht bei einer Überweisung von 100 DCR beispielsweise eine Gebühr von 0,006 DCR.</p>\n\t\t<p>Die Block-Explorer <a href=\"https://mainnet.decred.org\" target=\"_blank\">mainnet.decred.org</a> und <a href=\"https://explorer.dcrdata.org\" target=\"_blank\">explorer.dcrdata.org</a> ermöglichen es Nutzern, alle Blocks und Transaktionen in der Decred-Blockchain zu durchsuchen.</p>"
   },
   {
     "id": "home_guide_16",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_17",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_18",
@@ -541,95 +541,95 @@
   },
   {
     "id": "home_guide_19",
-    "translation": "<p>The term mining represents the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred coins.</p><p>Decred has two methods of validating transactions: Proof-of-work (PoW) and Proof-of-stake (PoS).</p>"
+    "translation": "<p>Der Begriff „Mining“ bezeichnet den Prozess der Validierung und Sicherung von Transaktionen im Decred-Netzwerk. Als Gegenleistung für die Arbeit werden die Miner mit neu erzeugten Decred-Token belohnt.</p>\n\t\t<p>Decred verwendet zwei Methoden zur Validierung von Transaktionen: Proof-of-Work (PoW) und Proof-of-Stake (PoS).</p>"
   },
   {
     "id": "home_guide_20",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_21",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_22",
-    "translation": "Proof-of-work Mining"
+    "translation": "Proof-of-Work-Mining"
   },
   {
     "id": "home_guide_23",
-    "translation": "<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\" rel=\"noopener noreferrer\">Proof-of-work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p><p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p><p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
+    "translation": "<p>Bei <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work (PoW)</a> werden Transaktionen in Gruppen von Blöcken eingeteilt. Diese Blöcke werden von PoW-Minern validiert. Sobald ein Block validiert ist, wird dieser ein fixer Bestandteil es Decred-Netzwerks.</p>\n\t\t<p>Sie können ein Miner werden, indem Sie dem Netzwerk überschüssige Rechenleistung zur Verfügung stellen. Im Gegenzug werden Miner mit Decred belohnt.</p>\n\t\t<p>Zur Steigerung von Effizienz und Praktikabilität können Sie sogenannten <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">Mining Pools</a> beitreten. Die Pools sind Gruppen von Minern, die sich sowohl die Arbeit als auch die Belohnung teilen. Der Beitritt zu einem Mining Pool ist für kleinere Mitwirkende eine hervorragende Möglichkeit, konstante Auszahlungen für ihre Arbeit zu erhalten.</p>"
   },
   {
     "id": "home_guide_24",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_25",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_26",
-    "translation": "Proof-of-stake Mining"
+    "translation": "Proof-of-Stake-Mining"
   },
   {
     "id": "home_guide_27",
-    "translation": "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\" rel=\"noopener noreferrer\">Proof-of-stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. In every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p><p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\" rel=\"noopener noreferrer\">Pools - called Voting Service Providers (VSPs) - are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+    "translation": "<p>Anders als bei PoW ist für <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-Stake-Mining (PoS)</a> nur wenig Rechenleistung erforderlich. Decred-Mittel werden verwendet, um Abstimmungstickets im Netzwerk zu erwerben. In jedem Block werden willkürlich fünf Tickets aus dem Pool von Live-Tickets gewählt, um über die Gültigkeit des vorherigen Blocks abzustimmen. </p>\n\t\t<p>PoS erweitert Decred um eine zusätzliche Dezentralisierungsebene und ermöglicht es Nutzern, über vorgeschlagene Netzwerkänderungen abzustimmen. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Pools sind auch für PoS verfügbar</a> – dadurch wird sichergestellt, dass Ihre Tickets zur Abstimmung bereitstehen, sobald sie ausgewählt werden.</p>"
   },
   {
     "id": "home_guide_28",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_29",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_30",
-    "translation": "Buying and Trading Decred"
+    "translation": "Decred erwerben und tauschen"
   },
   {
     "id": "home_guide_31",
-    "translation": "<p>Decred is still new, and at this time, the easiest way to purchase it is with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\" rel=\"noopener noreferrer\">Once you have some Bitcoin</a>, it can be traded for Decred <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\" rel=\"noopener noreferrer\">at digital currency exchanges</a>.</p>"
+    "translation": "<p>Decred ist noch neu, und der einfachste Weg, es zu erwerben, ist derzeit mit Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\">Sobald Sie über etwas Bitcoin verfügen</a>, können Sie diese Währung <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\">bei digitalen Wechselbörsen</a> gegen Decred eintauschen.</p>"
   },
   {
     "id": "home_guide_32",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_33",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_34",
-    "translation": "Join the Community"
+    "translation": "Treten Sie der Community bei"
   },
   {
     "id": "home_guide_35",
-    "translation": "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.We can't wait to meet you!</p>"
+    "translation": "<p>Mithilfe von dezentralisierten Prozessen können Menschen mit verschiedenen Ideen, Zielen und Meinungen die Zukunft gestalten. Sie werden bestimmt die eine oder andere Frage haben – treten Sie also unserer wachsenden Community bei und schließen Sie sich mit Entwicklern und anderen Nutzern kurz, um Informationen zu erhalten, Fragen zu stellen oder einfach nur Kontakte zu knüpfen. Wir bieten ein <a href=\"https://forum.decred.org\" title=\"_blank\">Benutzerforum</a>, einen <a href=\"https://webchat.freenode.net/?channels=decred&uio=d4\" title=\"_blank\">IRC-Kanal</a>, einen <a href=\"https://t.me/Decred\" title=\"_blank\">Telegram-Kanal</a> und einen <a href=\"https://slack.decred.org\" title=\"_blank\">Slack-Kanal</a>, wo Sie mit Entwicklern und anderen Nutzern in Echtzeit chatten können. Vergessen Sie nicht auf <a href=\"https://twitter.com/decredproject\" title=\"_blank\">Twitter</a> und <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\">Reddit</a>.\nWir freuen uns schon darauf, Sie kennenzulernen!</p>"
   },
   {
     "id": "home_guide_36",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_37",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "home_guide_38",
-    "translation": "Planned Features"
+    "translation": "Geplante Features"
   },
   {
     "id": "home_guide_39",
-    "translation": "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2018 and early 2019:</p><ul><li>Lightning network</li><li>Initial privacy release</li><li>Decentralized control of funds</li><li>Decentralized autonomous entities</li><li>Scalability optimizations</li><li>Decrediton integrations</li><li>Marketing growth</li><li>Proposal for a Decentralized Exchange</li></ul><p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+    "translation": "<p>Ein Teil der Belohnung von neuen Blocks wird in die Entwicklung von Decred investiert, um zu gewährleisten, dass es sich kontinuierlich weiterentwickelt und so die Bedürfnisse und Anforderungen der Community sowohl jetzt als auch in Zukunft erfüllt. Dies sind nur einige der für 2017 geplanten Features:</p>\n\t\t<ul>\n\t\t<li translate=\"\">Hard-Fork-Abstimmung</li>\n                <li>Eine Stakeholder-gerichtete DAO</li>\n                <li>Dezentralisierte Kontrolle der Entwicklungsgelder</li>\n                <li>Unterstützung von Lightning Network</li>\n                <li>Kontinuierliche Entwicklung von UI und Design</li>\n                <li>Erweiterter Datenschutz</li>\n                <li>Zahlungsintegration</li>\n\t\t</ul>\n\t\t<p>Lesen Sie mehr über diese und weitere Features in unserem Blog. <a href=\"https://blog.decred.org\" target=\"_blank\">Willkommen bei Decred: die Zukunft autonomer digitaler Währung</a></p>"
   },
   {
     "id": "home_guide_40",
-    "translation": "Continue"
+    "translation": "Weiter"
   },
   {
     "id": "home_guide_41",
-    "translation": "Back"
+    "translation": "Zurück"
   },
   {
     "id": "downloads_description",
@@ -645,27 +645,27 @@
   },
   {
     "id": "downloads_app_decrediton",
-    "translation": "Graphical UI wallet for Windows, macOS and Linux"
+    "translation": "GUI-Wallet für Windows, macOS und Linux."
   },
   {
     "id": "downloads_app_commandline",
-    "translation": "A cross-platform, automatic installer/updater for the command-line applications."
+    "translation": "Ein plattformübergreifendes automatisches Installations-/Updateprogramm für Kommandozeilen-Anwendungen."
   },
   {
     "id": "downloads_app_gominer",
-    "translation": "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred team."
+    "translation": "CUDA/OpenCL-Miner für AMD/NVIDIA GPUs. Offiziell unterstützt vom Decred-Team."
   },
   {
     "id": "downloads_app_ccminer",
-    "translation": "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
+    "translation": "CUDA-Miner von Drittanbietern für NVIDIA GPUs. Nicht unterstützt vom Decred-Team."
   },
   {
     "id": "downloads_app_sgminer",
-    "translation": "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
+    "translation": "OpenCL-Miner von Drittanbietern für AMD GPUs. Nicht unterstützt vom Decred Team."
   },
   {
     "id": "downloads_app_exodus",
-    "translation": "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets."
+    "translation": "Exodus ist eine nutzerfreundliche All-in-One-Anwendung zum Sichern, Verwalten und Austauschen von Blockchain-Assets."
   },
   {
     "id": "downloads_app_coinomi",
@@ -709,7 +709,7 @@
   },
   {
     "id": "press_description",
-    "translation": "Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Below is a gallery of recent mentions."
+    "translation": "Decred wurde von der Chicago Tribune, vom Bitcoin Magazine und von Nasdaq zu einem führenden Kryptowährungsprojekt gekürt. Unten finden Sie eine Galerie der neuesten Meldungen."
   },
   {
     "id": "press_coverage",
