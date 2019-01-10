@@ -266,6 +266,10 @@ body {
   margin-top: 0 !important;
 }
 
+.below.subpage.brief {
+  overflow: visible;
+}
+
 .below.subpage {
   top: 0%;
   margin-top: 345px;
@@ -7210,7 +7214,7 @@ body {
 .get-into__content .external {
   width: 16px;
   height: 16px;
-  background-image: url(/content/images/external.svg);
+  background-image: url(/images/external.svg);
 }
 .get-into__content:hover {
   cursor: pointer;
@@ -7219,7 +7223,7 @@ body {
   text-decoration: underline;
 }
 .get-into__content:hover .external {
-  background-image: url(/content/images/externalHover.svg);
+  background-image: url(/images/externalHover.svg);
 }
 .get-into__content.first {
   min-height: 358px;
@@ -7314,24 +7318,24 @@ p.get-into__link {
   cursor: pointer;
 }
 .prev-section {
-  background-image: url(/content/images/upArrow.svg);
+  background-image: url(/images/upArrow.svg);
   width: 20px;
   height: 20px;
   display: inline-block;
   transition: 0.25s;
 }
 .prev-section:hover {
-  background-image: url(/content/images/upArrowHover.svg);
+  background-image: url(/images/upArrowHover.svg);
 }
 .next-section {
-  background-image: url(/content/images/downArrow.svg);
+  background-image: url(/images/downArrow.svg);
   width: 20px;
   height: 20px;
   display: inline-block;
   transition: 0.25s;
 }
 .next-section:hover {
-  background-image: url(/content/images/downArrowHover.svg);
+  background-image: url(/images/downArrowHover.svg);
 }
 .overflow {
   overflow: visible;
