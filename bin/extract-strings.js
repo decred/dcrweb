@@ -2,9 +2,9 @@ var strings=[];
 
 var idx=0;
 
-$("#guide [translate]").each(
+$("[translate]").each(
     function(){
-        var id="home_guide_"+idx++;
+        var id="brand_guide_"+idx++;
         strings.push({
             id: id,
             translation: this.innerHTML
