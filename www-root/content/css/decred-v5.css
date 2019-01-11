@@ -6437,13 +6437,14 @@ body {
 .video-header {
   position: relative;
   background-color: #0a1741;
+  overflow: hidden;
 }
 
 .video-header video {
   position: absolute;
   top: 0;
-  left: -1%;
-  width: 102%;
+  left: 0;
+  width: 100vw;
   height: 100%;
   object-fit: cover;
   z-index: 0;
