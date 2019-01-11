@@ -943,8 +943,8 @@ body {
 }
 
 .footer {
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 45px;
+  padding-bottom: 0px;
   background-color: #2970ff;
 }
 
@@ -4166,6 +4166,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.right a {
+  color: white;
+}
+
+.no-bgimage {
+  background-image: none;
+}
+
 .wrapper.slack-join {
   position: relative;
   display: -webkit-box;
@@ -6437,13 +6445,14 @@ body {
 .video-header {
   position: relative;
   background-color: #0a1741;
+  overflow: hidden;
 }
 
 .video-header video {
   position: absolute;
   top: 0;
-  left: -1%;
-  width: 102%;
+  left: 0;
+  width: 100vw;
   height: 100%;
   object-fit: cover;
   z-index: 0;
