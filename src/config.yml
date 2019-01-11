@@ -9,36 +9,60 @@ languages:
     en:
         weight: 10
         languageName: ENG
+        params:
+            languageDir: ltr
     zh:
         languageName: 中文
         weight: 20
+        params:
+            languageDir: ltr
     ko:
         languageName: 한국어
         weight: 30
+        params:
+            languageDir: ltr
     ja:
         languageName: 日本語
         weight: 40
+        params:
+            languageDir: ltr
     pt:
         languageName: POR
         weight: 50
+        params:
+            languageDir: ltr
     ru:
         languageName: RUS
         weight: 60
+        params:
+            languageDir: ltr
     tr:
         languageName: TUR
         weight: 70
+        params:
+            languageDir: ltr
     fa:
         languageName: فارسی
         weight: 80
+        params:
+            languageDir: rtl
     ar:
         languageName: العَرَبِيَّة
         weight: 90
+        params:
+            languageDir: rtl
     es:
         languageName: SPA
         weight: 100
+        params:
+            languageDir: ltr
     de:
         languageName: GER
         weight: 110
+        params:
+            languageDir: ltr
     pl:
         languageName: POL
         weight: 120
+        params:
+            languageDir: ltr
