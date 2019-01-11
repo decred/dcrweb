@@ -1,0 +1,7 @@
+---
+title: Who is Decred?
+---
+
+
+
+
