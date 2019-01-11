@@ -3355,6 +3355,7 @@ body {
   position: relative;
 }
 
+
 .subpage-description {
   width: 440px;
   margin-top: 46px;
@@ -3440,6 +3441,11 @@ body {
   .subpage-description__image img {
     max-height: 226px;
   }
+}
+
+.subpage-description.body-content ul {
+  margin-left: 24px;
+  padding-left: 0;
 }
 
 .bg-video {

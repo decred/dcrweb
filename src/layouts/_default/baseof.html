@@ -32,17 +32,15 @@
 
     {{ else }}
 
-        {{ block "content-top" . }}
-        {{ end }}
+        {{ block "content-top" . }}{{ end }}
 
         {{ block "fronta" . -}}{{- end }}
-            <div class="below subpage {{ .Section }}">
-              {{ block "main" . -}}{{- end }}
-              {{ partial "footer.html" . }}
-            </div>
-        {{ end }}
 
-
+        <div class="below subpage {{ .Section }}">
+          {{ block "main" . -}}{{- end }}
+          {{ partial "footer.html" . }}
+        </div>
+    {{ end }}
 
     {{ partial "navbar.html" . }}
 

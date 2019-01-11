@@ -14,43 +14,46 @@
 
 {{ define "fronta" }}
 
-    {{ $download_links := where (index .Site.Data.downloads.links "decrediton") "is_direct_download" true }}
+    {{ if .IsHome }}
 
-    <div class="fronta">
-        <div class="full-width">
-            <div class="_960 firstview">
-                <div class="firstview-left">
-                    <div class="logo"></div>
-                    <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
-                    <div class="description font38">{{ T "home_mainheading" }}</div>
+        {{ $download_links := where (index .Site.Data.downloads.links "decrediton") "is_direct_download" true }}
 
-                    <div class="first-view-buttons w-clearfix">
-                        <a href="downloads/" class="button download-wallet w-button alldl">
-                            <span>{{ T "home_download_wallet" }}</span>
-                        </a>
-                        <div class="button os-specific alldl">{{ T "home_for_computer" }}</div>
+        <div class="fronta">
+            <div class="full-width">
+                <div class="_960 firstview">
+                    <div class="firstview-left">
+                        <div class="logo"></div>
+                        <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
+                        <div class="description font38">{{ T "home_mainheading" }}</div>
 
-                        {{ range $download_links }}
-                            <a href="{{ .url }}" class="button download-wallet w-button {{ .platform }}">
+                        <div class="first-view-buttons w-clearfix">
+                            <a href="downloads/" class="button download-wallet w-button alldl">
                                 <span>{{ T "home_download_wallet" }}</span>
                             </a>
-                            <div class="button os-specific {{ .platform }}">
-                                {{ $msg_id := print "home_decrediton_for_" .platform }}
-                                <span>{{ T $msg_id  }}</span>
-                            </div>
-                        {{ end }}
+                            <div class="button os-specific alldl">{{ T "home_for_computer" }}</div>
 
-                        <a href="{{ "/downloads" | relLangURL }}" class="button all-downloads w-button">{{ T "home_all_downloads" }} →</a>
-                    </div>
+                            {{ range $download_links }}
+                                <a href="{{ .url }}" class="button download-wallet w-button {{ .platform }}">
+                                    <span>{{ T "home_download_wallet" }}</span>
+                                </a>
+                                <div class="button os-specific {{ .platform }}">
+                                    {{ $msg_id := print "home_decrediton_for_" .platform }}
+                                    <span>{{ T $msg_id  }}</span>
+                                </div>
+                            {{ end }}
 
-                    <div class="mobile-play-button">
-                        <a href="https://www.youtube.com/watch?v=GAMp5V_gG1E">{{ T "home_watch_video" }}</a>
+                            <a href="{{ "/downloads" | relLangURL }}" class="button all-downloads w-button">{{ T "home_all_downloads" }} →</a>
+                        </div>
+
+                        <div class="mobile-play-button">
+                            <a href="https://www.youtube.com/watch?v=GAMp5V_gG1E">{{ T "home_watch_video" }}</a>
+                        </div>
                     </div>
+                    <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>
                 </div>
-                <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>
             </div>
         </div>
-    </div>
+    {{ end }}
 {{ end }}
 
 {{ define "main" }}
