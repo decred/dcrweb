@@ -25,7 +25,7 @@
   },
   {
     "id": "exchanges_description",
-    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred(DCR). Disclaimer: Always do your own research (DYOR) before using aservice. The safest way to store Decred is in a wallet where you exclusivelycontrol the private keys."
+    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys."
   },
   {
     "id": "title",
@@ -58,10 +58,6 @@
   {
     "id": "nav_business_brief",
     "translation": "Business Brief"
-  },
-  {
-    "id": "nav_roadmap",
-    "translation": "2018 Roadmap"
   },
   {
     "id": "nav_whatis",
@@ -726,5 +722,45 @@
   {
     "id": "press_releases",
     "translation": "Releases"
+  },
+  {
+    "id": "Decred brief",
+    "translation": "Decred brief"
+  },
+  {
+    "id": "Decred Recruiting",
+    "translation": "Decred Recruiting"
+  },
+  {
+    "id": "Downloads",
+    "translation": "Downloads"
+  },
+  {
+    "id": "Exchanges and Payments",
+    "translation": "Exchanges and Payments"
+  },
+  {
+    "id": "Join our community!",
+    "translation": "Join our community!"
+  },
+  {
+    "id": "Press",
+    "translation": "Press"
+  },
+  {
+    "id": "Roadmap",
+    "translation": "Roadmap"
+  },
+  {
+    "id": "Visual communication toolkit",
+    "translation": "Visual communication toolkit"
+  },
+  {
+    "id": "Voting Service Providers",
+    "translation": "Voting Service Providers"
+  },
+  {
+    "id": "Who is Decred?",
+    "translation": "Who is Decred?"
   }
 ]

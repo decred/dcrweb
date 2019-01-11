@@ -718,5 +718,45 @@
   {
     "id": "press_releases",
     "translation": "Releases"
+  },
+  {
+    "id": "Decred brief",
+    "translation": "Decred brief"
+  },
+  {
+    "id": "Decred Recruiting",
+    "translation": "Decred Recruiting"
+  },
+  {
+    "id": "Downloads",
+    "translation": "Downloads"
+  },
+  {
+    "id": "Exchanges and Payments",
+    "translation": "Exchanges and Payments"
+  },
+  {
+    "id": "Join our community!",
+    "translation": "Join our community!"
+  },
+  {
+    "id": "Press",
+    "translation": "Press"
+  },
+  {
+    "id": "Roadmap",
+    "translation": "Roadmap"
+  },
+  {
+    "id": "Visual communication toolkit",
+    "translation": "Visual communication toolkit"
+  },
+  {
+    "id": "Voting Service Providers",
+    "translation": "Voting Service Providers"
+  },
+  {
+    "id": "Who is Decred?",
+    "translation": "Who is Decred?"
   }
 ]
