@@ -943,8 +943,8 @@ body {
 }
 
 .footer {
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 45px;
+  padding-bottom: 0px;
   background-color: #2970ff;
 }
 
@@ -4164,6 +4164,14 @@ body {
   background-position: 100% 100%;
   background-size: 700px;
   background-repeat: no-repeat;
+}
+
+.right a {
+  color: white;
+}
+
+.no-bgimage {
+  background-image: none;
 }
 
 .wrapper.slack-join {
