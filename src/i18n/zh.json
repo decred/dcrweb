@@ -5,7 +5,7 @@
   },
   {
     "id": "general_downloads",
-    "translation": "downloads"
+    "translation": "下载"
   },
   {
     "id": "general_total",
@@ -29,11 +29,11 @@
   },
   {
     "id": "title",
-    "translation": "Decred - Autonomous Digital Currency"
+    "translation": "Decred - 自主数字货币"
   },
   {
     "id": "description",
-    "translation": "Decred is an autonomous digital currency. With a hybrid consensus system, it is built to be a decentralized, sustainable, and self-ruling currency where stakeholders make the rules."
+    "translation": "Decred 是一种自主数字货币。通过混合共识系统，利益相关者可以制定规则，将其构建为去中心化、可持续和自治的货币。"
   },
   {
     "id": "general_copyright",
@@ -41,51 +41,51 @@
   },
   {
     "id": "nav_brand_resources",
-    "translation": "Brand Resources"
+    "translation": "品牌资源"
   },
   {
     "id": "nav_in_the_press",
-    "translation": "Decred in the Press"
+    "translation": "新闻报道中的 Decred"
   },
   {
     "id": "nav_become_contributor",
-    "translation": "Become a Contributor"
+    "translation": "成为贡献者"
   },
   {
     "id": "nav_tech_overview",
-    "translation": "Technical Overview"
+    "translation": "技术概览"
   },
   {
     "id": "nav_business_brief",
-    "translation": "Business Brief"
+    "translation": "业务简介"
   },
   {
     "id": "nav_roadmap",
-    "translation": "Roadmap"
+    "translation": "蓝图"
   },
   {
     "id": "nav_whatis",
-    "translation": "What is Decred"
+    "translation": "Decred 是什么"
   },
   {
     "id": "nav_mission",
-    "translation": "Mission"
+    "translation": "任务"
   },
   {
     "id": "nav_platform",
-    "translation": "Platform"
+    "translation": "平台"
   },
   {
     "id": "nav_getstarted",
-    "translation": "Get Started"
+    "translation": "入门"
   },
   {
     "id": "nav_interacting",
-    "translation": "Interacting with Decred"
+    "translation": "与 Decred 交互"
   },
   {
     "id": "nav_downloads",
-    "translation": "Downloads"
+    "translation": "下载"
   },
   {
     "id": "nav_politeia",
@@ -97,23 +97,23 @@
   },
   {
     "id": "nav_networkstats",
-    "translation": "Network Stats"
+    "translation": "网络数据"
   },
   {
     "id": "nav_votingdashboard",
-    "translation": "Voting Dashboard"
+    "translation": "投票面板"
   },
   {
     "id": "nav_documentation",
-    "translation": "Documentation"
+    "translation": "文档"
   },
   {
     "id": "nav_community",
-    "translation": "Community"
+    "translation": "社区"
   },
   {
     "id": "nav_contributors",
-    "translation": "Contributors"
+    "translation": "贡献者"
   },
   {
     "id": "nav_exchanges",
@@ -125,19 +125,19 @@
   },
   {
     "id": "contributors_corporate_contractor",
-    "translation": "Corporate Contractor"
+    "translation": "企业承包人"
   },
   {
     "id": "contributors_development",
-    "translation": "Development"
+    "translation": "开发"
   },
   {
     "id": "contributors_design",
-    "translation": "Design"
+    "translation": "设计"
   },
   {
     "id": "contributors_community",
-    "translation": "Community"
+    "translation": "社区"
   },
   {
     "id": "contributors_marketing",
@@ -145,11 +145,11 @@
   },
   {
     "id": "contributors_strategy",
-    "translation": "Strategy"
+    "translation": "策略"
   },
   {
     "id": "contributors_description",
-    "translation": "Decred uses a novel contractor model which allows for proven contributors to be remunerated for their good work. This approach has helped forge a strong global team of developers, designers, and strategists, as well as a robust community. We welcome contributions from anyone who wishes to demonstrate their effort and skill in pursuit of the project's mission."
+    "translation": "Decred 采用一种新颖的承包模式，它能够让得到证明的贡献者因其出色的工作而获得报酬。这种方法有助于打造了一个由开发者、设计师和策略家组成的强大的全球团队，以及活跃的社区。对于那些愿意为完成项目使命而付出努力和技能的人才，我们欢迎他们做出贡献。"
   },
   {
     "id": "roadmap_tag_new",
@@ -177,19 +177,19 @@
   },
   {
     "id": "brand_guide_0",
-    "translation": "Visual communication toolkit"
+    "translation": "视觉通信工具包"
   },
   {
     "id": "brand_guide_1",
-    "translation": "Quick-use toolkit"
+    "translation": "快速使用工具包"
   },
   {
     "id": "brand_guide_2",
-    "translation": "Logo package"
+    "translation": "Logo 包"
   },
   {
     "id": "brand_guide_3",
-    "translation": "Download Logo Package"
+    "translation": "下载 Logo 包"
   },
   {
     "id": "brand_guide_4",
@@ -197,19 +197,19 @@
   },
   {
     "id": "brand_guide_5",
-    "translation": "Key blue"
+    "translation": "主调蓝色"
   },
   {
     "id": "brand_guide_6",
-    "translation": "Turquiose"
+    "translation": "绿松色"
   },
   {
     "id": "brand_guide_7",
-    "translation": "Dark Blue"
+    "translation": "深蓝色"
   },
   {
     "id": "brand_guide_8",
-    "translation": "Typography"
+    "translation": "字体排印"
   },
   {
     "id": "brand_guide_9",
@@ -217,7 +217,7 @@
   },
   {
     "id": "brand_guide_10",
-    "translation": "Light blue"
+    "translation": "浅蓝色"
   },
   {
     "id": "brand_guide_11",
@@ -225,11 +225,11 @@
   },
   {
     "id": "brand_guide_12",
-    "translation": "Orange"
+    "translation": "橙色"
   },
   {
     "id": "brand_guide_13",
-    "translation": "Decred’s visual identity objectives are to ensure unique representation amongst digital currencies, support consistent use across a variety of platforms as well as be memorable and engaging for onboarding new adopters. This is achieved through correct usage of the logo, type setting, color direction and graphic assets. We have developed simple style templates suitable for all users as well as for designers to produce more complex materials."
+    "translation": "Decred 的视觉识别目标是使用多种数字货币对其进行表示、支持跨平台统一使用、并为新注册用户留下深刻和愉悦的印象。为了实现这一目标，我们选择使用正确的徽标、类型设置、颜色方向和图形资产。我还们开发出一个样式简单的模型，该模型适合所有用户，而且能够帮助设计人员生产更加复杂的材料。"
   },
   {
     "id": "brand_guide_14",
@@ -265,27 +265,27 @@
   },
   {
     "id": "home_for_computer",
-    "translation": "For Your Computer"
+    "translation": "适用于您的电脑"
   },
   {
     "id": "home_mainheading",
-    "translation": "Decred is an autonomous digital currency."
+    "translation": "Decred 是一种自主数字货币。"
   },
   {
     "id": "home_all_downloads",
-    "translation": "All Downloads"
+    "translation": "所有下载"
   },
   {
     "id": "home_watch_video",
-    "translation": "Watch Video"
+    "translation": "观看视频"
   },
   {
     "id": "home_decrediton_for_macdl",
-    "translation": "Decrediton for macOS"
+    "translation": "适用于 macOS 的 Decrediton"
   },
   {
     "id": "home_decrediton_for_linuxdl",
-    "translation": "Decrediton for Linux"
+    "translation": "适用于 Linux 的 Decrediton"
   },
   {
     "id": "home_decrediton_for_windl",
@@ -305,27 +305,27 @@
   },
   {
     "id": "home_mission_section_title",
-    "translation": "Mission"
+    "translation": "任务"
   },
   {
     "id": "home_mission_title_1",
-    "translation": "Autonomy is self-rule. Stakeholders make the rules."
+    "translation": "自治是自我治理。利益相关者制定规则。"
   },
   {
     "id": "home_mission_body_1",
-    "translation": "Since 2016, Decred has striven to solve blockchain governance. Our innovative consensus voting model empowers stakeholders and allows for the seamless transition from one set of rules to another. Decentralized decision-making and self-funding have enabled us to build a robust, evolving digital currency, free from third party influence."
+    "translation": "自 2016 年起，Decred 一直致力于解决区块链治理问题。我们的创新型投票模型加强了利益相关者的自主权，并允许从一组规则无缝过渡到另一组规则。去中心化决策制定和自我筹资使我们能够建立一个强大且不断发展的数字货币，而不受第三方的影响。"
   },
   {
     "id": "home_mission_title_2",
-    "translation": "Built from 100% proven open-source technology."
+    "translation": "使用经过证明的 100% 开源技术进行构建。"
   },
   {
     "id": "home_mission_body_2",
-    "translation": "Our modular codebase offers unique adaptability and can scale to the latest blockchain technology. Decred’s technology enabled the world’s first successful direct on-chain user-activated consensus vote. This represents a revolutionary approach to stakeholder governance where our community directs the project and makes decisions together."
+    "translation": "我们的模块化代码库提供了独特的适应性，且可以扩展到最新的区块链技术。Decred 的技术为全球首个成功的直接链上用户激活投票提供了支持。这代表着利益相关者治理的革命性方法，通过这一方法我们的社区能够主导项目并共同作出决定。"
   },
   {
     "id": "home_mission_chart_1",
-    "translation": "of total"
+    "translation": "总计"
   },
   {
     "id": "home_mission_chart_2",
@@ -333,11 +333,11 @@
   },
   {
     "id": "home_mission_title_3",
-    "translation": "Empowering individuals, groups, and companies."
+    "translation": "授权个人、小组和公司。"
   },
   {
     "id": "home_mission_body_3",
-    "translation": "We are community-powered. Stakeholders who participate in Decred’s decision-making are rewarded for their efforts. Sustainable funding and a resilient contractor model allow for anyone to join Decred at any time and engage in its governance. Decred’s value is in the people who work on it - together we’re building the decentralized future we want to see."
+    "translation": "我们得到了社区的支持。参与 Decred 决策的利益相关者因其付出的努力而获得报酬。可持续的资金和弹性的承包模式允许任何人随时加入 Decred 并参与管理。Decred 的价值在从事这项工作的精英身上得以体现 - 让我们一起构建令人期待的去中心化未来。"
   },
   {
     "id": "home_quotes_quote",
@@ -345,11 +345,11 @@
   },
   {
     "id": "home_platform_platform",
-    "translation": "Platform"
+    "translation": "平台"
   },
   {
     "id": "home_platform_features",
-    "translation": "Features for the future."
+    "translation": "未来的功能。"
   },
   {
     "id": "home_platform_built",
@@ -357,39 +357,39 @@
   },
   {
     "id": "home_platform_innovative",
-    "translation": "An innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) consensus voting system"
+    "translation": "创新混合工作量证明 (PoW) 和权益证明 (PoS) 的共识投票系统"
   },
   {
     "id": "home_platform_censorship",
-    "translation": "A censorship-resistant blockchain-anchored public proposal platform"
+    "translation": "阻止审查的基于区块链的公共建议平台"
   },
   {
     "id": "home_platform_smartcontract",
-    "translation": "Smart contracts that work such as Lightning Network"
+    "translation": "有效的智能合同，例如闪电网络"
   },
   {
     "id": "home_platform_atomicswap",
-    "translation": "Cross-chain atomic swaps between different digital currencies"
+    "translation": "不同数字货币之间的交叉链式原子交换"
   },
   {
     "id": "home_platform_wallets_ease",
-    "translation": "Cross-platform wallets for ease of use"
+    "translation": "易于使用的跨平台钱包"
   },
   {
     "id": "home_platform_consensus",
-    "translation": "Consensus Voting"
+    "translation": "共识投票"
   },
   {
     "id": "home_platform_hybrid",
-    "translation": "Decred uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) system to give stakeholders decision-making power about the set of consensus rules to activate. This allows for a seamless transition from one set of rules to another while keeping the existing blockchain ecosystem intact."
+    "translation": "Decred 使用创新混合工作量证明 (PoW) 和权益证明 (PoS) 系统，为利益相关者提供激活共识规则集的决策制定权。可实现从一组规则无缝过渡到另一组规则，同时保持现有区块链生态系统不变。"
   },
   {
     "id": "home_platform_swaps",
-    "translation": "Atomic Swaps"
+    "translation": "原子交换"
   },
   {
     "id": "home_platform_decent",
-    "translation": "Decred does not require reliance on centralized exchanges. With cross-chain atomic swaps between different digital currencies, users can conduct trustless over-the-counter (OTC) trades without a third party."
+    "translation": "Decred 不需要依赖于集中化兑换。通过不同数字货币之间的交叉链式原子交换，用户可以在没有第三方的情况下进行不可靠的场外 (OTC) 交易。"
   },
   {
     "id": "home_platform_politeia",
@@ -397,71 +397,71 @@
   },
   {
     "id": "home_platform_proposal",
-    "translation": "Decred uses a censorship-resistant blockchain-anchored public proposal platform, which empowers users to submit their own projects for self-funding from DCR’s block subsidy. Politeia (Pi) ensures the ecosystem remains sustainable and thrives."
+    "translation": "Decred 使用阻止审查的基于区块链的公共建议平台，授权用户从 DCR 的区块补贴中提交自我筹资的项目。Politeia (Pi) 确保生态系统的可持续性和蓬勃发展。"
   },
   {
     "id": "home_platform_lightning",
-    "translation": "Lightning Network"
+    "translation": "闪电网络"
   },
   {
     "id": "home_platform_ln_contracts",
-    "translation": "Decred implements smart contracts that work. Lightning Network (LN) is one such application of a low-latency off-chain system that allows for near-instant micropayments in DCR. With LN, Decred directly competes with existing fiat payment systems."
+    "translation": "Decred 实施有效的智能合同。闪电网络 (LN) 是一种低延迟区块链外系统的应用程序，它允许以 DCR 进行即时的微支付。通过 LN，Decred 可直接与现有的法定支付系统竞争。"
   },
   {
     "id": "home_platform_wallets",
-    "translation": "Cross-platform Wallets"
+    "translation": "跨平台钱包"
   },
   {
     "id": "home_platform_accessible",
-    "translation": "Decred features accessible wallets through graphical user interfaces (GUIs) across all major operating systems (Windows, macOS, and Linux). For more technical users, command line interface (CLI) wallets are also available."
+    "translation": "Decred 通过所有主要操作系统 (Windows、macOS 和 Linux) 上的图形用户界面 (GUI) 对可访问的钱包进行功能设置。对于更多技术用户，还可以使用命令行接口 (CLI) 钱包。"
   },
   {
     "id": "home_platform_soon",
-    "translation": "Soon™"
+    "translation": "即将推出"
   },
   {
     "id": "home_platform_active",
-    "translation": "Decred enjoys active development. Current milestones include a full stakeholder-directed decentralized autonomous organization (DAO) and enhanced user privacy."
+    "translation": "Decred 正在积极开发。目前的里程碑包括一个完整的直接由利益相关者领导的去中心化组织 (DAO) 和增强的用户隐私。"
   },
   {
     "id": "home_principles_oss",
-    "translation": "Free and Open-Source Software"
+    "translation": "免费 开源软件"
   },
   {
     "id": "home_principles_free",
-    "translation": "All software developed as part of Decred shall be free and open source-software."
+    "translation": "所有作为 Decred 的一部分而开发的软件应免费且<br>开源。"
   },
   {
     "id": "home_principles_incremental",
-    "translation": "Incremental Privacy and Security"
+    "translation": "增加隐私与安全性"
   },
   {
     "id": "home_principles_privacy",
-    "translation": "Privacy and security technology shall be implemented on a continuing and incremental basis, both proactively and on-demand in response to attacks."
+    "translation": "隐私和安全性技术应以持续、渐进的方式实施，应根据需要主动应对攻击。"
   },
   {
     "id": "home_principles_speech",
-    "translation": "Free Speech and Consideration"
+    "translation": "自由言论与思考"
   },
   {
     "id": "home_principles_everyone",
-    "translation": "Everyone has the right to communicate opinions and ideas without fear of censorship. Consideration shall be given to all constructive speech that is based in fact and reason."
+    "translation": "每个人都可以交流观点和想法，而不用担心审查。应考虑所有基于事实和理由的建设性言论。"
   },
   {
     "id": "home_principles_multi_stakeholder",
-    "translation": "Multi-Stakeholder Inclusivity"
+    "translation": "多方利益相关者包容性"
   },
   {
     "id": "home_principles_inclusivity",
-    "translation": "Inclusivity represents a multi-stakeholder system and an active effort shall be maintained to include a diverse set of views and users."
+    "translation": "包容性意味着要打造一个多方利益相关者系统，并应该努力接纳多种观点和各类用户。"
   },
   {
     "id": "home_principles_bound",
-    "translation": "We’re bound by the following guiding principles."
+    "translation": "我们受到以下指导原则的约束。"
   },
   {
     "id": "home_principles_equitable",
-    "translation": "These principles have been established in an effort to create an equitable and sustainable framework within which to achieve Decred's goal to be an autonomous and decentralized currency where all stakeholders have a real voice."
+    "translation": "这些原则的制定是为了创造一个公平和可持续的框架，然后在这个框架内，实现将 Decred 打造成为咱自主和去中心化货币的目标，同时让所有利益相关者都可以表达真实想法。"
   },
   {
     "id": "home_guide_0",
@@ -469,11 +469,11 @@
   },
   {
     "id": "home_guide_1",
-    "translation": "Overview"
+    "translation": "概览"
   },
   {
     "id": "home_guide_2",
-    "translation": "Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks."
+    "translation": "Decred 是一个支持 Windows、macOS 和 Linux 的多平台数字货币。使用钱包应用，只需点击几下即可实现 Decred 的发送、接收和挖矿，非常容易使用。"
   },
   {
     "id": "home_guide_3",
@@ -481,27 +481,27 @@
   },
   {
     "id": "home_guide_4",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_5",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_6",
-    "translation": "The Basics"
+    "translation": "简介"
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>There are three main ways to interact with Decred:</p><p><strong>The Wallet</strong> - For sending and receiving funds as well as participating in PoS mining.</p><p><strong>Proof-of-work Mining</strong> - Using computing power to validate transactions on the network and generate new Decred tokens.</p><p><strong>Proof-of-stake Mining</strong> - Using funds to vote on important network development matters and validate transactions for rewards.</p>"
+    "translation": "<p>Decred 主要有 3 种交互方式：</p>\n\t\t<p><strong>钱包</strong>－用于发送和接收代币，以及参与 PoS 挖矿。</p>\n\t\t<p><strong>PoW 挖矿</strong>－使用计算能力在网络上验证交易，然后获得新产生的 Decred 代币。</p>\n\t\t<p><strong>PoS 挖矿</strong>－使用代币在重要的网络发展事项上来进行投票并验证交易，从而获得奖励。</p>"
   },
   {
     "id": "home_guide_8",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_9",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_10",
@@ -513,27 +513,27 @@
   },
   {
     "id": "home_guide_12",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_13",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_14",
-    "translation": "Send and Receive Decred"
+    "translation": "发送和接收 Decred"
   },
   {
     "id": "home_guide_15",
-    "translation": "<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\" rel=\"noopener noreferrer\">begin with D and contain 26-36 alphanumeric characters</a>.</p><p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. That is, a transfer of 100DCR would incur a fee of about 0.006DCR.</p><p>The block explorers <a href=\"https://mainnet.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">mainnet.decred.org</a> and <a href=\"https://explorer.dcrdata.org\" target=\"_blank\" rel=\"noopener noreferrer\">explorer.dcrdata.org</a> allow users to search all the blocks and transactions in the Decred blockchain.</p>"
+    "translation": "<p>只需一个地址，即可轻松发送或接收代币。而地址可以在任意 Decred 钱包中生成。Decred 地址通常<a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">以字母 D 开头并包含 26-36 个字母或数字字符</a>。</p>\n\t\t<p>代币通常在每笔交易完成后的 5 分钟之内结算，而且会产生一小笔手续费以便用于网络维护，这笔费用将在交易金额的基础上额外产生；比如：一笔金额为 100 DCR 的交易通常会产生 0.006 DCR 的手续费。</p>\n\t\t<p>区块浏览器 <a href=\"https://mainnet.decred.org\" target=\"_blank\">mainnet.decred.org</a> 和 <a href=\"https://explorer.dcrdata.org\" target=\"_blank\">explorer.dcrdata.org</a> 允许用户在 Decred 区块链上搜索所有的区块和交易。</p>"
   },
   {
     "id": "home_guide_16",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_17",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_18",
@@ -541,19 +541,19 @@
   },
   {
     "id": "home_guide_19",
-    "translation": "<p>The term mining represents the process of validating transactions on the Decred network and keeping it secure. In return for work, miners are rewarded with newly generated Decred coins.</p><p>Decred has two methods of validating transactions: Proof-of-work (PoW) and Proof-of-stake (PoS).</p>"
+    "translation": "<p>挖矿一词代表的是在 Decred 网络中验证交易的过程，以保证网络的安全性；作为工作回报，矿工会得到一些新产生的 Decred 代币作为奖励。</p>\n\t\t<p>Decred 有两种验证交易的方式：工作量证明 (PoW) 和权益证明 (PoS)。</p>"
   },
   {
     "id": "home_guide_20",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_21",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_22",
-    "translation": "Proof-of-work Mining"
+    "translation": "工作量证明挖矿"
   },
   {
     "id": "home_guide_23",
@@ -561,15 +561,15 @@
   },
   {
     "id": "home_guide_24",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_25",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_26",
-    "translation": "Proof-of-stake Mining"
+    "translation": "权益证明挖矿"
   },
   {
     "id": "home_guide_27",
@@ -577,15 +577,15 @@
   },
   {
     "id": "home_guide_28",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_29",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_30",
-    "translation": "Buying and Trading Decred"
+    "translation": "购买和交易 Decred"
   },
   {
     "id": "home_guide_31",
@@ -593,15 +593,15 @@
   },
   {
     "id": "home_guide_32",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_33",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_34",
-    "translation": "Join the Community"
+    "translation": "加入社区"
   },
   {
     "id": "home_guide_35",
@@ -609,11 +609,11 @@
   },
   {
     "id": "home_guide_36",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_37",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "home_guide_38",
@@ -625,11 +625,11 @@
   },
   {
     "id": "home_guide_40",
-    "translation": "Continue"
+    "translation": "继续"
   },
   {
     "id": "home_guide_41",
-    "translation": "Back"
+    "translation": "返回"
   },
   {
     "id": "downloads_description",
@@ -645,7 +645,7 @@
   },
   {
     "id": "downloads_app_decrediton",
-    "translation": "Graphical UI wallet for Windows, macOS and Linux"
+    "translation": "适用于 Windows、macOS 和 Linux 的图形用户界面钱包。"
   },
   {
     "id": "downloads_app_commandline",
@@ -653,15 +653,15 @@
   },
   {
     "id": "downloads_app_gominer",
-    "translation": "CUDA/OpenCL miner for AMD/NVIDIA GPUs. Officially supported by the Decred team."
+    "translation": "适用于 AMD／NVIDIA 图形处理器的 CUDA／OpenCL 挖矿软件，由 Decred 团队提供官方支持。"
   },
   {
     "id": "downloads_app_ccminer",
-    "translation": "Third party CUDA miner for NVIDIA GPUs. Not supported by the Decred team."
+    "translation": "适用于 NVIDIA 图形处理器的第三方 CUDA 挖矿软件。Decred 团队不提供支持。"
   },
   {
     "id": "downloads_app_sgminer",
-    "translation": "Third party OpenCL miner for AMD GPUs. Not supported by the Decred team."
+    "translation": "适用于 AMD 图形处理器的第三方 OpenCL 挖矿软件。Decred 团队不提供支持。"
   },
   {
     "id": "downloads_app_exodus",
@@ -709,7 +709,7 @@
   },
   {
     "id": "press_description",
-    "translation": "Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Below is a gallery of recent mentions."
+    "translation": "Decred 被《芝加哥论坛报》《比特币杂志》和纳斯达克誉为最重要的加密货币项目。以下是最近的报道合辑。"
   },
   {
     "id": "press_coverage",
@@ -737,7 +737,7 @@
   },
   {
     "id": "Join our community!",
-    "translation": "Join our community!"
+    "translation": "加入社区"
   },
   {
     "id": "Press",
@@ -745,11 +745,11 @@
   },
   {
     "id": "Roadmap",
-    "translation": "Roadmap"
+    "translation": "蓝图"
   },
   {
     "id": "Visual communication toolkit",
-    "translation": "Visual communication toolkit"
+    "translation": "视觉通信工具包"
   },
   {
     "id": "Voting Service Providers",
@@ -757,6 +757,6 @@
   },
   {
     "id": "Who is Decred?",
-    "translation": "Who is Decred?"
+    "translation": "Decred 是谁？"
   }
 ]
