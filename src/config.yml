@@ -4,6 +4,8 @@ title: Decred
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
+params:
+    social_media_links:
 
 languages: 
     en:
@@ -16,6 +18,19 @@ languages:
         weight: 20
         params:
             languageDir: ltr
+            social_media_links:
+                -
+                    id: qq
+                    label: qq
+                    url: http://weixin.qq.com/r/Njnr8xfEtkrJrVOQ92wk
+                -
+                    id: wechat
+                    label: Wechat
+                    url: http://u.wechat.com/MIRs6aSo2eBK9GSYq8ec84Y
+                -
+                    id: youku
+                    label: Youku
+                    url: https://i.youku.com/decred
     ko:
         languageName: 한국어
         weight: 30
