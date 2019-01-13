@@ -565,3 +565,47 @@
   linkedin_url: "https://www.linkedin.com/in/zubairzia0/"
   github_id: zubairzia0
   medium_alias: zubairzia
+-
+  slack_alias: eSizeDave
+  group: community
+  avatar_image: "team_75.svg"
+  name: "David Habibi"
+  title: "Community Manager (AU)"
+  slack_id: U6EV8PTHC
+  twitter_alias: davesaddress
+-
+  slack_alias: elian
+  group: community
+  avatar_image: "team_74.svg"
+  name: "Elian Huesca"
+  title: "Community Manager (MX)"
+  slack_id: UBWTLC9KQ
+  linkedin_url: ""
+  twitter_alias: elianhuesca
+  medium_alias:
+-
+  slack_alias: morphymore
+  group: community
+  avatar_image: "team_76.svg"
+  name: "Morphy Tsai"
+  title: "Community Manager (TW)"
+  slack_id: U7VQTTY2J
+  twitter_alias: morphymore
+-
+  slack_alias: mm
+  group: community
+  avatar_image: "team_77.svg"
+  name: "Marcelo Martins"
+  title: "Community Manager (PT)"
+  slack_id: U4EC3J8NM
+  linkedin_url: "https://www.linkedin.com/in/marcelomartins"
+  twitter_alias: dcrStakeyClub
+-
+  slack_alias: mario
+  group: community
+  avatar_image: "team_73.svg"
+  name: "Mariusz Szyma"
+  title: "Community Manager (PL)"
+  slack_id: U6XP8S41M
+  linkedin_url: "https://www.linkedin.com/in/szyma/"
+  twitter_alias: Donmario
