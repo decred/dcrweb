@@ -9,7 +9,7 @@
   },
   {
     "id": "general_total",
-    "translation": "total"
+    "translation": "总计"
   },
   {
     "id": "general_javascript_warning",
@@ -58,10 +58,6 @@
   {
     "id": "nav_business_brief",
     "translation": "业务简介"
-  },
-  {
-    "id": "nav_roadmap",
-    "translation": "蓝图"
   },
   {
     "id": "nav_whatis",
@@ -118,6 +114,10 @@
   {
     "id": "nav_exchanges",
     "translation": "Exchanges"
+  },
+  {
+    "id": "nav_roadmap",
+    "translation": "蓝图"
   },
   {
     "id": "nav_press",
@@ -213,7 +213,7 @@
   },
   {
     "id": "brand_guide_9",
-    "translation": "Complimentary Colors"
+    "translation": "Complementary Colors"
   },
   {
     "id": "brand_guide_10",
@@ -720,8 +720,8 @@
     "translation": "Releases"
   },
   {
-    "id": "Decred brief",
-    "translation": "Decred brief"
+    "id": "Business brief",
+    "translation": "业务简介"
   },
   {
     "id": "Decred Recruiting",

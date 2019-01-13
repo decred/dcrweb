@@ -60,10 +60,6 @@
     "translation": "Resumo empresarial"
   },
   {
-    "id": "nav_roadmap",
-    "translation": "Planeament"
-  },
-  {
     "id": "nav_whatis",
     "translation": "O que é a Decred"
   },
@@ -118,6 +114,10 @@
   {
     "id": "nav_exchanges",
     "translation": "Exchanges"
+  },
+  {
+    "id": "nav_roadmap",
+    "translation": "Planeament"
   },
   {
     "id": "nav_press",
@@ -213,7 +213,7 @@
   },
   {
     "id": "brand_guide_9",
-    "translation": "Cores complementares"
+    "translation": "Complementary Colors"
   },
   {
     "id": "brand_guide_10",
@@ -720,8 +720,8 @@
     "translation": "Releases"
   },
   {
-    "id": "Decred brief",
-    "translation": "Decred brief"
+    "id": "Business brief",
+    "translation": "Resumo empresarial"
   },
   {
     "id": "Decred Recruiting",
