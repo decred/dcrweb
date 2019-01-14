@@ -4,17 +4,23 @@ var idx=0;
 
 $("[translate]").each(
     function(){
-        var id="brand_guide_"+idx++;
+        var origStr = this.innerHTML;
+        var idPrefix = "matrix";
+
+        var words = origStr.trim().split(/ +/).map(str => str.toLowerCase().replace(/\W/g, '')).slice(0, 5);
+
+        id = idPrefix + "_" + words.join("_");
+
         strings.push({
             id: id,
-            translation: this.innerHTML
+            translation: origStr
         });
-        this.innerHTML='{{ safeHTML ( T "'+id+'" ) }}';
+        // this.innerHTML='{{ safeHTML ( T "'+id+'" ) }}';
     }
 );
 
 console.log(JSON.stringify(strings));
 
-console.log("HTML\n\n\n");
+// console.log("HTML\n\n\n");
 
-console.log($("#guide").innerHTML);
+// console.log($("#guide").innerHTML);
