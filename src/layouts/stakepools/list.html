@@ -1,0 +1,29 @@
+
+
+{{ define "main" }}
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section">
+                <div class="subpage-description">{{ T "stakepools_description"  }}
+                    <noscript>
+                        <div>
+                            {{ range .Site.Data.stakepools.stakepools }}
+                                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a><br/>
+                            {{ end }}
+                        </div>
+                        <div class="section-title-text">{{ T "general_javascript_warning" }}</div>
+                        <div class="mission-copy">{{ T "general_javascript_warning_description" }}</div>
+                    </noscript>
+                </div>
+
+                <div class="subpage-content w-clearfix">
+                    <div id="stakepool-data" class="stakepool-data"></div>
+                    <div class="modalparagraph left" >{{ safeHTML (T "stakepools_warning_1") }}</div>
+                    <div class="modalparagraph right">{{ safeHTML (T "stakepools_warning_2") }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}
+
+

@@ -1,0 +1,810 @@
+[
+  {
+    "id": "general_release_stable",
+    "translation": "stable"
+  },
+  {
+    "id": "general_downloads",
+    "translation": "ダウンロード"
+  },
+  {
+    "id": "general_total",
+    "translation": "/"
+  },
+  {
+    "id": "general_javascript_warning",
+    "translation": "JavaScript required"
+  },
+  {
+    "id": "general_javascript_warning_description",
+    "translation": "We're sorry, but this Website doesn't work properly without JavaScript enabled."
+  },
+  {
+    "id": "exchanges_title",
+    "translation": "Exchanges"
+  },
+  {
+    "id": "exchanges_description",
+    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys."
+  },
+  {
+    "id": "title",
+    "translation": "Decred - 自律的なデジタル通貨"
+  },
+  {
+    "id": "description",
+    "translation": "Decredは自律的なデジタル通貨です。ハイブリッド型コンセンサスシステムでは、ステークホルダーがルールを作成するので、分散化された持続可能な自律的通貨が構築されます。"
+  },
+  {
+    "id": "general_copyright",
+    "translation": "Decred Developers"
+  },
+  {
+    "id": "nav_brand_resources",
+    "translation": "ブランドリソース"
+  },
+  {
+    "id": "nav_in_the_press",
+    "translation": "Decred メディア紹介"
+  },
+  {
+    "id": "nav_become_contributor",
+    "translation": "コントリビューターになる"
+  },
+  {
+    "id": "nav_tech_overview",
+    "translation": "技術概要"
+  },
+  {
+    "id": "nav_business_brief",
+    "translation": "会社概要"
+  },
+  {
+    "id": "nav_roadmap",
+    "translation": "年度予定"
+  },
+  {
+    "id": "footer_roadmap",
+    "translation": "2018年度予定"
+  },
+  {
+    "id": "nav_whatis",
+    "translation": "Decredとは"
+  },
+  {
+    "id": "nav_mission",
+    "translation": "ミッション"
+  },
+  {
+    "id": "nav_platform",
+    "translation": "プラットフォーム"
+  },
+  {
+    "id": "nav_getstarted",
+    "translation": "使用方法"
+  },
+  {
+    "id": "nav_interacting",
+    "translation": "Decredの使用"
+  },
+  {
+    "id": "nav_downloads",
+    "translation": "ダウンロード"
+  },
+  {
+    "id": "nav_politeia",
+    "translation": "Proposal System"
+  },
+  {
+    "id": "nav_vsp",
+    "translation": "Voting Service Providers"
+  },
+  {
+    "id": "nav_networkstats",
+    "translation": "ネットワークステータス"
+  },
+  {
+    "id": "nav_votingdashboard",
+    "translation": "投票ダッシュボード"
+  },
+  {
+    "id": "nav_documentation",
+    "translation": "ドキュメンテーション"
+  },
+  {
+    "id": "nav_community",
+    "translation": "コミュニティ"
+  },
+  {
+    "id": "nav_contributors",
+    "translation": "コントリビューター"
+  },
+  {
+    "id": "nav_exchanges",
+    "translation": "Exchanges"
+  },
+  {
+    "id": "nav_press",
+    "translation": "Press"
+  },
+  {
+    "id": "contributors_corporate_contractor",
+    "translation": "企業のコントラクター"
+  },
+  {
+    "id": "contributors_development",
+    "translation": "開発"
+  },
+  {
+    "id": "contributors_design",
+    "translation": "デザイン"
+  },
+  {
+    "id": "contributors_community",
+    "translation": "コミュニティ"
+  },
+  {
+    "id": "contributors_marketing",
+    "translation": "Marketing"
+  },
+  {
+    "id": "contributors_strategy",
+    "translation": "Strategy"
+  },
+  {
+    "id": "contributors_description",
+    "translation": "Decredは実績のあるコントリビューターが業績をあげることで報酬を得ることができる新しい契約モデルを採用しています。このアプローチで強固なコミュニティに加え、開発者、デザイナー、ストラテジストの強力なグローバルチームを実現してきました。プロジェクトのミッションを完了するために活躍するコントリビューターを歓迎します。"
+  },
+  {
+    "id": "roadmap_tag_new",
+    "translation": "New"
+  },
+  {
+    "id": "roadmap_tag_ongoing",
+    "translation": "Ongoing"
+  },
+  {
+    "id": "roadmap_tag_completed",
+    "translation": "Completed"
+  },
+  {
+    "id": "roadmap_moreinfo",
+    "translation": "More Information"
+  },
+  {
+    "id": "roadmap_tag_subtitle",
+    "translation": "Insight into our future, overview of the past"
+  },
+  {
+    "id": "roadmap_description",
+    "translation": "Please note that our primary goal is to provide you with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change."
+  },
+  {
+    "id": "brand_guide_0",
+    "translation": "ビジュアルコミュニケーションツールキット"
+  },
+  {
+    "id": "brand_guide_1",
+    "translation": "すぐに使えるツールキット"
+  },
+  {
+    "id": "brand_guide_2",
+    "translation": "ロゴパッケージ"
+  },
+  {
+    "id": "brand_guide_3",
+    "translation": "ロゴパッケージをダウンロード"
+  },
+  {
+    "id": "brand_guide_4",
+    "translation": "Primary Colors"
+  },
+  {
+    "id": "brand_guide_5",
+    "translation": "ブルー"
+  },
+  {
+    "id": "brand_guide_6",
+    "translation": "ターコイズ"
+  },
+  {
+    "id": "brand_guide_7",
+    "translation": "ダークブルー"
+  },
+  {
+    "id": "brand_guide_8",
+    "translation": "タイポグラフィー"
+  },
+  {
+    "id": "brand_guide_9",
+    "translation": "Complementary Colors"
+  },
+  {
+    "id": "brand_guide_10",
+    "translation": "ライトブルー"
+  },
+  {
+    "id": "brand_guide_11",
+    "translation": "Green"
+  },
+  {
+    "id": "brand_guide_12",
+    "translation": "Orange"
+  },
+  {
+    "id": "brand_guide_13",
+    "translation": "Decredのビジュアルアイデンティティの目的は、デジタル通貨を代表し、さまざまなプラットフォーム間で一貫して使用できるようにし、さらに新しい導入者に魅力的な体験を提供することにあります。これは、ロゴ、文字設定、色彩演出、グラフィックアセットの正しい使用により可能になります。当社はすべてのユーザーに適したシンプルなスタイルを開発し、デザイナー用にはより複雑な素材を提供しています。"
+  },
+  {
+    "id": "brand_guide_14",
+    "translation": "View github/dcrdesign repo for design packages, guidelines and documentations"
+  },
+  {
+    "id": "exchanges_otc_title",
+    "translation": "Decred OTC Traders"
+  },
+  {
+    "id": "exchanges_otc_description",
+    "translation": "Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher."
+  },
+  {
+    "id": "exchanges_payment_title",
+    "translation": "Decred Payment Processors"
+  },
+  {
+    "id": "exchanges_payment_description",
+    "translation": "Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms."
+  },
+  {
+    "id": "exchanges_subtitle",
+    "translation": "Decred on Exchanges"
+  },
+  {
+    "id": "exchanges_showall",
+    "translation": "Show all"
+  },
+  {
+    "id": "home_download_wallet",
+    "translation": "Download Wallet"
+  },
+  {
+    "id": "home_for_computer",
+    "translation": "あなたのパソコンのために"
+  },
+  {
+    "id": "home_mainheading",
+    "translation": "Decredは自律的なデジタル通貨です。"
+  },
+  {
+    "id": "home_all_downloads",
+    "translation": "すべてのダウンロード"
+  },
+  {
+    "id": "home_watch_video",
+    "translation": "動画を視聴"
+  },
+  {
+    "id": "home_decrediton_for_macdl",
+    "translation": "macOS対応 Decrediton"
+  },
+  {
+    "id": "home_decrediton_for_linuxdl",
+    "translation": "Linux対応 Decrediton"
+  },
+  {
+    "id": "home_decrediton_for_windl",
+    "translation": "Windows対応 Decrediton"
+  },
+  {
+    "id": "home_politeia_notice_title",
+    "translation": "Decred’s Proposal System is Live"
+  },
+  {
+    "id": "home_politeia_notice_body",
+    "translation": "Politeia allows Decred users and stakeholders to propose, discuss, collaborate on, and fund new projects, initiatives, and consensus changes."
+  },
+  {
+    "id": "home_politeia_notice_link_title",
+    "translation": "View Proposals"
+  },
+  {
+    "id": "home_mission_section_title",
+    "translation": "ミッション"
+  },
+  {
+    "id": "home_mission_title_1",
+    "translation": "自主性とは自立です。ステークホルダーは自身でルールを作ります。"
+  },
+  {
+    "id": "home_mission_body_1",
+    "translation": "2016年以来Decredはブロックチェーンのガバナンスを解決すべく努力してきました。私たちの革新的なコンセンサス投票モデルはステークホルダーに力を与え、あるルールから別のルールへのスムーズな移行を可能にするものです。非中央集中の意思決定と自己資金調達により、第三者の影響を受けず、強固で進歩的なデジタル通貨の構築が可能となりました。"
+  },
+  {
+    "id": "home_mission_title_2",
+    "translation": "100％検証済みオープンソーステクノロジーで構築。"
+  },
+  {
+    "id": "home_mission_body_2",
+    "translation": "採用のモジュラーコードベースが独自の適応性を可能にし、最新のブロックチェーン技術に拡張することができます。Decredの技術により世界で初めてダイレクトチェーンユーザーによるコンセンサス投票が可能になりました。これはコミュニティがプロジェクトを指揮し意思決定を行う、ステークホルダーによるガバナンスを実現する革新的なアプローチです。"
+  },
+  {
+    "id": "home_mission_chart_1",
+    "translation": "/"
+  },
+  {
+    "id": "home_mission_chart_2",
+    "translation": "mined so far"
+  },
+  {
+    "id": "home_mission_title_3",
+    "translation": "個人、団体、企業に力を与える"
+  },
+  {
+    "id": "home_mission_body_3",
+    "translation": "私たちはコミュニティを基本軸としています。Decredの意思決定に参加するステークホルダーにはその貢献に報酬が与えられます。持続可能な資金提供と強力なコントラクターモデルにより、誰でもいつでもDecredに加わり、ガバナンスに参加することができます。Decredの有用性はそれに取り組む人々の手の内にあります。私たちは一丸となり夢に描く非集中化の未来を実現していきます。 "
+  },
+  {
+    "id": "home_quotes_quote",
+    "translation": "“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.”"
+  },
+  {
+    "id": "home_platform_platform",
+    "translation": "プラットフォーム"
+  },
+  {
+    "id": "home_platform_features",
+    "translation": "今後追加の機能"
+  },
+  {
+    "id": "home_platform_built",
+    "translation": "Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:"
+  },
+  {
+    "id": "home_platform_innovative",
+    "translation": "革新的なproof-of-work（PoW）とProof-of-stake（PoS）のハイブリッド型コンセンサス投票システム"
+  },
+  {
+    "id": "home_platform_censorship",
+    "translation": "検閲の耐性が強くブロックチェーン主体のパブリック型プラットフォーム"
+  },
+  {
+    "id": "home_platform_smartcontract",
+    "translation": "ライトニングネットワークのような信頼性のあるスマートコントラクト"
+  },
+  {
+    "id": "home_platform_atomicswap",
+    "translation": "様々なデジタル通貨間でのクロスチェーンアトミックスワップ"
+  },
+  {
+    "id": "home_platform_wallets_ease",
+    "translation": "使いやすさを重視したクロスプラットフォームウォレット"
+  },
+  {
+    "id": "home_platform_consensus",
+    "translation": "コンセンサス投票"
+  },
+  {
+    "id": "home_platform_hybrid",
+    "translation": "Decredは革新的なproof-of-work (PoW)と proof-of-stake (PoS) を組み合わせたシステムを使用しており、ステークホルダーは自主的にルールを設定することができます。これにより既存のブロックチェーンエコシステムを維持しながら、ルール間のスムーズな移行が可能になります。"
+  },
+  {
+    "id": "home_platform_swaps",
+    "translation": "アトミックスワップ"
+  },
+  {
+    "id": "home_platform_decent",
+    "translation": "Decredは中央集中の取引に依存する必要はありません。様々なデジタル通貨間でのクロスチェーンアトミックスワップにより、ユーザーは第三者機関に依存することなくオーバーザカウンター(OTC)取引を行うことが可能になります。"
+  },
+  {
+    "id": "home_platform_politeia",
+    "translation": "Politeia"
+  },
+  {
+    "id": "home_platform_proposal",
+    "translation": "Decredは検閲の耐性が強くブロックチェーン主体のパブリック型プラットフォームを使用しています。これによりユーザーはプロジェクトを提出し、資金をDCRのブロック資金から得ることができます。Politeia（Pi）はエコシステムが持続可能かつ繁栄し続けることを保証しています。"
+  },
+  {
+    "id": "home_platform_lightning",
+    "translation": "ライトニングネットワーク"
+  },
+  {
+    "id": "home_platform_ln_contracts",
+    "translation": "Decredは実際に機能するスマートコントラクトを採用しています。ライトニングネットワーク（LN）は、DCRでほぼ即時のマイクロペイメント（少額決済）を可能にする低レイテンシーのオフチェーンシステム用アプリケーションです。ライトニングネットワークの採用で、Decredは既存の決済システムと直接競合しています。"
+  },
+  {
+    "id": "home_platform_wallets",
+    "translation": "クロスプラットフォームウォレット"
+  },
+  {
+    "id": "home_platform_accessible",
+    "translation": "Decredはグラフィカルユーザーインターフェース（GUI）を使用してすべての主要オペレーティング・システム（Windows、MacOS、Linux）でアクセス可能なウォレットを提供しています。技術系ユーザー用に、コマンドライン・インターフェース（CLI）ウォレットも用意してあります。"
+  },
+  {
+    "id": "home_platform_soon",
+    "translation": "Soon™"
+  },
+  {
+    "id": "home_platform_active",
+    "translation": "Decredは常に変化しています。現在のマイルストーンには、ステークホルダー指向の分散型自律組織（DAO）とユーザーのプライバシー強化があります。"
+  },
+  {
+    "id": "home_principles_oss",
+    "translation": "無料の<br>オープンソースソフトウェア"
+  },
+  {
+    "id": "home_principles_free",
+    "translation": "Decredの一部として開発されたすべてのソフトウェアは<br>無料のオープンソースソフトウェアです。"
+  },
+  {
+    "id": "home_principles_incremental",
+    "translation": "プライバシーとセキュリティの強化"
+  },
+  {
+    "id": "home_principles_privacy",
+    "translation": "プライバシーとセキュリティ技術は、積極的かつ必要に応じて攻撃に対応しなければならず、さらにこれは継続的かつ段階的に実施されることが重要です。"
+  },
+  {
+    "id": "home_principles_speech",
+    "translation": "言論の自由と考慮"
+  },
+  {
+    "id": "home_principles_everyone",
+    "translation": "誰でも検閲に怯えることなく意見を交換する権利があります。十分な事実と根拠を基にした建設的な意見はすべて尊重されます。"
+  },
+  {
+    "id": "home_principles_multi_stakeholder",
+    "translation": "マルチステークホルダーの包括性"
+  },
+  {
+    "id": "home_principles_inclusivity",
+    "translation": "包括性とはマルチステークホルダーシステムを指し、様々なユーザーやその意見が活用されるよう努力がなされるべきです"
+  },
+  {
+    "id": "home_principles_bound",
+    "translation": "私たちは次の原則に従います。"
+  },
+  {
+    "id": "home_principles_equitable",
+    "translation": "これらの原則はステークホルダー全員に平等な力が与えられ、自律的な非中央集中の通貨であることを目標とするDecredの公平で持続可能なフレームワークを構築するために確立されました。"
+  },
+  {
+    "id": "home_guide_0",
+    "translation": "This tour will help you get started with Decred"
+  },
+  {
+    "id": "home_guide_1",
+    "translation": "概要"
+  },
+  {
+    "id": "home_guide_2",
+    "translation": "Decredはマルチプラットフォームに対応しており、Windows、MacOS、Linuxで利用できます。ウォレットアプリを使えば、数クリックでDecredの送受信やマイニングができます。"
+  },
+  {
+    "id": "home_guide_3",
+    "translation": "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
+  },
+  {
+    "id": "home_guide_4",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_5",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_6",
+    "translation": "基本事項"
+  },
+  {
+    "id": "home_guide_7",
+    "translation": "<p>Decredは、主に次の3つの方法でご利用いただけます。</p>\n\t\t<p><strong>ウォレット</strong> - ファンドの送受信とPoSマイニングへの参加など。</p>\n\t\t<p><strong>Proof-of-Workマイニング</strong> - コンピューターパワーを利用してネットワーク上のトランザクションを検証し、新しいDecredトークンを生成。</p>\n\t\t<p><strong>Proof-of-Stakeマイニング</strong> - ファンドを利用して、重要なネットワーク開発案件のための投票や取引の検証を行い報酬を獲得。</p>"
+  },
+  {
+    "id": "home_guide_8",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_9",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_10",
+    "translation": "The Wallet"
+  },
+  {
+    "id": "home_guide_11",
+    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a> is a cross-platform GUI wallet for Decred. Available for Windows, MacOS, and Linux users.</p><p><a href=\"downloads/#cli\">Command-line wallet and utilities</a> are also available for a variety of platforms.</p><p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Beginner’s Guide</a>.</p>"
+  },
+  {
+    "id": "home_guide_12",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_13",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_14",
+    "translation": "Decredの送受信"
+  },
+  {
+    "id": "home_guide_15",
+    "translation": "<p>資金の送受信には、アドレスが必要です。Decredウォレットで簡単に発行することができます。Decredのアドレスは、いずれも<a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\">Dから始まり、26～36 桁の英数字が使用されています</a>。</p>\n\t\t<p>取引は約５分で完了し、ウォレットに反映されます。ネットワーク維持のため少額の手数料がかかります。手数料は取引金額に追加され、100DCRの送金であれば約0.006DCRの手数料がかかります。</p>\n\t\t<p>ブロックは<a href=\"https://mainnet.decred.org\" target=\"_blank\">mainnet.decred.org</a>および<a href=\"https://explorer.dcrdata.org\" target=\"_blank\">explorer.dcrdata.org</a>を確認し、ユーザーはDecredですべてのブロックと取引を検索することができます。</p>"
+  },
+  {
+    "id": "home_guide_16",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_17",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_18",
+    "translation": "Mining"
+  },
+  {
+    "id": "home_guide_19",
+    "translation": "<p>マイニングとは、Decredネットワークの取引を検証し正当性を維持するための作業です。マイニング作業の報酬として新たに発行されたDecredトークンがマイナーに支払われます。</p>\n\t\t<p>Decredには、Proof-of-Work (PoW) と Proof-of-Stake (PoS)という2つの取引検証方法があります。</p>"
+  },
+  {
+    "id": "home_guide_20",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_21",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_22",
+    "translation": "Proof-of-Work マイニング"
+  },
+  {
+    "id": "home_guide_23",
+    "translation": "<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work(PoW)</a>では取引はブロックに分けられ、PoWマイナーによって検証されます。検証されたブロックはDecredのネットワークに永久的に保存されます。</p>\n\t\t<p>計算資源をネットワークに提供することでマイナーになることができます。マイナーはその報酬としてDecredを受け取ります。</p>\n\t\t<p>効率や利便性を求める場合は、<a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">マイニングプール</a>に参加することが可能です。プールとは、作業や報酬をシェアするマイナーたちのグループです。小規模マイニングで一定の報酬を得るには、マイニングプールへの参加がおすすめです。</p>"
+  },
+  {
+    "id": "home_guide_24",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_25",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_26",
+    "translation": "Proof-of-Stake マイニング"
+  },
+  {
+    "id": "home_guide_27",
+    "translation": "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\" rel=\"noopener noreferrer\">Proof-of-stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. In every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p><p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\" rel=\"noopener noreferrer\">Pools - called Voting Service Providers (VSPs) - are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+  },
+  {
+    "id": "home_guide_28",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_29",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_30",
+    "translation": "Decredの購入および取引"
+  },
+  {
+    "id": "home_guide_31",
+    "translation": "<p>Decredはまだ新しく、Bitcoinを用いて購入するのが現時点でDecredを購入する最も簡単な方法です。 <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\">Bitcoinを所有することで</a>、Decredを<a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\">取引所</a>で取引することが可能になります。</p>"
+  },
+  {
+    "id": "home_guide_32",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_33",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_34",
+    "translation": "コミュニティに参加"
+  },
+  {
+    "id": "home_guide_35",
+    "translation": "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.We can't wait to meet you!</p>"
+  },
+  {
+    "id": "home_guide_36",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_37",
+    "translation": "戻る"
+  },
+  {
+    "id": "home_guide_38",
+    "translation": "Planned Features"
+  },
+  {
+    "id": "home_guide_39",
+    "translation": "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2018 and early 2019:</p><ul><li>Lightning network</li><li>Initial privacy release</li><li>Decentralized control of funds</li><li>Decentralized autonomous entities</li><li>Scalability optimizations</li><li>Decrediton integrations</li><li>Marketing growth</li><li>Proposal for a Decentralized Exchange</li></ul><p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+  },
+  {
+    "id": "home_guide_40",
+    "translation": "次へ"
+  },
+  {
+    "id": "home_guide_41",
+    "translation": "戻る"
+  },
+  {
+    "id": "downloads_description",
+    "translation": "If you are new to Decred, be sure to read the <a href=\"../#guide\">Getting Started Tour</a> or the <a href=\"../#platform\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">Binary Verification</a> steps to verify the checksums."
+  },
+  {
+    "id": "downloads_category_core",
+    "translation": "Core software"
+  },
+  {
+    "id": "downloads_category_mining_software",
+    "translation": "Mining software"
+  },
+  {
+    "id": "downloads_category_3rd_party_wallets",
+    "translation": "3rd party wallets"
+  },
+  {
+    "id": "downloads_app_decrediton",
+    "translation": "Windows、macOS、Linux対応グラフィックUIウォレット"
+  },
+  {
+    "id": "downloads_app_commandline",
+    "translation": "A cross-platform, automatic installer/updater for the command-line applications."
+  },
+  {
+    "id": "downloads_app_gominer",
+    "translation": "AMD/NVIDIA GPU対応CUDA/OpenCLマイナー。Decredチームによる公式サポート有り。"
+  },
+  {
+    "id": "downloads_app_ccminer",
+    "translation": "NVIDIA GPU対応サードパーティ製CUDAマイナー。Decredチームによるサポートはありません。"
+  },
+  {
+    "id": "downloads_app_sgminer",
+    "translation": "AMD GPU対応サードパーティ製OpenCLマイナー。Decredチームによるサポートはありません。"
+  },
+  {
+    "id": "downloads_app_exodus",
+    "translation": "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets."
+  },
+  {
+    "id": "downloads_app_coinomi",
+    "translation": "Securely store, manage and exchange Bitcoin, Ethereum, and more than 500 other blockchain assets."
+  },
+  {
+    "id": "downloads_app_bitbill",
+    "translation": "Bitbill is a decentralized cryptocurrency wallet. You own your private keys."
+  },
+  {
+    "id": "downloads_app_anybit",
+    "translation": "Anybit is a mobile wallet available for Android and iOS with built in price and news tracking."
+  },
+  {
+    "id": "downloads_app_atomicwallet",
+    "translation": "Multi-asset desktop wallet with built in exchange via non-custodial atomic swaps and decentralized order book."
+  },
+  {
+    "id": "downloads_app_guarda",
+    "translation": "Guarda is represented by Web, Desktop and Mobile multi-currency wallets."
+  },
+  {
+    "id": "downloads_app_cobo",
+    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens"
+  },
+  {
+    "id": "stakepools_description",
+    "translation": "Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power."
+  },
+  {
+    "id": "stakepools_warning_1",
+    "translation": "<span class=\"modalparagraphbold\">Notice:</span>&nbsp;Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider."
+  },
+  {
+    "id": "stakepools_warning_2",
+    "translation": "<span class=\"modalparagraphbold\">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes."
+  },
+  {
+    "id": "community_description",
+    "translation": "Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. The public channels on Matrix, Slack, and Discord have been bridged. You can choose any of these platforms and still participate in discussions with Decred community members on the others."
+  },
+  {
+    "id": "press_description",
+    "translation": "Decredはシカゴトリビューン、ビットコインマガジン、ナスダックにより主要な仮想通貨プロジェクトとして認められています。以下は最近のメディアでの紹介です。"
+  },
+  {
+    "id": "press_coverage",
+    "translation": "Coverage"
+  },
+  {
+    "id": "press_releases",
+    "translation": "Releases"
+  },
+  {
+    "id": "Business brief",
+    "translation": "会社概要"
+  },
+  {
+    "id": "Decred Recruiting",
+    "translation": "Decred Recruiting"
+  },
+  {
+    "id": "Downloads",
+    "translation": "ダウンロード"
+  },
+  {
+    "id": "Exchanges and Payments",
+    "translation": "Exchanges and Payments"
+  },
+  {
+    "id": "Join our community!",
+    "translation": "コミュニティに参加"
+  },
+  {
+    "id": "Press",
+    "translation": "Press"
+  },
+  {
+    "id": "Roadmap",
+    "translation": "年度予定"
+  },
+  {
+    "id": "Visual communication toolkit",
+    "translation": "ビジュアルコミュニケーションツールキット"
+  },
+  {
+    "id": "Voting Service Providers",
+    "translation": "Voting Service Providers"
+  },
+  {
+    "id": "Who is Decred?",
+    "translation": "Decredとは誰？"
+  },
+  {
+    "id": "Join our Matrix community",
+    "translation": "Join our Matrix community"
+  },
+  {
+    "id": "matrix_to_register_using_the_riot",
+    "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
+  },
+  {
+    "id": "matrix_register_with_riot",
+    "translation": "Register with Riot."
+  },
+  {
+    "id": "matrix_note_you_must_register_with",
+    "translation": "Note: you must register with an email address if you want password resets."
+  },
+  {
+    "id": "matrix_if_you_already_have_an",
+    "translation": "If you already have an existing Matrix account, use the link below to log into Decred’s homeserver."
+  },
+  {
+    "id": "matrix_login_to_decred_homeserver",
+    "translation": "Login to Decred homeserver"
+  },
+  {
+    "id": "matrix_to_browse_decred_rooms_click",
+    "translation": "To browse Decred rooms, click the directory button in the ‘Rooms’ panel on the left-hand side."
+  },
+  {
+    "id": "matrix_decred_rooms",
+    "translation": "Decred Rooms"
+  },
+  {
+    "id": "matrix_to_browse_other_available_matrix",
+    "translation": "To browse other available Matrix clients and home servers, see the <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix Getting Started page</a>."
+  },
+  {
+    "id": "matrix_matrix_is_a_secure_open",
+    "translation": "<p>Matrix is a secure, open messaging platform popular with Decred contractors. With the help of bridge software Matrix users can communicate with users on other Decred platforms such as Slack and Discord. Matrix offers first party registration; no identifying information or third party service is required to sign up. Users should be aware however that some features, such as password reset, do require an email address. For more on Matrix’s security features and available clients, see the Matrix project <a href=\"https://matrix.org/blog/home/\">homepage</a>.</p>\n\n<p>To join Matrix, you’ll need to choose a client and a homeserver. Matrix supports numerous clients and homeservers, but for first-time users, we recommend the most well-supported Matrix client, Riot, and Decred’s homeserver. Using the Decred homeserver makes it easier to find Decred chat rooms, puts ‘decred.org’ in your ID, and allows you to continue messaging should Decred’s homeserver become disconnected with other homeservers.</p>"
+  }
+]

@@ -1,0 +1,29 @@
+
+
+{{ define "fronta"  }}
+<div class="fronta subpage video-header">
+    <div class="_960 subpage-header">
+        <a href="{{ "/" | absLangURL  }}" class="subpage-logo w-inline-block"></a>
+    </div>
+    <div class="_960 subpage-header">
+        <div class="subpage-title">404</div>
+    </div>
+</div>
+{{ end }}
+
+
+{{ define "main" }}
+<div class="full-width">
+    <div class="_960">
+        <div class="subpage-content-section">
+            <div class="subpage-content-header">
+                <div class="subpage-description">
+                    <div class="text-block-5">{{ T "Page not found" }}</div>
+                    <br>
+                    <a href="{{ "/" | absLangURL }}">{{ T "Back to home page" }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

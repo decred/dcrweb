@@ -1,0 +1,27 @@
+-
+  name: Circle
+  url: "https://www.circletrade.com"
+  tags: ""
+  logo_src: "circle.jpg"
+  logo_srcset: "/images/circle-p-500.jpg 500w, /images/circle.jpg 608w"
+-
+  name: "i2 Trading"
+  url: "https://i2trading.com/"
+  tags: ""
+  logo_src: "i2trading.jpg"
+  logo_srcset: "/images/i2trading-p-500.jpg 500w, /images/i2trading.jpg 608w"
+-
+  name: Cumberland
+  url: "https://cumberlandmining.com/"
+  tags: ""
+  logo_src: "cumberland.jpg"
+-
+  name: "OneChain Capital"
+  url: "https://onechaincapital.com/"
+  tags: ""
+  logo_src: "onechaincapital.jpg"
+-
+  name: Kryptonite
+  url: "https://www.kryptonite.li/"
+  tags: ""
+  logo_src: "kryptonite.jpg"

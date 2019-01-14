@@ -1,0 +1,58 @@
+
+
+
+{{ $companies := .Site.Data.contributors.companies }}
+{{ $items := index .Site.Data.contributors.people  }}
+
+{{ range $items }}
+    {{ $company := "" }}
+    {{ $company_name := "" }}
+    {{ if ne .company_id nil }}
+        {{ $company = index $companies .company_id  }}
+        {{ $company_name = $company.name }}
+    {{ end }}
+
+    <div data-id="{{ .name }}" data-slack="{{ .slack_alias }}"  data-corporate-id="{{ $company_name }}" data-filter="{{ .group }}" class="team-member w-clearfix">
+        <div class="team-member-avatar"><img alt="" src="/images/{{ .avatar_image }}" class="image"></div>
+        <div class="team-member-name">{{ .name }}</div>
+        <div class="team-member-title">{{ .title }}</div>
+        {{ if ne $company "" }}
+            <a target="_blank" rel="noopener noreferrer" href="{{ $company.url }}" class="team-corporate-logo w-inline-block">
+                <img alt="" src="/images/{{ $company.logo }}">
+            </a>
+        {{ end }}
+
+        <div class="team-member-social">
+            {{ if ne .slack_alias nil }}
+            <a target="_blank" rel="noopener noreferrer" href="https://decred.slack.com/team/{{ .slack_alias }}" class="slack team-member-social-link w-inline-block">
+                <img alt="" src="/images/team_slack.svg" class="team-member-social-link-image">
+            </a>
+            {{ end }}
+
+            {{ if ne .twitter_alias nil }}
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ .twitter_alias }}" class="twitter team-member-social-link w-inline-block">
+                <img alt="" src="/images/team_twitter.svg" class="team-member-social-link-image">
+            </a>
+            {{ end }}
+
+            {{ if ne .linkedin_url nil }}
+            <a target="_blank" rel="noopener noreferrer" href="{{ .linkedin_url }}" class="linkedin team-member-social-link w-inline-block">
+                <img alt="" src="/images/team_linkedin.svg" class="team-member-social-link-image">
+            </a>
+            {{ end }}
+
+            {{ if ne .github_id nil }}
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ .github_id }}" class="team-member-social-link w-inline-block">
+                <img alt="" src="/images/team_github.svg" class="team-member-social-link-image">
+            </a>
+            {{ end }}
+
+            {{ if ne .medium_alias nil }}
+            <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@{{ .medium_alias }}" class="medium team-member-social-link w-inline-block">
+                <img alt="" src="/images/team_medium.svg" class="team-member-social-link-image">
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+{{ end }}

@@ -1,28 +1,30 @@
-# Build image
-FROM node:10.15.0
+# builder image
+FROM golang
 
-LABEL description="dcrweb build"
+LABEL description="gohugo build"
 LABEL version="1.0"
-LABEL maintainer "holdstockjamie@gmail.com"
+LABEL maintainer="peter@froggle.org"
 
-USER root
+WORKDIR /tmp
+
+RUN wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_extended_0.53_Linux-64bit.tar.gz
+RUN tar xz -C /usr/local/bin -f  hugo_extended_0.53_Linux-64bit.tar.gz
+
 WORKDIR /root
 
-COPY ./ /root
+COPY src/ /root/
 
-RUN yarn global add grunt
+RUN hugo
 
-RUN yarn install && \
-    yarn run deploy:build 
 
-# Final image
-FROM httpd:2.4
 
-LABEL description="dcrweb serve"
+# final image
+FROM nginx
+
+LABEL description="dcrweb server"
 LABEL version="1.0"
-LABEL maintainer "holdstockjamie@gmail.com"
+LABEL maintainer="peter@froggle.org"
 
-COPY --from=0 /root/docker-build/ /usr/local/apache2/htdocs/
+COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY runtime/httpd.conf        /usr/local/apache2/conf
-COPY runtime/httpd-foreground  /usr/local/bin/
+COPY --from=0 /root/public/ /usr/share/nginx/html

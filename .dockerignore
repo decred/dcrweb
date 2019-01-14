@@ -2,7 +2,7 @@
 .vscode/
 .git/
 .tmp/
-node_modules/
-docker_build/
-build_docker.sh
-build/
+transifex_catalogs/
+bin/
+resources/
+public/

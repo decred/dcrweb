@@ -1,0 +1,10 @@
+<a href="{{ .card.url }}" target="_blank" rel="noopener noreferrer" data-groups="[&quot;{{ delimit .card.tags "&quot;,&quot;" }}&quot;]" class="filter-card w-inline-block">
+    <div class="filter-card-image-wrap"><img alt="" src="/images/{{ .card.logo_src }}" srcset="{{ .card.image_srcset }}" sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" class="filter-card-image"></div>
+    <div class="filter-card-footer w-clearfix">
+        <div class="filter-card-title">{{ .card.name }}</div>
+        {{ range .card.tags }}
+            {{ $tag := index .all_tags }}
+            <div tail="{{ $tag }}" class="filter-button {{ . }} is-checked"></div>
+        {{ end }}
+    </div>
+</a>
