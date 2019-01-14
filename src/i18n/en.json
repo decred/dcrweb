@@ -758,5 +758,45 @@
   {
     "id": "Who is Decred?",
     "translation": "Who is Decred?"
+  },
+  {
+    "id": "Join our Matrix community",
+    "translation": "Join our Matrix community"
+  },
+  {
+    "id": "matrix_to_register_using_the_riot",
+    "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
+  },
+  {
+    "id": "matrix_register_with_riot",
+    "translation": "Register with Riot."
+  },
+  {
+    "id": "matrix_note_you_must_register_with",
+    "translation": "Note: you must register with an email address if you want password resets."
+  },
+  {
+    "id": "matrix_if_you_already_have_an",
+    "translation": "If you already have an existing Matrix account, use the link below to log into Decred’s homeserver."
+  },
+  {
+    "id": "matrix_login_to_decred_homeserver",
+    "translation": "<a href=\"https://matrix.to/#/+decred:decred.org\">Login to Decred homeserver</a>"
+  },
+  {
+    "id": "matrix_to_browse_decred_rooms_click",
+    "translation": "To browse Decred rooms, click the directory button in the ‘Rooms’ panel on the left-hand side."
+  },
+  {
+    "id": "matrix_decred_rooms",
+    "translation": "Decred Rooms"
+  },
+  {
+    "id": "matrix_to_browse_other_available_matrix",
+    "translation": "To browse other available Matrix clients and home servers, see the <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix Getting Started page</a>."
+  },
+  {
+    "id": "matrix_matrix_is_a_secure_open",
+    "translation": "<p>Matrix is a secure, open messaging platform popular with Decred contractors. With the help of bridge software Matrix users can communicate with users on other Decred platforms such as Slack and Discord. Matrix offers first party registration; no identifying information or third party service is required to sign up. Users should be aware however that some features, such as password reset, do require an email address. For more on Matrix’s security features and available clients, see the Matrix project <a href=\"https://matrix.org/blog/home/\">homepage</a>.</p>\n\n<p>To join Matrix, you’ll need to choose a client and a homeserver. Matrix supports numerous clients and homeservers, but for first-time users, we recommend the most well-supported Matrix client, Riot, and Decred’s homeserver. Using the Decred homeserver makes it easier to find Decred chat rooms, puts ‘decred.org’ in your ID, and allows you to continue messaging should Decred’s homeserver become disconnected with other homeservers.</p>"
   }
 ]
