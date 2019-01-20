@@ -7,18 +7,55 @@ This is the code for the [decred.org](https://www.decred.org) website.
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 
-## Localization
-
-The below commands must be run when either the content changes or there are updates in the translations in Transifex.  You'll first need to install the [Transifex client](https://docs.transifex.com/client/installing-the-client).
-
 #### Downloading web site code
 
 Make sure you have [git](https://git-scm.com/) installed.
 
 ```sh
 git clone https://github.com/decred/dcrweb
-cd dcrweb;
 ```
+
+## Development
+
+1. Install prerequisites:
+
+   * [Hugo](https://gohugo.io/)
+   * Docker
+
+2. Clone repo
+    ```sh
+    git clone https://github.com/decred/dcrweb
+    cd dcrweb
+    ```
+
+3. Start development web server:
+    ```sh
+    bin/watch.sh
+    ```
+
+You should now be able to access the site at `http://localhost:1313`
+
+#### Editing content
+
+`dcrweb` is built using the [Hugo](https://gohugo.io/) site generator framework.  The most frequently updated content sections live in the below locations:
+
+
+| Section | File | Comments |
+| --- | --- | --- | 
+| Press releases | `src/content/press/*.md` | When adding a new release, please follow the file naming convention in the directory.
+| Press coverage | `src/data/press/coverage.yml` ||
+| Download links | `src/data/downloads/links.yml` ||
+| Current release | `src/data/downloads/current_release.yml` | The current release as it appears in the footer|
+| Contributors      |  `src/data/contributors/*.yml` ||
+| Community channels    | `src/data/community/channels.yml` ||
+| Exchanges             | `src/data/exchanges.*.yml` ||
+
+The other sections live under `src/layouts`.  These pages are implemented as [Hugo templates](https://gohugo.io/templates/) and are [localized](https://gohugo.io/content-management/multilingual/#translation-of-strings).  The message catalogs can be found in `src/i18n`, when making changes in the templates, you'll want to keep the strings in the catalogs, please follow the naming scheme in the existing templates.    
+
+## Localization
+
+The below commands must be run when either the content changes or there are updates in the translations in Transifex.  You'll first need to install the [Transifex client](https://docs.transifex.com/client/installing-the-client).
+
 
 #### Importing new translations and content updates
 
@@ -83,26 +120,6 @@ docker run -d --rm -p <local port>:80 decred/dcrweb:latest
 ```
 
 Runs the docker image exposing the specified local port.
-
-## Development
-
-1. Install prerequisites:
-
-   * [Hugo](https://gohugo.io/)
-   * Docker
-
-2. Clone repo
-    ```sh
-    git clone https://github.com/decred/dcrweb
-    cd dcrweb
-    ```
-
-3. Start development web server:
-    ```sh
-    bin/watch.sh
-    ```
-
-You should now be able to access the site at `http://localhost:1313`
 
 ## License
 
