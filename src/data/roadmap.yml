@@ -14,7 +14,7 @@
   image: "roadmap/designCompleted.svg"
   title: "UI/UX and Onboarding"
   date: "Completed Q4 2017"
-  description: "Decrediton received major design updates for consistent looks and structure, improved accessibility and logical interactions. Over several releases, the staking and onboarding experiences were improved. Initial motion design and UI for several new features were implemented."
+  description: "Decrediton received major design updates for consistent looks and structure, improved accessibility and logical interactions. Over several releases, the voting and onboarding experiences were improved. Initial motion design and UI for several new features were implemented."
   link: "https://forum.decred.org/threads/dd-27-v1-1-2-12-15-17.5820/"
 - tags: completed
   image: "roadmap/marketingCompleted.svg"
@@ -56,7 +56,7 @@
   image: "roadmap/diffAlgorythmCompleted.svg"
   title: "DCP-0001 - Improve Ticket Pricing Algorithm"
   date: "Completed 2017-07-09"
-  description: "This was the first enhancement implemented via an on-chain consensus vote. It improved the pricing algorithm for tickets, which resulted in a more intuitive staking experience. Prior to this, ticket prices would fluctuate rapidly between low and high, causing periods where fees had to be increased."
+  description: "This was the first enhancement implemented via an on-chain consensus vote. It improved the pricing algorithm for tickets, which resulted in a more intuitive voting experience. Prior to this, ticket prices would fluctuate rapidly between low and high, causing periods where fees had to be increased."
   link: "https://blog.decred.org/2017/04/03/A-New-Ticket-Price-Algorithm/"
 - tags: completed
   image: "roadmap/atomicSwapsComplete.svg"
