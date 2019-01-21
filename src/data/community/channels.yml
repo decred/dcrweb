@@ -1,0 +1,65 @@
+-
+  url: "/matrix/"
+  img_src: "/images/dcr-community-platforms-matrix.png"
+  img_srcset: "/images/dcr-community-platforms-matrix-p-500.png 500w, /images/dcr-community-platforms-riotim-p-800.png 800w, /images/dcr-community-platforms-matrix-p-1080.png 1080w, /images/dcr-community-platforms-matrix.png 1200w"
+  name: "Matrix (via Riot.im)"
+-
+  url: "https://discord.gg/GJ2GXfz"
+  img_src: "/images/dcr-community-platforms-discord.png"
+  img_srcset: "/images/dcr-community-platforms-discord-p-500.png 500w, /images/dcr-community-platforms-discord-p-800.png 800w, /images/dcr-community-platforms-discord-p-1080.png 1080w, /images/dcr-community-platforms-discord.png 1200w"
+  name: Discord
+-
+  url: "https://slack.decred.org"
+  img_src: "/images/dcr-community-platforms-slack.png"
+  img_srcset: "/images/dcr-community-platforms-slack-p-500.png 500w, /images/dcr-community-platforms-slack-p-800.png 800w, /images/dcr-community-platforms-slack-p-1080.png 1080w, /images/dcr-community-platforms-slack.png 1200w"
+  name: Slack
+-
+  url: "https://webchat.freenode.net/?channels=decred&uio=d4"
+  img_src: "/images/dcr-community-platforms-irc.png"
+  img_srcset: "/images/dcr-community-platforms-irc-p-500.png 500w, /images/dcr-community-platforms-irc-p-800.png 800w, /images/dcr-community-platforms-irc-p-1080.png 1080w, /images/dcr-community-platforms-irc.png 1200w"
+  name: IRC
+-
+  url: "https://t.me/decred"
+  img_src: "/images/dcr-community-platforms-telegram.png"
+  img_srcset: "/images/dcr-community-platforms-telegram-p-500.png 500w, /images/dcr-community-platforms-telegram-p-800.png 800w, /images/dcr-community-platforms-telegram-p-1080.png 1080w, /images/dcr-community-platforms-telegram.png 1200w"
+  name: Telegram
+-
+  url: "https://open.kakao.com/o/gltZ30A"
+  img_src: "/images/dcr-community-platforms-kakaotalk.png"
+  img_srcset: "/images/dcr-community-platforms-kakaotalk-p-500.png 500w,  /images/dcr-community-platforms-kakaotalk-p-800.png 800w,  /images/dcr-community-platforms-kakaotalk-p-1080.png 1080w, /images/dcr-community-platforms-kakaotalk.png 1200w"
+  name: KakaoTalk
+-
+  url: "https://twitter.com/decredproject"
+  img_src: "/images/dcr-community-platforms-twitter.png"
+  img_srcset: "/images/dcr-community-platforms-twitter-p-500.png 500w, /images/dcr-community-platforms-twitter-p-800.png 800w, /images/dcr-community-platforms-twitter-p-1080.png 1080w, /images/dcr-community-platforms-twitter.png 1200w"
+  name: Twitter
+-
+  url: "https://facebook.com/decredproject"
+  img_src: "/images/dcr-community-platforms-facebook.png"
+  img_srcset: "/images/dcr-community-platforms-facebook-p-500.png 500w, /images/dcr-community-platforms-facebook-p-800.png 800w, /images/dcr-community-platforms-facebook-p-1080.png 1080w, /images/dcr-community-platforms-facebook.png 1200w"
+  name: Facebook
+-
+  url: "https://reddit.com/r/decred"
+  img_src: "/images/dcr-community-platforms-reddit.png"
+  img_srcset: "/images/dcr-community-platforms-reddit-p-500.png 500w, /images/dcr-community-platforms-reddit-p-800.png 800w, /images/dcr-community-platforms-reddit-p-1080.png 1080w, /images/dcr-community-platforms-reddit.png 1200w"
+  name: Reddit
+-
+  url: "https://www.youtube.com/decredchannel"
+  img_src: "/images/dcr-community-platforms-youtube.png"
+  img_srcset: "/images/dcr-community-platforms-youtube-p-500.png 500w, /images/dcr-community-platforms-youtube-p-800.png 800w, /images/dcr-community-platforms-youtube-p-1080.png 1080w, /images/dcr-community-platforms-youtube.png 1200w"
+  name: YouTube
+-
+  url: "https://medium.com/decred"
+  img_src: "/images/dcr-community-platforms-medium.png"
+  img_srcset: "/images/dcr-community-platforms-medium-p-500.png 500w, /images/dcr-community-platforms-medium-p-800.png 800w, /images/dcr-community-platforms-medium-p-1080.png 1080w, /images/dcr-community-platforms-medium.png 1200w"
+  name: Medium
+-
+  url: "#"
+  img_src: "/images/dcr-community-platforms-wechat.png"
+  img_srcset: "/images/dcr-community-platforms-wechat-p-500.png 500w, /images/dcr-community-platforms-wechat-p-800.png 800w, /images/dcr-community-platforms-wechat-p-1080.png 1080w, /images/dcr-community-platforms-wechat.png 1200w"
+  name: WeChat
+-
+  url: "https://weibo.com/DecredProject"
+  img_src: "/images/dcr-community-platforms-weibo.png"
+  img_srcset: "/images/dcr-community-platforms-weibo-p-500.png 500w, /images/dcr-community-platforms-weibo-p-800.png 800w, /images/dcr-community-platforms-weibo-p-1080.png 1080w, /images/dcr-community-platforms-weibo.png 1200w"
+  name: Weibo

@@ -1,0 +1,45 @@
+<div class="_960">
+    <div class="navigation w-clearfix">
+        <div class="navigation-button">
+            <div class="nav-open-close"></div>
+        </div>
+
+        {{ if .IsHome }}
+            {{ partial "lang-selector.html" . }}
+        {{ end }}
+
+        <div class="link-section">
+            <div class="nav-links-wrap w-clearfix">
+                <div class="navigation-group-title">{{ T "nav_whatis"  }}</div>
+                <a href="{{ "#mission" | relLangURL }}" class="navigation-link">{{ T "nav_mission" }}</a>
+                <a href="{{ "#platform" | relLangURL }}" class="navigation-link">{{ T "nav_platform" }}</a>
+                <a href="{{ "#guide" | relLangURL }}" class="navigation-link">{{ T "nav_getstarted" }}</a>
+                <div class="navigation-group-title whitespace">{{ T "nav_interacting" }}</div>
+                <a href="{{ "downloads/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a>
+                <a href="https://proposals.decred.org/" class="navigation-link external">{{ T "nav_politeia" }}</a>
+                <a href="{{ "stakepools/" | relLangURL }}" class="navigation-link">{{ T "nav_vsp" }}</a>
+                <a href="https://stats.decred.org/" class="navigation-link external">{{ T "nav_networkstats" }}</a>
+                <a href="https://voting.decred.org/" class="navigation-link external">{{ T "nav_votingdashboard" }}</a>
+                <a href="https://docs.decred.org/" class="navigation-link external">{{ T "nav_documentation" }}</a>
+                <a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a>
+                <a href="{{ "contributors/" | relLangURL }}" class="navigation-link">{{ T "nav_contributors" }}</a>
+                <a href="{{ "exchanges/" | relLangURL }}" class="navigation-link">{{ T "nav_exchanges" }}</a>
+                <a href="{{ "roadmap/" | relLangURL }}" class="navigation-link">{{ T "nav_roadmap" }}</a>
+                <a href="{{ "press/" | relLangURL }}" class="navigation-link">{{ T "nav_press" }}</a>
+            </div>
+            <div class="nav-social w-clearfix">
+                <a href="https://slack.decred.org/" class="nav-slack nav-social-link w-inline-block"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://webchat.freenode.net/?channels=decred&amp;uio=d4" class="nav-irc nav-social-link w-inline-block"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter w-inline-block"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" class="nav-github nav-social-link w-inline-block"></a>
+                <a href="https://www.reddit.com/r/decred/" target="_blank" rel="noopener noreferrer" class="nav-reddit nav-social-link w-inline-block"></a>
+                <a href="https://www.youtube.com/decredchannel" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-youtube w-inline-block"></a>
+                <a href="https://medium.com/decred" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-medium w-inline-block"></a>
+                <br>
+                <div class="nav-social-localized" translate>
+                    <!-- localized social media links -->
+                </div>
+                <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="nav-dcr-dev-link">{{ T "general_copyright"  }}</a></div>
+        </div>
+    </div>
+</div>

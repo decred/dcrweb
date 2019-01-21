@@ -1,0 +1,23 @@
+
+
+{{ define "content-top" }}
+    <div class="tail"></div>
+{{ end }}
+
+
+{{ define "main" }}
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section ex">
+                    {{ partial "exchanges-grid" . }}
+            </div>
+        </div>
+    </div>
+{{end}}
+
+{{ define "custom-assets" }}
+    <script src="/js/pts5.js"></script>
+    <script src="/js/jquery.shuffle.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/main-ex.js"></script>
+{{ end }}

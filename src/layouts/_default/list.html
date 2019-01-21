@@ -1,0 +1,110 @@
+{{ define "content-top" }}
+    <div class="preload-on-background"></div>
+    <div class="bg w-clearfix">
+        <div class="bg-gradient">
+            <div class="bg-gradient-ghost"></div>
+        </div>
+        <div class="bg-illustration">
+            <div class="active bg-illustration-ghost"></div>
+        </div>
+    </div>
+{{ end }}
+
+
+
+{{ define "fronta" }}
+
+    {{ if .IsHome }}
+
+        {{ $download_links := where (index .Site.Data.downloads.links "decrediton") "is_direct_download" true }}
+
+        <div class="fronta">
+            <div class="full-width">
+                <div class="_960 firstview">
+                    <div class="firstview-left">
+                        <div class="logo"></div>
+                        <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralised <span class="fontsemibold">CREDIT</span>»</div>
+                        <div class="description font38">{{ T "home_mainheading" }}</div>
+
+                        <div class="first-view-buttons w-clearfix">
+                            <a href="{{ "/downloads" | relLangURL }}" class="button download-wallet w-button alldl">
+                                <span>{{ T "home_download_wallet" }}</span>
+                            </a>
+                            <div class="button os-specific alldl">{{ T "home_for_computer" }}</div>
+
+                            {{ range $download_links }}
+                                <a href="{{ .url }}" class="button download-wallet w-button {{ .platform }}">
+                                    <span>{{ T "home_download_wallet" }}</span>
+                                </a>
+                                <div class="button os-specific {{ .platform }}">
+                                    {{ $msg_id := print "home_decrediton_for_" .platform }}
+                                    <span>{{ T $msg_id  }}</span>
+                                </div>
+                            {{ end }}
+
+                            <a href="{{ "/downloads" | relLangURL }}" class="button all-downloads w-button">{{ T "home_all_downloads" }} →</a>
+                        </div>
+
+                        <div class="mobile-play-button">
+                            <a href="https://www.youtube.com/watch?v=GAMp5V_gG1E">{{ T "home_watch_video" }}</a>
+                        </div>
+                    </div>
+                    <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+  {{ if .IsHome }}
+
+        <div class="full-width politeia-notice">
+            <div class="_960">
+                {{ partial "home/politeia_notice.html" . }}
+            </div>
+        </div>
+
+        <div class="full-width">
+            <div class="_960">
+                <div id="mission" class="mission">
+                    {{ partial "home/mission.html" . }}
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width">
+            <div class="_960">
+                <div class="quotes">
+                    {{ partial "home/quotes.html" . }}
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width gray-bg">
+            <div class="_960">
+                <div id="platform" class="platform">
+                    {{ partial "home/platform.html" . }}
+                </div>
+            </div>
+        </div>
+
+        <div class="dark-gray-bg full-width">
+            <div class="_960">
+                <div class="principles">
+                    {{ partial "home/principles.html" . }}
+                </div>
+            </div>
+        </div>
+
+        <div class="guide" id="guide">
+            <div class="centerblock width940">
+                {{ partial "home/guide.html" . }}
+            </div>
+        </div>
+
+  {{ end }}
+
+{{ end }}
+

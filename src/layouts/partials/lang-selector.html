@@ -1,0 +1,8 @@
+<div class="lang-menu w-clearfix">
+    <div class="lang-current">{{ .Site.Language.LanguageName }}</div>
+    <div class="lang-select" id="language-selector">
+        {{ range $.Site.Home.AllTranslations }}
+        <a class="lang-selection" href="{{ .Permalink }}" data-language="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+    </div>
+</div>

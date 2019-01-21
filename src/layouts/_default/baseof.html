@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="nojs" lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
+
+  {{ partial "head.html" . }}
+
+  <body class="body">
+
+    {{ if .IsHome }}
+
+        {{ block "content-top" . -}}{{- end }}
+
+        {{ block "fronta" . }}
+            <div class="fronta subpage video-header">
+                <video autoplay loop muted poster="/videos/headers/{{ .Section }}/fallback.jpg">
+                    <source src="/videos/headers/{{ .Section }}/video.mp4" type="video/mp4">
+                    <source src="/videos/headers/{{ .Section }}/video.webm" type="video/webm">
+                    <source src="/videos/headers/{{ .Section }}/video.ogv" type="video/ogg">
+                </video>
+                <div class="_960 subpage-header">
+                    <a href="{{ "/" | absLangURL  }}" class="subpage-logo w-inline-block"></a>
+                </div>
+                <div class="_960 subpage-header">
+                    <div class="subpage-title">{{ T .Title }}</div>
+                </div>
+            </div>
+        {{ end }}
+
+        <div class="below">
+          {{ block "main" . -}}{{- end }}
+          {{ partial "footer.html" . }}
+        </div>
+
+    {{ else }}
+
+        {{ block "content-top" . }}{{ end }}
+
+        {{ block "fronta" . -}}{{- end }}
+
+        <div class="below subpage {{ .Section }}">
+          {{ block "main" . -}}{{- end }}
+          {{ partial "footer.html" . }}
+        </div>
+    {{ end }}
+
+    {{ partial "navbar.html" . }}
+
+    {{ if .IsHome }}
+        {{ partial "video-modal.html" . }}
+    {{ end }}
+
+    {{ partial "footer-assets.html" . }}
+
+    {{ block "custom-assets" . -}}{{- end }}
+
+  </body>
+</html>

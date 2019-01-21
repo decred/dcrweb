@@ -1,8 +1,10 @@
 [main]
 host = https://www.transifex.com
 
-[dcrweb-2-0.website]
-file_filter = src/i18n/po/<lang>.po
-source_file = src/i18n/po/template.pot
+[dcrweb-hugo.en-json]
+file_filter = transifex_catalogs/<lang>.json
+minimum_perc = 0
+source_file = transifex_catalogs/en.json
 source_lang = en
-type = PO
+type = KEYVALUEJSON
+

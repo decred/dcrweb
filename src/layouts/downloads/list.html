@@ -1,0 +1,49 @@
+
+
+{{ define "main" }}
+
+    {{ $apps := .Site.Data.downloads.apps }}
+
+    <div class="full-width">
+        <div class="_960">
+            <div class="subpage-content-section">
+                <div class="subpage-description">{{ safeHTML ( T "downloads_description") }}</div>
+                <div class="subpage-content">
+                    {{ range $apps }}
+                    <div class="section-download-page w-clearfix">
+                        <div class="section-title-download-page">
+                            {{ $msg_id := print "downloads_category_" .category }}
+                            {{ T $msg_id  }}
+                        </div>
+                            {{ range .apps }}
+                                <div class="section-card-download-page {{ if ne .is_third_party false }}third-party{{end}}" id="{{ .id }}">
+                                    <div class="{{ .id }} section-card-title-download-page">{{ .name }}</div>
+                                    {{ $msg_id := print "downloads_app_" .id }}
+
+                                    <div class="section-card-description-download">{{ T $msg_id }}</div>
+                                    <div class="section-card-download-links-download-page w-clearfix">
+                                        {{ $links := "" }}
+                                        {{ if eq .links nil }}
+                                            {{ $links = index $.Site.Data.downloads.links .id }}
+                                        {{ else }}
+                                            {{ $links = .links }}
+                                        {{ end }}
+                                        {{ range $links }}
+                                            <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
+                                                {{ .title }}
+                                                {{ if eq .is_direct_download true }} ↓
+                                                {{ else }} →
+                                                {{ end }}
+                                            </a>
+                                            <div class="separator"></div>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{end}}
