@@ -497,7 +497,7 @@
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>Die drei wichtigsten Möglichkeiten, mit Decred zu interagieren, sind:</p>\n\t\t<p><strong>Die Wallet</strong> – Für das Senden und Erhalten von Geldbeträgen sowie die Teilnahme an PoS-Mining.</p>\n\t\t<p><strong>Proof-of-Work-Mining</strong> – Mithilfe von Rechenleistung Transaktionen im Netzwerk validieren und neue Decred-Tokens generieren.</p>\n\t\t<p><strong>Proof-of-Stake-Mining</strong> – Mittel einsetzen, um über wichtige Netzwerkentwicklungsangelegenheiten abzustimmen und Transaktionen gegen Belohnung zu validieren.</p>"
+    "translation": "<p>Die drei wichtigsten Möglichkeiten, mit Decred zu interagieren, sind:</p>\n\t\t<p><strong>Die Wallet</strong> – Für das Senden und Erhalten von Geldbeträgen sowie die Teilnahme an PoS-Mining.</p>\n\t\t<p><strong>Proof-of-Work-Mining</strong> – Mithilfe von Rechenleistung Transaktionen im Netzwerk validieren und neue Decred-Tokens generieren.</p>\n\t\t<p><strong>Proof-of-Stake Voting</strong> – Mittel einsetzen, um über wichtige Netzwerkentwicklungsangelegenheiten abzustimmen und Transaktionen gegen Belohnung zu validieren.</p>"
   },
   {
     "id": "home_guide_8",
@@ -697,7 +697,7 @@
   },
   {
     "id": "downloads_app_cobo",
-    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens"
+    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool voting and over 30 coins and 500 tokens"
   },
   {
     "id": "stakepools_description",

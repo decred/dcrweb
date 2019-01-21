@@ -649,7 +649,7 @@ $(document).ready(function () {
 				},
 			});
 		};
-		if (window.location.href.indexOf('stakepools') != -1) {
+		if (window.location.href.indexOf('vsp') != -1) {
 		stakepoolFinder();
 		};
 
