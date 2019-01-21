@@ -119,7 +119,6 @@ $(document).ready(function () {
 		firstViewLeft = $('.firstview-left'),
 		bgGhost = $('.bg-ghost'),
 		videoModal = $('.video-modal'),
-		videoModalPlayPauseButton = videoModal.find($('.mejs__playpause-button')),
 		videoModalClose = $('.video-modal-close'),
 		bgVideo = $('.bg-video'),
 
@@ -288,9 +287,6 @@ $(document).ready(function () {
 		}
 	});
 
-	// first view
-	videoModalPlayPauseButton.parent().prepend('<a href="#" class="video-modal-close">Close</a>');
-
 	playButton.on('mouseenter', function() {
 		bgIllustrationGhost.removeClass('active');
 		bgGradientGhost.add(firstViewLeft).add(bgVideo).addClass('active');
@@ -298,23 +294,28 @@ $(document).ready(function () {
 		bgIllustrationGhost.addClass('active');
 		bgGradientGhost.add(firstViewLeft).add(bgVideo).removeClass('active');
 	});
-	playButton.add(mobilePlayButton).add($('.video-modal-close')).click( function() {
+	playButton.add(mobilePlayButton).click( function() {
 		if($(this).is(playButton) || $(this).is(mobilePlayButton)) {
-			videoModal.addClass('active');
+			initMediaElement(function(media){
+                videoModal.addClass('active');
+				videoModalPlayPauseButton = videoModal.find($('.mejs__playpause-button'));
+				$('.mejs__controls').prepend('<a href="#" class="video-modal-close">Close</a>');
 
-			// play media element
-			videoModalPlayPauseButton.children().eq(0).click();
-			_paq.push(['trackEvent', 'Video', 'Play', 'Intro']);
-			return false;
-		}
-		if($(this).is($('.video-modal-close'))) {
-			videoModal.removeClass('active');
+				$('.video-modal-close').click(function(){
+					videoModal.removeClass('active');
 
-			// play media element
-			videoModalPlayPauseButton.children().eq(0).click();
-			_paq.push(['trackEvent', 'Video', 'Close', 'Intro']);
-			jQuery.each(mejs.players, function(key, val) {
-				val.pause();
+					// play media element
+					videoModalPlayPauseButton.children().eq(0).click();
+					_paq.push(['trackEvent', 'Video', 'Close', 'Intro']);
+					jQuery.each(mejs.players, function(key, val) {
+						val.pause();
+					});
+					return false;
+				});
+
+				// play media element
+				media.play();
+				_paq.push(['trackEvent', 'Video', 'Play', 'Intro']);
 			});
 			return false;
 		}
