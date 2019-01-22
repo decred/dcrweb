@@ -29,6 +29,12 @@
             </a>
             {{ end }}
 
+            {{ if ne .matrix_url nil }}
+            <a target="_blank" rel="noopener noreferrer" href="{{ .matrix_url }}" class="matrix team-member-social-link w-inline-block">
+                <img alt="" src="/images/team_matrix.svg" class="team-member-social-link-image">
+            </a>
+            {{ end }}
+
             {{ if ne .twitter_alias nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ .twitter_alias }}" class="twitter team-member-social-link w-inline-block">
                 <img alt="" src="/images/team_twitter.svg" class="team-member-social-link-image">
