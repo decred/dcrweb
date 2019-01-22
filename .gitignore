@@ -1,3 +1,4 @@
 dist/
 src/resources/_gen
 src/public/
+node_modules/

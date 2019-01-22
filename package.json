@@ -1,0 +1,23 @@
+{
+  "name": "dcrweb",
+  "version": "1.0.0",
+  "description": "dcrweb",
+  "main": "index.js",
+  "bin": {},
+  "scripts": {
+    "test": "bin/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decred/dcrweb.git"
+  },
+  "author": "Peter Banik <peter@froggle.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decred/dcrweb/issues"
+  },
+  "homepage": "https://github.com/decred/dcrweb#readme",
+  "dependencies": {
+    "html-validator-cli": "^4.1.4"
+  }
+}

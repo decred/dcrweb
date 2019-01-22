@@ -52,6 +52,16 @@ You should now be able to access the site at `http://localhost:1313`
 
 The other sections live under `src/layouts`.  These pages are implemented as [Hugo templates](https://gohugo.io/templates/) and are [localized](https://gohugo.io/content-management/multilingual/#translation-of-strings).  The message catalogs can be found in `src/i18n`, when making changes in the templates, you'll want to keep the strings in the catalogs, please follow the naming scheme in the existing templates.    
 
+## Testing
+
+Before deployment, run the HTML validator to make sure all of the generated files are syntactically correct.  (The script depends on `npm` and `docker` being installed.)
+
+
+```sh
+npm install && npm test
+```
+
+
 ## Localization
 
 The below commands must be run when either the content changes or there are updates in the translations in Transifex.  You'll first need to install the [Transifex client](https://docs.transifex.com/client/installing-the-client).
@@ -89,7 +99,7 @@ A Docker configuration is included for building the deployable images of dcrweb.
 ### Prerequisites
   - docker
 
-### Building the Docker images
+### Building the Docker image for deployment
 
 ```sh
 bin/build.sh
