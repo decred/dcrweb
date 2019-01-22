@@ -99,13 +99,6 @@
   logo_srcset: "/images/tuxexchange-p-500.jpeg 500w, /images/tuxexchange.jpg 608w"
   name: "Tux Exchange"
 -
-  url: "https://www.cryptopia.co.nz/"
-  tags:
-    - all
-  logo_src: "cryptopiacryptopia.jpg"
-  logo_srcset: "/images/cryptopiacryptopia-p-500.jpeg 500w, /images/cryptopiacryptopia.jpg 608w"
-  name: CRYPTOPIA
--
   url: "https://changenow.io"
   tags:
     - fiat
@@ -228,3 +221,9 @@
   logo_src: "easyrabbit.jpg"
   logo_srcset: "/images/easyrabbit-p-500.jpg 500w, /images/easyrabbit.jpg 608w"
   name: "Easyrabbit.net"
+-
+  url: "https://simpleswap.io/"
+  tags:
+    - "instant-exchange"
+  logo_src: "simpleswap.png"
+  name: "Simple Swap"
