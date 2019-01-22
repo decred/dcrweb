@@ -12,13 +12,15 @@
         <div class="subpage-description ex">{{ T "exchanges_description" }}</div>
         <div class="ex-filter w-clearfix">
             <a href="#" data-group="all" class="filter-button all is-checked w-button">{{ T "exchanges_showall" }}</a>
-            {{ range $tags }}
-                <a href="#" data-tail="{{ .name }}" data-group="{{ .id }}" class="filter-button {{  .id }} w-button"></a>
+            {{ range $id, $tag := $tags }}
+                <a href="#"
+                   data-tail="{{ $tag.name }}"
+                   data-group="{{ $id }}"
+                   class="filter-button {{  $id }} w-button"></a>
             {{ end }}
         </div>
     </div>
 </div>
-
 
 <div class="subpage-content exchanges">
     <div class="filter-cards-wrap w-clearfix">
@@ -28,8 +30,10 @@
             <div class="filter-card-image-wrap"><img src="/images/{{ .logo_src }}" {{ if ne .logo_srcset nil }} srcset="{{ .logo_srcset }}"  sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px"  {{end}} class="filter-card-image" alt=""/></div>
             <div class="filter-card-footer w-clearfix">
                 <div class="filter-card-title">{{ .name }}</div>
+
                 {{ range .tags }}
-                {{ $tag := index $tags }}
+                    {{ $tag := index $tags . }}
+                    <div data-tail="{{ $tag.name }}" class="filter-button {{ . }} is-checked"></div>
                 {{ end }}
             </div>
         </a>
