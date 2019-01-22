@@ -46,7 +46,7 @@
   date: "Added Q1 2018"
   description: "Privacy is on the 2018 Roadmap, and work has begun in earnest. More details will be available later in 2018, when working code will be released along with a description of the approach. It will be a different method than those used by existing privacy coins."
   link: "https://twitter.com/decredproject/status/975082629102882816"
-- tags: new
+- tags: ongoing
   image: "roadmap/ticketSplitActive.svg"
   title: "Ticket Splitting"
   date: "Added Q1 2018"
@@ -76,7 +76,7 @@
   date: "Completed Q2 2017"
   description: "Blockchain-based timestamps make it possible to prove that a set of data existed at a certain point in time. dcrtime (Decred specific timestamping) will be a major component of the future proposal system, and also allows for third parties to make use of the service by paying a transaction fee."
   link: "https://github.com/decred/dcrtime"
-- tags: new
+- tags: ongoing
   image: "roadmap/dectrlOfFundsActive.svg"
   title: "Decentralized Control of Dev Funds"
   date: "Added Q1 2018"
@@ -88,18 +88,18 @@
   date: "Added Q1 2018"
   description: "Decred wallet for Android is being developed by Raedah Group. It will employ the novel light wallet (SPV) technology with enhanced privacy called 'compact filters'. Additionally, it will have two other modes of operation: connect to custom node or run a full node for maximum security."
   link: "https://github.com/decred/dcrandroid"
-- tags: ongoing
+- tags: completed
   image: "roadmap/spv-wallet-support.svg"
   title: "SPV Wallet Support"
   date: "Added Q1 2018"
   description: "Instead of taking the typical wallet service approach where wallets connect to a centralized server, or using 'bloom filters' which compromise privacy, we are working on a proper SPV mechanism that uses 'compact filters' and works over the P2P network."
   link: "https://github.com/decred/dcrwallet/issues/1000"
-- tags: ongoing
+- tags: completed
   image: "roadmap/trezorActive.svg"
   title: "Trezor Decrediton Integration"
   date: "Added Q4 2017"
   description: "Enable storing and sending of Decred using Trezor hardware wallet."
-- tags: new
+- tags: ongoing
   image: "roadmap/DAEActive.svg"
   title: "Decentralized Autonomous Entities"
   date: "Added Q1 2018"
@@ -123,7 +123,7 @@
   date: "Completed 2018-10-15"
   description: "The core of Decred's proposal system, Politeia, allows stakeholders to browse, submit and vote on proposals they would like implemented. After a successful vote, the required funds will be allocated to their implementation."
   link: "https://blog.decred.org/2018/10/15/Politeia-in-Production/"
-- tags: ongoing
+- tags: completed
   image: "roadmap/decreditonIntegrActive.svg"
   title: "Decrediton Politeia Integration"
   date: "Added Q1 2018"
