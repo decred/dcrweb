@@ -1,0 +1,13 @@
+
+{{ $bundle := .bundle }}
+
+{{ $r := slice }}
+
+{{ range .resources }}
+    {{ $r = $r | append ( resources.Get . ) }}
+{{ end }}
+
+{{ $js := $r | resources.Concat $bundle | resources.Minify | resources.Fingerprint "sha512" }}
+
+
+<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" {{ if ne .async nil }}async{{ end }}></script>

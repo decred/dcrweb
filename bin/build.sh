@@ -6,6 +6,6 @@ if [ "$1" != "" ]; then
     IMAGE_NAME=$1
 fi
 
-docker build -t $IMAGE_NAME  .
+docker build --build-arg HUGO_BASEURL=$HUGO_BASEURL -t $IMAGE_NAME  .
 
 

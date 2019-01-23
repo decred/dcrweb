@@ -48,7 +48,11 @@
         {{ partial "video-modal.html" . }}
     {{ end }}
 
-    {{ partial "footer-assets.html" . }}
+    {{ partial "_js_builder" (dict "bundle" "main.js" "resources" $.Site.Params.js_resources.critical ) }}
+
+    {{ if ne .IsHome true }}
+        {{ partial "_js_builder" (dict "bundle" "extra.js" "resources" $.Site.Params.js_resources.extra ) }}
+    {{ end }}
 
     {{ block "custom-assets" . -}}{{- end }}
 
