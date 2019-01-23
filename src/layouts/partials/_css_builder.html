@@ -9,5 +9,5 @@
 
 {{ $styles := $r | resources.Concat $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
-<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $styles.Permalink }}" >
 

@@ -10,4 +10,4 @@
 {{ $js := $r | resources.Concat $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
 
-<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" {{ if ne .async nil }}async{{ end }}></script>
+<script src="{{ $js.Permalink }}" {{ if ne .async nil }}async{{ end }}></script>
