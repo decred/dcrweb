@@ -54,11 +54,11 @@ The other sections live under `src/layouts`.  These pages are implemented as [Hu
 
 ## Testing
 
-Before deployment, run the HTML validator to make sure all of the generated files are syntactically correct.  (The script depends on `npm` and `docker` being installed.)
+Run the HTML validator to make sure all of the generated files are syntactically correct.  (The script depends on `yarn` and `docker` being installed.)
 
 
 ```sh
-npm install && npm test
+yarn && yarn test
 ```
 
 
