@@ -10,7 +10,7 @@
   linkedin_url: "https://LinkedIn.com/in/macsleven"
   medium_alias: macsleven
 -
-  slack_alias: "ay-p"
+  matrix_url: https://matrix.to/#/@ay-p:decred.org
   twitter_alias: "_alyp"
   company_id: c0
   group: development
@@ -128,7 +128,7 @@
   slack_id: U0TU00PGD
   github_id: chappjc
 -
-  slack_alias: jrick
+  matrix_url: https://matrix.to/#/@jrick:zettaport.com
   twitter_alias: "joshrickmar"
   company_id: c0
   group: development
@@ -248,7 +248,7 @@
   slack_id: DA89QRWRG
   github_id: RogueElement
 -
-  slack_alias: peter_zen
+  matrix_url: https://matrix.to/#/@peter_zen:decred.org
   group: development
   avatar_image: "team_10.svg"
   name: "Peter Banik"
