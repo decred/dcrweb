@@ -16,9 +16,6 @@
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <link href="/css/modern-normalize.css" rel="stylesheet" type="text/css">
-  <link href="/css/components.css" rel="stylesheet" type="text/css">
-  <link href="/css/decred-v5.css" rel="stylesheet" type="text/css">
   <noscript>
     <link href="/css/decred-v5-nojs-edition.css" rel="stylesheet" type="text/css">
   </noscript>
@@ -33,9 +30,8 @@
   </script>
   <link href="/images/32.png" rel="shortcut icon" type="image/x-icon">
   <link href="/images/256.png" rel="apple-touch-icon">
-  <link href="/css/dataTables.css" rel="stylesheet" type="text/css">
-  <link href="/css/mediaelementplayer.css" rel="stylesheet" type="text/css">
-  <link href="/css/mediaplayer-custom.css" rel="stylesheet" type="text/css">
+
+  {{ partial "_css_builder" (dict "bundle" "main.css" "resources" (slice "css/modern-normalize.css" "css/components.css" "css/decred-v5.css" "css/dataTables.css" )) }}
 
   <!--  Custom favicon  -->
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=fi5jKKtbwv">

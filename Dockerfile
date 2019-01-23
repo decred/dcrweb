@@ -1,6 +1,9 @@
 # builder image
 FROM golang
 
+ARG HUGO_BASEURL
+ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
+
 LABEL description="gohugo build"
 LABEL version="1.0"
 LABEL maintainer="peter@froggle.org"
@@ -15,7 +18,6 @@ WORKDIR /root
 COPY src/ /root/
 
 RUN hugo
-
 
 
 # final image
