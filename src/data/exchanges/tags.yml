@@ -1,15 +1,10 @@
--
-  id: atomic-swaps
+atomic-swaps:
   name: Atomic swaps
--
-  id: decentralized
+decentralized:
   name: Decentralized
--
-  id: fiat
+fiat:
   name: Fiat
--
-  id: high-liquidity
+high-liquidity:
   name: High liquidity
--
-  id: instant-exchange
+instant-exchange:
   name: Instant exchange
