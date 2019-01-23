@@ -713,7 +713,7 @@
   },
   {
   	 "id": "stakepools_get_listed",
-  	 "translation": "To get your VSP listed, you need to have at least three geographically-distributed voting wallets, and at least one ticket that has successfully voted on mainnet. Once you have met these requirements, join the #pos-voting room on <a href='https://matrix.to/#/!wSdymYrEpBhsWlDJuk:decred.org'>Matrix</a> or <a href='https://decred.slack.com/messages/C3ZNV8QTX/'>Slack</a> and ask @dhill to add you."
+  	 "translation": "To get your VSP listed, you need to have at least three geographically-distributed voting wallets, and at least one ticket that has successfully voted on mainnet. You can find more information in the <a href='https://docs.decred.org/advanced/operating-a-vsp/'>VSP docs<a>."
   },
   {
     "id": "community_description",
