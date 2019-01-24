@@ -700,6 +700,10 @@
     "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool voting and over 30 coins and 500 tokens"
   },
   {
+    "id": "downloads_app_ledger",
+    "translation": "Ledger Live is a web based wallet secured by the Ledger hardware wallet."
+  },
+  {
     "id": "stakepools_description",
     "translation": "Voting Service Providers (VSPs) allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power."
   },

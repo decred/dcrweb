@@ -73,4 +73,10 @@
         - title: Cobo releases
           url: https://cobo.com
 
+    - name: Ledger Live
+      id: ledger
+      links:
+        - title: Ledger Live wallet
+          url: https://www.ledger.com/pages/ledger-live
+
 
