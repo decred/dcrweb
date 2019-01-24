@@ -100,6 +100,10 @@
     "translation": "Voting Service Providers"
   },
   {
+    "id": "nav_getinvolved",
+    "translation": "Get Involved"
+  },
+  {
     "id": "nav_networkstats",
     "translation": "Network Stats"
   },
@@ -780,6 +784,10 @@
     "translation": "Join our Matrix community"
   },
   {
+    "id": "Get Involved",
+    "translation": "Get Involved"
+  },
+  {
     "id": "matrix_to_register_using_the_riot",
     "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
   },
@@ -822,5 +830,97 @@
   {
     "id": "Back to home page",
     "translation": "Back to home page"
+  },
+  {
+    "id": "getinvolved_description",
+    "translation": "Wondering how to get involved with Decred? We have a whole list of projects for you to contribute to. Get familiar with the project your interested in, hack on it, and send us a pull request!"
+  },
+  {
+    "id": "getinvolved_repos_title",
+    "translation": "Decred related GitHub repositories"
+  },
+  {
+    "id": "getinvolved_repos_text",
+    "translation": "For maintaining a list of GitHub repositories related to the Decred project. If you have a repository to add, open a pull request adding the details."
+  },
+  {
+    "id": "getinvolved_software_title",
+    "translation": "Software"
+  },
+  {
+    "id": "getinvolved_software_text",
+    "translation": "Selected repositories housing important Decred software. Issues are typically used to coordinate work."
+  },
+  {
+    "id": "getinvolved_software_list_decrediton",
+    "translation": "<a href=\"https://github.com/decred/decrediton\">decrediton</a> - GUI wallet"
+  },
+  {
+    "id": "getinvolved_software_list_dcrdaemons",
+    "translation": "<a href=\"https://github.com/decred/dcrd\">dcrd</a> and <a href=\"https://github.com/decred/dcrwallet\">dcrwallet</a> - Decred daemons"
+  },
+  {
+    "id": "getinvolved_software_list_politeia",
+    "translation": "<a href=\"https://github.com/decred/politeia\">politeia</a> and <a href=\"https://github.com/decred/politeiagui\">politeiagui</a> - Politeia back and front end"
+  },
+  {
+    "id": "getinvolved_software_list_dcrdata",
+    "translation": "<a href=\"https://github.com/decred/dcrdata\">dcrdata</a> - block explorer"
+  },
+  {
+    "id": "getinvolved_software_list_dcrweb",
+    "translation": "<a href=\"https://github.com/decred/dcrweb\">dcrweb</a> - Decred.org"
+  },
+  {
+    "id": "getinvolved_software_list_dcps",
+    "translation": "<a href=\"https://github.com/decred/dcps\">dcps</a> - Decred Change Proposals"
+  },
+  {
+    "id": "getinvolved_notsoftware_title",
+    "translation": "Not (primarily) Software"
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_dcrdocs",
+    "translation": "main documentation site at <a href=\"https://docs.decred.org/\">docs.decred.org</a>. The documents themselves live in folders corresponding to their sections within the <a href=\"https://github.com/decred/dcrdocs/tree/master/docs\">/docs/ folder</a>. The <a href=\"https://matrix.to/#/#documentation:decred.org\">#DCR documentation</a> channel is where people who work on dcrdocs discuss it. GitHub Issues are used to make suggestions about changes, like new pages or re-writing or re-structuring content. Pull Requests to change content should typically be in relation to some open issue and/or discussion in <a href=\"https://matrix.to/#/#documentation:decred.org\">#DCR documentation</a>."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_dcrdesign",
+    "translation": " "
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_video-production",
+    "translation": "production of Decred video explainers, including scripts and storyboards for work in production. These videos go through stages of production and feedback is typically sought in <a href=\"https://matrix.to/#/#writers:decred.org\">#DCR Writers</a> at certain milestones."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_decred-news",
+    "translation": "monthly <a href=\"https://xaur.github.io/decred-news/\">Decred Journal</a> maintained by @bee. Seeks review and contributions from other community members in <a href=\"https://matrix.to/#/#documentation:decred.org\">#DCR documentation</a> around the start of each month, with the journal being published around the 6th."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_decred-events",
+    "translation": "@vj maintains a set of guidelines and best practices for attending events and hosting meetups. Community members should submit logs of events where Decred had a presence as well as information on upcoming events."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_richardred0x",
+    "translation": "has repositories for <a href=\"https://github.com/RichardRed0x/writing\">writing</a> (feedback usually sought before publication), <a href=\"https://github.com/RichardRed0x/analysis\">analysis</a> (data and scripts available, welcomes improvements or extensions to code), and an older repo with <a href=\"https://github.com/RichardRed0x/dash-analysis\">Dash data and analysis</a>."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_dezryth",
+    "translation": "@dezryth maintains repositories for writing and code."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_dcrstatus",
+    "translation": "dashboard for Decred Command Line Interface users."
+  },
+  {
+    "id": "getinvolved_additional_title",
+    "translation": "Additional Resources"
+  },
+  {
+    "id": "getinvolved_additional_recruiting",
+    "translation": "<a href=\"https://blog.decred.org/2017/07/25/Decred-Recruiting/\">Decred Recruiting</a> - The original blog post about joining decred."
+  },
+  {
+    "id": "getinvolved_additional_compensation",
+    "translation": "<a href=\"https://docs.decred.org/advanced/contributor-compensation/\">Contributor Compensation</a> - How does compensation work?"
   }
 ]

@@ -4773,6 +4773,30 @@ html[dir="rtl"] .lang-menu {
   line-height: 23px;
 }
 
+.text-block-10 {
+  color: #2970ff;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+@media screen and (min-width: 320px) {
+  .text-block-10 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .text-block-10 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .text-block-10 {
+    font-size: 42px;
+  }
+}
+
 .subpage-content-header-footer {
   position: relative;
 }
