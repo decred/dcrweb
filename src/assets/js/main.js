@@ -560,6 +560,7 @@ $(document).ready(function () {
 						'<strong>Error:</strong> ' + textStatus + ": " + errorThrown + '</p></div></div>';
 				},
 				success: function (data, textStatus) {
+					var totalPropLive = 0;
 					$.each(data, function (poolName, poolData) {
 					  if (poolData["Network"] === 'testnet') return;
 						var overCapacity = 0;
@@ -574,6 +575,7 @@ $(document).ready(function () {
 							proplive = 0;
 						}
 						var proportion = proplive * 100;
+						totalPropLive = totalPropLive + proportion;
 						if (proportion > 5 && poolData["Network"] == "mainnet") {
 							overCapacity = 1;
 						}
@@ -647,6 +649,9 @@ $(document).ready(function () {
 						"info": false,
 						'lengthChange': false
 					});
+					
+					// Show the total percentage of all tickets that the VSPs manage.
+					$('<div><span style="font-weight: 700!important;">Tickets Held by Pools: </span><span class="inconsolata">' + totalPropLive.toFixed(2) + '%</span></div>').appendTo("#stakepool-data");
 				},
 			});
 		};
