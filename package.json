@@ -5,7 +5,12 @@
   "main": "index.js",
   "bin": {},
   "scripts": {
-    "test": "bin/test.sh"
+    "test": "bin/test.sh",
+    "build": "hugo -s src",
+    "build:docker": "bin/build.sh",
+    "deploy:stage": "netlify deploy --dir=src/public --prod",
+    "watch": "bin/watch.sh",
+    "run:docker": "docker run -p 8080:80 decred/dcrweb"
   },
   "repository": {
     "type": "git",
@@ -18,6 +23,7 @@
   },
   "homepage": "https://github.com/decred/dcrweb#readme",
   "dependencies": {
-    "html-validator-cli": "^4.1.4"
+    "html-validator-cli": "^4.1.4",
+    "netlify": "^2.2.4"
   }
 }
