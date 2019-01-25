@@ -30,15 +30,6 @@
   slack_id: DA9B1EM3R
   github_id: "C-ollins"
 -
-  slack_alias: freethinkingaway
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_57.svg"
-  name: "Cruz Molina"
-  title: "dcrdata Developer"
-  slack_id: UB7GBFQEM
-  github_id: freethinkingaway
--
   slack_alias: davecgh
   twitter_alias: "davecgh"
   company_id: c0
@@ -102,15 +93,6 @@
   slack_id: U3ZFYHCUC
   github_id: karamble
 -
-  slack_alias: huyntsgs
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_58.svg"
-  name: "Huy Nguyen Tuan"
-  title: "dcrwallet Developer"
-  slack_id: UB074QYLC
-  github_id: huyntsgs
--
   slack_alias: jholdstock
   group: development
   avatar_image: "team_9.svg"
@@ -147,23 +129,11 @@
   slack_id: U50V9M38E
 -
   slack_alias: jzsantoro
-  company_id: raedah_group
   group: design
   avatar_image: "team_50.svg"
   name: "Justin Santoro"
   title: "Design & Video Production"
   slack_id: DA9B7BT0X
--
-  slack_alias: mcedward
-  twitter_alias: "mc_edward"
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_48.svg"
-  name: "Macaulay Davies"
-  title: developer
-  slack_id: DA96HCYMC
-  github_id: McEdward
-  linkedin_url: https://www.linkedin.com/in/macaulay-davies-6436b4139/
 -
   slack_alias: moo31337
   twitter_alias: "marco_peereboom"
@@ -263,13 +233,6 @@
   title: "iOS Developer"
   linkedin_url: ensoreus
 -
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_63.svg"
-  name: "Rohit Nagori"
-  title: "iOS Developer"
-  github_id: ktr09
--
   slack_alias: sndurkin
   group: development
   avatar_image: "team_11.svg"
@@ -358,7 +321,6 @@
 -
   slack_alias: lindseym
   twitter_alias: "LindseyMelissaM"
-  company_id: raedah_group
   group: marketing
   avatar_image: "team_47.svg"
   name: "Lindsey McConaghy"
