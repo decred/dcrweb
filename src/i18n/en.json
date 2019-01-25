@@ -841,7 +841,7 @@
   },
   {
     "id": "getinvolved_repos_text",
-    "translation": "This page showcases a list of GitHub repositories related to the Decred project. If you have a repository to add, open a pull request adding the details."
+    "translation": "This page showcases a few of the GitHub repositories related to the Decred project."
   },
   {
     "id": "getinvolved_software_title",
@@ -885,7 +885,7 @@
   },
   {
     "id": "getinvolved_notsoftware_desc_dcrdesign",
-    "translation": " "
+    "translation": "The Decred-Design repo has been created with the intent of scaling the design output, maintaining consistency, accessibility and organisation."
   },
   {
     "id": "getinvolved_notsoftware_desc_video-production",
@@ -896,12 +896,12 @@
     "translation": "monthly <a href=\"https://xaur.github.io/decred-news/\">Decred Journal</a> maintained by @bee. and open for contributions in the latest draft branch. @bee seeks review from other community members in <a href=\"https://matrix.to/#/#documentation:decred.org\">#DCR documentation</a> around the start of each month, with the journal being published around the 6th."
   },
   {
-    "id": "getinvolved_notsoftware_desc_decred-events",
-    "translation": "@vj maintains a set of guidelines and best practices for attending events and hosting meetups. Community members are invited to submit logs of events where Decred had a presence as well as information on upcoming events."
+    "id": "getinvolved_notsoftware_desc_decred-issues",
+    "translation": "Decred Community Issue Tracker"
   },
   {
-    "id": "getinvolved_notsoftware_desc_richardred0x",
-    "translation": "has repositories for <a href=\"https://github.com/RichardRed0x/writing\">writing</a> (feedback usually sought before publication), <a href=\"https://github.com/RichardRed0x/analysis\">analysis</a> (data and scripts available, welcomes improvements or extensions to code), and an older repo with <a href=\"https://github.com/RichardRed0x/dash-analysis\">Dash data and analysis</a>."
+    "id": "getinvolved_notsoftware_desc_decred-events",
+    "translation": "@vj maintains a set of guidelines and best practices for attending events and hosting meetups. Community members are invited to submit logs of events where Decred had a presence as well as information on upcoming events."
   },
   {
     "id": "getinvolved_notsoftware_desc_dezryth",
@@ -910,6 +910,14 @@
   {
     "id": "getinvolved_notsoftware_desc_dcrstatus",
     "translation": "dashboard for Decred Command Line Interface users."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_decred-timeline",
+    "translation": "The Decred timeline, with dates and descriptions of noteworthy events."
+  },
+  {
+    "id": "getinvolved_notsoftware_desc_richardred0x",
+    "translation": "has repositories for <a href=\"https://github.com/RichardRed0x/writing\">writing</a> (feedback usually sought before publication), <a href=\"https://github.com/RichardRed0x/analysis\">analysis</a> (data and scripts available, welcomes improvements or extensions to code), an older repo with <a href=\"https://github.com/RichardRed0x/dash-analysis\">Dash data and analysis</a> and several others:"
   },
   {
     "id": "getinvolved_additional_title",

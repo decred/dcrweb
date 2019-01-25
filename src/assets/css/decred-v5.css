@@ -4777,6 +4777,7 @@ html[dir="rtl"] .lang-menu {
   color: #2970ff;
   font-size: 32px;
   line-height: 42px;
+  padding-bottom: 5px;
 }
 
 @media screen and (min-width: 320px) {
