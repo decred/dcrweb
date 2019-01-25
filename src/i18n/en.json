@@ -893,7 +893,7 @@
   },
   {
     "id": "getinvolved_notsoftware_desc_decred-news",
-    "translation": "monthly <a href=\"https://xaur.github.io/decred-news/\">Decred Journal</a> maintained by @bee. Seeks review and contributions from other community members in <a href=\"https://matrix.to/#/#documentation:decred.org\">#DCR documentation</a> around the start of each month, with the journal being published around the 6th."
+    "translation": "monthly <a href=\"https://xaur.github.io/decred-news/\">Decred Journal</a> maintained by @bee. and open for contributions in the latest draft branch. @bee seeks review from other community members in <a href=\"https://matrix.to/#/#documentation:decred.org\">#DCR documentation</a> around the start of each month, with the journal being published around the 6th."
   },
   {
     "id": "getinvolved_notsoftware_desc_decred-events",
