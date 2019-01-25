@@ -841,7 +841,7 @@
   },
   {
     "id": "getinvolved_repos_text",
-    "translation": "For maintaining a list of GitHub repositories related to the Decred project. If you have a repository to add, open a pull request adding the details."
+    "translation": "This page showcases a list of GitHub repositories related to the Decred project. If you have a repository to add, open a pull request adding the details."
   },
   {
     "id": "getinvolved_software_title",
