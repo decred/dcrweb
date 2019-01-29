@@ -86,7 +86,6 @@
 -
   url: "https://bisq.network"
   tags:
-    - "atomic-swaps"
     - decentralized
   logo_src: "Bisq.jpg"
   logo_srcset: "/images/Bisq-p-500.jpeg 500w, /images/Bisq.jpg 608w"
