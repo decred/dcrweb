@@ -1,4 +1,5 @@
 User-agent: *
 Disallow:
+Disallow: /research/buterin2014.pdf
 
 sitemap: https://www.decred.org/sitemap.xml
