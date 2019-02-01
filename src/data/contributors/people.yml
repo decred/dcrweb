@@ -456,14 +456,6 @@
   slack_id: U5UQ03JDT
   linkedin_url: "https://au.linkedin.com/in/joshuambuirski"
 -
-  slack_alias: praxis
-  twitter_alias: "Innigkeit"
-  group: community
-  avatar_image: "team_20.svg"
-  name: "Jure Kralj"
-  title: "Reddit Manager"
-  slack_id: U137PAT9T
--
   slack_alias: mm
   group: community
   avatar_image: "team_77.svg"
