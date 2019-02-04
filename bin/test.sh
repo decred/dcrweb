@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# build site
-hugo -s src --quiet || exit 1
-
 # validate generated html content
 
 echo -n "Starting nu validator "

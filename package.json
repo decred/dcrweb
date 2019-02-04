@@ -8,7 +8,7 @@
     "test": "bin/test.sh",
     "build": "hugo -s src",
     "build:docker": "bin/build.sh",
-    "deploy:stage": "netlify deploy --dir=src/public --prod",
+    "deploy:stage": "HUGO_BASEURL=https://dcrweb.netlify.com yarn build && netlify deploy --dir=src/public --prod",
     "watch": "bin/watch.sh",
     "run:docker": "docker run -p 8080:80 decred/dcrweb"
   },
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/decred/dcrweb#readme",
   "dependencies": {
     "html-validator-cli": "^4.1.4",
-    "netlify": "^2.2.4"
+    "netlify-cli": "^2.6.6"
   }
 }
