@@ -716,8 +716,8 @@
     "translation": "<span class=\"modalparagraphbold\">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes."
   },
   {
-  	 "id": "stakepools_get_listed",
-  	 "translation": "To get your VSP listed, you need to have at least three geographically-distributed voting wallets, and at least one ticket that has successfully voted on mainnet. You can find more information in the <a href='https://docs.decred.org/advanced/operating-a-vsp/'>VSP docs</a>."
+    "id": "stakepools_get_listed",
+    "translation": "To get your VSP listed, you need to have at least three geographically-distributed voting wallets, and at least one ticket that has successfully voted on mainnet. You can find more information in the <a href='https://docs.decred.org/advanced/operating-a-vsp/'>VSP docs</a>."
   },
   {
     "id": "community_description",

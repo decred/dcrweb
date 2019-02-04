@@ -1,11 +1,11 @@
 [
   {
     "id": "general_release_stable",
-    "translation": "stable"
+    "translation": "estable"
   },
   {
     "id": "general_downloads",
-    "translation": "downloads"
+    "translation": "descargas"
   },
   {
     "id": "general_total",
@@ -13,19 +13,19 @@
   },
   {
     "id": "general_javascript_warning",
-    "translation": "JavaScript required"
+    "translation": "Se necesita JavaScript"
   },
   {
     "id": "general_javascript_warning_description",
-    "translation": "We're sorry, but this Website doesn't work properly without JavaScript enabled."
+    "translation": "Lo sentimos, pero este sitio web no funciona correctamente si no se activa JavaScript."
   },
   {
     "id": "exchanges_title",
-    "translation": "Exchanges"
+    "translation": "Cambios"
   },
   {
     "id": "exchanges_description",
-    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys."
+    "translation": "Los cambios de divisas digitales constituyen una forma sencilla de comprar y comerciar con Decred (DCR). Descargo de responsabilidad: Realice siempre sus propias indagaciones antes de utilizar un servicio. La manera más segura de almacenar Decred es usando una cartera en la que solo usted tenga el control de las claves privadas."
   },
   {
     "id": "title",
@@ -37,7 +37,7 @@
   },
   {
     "id": "general_copyright",
-    "translation": "Decred Developers"
+    "translation": "Desarrolladores de Decred"
   },
   {
     "id": "nav_brand_resources",
@@ -93,11 +93,11 @@
   },
   {
     "id": "nav_politeia",
-    "translation": "Proposal System"
+    "translation": "Sistema de propuestas"
   },
   {
     "id": "nav_vsp",
-    "translation": "Voting Service Providers"
+    "translation": "Proveedores de servicios de voto"
   },
   {
     "id": "nav_networkstats",
@@ -121,11 +121,11 @@
   },
   {
     "id": "nav_exchanges",
-    "translation": "Exchanges"
+    "translation": "Cambios"
   },
   {
     "id": "nav_press",
-    "translation": "Press"
+    "translation": "Prensa"
   },
   {
     "id": "contributors_corporate_contractor",
@@ -157,27 +157,27 @@
   },
   {
     "id": "roadmap_tag_new",
-    "translation": "New"
+    "translation": "Nuevo"
   },
   {
     "id": "roadmap_tag_ongoing",
-    "translation": "Ongoing"
+    "translation": "En curso"
   },
   {
     "id": "roadmap_tag_completed",
-    "translation": "Completed"
+    "translation": "Completado"
   },
   {
     "id": "roadmap_moreinfo",
-    "translation": "More Information"
+    "translation": "Más información"
   },
   {
     "id": "roadmap_tag_subtitle",
-    "translation": "Insight into our future, overview of the past"
+    "translation": "Visión de futuro con la enseñanza del pasado"
   },
   {
     "id": "roadmap_description",
-    "translation": "Please note that our primary goal is to provide you with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change."
+    "translation": "Tenga en cuenta que nuestro principal objetivo es ofrecerle versiones estables y fiables. Por tanto, todos los datos relativos a las fechas y características de la versión de destino son susceptibles de experimentar algún cambio."
   },
   {
     "id": "brand_guide_0",
@@ -197,7 +197,7 @@
   },
   {
     "id": "brand_guide_4",
-    "translation": "Primary Colors"
+    "translation": "Colores primarios"
   },
   {
     "id": "brand_guide_5",
@@ -217,7 +217,7 @@
   },
   {
     "id": "brand_guide_9",
-    "translation": "Complementary Colors"
+    "translation": "Colores complementarios"
   },
   {
     "id": "brand_guide_10",
@@ -225,7 +225,7 @@
   },
   {
     "id": "brand_guide_11",
-    "translation": "Green"
+    "translation": "Verde"
   },
   {
     "id": "brand_guide_12",
@@ -237,31 +237,31 @@
   },
   {
     "id": "brand_guide_14",
-    "translation": "View github/dcrdesign repo for design packages, guidelines and documentations"
+    "translation": "Consulte el repositorio github/dcrdesign para encontrar paquetes de diseño, directrices y documentación"
   },
   {
     "id": "exchanges_otc_title",
-    "translation": "Decred OTC Traders"
+    "translation": "Operadores extrabursátiles de Decred"
   },
   {
     "id": "exchanges_otc_description",
-    "translation": "Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher."
+    "translation": "El mercado extrabursátil (OTC, por sus siglas en inglés) permite a los clientes comprar y vender Decred a un operador de forma directa. El cliente y el operador fijan un precio a cambio de una gran cantidad de Decred y efectúan la transacción sin realizar ningún cambio. El importe mínimo de transacción en el mercado extrabursátil es, generalmente, de 100 000 $ o más."
   },
   {
     "id": "exchanges_payment_title",
-    "translation": "Decred Payment Processors"
+    "translation": "Procesadores de pago de Decred"
   },
   {
     "id": "exchanges_payment_description",
-    "translation": "Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms."
+    "translation": "Son soluciones diseñadas para que los comerciantes en línea empiecen a aceptar Decred (DCR) como método de pago. Los procesadores de pago ofrecen una integración rápida y sencilla para aceptar criptomonedas a través de las plataformas de comercio electrónico."
   },
   {
     "id": "exchanges_subtitle",
-    "translation": "Decred on Exchanges"
+    "translation": "Los cambios con Decred"
   },
   {
     "id": "exchanges_showall",
-    "translation": "Show all"
+    "translation": "Mostrar todo"
   },
   {
     "id": "home_download_wallet",
@@ -297,15 +297,15 @@
   },
   {
     "id": "home_politeia_notice_title",
-    "translation": "Decred’s Proposal System is Live"
+    "translation": "El sistema de propuestas de Decred ya está en funcionamiento"
   },
   {
     "id": "home_politeia_notice_body",
-    "translation": "Politeia allows Decred users and stakeholders to propose, discuss, collaborate on, and fund new projects, initiatives, and consensus changes."
+    "translation": "Politeia permite que los usuarios y accionistas de Decred realicen propuestas, debatan, colaboren y pongan en marcha nuevos proyectos, iniciativas y cambios consensuados."
   },
   {
     "id": "home_politeia_notice_link_title",
-    "translation": "View Proposals"
+    "translation": "Ver las propuestas"
   },
   {
     "id": "home_mission_section_title",
@@ -317,7 +317,7 @@
   },
   {
     "id": "home_mission_body_1",
-    "translation": "Since 2016, Decred has striven to solve blockchain governance. Our innovative consensus voting model empowers stakeholders and allows for the seamless transition from one set of rules to another. Decentralized decision-making and self-funding have enabled us to build a robust, evolving digital currency, free from third party influence."
+    "translation": "Decred trabaja desde 2016 para encontrar alguna solución al gobierno de la cadena de bloques. Nuestro innovador modelo de voto consensuado otorga un mayor poder a los accionistas y permite llevar a cabo la transición fluida de una normativa a otra. Gracias a la toma de decisiones descentralizada y a la autofinanciación, hemos podido crear una divisa digital sólida, evolutiva e independiente de terceras partes."
   },
   {
     "id": "home_mission_title_2",
@@ -333,7 +333,7 @@
   },
   {
     "id": "home_mission_chart_2",
-    "translation": "mined so far"
+    "translation": "minado hasta ahora"
   },
   {
     "id": "home_mission_title_3",
@@ -341,11 +341,11 @@
   },
   {
     "id": "home_mission_body_3",
-    "translation": "We are community-powered. Stakeholders who participate in Decred’s decision-making are rewarded for their efforts. Sustainable funding and a resilient contractor model allow for anyone to join Decred at any time and engage in its governance. Decred’s value is in the people who work on it - together we’re building the decentralized future we want to see."
+    "translation": "Nuestro poder reside en la comunidad. Los accionistas que participan en la toma de decisiones de Decred reciben recompensas por su dedicación. Gracias a la financiación sostenible y a un modelo empresarial resistente, cualquiera puede unirse a Decred cuando quiera e involucrarse en su gobierno. Lo que da valor a Decred son las personas que trabajan en su comunidad. Entre todos, estamos creando el futuro descentralizado en el que queremos vivir."
   },
   {
     "id": "home_quotes_quote",
-    "translation": "“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.”"
+    "translation": "\"La característica estrella de Decred es su buen gobierno y, con un buen gobierno, se pueden conseguir todas las características que se quiera\"."
   },
   {
     "id": "home_platform_platform",
@@ -357,7 +357,7 @@
   },
   {
     "id": "home_platform_built",
-    "translation": "Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:"
+    "translation": "Decred ha venido para quedarse. Nuestro desarrollo y su calidad se sitúan entre los mejores del mundo. Entre las características de Decred, también se encuentran:"
   },
   {
     "id": "home_platform_innovative",
@@ -393,7 +393,7 @@
   },
   {
     "id": "home_platform_decent",
-    "translation": "Decred does not require reliance on centralized exchanges. With cross-chain atomic swaps between different digital currencies, users can conduct trustless over-the-counter (OTC) trades without a third party."
+    "translation": "Decred no necesita depender de cambios centralizados. Con los intercambios atómicos en intercadena entre divisas digitales diferentes, los usuarios pueden efectuar intercambios extrabursátiles sin intermediarios ni terceras partes."
   },
   {
     "id": "home_platform_politeia",
@@ -405,7 +405,7 @@
   },
   {
     "id": "home_platform_lightning",
-    "translation": "Red Lightning"
+    "translation": "Lightning Network"
   },
   {
     "id": "home_platform_ln_contracts",
@@ -481,7 +481,7 @@
   },
   {
     "id": "home_guide_3",
-    "translation": "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
+    "translation": "Para aquellos a los que les guste experimentar, Decred pone a su disposición un conjunto completo de herramientas de línea de comandos para que puedan personalizar su experiencia con Decred."
   },
   {
     "id": "home_guide_4",
@@ -497,7 +497,7 @@
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>Existen tres maneras principales de interactuar con Decred:</p>\n\t\t<p><strong>La cartera</strong>: Para enviar y recibir fondos, así como participar en minería PoS.</p>\n\t\t<p><strong>Minería de Prueba de Trabajo (PoW)</strong>: Utilización de la potencia informática para validar transacciones en la red y generar nuevas fichas de Decred.</p>\n\t\t<p><strong>Minería de Prueba de Participación (PoS)</strong>: Utilización de fondos para votar cuestiones importantes relativas al desarrollo de la red y validar transacciones a cambio de recompensas.</p>"
+    "translation": "<p>Existen tres maneras principales de interactuar con Decred:</p>\n\t\t<p><strong>La cartera</strong>: Para enviar y recibir fondos, así como participar en votaciones de PoS.</p>\n\t\t<p><strong>Minería de Prueba de Trabajo (PoW)</strong>: Utilización de la potencia informática para validar transacciones en la red y generar nuevas fichas de Decred.</p>\n\t\t<p><strong>Votaciones de Prueba de Participación (PoS)</strong>: Utilización de fondos para votar cuestiones importantes relativas al desarrollo de la red y validar transacciones a cambio de recompensas.</p>"
   },
   {
     "id": "home_guide_8",
@@ -509,11 +509,11 @@
   },
   {
     "id": "home_guide_10",
-    "translation": "The Wallet"
+    "translation": "La cartera"
   },
   {
     "id": "home_guide_11",
-    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a> is a cross-platform GUI wallet for Decred. Available for Windows, MacOS, and Linux users.</p><p><a href=\"downloads/#cli\">Command-line wallet and utilities</a> are also available for a variety of platforms.</p><p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Beginner’s Guide</a>.</p>"
+    "translation": "<p><a href=\"downloads/#decrediton\">Decretion</a> es una cartera GUI multiplataforma que ha sido diseñada para Decred. Está disponible para usuarios de Windows, MacOS y Linux.</p><p><a href=\"downloads/#cli\">La cartera y las utilidades de línea de comandos</a> también están disponibles para una gran variedad de plataformas.</p><p>Para que le resulte más fácil entrar en materia, le recomendamos que consulte nuestra <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Guía para principiantes</a>.</p>"
   },
   {
     "id": "home_guide_12",
@@ -529,7 +529,7 @@
   },
   {
     "id": "home_guide_15",
-    "translation": "<p>An address is the only thing needed to send or receive funds. It can be easily generated from any Decred wallet. Decred addresses always <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\" rel=\"noopener noreferrer\">begin with D and contain 26-36 alphanumeric characters</a>.</p><p>After a transaction is made, funds will usually clear in about 5 minutes. There is a small fee to help with the upkeep of the network. This fee is in addition to the transaction amount. That is, a transfer of 100DCR would incur a fee of about 0.006DCR.</p><p>The block explorers <a href=\"https://mainnet.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">mainnet.decred.org</a> and <a href=\"https://explorer.dcrdata.org\" target=\"_blank\" rel=\"noopener noreferrer\">explorer.dcrdata.org</a> allow users to search all the blocks and transactions in the Decred blockchain.</p>"
+    "translation": "<p>Lo único que se necesita para enviar o recibir fondos es una dirección, que se puede generar fácilmente desde cualquier cartera de Decred. Las direcciones de Decred siempre <a href=\"https://docs.decred.org/faq/wallets-and-seeds/#9-what-are-the-different-types-of-addresses\" target=\"_blank\" rel=\"noopener noreferrer\">empiezan por D y contienen entre 26 y 36 caracteres alfanuméricos</a>.</p><p>Cuando se efectúa una transacción, los fondos suelen tardar unos 5 minutos en desaparecer. Se aplica una pequeña tasa destinada al mantenimiento de la red que no se descuenta del importe de la transacción, sino que se paga aparte. Es decir, en una transferencia de 100 DCR, se añadiría una tasa de alrededor de 0,006 DCR.</p><p>Los exploradores de bloques <a href=\"https://mainnet.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">mainnet.decred.org</a> y <a href=\"https://explorer.dcrdata.org\" target=\"_blank\" rel=\"noopener noreferrer\">explorer.dcrdata.org</a> permiten a los usuarios buscar todos los bloques y transacciones de la cadena de bloques de Decred.</p>"
   },
   {
     "id": "home_guide_16",
@@ -541,7 +541,7 @@
   },
   {
     "id": "home_guide_18",
-    "translation": "Mining"
+    "translation": "Minería"
   },
   {
     "id": "home_guide_19",
@@ -561,7 +561,7 @@
   },
   {
     "id": "home_guide_23",
-    "translation": "<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\" rel=\"noopener noreferrer\">Proof-of-work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p><p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p><p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a voting pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
+    "translation": "<p>Las transacciones realizadas como <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\" rel=\"noopener noreferrer\">prueba de trabajo (PoW, por sus siglas en inglés)</a> se agrupan en bloques que posteriormente validan los mineros PoW. Una vez que se valida un bloque, este pasa a formar parte de la red de Decred.</p><p>Usted también puede convertirse en minero si permite que la red utilice el equipamiento informático que no necesita. A cambio, recibirá Decred en forma de recompensa.</p><p>Para mayor eficacia y comodidad, puede unirse a <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">\"pools\" (o piscinas) de minería</a>. Los \"pools\" son grupos de mineros que se reparten el trabajo y, luego, dividen la recompensa entre ellos. Unirse a un \"pool\" de minería es una solución excelente para que los pequeños contribuyentes reciban pagos regulares por su trabajo.</p>"
   },
   {
     "id": "home_guide_24",
@@ -573,11 +573,11 @@
   },
   {
     "id": "home_guide_26",
-    "translation": "Minería de Prueba de Participación"
+    "translation": "Votaciones de Prueba de Participación"
   },
   {
     "id": "home_guide_27",
-    "translation": "<p>Al contrario que la minería de Prueba de Trabajo (PoW), la <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">minería de Prueba de Participación (PoS)</a> requiere pocos recursos informáticos. Se emplean fondos de Decred para adquirir boletos de votación en la red. En cada bloque, se eligen al azar cinco boletos del grupo de boletos en vivo para votar sobre la validez del bloque anterior.</p>\n\t\t<p>PoS añade un nivel adicional de descentralización a Decred y permite a los usuarios votar sobre cambios de red sugeridos. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Los grupos están también disponibles para PoS</a> con el objeto de asegurar que sus boletos estén listos para votar cuando sea necesario.</p>"
+    "translation": "<p>Al contrario que la minería de Prueba de Trabajo (PoW), las <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">votaciones de Prueba de Participación (PoS)</a> requieren pocos recursos informáticos. Se emplean fondos de Decred para adquirir boletos de votación en la red. En cada bloque, se eligen al azar cinco boletos del grupo de boletos en vivo para votar sobre la validez del bloque anterior.</p>\n\t\t<p>PoS añade un nivel adicional de descentralización a Decred y permite a los usuarios votar sobre cambios de red sugeridos. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Los grupos están también disponibles para PoS</a> con el objeto de asegurar que sus boletos estén listos para votar cuando sea necesario.</p>"
   },
   {
     "id": "home_guide_28",
@@ -593,7 +593,7 @@
   },
   {
     "id": "home_guide_31",
-    "translation": "<p>Decred is still new, and at this time, the easiest way to purchase it is with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\" rel=\"noopener noreferrer\">Once you have some Bitcoin</a>, it can be traded for Decred <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\" rel=\"noopener noreferrer\">at digital currency exchanges</a>.</p>"
+    "translation": "<p>Decred todavía es una divisa muy joven, por lo que, a día de hoy, lo más fácil es comprarla con bitcoines. <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\" rel=\"noopener noreferrer\">Cuando tenga algunos bitcoines</a>, podrá intercambiarlos por Decred <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\" rel=\"noopener noreferrer\">mediante los cambios de divisas digitales</a>.</p>"
   },
   {
     "id": "home_guide_32",
@@ -609,7 +609,7 @@
   },
   {
     "id": "home_guide_35",
-    "translation": "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.We can't wait to meet you!</p>"
+    "translation": "<p>Gracias a los procesos descentralizados, las personas que tengan ideas, objetivos y opiniones diferentes pueden participar en la creación del futuro. Probablemente tenga algunas preguntas, así que no dude en unirse a nuestra creciente comunidad, donde podrá ponerse en contacto con desarrolladores y otros usuarios, obtener información, realizar preguntas o, simplemente, pasar el rato. Tenemos un <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">canal de IRC</a>, un <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">canal de Telegram</a> y un <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">canal de Slack</a> en los que puede chatear con desarrolladores y demás usuarios en tiempo real. Y no se olvide de <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> y <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>, ya que también estamos ahí. ¡Estamos deseando conocerlo!</p>"
   },
   {
     "id": "home_guide_36",
@@ -625,7 +625,7 @@
   },
   {
     "id": "home_guide_39",
-    "translation": "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2018 and early 2019:</p><ul><li>Lightning network</li><li>Initial privacy release</li><li>Decentralized control of funds</li><li>Decentralized autonomous entities</li><li>Scalability optimizations</li><li>Decrediton integrations</li><li>Marketing growth</li><li>Proposal for a Decentralized Exchange</li></ul><p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+    "translation": "<p>Una parte de la recompensa obtenida de los bloques nuevos se destina al desarrollo de Decred para garantizar que siga evolucionando de forma continuada para satisfacer las necesidades y deseos de la comunidad tanto ahora como durante los próximos años. A continuación, presentamos algunas de las características proyectadas para 2018 y principios de 2019:</p><ul><li>La red Lightning</li><li>Versión de privacidad inicial</li><li>Control de fondos descentralizado</li><li>Entidades autónomas descentralizadas</li><li>Optimizaciones de escalabilidad</li><li>Integraciones con Decredition</li><li>Crecimiento mediante marketing</li><li>Propuesta de cambio descentralizado</li></ul><p>Consulte estas y otras características en nuestro blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Le damos la bienvenida a Decred: el futuro de la divisa digital autónoma</a></p>"
   },
   {
     "id": "home_guide_40",
@@ -637,15 +637,15 @@
   },
   {
     "id": "downloads_description",
-    "translation": "If you are new to Decred, be sure to read the <a href=\"../#guide\">Getting Started Tour</a> or the <a href=\"../#platform\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">Binary Verification</a> steps to verify the checksums."
+    "translation": "Si es usted nuevo en Decred, no olvide consultar el <a href=\"../#guide\">tour de iniciación</a> o la <a href=\"../#platform\">información técnica general</a> para profundizar más en el tema. Si tiene pensado descargar los archivos binarios de Decred, siga los pasos de la <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">verificación de archivos binarios</a> para verificar las sumas de comprobación."
   },
   {
     "id": "downloads_category_core",
-    "translation": "Core software"
+    "translation": "Software base"
   },
   {
     "id": "downloads_category_mining_software",
-    "translation": "Mining software"
+    "translation": "Software de minería"
   },
   {
     "id": "downloads_category_3rd_party_wallets",
@@ -677,43 +677,47 @@
   },
   {
     "id": "downloads_app_coinomi",
-    "translation": "Securely store, manage and exchange Bitcoin, Ethereum, and more than 500 other blockchain assets."
+    "translation": "Almacena, gestiona y cambia de forma segura criptomonedas de Bitcoin y Ethereum, entre otros 500 activos de cadenas de bloques."
   },
   {
     "id": "downloads_app_bitbill",
-    "translation": "Bitbill is a decentralized cryptocurrency wallet. You own your private keys."
+    "translation": "Bitbill es una cartera de criptomonedas descentralizada. Con ella tendrá sus propias claves privadas."
   },
   {
     "id": "downloads_app_anybit",
-    "translation": "Anybit is a mobile wallet available for Android and iOS with built in price and news tracking."
+    "translation": "Anybit es una cartera para dispositivos móviles con Android e iOS que tiene un sistema de seguimiento de precios y novedades integrado."
   },
   {
     "id": "downloads_app_atomicwallet",
-    "translation": "Multi-asset desktop wallet with built in exchange via non-custodial atomic swaps and decentralized order book."
+    "translation": "Se trata de una cartera de varios activos para ordenadores con un sistema de cambio a través de intercambios atómicos no custodiados y un libro de órdenes descentralizado integrados."
   },
   {
     "id": "downloads_app_guarda",
-    "translation": "Guarda is represented by Web, Desktop and Mobile multi-currency wallets."
+    "translation": "Guarda cuenta con carteras multidivisa para dispositivos móviles, ordenadores y sitios web."
   },
   {
     "id": "downloads_app_cobo",
-    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens"
+    "translation": "Cobo es una cartera móvil de máxima seguridad creada por el cofundador de F2Pool que admite votaciones de grupos PoS en la nube y más de 30 monedas y fichas"
+  },
+  {
+    "id": "downloads_app_ledger",
+    "translation": "Ledger Live es una cartera web amparada por la cartera de hardware Ledger."
   },
   {
     "id": "stakepools_description",
-    "translation": "Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power."
+    "translation": "Los proveedores de servicios de votación (VSPs) le permiten participar en el sistema de Prueba de Participación (PoS) de Decred sin que deba preocuparse de pérdidas provocadas por inactividad informática, mala conexión a Internet o problemas con el suministro eléctrico."
   },
   {
     "id": "stakepools_warning_1",
-    "translation": "<span class=\"modalparagraphbold\">Notice:</span>&nbsp;Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider."
+    "translation": "<span class=\"modalparagraphbold\">Aviso:</span>&nbsp;La pérdida de boletos puede deberse a la mala conexión de un minero de Prueba de Trabajo (PoW) sin ser necesariamente culpa del proveedor."
   },
   {
     "id": "stakepools_warning_2",
-    "translation": "<span class=\"modalparagraphbold\">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes."
+    "translation": "<span class=\"modalparagraphbold\">Advertencia:</span>&nbsp;Para que la descentralización de la red sea posible, se recomienda evitar a los proveedores que tengan más del 5 % de los votos de la red."
   },
   {
     "id": "community_description",
-    "translation": "Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. The public channels on Matrix, Slack, and Discord have been bridged. You can choose any of these platforms and still participate in discussions with Decred community members on the others."
+    "translation": "No dude en unirse a nuestra creciente comunidad, donde podrá ponerse en contacto con desarrolladores y otros usuarios, obtener información, realizar preguntas o, simplemente, pasar el rato. Los canales públicos de Matrix, Slack y Discord ya se encuentran conectados entre sí, así que puede elegir la plataforma que prefiera y participar en debates con miembros de la comunidad de Decred que utilicen las demás."
   },
   {
     "id": "press_description",
@@ -721,11 +725,11 @@
   },
   {
     "id": "press_coverage",
-    "translation": "Coverage"
+    "translation": "Cobertura"
   },
   {
     "id": "press_releases",
-    "translation": "Releases"
+    "translation": "Publicaciones"
   },
   {
     "id": "Business brief",
@@ -733,7 +737,7 @@
   },
   {
     "id": "Decred Recruiting",
-    "translation": "Decred Recruiting"
+    "translation": "Trabajar con Decred"
   },
   {
     "id": "Downloads",
@@ -749,7 +753,7 @@
   },
   {
     "id": "Press",
-    "translation": "Press"
+    "translation": "Prensa"
   },
   {
     "id": "Roadmap",
@@ -769,42 +773,50 @@
   },
   {
     "id": "Join our Matrix community",
-    "translation": "Join our Matrix community"
+    "translation": "Únase a la comunidad Matrix"
   },
   {
     "id": "matrix_to_register_using_the_riot",
-    "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
+    "translation": "Para registrarse con la aplicación de la web Riot, que ya tiene rellenada la información del servidor principal de Decred, haga clic en el enlace que aparece a continuación."
   },
   {
     "id": "matrix_register_with_riot",
-    "translation": "Register with Riot."
+    "translation": "Regístrese con Riot."
   },
   {
     "id": "matrix_note_you_must_register_with",
-    "translation": "Note: you must register with an email address if you want password resets."
+    "translation": "Nota: Debe registrarse con una dirección de correo electrónico si quiere tener la oportunidad de restablecer la contraseña."
   },
   {
     "id": "matrix_if_you_already_have_an",
-    "translation": "If you already have an existing Matrix account, use the link below to log into Decred’s homeserver."
+    "translation": "Si ya tiene una cuenta de Matrix, utilice el enlace que aparece a continuación para iniciar sesión en el servidor principal de Decred."
   },
   {
     "id": "matrix_login_to_decred_homeserver",
-    "translation": "Login to Decred homeserver"
+    "translation": "Iniciar sesión en el servidor local de Decred"
   },
   {
     "id": "matrix_to_browse_decred_rooms_click",
-    "translation": "To browse Decred rooms, click the directory button in the ‘Rooms’ panel on the left-hand side."
+    "translation": "Para buscar salas de Decred, haga clic en el botón del directorio, en el panel \"Salas\" que está situado a la izquierda."
   },
   {
     "id": "matrix_decred_rooms",
-    "translation": "Decred Rooms"
+    "translation": "Salas de Decred"
   },
   {
     "id": "matrix_to_browse_other_available_matrix",
-    "translation": "To browse other available Matrix clients and home servers, see the <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix Getting Started page</a>."
+    "translation": "Para buscar otros clientes de Matrix y servidores principales disponibles, consulte la <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">página de introducción a Matrix</a>."
   },
   {
     "id": "matrix_matrix_is_a_secure_open",
-    "translation": "<p>Matrix is a secure, open messaging platform popular with Decred contractors. With the help of bridge software Matrix users can communicate with users on other Decred platforms such as Slack and Discord. Matrix offers first party registration; no identifying information or third party service is required to sign up. Users should be aware however that some features, such as password reset, do require an email address. For more on Matrix’s security features and available clients, see the Matrix project <a href=\"https://matrix.org/blog/home/\">homepage</a>.</p>\n\n<p>To join Matrix, you’ll need to choose a client and a homeserver. Matrix supports numerous clients and homeservers, but for first-time users, we recommend the most well-supported Matrix client, Riot, and Decred’s homeserver. Using the Decred homeserver makes it easier to find Decred chat rooms, puts ‘decred.org’ in your ID, and allows you to continue messaging should Decred’s homeserver become disconnected with other homeservers.</p>"
+    "translation": "<p>Matrix es una plataforma de mensajería abierta, segura y popular entre los contratistas de Decred. Gracias al software puente, los usuarios de Matrix pueden comunicarse con los usuarios de las otras plataformas de Decred, como Slack y Discord. Matrix ofrece un registro independiente, es decir, no necesita ningún servicio de terceros ni información de identificación para el registro. Sin embargo, los usuarios deberían ser conscientes de que algunas funcionalidades, como el restablecimiento de la contraseña, sí requieren una dirección de correo electrónico. Para obtener más información sobre las características de seguridad y los clientes disponibles de Matrix, consulte la <a href=\"https://matrix.org/blog/home/\">página de inicio</a> del proyecto Matrix.</p>\n\n<p>Para unirse a Matrix, tendrá que elegir un cliente y un servidor principal. Matrix es compatible con un gran número de clientes y servidores principales, pero para los usuarios primerizos recomendamos Riot, el servidor principal de Decred y el cliente que mayor compatibilidad presenta con Matrix. Si utiliza el servidor principal de Decred, le resultará más fácil encontrar las salas de chat de Decred; además, esto añadirá \"decred.org\" a su ID y le permitirá continuar enviando mensajes si el servidor principal de Decred se desconecta de los demás servidores.</p>"
+  },
+  {
+    "id": "Page not found",
+    "translation": "Página no encontrada"
+  },
+  {
+    "id": "Back to home page",
+    "translation": "Volver a la página de inicio"
   }
 ]

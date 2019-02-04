@@ -9,23 +9,23 @@
   },
   {
     "id": "general_total",
-    "translation": "total"
+    "translation": "إجمالي"
   },
   {
     "id": "general_javascript_warning",
-    "translation": "JavaScript required"
+    "translation": "JavaScript مطلوب"
   },
   {
     "id": "general_javascript_warning_description",
-    "translation": "We're sorry, but this Website doesn't work properly without JavaScript enabled."
+    "translation": "نأسف، لكن هذا الموقع الإلكتروني لا يعمل بشكلٍ صحيح بدون تمكين JavaScript."
   },
   {
     "id": "exchanges_title",
-    "translation": "Exchanges"
+    "translation": "البورصات"
   },
   {
     "id": "exchanges_description",
-    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys."
+    "translation": "توفر تبادلات العملات الرقمية طريقة سهلة لشراء وتداول Decred (DCR). إخلاء مسؤولية: أجرِ بحثك الخاص دائمًا (DYOR) قبل استخدام خدمة. أكثر طريقة أمانًا لتخزين Decred هي في محفظة حيث تتحكم حصريًّا في المفاتيح الخاصة."
   },
   {
     "id": "title",
@@ -37,7 +37,7 @@
   },
   {
     "id": "general_copyright",
-    "translation": "Decred Developers"
+    "translation": "مطورو Decred"
   },
   {
     "id": "nav_brand_resources",
@@ -61,7 +61,7 @@
   },
   {
     "id": "nav_roadmap",
-    "translation": "Roadmap"
+    "translation": "خريطة طريق"
   },
   {
     "id": "footer_roadmap",
@@ -93,11 +93,11 @@
   },
   {
     "id": "nav_politeia",
-    "translation": "Proposal System"
+    "translation": "نظام مقترحات"
   },
   {
     "id": "nav_vsp",
-    "translation": "Voting Service Providers"
+    "translation": "موفرو خدمة التصويت"
   },
   {
     "id": "nav_networkstats",
@@ -121,11 +121,11 @@
   },
   {
     "id": "nav_exchanges",
-    "translation": "Exchanges"
+    "translation": "البورصات"
   },
   {
     "id": "nav_press",
-    "translation": "Press"
+    "translation": "الصحافة"
   },
   {
     "id": "contributors_corporate_contractor",
@@ -145,7 +145,7 @@
   },
   {
     "id": "contributors_marketing",
-    "translation": "Marketing"
+    "translation": "التسويق"
   },
   {
     "id": "contributors_strategy",
@@ -157,27 +157,27 @@
   },
   {
     "id": "roadmap_tag_new",
-    "translation": "New"
+    "translation": "جديد"
   },
   {
     "id": "roadmap_tag_ongoing",
-    "translation": "Ongoing"
+    "translation": "مستمر"
   },
   {
     "id": "roadmap_tag_completed",
-    "translation": "Completed"
+    "translation": "مكتمل"
   },
   {
     "id": "roadmap_moreinfo",
-    "translation": "More Information"
+    "translation": "معلومات إضافية"
   },
   {
     "id": "roadmap_tag_subtitle",
-    "translation": "Insight into our future, overview of the past"
+    "translation": "رؤية عن مستقبلنا، وإطلالة مشرفة على الماضي"
   },
   {
     "id": "roadmap_description",
-    "translation": "Please note that our primary goal is to provide you with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change."
+    "translation": "يُرجى ملاحظة أن هدفنا الرئيسي هو إمدادك بإصدارات مستقرة وموثوقة. وعلى هذا الأساس، فأي إشارات إلى تواريخ الإصدار وسماته المدرجة هي عرضة للتغيير."
   },
   {
     "id": "brand_guide_0",
@@ -197,7 +197,7 @@
   },
   {
     "id": "brand_guide_4",
-    "translation": "Primary Colors"
+    "translation": "ألوان أساسية"
   },
   {
     "id": "brand_guide_5",
@@ -217,7 +217,7 @@
   },
   {
     "id": "brand_guide_9",
-    "translation": "Complementary Colors"
+    "translation": "ألوان متممة"
   },
   {
     "id": "brand_guide_10",
@@ -225,7 +225,7 @@
   },
   {
     "id": "brand_guide_11",
-    "translation": "Green"
+    "translation": "أخضر"
   },
   {
     "id": "brand_guide_12",
@@ -233,39 +233,39 @@
   },
   {
     "id": "brand_guide_13",
-    "translation": "Decred’s visual identity objectives are to ensure unique representation amongst digital currencies, support consistent use across a variety of platforms as well as be memorable and engaging for onboarding new adopters. This is achieved through correct usage of the logo, type setting, color direction and graphic assets. We have developed simple style templates suitable for all users as well as for designers to produce more complex materials."
+    "translation": "إن أهداف هوية Decred البصرية هي ضمان تمثيل فريد بين العملات الرقمية، ودعم الاستعمال المستمر عبر مجموعة متنوعة من المنصات فضلاً عن كونها سهلة التذكر وجذابة لإلحاق المستخدمين الجدد. يتحقق هذا من خلال الاستخدام الصحيح للشعار، وتعيين النوع، وتوجيه الألوان والأصول الرسومية. لقد طورنا قوالب بسيطة الأسلوب مناسبة لكل المستخدمين وكذلك المصممين لإنتاج مواد أكثر تعقيدًا."
   },
   {
     "id": "brand_guide_14",
-    "translation": "View github/dcrdesign repo for design packages, guidelines and documentations"
+    "translation": "عاين github/dcrdesign repo لرؤية باقات التصميم، والتوجيهات والتوثيقات"
   },
   {
     "id": "exchanges_otc_title",
-    "translation": "Decred OTC Traders"
+    "translation": "متداولو Decred خارج البورصة"
   },
   {
     "id": "exchanges_otc_description",
-    "translation": "Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher."
+    "translation": "يتيح التداول في عمليات خارج البورصة (OTC) للعملاء شراء وبيع Decred مباشرةً من أحد المتداولين. يتفق العميل والمتداول على سعرٍ ثابت مقابل كمية كبيرة من Decred ويجريان المعاملة بدون المرور بالبورصة. أدنى حجم لمعاملة التداول خارج البورصة هو في المعتاد 100,000 دولار أمريكي أو أكثر."
   },
   {
     "id": "exchanges_payment_title",
-    "translation": "Decred Payment Processors"
+    "translation": "معالجات دفع Decred"
   },
   {
     "id": "exchanges_payment_description",
-    "translation": "Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms."
+    "translation": "حلول ليبدأ التجار على الإنترنت قبول Decred (DCR) كوسيلة للدفع. توفر معالجات الدفع دمجًا سريعًا وسهلاص لقبول العلملات المشفرة من خلال منصات التجارة الإلكترونية."
   },
   {
     "id": "exchanges_subtitle",
-    "translation": "Decred on Exchanges"
+    "translation": "Decred في البورصات"
   },
   {
     "id": "exchanges_showall",
-    "translation": "Show all"
+    "translation": "عرض الكل"
   },
   {
     "id": "home_download_wallet",
-    "translation": "Download Wallet"
+    "translation": "تنزيل المحفظة"
   },
   {
     "id": "home_for_computer",
@@ -297,15 +297,15 @@
   },
   {
     "id": "home_politeia_notice_title",
-    "translation": "Decred’s Proposal System is Live"
+    "translation": "نظام مقترحات Decred مباشر"
   },
   {
     "id": "home_politeia_notice_body",
-    "translation": "Politeia allows Decred users and stakeholders to propose, discuss, collaborate on, and fund new projects, initiatives, and consensus changes."
+    "translation": "يتيح Politeia لمستخدمي Decred وأصحاب المصالح اقتراح مشروعات، ومبادرات جديدة وتغييرات بإجماع الآراء، والتعاون فيها، وتمويلها."
   },
   {
     "id": "home_politeia_notice_link_title",
-    "translation": "View Proposals"
+    "translation": "عرض المقترحات"
   },
   {
     "id": "home_mission_section_title",
@@ -333,7 +333,7 @@
   },
   {
     "id": "home_mission_chart_2",
-    "translation": "mined so far"
+    "translation": "ما تم تعدينه حتى الآن"
   },
   {
     "id": "home_mission_title_3",
@@ -345,7 +345,7 @@
   },
   {
     "id": "home_quotes_quote",
-    "translation": "“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.”"
+    "translation": "\"الخاصية الأهم في Decred هي الحوكمة الجيدة، وبالحوكمة الجيدة، يمكنك أن تحظى بأي خاصية تريد\"."
   },
   {
     "id": "home_platform_platform",
@@ -357,7 +357,7 @@
   },
   {
     "id": "home_platform_built",
-    "translation": "Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:"
+    "translation": "صُممت Decred لتبقى. إن نشاطنا في التطوير وجودتنا بين الأفضل في المجال. تشتمل خصائص برنامج Decred على ما يلي:"
   },
   {
     "id": "home_platform_innovative",
@@ -421,7 +421,7 @@
   },
   {
     "id": "home_platform_soon",
-    "translation": "Soon™"
+    "translation": "قريبًا™"
   },
   {
     "id": "home_platform_active",
@@ -481,7 +481,7 @@
   },
   {
     "id": "home_guide_3",
-    "translation": "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
+    "translation": "لأولئك الذين يحبون التعديل بأنفسهم، توفر Decred باقة كاملة من أدوات سطر الأوامر مما يتيح تخصيص تجربة Decred."
   },
   {
     "id": "home_guide_4",
@@ -497,7 +497,7 @@
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>توجد ثلاث طرق رئيسية للتعامل مع Decred:</p>\n\t\t<p><strong>المحفظة</strong> - لإرسال المبالغ واستلامها إضافة إلى المساهمة بالتعدين عن طريق إثبات الحصة (PoS).</p>\n\t\t<p><strong>تعدين إثبات العمل</strong> - استخدام قوة الحوسبة للتحقق من صحة المعاملات على الشبكة وتوليد وح\nدات Decred جديدة.</p>\n\t\t<p><strong>تعدين إثبات الحصة</strong> - استخدام الرصيد للتصويت على أمور مهمة تخص تطوير الشبكة وإقرار صحة التعاملات مقابل مكافأة.</p>"
+    "translation": "<p>توجد ثلاث طرق رئيسية للتعامل مع Decred:</p>\n\t\t<p><strong>المحفظة</strong> - لإرسال المبالغ واستلامها إضافة إلى المساهمة بالتصويت عن طريق إثبات الحصة (PoS).</p>\n\t\t<p><strong>تعدين إثبات العمل</strong> - استخدام قوة الحوسبة للتحقق من صحة المعاملات على الشبكة وتوليد وح\nدات Decred جديدة.</p>\n\t\t<p><strong>تعدين إثبات الحصة</strong> - استخدام الرصيد للتصويت على أمور مهمة تخص تطوير الشبكة وإقرار صحة التعاملات مقابل مكافأة.</p>"
   },
   {
     "id": "home_guide_8",
@@ -509,11 +509,11 @@
   },
   {
     "id": "home_guide_10",
-    "translation": "The Wallet"
+    "translation": "المحفظة"
   },
   {
     "id": "home_guide_11",
-    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a> is a cross-platform GUI wallet for Decred. Available for Windows, MacOS, and Linux users.</p><p><a href=\"downloads/#cli\">Command-line wallet and utilities</a> are also available for a variety of platforms.</p><p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Beginner’s Guide</a>.</p>"
+    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a> هي محفظة واجهة مستخدم رسومية متعددة المنصات لـ Decred. متاحة لمستخدمي نظام Windows، وMacOS، وLinux .تتوفر أيضًا محفظة سطر الأوامر وأدوات مساعدة لمجموعة متنوعة من المنصات.</p><p>للحصول على مساعدة للبدء، يمكنك زيارة <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">دليل المبتدئين</a>الخاص بنا.</p>"
   },
   {
     "id": "home_guide_12",
@@ -541,7 +541,7 @@
   },
   {
     "id": "home_guide_18",
-    "translation": "Mining"
+    "translation": "التعدين"
   },
   {
     "id": "home_guide_19",
@@ -573,11 +573,11 @@
   },
   {
     "id": "home_guide_26",
-    "translation": "التعدين بواسطة إثبات الحصة"
+    "translation": "تصويت إثبات الحصة"
   },
   {
     "id": "home_guide_27",
-    "translation": "<p>على خلاف تعدين إثبات العمل (PoW)، <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">تعدين إثبات الحصة (PoS)</a> يتطلب القليل من الموارد الحاسوبية. تُستخدم أموال Decred لشراء تذاكر تسمح بالتصويت داخل الشبكة. وفي كل كتلة يتم اختيار خمس تذاكر بشكل عشوائى من تجمع التذاكر للتصويت على صحة معاملات الكتلة السابقة. </p>\n\t\t<p>تعدين إثبات الحصة (PoS) يضيف طبقة من اللامركزية لـ Decred ويتيح للمستخدمين التصويت على التغيرات المقترحة للشبكة. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">هنالك تجمعات خاصة بتعدين إثبات الحصة (PoS)</a> لتضمن جاهزية تذاكرك للتصويت في حال النداء عليها.</p>"
+    "translation": "<p>على خلاف تعدين إثبات العمل (PoW)، <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">تصويت إثبات الحصة (PoS)</a> يتطلب القليل من الموارد الحاسوبية. تُستخدم أموال Decred لشراء تذاكر تسمح بالتصويت داخل الشبكة. وفي كل كتلة يتم اختيار خمس تذاكر بشكل عشوائى من تجمع التذاكر للتصويت على صحة معاملات الكتلة السابقة. </p>\n\t\t<p>تعدين إثبات الحصة (PoS) يضيف طبقة من اللامركزية لـ Decred ويتيح للمستخدمين التصويت على التغيرات المقترحة للشبكة. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">هنالك تجمعات خاصة بتعدين إثبات الحصة (PoS)</a> لتضمن جاهزية تذاكرك للتصويت في حال النداء عليها.</p>"
   },
   {
     "id": "home_guide_28",
@@ -609,7 +609,7 @@
   },
   {
     "id": "home_guide_35",
-    "translation": "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.We can't wait to meet you!</p>"
+    "translation": "<p>من خلال عمليات لا مركزية، يستطيع الأشخاص ذوو الأفكار، والأهداف والآراء المختلفة المساعدة في تشكيل المستقبل. من المرجح أن تخطر ببالك بعض الأسئلة، فانضم إلى مجتمعنا المتنامي، حيث يمكنك التواصل مع المطورين والمستخدمين الآخرين، والحصول على المعلومات، وطرح الأسئلة، أو قضاء وقت لطيف فحسب. لدينا <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">قناة IRC</a>، <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">وقناة Telegram </a>، <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">وقناة Slack</a> حيث يمكنك الدردشة مع المطورين والمستخدمين الآخرين في الوقت الفعلي. لا تنسَ أيضًا <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> و <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.لا يسعنا انتظار مقابلتك!</p>"
   },
   {
     "id": "home_guide_36",
@@ -625,7 +625,7 @@
   },
   {
     "id": "home_guide_39",
-    "translation": "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2018 and early 2019:</p><ul><li>Lightning network</li><li>Initial privacy release</li><li>Decentralized control of funds</li><li>Decentralized autonomous entities</li><li>Scalability optimizations</li><li>Decrediton integrations</li><li>Marketing growth</li><li>Proposal for a Decentralized Exchange</li></ul><p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+    "translation": "<p>يذهب جزء من المكافأة من كتل جديدة نحو تطوير Decred لضمان أنها ستستمر في التطور لاستيفاء احتياجات ورغبات المجتمع الآن وخلال السنوات القادمة. هذه هي بعض الخصائص المخطط لها في 2018 وأوائل 2019:</p><ul><li>بروتوكول Lightning network</li><li>إصدار الخصوصية المبدئي</li><li>التحكم اللا مركزي في التمويل</li><li>الكيانات المستقلة اللا مركزية</li><li>تحسينات قابلية التوسع</li><li>إدماجات Decrediton</li><li>النمو التسويقي</li><li>اقتراح لتبادل لا مركزي</li></ul><p>اقرأ عن كل هذه الموضوعات والمزيد على مدونتنا. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">مرحبًا بكم في Decred: مستقبل العملة الرقمية المستقلة</a></p>"
   },
   {
     "id": "home_guide_40",
@@ -637,19 +637,19 @@
   },
   {
     "id": "downloads_description",
-    "translation": "If you are new to Decred, be sure to read the <a href=\"../#guide\">Getting Started Tour</a> or the <a href=\"../#platform\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">Binary Verification</a> steps to verify the checksums."
+    "translation": "إذا كنت جديدًا على Decred، فتأكد من قراءة <a href=\"../#guide\">جولة البدء</a> أو <a href=\"../#platform\">النظرة العامة الفنية</a> إذا كنت ترغب في التعمق. إذا كنت تقوم بتنزيل ثنائيات Decred، فيرجى اتباع خطوات <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">التحقق من الثنائيات</a> هذه للتحقق من المجاميع الاختبارية."
   },
   {
     "id": "downloads_category_core",
-    "translation": "Core software"
+    "translation": "البرنامج الأساسي"
   },
   {
     "id": "downloads_category_mining_software",
-    "translation": "Mining software"
+    "translation": "برنامج التعدين"
   },
   {
     "id": "downloads_category_3rd_party_wallets",
-    "translation": "3rd party wallets"
+    "translation": "محافظ الطرف الخارجي"
   },
   {
     "id": "downloads_app_decrediton",
@@ -657,7 +657,7 @@
   },
   {
     "id": "downloads_app_commandline",
-    "translation": "A cross-platform, automatic installer/updater for the command-line applications."
+    "translation": "مثبّت/محدّث متعدد المنصات لتطبيقات سطر الأوامر."
   },
   {
     "id": "downloads_app_gominer",
@@ -677,43 +677,47 @@
   },
   {
     "id": "downloads_app_coinomi",
-    "translation": "Securely store, manage and exchange Bitcoin, Ethereum, and more than 500 other blockchain assets."
+    "translation": "خزّن، وأدِر وتبادل بأمان كلاً من Bitcoin، وEthereum وأكثر من 500 أصل سلسلة كتل آخر."
   },
   {
     "id": "downloads_app_bitbill",
-    "translation": "Bitbill is a decentralized cryptocurrency wallet. You own your private keys."
+    "translation": "Bitbill هي محفظة عملات مشفرة لا مركزية. أنت تملك مفاتيحك الخاصة."
   },
   {
     "id": "downloads_app_anybit",
-    "translation": "Anybit is a mobile wallet available for Android and iOS with built in price and news tracking."
+    "translation": "Anybit هي محفظة محمولة متاحة لأنظمة Android وiOS بتتبع مدمج للسعر والأنباء."
   },
   {
     "id": "downloads_app_atomicwallet",
-    "translation": "Multi-asset desktop wallet with built in exchange via non-custodial atomic swaps and decentralized order book."
+    "translation": "محفظة سطح مكتب متعددة الأصول بتبادل مدمج عبر تقنية التبادلات الذرية اللا وصائية وكتيب الأوامر اللا مركزية."
   },
   {
     "id": "downloads_app_guarda",
-    "translation": "Guarda is represented by Web, Desktop and Mobile multi-currency wallets."
+    "translation": "Guarda تمثلها محافظ الويب وسطح المكتب والمحمول متعددة العملات."
   },
   {
     "id": "downloads_app_cobo",
-    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens"
+    "translation": "من المؤسس المشارك لـ F2Pool، Cobo هي محفظة على الهاتف المحمول غاية في الأمان تدعم التصويت السحابي الجماعي لإثبات الحصة (PoS) وأكثر من 30 عملة و500 رمز مميز"
+  },
+  {
+    "id": "downloads_app_ledger",
+    "translation": "Ledger Live هي محفظة على الإنترنت مؤمَّنة بواسطة جهاز محفظة Ledger."
   },
   {
     "id": "stakepools_description",
-    "translation": "Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power."
+    "translation": "يتيح لك موفرو خدمة التصويت المشاركة في نظام إثبات الحصة (PoS) من Decred دون القلق على خسائرك بسبب توقف الكمبيوتر عن العمل، أو اتصال الإنترنت المتقطع، أو تقطّع التيار الكهربائي."
   },
   {
     "id": "stakepools_warning_1",
-    "translation": "<span class=\"modalparagraphbold\">Notice:</span>&nbsp;Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider."
+    "translation": "<span class=\"modalparagraphbold\">ملحوظة:</span>&nbsp;عدم الرد على التذاكر قد يكون بسبب الاتصال الضعيف لمعدِّن إثبات العمل (PoW) وقد لا يكون بالضرورة خللاً من موفر الخدمة."
   },
   {
     "id": "stakepools_warning_2",
-    "translation": "<span class=\"modalparagraphbold\">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes."
+    "translation": "<span class=\"modalparagraphbold\">تحذير:</span>&nbsp;لتشجيع لا مركزية الشركة، يوصى بتجنب موفري الخدمات الذين لديهم أكثر من 5% من أصوات الشبكة."
   },
   {
     "id": "community_description",
-    "translation": "Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. The public channels on Matrix, Slack, and Discord have been bridged. You can choose any of these platforms and still participate in discussions with Decred community members on the others."
+    "translation": "تفضل وانضم إلى مجتمعنا المتنامي، حيث يمكنك التواصل مع المطورين والمستخدمين الآخرين، والحصول على المعلومات، أو طرح الأسئلة أو قضاء وقت لطيف فحسب. تم الربط بين القنوات العامة على Matrix، وSlack وDiscord. يمكنك اختيار أي من هذه المنصات وتظل مشاركًا في المناقشات مع أعضاء مجتمع Decred على المنصات الأخرى."
   },
   {
     "id": "press_description",
@@ -721,11 +725,11 @@
   },
   {
     "id": "press_coverage",
-    "translation": "Coverage"
+    "translation": "التغطية"
   },
   {
     "id": "press_releases",
-    "translation": "Releases"
+    "translation": "البيانات الصحفية"
   },
   {
     "id": "Business brief",
@@ -733,7 +737,7 @@
   },
   {
     "id": "Decred Recruiting",
-    "translation": "Decred Recruiting"
+    "translation": "توظيف Decred"
   },
   {
     "id": "Downloads",
@@ -741,7 +745,7 @@
   },
   {
     "id": "Exchanges and Payments",
-    "translation": "Exchanges and Payments"
+    "translation": "التبادلات والمدفوعات"
   },
   {
     "id": "Join our community!",
@@ -749,11 +753,11 @@
   },
   {
     "id": "Press",
-    "translation": "Press"
+    "translation": "الصحافة"
   },
   {
     "id": "Roadmap",
-    "translation": "Roadmap"
+    "translation": "خريطة طريق"
   },
   {
     "id": "Visual communication toolkit",
@@ -761,7 +765,7 @@
   },
   {
     "id": "Voting Service Providers",
-    "translation": "Voting Service Providers"
+    "translation": "موفرو خدمة التصويت"
   },
   {
     "id": "Who is Decred?",
@@ -769,42 +773,50 @@
   },
   {
     "id": "Join our Matrix community",
-    "translation": "Join our Matrix community"
+    "translation": "انضم إلى مجتمع Matrix الخاص بنا"
   },
   {
     "id": "matrix_to_register_using_the_riot",
-    "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
+    "translation": "للاشتراك باستخدام تطبيق الويب Riot، عبر معلومات خادم Decred الرئيسي المملوءة مسبقًا، اضغط على الرابط أدناه."
   },
   {
     "id": "matrix_register_with_riot",
-    "translation": "Register with Riot."
+    "translation": "اشترك باستخدام Riot."
   },
   {
     "id": "matrix_note_you_must_register_with",
-    "translation": "Note: you must register with an email address if you want password resets."
+    "translation": "ملحوظة: يجب عليك الاشتراك باستخدام عنوان بريد إلكتروني إذا كنت ترغب في إعادة تعيين كلمة المرور."
   },
   {
     "id": "matrix_if_you_already_have_an",
-    "translation": "If you already have an existing Matrix account, use the link below to log into Decred’s homeserver."
+    "translation": "إذا كان لديك حساب Matrix بالفعل، فاستخدم الرابط أدناه لتسجيل الدخول إلى خادم Decred الرئيسي."
   },
   {
     "id": "matrix_login_to_decred_homeserver",
-    "translation": "Login to Decred homeserver"
+    "translation": "تسجيل الدخول إلى خادم Decred الرئيسي"
   },
   {
     "id": "matrix_to_browse_decred_rooms_click",
-    "translation": "To browse Decred rooms, click the directory button in the ‘Rooms’ panel on the left-hand side."
+    "translation": "لتصفح غرف Decred، اضغط على زر الدليل في لوحة \"الغرف\" على الجهة اليسرى."
   },
   {
     "id": "matrix_decred_rooms",
-    "translation": "Decred Rooms"
+    "translation": "غرف Decred"
   },
   {
     "id": "matrix_to_browse_other_available_matrix",
-    "translation": "To browse other available Matrix clients and home servers, see the <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix Getting Started page</a>."
+    "translation": "لتصفح عملاء Matrix والخوادم الرئيسية الأخرى، راجع <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">صفحة بدء Matrix</a>."
   },
   {
     "id": "matrix_matrix_is_a_secure_open",
-    "translation": "<p>Matrix is a secure, open messaging platform popular with Decred contractors. With the help of bridge software Matrix users can communicate with users on other Decred platforms such as Slack and Discord. Matrix offers first party registration; no identifying information or third party service is required to sign up. Users should be aware however that some features, such as password reset, do require an email address. For more on Matrix’s security features and available clients, see the Matrix project <a href=\"https://matrix.org/blog/home/\">homepage</a>.</p>\n\n<p>To join Matrix, you’ll need to choose a client and a homeserver. Matrix supports numerous clients and homeservers, but for first-time users, we recommend the most well-supported Matrix client, Riot, and Decred’s homeserver. Using the Decred homeserver makes it easier to find Decred chat rooms, puts ‘decred.org’ in your ID, and allows you to continue messaging should Decred’s homeserver become disconnected with other homeservers.</p>"
+    "translation": "<p>Matrix منصة تبادل رسائل مفتوحة آمنة مشهورة بين متعاقدي Decred. بمساعدة برنامج التجسير Matrix يستطيع المستخدمون التواصل مه مستخدمين على منصات Decred أخرى مثل Slack وDiscord. توفر Matrix تسجيل الطرف الأول؛ بدون حاجة إلى معلومات تعريف أو خدمة طرف خارجي للاشتراك. يجب أن يكون المستخدمون على علم، رغم هذا، بأن بعض الخصائص مثل إعادة تعيين كلمة المرور تحتاج إلى عنوان البريد الإلكتروني. للمزيد حول خصائص Matrix الأمنية والعملاء المتاحين، راجع الصفحة الرئيسية لمشروع <a href=\"https://matrix.org/blog/home/\">Matrix</a>.</p>\n\n<p>للانضمام إلى Matrix، ستحتاج إلى اختيار عميل وخادم رئيسي. تدعم Matrix الكثير من العملاء والخوادم الرئيسية، لكن للمستخدمين لأول مرة، نوصي بأكثر عملاء Matrix المدعومين Riot، وخادم Decred الرئيسي. يُسهّل استخدام خادم Decred الرئيسي العثور على غرف دردشة Decred، ويضع ‘decred.org’ في هويتك، ويسمح لك بمتابعة المراسلات إذا انقطع اتصال خادم Decred الرئيسي بالخوادم الرئيسية الأخرى.</p>"
+  },
+  {
+    "id": "Page not found",
+    "translation": "لم يتم العثور على الصفحة"
+  },
+  {
+    "id": "Back to home page",
+    "translation": "الرجوع إلى الصفحة الرئيسية"
   }
 ]
