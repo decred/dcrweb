@@ -6347,6 +6347,7 @@ html[dir="rtl"] .lang-menu {
 @media (min-width: 576px) {
   .roadmap__card-title {
     font-size: 19px;
+    height: 3em;
   }
 }
 
@@ -6364,14 +6365,15 @@ html[dir="rtl"] .lang-menu {
   height: 100%;
   background-color: rgba(9, 20, 64, 0.5);
   left: 0;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
 .roadmap__description {
   color: #596D81;
   font-size: 13px;
+  height: 16em;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .roadmap__more-link {
