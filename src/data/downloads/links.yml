@@ -2,26 +2,26 @@ decrediton:
     - title: macOS
       platform: macdl
       id: decreditonmac
-      url: https://github.com/decred/decred-binaries/releases/download/v1.3.1/decrediton-v1.3.1.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.4.0/decrediton-v1.4.0.dmg
       is_direct_download: true
 
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
-      url: https://github.com/decred/decred-binaries/releases/download/v1.3.1/decrediton-v1.3.1.tar.gz
+      url: https://github.com/decred/decred-binaries/releases/download/v1.4.0/decrediton-v1.4.0.tar.gz
       is_direct_download: true
 
     - title: Windows
       platform: windl
       id: decreditonwindows
-      url: https://github.com/decred/decred-binaries/releases/download/v1.3.1/decrediton-v1.3.1.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.4.0/decrediton-v1.4.0.exe
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v130
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v140
 
 commandline:
     - title: View on Github
-      url: https://github.com/decred/decred-release/releases/tag/v1.3.0
+      url: https://github.com/decred/decred-release/releases/tag/v1.4.0
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v130
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v140
