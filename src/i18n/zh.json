@@ -1,7 +1,7 @@
 [
   {
     "id": "general_release_stable",
-    "translation": "stable"
+    "translation": "稳定"
   },
   {
     "id": "general_downloads",
@@ -13,19 +13,19 @@
   },
   {
     "id": "general_javascript_warning",
-    "translation": "JavaScript required"
+    "translation": "JavaScript请求"
   },
   {
     "id": "general_javascript_warning_description",
-    "translation": "We're sorry, but this Website doesn't work properly without JavaScript enabled."
+    "translation": "很抱歉，此网站在没有JavaScript的情况下不能正常工作。"
   },
   {
     "id": "exchanges_title",
-    "translation": "Exchanges"
+    "translation": "交易所"
   },
   {
     "id": "exchanges_description",
-    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys."
+    "translation": "数字货币交换为购买和交易Decred（DCR）提供了一种简单的方式。免责声明：在使用服务之前一定要做自己的研究。将Decred存储在钱包中最安全的方法是只控制私钥。"
   },
   {
     "id": "title",
@@ -37,7 +37,7 @@
   },
   {
     "id": "general_copyright",
-    "translation": "Decred Developers"
+    "translation": "Decred 开发商"
   },
   {
     "id": "nav_brand_resources",
@@ -93,11 +93,11 @@
   },
   {
     "id": "nav_politeia",
-    "translation": "Proposal System"
+    "translation": "建议系统"
   },
   {
     "id": "nav_vsp",
-    "translation": "Voting Service Providers"
+    "translation": "投票服务提供商"
   },
   {
     "id": "nav_networkstats",
@@ -121,11 +121,11 @@
   },
   {
     "id": "nav_exchanges",
-    "translation": "Exchanges"
+    "translation": "交易所"
   },
   {
     "id": "nav_press",
-    "translation": "Press"
+    "translation": "出版社"
   },
   {
     "id": "contributors_corporate_contractor",
@@ -145,7 +145,7 @@
   },
   {
     "id": "contributors_marketing",
-    "translation": "Marketing"
+    "translation": "市场"
   },
   {
     "id": "contributors_strategy",
@@ -157,27 +157,27 @@
   },
   {
     "id": "roadmap_tag_new",
-    "translation": "New"
+    "translation": "新的"
   },
   {
     "id": "roadmap_tag_ongoing",
-    "translation": "Ongoing"
+    "translation": "正在进行的"
   },
   {
     "id": "roadmap_tag_completed",
-    "translation": "Completed"
+    "translation": "已完成"
   },
   {
     "id": "roadmap_moreinfo",
-    "translation": "More Information"
+    "translation": "更多信息"
   },
   {
     "id": "roadmap_tag_subtitle",
-    "translation": "Insight into our future, overview of the past"
+    "translation": "洞察未来，回顾过去"
   },
   {
     "id": "roadmap_description",
-    "translation": "Please note that our primary goal is to provide you with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change."
+    "translation": "请注意，我们的主要目标是为您提供稳定可靠的版本。因此，目标发布日期和所列特性的任何指示都可能发生变化。"
   },
   {
     "id": "brand_guide_0",
@@ -197,7 +197,7 @@
   },
   {
     "id": "brand_guide_4",
-    "translation": "Primary Colors"
+    "translation": "原色"
   },
   {
     "id": "brand_guide_5",
@@ -217,7 +217,7 @@
   },
   {
     "id": "brand_guide_9",
-    "translation": "Complementary Colors"
+    "translation": "互补色"
   },
   {
     "id": "brand_guide_10",
@@ -225,7 +225,7 @@
   },
   {
     "id": "brand_guide_11",
-    "translation": "Green"
+    "translation": "绿色"
   },
   {
     "id": "brand_guide_12",
@@ -237,35 +237,35 @@
   },
   {
     "id": "brand_guide_14",
-    "translation": "View github/dcrdesign repo for design packages, guidelines and documentations"
+    "translation": "查看设计包、指南和文档的github/dcrdesign repo"
   },
   {
     "id": "exchanges_otc_title",
-    "translation": "Decred OTC Traders"
+    "translation": "Decred OTC 交易商"
   },
   {
     "id": "exchanges_otc_description",
-    "translation": "Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher."
+    "translation": "场外交易（OTC）允许客户直接从交易商处进行买卖。客户和交易员就大量Decred的固定价格达成一致，在不通过交易所的情况下进行交易。场外交易的最小交易规模通常为10万美元或更高。"
   },
   {
     "id": "exchanges_payment_title",
-    "translation": "Decred Payment Processors"
+    "translation": "Decred 支付处理器"
   },
   {
     "id": "exchanges_payment_description",
-    "translation": "Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms."
+    "translation": "在线商户开始接受Decred （DCR）支付的解决方案。支付处理器提供通过电子商务平台接受加密货币的既快速又简单的集成。"
   },
   {
     "id": "exchanges_subtitle",
-    "translation": "Decred on Exchanges"
+    "translation": "Decred 在交易所"
   },
   {
     "id": "exchanges_showall",
-    "translation": "Show all"
+    "translation": "显示全部"
   },
   {
     "id": "home_download_wallet",
-    "translation": "Download Wallet"
+    "translation": "下载钱包"
   },
   {
     "id": "home_for_computer",
@@ -293,19 +293,19 @@
   },
   {
     "id": "home_decrediton_for_windl",
-    "translation": "Decrediton for Windows"
+    "translation": "适用于Windows 的Decredition"
   },
   {
     "id": "home_politeia_notice_title",
-    "translation": "Decred’s Proposal System is Live"
+    "translation": "Decred的建议系统是实时的"
   },
   {
     "id": "home_politeia_notice_body",
-    "translation": "Politeia allows Decred users and stakeholders to propose, discuss, collaborate on, and fund new projects, initiatives, and consensus changes."
+    "translation": "Politeia允许Decred用户和股东提出、讨论、合作新项目、计划和共识变更，并为其提供资金。"
   },
   {
     "id": "home_politeia_notice_link_title",
-    "translation": "View Proposals"
+    "translation": "查看建议"
   },
   {
     "id": "home_mission_section_title",
@@ -333,7 +333,7 @@
   },
   {
     "id": "home_mission_chart_2",
-    "translation": "mined so far"
+    "translation": "采集到此为止"
   },
   {
     "id": "home_mission_title_3",
@@ -345,7 +345,7 @@
   },
   {
     "id": "home_quotes_quote",
-    "translation": "“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.”"
+    "translation": "“Decred的杀手级特性是良好的治理，通过良好的治理，您可以拥有任何想要的特性。”"
   },
   {
     "id": "home_platform_platform",
@@ -357,7 +357,7 @@
   },
   {
     "id": "home_platform_built",
-    "translation": "Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:"
+    "translation": "Decred将持续发展。我们的开发活动和质量都在业内名列前茅。Decred软件的特点包括："
   },
   {
     "id": "home_platform_innovative",
@@ -469,7 +469,7 @@
   },
   {
     "id": "home_guide_0",
-    "translation": "This tour will help you get started with Decred"
+    "translation": "这次旅行将帮助您从Decred开始"
   },
   {
     "id": "home_guide_1",
@@ -481,7 +481,7 @@
   },
   {
     "id": "home_guide_3",
-    "translation": "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
+    "translation": "对于那些致力于修补程序的人，Decred为其提供了一整套指令行工具，可进行定制Decred体验。"
   },
   {
     "id": "home_guide_4",
@@ -497,7 +497,7 @@
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>Decred 主要有 3 种交互方式：</p>\n\t\t<p><strong>钱包</strong>－用于发送和接收代币，以及参与 PoS 挖矿。</p>\n\t\t<p><strong>PoW 挖矿</strong>－使用计算能力在网络上验证交易，然后获得新产生的 Decred 代币。</p>\n\t\t<p><strong>PoS 挖矿</strong>－使用代币在重要的网络发展事项上来进行投票并验证交易，从而获得奖励。</p>"
+    "translation": "<p>Decred 主要有 3 种交互方式：</p>\n<p><strong>钱包</strong>－用于发送和接收代币，以及参与 PoS 投票。</p>\n<p><strong>PoW 投票</strong>－使用计算机在网络上验证交易，然后获得新产生的 Decred 代币。</p>\n<p><strong>PoS 投票</strong>－使用代币在重要的网络发展事项上来进行投票并验证交易，从而获得奖励。</p>"
   },
   {
     "id": "home_guide_8",
@@ -509,11 +509,11 @@
   },
   {
     "id": "home_guide_10",
-    "translation": "The Wallet"
+    "translation": "钱包"
   },
   {
     "id": "home_guide_11",
-    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a> is a cross-platform GUI wallet for Decred. Available for Windows, MacOS, and Linux users.</p><p><a href=\"downloads/#cli\">Command-line wallet and utilities</a> are also available for a variety of platforms.</p><p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Beginner’s Guide</a>.</p>"
+    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a>是一个用于Decred的跨平台GUI钱包。适用于Windows、MacOS和Linux用户。</p><p><a href=\"downloads/#cli\">指令类钱包和实用程序</a>也可用于各种平台。</p><p>为了更好的开始，您可以访问我们的<a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Beginner’s Guide</a>。</p>"
   },
   {
     "id": "home_guide_12",
@@ -541,7 +541,7 @@
   },
   {
     "id": "home_guide_18",
-    "translation": "Mining"
+    "translation": "矿业"
   },
   {
     "id": "home_guide_19",
@@ -561,7 +561,7 @@
   },
   {
     "id": "home_guide_23",
-    "translation": "<p>In <a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\" rel=\"noopener noreferrer\">Proof-of-work (PoW)</a> transactions are grouped into blocks. These blocks are validated by PoW miners. When a block is validated it becomes a permanent part of the Decred network.</p><p>You can become a miner by dedicating spare computing resources to the network. In return miners are rewarded with Decred.</p><p>For efficiency and convenience you can join <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">mining pools</a>. The pools are groups of miners who share the work and split the reward. Joining a mining pool is an excellent way for smaller contributors to receive consistent payouts for their work.</p>"
+    "translation": "<p>在<a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\" rel=\"noopener noreferrer\">工作量证明机制（PoW）</a>中，交易被分组到区块中。这些区块经过PoW矿工的验证。当一个区块验证时，它就永久成为Decred网络的一部分。</p><p>通过将空闲的计算资源奉献给网络而成为一名矿工。作为回报，矿工们会得到Decred的奖励。</p><p>为了效率和便捷性，您可以加入<a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">矿池</a>。这些矿池是由一群矿工组成的团体，他们分担工作，分享报酬。对于较小的贡献者来说，加入一个采矿池是一个获得稳定报酬的好方法。</p>"
   },
   {
     "id": "home_guide_24",
@@ -573,11 +573,11 @@
   },
   {
     "id": "home_guide_26",
-    "translation": "权益证明挖矿"
+    "translation": "权益证明投票"
   },
   {
     "id": "home_guide_27",
-    "translation": "<p>Unlike PoW, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\" rel=\"noopener noreferrer\">Proof-of-stake mining (PoS)</a> requires little computing resources. Decred funds are used to purchase voting tickets on the network. In every block, five tickets from the pool of live tickets are chosen at random to vote on the validity of the previous block. </p><p>PoS adds an extra layer of decentralization to Decred and allows users to vote on suggested network changes. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\" rel=\"noopener noreferrer\">Pools - called Voting Service Providers (VSPs) - are also available for PoS</a> to ensure your tickets are ready to vote whenever they're called.</p>"
+    "translation": "<p>与PoW不同，<a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\" rel=\"noopener noreferrer\">权益证明投票（PoS）</a>只需要很少的计算资源。Decred资金用于在网络上购买投票。在每个区块中，从票池中随机选择5张投票，对前一个区块的有效性进行投票。</p><p>PoS为Decred增加了额外的分散化层，允许用户投票决定变更网络的建议。<a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\" rel=\"noopener noreferrer\">票池——也称为投票服务提供商（vsp）——可以用于PoS</a>以确保您的选票随时准备好投票表决。</p>"
   },
   {
     "id": "home_guide_28",
@@ -593,7 +593,7 @@
   },
   {
     "id": "home_guide_31",
-    "translation": "<p>Decred is still new, and at this time, the easiest way to purchase it is with Bitcoin. <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\" rel=\"noopener noreferrer\">Once you have some Bitcoin</a>, it can be traded for Decred <a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\" rel=\"noopener noreferrer\">at digital currency exchanges</a>.</p>"
+    "translation": "<p>Decred仍然处于崭新状态，在这个时候，最简单的购买方式是使用比特币。<a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#bitcoin\" title=\"_blank\" rel=\"noopener noreferrer\">一旦您拥有了比特币，</a>就可以<a href=\"https://docs.decred.org/getting-started/obtaining-dcr/#exchanges\" title=\"_blank\" rel=\"noopener noreferrer\">在数字货币交易所</a>进行兑换。</p>"
   },
   {
     "id": "home_guide_32",
@@ -609,7 +609,7 @@
   },
   {
     "id": "home_guide_35",
-    "translation": "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.We can't wait to meet you!</p>"
+    "translation": "<p>通过去中心化的管理机制，拥有不同想法、目标和意见的人可以共同塑造未来。或许您会有一些疑问，那就加入我们不断壮大的社区吧；在这里您可以认识开发者和其他用户、获取信息、提出问题或只是单纯地打发时间。您可以通过我们的<a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">聊天室</a>，<a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram 频道</a>，和 <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack 频道</a>与开发者和其他用户进行实时沟通。当然，不要忘了还有 <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>和 <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>。我们期待您的加入！</p>"
   },
   {
     "id": "home_guide_36",
@@ -621,11 +621,11 @@
   },
   {
     "id": "home_guide_38",
-    "translation": "Planned Features"
+    "translation": "计划特征"
   },
   {
     "id": "home_guide_39",
-    "translation": "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2018 and early 2019:</p><ul><li>Lightning network</li><li>Initial privacy release</li><li>Decentralized control of funds</li><li>Decentralized autonomous entities</li><li>Scalability optimizations</li><li>Decrediton integrations</li><li>Marketing growth</li><li>Proposal for a Decentralized Exchange</li></ul><p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+    "translation": "<p>来自新区块的一部分奖励将用于支持 Decred 项目的发展，以确保它能够持续改善，满足现在和未来几年内社区的需求和愿景。这些只是计划在2018年和2019年初实现的一些功能：</p><ul><li>闪电网络</li><li>初始隐私发布</li><li>去中心化控制基金</li><li>去中心化自治实体</li><li>可伸缩性优化</li><li>decrediton集成</li><li>营销增长</li><li>去中心化交易的建议</li></ul><p>以及我们博客上的更多内容。<a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">欢迎来到Decred:自动数字货币的未来</a></p>"
   },
   {
     "id": "home_guide_40",
@@ -637,15 +637,15 @@
   },
   {
     "id": "downloads_description",
-    "translation": "If you are new to Decred, be sure to read the <a href=\"../#guide\">Getting Started Tour</a> or the <a href=\"../#platform\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">Binary Verification</a> steps to verify the checksums."
+    "translation": "若您是新手，若您想对我们深入了解，请务必阅读<a href=\"../#guide\">入门指南</a>或<a href=\"../#platform\">技术概述</a>。如果您正在下载Decred二进制文件，请按照以下<a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">二进制验证</a>步骤来验证校验。"
   },
   {
     "id": "downloads_category_core",
-    "translation": "Core software"
+    "translation": "核心软件"
   },
   {
     "id": "downloads_category_mining_software",
-    "translation": "Mining software"
+    "translation": "挖掘软件"
   },
   {
     "id": "downloads_category_3rd_party_wallets",
@@ -657,7 +657,7 @@
   },
   {
     "id": "downloads_app_commandline",
-    "translation": "A cross-platform, automatic installer/updater for the command-line applications."
+    "translation": "指令类应用程序的跨平台自动安装/更新程序。"
   },
   {
     "id": "downloads_app_gominer",
@@ -673,47 +673,51 @@
   },
   {
     "id": "downloads_app_exodus",
-    "translation": "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets."
+    "translation": "Exodus是一个友好的、多功能的应用程序，用于保护、管理和交换区块链资产。"
   },
   {
     "id": "downloads_app_coinomi",
-    "translation": "Securely store, manage and exchange Bitcoin, Ethereum, and more than 500 other blockchain assets."
+    "translation": "安全存储、管理和交换比特币、Ethereum和其他500多种区块链资产。"
   },
   {
     "id": "downloads_app_bitbill",
-    "translation": "Bitbill is a decentralized cryptocurrency wallet. You own your private keys."
+    "translation": "Bitbill是一种分散式加密货币钱包。您可拥有自己的私钥。"
   },
   {
     "id": "downloads_app_anybit",
-    "translation": "Anybit is a mobile wallet available for Android and iOS with built in price and news tracking."
+    "translation": "Anybit是一款Android和iOS手机钱包，内置价格和新闻追踪功能。"
   },
   {
     "id": "downloads_app_atomicwallet",
-    "translation": "Multi-asset desktop wallet with built in exchange via non-custodial atomic swaps and decentralized order book."
+    "translation": "通过非托管原子互惠信贷和去中心化订单交易的多资产桌面钱包。"
   },
   {
     "id": "downloads_app_guarda",
-    "translation": "Guarda is represented by Web, Desktop and Mobile multi-currency wallets."
+    "translation": "Guarda以网页、桌面和移动多货币钱包为代表。"
   },
   {
     "id": "downloads_app_cobo",
-    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens"
+    "translation": "作为F2Pool的联合创始，Cobo是一款高度安全的移动钱包，支持PoS云池投票、30多个硬币和500多个代币"
+  },
+  {
+    "id": "downloads_app_ledger",
+    "translation": "Ledge Live是一个基于网站的钱包，由 Ledger hardware钱包保护。"
   },
   {
     "id": "stakepools_description",
-    "translation": "Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power."
+    "translation": "投票服务提供商（VSPs）允许您参与Decred的权益证明（PoS）系统，而无需担心由于计算机停机、网络连接不稳或电源不稳而造成的损失。"
   },
   {
     "id": "stakepools_warning_1",
-    "translation": "<span class=\"modalparagraphbold\">Notice:</span>&nbsp;Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider."
+    "translation": "<span class=\"modalparagraphbold\">注意：</span>&nbsp;；错失的票数可能是由于 工作证明 （PoW）矿业公司 连接不稳定造成的，不一定是供应商的问题。"
   },
   {
     "id": "stakepools_warning_2",
-    "translation": "<span class=\"modalparagraphbold\">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes."
+    "translation": "<span class=\"modalparagraphbold\">警告：</span>&nbsp;；为了鼓励网络的分散化，建议避开拥有超过5%网络投票的供应商。"
   },
   {
     "id": "community_description",
-    "translation": "Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. The public channels on Matrix, Slack, and Discord have been bridged. You can choose any of these platforms and still participate in discussions with Decred community members on the others."
+    "translation": "来加入我们不断发展的社区吧，在这里您可以与开发人员和其他用户联系，获取信息，提出问题，或者只是逛逛。关于已经成立的Matrix,，Slack，和Discord。您可以选择这些平台中的任何一个，并且仍然可以在其他平台上与Decred社区成员进行讨论。"
   },
   {
     "id": "press_description",
@@ -721,11 +725,11 @@
   },
   {
     "id": "press_coverage",
-    "translation": "Coverage"
+    "translation": "覆盖"
   },
   {
     "id": "press_releases",
-    "translation": "Releases"
+    "translation": "释放"
   },
   {
     "id": "Business brief",
@@ -733,15 +737,15 @@
   },
   {
     "id": "Decred Recruiting",
-    "translation": "Decred Recruiting"
+    "translation": "Decred 招聘"
   },
   {
     "id": "Downloads",
-    "translation": "Downloads"
+    "translation": "下载"
   },
   {
     "id": "Exchanges and Payments",
-    "translation": "Exchanges and Payments"
+    "translation": "交易所及支付"
   },
   {
     "id": "Join our community!",
@@ -749,7 +753,7 @@
   },
   {
     "id": "Press",
-    "translation": "Press"
+    "translation": "出版社"
   },
   {
     "id": "Roadmap",
@@ -761,7 +765,7 @@
   },
   {
     "id": "Voting Service Providers",
-    "translation": "Voting Service Providers"
+    "translation": "投票服务提供商"
   },
   {
     "id": "Who is Decred?",
@@ -769,42 +773,50 @@
   },
   {
     "id": "Join our Matrix community",
-    "translation": "Join our Matrix community"
+    "translation": "加入我们的Matrix 社区"
   },
   {
     "id": "matrix_to_register_using_the_riot",
-    "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
+    "translation": "若要使用Riot web应用注册，需要预先填写Decred的主服务器信息，请单击下面的链接。"
   },
   {
     "id": "matrix_register_with_riot",
-    "translation": "Register with Riot."
+    "translation": "使用 Riot 登记。"
   },
   {
     "id": "matrix_note_you_must_register_with",
-    "translation": "Note: you must register with an email address if you want password resets."
+    "translation": "注意：若您想重置密码，必须用电子邮件注册。"
   },
   {
     "id": "matrix_if_you_already_have_an",
-    "translation": "If you already have an existing Matrix account, use the link below to log into Decred’s homeserver."
+    "translation": "若您已经有Matrix帐户，请使用下面的链接登录Decred的主服务器。"
   },
   {
     "id": "matrix_login_to_decred_homeserver",
-    "translation": "Login to Decred homeserver"
+    "translation": "登录Decred 主服务器"
   },
   {
     "id": "matrix_to_browse_decred_rooms_click",
-    "translation": "To browse Decred rooms, click the directory button in the ‘Rooms’ panel on the left-hand side."
+    "translation": "若要浏览Decred房间，请单击左侧“房间”面板中的直接按钮。"
   },
   {
     "id": "matrix_decred_rooms",
-    "translation": "Decred Rooms"
+    "translation": "Decred 房间"
   },
   {
     "id": "matrix_to_browse_other_available_matrix",
-    "translation": "To browse other available Matrix clients and home servers, see the <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix Getting Started page</a>."
+    "translation": "若要浏览其他可用的Matrix客户机和主服务器，请参见<a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix入门页面</a>。"
   },
   {
     "id": "matrix_matrix_is_a_secure_open",
-    "translation": "<p>Matrix is a secure, open messaging platform popular with Decred contractors. With the help of bridge software Matrix users can communicate with users on other Decred platforms such as Slack and Discord. Matrix offers first party registration; no identifying information or third party service is required to sign up. Users should be aware however that some features, such as password reset, do require an email address. For more on Matrix’s security features and available clients, see the Matrix project <a href=\"https://matrix.org/blog/home/\">homepage</a>.</p>\n\n<p>To join Matrix, you’ll need to choose a client and a homeserver. Matrix supports numerous clients and homeservers, but for first-time users, we recommend the most well-supported Matrix client, Riot, and Decred’s homeserver. Using the Decred homeserver makes it easier to find Decred chat rooms, puts ‘decred.org’ in your ID, and allows you to continue messaging should Decred’s homeserver become disconnected with other homeservers.</p>"
+    "translation": "<p>Matrix是一个安全、开放的消息传递平台，很受Decred承包商的欢迎。在bridge software Matrix的帮助下，用户可以在Slack、Discord其他Decred平台上与用户进行通信。Matrix提供首次登记；注册时不需要任何身份信息或第三方服务。但是，用户需要了解一些功能，如密码重置，电子邮件地址也很必要。有关Matrix的安全特性和可用客户机的更多信息，请参见Matrix项目<a href=\"https://matrix.org/blog/home/\">主页</a>。</p>\n\n\n<p>若要加入Matrix，您需要选择一个客户端和一个主服务器。Matrix支持许多客户机和homeserver，但是对于首次使用的用户，我们推荐最受支持的Matrix客户机Riot和Decred的homeserver。使用Decred homeserver可以更容易地找到Decred聊天室，在ID中添加“mand .org”，并允许在Decred的homeserver与其他homeserver断开连接时继续发送消息。</p>"
+  },
+  {
+    "id": "Page not found",
+    "translation": "未找到页面"
+  },
+  {
+    "id": "Back to home page",
+    "translation": "返回主页面"
   }
 ]

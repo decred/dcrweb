@@ -1,7 +1,7 @@
 [
   {
     "id": "general_release_stable",
-    "translation": "stable"
+    "translation": "stabil"
   },
   {
     "id": "general_downloads",
@@ -13,19 +13,19 @@
   },
   {
     "id": "general_javascript_warning",
-    "translation": "JavaScript required"
+    "translation": "JavaScript gerekiyor"
   },
   {
     "id": "general_javascript_warning_description",
-    "translation": "We're sorry, but this Website doesn't work properly without JavaScript enabled."
+    "translation": "Üzgünüz ancak bu İnternet Sitesi JavaScript etkinleştirilmeden düzgün çalışmamaktadır."
   },
   {
     "id": "exchanges_title",
-    "translation": "Exchanges"
+    "translation": "Takaslar"
   },
   {
     "id": "exchanges_description",
-    "translation": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys."
+    "translation": "Dijital para birimi takasları Decred (DCR) satın almak ve takas etmek için kolay bir yol sunar. Yasal Uyarı: Bir hizmeti kullanmadan önce daima kendi araştırmanızı yapın (DYOR). Decred saklamanın en güvenli yolu özel anahtarlarını sadece sizin kontrol ettiğiniz bir cüzdan kullanmaktır."
   },
   {
     "id": "title",
@@ -37,7 +37,7 @@
   },
   {
     "id": "general_copyright",
-    "translation": "Decred Developers"
+    "translation": "Decred Geliştiricileri"
   },
   {
     "id": "nav_brand_resources",
@@ -93,11 +93,11 @@
   },
   {
     "id": "nav_politeia",
-    "translation": "Proposal System"
+    "translation": "Teklif Sistemi"
   },
   {
     "id": "nav_vsp",
-    "translation": "Voting Service Providers"
+    "translation": "Oylama Hizmeti Sağlayıcıları"
   },
   {
     "id": "nav_networkstats",
@@ -121,11 +121,11 @@
   },
   {
     "id": "nav_exchanges",
-    "translation": "Exchanges"
+    "translation": "Takaslar"
   },
   {
     "id": "nav_press",
-    "translation": "Press"
+    "translation": "Basın"
   },
   {
     "id": "contributors_corporate_contractor",
@@ -145,7 +145,7 @@
   },
   {
     "id": "contributors_marketing",
-    "translation": "Marketing"
+    "translation": "Pazarlama"
   },
   {
     "id": "contributors_strategy",
@@ -157,27 +157,27 @@
   },
   {
     "id": "roadmap_tag_new",
-    "translation": "New"
+    "translation": "Yeni"
   },
   {
     "id": "roadmap_tag_ongoing",
-    "translation": "Ongoing"
+    "translation": "Devam Eden"
   },
   {
     "id": "roadmap_tag_completed",
-    "translation": "Completed"
+    "translation": "Tamamlanmış"
   },
   {
     "id": "roadmap_moreinfo",
-    "translation": "More Information"
+    "translation": "Daha Fazla Bilgi"
   },
   {
     "id": "roadmap_tag_subtitle",
-    "translation": "Insight into our future, overview of the past"
+    "translation": "Geleceğimize yönelik içgörü, geçmişimize genel bakış"
   },
   {
     "id": "roadmap_description",
-    "translation": "Please note that our primary goal is to provide you with stable and reliable releases. As such, any indications of target release dates and features listed are subject to change."
+    "translation": "Lütfen temel hedefimizin size stabil ve güvenilir sürümler sunmak olduğunu unutmayın. Bundan ötürü listelenen hedef sürüm çıkış tarihleri ve özellikleri değişebilir."
   },
   {
     "id": "brand_guide_0",
@@ -197,7 +197,7 @@
   },
   {
     "id": "brand_guide_4",
-    "translation": "Primary Colors"
+    "translation": "Ana Renkler"
   },
   {
     "id": "brand_guide_5",
@@ -217,7 +217,7 @@
   },
   {
     "id": "brand_guide_9",
-    "translation": "Complementary Colors"
+    "translation": "Tamamlayıcı Renkler"
   },
   {
     "id": "brand_guide_10",
@@ -225,7 +225,7 @@
   },
   {
     "id": "brand_guide_11",
-    "translation": "Green"
+    "translation": "Yeşil"
   },
   {
     "id": "brand_guide_12",
@@ -237,35 +237,35 @@
   },
   {
     "id": "brand_guide_14",
-    "translation": "View github/dcrdesign repo for design packages, guidelines and documentations"
+    "translation": "Tasarım paketleri, kılavuz ilkeler ve belgeler için github/dcrdesign havuzuna bakın"
   },
   {
     "id": "exchanges_otc_title",
-    "translation": "Decred OTC Traders"
+    "translation": "Decred OTC Tüccarlar"
   },
   {
     "id": "exchanges_otc_description",
-    "translation": "Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher."
+    "translation": "Borsa Dışı (Over The Counter/OTC) ticaret müşterilerin doğrudan bir tüccar ile Decred alım veya satım işlemi yapmasına izin verir. Müşteri ve tüccar büyük bir Decred miktarı için sabit bir fiyat üzerinde anlaşır ve işlemi takas yapmadan gerçekleştirir. OTC ticaret için minimum işlem boyutu tipik olarak 100,000 $ veya üzeridir."
   },
   {
     "id": "exchanges_payment_title",
-    "translation": "Decred Payment Processors"
+    "translation": "Decred Ödeme İşleyicileri"
   },
   {
     "id": "exchanges_payment_description",
-    "translation": "Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms."
+    "translation": "Çevrimiçi tüccarların Decred'i (DCR) ödeme olarak kabul etmeye başlamasına yönelik çözümler. Ödeme işleyicileri e-ticaret platformları üzerinden kripto paraların kabulü için hızlı ve kolay bir entegrasyon sağlar."
   },
   {
     "id": "exchanges_subtitle",
-    "translation": "Decred on Exchanges"
+    "translation": "Takaslarda Decred"
   },
   {
     "id": "exchanges_showall",
-    "translation": "Show all"
+    "translation": "Tümünü göster"
   },
   {
     "id": "home_download_wallet",
-    "translation": "Download Wallet"
+    "translation": "Cüzdanı İndir"
   },
   {
     "id": "home_for_computer",
@@ -297,15 +297,15 @@
   },
   {
     "id": "home_politeia_notice_title",
-    "translation": "Decred’s Proposal System is Live"
+    "translation": "Decred'in Teklif Sistemi Canlıdır"
   },
   {
     "id": "home_politeia_notice_body",
-    "translation": "Politeia allows Decred users and stakeholders to propose, discuss, collaborate on, and fund new projects, initiatives, and consensus changes."
+    "translation": "Politeia, Decred kullanıcılarının ve paydaşlarının yeni projeler, girişimler ve mutabakat değişiklikleri teklif etmesine, tartışmasına, finanse etmesine ve bunlar üzerinde işbirliği yapmasına izin verir."
   },
   {
     "id": "home_politeia_notice_link_title",
-    "translation": "View Proposals"
+    "translation": "Teklifleri Görüntüle"
   },
   {
     "id": "home_mission_section_title",
@@ -333,7 +333,7 @@
   },
   {
     "id": "home_mission_chart_2",
-    "translation": "mined so far"
+    "translation": "şu ana dek madencilikle edinilen"
   },
   {
     "id": "home_mission_title_3",
@@ -345,7 +345,7 @@
   },
   {
     "id": "home_quotes_quote",
-    "translation": "“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.”"
+    "translation": "\"Decred'in en can alıcı özelliği iyi yönetimdir; iyi yönetimle istediğiniz her özelliğe sahip olabilirsiniz.\""
   },
   {
     "id": "home_platform_platform",
@@ -357,7 +357,7 @@
   },
   {
     "id": "home_platform_built",
-    "translation": "Decred is built to last. Our development activity and quality are among the highest in the space. Features of the Decred software include:"
+    "translation": "Decred kalıcı olmak üzere tasarlanmıştır. Geliştirme faaliyetlerimiz ve kalitemiz alanın en iyileri arasındadır. Decred yazılımının özellikleri şunları kapsar:"
   },
   {
     "id": "home_platform_innovative",
@@ -481,7 +481,7 @@
   },
   {
     "id": "home_guide_3",
-    "translation": "For those who like to tinker, Decred provides a full suite of command line tools allowing customization of the Decred experience."
+    "translation": "Decred, kurcalamaktan hoşlananlar için Decred deneyiminin özelleştirilmesine izin veren eksiksiz bir komut satırı araçları yelpazesi sunar."
   },
   {
     "id": "home_guide_4",
@@ -497,7 +497,7 @@
   },
   {
     "id": "home_guide_7",
-    "translation": "<p>Decred'la etkileşim kurmanın üç temel yolu vardır:</p>\n\t\t<p><strong>Cüzdan</strong> - Para göndermek ve almak, aynı zamanda PoS madenciliği yapmak.</p>\n\t\t<p><strong>Proof-of-work Madenciliği</strong> - Bilgi işlem gücünü kullanarak ağdaki işlemleri onaylamak ve yeni Decred tokenleri üretmek.</p>\n\t\t<p><strong>Proof-of-stake Madenciliği</strong> - Sahip olduğunuz parayla önemli ağ geliştirme konularında oy kullanmak ve ödüller için işlemleri onaylamak.</p>"
+    "translation": "<p>Decred'la etkileşim kurmanın üç temel yolu vardır:</p>\n\t\t<p><strong>Cüzdan</strong> - Para göndermek ve almak, aynı zamanda PoS oylaması yapmak.</p>\n\t\t<p><strong>Proof-of-work Madenciliği</strong> - Bilgi işlem gücünü kullanarak ağdaki işlemleri onaylamak ve yeni Decred token'leri üretmek.</p>\n\t\t<p><strong>Proof-of-stake Oylaması</strong> - Sahip olduğunuz parayla önemli ağ geliştirme konularında oy kullanmak ve ödüller için işlemleri onaylamak.</p>"
   },
   {
     "id": "home_guide_8",
@@ -509,11 +509,11 @@
   },
   {
     "id": "home_guide_10",
-    "translation": "The Wallet"
+    "translation": "Cüzdan"
   },
   {
     "id": "home_guide_11",
-    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a> is a cross-platform GUI wallet for Decred. Available for Windows, MacOS, and Linux users.</p><p><a href=\"downloads/#cli\">Command-line wallet and utilities</a> are also available for a variety of platforms.</p><p>For help getting started you can visit our <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Beginner’s Guide</a>.</p>"
+    "translation": "<p><a href=\"downloads/#decrediton\">Decrediton</a>, Decred için platformlar arası bir GUI cüzdanıdır. Windows, MacOS ve Linux kullanıcıları için mevcuttur.</p><p><a href=\"downloads/#cli\">Komut satırı cüzdanı ve yardımcı hizmetleri</a> aynı zamanda çeşitli platformlar için de mevcuttur.</p><p>Başlamaya ilişkin yardım için <a href=\"https://docs.decred.org/getting-started/beginner-guide/\" title=\"_blank\" rel=\"noopener noreferrer\">Başlangıç Kılavuzu</a>'muza bakabilirsiniz.</p>"
   },
   {
     "id": "home_guide_12",
@@ -541,7 +541,7 @@
   },
   {
     "id": "home_guide_18",
-    "translation": "Mining"
+    "translation": "Madencilik"
   },
   {
     "id": "home_guide_19",
@@ -573,11 +573,11 @@
   },
   {
     "id": "home_guide_26",
-    "translation": "Proof-of-stake Madenciliği"
+    "translation": "Proof-of-stake Oylaması"
   },
   {
     "id": "home_guide_27",
-    "translation": "<p>PoW'dan farklı olarak, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-stake madenciliği (PoS)</a> az miktarda bilgi işlem kaynağı gerektirir. Decred fonları, ağ üzerinde oylama biletleri satın almak için kullanılır. Her blokta, canlı bilet havuzundan beş bilet, bir önceki bloğun geçerliliğine oy vermek üzere rastgele seçilir. </p> \n\t\t<p>PoS, Decred'a ekstra bir merkezsizlik katmanı ekleyerek kullanıcıların önerilen ağ değişikliklerine oy vermelerini sağlar. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Biletlerinizin çağrıldığında her an oylanmaya hazır olmasını sağlamak için havuzlar PoS için de</a> mevcuttur.</p>"
+    "translation": "<p>PoW'dan farklı olarak, <a href=\"https://docs.decred.org/mining/proof-of-stake/\" title=\"_blank\">Proof-of-stake oylaması (PoS)</a> az miktarda bilgi işlem kaynağı gerektirir. Decred fonları, ağ üzerinde oylama biletleri satın almak için kullanılır. Her blokta, canlı bilet havuzundan beş bilet, bir önceki bloğun geçerliliğine oy vermek üzere rastgele seçilir. </p> \n\t\t<p>PoS, Decred'a ekstra bir merkezsizlik katmanı ekleyerek kullanıcıların önerilen ağ değişikliklerine oy vermelerini sağlar. <a href=\"https://docs.decred.org/mining/proof-of-stake/#sign-up-for-a-stake-pool\" title=\"_blank\">Biletlerinizin çağrıldığında her an oylanmaya hazır olmasını sağlamak için havuzlar PoS için de</a> mevcuttur.</p>"
   },
   {
     "id": "home_guide_28",
@@ -609,7 +609,7 @@
   },
   {
     "id": "home_guide_35",
-    "translation": "<p>Through decentralized processes, people with different ideas, goals, and opinions can help shape the future. You will likely have some questions, so come join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. We have a <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC channel</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, and <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack channel</a> where you can chat with the developers and other users in real time. Don't forget <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> and <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>.We can't wait to meet you!</p>"
+    "translation": "<p>Merkezi olmayan süreçlerle farklı fikirlere, hedeflere ve görüşlere sahip insanlar geleceğin şekillendirilmesine yardımcı olabilir. Bazı sorularınız olması muhtemeldir, dolayısıyla sizi geliştiriciler ve diğer kullanıcılarla bağlantı kurabileceğiniz, bilgi alabileceğiniz, sorular sorabileceğiniz veya sadece takılmakla da yetinebileceğiniz, giderek büyüyen topluluğumuza davet ediyoruz. Geliştiriciler ve diğer kullanıcılarla gerçek zamanlı olarak sohbet edebileceğiniz bir <a href=\"https://webchat.freenode.net/?channels=decred&amp;uio=d4\" title=\"_blank\" rel=\"noopener noreferrer\">IRC kanalımız</a>, <a href=\"https://t.me/Decred\" title=\"_blank\" rel=\"noopener noreferrer\">Telegram kanalımız</a> ve <a href=\"https://slack.decred.org\" title=\"_blank\" rel=\"noopener noreferrer\">Slack kanalımız</a> mevcuttur. <a href=\"https://twitter.com/decredproject\" title=\"_blank\" rel=\"noopener noreferrer\">Twitter</a> ve <a href=\"https://www.reddit.com/r/decred\" title=\"_blank\" rel=\"noopener noreferrer\">Reddit</a>'i de unutmayın. Sizinle tanışmak için sabırsızlanıyoruz!</p>"
   },
   {
     "id": "home_guide_36",
@@ -625,7 +625,7 @@
   },
   {
     "id": "home_guide_39",
-    "translation": "<p>Part of the reward from new blocks goes towards the development of Decred to ensure that it will continually evolve to meet the needs and wants of the community now and in the years to come. These are just some of the features planned for 2018 and early 2019:</p><ul><li>Lightning network</li><li>Initial privacy release</li><li>Decentralized control of funds</li><li>Decentralized autonomous entities</li><li>Scalability optimizations</li><li>Decrediton integrations</li><li>Marketing growth</li><li>Proposal for a Decentralized Exchange</li></ul><p>Read about these and more on our blog. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Welcome to Decred: the future of autonomous digital currency</a></p>"
+    "translation": "<p>Yeni bloklardan gelen ödülün bir kısmı Decred'in şimdi ve gelecek yıllarda topluluğun ihtiyaçlarını ve isteklerini karşılayacak şekilde sürekli evrilmesini sağlamak üzere geliştirilmesine harcanmaktadır. 2018 yılı ve 2019'un başlangıcı için planlanan özelliklerden yalnızca birkaçı şunlardır:</p><ul><li>Lightning network</li><li>Başlangıç gizlilik sürümü</li><li>Fonların merkezi olmayan kontrolü</li><li>Merkezi olmayan otonom varlıklar</li><li>Ölçeklenebilirlik optimizasyonları</li><li>Decrediton entegrasyonları</li><li>Pazarlama büyümesi</li><li>Merkezi Olmayan Takasa Yönelik Teklif</li></ul><p>Bunlar ve daha fazlası hakkında bilgiyi blog'umuzda bulabilirsiniz. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">Otonom dijital paranın geleceği olan Decred'e hoşgeldiniz</a></p>"
   },
   {
     "id": "home_guide_40",
@@ -637,15 +637,15 @@
   },
   {
     "id": "downloads_description",
-    "translation": "If you are new to Decred, be sure to read the <a href=\"../#guide\">Getting Started Tour</a> or the <a href=\"../#platform\">Technical Overview</a> if you want to dig deeper. If you are downloading the Decred binaries, please follow these <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">Binary Verification</a> steps to verify the checksums."
+    "translation": "Eğer Decred'de yeniyseniz <a href=\"../#guide\">Başlangıç Turu</a>'nu veya daha derine inmek isterseniz <a href=\"../#platform\">Teknik Genel Bakış</a>'ı okumayı ihmal etmeyin. Decred ikilileri indirmekteyseniz lütfen sağlama toplamlarını doğrulamak için bu <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">İkili Doğrulama</a> adımlarını takip edin."
   },
   {
     "id": "downloads_category_core",
-    "translation": "Core software"
+    "translation": "Çekirdek yazılım"
   },
   {
     "id": "downloads_category_mining_software",
-    "translation": "Mining software"
+    "translation": "Madencilik yazılımı"
   },
   {
     "id": "downloads_category_3rd_party_wallets",
@@ -677,43 +677,47 @@
   },
   {
     "id": "downloads_app_coinomi",
-    "translation": "Securely store, manage and exchange Bitcoin, Ethereum, and more than 500 other blockchain assets."
+    "translation": "Bitcoin, Ethereum ve 500'den fazla başka blockchain varlığını güvenle depolayın, yönetin ve takas edin."
   },
   {
     "id": "downloads_app_bitbill",
-    "translation": "Bitbill is a decentralized cryptocurrency wallet. You own your private keys."
+    "translation": "Bitbill merkezi olmayan bir kripto para cüzdanıdır. Özel anahtarlarınız size ait olur."
   },
   {
     "id": "downloads_app_anybit",
-    "translation": "Anybit is a mobile wallet available for Android and iOS with built in price and news tracking."
+    "translation": "Anybit, Android ve iOS için dahili fiyat ve haber takibi barındıran mobil bir cüzdandır."
   },
   {
     "id": "downloads_app_atomicwallet",
-    "translation": "Multi-asset desktop wallet with built in exchange via non-custodial atomic swaps and decentralized order book."
+    "translation": "Emanet barındırmayan atomik takaslar ve merkezi olmayan sipariş defteri üzerinden dahili takasa sahip çok varlıklı masaüstü cüzdanıdır."
   },
   {
     "id": "downloads_app_guarda",
-    "translation": "Guarda is represented by Web, Desktop and Mobile multi-currency wallets."
+    "translation": "Guarda İnternet, Masaüstü ve Mobil için çok para birimli cüzdanlar tarafından temsil edilir."
   },
   {
     "id": "downloads_app_cobo",
-    "translation": "From the Co-Founder of F2Pool, Cobo is a highly secure mobile wallet that supports PoS Cloud Pool staking and over 30 coins and 500 tokens"
+    "translation": "F2Pool'un kurucu ortağı tarafından sunulan Cobo, PoS Bulut Havuz oylamasını ve 30'un üstünde coin ile 500'ün üstünde token'i destekleyen, ileri derecede güvenli bir mobil cüzdandır."
+  },
+  {
+    "id": "downloads_app_ledger",
+    "translation": "Ledger Live, Ledger donanım cüzdanı tarafından güvende tutulan, web tabanlı bir cüzdandır."
   },
   {
     "id": "stakepools_description",
-    "translation": "Voting Service Providers allow you to participate in Decred's proof-of-stake (PoS) system without the need to worry about losses due to computer downtime, flaky internet connectivity, or inconsistent power."
+    "translation": "Oylama Hizmeti Sağlayıcıları (VSP'ler) bilgisayar arızası, gidip gelen internet bağlantısı veya elektrik kesintisine bağlı kayıplardan endişe etmeden Decred'in proof-of-stake (PoS) sistemine katılmanıza izin verir."
   },
   {
     "id": "stakepools_warning_1",
-    "translation": "<span class=\"modalparagraphbold\">Notice:</span>&nbsp;Missed tickets can be caused by a poorly connected proof-of-work (PoW) miner and may not necessarily be the fault of the provider."
+    "translation": "<span class=\"modalparagraphbold\">Dikkat:</span>&nbsp;Eksik biletlerin sebebi kötü bağlantıya sahip bir proof-of-work (PoW) madencisi olabilir; dolayısıyla suç her zaman sağlayıcıda olmayabilir."
   },
   {
     "id": "stakepools_warning_2",
-    "translation": "<span class=\"modalparagraphbold\">Warning:</span>&nbsp;To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes."
+    "translation": "<span class=\"modalparagraphbold\">Uyarı:</span>&nbsp;Ağın merkezi olmaktan çıkarılmasını teşvik için ağ oylarının %5'inden fazlasına sahip sağlayıcılardan kaçınılması tavsiye edilir."
   },
   {
     "id": "community_description",
-    "translation": "Come and join our growing community, where you can connect with developers and other users, get information, ask questions, or just hang out. The public channels on Matrix, Slack, and Discord have been bridged. You can choose any of these platforms and still participate in discussions with Decred community members on the others."
+    "translation": "Siz de geliştiriciler ve diğer kullanıcılarla bağlantı kurabileceğiniz, bilgi alabileceğiniz, sorular sorabileceğiniz veya sadece takılmakla yetinebileceğiniz, büyüyen topluluğumuza katılın. Matrix, Slack ve Discord'daki herkese açık kanallar köprülenmiştir. Bu platformlardan herhangi birini seçebilir ve Decred topluluğu üyeleriyle diğer platformlardaki tartışmalara yine de katılabilirsiniz."
   },
   {
     "id": "press_description",
@@ -721,11 +725,11 @@
   },
   {
     "id": "press_coverage",
-    "translation": "Coverage"
+    "translation": "Kapsam"
   },
   {
     "id": "press_releases",
-    "translation": "Releases"
+    "translation": "Sürümler"
   },
   {
     "id": "Business brief",
@@ -733,7 +737,7 @@
   },
   {
     "id": "Decred Recruiting",
-    "translation": "Decred Recruiting"
+    "translation": "Decred'de İşe Alım"
   },
   {
     "id": "Downloads",
@@ -741,7 +745,7 @@
   },
   {
     "id": "Exchanges and Payments",
-    "translation": "Exchanges and Payments"
+    "translation": "Takaslar ve Ödemeler"
   },
   {
     "id": "Join our community!",
@@ -761,7 +765,7 @@
   },
   {
     "id": "Voting Service Providers",
-    "translation": "Voting Service Providers"
+    "translation": "Oylama Hizmeti Sağlayıcıları"
   },
   {
     "id": "Who is Decred?",
@@ -769,42 +773,50 @@
   },
   {
     "id": "Join our Matrix community",
-    "translation": "Join our Matrix community"
+    "translation": "Matrix topluluğumuza katılın"
   },
   {
     "id": "matrix_to_register_using_the_riot",
-    "translation": "To register using the Riot web app, with Decred’s homeserver information pre-filled, click the link below."
+    "translation": "Decred'in ana sunucu bilgileri önceden doldurulmuş şekilde Riot internet uygulamasını kullanarak kaydolmak için aşağıdaki bağlantıya tıklayın."
   },
   {
     "id": "matrix_register_with_riot",
-    "translation": "Register with Riot."
+    "translation": "Riot ile kaydolun."
   },
   {
     "id": "matrix_note_you_must_register_with",
-    "translation": "Note: you must register with an email address if you want password resets."
+    "translation": "Not: şifre sıfırlamaları istiyorsanız bir e-posta adresi ile kaydolmalısınız."
   },
   {
     "id": "matrix_if_you_already_have_an",
-    "translation": "If you already have an existing Matrix account, use the link below to log into Decred’s homeserver."
+    "translation": "Zaten mevcut bir Matrix hesabınız varsa Decred'in ana sunucusunda oturum açmak için aşağıdaki bağlantıyı kullanın."
   },
   {
     "id": "matrix_login_to_decred_homeserver",
-    "translation": "Login to Decred homeserver"
+    "translation": "Decred ana sunucusunda oturum açın"
   },
   {
     "id": "matrix_to_browse_decred_rooms_click",
-    "translation": "To browse Decred rooms, click the directory button in the ‘Rooms’ panel on the left-hand side."
+    "translation": "Decred odalarına göz atmak için sol taraftaki \"Odalar\" panelinde yer alan dizin düğmesine tıklayın."
   },
   {
     "id": "matrix_decred_rooms",
-    "translation": "Decred Rooms"
+    "translation": "Decred Odaları"
   },
   {
     "id": "matrix_to_browse_other_available_matrix",
-    "translation": "To browse other available Matrix clients and home servers, see the <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix Getting Started page</a>."
+    "translation": "Diğer mevcut Matrix istemcilerine ve ana sunucularına göz atmak için <a href=\"https://matrix.org/docs/projects/try-matrix-now.html\">Matrix ile Başlangıç sayfasına</a> bakın."
   },
   {
     "id": "matrix_matrix_is_a_secure_open",
-    "translation": "<p>Matrix is a secure, open messaging platform popular with Decred contractors. With the help of bridge software Matrix users can communicate with users on other Decred platforms such as Slack and Discord. Matrix offers first party registration; no identifying information or third party service is required to sign up. Users should be aware however that some features, such as password reset, do require an email address. For more on Matrix’s security features and available clients, see the Matrix project <a href=\"https://matrix.org/blog/home/\">homepage</a>.</p>\n\n<p>To join Matrix, you’ll need to choose a client and a homeserver. Matrix supports numerous clients and homeservers, but for first-time users, we recommend the most well-supported Matrix client, Riot, and Decred’s homeserver. Using the Decred homeserver makes it easier to find Decred chat rooms, puts ‘decred.org’ in your ID, and allows you to continue messaging should Decred’s homeserver become disconnected with other homeservers.</p>"
+    "translation": "<p>Matrix, Decred yüklenicilerinin favorisi olan, güvenli ve açık bir mesajlaşma platformudur. Matrix kullanıcıları köprü yazılımları sayesinde Slack ve Discord gibi diğer Decred platformlarındaki kullanıcılarla iletişim kurabilir. Matrix birinci taraf kaydı sunar; kaydolmak için kimlik bilgileri veya üçüncü taraf hizmetleri gerekmez. Bununla beraber kullanıcılar şifre sıfırlama gibi bazı özelliklerin bir e-posta adresi gerektirdiğinin bilincinde olmalıdır. Matrix'in güvenlik özellikleri ve mevcut istemcileri hakkında daha fazla bilgi için Matrix proje <a href=\"https://matrix.org/blog/home/\">ana sayfasına</a> bakın.</p>\n\n<p>Matrix'e katılmak için bir istemci ve ana sunucu seçmeniz gerekir. Matrix çok sayıda istemci ve ana sunucu desteklemektedir ancak ilk defa kullanacak olanlar için en iyi desteklenen Matrix istemcisi Riot'ı ve Decred'in ana sunucusunu tavsiye ederiz. Decred ana sunucusunu kullanmak Decred sohbet odalarını bulmanızı kolaylaştırır, kimliğinize \"decred.org\" ibaresini ekler ve Decred'in ana sunucusunun diğer ana sunucularla bağlantısının kopması halinde mesajlaşmaya devam etmenize izin verir.</p>"
+  },
+  {
+    "id": "Page not found",
+    "translation": "Sayfa bulunamadı"
+  },
+  {
+    "id": "Back to home page",
+    "translation": "Ana sayfaya geri dönün"
   }
 ]
