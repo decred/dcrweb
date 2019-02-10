@@ -29,7 +29,7 @@
                                             {{ $links = .links }}
                                         {{ end }}
                                         {{ range $links }}
-                                            <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
+                                            <a  {{ if ne .is_direct_download true }}target="_blank" rel="noopener noreferrer"{{end}} href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
                                                 {{ .title }}
                                                 {{ if eq .is_direct_download true }} ↓
                                                 {{ else }} →
