@@ -5,13 +5,13 @@
   logo_src: "Shapeshift.jpg"
   logo_srcset: "/images/Shapeshift-p-500.jpeg 500w, /images/Shapeshift.jpg 608w"
   name: ShapeShift
--
-  url: "https://flyp.me/"
-  tags:
-    - "instant-exchange"
-  logo_src: "Flypme.jpg"
-  logo_srcset: "/images/Flypme-p-500.jpeg 500w, /images/Flypme.jpg 608w"
-  name: Flyp
+#-
+#  url: "https://flyp.me/"
+#  tags:
+#    - "instant-exchange"
+#  logo_src: "Flypme.jpg"
+#  logo_srcset: "/images/Flypme-p-500.jpeg 500w, /images/Flypme.jpg 608w"
+#  name: Flyp
 -
   url: "https://godex.io/"
   tags:
