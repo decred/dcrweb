@@ -226,3 +226,15 @@
     - "instant-exchange"
   logo_src: "simpleswap.png"
   name: "Simple Swap"
+-
+  url: "https://www.lykke.com/trade/"
+  tags:
+    - all
+  logo_src: "lykke.png"
+  name: Lykke
+-
+  url: "https://www.vertbase.com/"
+  tags:
+    - fiat
+  logo_src: "vertbase.png"
+  name: Vertbase
