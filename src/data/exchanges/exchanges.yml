@@ -230,11 +230,11 @@
   url: "https://www.lykke.com/trade/"
   tags:
     - all
-  logo_src: "lykke.png"
+  logo_src: "/images/lykke-p-500.jpg 500w, /images/lykke.jpg 608w"
   name: Lykke
 -
   url: "https://www.vertbase.com/"
   tags:
     - fiat
-  logo_src: "vertbase.png"
+  logo_src: "/images/vertbase-p-500.jpg 500w, /images/vertbase.jpg 608w"
   name: Vertbase
