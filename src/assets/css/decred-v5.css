@@ -722,13 +722,6 @@ body {
   background-color: #0c1e3e;
 }
 
-.fronta.join-slack {
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-}
-
 .charts {
   width: 400px;
   height: 400px;
@@ -1635,35 +1628,6 @@ body {
   font-size: 12px;
   font-weight: 400;
   text-transform: none;
-}
-
-.button.join-slack {
-  width: 170px;
-  height: 38px;
-  padding-top: 3px;
-  padding-right: 20px;
-  padding-left: 43px;
-  background-color: #2dd8a3;
-  background-image: url('../images/slack-white.svg');
-  background-position: 13px 50%;
-  background-size: 18px;
-  background-repeat: no-repeat;
-  font-weight: 600;
-  text-decoration: none;
-  text-transform: none;
-}
-
-.button.join-slack.loading {
-  background-image: url('../images/loader_1.svg');
-  background-position: 99% 50%;
-  background-size: 75px;
-}
-
-.button.join-slack.ajax-loader {
-  background-image: url('../images/loader.svg');
-  background-position: 50% 50%;
-  background-size: 100%;
-  cursor: default;
 }
 
 .button-description {
@@ -4158,18 +4122,6 @@ html[dir="rtl"] .lang-menu {
   position: absolute;
 }
 
-.join-slack {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
 .left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4296,68 +4248,6 @@ html[dir="rtl"] .lang-menu {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.84;
-}
-
-.social-link {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  margin-bottom: 8px;
-  margin-left: 8px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  background-image: url('../images/example-bg.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  -webkit-transition: opacity 100ms linear;
-  transition: opacity 100ms linear;
-}
-
-.social-link:hover {
-  opacity: 0.65;
-}
-
-.social-link.github {
-  background-image: url('../images/footer-icon-github.svg');
-}
-
-.social-link.twitter {
-  background-image: url('../images/footer-icon-twitter.svg');
-}
-
-.social-link.slack {
-  background-image: url('../images/footer-icon-slack.svg');
-}
-
-.social-link.discord {
-  background-image: url('../images/footer-icon-discord.svg');
-}
-
-.social-link.irc {
-  background-image: url('../images/footer-icon-irc.svg');
-}
-
-.social-link.reddit {
-  background-image: url('../images/footer-icon-reddit.svg');
-}
-
-.social-link.telegram {
-  background-image: url('../images/footer-icon-telegram.svg');
-}
-
-.social-link.forums {
-  background-image: url('../images/footer-icon-forums.svg');
-}
-
-.social-link.youtube {
-  background-image: url('../images/footer-icon-catmovies.svg');
-}
-
-.social-link.medium {
-  background-image: url('../images/medium.svg');
 }
 
 .footer-logo {
@@ -5272,10 +5162,6 @@ html[dir="rtl"] .lang-menu {
   .slack-join-copy {
     width: 100%;
   }
-  .social-link {
-    margin-right: 0px;
-    margin-left: 12px;
-  }
   .footer-logo {
     position: absolute;
     margin-left: 20px;
@@ -5924,9 +5810,6 @@ html[dir="rtl"] .lang-menu {
   }
   .slack-join-notice {
     margin-bottom: 30px;
-  }
-  .social-link {
-    clear: left;
   }
   .footer-logo {
     position: absolute;
