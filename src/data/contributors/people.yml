@@ -550,3 +550,29 @@
   name: "Trace Trebilco"
   title: "Decred Assembly Host"
   slack_id: U7190LS75
+-
+  matrix_url: https://matrix.to/#/@margaret_mei:decred.org
+  company_id: ditto
+  group: marketing
+  avatar_image: "margaret_huang.svg"
+  name: "Margaret Huang"
+  title: "Public Relations"
+  linkedin_url: https://www.linkedin.com/in/margarethuang/
+-
+  matrix_url: https://matrix.to/#/@liz_bagot:decred.org
+  company_id: ditto
+  group: marketing
+  avatar_image: "liz_bagot.svg"
+  name: "Elizabeth Bagot"
+  title: "Public Relations"
+  linkedin_url: https://www.linkedin.com/in/elizabethbagot/
+  twitter_alias: "liz_bagot"
+-
+  matrix_url: https://matrix.to/#/@milvian:decred.org
+  company_id: ditto
+  group: marketing
+  avatar_image: "milvian.svg"
+  name: "Milvian Prieto"
+  title: "Public Relations"
+  linkedin_url: https://www.linkedin.com/in/milvian/
+  twitter_alias: "MilvianPrieto"

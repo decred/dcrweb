@@ -33,3 +33,7 @@ cryptobits:
   url: http://www.cryptobits.co
   logo: "team_cryptobits.svg"
 
+ditto:
+  name: "Ditto PR"
+  url: https://www.dittopr.co/
+  logo: "team_ditto.svg"
