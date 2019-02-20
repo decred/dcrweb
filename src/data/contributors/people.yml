@@ -7,17 +7,16 @@
   name: "Abubakar Suleiman"
   title: "Mobile Developer"
   slack_id: DA7NZ77C1
-  linkedin_url: "https://LinkedIn.com/in/macsleven"
+  linkedin_url: "https://linkedin.com/in/macsleven"
   medium_alias: macsleven
 -
-  matrix_url: https://matrix.to/#/@ay-p:decred.org
+  matrix_id: ay-p:decred.org
   twitter_alias: "_alyp"
   company_id: c0
   group: development
   avatar_image: "team_1.svg"
   name: "Alex Yocom-Piatt"
   title: Developer
-  slack_id: U0X1198US
   github_id: alexlyp
 -
   slack_alias: collins
@@ -30,24 +29,22 @@
   slack_id: DA9B1EM3R
   github_id: "C-ollins"
 -
-  slack_alias: davecgh
+  matrix_id: davecgh:decred.org
   twitter_alias: "davecgh"
   company_id: c0
   group: development
   avatar_image: "team_2.svg"
   name: "Dave Collins"
   title: "Lead Developer"
-  slack_id: U0ST3DKEX
   github_id: davecgh
 -
-  slack_alias: dhill
+  matrix_id: dhill:decred.org
   twitter_alias: "dajohi"
   company_id: c0
   group: development
   avatar_image: "team_3.svg"
   name: "David Hill"
   title: developer
-  slack_id: U41H8AY0Z
   github_id: dajohi
 -
   slack_alias: klka
@@ -58,91 +55,81 @@
   title: Developer
   slack_id: UALCYK2C9
 -
-  slack_alias: dnldd
+  matrix_id: dnldd:matrix.org
   group: development
   avatar_image: "team_8.svg"
   name: "Donald Adu-Poku"
   title: developer
-  slack_id: U53LKS5U0
   github_id: dnldd
 -
-  slack_alias: Dustorf
+  matrix_id: dustorf:decred.org
   twitter_alias: "lefebvre_dustin"
   group: marketing
   avatar_image: "team_64.svg"
   name: "Dustin LeFebvre"
   title: Marketing
-  slack_id: U9AS0DRAM
   linkedin_url: "https://www.linkedin.com/in/dustinlefebvre"
 -
-  slack_alias: fernandoabolafio
+  matrix_id: fernandoabolafio:matrix.org
   group: development
   avatar_image: "team_39.svg"
   name: "Fernando Abolafio"
   title: developer
-  slack_id: U7ZA2CW02
   linkedin_url: "https://www.linkedin.com/in/fernandoabolafio"
   github_id: fernandoabolafio
 -
-  slack_alias: karamble
+  matrix_id: karamble:decred.org
   twitter_alias: "karamblez"
   group: development
   avatar_image: "team_12.svg"
   name: "Holger Klein"
   title: developer
-  slack_id: U3ZFYHCUC
   github_id: karamble
 -
-  slack_alias: jholdstock
+  matrix_id: jholdstock:decred.org
   group: development
   avatar_image: "team_9.svg"
   name: "Jamie Holdstock"
   title: developer
-  slack_id: U1VGWQMRD
   github_id: jholdstock
 -
-  slack_alias: chappjc
+  matrix_id: chappjc:decred.org
   twitter_alias: "chappjc"
   group: development
   avatar_image: "team_7.svg"
   name: "Jonathan Chappelow"
   title: Developer
-  slack_id: U0TU00PGD
   github_id: chappjc
 -
-  matrix_url: https://matrix.to/#/@jrick:zettaport.com
+  matrix_id: jrick:zettaport.com
   twitter_alias: "joshrickmar"
   company_id: c0
   group: development
   avatar_image: "team_5.svg"
   name: "Josh Rickmar"
   title: developer
-  slack_id: U0R91T81Y
   github_id: jrick
 -
-  slack_alias: lukebp
+  matrix_id: lukebp:decred.org
   twitter_alias: "lukebp_"
   group: development
   avatar_image: "team_29.svg"
   name: "Luke Powell"
   title: "Developer"
-  slack_id: U50V9M38E
 -
-  slack_alias: jzsantoro
+  matrix_id: jzsantoro:decred.org
   group: design
   avatar_image: "team_50.svg"
   name: "Justin Santoro"
   title: "Design & Video Production"
-  slack_id: DA9B7BT0X
 -
-  slack_alias: moo31337
+  matrix_id: moo31337:decred.org
   twitter_alias: "marco_peereboom"
   company_id: c0
   group: development
   avatar_image: "team_6.svg"
   name: "Marco Peereboom"
   title: developer
-  slack_id: U4J25MBU0
   github_id: marcopeereboom
 -
   slack_alias: kart
@@ -153,31 +140,28 @@
   title: "Illustrator, Designer"
   slack_id: U5D29D50F
 -
-  slack_alias: kyle
+  matrix_id: kyle_firethought:matrix.org
   twitter_alias: "kyleFirethought"
   group: design
   avatar_image: "team_14.svg"
   name: "Kyle Chivers"
   title: "Motion Designer"
-  slack_id: U60H90MS4
   linkedin_url: "https://www.linkedin.com/company/27009401/"
 -
-  slack_alias: matheusd
+  matrix_id: matheusd:matrix.org
   group: development
   avatar_image: "team_34.svg"
   name: "Matheus Degiovani"
   title: developer
-  slack_id: U6DPT0X0B
   linkedin_url: "https://br.linkedin.com/in/matheus-degiovani-69ab0166"
   github_id: matheusd
 -
-  slack_alias: dmigwi
+  matrix_id: migwi:matrix.org
   company_id: raedah_group
   group: development
   avatar_image: "team_59.svg"
   name: "Migwi Ndung'u"
   title: "dcrdata Developer"
-  slack_id: UA5UTAK6E
   github_id: dmigwi
 -
   slack_alias: papa_carp
@@ -218,7 +202,7 @@
   slack_id: DA89QRWRG
   github_id: RogueElement
 -
-  matrix_url: https://matrix.to/#/@peter_zen:decred.org
+  matrix_id: peter_zen:decred.org
   group: development
   avatar_image: "team_10.svg"
   name: "Peter Banik"
@@ -249,30 +233,27 @@
   slack_id: U6DPT0X0B
   github_id: oktapodia
 -
-  slack_alias: s_ben
+  matrix_id: s_ben:decred.org
   twitter_alias: "zen_bacon"
   group: development
   avatar_image: "team_71.svg"
   name: "Seth Benton"
   title: developer
-  slack_id: UCJ4YJA69
   github_id: "s-ben"
 -
-  slack_alias: raedah
+  matrix_id: raedah:decred.org
   company_id: raedah_group
   group: development
   avatar_image: "team_45.svg"
   name: "Steven Wagner"
   title: developer
-  slack_id: D5LRQ2K6D
   github_id: raedah
 -
-  slack_alias: "Tiago Alves"
+  matrix_id: tiagoalvesdulce:matrix.org
   group: development
   avatar_image: "team_40.svg"
   name: "Tiago Alves"
   title: developer
-  slack_id: U7ZHWJCFP
   linkedin_url: "https://www.linkedin.com/in/tiagoalvesdulce"
   github_id: tiagoalvesdulce
 -
@@ -285,13 +266,12 @@
   linkedin_url: "https://www.linkedin.com/in/victor-oliveira-3a9b8675"
   github_id: vctt94
 -
-  slack_alias: lustosa
+  matrix_id: lustosa:decred.org
   twitter_alias: "marcelolustosa"
   group: design
   avatar_image: "team_16.svg"
   name: "Marcelo Lustosa"
   title: illustrator
-  slack_id: U410SNRNW
 -
   slack_alias: Maria
   company_id: block_42
@@ -301,21 +281,19 @@
   title: Designer
   slack_id: UB53WBNTZ
 -
-  slack_alias: sænder
+  matrix_id: saender:decred.org
   company_id: eeter
   group: design
   avatar_image: "team_17.svg"
   name: "Sander Meentalo"
   title: designer
-  slack_id: U1ESPK615
 -
-  slack_alias: linnutee
+  matrix_id: linnutee:decred.org
   company_id: eeter
   group: design
   avatar_image: "team_15.svg"
   name: "Tanel August Lind"
   title: "lead designer"
-  slack_id: U0RDK8J5U
   linkedin_url: "https://www.linkedin.com/in/tanel-august-lind-78556855/"
   medium_alias: linnutee
 -
@@ -338,21 +316,19 @@
   slack_id: U6PBQ22SF
   linkedin_url: "https://www.linkedin.com/in/tim-hebel"
 -
-  slack_alias: "jy-p"
+  matrix_id: jy-p:decred.org
   company_id: c0
   group: strategy
   avatar_image: "team_22.svg"
   name: "Jake Yocom-Piatt"
   title: "Project Lead"
-  slack_id: U0RKDET27
 -
-  slack_alias: jz
+  matrix_id: jz:decred.org
   twitter_alias: "jz_bz"
   group: strategy
   avatar_image: "team_23.svg"
   name: "Jonathan Zeppettini"
   title: "International Ops Lead"
-  slack_id: U40F6GKNU
 -
   slack_alias: sef
   group: development
@@ -362,21 +338,19 @@
   slack_id: U652HC01Z
   github_id: sefbkn
 -
-  slack_alias: "Richard-Red"
+  matrix_id: richardred:decred.org
   group: strategy
   avatar_image: "team_65.svg"
   name: "Richard Red"
   title: "Research and Strategy"
-  slack_id: U7E9T3DFD
   github_id: RichardRed0x
   medium_alias: "@richardred"
 -
-  slack_alias: zubairzia0
+  matrix_id: zubairzia0:decred.org
   group: strategy
   avatar_image: "team_73.svg"
   name: "Zubair Zia"
   title: "Research and Outreach"
-  slack_id: U4FJ1STBL
   linkedin_url: "https://www.linkedin.com/in/zubairzia0/"
   github_id: zubairzia0
   medium_alias: zubairzia
@@ -388,12 +362,11 @@
   title: "Asia outreach"
   slack_id: U6EV8PTHC
 -
-  slack_alias: eSizeDave
+  matrix_id: esizedave:decred.org
   group: community
   avatar_image: "team_75.svg"
   name: "David Habibi"
   title: "Community Manager (AU)"
-  slack_id: U6EV8PTHC
   twitter_alias: davesaddress
 -
   slack_alias: DZ
@@ -405,30 +378,27 @@
   title: "Community Manager (Italy & Russia)"
   slack_id: U6BN2RMQA
 -
-  slack_alias: elian
+  matrix_id: elianh:matrix.org
   group: community
   avatar_image: "team_74.svg"
   name: "Elian Huesca"
   title: "Community Manager (MX)"
-  slack_id: UBWTLC9KQ
   linkedin_url: ""
   twitter_alias: elianhuesca
   medium_alias:
 -
-  slack_alias: emiliomann
+  matrix_id: emiliomann:decred.org
   group: community
   avatar_image: "team_18.svg"
   name: "Emilio Mann"
   title: "Community manager (BR)"
-  slack_id: U3KQ3QWDR
 -
-  slack_alias: Guang
+  matrix_id: guang:decred.org
   twitter_alias: "GuangGuang168"
   group: community
   avatar_image: "team_70.svg"
   name: Guang
   title: "Community Manager (Asia)"
-  slack_id: U8P7X0CFN
 -
   slack_alias: butterfly
   twitter_alias: "in_insaf"
@@ -447,13 +417,12 @@
   slack_id: UAG6W3GFP
   github_id: jesiki
 -
-  slack_alias: joshuam
+  matrix_id: joshuam:decred.org
   twitter_alias: "joshuam_"
   group: community
   avatar_image: "team_36.svg"
   name: "Joshua Mark"
   title: "Asia Pacific Outreach"
-  slack_id: U5UQ03JDT
   linkedin_url: "https://au.linkedin.com/in/joshuambuirski"
 -
   slack_alias: mm
@@ -465,22 +434,20 @@
   linkedin_url: "https://www.linkedin.com/in/marcelomartins"
   twitter_alias: dcrStakeyClub
 -
-  slack_alias: mario
+  matrix_id: donmario:decred.org
   group: community
   avatar_image: "team_78.svg"
   name: "Mariusz Szyma"
   title: "Community Manager (PL)"
-  slack_id: U6XP8S41M
   linkedin_url: "https://www.linkedin.com/in/szyma/"
   twitter_alias: Donmario
   github_id: szyma
 -
-  slack_alias: morphymore
+  matrix_id: morphymore:decred.org
   group: community
   avatar_image: "team_76.svg"
   name: "Morphy Tsai"
   title: "Community Manager (TW)"
-  slack_id: U7VQTTY2J
   twitter_alias: morphymore
 -
   slack_alias: nkpla
@@ -491,22 +458,20 @@
   title: "Community Manager (KR)"
   slack_id: U6U173R9R
 -
-  slack_alias: nickb
+  matrix_id: nickb:decred.org
   twitter_alias: "nbdeagle"
   group: community
   avatar_image: "team_37.svg"
   name: "Nick Boariu"
   title: "Docs and Analytics"
-  slack_id: U6ALQKCNQ
   github_id: nickboariu
 -
-  slack_alias: haon
+  matrix_id: Haon:decred.org
   twitter_alias: "NoahPierau"
   group: community
   avatar_image: "team_19.svg"
   name: "Noah Pierau"
   title: "Community Manager"
-  slack_id: U4SRV5JMP
   github_id: noahpierau
   medium_alias: NoahPierau
   linkedin_url: https://www.linkedin.com/in/noahpierau/
@@ -518,28 +483,25 @@
   title: "Community Manager"
   slack_id: U4X5L6Y2X
 -
-  slack_alias: ingsoc
+  matrix_id: ingsoc:decred.org
   twitter_alias: "realingsoc"
   group: community
   avatar_image: "team_21.svg"
   name: "Phillip Conrad"
   title: "Twitter Ops"
-  slack_id: U0NRS2FKN
 -
-  slack_alias: dezryth
+  matrix_id: dezryth:decred.org
   twitter_alias: "scottrchristian"
   group: community
   avatar_image: "team_26.svg"
   name: "Scott Christian"
   title: "Facebook Manager"
-  slack_id: U6DGNKHJN
 -
-  slack_alias: kozel
+  matrix_id: kozel:decred.org
   group: community
   avatar_image: "team_79.svg"
   name: "Tomasz Porwit"
   title: "Education And Outreach"
-  slack_id: U6ALK31L2
   github_id: artikozel
   medium_alias: artikozel
 -
@@ -551,7 +513,7 @@
   title: "Decred Assembly Host"
   slack_id: U7190LS75
 -
-  matrix_url: https://matrix.to/#/@margaret_mei:decred.org
+  matrix_id: margaret_mei:decred.org
   company_id: ditto
   group: marketing
   avatar_image: "margaret_huang.svg"
@@ -559,7 +521,7 @@
   title: "Public Relations"
   linkedin_url: https://www.linkedin.com/in/margarethuang/
 -
-  matrix_url: https://matrix.to/#/@liz_bagot:decred.org
+  matrix_id: liz_bagot:decred.org
   company_id: ditto
   group: marketing
   avatar_image: "liz_bagot.svg"
@@ -568,7 +530,7 @@
   linkedin_url: https://www.linkedin.com/in/elizabethbagot/
   twitter_alias: "liz_bagot"
 -
-  matrix_url: https://matrix.to/#/@milvian:decred.org
+  matrix_id: milvian:decred.org
   company_id: ditto
   group: marketing
   avatar_image: "milvian.svg"
