@@ -1,7 +1,7 @@
 -
   url: "/matrix/"
   img_src: "/images/dcr-community-platforms-matrix.png"
-  img_srcset: "/images/dcr-community-platforms-matrix-p-500.png 500w, /images/dcr-community-platforms-riotim-p-800.png 800w, /images/dcr-community-platforms-matrix-p-1080.png 1080w, /images/dcr-community-platforms-matrix.png 1200w"
+  img_srcset: "/images/dcr-community-platforms-matrix-p-500.png 500w, /images/dcr-community-platforms-matrix-p-800.png 800w, /images/dcr-community-platforms-matrix-p-1080.png 1080w, /images/dcr-community-platforms-matrix.png 1200w"
   name: "Matrix (via Riot.im)"
 -
   url: "https://discord.gg/GJ2GXfz"
