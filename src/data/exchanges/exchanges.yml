@@ -20,6 +20,20 @@
   logo_srcset: "/images/Godex-p-500.jpeg 500w, /images/Godex.jpg 608w"
   name: Godex
 -
+  url: "https://www.livecoin.net/"
+  tags:
+    - all
+  logo_src: "livecoin.jpg"
+  logo_srcset: "/images/livecoin-p-500.jpeg 500w, /images/livecoin.jpg 608w"
+  name: Livecoin
+-
+  url: "https://www.chainrift.com/"
+  tags:
+    - all
+  logo_src: "chainrift.jpg"
+  logo_srcset: "/images/chainrift-p-500.jpeg 500w, /images/chainrift.jpg 608w"
+  name: ChainRift
+-
   url: "https://coinswitch.co/"
   tags:
     - "instant-exchange"
