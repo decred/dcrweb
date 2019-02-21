@@ -338,14 +338,14 @@
   slack_id: U6PBQ22SF
   linkedin_url: "https://www.linkedin.com/in/tim-hebel"
 -
-  slack_alias: "jy-p"
+  matrix_url: https://matrix.to/#/@jy-p:decred.org
   company_id: c0
   group: strategy
   avatar_image: "team_22.svg"
   name: "Jake Yocom-Piatt"
   title: "Project Lead"
-  slack_id: U0RKDET27
 -
+  matrix_url: https://matrix.to/#/@jz:decred.org
   slack_alias: jz
   twitter_alias: "jz_bz"
   group: strategy
@@ -353,6 +353,7 @@
   name: "Jonathan Zeppettini"
   title: "International Ops Lead"
   slack_id: U40F6GKNU
+  github_id: https://github.com/jzbz/
 -
   slack_alias: sef
   group: development
