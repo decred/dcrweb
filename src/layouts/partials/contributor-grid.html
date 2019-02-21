@@ -29,8 +29,8 @@
             </a>
             {{ end }}
 
-            {{ if ne .matrix_url nil }}
-            <a target="_blank" rel="noopener noreferrer" href="{{ .matrix_url }}" class="matrix team-member-social-link w-inline-block">
+            {{ if ne .matrix_id nil }}
+            <a target="_blank" rel="noopener noreferrer" href="https://matrix.to/#/@{{ .matrix_id }}" class="matrix team-member-social-link w-inline-block">
                 <img alt="" src="/images/team_matrix.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
