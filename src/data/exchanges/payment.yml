@@ -3,22 +3,18 @@
   name: Coinpayments
   url: "https://www.coinpayments.net/"
   logo_src: "coinpayments.jpg"
-  logo_srcset: "/images/coinpayments-p-500.jpeg 500w, /images/coinpayments.jpg 608w"
 -
   name: Globee
   url: "https://globee.com/"
   logo_src: "Globee.jpg"
-  logo_srcset: "/images/Globee-p-500.jpeg 500w, /images/Globee.jpg 608w"
 -
   name: Wirex
   url: "https://wirexapp.com/"
   logo_src: "Wirex.jpg"
-  logo_srcset: "/images/Wirex-p-500.jpeg 500w, /images/Wirex.jpg 608w"
 -
   name: Coingate
   url: "https://coingate.com/"
   logo_src: "coingate.jpg"
-  logo_srcset: "/images/coingate-p-500.jpeg 500w, /images/coingate.jpg 608w"
 -
   name: Livingroomofsatoshi
   url: "https://www.livingroomofsatoshi.com/"

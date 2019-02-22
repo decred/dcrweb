@@ -3,91 +3,78 @@
   tags:
     - "high-liquidity"
   logo_src: "Shapeshift.jpg"
-  logo_srcset: "/images/Shapeshift-p-500.jpeg 500w, /images/Shapeshift.jpg 608w"
   name: ShapeShift
 #-
 #  url: "https://flyp.me/"
 #  tags:
 #    - "instant-exchange"
 #  logo_src: "Flypme.jpg"
-#  logo_srcset: "/images/Flypme-p-500.jpeg 500w, /images/Flypme.jpg 608w"
 #  name: Flyp
 -
   url: "https://godex.io/"
   tags:
     - "instant-exchange"
   logo_src: "Godex.jpg"
-  logo_srcset: "/images/Godex-p-500.jpeg 500w, /images/Godex.jpg 608w"
   name: Godex
 -
   url: "https://www.livecoin.net/"
   tags:
     - all
   logo_src: "livecoin.jpg"
-  logo_srcset: "/images/livecoin-p-500.jpeg 500w, /images/livecoin.jpg 608w"
   name: Livecoin
 -
   url: "https://www.chainrift.com/"
   tags:
     - all
   logo_src: "chainrift.jpg"
-  logo_srcset: "/images/chainrift-p-500.jpeg 500w, /images/chainrift.jpg 608w"
   name: ChainRift
 -
   url: "https://coinswitch.co/"
   tags:
     - "instant-exchange"
   logo_src: "Coinswitch.jpg"
-  logo_srcset: "/images/Coinswitch-p-500.jpeg 500w, /images/Coinswitch.jpg 608w"
   name: CoinSwitch
 -
   url: "https://bittrex.com/"
   tags:
     - "high-liquidity"
   logo_src: "Bittrex.jpg"
-  logo_srcset: "/images/Bittrex-p-500.jpeg 500w, /images/Bittrex.jpg 608w"
   name: Bittrex
 -
   url: "https://poloniex.com/"
   tags:
     - "high-liquidity"
   logo_src: "Poloniex.jpg"
-  logo_srcset: "/images/Poloniex-p-500.jpeg 500w, /images/Poloniex.jpg 608w"
   name: Poloniex
 -
   url: "https://bleutrade.com"
   tags:
     - all
   logo_src: "Bleutrade.jpg"
-  logo_srcset: "/images/Bleutrade-p-500.jpeg 500w, /images/Bleutrade.jpg 608w"
   name: BLEUTRADE
 -
   url: "https://fexpro.net/"
   tags:
     - "high-liquidity"
   logo_src: "Fexhk.jpg"
-  logo_srcset: "/images/Fexhk-p-500.jpeg 500w, /images/Fexhk.jpg 608w"
   name: "FEX.HK"
 -
   url: "https://upbit.com/"
   tags:
     - "high-liquidity"
   logo_src: "Upbit.jpg"
-  logo_srcset: "/images/Upbit-p-500.jpeg 500w, /images/Upbit.jpg 608w"
   name: UPbit
 -
   url: "https://www.zhaobi.com/"
   tags:
     - all
   logo_src: "Zhaobi.jpg"
-  logo_srcset: "/images/Zhaobi-p-500.jpeg 500w, /images/Zhaobi.jpg 608w"
   name: Zhaobi
 -
   url: "https://holytransaction.com/"
   tags:
     - all
   logo_src: "HolyTransaction.jpg"
-  logo_srcset: "/images/HolyTransaction-p-500.jpeg 500w, /images/HolyTransaction.jpg 608w"
   name: HolyTransaction
 -
   url: "https://www.coinspot.com.au/"
@@ -95,21 +82,18 @@
     - "high-liquidity"
     - fiat
   logo_src: "Coinspot.jpg"
-  logo_srcset: "/images/Coinspot-p-500.jpeg 500w, /images/Coinspot.jpg 608w"
   name: CoinSpot
 -
   url: "https://bisq.network"
   tags:
     - decentralized
   logo_src: "Bisq.jpg"
-  logo_srcset: "/images/Bisq-p-500.jpeg 500w, /images/Bisq.jpg 608w"
   name: Bisq
 -
   url: "https://tuxexchange.com/"
   tags:
     - all
   logo_src: "tuxexchange.jpg"
-  logo_srcset: "/images/tuxexchange-p-500.jpeg 500w, /images/tuxexchange.jpg 608w"
   name: "Tux Exchange"
 -
   url: "https://changenow.io"
@@ -117,84 +101,72 @@
     - fiat
     - "instant-exchange"
   logo_src: "cryptopiachangenow.jpg"
-  logo_srcset: "/images/cryptopiachangenow-p-500.jpeg 500w, /images/cryptopiachangenow.jpg 608w"
   name: changeNOW
 -
   url: "https://www.kaiserex.com/"
   tags:
     - fiat
   logo_src: "kaiserex.jpg"
-  logo_srcset: "/images/kaiserex.jpg 500w, /images/kaiserex.jpg 608w"
   name: Kaiserex
 -
   url: "https://nanex.co"
   tags:
     - all
   logo_src: "nanex.jpg"
-  logo_srcset: "/images/nanex.jpg 500w, /images/nanex.jpg 608w"
   name: Nanex
 -
   url: "https://www.ooobtc.com"
   tags:
     - "high-liquidity"
   logo_src: "ooobtc.jpg"
-  logo_srcset: "/images/ooobtc.jpg 500w, /images/ooobtc.jpg 608w"
   name: OOOBTC
 -
   url: "https://braziliex.com/"
   tags:
     - fiat
   logo_src: "braziliex.jpg"
-  logo_srcset: "/images/braziliex.jpg 500w, /images/braziliex.jpg 608w"
   name: Braziliex
 -
   url: "https://profitfy.trade/"
   tags:
     - fiat
   logo_src: "profitfy.jpg"
-  logo_srcset: "/images/profitfy.jpg 500w, /images/profitfy.jpg 608w"
   name: Profitfy
 -
   url: "https://www.cointree.com.au/"
   tags:
     - all
   logo_src: "cointree.jpg"
-  logo_srcset: "/images/cointree-p-500.jpg 500w, /images/cointree.jpg 608w"
   name: CoinTree
 -
   url: "https://www.ezbtc.ca/"
   tags:
     - all
   logo_src: "ezbtc.jpg"
-  logo_srcset: "/images/ezbtc-p-500.jpg 500w, /images/ezbtc.jpg 608w"
   name: ezBtc
 -
   url: "https://okex.com/"
   tags:
     - "high-liquidity"
   logo_src: "okex.jpg"
-  logo_srcset: "/images/okex-p-500.jpg 500w, /images/okex.jpg 608w"
   name: Okex
 -
   url: "https://www.huobi.com/"
   tags:
     - "high-liquidity"
   logo_src: "huobi.jpg"
-  logo_srcset: "/images/huobi-p-500.jpg 500w, /images/huobi.jpg 608w"
   name: Huobi
 -
   url: "https://www.kucoin.com/"
   tags:
     - all
   logo_src: "kucoin.jpg"
-  logo_srcset: "/images/kucoin-p-500.jpg 500w, /images/kucoin.jpg 608w"
   name: KuCoin
 -
   url: "https://www.coinex.com/"
   tags:
     - all
   logo_src: "coinex.jpg"
-  logo_srcset: "/images/coinex-p-500.jpg 500w, /images/coinex.jpg 608w"
   name: CoinEx
 -
   url: "https://changelly.com/"
@@ -218,21 +190,19 @@
   url: "https://www.gate.io/"
   tags:
     - all
-  logo_src: "gate-io.svg"
+  logo_src: "gate-io.png"
   name: "Gate.io"
 -
   url: "https://www.binance.com/"
   tags:
     - "high-liquidity"
   logo_src: "binance.jpg"
-  logo_srcset: "/images/binance-p-500.jpg 500w, /images/binance.jpg 608w"
   name: "Binance.com"
 -
   url: "https://easyrabbit.net/"
   tags:
     - "instant-exchange"
   logo_src: "easyrabbit.jpg"
-  logo_srcset: "/images/easyrabbit-p-500.jpg 500w, /images/easyrabbit.jpg 608w"
   name: "Easyrabbit.net"
 -
   url: "https://simpleswap.io/"
@@ -245,12 +215,10 @@
   tags:
     - all
   logo_src: "lykke.jpg"
-  logo_srcset: "/images/lykke-p-500.jpg 500w, /images/lykke.jpg 608w"
   name: Lykke
 -
   url: "https://www.vertbase.com/"
   tags:
     - fiat
   logo_src: "vertbase.jpg"
-  logo_srcset: "/images/vertbase-p-500.jpg 500w, /images/vertbase.jpg 608w"
   name: Vertbase

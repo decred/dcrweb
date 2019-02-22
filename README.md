@@ -46,9 +46,9 @@ You should now be able to access the site at `http://localhost:1313`
 | Press coverage | `src/data/press/coverage.yml` ||
 | Download links | `src/data/downloads/links.yml` ||
 | Current release | `src/data/downloads/current_release.yml` | The current release as it appears in the footer|
-| Contributors      |  `src/data/contributors/*.yml` ||
-| Community channels    | `src/data/community/channels.yml` ||
-| Exchanges             | `src/data/exchanges.*.yml` ||
+| Contributors      |  `src/data/contributors/*.yml` | Avatar images: `src/assets/images/contributors` |
+| Community channels    | `src/data/community/channels.yml` |Logo images: `src/assets/images/community` |
+| Exchanges             | `src/data/exchanges.*.yml` | Logo images: `src/assets/images/exchanges`|
 
 The other sections live under `src/layouts`.  These pages are implemented as [Hugo templates](https://gohugo.io/templates/) and are [localized](https://gohugo.io/content-management/multilingual/#translation-of-strings).  The message catalogs can be found in `src/i18n`, when making changes in the templates, you'll want to keep the strings in the catalogs, please follow the naming scheme in the existing templates.    
 

@@ -12,13 +12,18 @@
         {{ $company_name = $company.name }}
     {{ end }}
 
+    {{ $imgPath := path.Join "images/contributors" .avatar_image }}
+    {{ $image := resources.Get ($imgPath) }}
+
     <div data-id="{{ .name }}" data-slack="{{ .slack_alias }}"  data-corporate-id="{{ $company_name }}" data-filter="{{ .group }}" class="team-member w-clearfix">
-        <div class="team-member-avatar"><img alt="" src="/images/{{ .avatar_image }}" class="image"></div>
+        <div class="team-member-avatar"><img alt="" src="{{ $image.RelPermalink }}" class="image"></div>
         <div class="team-member-name">{{ .name }}</div>
         <div class="team-member-title">{{ .title }}</div>
         {{ if ne $company "" }}
+            {{ $logoPath := path.Join "images/contributors/companies" $company.logo }}
+            {{ $logoImage := resources.Get ($logoPath) }}
             <a target="_blank" rel="noopener noreferrer" href="{{ $company.url }}" class="team-corporate-logo w-inline-block">
-                <img alt="" src="/images/{{ $company.logo }}">
+                <img alt="" src="{{ $logoImage.RelPermalink }}">
             </a>
         {{ end }}
 

@@ -26,17 +26,7 @@
     <div class="filter-cards-wrap w-clearfix">
 
     {{ range $exchanges }}
-        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-groups="[&quot;{{ delimit .tags "&quot;,&quot;" }}&quot;]" class="filter-card w-inline-block">
-            <div class="filter-card-image-wrap"><img src="/images/{{ .logo_src }}" {{ if ne .logo_srcset nil }} srcset="{{ .logo_srcset }}"  sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px"  {{end}} class="filter-card-image" alt=""/></div>
-            <div class="filter-card-footer w-clearfix">
-                <div class="filter-card-title">{{ .name }}</div>
-
-                {{ range .tags }}
-                    {{ $tag := index $tags . }}
-                    <div data-tail="{{ $tag.name }}" class="filter-button {{ . }} is-checked"></div>
-                {{ end }}
-            </div>
-        </a>
+        {{ partial "exchange-card" (dict "exchange" . "allTags" $tags  ) }}
     {{ end }}
     </div>
 
@@ -46,12 +36,7 @@
     </div>
 
     {{ range $otc }}
-    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card ex w-inline-block">
-        <div class="filter-card-image-wrap"><img alt="" src="/images/{{ .logo_src }}" {{ if ne .logo_srcset nil }} srcset="{{ .logo_srcset }}" sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" {{end}} class="filter-card-image"/></div>
-        <div class="filter-card-footer w-clearfix">
-            <div class="filter-card-title">{{ .name }}</div>
-        </div>
-    </a>
+        {{ partial "community-card" . }}
     {{ end }}
 
     <div class="subsection-description w-clearfix">
@@ -60,12 +45,7 @@
     </div>
 
     {{ range $payment_providers }}
-    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card ex w-inline-block">
-        <div class="filter-card-image-wrap"><img alt="" src="/images/{{ .logo_src }}" {{ if ne .logo_srcset nil }} srcset="{{ .logo_srcset }}" sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" {{end}} class="filter-card-image"/></div>
-        <div class="filter-card-footer w-clearfix">
-            <div class="filter-card-title">{{ .name }}</div>
-        </div>
-    </a>
+        {{ partial "community-card" . }}
     {{ end }}
 </div>
 

@@ -2,8 +2,19 @@
 
 {{ range $channels }}
 
+{{ $imgPath := path.Join "images/community" .img_src }}
+{{ $logoOriginal := resources.Get ($imgPath) }}
+{{ $img500 := $logoOriginal.Resize "500x" }}
+{{ $img800 := $logoOriginal.Resize "800x" }}
+{{ $img1080 := $logoOriginal.Resize "1080x" }}
+{{ $img1200 := $logoOriginal.Resize "1200x" }}
+
 <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="community-card w-inline-block">
-    <div class="platform-image"><img alt=""  src="{{ .img_src }}" srcset="{{ .img_srcset }}" sizes="(max-width: 479px) 92vw, (max-width: 767px) 100vw, (max-width: 991px) 96vw, 982px" class="platform-image-source"></div>
+    <div class="platform-image">
+        <img alt=""
+             src="{{ $img1200.RelPermalink }}"
+             srcset="{{ $img500.RelPermalink }} 500w, {{ $img800.RelPermalink }} 800w, {{ $img1080.RelPermalink }} 1080w, {{ $img1200.RelPermalink }} 1200w " sizes="(max-width: 479px) 92vw, (max-width: 767px) 100vw, (max-width: 991px) 96vw, 982px" class="platform-image-source">
+    </div>
     <div class="platform-text-block">
         <div class="platform-name">{{ .name }}</div>
     </div>
