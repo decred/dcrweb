@@ -444,10 +444,10 @@
   github_id: szyma
 -
   matrix_id: morphymore:decred.org
-  group: community
+  group: design
   avatar_image: "team_76.svg"
   name: "Morphy Tsai"
-  title: "Community Manager (TW)"
+  title: "Designer"
   twitter_alias: morphymore
 -
   slack_alias: nkpla
