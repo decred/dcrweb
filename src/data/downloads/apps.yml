@@ -43,11 +43,11 @@
         - title: Coinomi releases
           url: https://www.coinomi.com/downloads/
 
-    - name: Bitbill
-      id: bitbill
+    - name: Ownbit
+      id: ownbit
       links:
-        - title: Bitbill releases
-          url: https://www.bitbill.com/en/
+        - title: Ownbit releases
+          url: https://ownbit.io/
 
     - name: AnyBit
       id: anybit
