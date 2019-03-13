@@ -3,6 +3,7 @@ FROM golang
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
+ENV HUGO_VERSION 0.54.0
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -10,8 +11,8 @@ LABEL maintainer="peter@froggle.org"
 
 WORKDIR /tmp
 
-RUN wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz
-RUN tar xz -C /usr/local/bin -f  hugo_extended_0.54.0_Linux-64bit.tar.gz
+RUN wget -q https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
+RUN tar xz -C /usr/local/bin -f  hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
 
 WORKDIR /root
 
