@@ -6,7 +6,7 @@
   "bin": {},
   "scripts": {
     "test": "bin/test.sh",
-    "build": "hugo -s src",
+    "build": "bin/build-hugo.sh",
     "build:docker": "bin/build.sh",
     "deploy:stage": "HUGO_BASEURL=https://dcrweb.netlify.com yarn build && netlify deploy --dir=src/public --prod",
     "watch": "bin/watch.sh",
