@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-bin/i18n-convert-transifex-hugo.sh
-
 IMAGE_NAME=decred/dcrweb
 
 if [ "$1" != "" ]; then
