@@ -228,3 +228,9 @@
     - fiat
   logo_src: "cryptofacil.png"
   name: Cryptofacil
+-
+  url: "https://www.okcoin.com/"
+  tags:
+    - fiat
+  logo_src: "okcoin.jpg"
+  name: OKCoin
