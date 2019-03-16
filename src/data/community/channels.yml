@@ -11,10 +11,6 @@
   img_src: "dcr-community-platforms-slack.png"
   name: Slack
 -
-  url: "https://webchat.freenode.net/?channels=decred&uio=d4"
-  img_src: "dcr-community-platforms-irc.png"
-  name: IRC
--
   url: "https://t.me/decred"
   img_src: "dcr-community-platforms-telegram.png"
   name: Telegram
