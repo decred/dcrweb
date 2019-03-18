@@ -2035,18 +2035,24 @@ body {
 .bg-illustration {
   position: relative;
   overflow: hidden;
-  width: 50vw;
+  width: calc(50% - 80px);
   height: 100vh;
-  background-image: url('../images/front-bg-anim_.gif'), -webkit-linear-gradient(270deg, #091440, #091440);
-  background-image: url('../images/front-bg-anim_.gif'), linear-gradient(180deg, #091440, #091440);
+  display: flex;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, #091440, #091440);
+  background-image: linear-gradient(180deg, #091440, #091440);
   background-position: 50% 50%, 0px 0px;
   background-size: 110%, auto;
   background-repeat: repeat, repeat;
 }
 
+.bg-illustration > video {
+  display: none;
+}
+
 .bg-illustration.active {
-  background-image: -webkit-linear-gradient(270deg, rgba(8, 47, 162, 0), rgba(8, 47, 162, 0)), url('../images/bg_illustration.svg');
-  background-image: linear-gradient(180deg, rgba(8, 47, 162, 0), rgba(8, 47, 162, 0)), url('../images/bg_illustration.svg');
+  background-image: -webkit-linear-gradient(270deg, rgba(8, 47, 162, 0), rgba(8, 47, 162, 0));
+  background-image: linear-gradient(180deg, rgba(8, 47, 162, 0), rgba(8, 47, 162, 0));
   background-position: 0px 0px, 0px 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
