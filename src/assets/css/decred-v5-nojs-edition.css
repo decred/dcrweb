@@ -971,10 +971,6 @@ body {
   background-image: url('../images/iconReddit.svg');
 }
 
-.irc {
-  background-image: url('../images/iconIrc.svg');
-}
-
 .footerblockindicator {
   display: inline-block;
   margin-top: 9px;
