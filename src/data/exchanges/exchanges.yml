@@ -235,3 +235,9 @@
     - fiat
   logo_src: "okcoin.jpg"
   name: OKCoin
+-
+  url: "https://stealthex.io/"
+  tags:
+    - all
+  logo_src: "stealthex.jpg"
+  name: Stealthex
