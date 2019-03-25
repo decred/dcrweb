@@ -1014,6 +1014,14 @@ body {
   background-image: url('../images/iconSlack.svg');
 }
 
+.discord {
+  background-image: url('../images/iconDiscord.svg');
+}
+
+.matrix {
+  background-image: url('../images/iconMatrix.svg');
+}
+
 .forum {
   background-image: url('../images/iconForum.svg');
 }
@@ -1837,10 +1845,16 @@ body {
   opacity: 0.85;
 }
 
+.nav-social-link.nav-matrix {
+  background-image: url('../images/icon-nav-matrix.svg');
+}
+
+.nav-social-link.nav-discord {
+  background-image: url('../images/icon-nav-discord.svg');
+}
+
 .nav-social-link.nav-slack {
   background-image: url('../images/icon-nav-slack.svg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
 }
 
 .nav-social-link.nav-irc {
@@ -1878,10 +1892,6 @@ body {
 
 .nav-social-link.nav-email {
   background-image: url('../images/icon-nav-email.svg');
-}
-
-.nav-social-link.nav-medium {
-  background-image: url('../images/icon-nav-medium.svg');
 }
 
 .nav-dcr-dev-link {
