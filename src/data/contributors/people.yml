@@ -1,12 +1,11 @@
 -
-  slack_alias: macsleven
+  matrix_id: macsleven:decred.org
   twitter_alias: macsleven
   company_id: raedah_group
   group: development
   avatar_image: "team_51.svg"
   name: "Abubakar Suleiman"
   title: "Mobile Developer"
-  slack_id: DA7NZ77C1
   linkedin_url: "https://linkedin.com/in/macsleven"
   medium_alias: macsleven
 -
@@ -132,13 +131,12 @@
   title: developer
   github_id: marcopeereboom
 -
-  slack_alias: kart
+  matrix_id: kart:decred.org
   company_id: eeter
   group: design
   avatar_image: "team_13.svg"
   name: "Kärt Koosa"
   title: "Illustrator, Designer"
-  slack_id: U5D29D50F
 -
   matrix_id: kyle_firethought:matrix.org
   twitter_alias: "kyleFirethought"
@@ -164,22 +162,20 @@
   title: "dcrdata Developer"
   github_id: dmigwi
 -
-  slack_alias: papa_carp
+  matrix_id: papa_carp:decred.org
   company_id: raedah_group
   group: development
   avatar_image: "team_61.svg"
   name: "Mike Fullmann"
   title: "dcrdata Developer"
-  slack_id: UA60YSX19
   github_id: papacarp
 -
-  slack_alias: rmykolas
+  matrix_id: rmykolas:decred.org
   company_id: eeter
   group: development
   avatar_image: "team_53.svg"
   name: "Mykolas Raižys"
   title: developer
-  slack_id: U9ZS2G277
   linkedin_url: "https://www.linkedin.com/in/mykolasraizys"
   medium_alias: "rmykolas"
   twitter_alias: rmykolas
@@ -193,13 +189,12 @@
   slack_id: UA1843AS1
   linkedin_url: "https://www.linkedin.com/in/kaeshko/"
 -
-  slack_alias: rogueelement
+  matrix_id: rogueelement:decred.org
   company_id: raedah_group
   group: development
   avatar_image: "team_49.svg"
   name: "Oluwandabira Alawode"
   title: developer
-  slack_id: DA89QRWRG
   github_id: RogueElement
 -
   matrix_id: peter_zen:decred.org
@@ -225,12 +220,11 @@
   slack_id: D7NA04LRM
   github_id: sndurkin
 -
-  slack_alias: oktapodia
+  matrix_id: oktapodia:matrix.org
   group: development
   avatar_image: "team_35.svg"
   name: "Sebastien Bramille"
   title: developer
-  slack_id: U6DPT0X0B
   github_id: oktapodia
 -
   matrix_id: s_ben:decred.org
@@ -257,12 +251,11 @@
   linkedin_url: "https://www.linkedin.com/in/tiagoalvesdulce"
   github_id: tiagoalvesdulce
 -
-  slack_alias: vctt
+  matrix_id: vctt:decred.org
   group: development
   avatar_image: "team_41.svg"
   name: "Victor Oliveira"
   title: developer
-  slack_id: U77HBPDBK
   linkedin_url: "https://www.linkedin.com/in/victor-oliveira-3a9b8675"
   github_id: vctt94
 -
@@ -297,23 +290,21 @@
   linkedin_url: "https://www.linkedin.com/in/tanel-august-lind-78556855/"
   medium_alias: linnutee
 -
-  slack_alias: lindseym
+  matrix_id: lindseymm:decred.org
   twitter_alias: "LindseyMelissaM"
   group: marketing
   avatar_image: "team_47.svg"
   name: "Lindsey McConaghy"
   title: "Public Relations"
-  slack_id: DA7P0REHF
   linkedin_url: "https://www.linkedin.com/in/lindsey-melissa-mcconaghy-a5960822/"
 -
-  slack_alias: timhebel
+  matrix_id: timhebel:decred.org
   twitter_alias: "tim_hebel"
   company_id: beanstalk
   group: marketing
   avatar_image: "team_55.svg"
   name: "Tim Hebel"
   title: "Digital Marketing"
-  slack_id: U6PBQ22SF
   linkedin_url: "https://www.linkedin.com/in/tim-hebel"
 -
   matrix_id: jy-p:decred.org
@@ -369,14 +360,13 @@
   title: "Community Manager (AU)"
   twitter_alias: davesaddress
 -
-  slack_alias: DZ
+  matrix_id: dz:decred.org
   twitter_alias: "denyszayets"
   company_id: cryptobits
   group: community
   avatar_image: "team_42.svg"
   name: "Denys Zayets"
   title: "Community Manager (Italy & Russia)"
-  slack_id: U6BN2RMQA
 -
   matrix_id: elianh:matrix.org
   group: community
@@ -400,13 +390,12 @@
   name: Guang
   title: "Community Manager (Asia)"
 -
-  slack_alias: butterfly
+  matrix_id: arij:matrix.org
   twitter_alias: "in_insaf"
   group: community
   avatar_image: "team_69.svg"
   name: "Insaf Nori"
   title: "Community Manager (Middle East)"
-  slack_id: U6RC8P404
 -
   slack_alias: Jesiki
   company_id: raedah_group
@@ -505,13 +494,12 @@
   github_id: artikozel
   medium_alias: artikozel
 -
-  slack_alias: trace
+  matrix_id: traced:decred.org
   twitter_alias: "traceagain"
   group: community
   avatar_image: "team_38.svg"
   name: "Trace Trebilco"
   title: "Decred Assembly Host"
-  slack_id: U7190LS75
 -
   matrix_id: margaret_mei:decred.org
   company_id: ditto
