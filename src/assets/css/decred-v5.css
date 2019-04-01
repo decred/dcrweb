@@ -6890,36 +6890,36 @@ html[dir="rtl"] .lang-menu {
   text-decoration: none;
 }
 
-.politeia-notice {
+.news_banner {
   background: #1B41B3;
 }
 
-.politeia-notice__content {
+.news_banner__content {
   padding: 30px 0;
   display: flex;
 }
 
-.politeia-notice__content p {
+.news_banner__content p {
   margin-bottom: 0;
 }
 
-.politeia-notice__content strong {
+.news_banner__content strong {
   display: block;
   margin-bottom: 10px;
 }
 
-.politeia-notice__text {
+.news_banner__text {
   padding: 0 30px;
 }
 
 @media screen and (max-width: 480px) {
-  .politeia-notice__text {
+  .news_banner__text {
     padding: 0 15px;
   }
 }
 
 @media screen and (min-width: 730px) {
-  .politeia-notice__text {
+  .news_banner__text {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6928,44 +6928,44 @@ html[dir="rtl"] .lang-menu {
 }
 
 @media screen and (min-width: 730px) {
-  .politeia-notice__text div {
+  .news_banner__text div {
     max-width: 400px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .politeia-notice__text div {
+  .news_banner__text div {
     max-width: 560px;
   }
 }
 
-.politeia-notice__logo {
+.news_banner__logo {
   width: 70px;
   height: 70px;
 }
 
-.politeia-notice__button {
+.news_banner__button {
   text-decoration: none;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
   background-color: #2970FF;
-  padding: 10px 15px;
+  padding: 10px 20px;
   float: left !important;
 }
 
 @media screen and (max-width: 730px) {
-  .politeia-notice__button {
+  .news_banner__button {
     margin-top: 15px;
   }
 }
 
-.politeia-notice__button img {
+.news_banner__button img {
   width: 20px;
   margin-right: 10px;
 }
 
-.politeia-notice__button span {
+.news_banner__button span {
   vertical-align: middle;
 }
 
