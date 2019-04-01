@@ -18,14 +18,13 @@
   title: Developer
   github_id: alexlyp
 -
-  slack_alias: collins
+  matrix_id: beansgum:decred.org
   twitter_alias: "beansgum"
   company_id: raedah_group
   group: development
   avatar_image: "team_46.svg"
   name: "Collins Olanrewaju"
   title: "Mobile Developer"
-  slack_id: DA9B1EM3R
   github_id: "C-ollins"
 -
   matrix_id: davecgh:decred.org
@@ -180,13 +179,12 @@
   medium_alias: "rmykolas"
   twitter_alias: rmykolas
 -
-  slack_alias: Nick
+  matrix_id: nick.k:decred.org
   company_id: block_42
   group: development
   avatar_image: "team_66.svg"
   name: "Nick Kaeshko"
   title: "Project Manager"
-  slack_id: UA1843AS1
   linkedin_url: "https://www.linkedin.com/in/kaeshko/"
 -
   matrix_id: rogueelement:decred.org
@@ -266,13 +264,12 @@
   name: "Marcelo Lustosa"
   title: illustrator
 -
-  slack_alias: Maria
+  matrix_id: mariapleshkova:decred.org
   company_id: block_42
   group: design
   avatar_image: "team_68.svg"
   name: "Maria Pleshkova"
   title: Designer
-  slack_id: UB53WBNTZ
 -
   matrix_id: saender:decred.org
   company_id: eeter
@@ -346,12 +343,11 @@
   github_id: zubairzia0
   medium_alias: zubairzia
 -
-  slack_alias: bill
+  matrix_id: billxing:decred.org
   group: community
   avatar_image: "team_56.svg"
   name: "Bill Xing"
   title: "Asia outreach"
-  slack_id: U6EV8PTHC
 -
   matrix_id: esizedave:decred.org
   group: community
@@ -465,12 +461,11 @@
   medium_alias: NoahPierau
   linkedin_url: https://www.linkedin.com/in/noahpierau/
 -
-  slack_alias: oregonisaac
+  matrix_id: isaacj:decred.org
   group: community
   avatar_image: "team_54.svg"
   name: "Oregon Isaac"
   title: "Community Manager"
-  slack_id: U4X5L6Y2X
 -
   matrix_id: ingsoc:decred.org
   twitter_alias: "realingsoc"
