@@ -521,3 +521,35 @@
   title: "Public Relations"
   linkedin_url: https://www.linkedin.com/in/milvian/
   twitter_alias: "MilvianPrieto"
+-
+  matrix_id: anshawblack:decred.org
+  group: marketing
+  avatar_image: "angelo_dominguez.svg"
+  title: "Marketing"
+  name: "Angelo Dominguez"
+-
+  matrix_id: thi4go:matrix.org
+  group: development
+  avatar_image: "thiago_de_freitas_figueiredo.svg"
+  title: "Developer"
+  name: "Thiago de Freitas Figueiredo"
+-
+  matrix_id: changhugo:decred.org
+  group: community
+  avatar_image: "hugo_chang.svg"
+  title: "Community Manager (CN)"
+  name: "Hugo Chang"
+-
+  matrix_id: dominic.d:decred.org
+  group: community
+  avatar_image: "dominic_ting.svg"
+  title: "Community Manager (CN)"
+  name: "Dominic Ting"
+  twitter_alias: "wanbihou"
+-
+  matrix_id: michae2xl:decred.org
+  group: community
+  avatar_image: "michael_guimaraes.svg"
+  title: "Community Manager (BR)"
+  name: "Michael Guimaraes"
+  twitter_alias: "michae2xl"
