@@ -4,7 +4,7 @@
 {{ $companies := .Site.Data.contributors.companies }}
 {{ $items := index .Site.Data.contributors.people  }}
 
-{{ range $items }}
+{{ range sort $items "name" }}
     {{ $company := "" }}
     {{ $company_name := "" }}
     {{ if ne .company_id nil }}
