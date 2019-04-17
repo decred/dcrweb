@@ -15,7 +15,7 @@
     {{ $imgPath := path.Join "images/contributors" .avatar_image }}
     {{ $image := resources.Get ($imgPath) }}
 
-    <div data-id="{{ .name }}" data-slack="{{ .slack_alias }}"  data-corporate-id="{{ $company_name }}" data-filter="{{ .group }}" class="team-member w-clearfix">
+    <div data-id="{{ .name }}" data-slack="{{ .slack_alias }}" data-twitter="{{ .twitter_alias }}" data-corporate-id="{{ $company_name }}" data-filter="{{ .group }}" class="team-member w-clearfix">
         <div class="team-member-avatar"><img alt="" src="{{ $image.RelPermalink }}" class="image"></div>
         <div class="team-member-name">{{ .name }}</div>
         <div class="team-member-title">{{ .title }}</div>
