@@ -130,13 +130,6 @@
   title: developer
   github_id: marcopeereboom
 -
-  matrix_id: kart:decred.org
-  company_id: eeter
-  group: design
-  avatar_image: "team_13.svg"
-  name: "Kärt Koosa"
-  title: "Illustrator, Designer"
--
   matrix_id: kyle_firethought:matrix.org
   twitter_alias: "kyleFirethought"
   group: design
