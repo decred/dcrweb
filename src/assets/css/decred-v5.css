@@ -3751,7 +3751,6 @@ html[dir="rtl"] .lang-menu {
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-	
 .press-release-image-wrap.im.active {
   height: 0px;
 }
@@ -4091,18 +4090,15 @@ html[dir="rtl"] .lang-menu {
   -ms-flex-direction: row;
   flex-direction: row;
 }
-	
 .community-section-left {
   width: 40%;
 }
-	
 .community-section-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
-  	
 .first-view-buttons {
   position: absolute;
 }
@@ -4165,7 +4161,7 @@ html[dir="rtl"] .lang-menu {
 }
 
 .left-wrapper {
-  width: 320px;
+  width: 400px;
   padding-top: 35px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -4178,13 +4174,22 @@ html[dir="rtl"] .lang-menu {
 }
 
 .slack-join-notice {
-  max-width: 200px;
-  margin-top: 90px;
-  margin-right: 20px;
+  max-width: 380px;
+  margin-top: 106px;
+  margin-right: -42px;
   margin-bottom: 50px;
-  color: #091440;
-  font-size: 12px;
+  color: #5a6d81;
+  font-size: 16px;
   line-height: 18px;
+  font-family: source sans pro,sans-serif;
+}
+.slack-join-notice>p>a {
+  color: #12213a;
+  font-weight: 600;
+}
+
+.slack-join-notice>p>a:hover {
+  color: #435169;
 }
 
 .slack-join-notice-highlight {
@@ -5857,6 +5862,9 @@ html[dir="rtl"] .lang-menu {
   .subpage-content-header {
     padding-top: 38px;
   }
+  .main.slack-join {
+    min-height: 70vh;
+  }
 }
 
 @media (max-width: 479px) {
@@ -7253,4 +7261,3 @@ p.get-into__link {
         width: calc(50vw - 160px);
     }
 }
-
