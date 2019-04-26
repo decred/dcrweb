@@ -3,7 +3,7 @@ FROM golang
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
-ENV HUGO_VERSION 0.54.0
+ENV HUGO_VERSION 0.55.4
 
 LABEL description="gohugo build"
 LABEL version="1.0"
