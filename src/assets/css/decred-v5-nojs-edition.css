@@ -5,7 +5,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: 'Source Sans Pro', sans-serif;
   color: #f9fbfc;
   font-size: 16px;
   font-weight: 400;
@@ -55,7 +54,7 @@ body {
   display: block;
 }
 
-.font16.inconsolata.colordarkblue.brand {
+.font16.dcrwebcode.colordarkblue.brand {
   padding-top: 11px;
   text-align: center;
   text-transform: uppercase;
@@ -1113,7 +1112,7 @@ body {
 .swatchbottom {
   height: 40px;
   padding-top: 10px;
-  font-family: Inconsolata, monospace;
+  font-family: 'dcrweb-code';
   color: #132f4b;
   font-size: 16px;
   text-align: center;
@@ -1212,7 +1211,7 @@ body {
 }
 
 .height-122.width-122.margin20.ii {
-  background-image: url('../images/inconsolata.svg');
+  background-image: url('../images/sourceCode.svg');
   background-position: 50% 50%;
   background-size: 68px;
   background-repeat: no-repeat;
@@ -1274,14 +1273,14 @@ body {
   color: #5a6d81;
 }
 
-.width-100.colors.brand.font16.inconsolata {
+.width-100.colors.brand.font16.dcrwebcode {
   float: left;
   color: #8795a3;
   text-align: center;
 }
 
-.inconsolata {
-  font-family: Inconsolata, monospace;
+.dcrwebcode {
+  font-family: 'dcrweb-code';
 }
 
 .backgroundroyalblue {
@@ -1849,7 +1848,6 @@ body {
 
 .section-title-download-page {
   margin-bottom: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
   color: #0c1e3e;
   font-size: 14px;
   line-height: 18px;
@@ -2189,7 +2187,6 @@ body {
   background-position: 40px 10px;
   background-size: 10px 5px;
   background-repeat: no-repeat;
-  font-family: 'Source Sans Pro', sans-serif;
   color: #091440;
   font-size: 13px;
   font-weight: 400;
@@ -2390,7 +2387,6 @@ body {
 }
 
 .mission-copy {
-  font-family: 'Source Sans Pro', sans-serif;
   color: #5a6d81;
   line-height: 22px;
   font-weight: 400;
@@ -2512,7 +2508,7 @@ body {
 }
 
 .quotes-quote {
-  font-family: Inconsolata, monospace;
+  font-family: 'dcrweb-code';
   color: #e9f8fe;
   font-size: 21px;
   line-height: 22px;
@@ -3469,7 +3465,6 @@ body {
   margin-left: 20px;
   -webkit-transition: opacity 100ms ease;
   transition: opacity 100ms ease;
-  font-family: 'Source Sans Pro', sans-serif;
   color: #c4cbd2;
   font-size: 13px;
   line-height: 17px;
@@ -4236,7 +4231,7 @@ body {
     width: 120px;
     margin-right: 20px;
   }
-  .width-100.colors.brand.font16.inconsolata {
+  .width-100.colors.brand.font16.dcrwebcode {
     display: block;
     width: 100%;
   }

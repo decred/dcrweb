@@ -583,8 +583,8 @@ $(document).ready(function () {
 						tableMarkup += '<tr class="rowHover transition ' + poolData["Network"] + (overCapacity ? ' overcapacity"' : '"') + '>';
 						tableMarkup += '<td class="poolId">' + poolName + '</td>';
 						tableMarkup += '<td class="address"><a target="_blank" rel="noopener noreferrer" href="' + poolData["URL"] + '">' + poolData["URL"].replace("https://", "") + '</a></td>';
-						tableMarkup += '<td class="lastUpdate inconsolata">' + lastUpdateFormatted + '</td>';
-						tableMarkup += '<td class="inconsolata">' + (overCapacity ? ' <span class="inconsolata overcapacityWarning" style="" title="See warning below">' + proportion + '</span>' : proportion) + '</td>';
+						tableMarkup += '<td class="lastUpdate dcrwebcode">' + lastUpdateFormatted + '</td>';
+						tableMarkup += '<td class="dcrwebcode">' + (overCapacity ? ' <span class="dcrwebcode overcapacityWarning" style="" title="See warning below">' + proportion + '</span>' : proportion) + '</td>';
 
 						$.each(fields, function (i, field) {
 							var value = 'N/A';
@@ -624,9 +624,9 @@ $(document).ready(function () {
 							}
 
 							if (order) {
-								tableMarkup += '<td class="inconsolata" data-order="' + order + '">' + value + '</td>';
+								tableMarkup += '<td class="dcrwebcode" data-order="' + order + '">' + value + '</td>';
 							} else {
-								tableMarkup += '<td class="inconsolata">' + value + '</td>';
+								tableMarkup += '<td class="dcrwebcode">' + value + '</td>';
 							}
 						});
 
@@ -651,7 +651,7 @@ $(document).ready(function () {
 					});
 					
 					// Show the total percentage of all tickets that the VSPs manage.
-					$('<div><span style="font-weight: 700!important;">Tickets Held by Pools: </span><span class="inconsolata">' + totalPropLive.toFixed(2) + '%</span></div>').appendTo("#stakepool-data");
+					$('<div><span style="font-weight: 700!important;">Tickets Held by Pools: </span><span class="dcrwebcode">' + totalPropLive.toFixed(2) + '%</span></div>').appendTo("#stakepool-data");
 				},
 			});
 		};
