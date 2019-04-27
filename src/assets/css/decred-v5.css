@@ -6970,6 +6970,7 @@ html[dir="rtl"] .lang-menu {
 }
 
 .comments-box {
+  max-width: 650px;
   margin-left: -24px;
   margin-bottom: 46px;
   padding: 24px;
