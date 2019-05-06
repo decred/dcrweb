@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Group_2913" data-name="Group 2913" transform="translate(-773 -596)">
+    <g id="Slack_Mark_Monochrome_White" transform="translate(775 598)">
+      <g id="Group_2861" data-name="Group 2861" transform="translate(0 7.123)">
+        <path id="Path_1890" data-name="Path 1890" d="M76.44,139.72a1.42,1.42,0,1,1-1.42-1.42h1.42Z" transform="translate(-73.6 -138.3)" fill="#e9f8fe"/>
+        <path id="Path_1891" data-name="Path 1891" d="M105.9,139.72a1.42,1.42,0,1,1,2.84,0v3.556a1.42,1.42,0,1,1-2.84,0Z" transform="translate(-102.344 -138.3)" fill="#e9f8fe"/>
+      </g>
+      <g id="Group_2862" data-name="Group 2862" transform="translate(0 0)">
+        <path id="Path_1892" data-name="Path 1892" d="M107.32,76.44a1.42,1.42,0,1,1,1.42-1.42v1.42Z" transform="translate(-102.344 -73.6)" fill="#e9f8fe"/>
+        <path id="Path_1893" data-name="Path 1893" d="M78.576,105.9a1.42,1.42,0,0,1,0,2.84H75.02a1.42,1.42,0,0,1,0-2.84Z" transform="translate(-73.6 -102.344)" fill="#e9f8fe"/>
+      </g>
+      <g id="Group_2863" data-name="Group 2863" transform="translate(7.123 0)">
+        <path id="Path_1894" data-name="Path 1894" d="M170.6,107.32a1.42,1.42,0,1,1,1.42,1.42H170.6Z" transform="translate(-167.044 -102.344)" fill="#e9f8fe"/>
+        <path id="Path_1895" data-name="Path 1895" d="M141.14,78.576a1.42,1.42,0,1,1-2.84,0V75.02a1.42,1.42,0,1,1,2.84,0Z" transform="translate(-138.3 -73.6)" fill="#e9f8fe"/>
+      </g>
+      <g id="Group_2864" data-name="Group 2864" transform="translate(7.123 7.123)">
+        <path id="Path_1896" data-name="Path 1896" d="M139.72,170.6a1.42,1.42,0,1,1-1.42,1.42V170.6Z" transform="translate(-138.3 -167.044)" fill="#e9f8fe"/>
+        <path id="Path_1897" data-name="Path 1897" d="M139.72,141.14a1.42,1.42,0,0,1,0-2.84h3.556a1.42,1.42,0,0,1,0,2.84Z" transform="translate(-138.3 -138.3)" fill="#e9f8fe"/>
+      </g>
+    </g>
+    <rect id="Rectangle_2018" data-name="Rectangle 2018" width="18" height="18" transform="translate(773 596)" fill="none"/>
+  </g>
+</svg>
