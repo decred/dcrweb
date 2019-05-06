@@ -1701,14 +1701,6 @@ body {
   padding-left: 30px;
 }
 
-.started-sub {
-  display: none;
-}
-
-.started:hover .started-sub {
-  display: block;
-}
-
 .navigation-bottom {
   background-color: #1b41b3;
   padding-top: 25px;
@@ -1745,6 +1737,7 @@ body {
   text-decoration: none;
   position: relative;
   display: table;
+  cursor: pointer;
 }
 
 .navigation-link.external:after {
