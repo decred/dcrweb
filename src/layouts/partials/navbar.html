@@ -9,29 +9,80 @@
         {{ end }}
 
         <div class="link-section">
-            <div class="nav-links-wrap w-clearfix">
-                <div class="navigation-group-title">{{ T "nav_whatis"  }}</div>
-                <a href="{{ "#mission" | relLangURL }}" class="navigation-link">{{ T "nav_mission" }}</a>
-                <a href="{{ "#platform" | relLangURL }}" class="navigation-link">{{ T "nav_platform" }}</a>
-                <a href="{{ "#guide" | relLangURL }}" class="navigation-link">{{ T "nav_getstarted" }}</a>
-                <div class="navigation-group-title whitespace">{{ T "nav_interacting" }}</div>
-                <a href="{{ "wallets/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a>
-                <a href="https://proposals.decred.org/" class="navigation-link external" rel="noopener noreferrer" target="_blank">{{ T "nav_politeia" }}</a>
-                <a href="{{ "vsp/" | relLangURL }}" class="navigation-link">{{ T "nav_vsp" }}</a>
-                <a href="https://dcrdata.decred.org/" class="navigation-link external" rel="noopener noreferrer" target="_blank">{{ T "nav_networkstats" }}</a>
-                <a href="https://voting.decred.org/" class="navigation-link external" rel="noopener noreferrer" target="_blank">{{ T "nav_votingdashboard" }}</a>
-                <a href="https://docs.decred.org/" class="navigation-link external" rel="noopener noreferrer" target="_blank">{{ T "nav_documentation" }}</a>
-                <a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a>
-                <a href="{{ "contributors/" | relLangURL }}" class="navigation-link">{{ T "nav_contributors" }}</a>
-                <a href="{{ "exchanges/" | relLangURL }}" class="navigation-link">{{ T "nav_exchanges" }}</a>
-                <a href="{{ "roadmap/" | relLangURL }}" class="navigation-link">{{ T "nav_roadmap" }}</a>
-                <a href="{{ "press/" | relLangURL }}" class="navigation-link">{{ T "nav_press" }}</a>
+            <div class="navigation-top">
+                <div class="nav-links-wrap w-clearfix">
+                    <div class="w-row">
+                        <div class="w-col w-col-6">
+                            <a href="#" class="navigation-link">Intro</a>
+                            <a href="#" class="navigation-link copen" data-c="c1">What is Decred →</a> 
+                            <a href="#" class="navigation-link active copen" data-c="c2">Get Started →</a>
+                            <a href="#" class="navigation-link resources copen" data-c="c3">Insights and Resources →</a>  
+                            <a href="#" class="navigation-link">News and Posts</a>
+                        </div>
+                        <div id="c1" class="w-col w-col-6 c" style="display:none">
+                            <!-- What is Decred → -->
+                            <a href="#" class="navigation-link">What is Decred</a>
+                        </div>
+                        <div id="c2" class="w-col w-col-6 c">
+                            <!-- Get Started → -->
+                            <a href="{{ "downloads/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a>
+                            <a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Proposals</a>
+                            <a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Staking and voting</a>
+                            <a href="{{ "exchanges/" | relLangURL }}" class="navigation-link active">{{ T "nav_exchanges" }}</a>
+                            <a href="#" class="navigation-link">Bug bounty</a>
+                            <a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Block explorer</a>
+                            <a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a>
+                        </div>
+                        <div id="c3" class="w-col w-col-6 c" style="display:none">
+                            <!-- Insights and Resources → -->
+                            <a href="#" class="navigation-link">Insights and Resources</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="nav-social w-clearfix">
-                {{ range $.Site.Params.social_media_links }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-{{ .id }} w-inline-block"></a>
-                {{ end }}
-                <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="nav-dcr-dev-link">{{ T "general_copyright"  }}</a></div>
+            <div class="navigation-bottom">
+                <div class="nav-social w-clearfix">
+                    <div class="w-row mb-33">
+                        <div class="w-col w-col-12">
+                            <div class="navigation-bottom__heading">{{ T "nav_community" }}</div>
+                        </div>
+                        <div class="w-col w-col-6">
+                            <a href="https://decred.org/matrix/" class="nav-matrix-white nav-social-link w-inline-block"></a>
+                            <a href="#" class="nav-link nav-social-link w-inline-block"></a>
+                            <a href="https://slack.decred.org/" class="nav-slack-white nav-social-link w-inline-block"></a><br>
+                            <p class="nav-text">Join the Chat</p>
+                        </div>
+                        <div class="w-col w-col-6">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" class="nav-github-white nav-social-link w-inline-block"></a><br>
+                            <p class="nav-text">Contribute to our Repos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="w-row">
+                        <div class="w-col w-col-12">
+                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter-white w-inline-block"></a>
+                            <a href="https://www.reddit.com/r/decred/" target="_blank" rel="noopener noreferrer" class="nav-reddit-white nav-social-link w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-m-white nav-social-link w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-facebook-white nav-social-link w-inline-block"></a>
+                            <a href="https://www.youtube.com/decredchannel" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-youtube-white w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-linkedin-white nav-social-link w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-telegram-white nav-social-link w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-irc-white nav-social-link w-inline-block"></a>
+                            <a href="https://discordapp.com/invite/GJ2GXfz" class="nav-discord-white nav-social-link w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-talk-white nav-social-link w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-forum-white w-inline-block"></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-x-white w-inline-block"></a>
+                            
+                            <br>
+                            <p class="nav-text">Explore the Community Platforms</p>
+                        </div>
+                    </div>
+                    <div class="nav-social-localized" translate>
+                        <!-- localized social media links -->
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </div>
 </div>

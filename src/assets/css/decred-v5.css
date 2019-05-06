@@ -1642,9 +1642,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  padding-top: 95px;
-  padding-right: 120px;
-  padding-left: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1698,19 +1695,56 @@ body {
   text-decoration: none;
 }
 
-.navigation-link {
+.navigation-top {
+  padding-top: 95px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.started-sub {
+  display: none;
+}
+
+.started:hover .started-sub {
   display: block;
-  min-width: 320px;
-  clear: left;
+}
+
+.navigation-bottom {
+  background-color: #1b41b3;
+  padding-top: 25px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.navigation-bottom__heading {
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 22px;
+  border-bottom: 1px solid #2980ff;
+}
+.nav-text {
+  font-size: 12px;
+  color: #fff;
+}
+.mb-33 {
+  margin-bottom: 33px;
+}
+.mb-33 a {
+  margin-right: 4px;
+}
+
+.navigation-link {
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 21px;
   line-height: 35px;
   text-decoration: none;
   position: relative;
+  display: table;
 }
 
 .navigation-link.external:after {
@@ -1734,7 +1768,11 @@ body {
 }
 
 .navigation-link:hover {
-  opacity: 0.75;
+  color: #3d5873;
+}
+
+.navigation-link.active {
+  border-bottom: 1px solid #091440;
 }
 
 .navigation-link.disabled {
@@ -1821,9 +1859,9 @@ body {
 }
 
 .nav-social-link {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 19px;
   float: left;
   background-image: url('../images/transparent.png');
   background-position: 50% 50%;
@@ -1841,10 +1879,20 @@ body {
   -webkit-mask-image: url('../images/iconMatrix.svg');
   mask-image: url('../images/iconMatrix.svg');
 }
+.nav-social-link.nav-matrix-white {
+  background-image: url('../images/icon-nav-matrix-white.svg');
+}
+
+.nav-social-link.nav-link {
+  background-image: url('../images/icon-nav-link.svg');
+}
 
 .nav-social-link.nav-youku {
   -webkit-mask-image: url('../images/iconYouku.svg');
   mask-image: url('../images/iconYouku.svg');
+}
+.nav-social-link.nav-discord-white {
+  background-image: url('../images/icon-nav-discord-white.svg');
 }
 
 .nav-social-link.nav-chainnode {
@@ -1854,6 +1902,9 @@ body {
 .nav-social-link.nav-qq {
   -webkit-mask-image: url('../images/iconQQ.svg');
   mask-image: url('../images/iconQQ.svg');
+}
+.nav-social-link.nav-slack-white {
+  background-image: url('../images/icon-nav-slack-white.svg');
 }
 
 .nav-social-link.nav-wechat {
@@ -1870,30 +1921,80 @@ body {
   -webkit-mask-image: url('../images/iconSlack.svg');
   mask-image: url('../images/iconSlack.svg');
 }
+.nav-social-link.nav-twitter-white {
+  background-image: url('../images/icon-nav-twitter-white.svg');
+}
+
+.nav-social-link.nav-telegram-white {
+  background-image: url('../images/icon-nav-telegram-white.svg');
+}
+
+.nav-social-link.nav-irc-white {
+  background-image: url('../images/icon-nav-irc-white.svg');
+}
 
 .nav-social-link.nav-twitter {
   -webkit-mask-image: url('../images/iconTwitter.svg');
   mask-image: url('../images/iconTwitter.svg');
+}
+.nav-social-link.nav-forum-white {
+  background-image: url('../images/icon-nav-forum-white.svg');
 }
 
 .nav-social-link.nav-github {
   -webkit-mask-image: url('../images/iconGithub.svg');
   mask-image: url('../images/iconGithub.svg');
 }
+.nav-social-link.nav-github-white {
+  background-image: url('../images/icon-nav-github-white.svg');
+  background-position: 0px 0px;
+}
 
 .nav-social-link.nav-reddit {
   -webkit-mask-image: url('../images/iconReddit.svg');
   mask-image: url('../images/iconReddit.svg');
+}
+.nav-social-link.nav-reddit-white {
+  background-image: url('../images/icon-nav-reddit-white.svg');
+}
+
+.nav-social-link.nav-m-white {
+  background-image: url('../images/icon-nav-m-white.svg');
+}
+
+.nav-social-link.nav-x-white {
+  background-image: url('../images/icon-nav-x-white.svg');
+}
+
+.nav-social-link.nav-talk-white {
+  background-image: url('../images/icon-nav-talk-white.svg');
+}
+
+.nav-social-link.nav-facebook-white {
+  background-image: url('../images/icon-nav-facebook-white.svg');
 }
 
 .nav-social-link.nav-youtube {
   -webkit-mask-image: url('../images/iconYoutube.svg');
   mask-image: url('../images/iconYoutube.svg');
 }
+.nav-social-link.nav-youtube-white {
+  background-image: url('../images/icon-nav-youtube-white.svg');
+}
 
 .nav-social-link.nav-medium {
-  -webkit-mask-image: url('../images/iconMedium.svg');
-  mask-image: url('../images/iconMedium.svg');
+  background-image: url('../images/icon-nav-medium.svg');
+}
+
+.nav-social-link.nav-linkedin {
+  background-image: url('../images/icon-nav-linkedin.svg');
+}
+.nav-social-link.nav-linkedin-white {
+  background-image: url('../images/icon-nav-linkedin-white.svg');
+}
+
+.nav-social-link.nav-email {
+  background-image: url('../images/icon-nav-email.svg');
 }
 
 .nav-dcr-dev-link {
@@ -2197,12 +2298,7 @@ body {
   display: none;
 }
 
-.nav-links-wrap {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
+
 
 .font23 {
   font-size: 23px;
@@ -3414,6 +3510,53 @@ html[dir="rtl"] .lang-menu {
 .subpage-description__image.sm {
   display: none;
 }
+
+.subpage-description.breadcrumbs {
+  width: 100%;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #8997a5;
+}
+
+.subpage-description.breadcrumbs .external:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  background: url('../images/press-coverage-hover-icon.svg') center/cover no-repeat;
+  display: inline-block;
+  margin-left: 1px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.25s ease-in-out;
+  position: absolute;
+  top: 3px;
+}
+
+.subpage-description.breadcrumbs .external:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.subpage-description.breadcrumbs a {
+  display: inline-block;
+  padding: 0 18px;
+  text-decoration: none;
+  color: #3d5873;
+}
+
+.subpage-description.breadcrumbs a.active {
+  color: #091440;
+  text-decoration: underline;
+}
+
+.subpage-description.breadcrumbs a:hover {
+  color: #091440;
+  cursor: pointer;
+}
+
 
 @media screen and (min-width: 768px) {
   .subpage-description.ex {
