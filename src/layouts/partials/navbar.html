@@ -11,33 +11,42 @@
         <div class="link-section">
             <div class="navigation-top">
                 <div class="nav-links-wrap w-clearfix">
-                    <div class="w-row">
-                        <div class="w-col w-col-6">
-                            <a href="#" class="navigation-link">Intro</a>
-                            <a href="#" class="navigation-link copen" data-c="c1">What is Decred →</a> 
-                            <a href="#" class="navigation-link active copen" data-c="c2">Get Started →</a>
-                            <a href="#" class="navigation-link resources copen" data-c="c3">Insights and Resources →</a>  
-                            <a href="#" class="navigation-link">News and Posts</a>
-                        </div>
-                        <div id="c1" class="w-col w-col-6 c" style="display:none">
-                            <!-- What is Decred → -->
-                            <a href="#" class="navigation-link">What is Decred</a>
-                        </div>
-                        <div id="c2" class="w-col w-col-6 c">
-                            <!-- Get Started → -->
-                            <a href="{{ "downloads/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a>
-                            <a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Proposals</a>
-                            <a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Staking and voting</a>
-                            <a href="{{ "exchanges/" | relLangURL }}" class="navigation-link active">{{ T "nav_exchanges" }}</a>
-                            <a href="#" class="navigation-link">Bug bounty</a>
-                            <a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Block explorer</a>
-                            <a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a>
-                        </div>
-                        <div id="c3" class="w-col w-col-6 c" style="display:none">
-                            <!-- Insights and Resources → -->
-                            <a href="#" class="navigation-link">Insights and Resources</a>
-                        </div>
-                    </div>
+                    <nav id="menu">
+                        <ul class="parent-menu">
+                            <li>
+                                <a href="#" class="navigation-link">Intro</a>
+                            </li>
+                            <li><a href="#" class="navigation-link">What is Decred →</a>
+                                <ul>
+                                    <li><a href="#" class="navigation-link">Security</a></li>
+                                    <li><a href="#" class="navigation-link">Adaptability</a></li>
+                                    <li><a href="#" class="navigation-link">Funding and Work</a></li>
+                                    <li><a href="#" class="navigation-link">Past and Future</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="navigation-link active">Get Started →</a>
+                                <ul>
+                                    <li><a href="{{ "downloads/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a></li>
+                                    <li><a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Proposals</a></li>
+                                    <li><a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Staking and voting</a></li>
+                                    <li><a href="{{ "exchanges/" | relLangURL }}" class="navigation-link active">{{ T "nav_exchanges" }}</a></li>
+                                    <li><a href="#" class="navigation-link">Bug bounty</a></li>
+                                    <li><a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Block explorer</a></li>
+                                    <li><a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="navigation-link">Insights and Resources →</a>
+                                <ul>
+                                    <li><a href="#" class="navigation-link">Business Brief</a></li>
+                                    <li><a href="#" class="navigation-link">Contributors</a></li>
+                                    <li><a href="#" class="navigation-link external">Documentation</a></li>
+                                    <li><a href="#" class="navigation-link">Development</a></li>
+                                    <li><a href="#" class="navigation-link">Design and Brand</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="navigation-link">News and Posts</a></li>
+                        </ul>
+                    </nav> 
                 </div>
             </div>
             <div class="navigation-bottom">
@@ -46,20 +55,20 @@
                         <div class="w-col w-col-12">
                             <div class="navigation-bottom__heading">{{ T "nav_community" }}</div>
                         </div>
-                        <div class="w-col w-col-6">
+                        <div class="w-col w-col-6 w-col-tiny-6">
                             <a href="https://decred.org/matrix/" class="nav-matrix-white nav-social-link w-inline-block"></a>
                             <a href="#" class="nav-link nav-social-link w-inline-block"></a>
                             <a href="https://slack.decred.org/" class="nav-slack-white nav-social-link w-inline-block"></a><br>
                             <p class="nav-text">Join the Chat</p>
                         </div>
-                        <div class="w-col w-col-6">
+                        <div class="w-col w-col-6 w-col-tiny-6">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" class="nav-github-white nav-social-link w-inline-block"></a><br>
                             <p class="nav-text">Contribute to our Repos</p>
                         </div>
                     </div>
                     
                     <div class="w-row">
-                        <div class="w-col w-col-12">
+                        <div class="w-col w-col-12 w-col-small-12">
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter-white w-inline-block"></a>
                             <a href="https://www.reddit.com/r/decred/" target="_blank" rel="noopener noreferrer" class="nav-reddit-white nav-social-link w-inline-block"></a>
                             <a href="#" target="_blank" rel="noopener noreferrer" class="nav-m-white nav-social-link w-inline-block"></a>

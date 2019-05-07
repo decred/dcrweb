@@ -4,15 +4,6 @@ $('.svg-embed').html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10470.15
 
 $(document).ready(function () {
 
-	$(".copen").click(function() {
-  
-         $(".c").hide();
- 
-         var cid = $(this).data("c");
-         $("#"+cid).show(500);   
-  
-      });
-
 	$('.subpage__toggle a').on('click', function() {
 		$('.subpage__toggle a').removeClass(active);
 		$(this).addClass('active');
