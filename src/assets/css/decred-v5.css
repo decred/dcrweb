@@ -941,15 +941,6 @@ body {
   float: left;
 }
 
-.icondecred {
-  width: 32px;
-  height: 32px;
-  background-image: url('../images/iconDecred.svg');
-  background-position: 50% 100%;
-  background-size: 32px;
-  background-repeat: no-repeat;
-}
-
 .icon {
   width: 32px;
   height: 32px;
@@ -961,24 +952,15 @@ body {
   background-position: 50% 100%;
   background-size: 32px;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 
 .icon:hover {
-  background-position: 50% 0px;
+  opacity: 1.0;
 }
 
-.icon.youtube {
+.youtube {
   background-image: url('../images/iconYoutube.svg');
-  background-position: 50% 100%;
-  background-size: auto;
-}
-
-.icon.youtube:hover {
-  background-position: 50% 0px;
-}
-
-.decred {
-  background-image: url('../images/iconDecred.png');
 }
 
 .slack {
@@ -991,10 +973,6 @@ body {
 
 .matrix {
   background-image: url('../images/iconMatrix.svg');
-}
-
-.forum {
-  background-image: url('../images/iconForum.svg');
 }
 
 .github {
