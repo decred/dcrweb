@@ -952,7 +952,7 @@ body {
   background-position: 50% 100%;
   background-size: 32px;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  opacity: 0.75;
 }
 
 .icon:hover {
@@ -1788,6 +1788,7 @@ body {
   background-image: url('../images/transparent.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-color: #091440;
 }
 
 .nav-social-link:hover {
@@ -1795,52 +1796,51 @@ body {
 }
 
 .nav-social-link.nav-matrix {
-  background-image: url('../images/icon-nav-matrix.svg');
+  -webkit-mask-image: url('../images/iconMatrix.svg');
+  mask-image: url('../images/iconMatrix.svg');
+  ;
 }
 
 .nav-social-link.nav-discord {
-  background-image: url('../images/icon-nav-discord.svg');
+  -webkit-mask-image: url('../images/iconDiscord.svg');
+  mask-image: url('../images/iconDiscord.svg');
+  ;
 }
 
 .nav-social-link.nav-slack {
-  background-image: url('../images/icon-nav-slack.svg');
-}
-
-.nav-social-link.nav-irc {
-  background-image: url('../images/icon-nav-irc.svg');
+  -webkit-mask-image: url('../images/iconSlack.svg');
+  mask-image: url('../images/iconSlack.svg');
+  ;
 }
 
 .nav-social-link.nav-twitter {
-  background-image: url('../images/icon-nav-twitter.svg');
-}
-
-.nav-social-link.nav-forum {
-  background-image: url('../images/icon-nav-forum.svg');
+  -webkit-mask-image: url('../images/iconTwitter.svg');
+  mask-image: url('../images/iconTwitter.svg');
+  ;
 }
 
 .nav-social-link.nav-github {
-  background-image: url('../images/icon-nav-github.svg');
-  background-position: 0px 0px;
+  -webkit-mask-image: url('../images/iconGithub.svg');
+  mask-image: url('../images/iconGithub.svg');
+  ;
 }
 
 .nav-social-link.nav-reddit {
-  background-image: url('../images/icon-nav-reddit.svg');
+  -webkit-mask-image: url('../images/iconReddit.svg');
+  mask-image: url('../images/iconReddit.svg');
+  ;
 }
 
 .nav-social-link.nav-youtube {
-  background-image: url('../images/icon-nav-youtube.svg');
+  -webkit-mask-image: url('../images/iconYoutube.svg');
+  mask-image: url('../images/iconYoutube.svg');
+  ;
 }
 
 .nav-social-link.nav-medium {
-  background-image: url('../images/icon-nav-medium.svg');
-}
-
-.nav-social-link.nav-linkedin {
-  background-image: url('../images/icon-nav-linkedin.svg');
-}
-
-.nav-social-link.nav-email {
-  background-image: url('../images/icon-nav-email.svg');
+  -webkit-mask-image: url('../images/iconMedium.svg');
+  mask-image: url('../images/iconMedium.svg');
+  ;
 }
 
 .nav-dcr-dev-link {
