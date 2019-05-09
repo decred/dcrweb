@@ -971,6 +971,18 @@ body {
   background-image: url('../images/iconDiscord.svg');
 }
 
+.youku {
+  background-image: url('../images/iconYouku.svg');
+}
+
+.qq {
+  background-image: url('../images/iconQQ.svg');
+}
+
+.wechat {
+  background-image: url('../images/iconWechat.svg');
+}
+
 .matrix {
   background-image: url('../images/iconMatrix.svg');
 }
@@ -1789,6 +1801,8 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-color: #091440;
+  -webkit-mask-size: 30px 30px;
+  mask-size: 30px 30px;
 }
 
 .nav-social-link:hover {
@@ -1798,49 +1812,56 @@ body {
 .nav-social-link.nav-matrix {
   -webkit-mask-image: url('../images/iconMatrix.svg');
   mask-image: url('../images/iconMatrix.svg');
-  ;
+}
+
+.nav-social-link.nav-youku {
+  -webkit-mask-image: url('../images/iconYouku.svg');
+  mask-image: url('../images/iconYouku.svg');
+}
+
+.nav-social-link.nav-qq {
+  -webkit-mask-image: url('../images/iconQQ.svg');
+  mask-image: url('../images/iconQQ.svg');
+}
+
+.nav-social-link.nav-wechat {
+  -webkit-mask-image: url('../images/iconWechat.svg');
+  mask-image: url('../images/iconWechat.svg');
 }
 
 .nav-social-link.nav-discord {
   -webkit-mask-image: url('../images/iconDiscord.svg');
   mask-image: url('../images/iconDiscord.svg');
-  ;
 }
 
 .nav-social-link.nav-slack {
   -webkit-mask-image: url('../images/iconSlack.svg');
   mask-image: url('../images/iconSlack.svg');
-  ;
 }
 
 .nav-social-link.nav-twitter {
   -webkit-mask-image: url('../images/iconTwitter.svg');
   mask-image: url('../images/iconTwitter.svg');
-  ;
 }
 
 .nav-social-link.nav-github {
   -webkit-mask-image: url('../images/iconGithub.svg');
   mask-image: url('../images/iconGithub.svg');
-  ;
 }
 
 .nav-social-link.nav-reddit {
   -webkit-mask-image: url('../images/iconReddit.svg');
   mask-image: url('../images/iconReddit.svg');
-  ;
 }
 
 .nav-social-link.nav-youtube {
   -webkit-mask-image: url('../images/iconYoutube.svg');
   mask-image: url('../images/iconYoutube.svg');
-  ;
 }
 
 .nav-social-link.nav-medium {
   -webkit-mask-image: url('../images/iconMedium.svg');
   mask-image: url('../images/iconMedium.svg');
-  ;
 }
 
 .nav-dcr-dev-link {
