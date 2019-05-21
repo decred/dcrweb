@@ -3718,7 +3718,7 @@ html[dir="rtl"] .lang-menu {
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-	
+
 .press-release-image-wrap.im.active {
   height: 0px;
 }
@@ -4057,18 +4057,18 @@ html[dir="rtl"] .lang-menu {
   -ms-flex-direction: row;
   flex-direction: row;
 }
-	
+
 .community-section-left {
   width: 40%;
 }
-	
+
 .community-section-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
-  	
+
 .first-view-buttons {
   position: absolute;
 }
@@ -4132,9 +4132,13 @@ html[dir="rtl"] .lang-menu {
 
 .left-wrapper {
   width: 320px;
-  padding-top: 35px;
+  padding-top: 53px;
   padding-right: 20px;
   padding-bottom: 20px;
+}
+
+.left-wrapper .slack-join-notice p {
+  font-size: 1.2em;
 }
 
 .right-wrapper {
@@ -6173,6 +6177,18 @@ html[dir="rtl"] .lang-menu {
   }
 }
 
+@media (min-width: 1440px) {
+  .slack-join-notice {
+      max-width: 317px;
+      margin-left: -181px;
+  }
+
+  .left-wrapper .slack-join-notice p {
+    font-size: 1.3em;
+    line-height: 136%;
+  }
+}
+
 .roadmap__card-title {
   font-size: 16px;
   color: #091440;
@@ -7154,12 +7170,12 @@ p.get-into__link {
   cursor: pointer;
 }
 .outline #hide-all {
-  width: 50px; 
+  width: 50px;
   text-align: right;
 }
 .outline #show-all {
-  display: none; 
-  width: 50px; 
+  display: none;
+  width: 50px;
   text-align: right;
 }
 .stuck {
@@ -7205,7 +7221,7 @@ p.get-into__link {
 @media screen and (max-width: 991px) {
   .print-version {
     right: 20px;
-    
+
   }
 }
 @media screen and (max-width: 730px) {
@@ -7219,4 +7235,3 @@ p.get-into__link {
         width: calc(50vw - 160px);
     }
 }
-
