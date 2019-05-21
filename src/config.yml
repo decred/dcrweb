@@ -40,15 +40,15 @@ languages:
                 -
                     id: qq
                     label: qq
-                    url: http://weixin.qq.com/r/Njnr8xfEtkrJrVOQ92wk
+                    url: http://qm.qq.com/cgi-bin/qm/qr?k=Jl72I0gE6ggrKzF0PdSayXGLXyIj8od0
                 -
                     id: wechat
                     label: Wechat
-                    url: http://u.wechat.com/MIRs6aSo2eBK9GSYq8ec84Y
+                    url: https://mp.weixin.qq.com/s/6FY8MR7rUXzou2Cy1-oEfQ
                 -
                     id: youku
                     label: Youku
-                    url: https://i.youku.com/decred
+                    url: https://i.youku.com/decredproject
     ko:
         languageName: 한국어
         weight: 30
