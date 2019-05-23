@@ -29,20 +29,10 @@
                 </div>
             </div>
             <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
-                <a target="_blank" rel="noopener noreferrer" href="https://decred.org/matrix" data-label="matrix" class="icon matrix w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://discordapp.com/invite/GJ2GXfz" data-label="discord" class="icon discord w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://slack.decred.org/" data-label="slack" class="icon slack w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" data-label="github.com/decred" class="github icon w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" data-label="twitter.com/decredproject" class="icon twitter w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/decred/" data-label="reddit.com/r/decred/" class="icon reddit w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/decredchannel" data-label="Decred Youtube channel" class="icon w-inline-block youtube"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/decred" data-label="Decred Medium" class="icon w-inline-block medium"></a>
-                <span class="footer-social-media-localized">
-                    {{ range $.Site.Params.social_media_links }}
-                        <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" data-label="{{ .label }}" class="icon w-inline-block {{ .id }}"></a>
-                    {{ end }}
-                </span>
-                <div class="backgroundlightblue borderradius4 colorblue dropshadow font12 footerblockindicator opacity000 transition">twitter.com/decredproject</div>
+                {{ range $.Site.Params.social_media_links }}
+                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" data-label="{{ .label }}" class="icon w-inline-block {{ .id }}"></a>
+                {{ end }}
+                <div class="backgroundlightblue borderradius4 colorblue dropshadow font12 footerblockindicator opacity000 transition"></div>
             </div>
         </div>
     </div>

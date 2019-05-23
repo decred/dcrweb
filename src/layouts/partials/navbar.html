@@ -28,20 +28,9 @@
                 <a href="{{ "press/" | relLangURL }}" class="navigation-link">{{ T "nav_press" }}</a>
             </div>
             <div class="nav-social w-clearfix">
-                <a href="https://decred.org/matrix/" class="nav-matrix nav-social-link w-inline-block"></a>
-                <a href="https://discordapp.com/invite/GJ2GXfz" class="nav-discord nav-social-link w-inline-block"></a>
-                <a href="https://slack.decred.org/" class="nav-slack nav-social-link w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter w-inline-block"></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" class="nav-github nav-social-link w-inline-block"></a>
-                <a href="https://www.reddit.com/r/decred/" target="_blank" rel="noopener noreferrer" class="nav-reddit nav-social-link w-inline-block"></a>
-                <a href="https://www.youtube.com/decredchannel" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-youtube w-inline-block"></a>
-                <a href="https://medium.com/decred" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-medium w-inline-block"></a>
-                <br>
-                <span class="nav-social-localized" translate>
                 {{ range $.Site.Params.social_media_links }}
                     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-{{ .id }} w-inline-block"></a>
                 {{ end }}
-                </span>
                 <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="nav-dcr-dev-link">{{ T "general_copyright"  }}</a></div>
         </div>
     </div>
