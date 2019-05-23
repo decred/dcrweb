@@ -49,6 +49,10 @@ languages:
                     id: youku
                     label: Youku
                     url: https://i.youku.com/decredproject
+                -
+                    id: chainnode
+                    label: ChainNode
+                    url: https://www.chainnode.com/forum/305
     ko:
         languageName: 한국어
         weight: 30

@@ -975,6 +975,10 @@ body {
   background-image: url('../images/iconYouku.svg');
 }
 
+.chainnode {
+  background-image: url('../images/iconChainNode.svg');
+}
+
 .qq {
   background-image: url('../images/iconQQ.svg');
 }
@@ -1819,6 +1823,10 @@ body {
   mask-image: url('../images/iconYouku.svg');
 }
 
+.nav-social-link.nav-chainnode {
+  -webkit-mask-image: url('../images/iconChainNode.svg');
+  mask-image: url('../images/iconChainNode.svg');
+}
 .nav-social-link.nav-qq {
   -webkit-mask-image: url('../images/iconQQ.svg');
   mask-image: url('../images/iconQQ.svg');
