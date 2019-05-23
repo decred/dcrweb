@@ -910,15 +910,6 @@ body {
   float: left;
 }
 
-.footerblockindicator {
-  display: inline-block;
-  margin-top: 9px;
-  padding: 3px 12px;
-  float: right;
-  clear: right;
-  text-transform: lowercase;
-}
-
 .font12 {
   font-size: 12px;
 }

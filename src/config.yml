@@ -6,6 +6,40 @@ defaultContentLanguageInSubdir: false
 
 params:
     social_media_links:
+        -
+            id: matrix
+            label: Matrix
+            url: https://decred.org/matrix
+        -
+            id: discord
+            label: Discord
+            url: https://discordapp.com/invite/GJ2GXfz
+        -
+            id: slack    
+            label: Slack
+            url: https://slack.decred.org
+        -
+            id: github
+            label: GitHub
+            url: https://github.com/decred
+        -
+            id: twitter
+            label: Twitter
+            url: https://twitter.com/decredproject
+        -
+            id: reddit
+            label: Reddit
+            url: https://www.reddit.com/r/decred
+        -
+            id: youtube
+            label: YouTube
+            url: https://www.youtube.com/decredchannel
+        -
+            id: medium
+            label: Medium
+            url: https://medium.com/decred
+
+
     js_resources:
         critical:
             - "js/modernizr.custom.min.js"
@@ -38,12 +72,32 @@ languages:
             languageDir: ltr
             social_media_links:
                 -
+                    id: matrix
+                    label: Matrix
+                    url: https://decred.org/matrix
+                -
+                    id: discord
+                    label: Discord
+                    url: https://discordapp.com/invite/GJ2GXfz
+                -
+                    id: slack    
+                    label: Slack
+                    url: https://slack.decred.org
+                -
+                    id: github
+                    label: GitHub
+                    url: https://github.com/decred
+                -
+                    id: reddit
+                    label: Reddit
+                    url: https://www.reddit.com/r/decred
+                -
                     id: qq
-                    label: qq
+                    label: QQ
                     url: http://qm.qq.com/cgi-bin/qm/qr?k=Jl72I0gE6ggrKzF0PdSayXGLXyIj8od0
                 -
                     id: wechat
-                    label: Wechat
+                    label: WeChat
                     url: https://mp.weixin.qq.com/s/6FY8MR7rUXzou2Cy1-oEfQ
                 -
                     id: youku
