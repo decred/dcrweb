@@ -1,5 +1,5 @@
 # builder image
-FROM golang
+FROM golang:1.12.5
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
