@@ -226,7 +226,6 @@ body {
   left: 0px;
   top: 100%;
   right: 0px;
-  z-index: 1;
   overflow: hidden;
   background-color: #fff;
 }
@@ -7236,9 +7235,33 @@ p.get-into__link {
     top: -36px;
   }
 }
-
 @media (min-width: 991px) {
     .left {
         width: calc(50vw - 160px);
+    }
+}
+@media screen and (min-width: 1790px) and (min-height: 900px) {
+    .subpage-description {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 2150px) and (min-height: 1070px) {
+    .subpage-description {
+        margin-top: 13%;
+    }
+}
+@media screen and (min-width: 2870px) and (min-height: 1430px) {
+    .subpage-description {
+        margin-top: 26%;
+    }
+}
+@media screen and (min-width: 4320px) and (min-height: 2150px) {
+    .subpage-description {
+        margin-top: 44%;
+    }
+}
+@media screen and (min-width: 5750px) and (min-height: 2870px) {
+    .subpage-description {
+        margin-top: 63%;
     }
 }
