@@ -109,7 +109,7 @@
 - tags: completed
   image: "roadmap/DEXCompleted.svg"
   title: "Proposal For a Decentralized Exchange"
-  date: "Completed Q2 2018"
+  date: "Completed Q1 2019"
   description: "A proposal for a full-fledged decentralized exchange expanding on the atomicswap tools that we released in 2017. Unlike the profit-centric models common in the space, it will aim to be open, welcoming involvement from other cryptocurrencies. The project will be formalized as a Politeia proposal."
   link: "https://blog.decred.org/2018/06/05/A-New-Kind-of-DEX/"
 - tags: new
