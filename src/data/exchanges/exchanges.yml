@@ -139,12 +139,6 @@
   logo_src: "cointree.jpg"
   name: CoinTree
 -
-  url: "https://www.ezbtc.ca/"
-  tags:
-    - all
-  logo_src: "ezbtc.jpg"
-  name: ezBtc
--
   url: "https://okex.com/"
   tags:
     - "high-liquidity"
@@ -241,3 +235,9 @@
     - all
   logo_src: "stealthex.jpg"
   name: Stealthex
+-
+  url: "https://catalx.io/"
+  tags:
+    - "high-liquidity"
+  logo_src: "catalx.png"
+  name: CatalX
