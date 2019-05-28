@@ -91,14 +91,15 @@
 - tags: completed
   image: "roadmap/spvWalletSupportCompleted.svg"
   title: "SPV Wallet Support"
-  date: "Added Q1 2018"
+  date: "Completed Q3 2018"
   description: "Instead of taking the typical wallet service approach where wallets connect to a centralized server, or using 'bloom filters' which compromise privacy, we are working on a proper SPV mechanism that uses 'compact filters' and works over the P2P network."
   link: "https://github.com/decred/dcrwallet/issues/1000"
 - tags: completed
   image: "roadmap/trezorComplete.svg"
   title: "Trezor Decrediton Integration"
-  date: "Added Q4 2017"
+  date: "Completed Q4 2018"
   description: "Enable storing and sending of Decred using Trezor hardware wallet."
+  link: "https://github.com/decred/decrediton/issues/1491"
 - tags: ongoing
   image: "roadmap/DAEActive.svg"
   title: "Decentralized Autonomous Entities"
@@ -108,7 +109,7 @@
 - tags: completed
   image: "roadmap/DEXCompleted.svg"
   title: "Proposal For a Decentralized Exchange"
-  date: "Added Q1 2018"
+  date: "Completed Q1 2019"
   description: "A proposal for a full-fledged decentralized exchange expanding on the atomicswap tools that we released in 2017. Unlike the profit-centric models common in the space, it will aim to be open, welcoming involvement from other cryptocurrencies. The project will be formalized as a Politeia proposal."
   link: "https://blog.decred.org/2018/06/05/A-New-Kind-of-DEX/"
 - tags: new
@@ -126,7 +127,7 @@
 - tags: completed
   image: "roadmap/decreditonIntegrCompleted.svg"
   title: "Decrediton Politeia Integration"
-  date: "Added Q1 2018"
+  date: "Completed Q3 2018"
   description: "Enabling stakeholders to view proposals and cast votes directly from Decrediton wallet is a big step towards effective governance and seamless stakeholder participation."
   link: "https://github.com/decred/decrediton/issues/1244"
 - tags: completed
