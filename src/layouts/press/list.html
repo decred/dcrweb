@@ -24,4 +24,10 @@
             </div>
         </div>
     </div>
+
+    <!-- fix z-index bug (issue #625) -->
+    <script>
+      var below = document.getElementsByClassName("below");
+      below[0].style["zIndex"] = "initial";
+    </script>
 {{end}}
