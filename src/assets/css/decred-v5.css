@@ -226,6 +226,7 @@ body {
   left: 0px;
   top: 100%;
   right: 0px;
+  z-index: 1;
   overflow: hidden;
   background-color: #fff;
 }
