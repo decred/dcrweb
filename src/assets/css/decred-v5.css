@@ -421,6 +421,10 @@ body {
   cursor: pointer;
 }
 
+.guide img {
+  opacity: 0.8;
+}
+
 .width940 {
   display: block;
   width: 940px;
