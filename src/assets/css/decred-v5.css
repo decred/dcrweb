@@ -927,6 +927,21 @@ body {
   flex: 0 0 auto;
 }
 
+.footer-inline {
+  padding-top: 23px!important;
+  padding-right: 7px;
+  padding-left: 21px;
+  display: inline-block!important;
+}
+
+.footer-margin-left {
+  margin-left: -14px;
+}
+
+.footer-margin-bottom {
+  margin-bottom: -3px;
+}
+
 .margin65 {
   margin-bottom: 65px;
 }
