@@ -934,6 +934,18 @@ body {
   display: inline-block!important;
 }
 
+.footer-inline-el {
+  margin-bottom: -5px !important;
+  padding-top: 21px!important;
+  padding-right: 0px;
+  padding-left: 24px;
+  display: inline-block!important;
+}
+
+#explorer-links {
+  margin-top: 26px;
+}
+
 .footer-margin-left {
   margin-left: -14px;
 }
