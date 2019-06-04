@@ -33,50 +33,61 @@
   apps:
     - name: Exodus
       id: exodus
+      desktop: true
+      phone: true
       links:
         - title: Exodus releases
           url: https://www.exodus.io/releases/
 
     - name: Coinomi
       id: coinomi
+      desktop: true
+      phone: true
       links:
         - title: Coinomi releases
           url: https://www.coinomi.com/downloads/
 
     - name: Ownbit
       id: ownbit
+      phone: true
       links:
         - title: Ownbit releases
           url: https://ownbit.io/
 
     - name: AnyBit
       id: anybit
+      phone: true
       links:
         - title: AnyBit releases
           url: https://www.anybit.io/
 
     - name: Atomic
       id: atomicwallet
+      desktop: true
+      phone: true
       links:
         - title: Atomic Wallet releases
           url: https://atomicwallet.io/
 
     - name: Guarda
       id: guarda
+      desktop: true
+      phone: true
       links:
         - title: Guarda releases
           url: https://guarda.co/
 
     - name: Cobo
       id: cobo
+      phone: true
       links:
         - title: Cobo releases
           url: https://cobo.com
 
     - name: Ledger Live
       id: ledger
+      desktop: true
+      phone: true
       links:
         - title: Ledger Live wallet
           url: https://www.ledger.com/pages/ledger-live
-
-

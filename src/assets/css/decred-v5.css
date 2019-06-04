@@ -1598,6 +1598,30 @@ body {
   text-transform: none;
 }
 
+.download-icons {
+  height: 17px;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 3px;
+}
+
+.download-phone-icon {
+  height: 21px;
+  float: left;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 3px;
+  padding-right: 4px;
+}
+
+.download-laptop-icon {
+  height: 21px;
+  float: left;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 3px;
+}
+
 .button-description {
   display: block;
   clear: left;
@@ -2119,6 +2143,11 @@ body {
 .section-card-description-download {
   font-size: 13px;
   line-height: 17px;
+  margin-bottom: 6px;
+}
+
+.no-margin {
+  margin-bottom: 0px;
 }
 
 .section-card-download-links-download-page {

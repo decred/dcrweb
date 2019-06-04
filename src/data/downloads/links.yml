@@ -3,18 +3,21 @@ decrediton:
       platform: macdl
       id: decreditonmac
       url: https://github.com/decred/decred-binaries/releases/download/v1.4.0/decrediton-v1.4.0.dmg
+      icon_src: "osx.png"
       is_direct_download: true
 
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
       url: https://github.com/decred/decred-binaries/releases/download/v1.4.0/decrediton-v1.4.0.tar.gz
+      icon_src: "linux.png"
       is_direct_download: true
 
     - title: Windows
       platform: windl
       id: decreditonwindows
       url: https://github.com/decred/decred-binaries/releases/download/v1.4.0/decrediton-v1.4.0.exe
+      icon_src: "windows.png"
       is_direct_download: true
 
     - title: Release notes
@@ -23,5 +26,6 @@ decrediton:
 commandline:
     - title: View on Github
       url: https://github.com/decred/decred-release/releases/tag/v1.4.0
+
     - title: Release notes
       url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v140

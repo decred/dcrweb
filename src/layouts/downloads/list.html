@@ -20,8 +20,20 @@
                                     <div class="{{ .id }} section-card-title-download-page">{{ .name }}</div>
                                     {{ $msg_id := print "downloads_app_" .id }}
 
-                                    <div class="section-card-description-download">{{ T $msg_id }}</div>
+                                    <div class="section-card-description-download {{ if eq .id "decrediton" }}no-margin{{ end }}">
+                                      {{ T $msg_id }}
+                                    </div>
+
                                     <div class="section-card-download-links-download-page w-clearfix">
+
+                                        {{ $imgPath := path.Join "images/icons" "laptop.jpg"}}
+                                        {{ $imgSm := resources.Get $imgPath }}
+                                        {{ if .desktop }}<img src="{{ $imgSm.RelPermalink }}" class="download-laptop-icon" alt="icon"/>{{ end }}
+
+                                        {{ $imgPath := path.Join "images/icons" "phone3.png"}}
+                                        {{ $imgSm := resources.Get $imgPath }}
+                                        {{ if .phone }}<img src="{{ $imgSm.RelPermalink }}" class="download-phone-icon" alt="icon"/>{{ end }}
+
                                         {{ $links := "" }}
                                         {{ if eq .links nil }}
                                             {{ $links = index $.Site.Data.downloads.links .id }}
@@ -29,7 +41,13 @@
                                             {{ $links = .links }}
                                         {{ end }}
                                         {{ range $links }}
+
+                                            {{ $imgPath := path.Join "images/icons" .icon_src }}
+                                            {{ $imgSm := resources.Get $imgPath }}
+                                            {{ $imgPath := path.Join "images/icons" .icon_src }}
+
                                             <a  {{ if ne .is_direct_download true }}target="_blank" rel="noopener noreferrer"{{end}} href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
+                                                {{ if .icon_src }}<img src="{{ $imgSm.RelPermalink }}" class="download-icons" alt="icon"/>{{ end }}
                                                 {{ .title }}
                                                 {{ if eq .is_direct_download true }} ↓
                                                 {{ else }} →
