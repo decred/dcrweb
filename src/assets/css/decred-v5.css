@@ -7292,4 +7292,21 @@ p.get-into__link {
     .subpage-description {
         margin-top: 63%;
     }
+
+@media (min-width: 842px) {
+  #explorer-links {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-inline-el {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 993px) {
+  .footer-inline-el {
+    padding-left: 60px;
+  }
 }
