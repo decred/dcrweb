@@ -6,12 +6,35 @@
 {{ $payment_providers := .Site.Data.exchanges.payment }}
 {{ $tags := .Site.Data.exchanges.tags }}
 
-<div class="subpage-content-header">
-    <div class="text-block-5">{{ T "exchanges_subtitle" }}</div>
+<div class="subpage-content-header" style="padding-top: 79px;">
+    <div id="exchanges" class="text-block-5">
+      <span id="exchanges-header">{{ T "exchanges_subtitle" }}</span>
+      <span id="exchanges-filter"></span>
+    </div>
     <div class="subpage-content-header-footer">
-        <div class="subpage-description ex">{{ T "exchanges_description" }}</div>
-        <div class="ex-filter w-clearfix">
-            <a href="#" data-group="all" class="filter-button all is-checked w-button">{{ T "exchanges_showall" }}</a>
+        <div id="exchanges-desc" class="subpage-description ex">{{ T "exchanges_description" }}</div>
+        <div id="ex-filter-types-inner">
+          <div class="ex-filter-types w-clearfix">
+                <a href="#ex-sec" onclick="exchangesClick()"
+                    data-group="all" class="filter-button exchange-filter-button
+                        all is-checked w-button filter-links">
+                        {{ T "exchanges_showall" }}
+                </a>
+                <a href="#otc-traders" onclick="otcClick()" data-group="all"
+                    class="filter-button exchange-filter-button all is-checked
+                        w-button filter-links">
+                        {{ T "otc_showall" }}
+                </a>
+                <a href="#pp-sec" onclick="ppClick()" data-group="all"
+                    class="filter-button exchange-filter-button all is-checked
+                        w-button filter-links">
+                        {{ T "payment_showall" }}
+                </a>
+          </div>
+        </div>
+
+        <div id="ex-filter" class="ex-filter w-clearfix">
+            <a data-group="all" class="filter-button all is-checked w-button filter-links grey">{{ T "generic_showall" }}</a>
             {{ range $id, $tag := $tags }}
                 <a href="#"
                    data-tail="{{ $tag.name }}"
@@ -23,32 +46,42 @@
 </div>
 
 <div class="subpage-content exchanges">
-    <div class="filter-cards-wrap w-clearfix">
-
-    {{ range $exchanges }}
-        {{ partial "exchange-card" (dict "exchange" . "allTags" $tags  ) }}
-    {{ end }}
+    <div id="exchanges-sec" class="filter-cards-wrap w-clearfix">
+      {{ range $exchanges }}
+          {{ partial "exchange-card" (dict "exchange" . "allTags" $tags  ) }}
+      {{ end }}
     </div>
 
-    <div class="subsection-description w-clearfix">
-        <div class="subsection-title">{{ T "exchanges_otc_title" }}</div>
-        <div class="subsection-subtitle">{{ T "exchanges_otc_description" }}</div>
+    <div id="otc-sec" class="subsection-description w-clearfix">
+        <div id="otc-traders" class="subsection-title">{{ T "exchanges_otc_title" }}</div>
+        <div id="otc-desc" class="subsection-subtitle">{{ T "exchanges_otc_description" }}</div>
     </div>
 
-    {{ range $otc }}
-        {{ partial "community-card" . }}
-    {{ end }}
+    <section id="otc-providers">
+      {{ range $otc }}
+          {{ partial "community-card" . }}
+      {{ end }}
+    </section>
 
-    <div class="subsection-description w-clearfix">
-        <div class="subsection-title">{{ T "exchanges_payment_title" }}</div>
-        <div class="subsection-subtitle">{{ T "exchanges_payment_description" }}</div>
+    <div id="pp-sec" class="subsection-description w-clearfix">
+        <div id="payment-processors" class="subsection-title">{{ T "exchanges_payment_title" }}</div>
+        <div id="payment-desc" class="subsection-subtitle">{{ T "exchanges_payment_description" }}</div>
     </div>
 
-    {{ range $payment_providers }}
-        {{ partial "community-card" . }}
-    {{ end }}
+    <section id="pp-providers">
+      {{ range $payment_providers }}
+          {{ partial "community-card" . }}
+      {{ end }}
+    </section>
 </div>
 
+<div id="meta-tag" style="display:none">
+  <div id="ex-header">{{ T "exchanges_subtitle" }}</div>
+  <div id="ex-desc">{{ T "exchanges_description" }}</div>
+</div>
 
-
-
+<noscript>
+    <style>
+        #ex-filter {display:none;}
+    </style>
+</noscript>

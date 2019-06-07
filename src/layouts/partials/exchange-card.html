@@ -6,7 +6,7 @@
 {{ $imgLg := $logoOriginal.Fit "608x280" }}
 {{ $imgSm := $logoOriginal.Fit "500x230" }}
 
-<a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-groups="[&quot;{{ delimit .tags "&quot;,&quot;" }}&quot;]" class="filter-card w-inline-block">
+<a id="{{ .name }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-groups="[&quot;{{ delimit .tags "&quot;,&quot;" }}&quot;]" class="filter-card w-inline-block">
 <div class="filter-card-image-wrap">
     <img src="{{ $imgLg.RelPermalink }}" srcset="{{ $imgSm.RelPermalink }} 500w,{{ $imgLg.RelPermalink }} 608w"  sizes="(max-width: 767px) 100vw, (max-width: 991px) 229px, 306.65625px" class="filter-card-image" alt=""/>
 </div>
