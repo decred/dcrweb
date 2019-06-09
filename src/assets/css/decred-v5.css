@@ -1603,6 +1603,8 @@ body {
   vertical-align: middle;
   margin-left: 2px;
   margin-right: 3px;
+  opacity: 0.7;
+  filter: grayscale(55%)
 }
 
 .download-phone-icon {
@@ -1612,6 +1614,8 @@ body {
   margin-left: 5px;
   margin-right: 3px;
   padding-right: 4px;
+  opacity: 0.7;
+  filter: grayscale(55%)
 }
 
 .download-laptop-icon {
@@ -1620,6 +1624,8 @@ body {
   vertical-align: middle;
   margin-left: 2px;
   margin-right: 3px;
+  opacity: 0.7;
+  filter: grayscale(55%)
 }
 
 .button-description {
