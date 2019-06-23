@@ -102,7 +102,7 @@
   link: "https://github.com/decred/decrediton/issues/1491"
 - tags: ongoing
   image: "roadmap/DAEActive.svg"
-  title: "Decentralized Autonomous Entities"
+  title: "Decentralized Autonomous Organizations"
   date: "Added Q1 2018"
   description: "Add support for user-created decentralized autonomous organizations (DAOs), with decentralized control of funds as their basis. Instead of focusing on speculative tokenization seen in \"ICOs\", a DAO will be built around an on-chain smart contract delegating control over funds to a group of individuals."
   link: "https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/"
