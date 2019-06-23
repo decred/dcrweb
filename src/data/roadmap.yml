@@ -80,7 +80,7 @@
   image: "roadmap/dectrlOfFundsActive.svg"
   title: "Decentralized Control of Dev Funds"
   date: "Added Q1 2018"
-  description: "Stakeholder voting will allow funds to be allocated implement successful proposals. Decentralised Autonomous Entities (DAEs) will be able to take ownership of funds by way of a simple on-chain smart contract that delegates control over funds in a contract to a group of individuals."
+  description: "Stakeholder voting will allow funds to be allocated implement successful proposals. Decentralised Autonomous Organizations (DAOs) will be able to take ownership of funds by way of a simple on-chain smart contract that delegates control over funds in a contract to a group of individuals."
   link: "https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/"
 - tags: ongoing
   image: "roadmap/androidWalletsActive.svg"
@@ -104,7 +104,7 @@
   image: "roadmap/DAEActive.svg"
   title: "Decentralized Autonomous Entities"
   date: "Added Q1 2018"
-  description: "Add support for user-created decentralized autonomous entities (DAEs), with decentralized control of funds as their basis. Instead of focusing on speculative tokenization seen in \"ICOs\", a DAE will be built around an on-chain smart contract delegating control over funds to a group of individuals."
+  description: "Add support for user-created decentralized autonomous organizations (DAOs), with decentralized control of funds as their basis. Instead of focusing on speculative tokenization seen in \"ICOs\", a DAO will be built around an on-chain smart contract delegating control over funds to a group of individuals."
   link: "https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/"
 - tags: completed
   image: "roadmap/DEXCompleted.svg"
