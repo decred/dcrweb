@@ -2,43 +2,27 @@
 {{ $current_release := .Site.Data.downloads.current_release }}
 
 <div class="footer">
-    <div class="footercolumns width1100">
-        <div class="footerrows w-row">
-            <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3">
-                <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="footerblocklinkdev footer-margin-bottom">{{ T "general_copyright" }}</a>
-                <a href="https://timestamp.decred.org" target="_blank" rel="noopener noreferrer" class="footer-inline footerblocklink transition footer-margin-top footer-margin-left">{{ T "nav_time" }}</a>
-                <a href="https://bounty.decred.org" target="_blank" rel="noopener noreferrer" class="footer-inline footerblocklink transition">{{ T "nav_bounty" }}</a>
-            </div>
-            <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3">
-                <a href="{{ "brand/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_brand_resources" }}</a>
-                <a href="{{ "/press/" }}" class="footerblocklink transition">{{ T "nav_in_the_press" }}</a>
-                <a href="{{ "/recruiting/"  }}" class="footerblocklink transition">{{ T "nav_become_contributor" }}</a>
-            </div>
-            <div class="footerrowscolumn1 w-col w-col-2 w-col-medium-2">
-                <a href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer" class="footerblocklink transition" >{{ T "nav_tech_overview" }}</a>
-                <a href="{{ "/brief/"  }}" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_business_brief" }}</a>
-                <a href="{{ "roadmap/" | relLangURL }}" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "footer_roadmap" }}</a>
-            </div>
-            <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
-                <div class="footerblockstatsrow w-clearfix">
-                    {{ with $current_release }}
-                        <a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="{{ .release_url_base }}/{{ .current_version }}" target="_blank" rel="noopener noreferrer">{{ .current_version }}</a>
-                    {{ end }}
-                    <div class="footerblockstatsname">{{ T "general_release_stable" }}</div>
-                </div>
-                <div class="footerblockstatsrow w-clearfix"><a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="{{ "downloads/" | relLangURL }}">52k {{ T "general_total" }}</a>
-                    <div class="footerblockstatsname">{{ T "general_downloads" }}</div>
-                    <div id="explorer-links">
-                      <a href="https://dcrdata.decred.org/" target="_blank" rel="noopener noreferrer" class="footer-inline-el footerblocklink transition">{{ T "nav_dcrdata" }}</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
-                {{ range $.Site.Params.social_media_links }}
-                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" data-label="{{ .label }}" class="icon w-inline-block {{ .id }}"></a>
-                {{ end }}
-                <div class="backgroundlightblue borderradius4 colorblue dropshadow font12 footerblockindicator opacity000 transition"></div>
-            </div>
+    <div class="footer__container width1100">
+        <ul class="footer__menu">
+            <li><a href="{{ "brand/" | relLangURL }}">{{ T "nav_brand_resources" }}</a></li>
+            <li><a href="{{ "mailto:press@decred.org" }}">Press Contacts</a></li>
+            <li><a href="{{ "https://docs.decred.org/about/license/" | relLangURL }}">Licensing Information</a></li>
+        </ul>
+
+        <a target="_blank" href="https://newsletter.decred.org/?p=subscribe&id=1" class="footer__button"><img src="/images/icon--newsletter.svg"><span>Subscribe to Decred Newsletter</span></a>
+    </div>
+</div>
+<div class="footer-bottom">
+    <div class="width1100 footer__container">
+        <p>© 2019 Decred Developers, All Rights Reserved.</p>
+        <div>
+            {{ with $current_release }}
+                <p>Stable Release <span>{{ .current_version }}</span></p>
+            {{ end }}
+            <p>Downloads <span>437k</span></p>
+        </div>
+            <a href="http://explorer.dcrdata.org/">Block Explorer ›</a>
         </div>
     </div>
 </div>
+
