@@ -203,12 +203,11 @@
   title: "iOS Developer"
   linkedin_url: ensoreus
 -
-  slack_alias: sndurkin
+  matrix_id: sndurkin:matrix.org
   group: development
   avatar_image: "team_11.svg"
   name: "Sean Durkin"
   title: developer
-  slack_id: D7NA04LRM
   github_id: sndurkin
 -
   matrix_id: oktapodia:matrix.org
@@ -311,12 +310,11 @@
   name: "Jonathan Zeppettini"
   title: "International Ops Lead"
 -
-  slack_alias: sef
+  matrix_id: sefbkn:matrix.org
   group: development
   avatar_image: "team_72.svg"
   name: "Youssef Boukenken"
   title: developer
-  slack_id: U652HC01Z
   github_id: sefbkn
 -
   matrix_id: richardred:decred.org
@@ -403,12 +401,11 @@
   title: "Asia Pacific Outreach"
   linkedin_url: "https://au.linkedin.com/in/joshuambuirski"
 -
-  slack_alias: mm
+  matrix_id: mmartins:matrix.org
   group: community
   avatar_image: "team_77.svg"
   name: "Marcelo Martins"
   title: "Community Manager (PT)"
-  slack_id: U4EC3J8NM
   linkedin_url: "https://www.linkedin.com/in/marcelomartins"
   twitter_alias: dcrStakeyClub
 -
