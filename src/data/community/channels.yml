@@ -1,7 +1,7 @@
 -
-  url: "/matrix/"
+  url: "https://chat.decred.org/"
   img_src: "dcr-community-platforms-matrix.png"
-  name: "Matrix (via Riot.im)"
+  name: "Matrix (via Riot)"
 -
   url: "https://discord.gg/GJ2GXfz"
   img_src: "dcr-community-platforms-discord.png"
