@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/decred/dcrweb#readme",
   "dependencies": {
-    "html-validator-cli": "^4.1.4",
+    "html-validator-cli": "^6.0.2",
     "netlify-cli": "^2.6.6"
   }
 }
