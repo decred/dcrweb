@@ -23,10 +23,8 @@ decrediton:
 mobilewallets:
     - title: Android
       url: https://play.google.com/store/apps/details?id=com.decred.dcrandroid.mainnet
-      is_direct_download: true
     - title: iOS
       url: https://apps.apple.com/us/app/decred-wallet/id1462247643
-      is_direct_download: true
 
 commandline:
     - title: View on Github
