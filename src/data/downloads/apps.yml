@@ -3,6 +3,9 @@
     - name: Decrediton
       id: decrediton
       is_third_party: false
+    - name: Mobile Wallets
+      id: mobilewallets
+      is_third_party: false
     - name: Command-line app suite
       id: commandline
       is_third_party: false
@@ -78,5 +81,3 @@
       links:
         - title: Ledger Live wallet
           url: https://www.ledger.com/pages/ledger-live
-
-
