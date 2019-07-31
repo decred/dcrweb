@@ -543,3 +543,36 @@
   title: "Community Manager"
   name: "Michael Guimaraes"
   twitter_alias: "michae2xl"
+-
+  matrix_id: akinsawyerr:decred.org
+  group: community
+  avatar_image: "akin_sawyerr.svg"
+  title: "Community Manager"
+  name: "Akin Sawyerr"
+  twitter_alias: "akinsawyerr"
+  linkedin_url: https://www.linkedin.com/in/akinsawyerr/
+-
+  matrix_id: klebe:decred.org
+  group: development
+  avatar_image: "kevin_hebert.svg"
+  name: "Kevin Hebert"
+  title: "Developer"
+  twitter_alias: "CamusCrypto"
+  github_id: "camus-code"
+-
+  matrix_id: VictorGuedes:decred.org
+  group: development
+  avatar_image: "victor_guedes.svg"
+  name: "Victor Guedes"
+  title: "Developer"
+  twitter_alias: "_victorguedes"
+  github_id: "victorgcramos"
+-
+  matrix_id: cryptoleslie:decred.org
+  company_id: ditto
+  group: marketing
+  avatar_image: "leslie_ankney.svg"
+  name: "Leslie Ankney"
+  title: "Public Relations"
+  linkedin_url: https://www.linkedin.com/in/leslie-ankney-91099a14b
+  twitter_alias: "CryptoLeslie"
