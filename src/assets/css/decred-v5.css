@@ -2154,6 +2154,10 @@ body {
   background-image: url('../images/decrediton.svg');
 }
 
+.section-card-title-download-page.mobilewallets {
+  background-image: url('../images/ic_mobile.svg');
+}
+
 .section-card-title-download-page.commandline {
   background-image: url('../images/commandline.svg');
 }
