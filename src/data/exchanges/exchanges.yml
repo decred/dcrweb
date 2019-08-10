@@ -1,4 +1,10 @@
 -
+  url: "https://coinwale.com/"
+  tags:
+    - "instant-exchange"
+  logo_src: "Coinwale.jpg"
+  name: Coinwale
+-
   url: "https://shapeshift.io/"
   tags:
     - "high-liquidity"
