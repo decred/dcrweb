@@ -1,3 +1,9 @@
+- tags: new
+  image: "roadmap/DEXActive.svg"
+  title: "Decentralized Exchange Development"
+  date: "Added Q3 2019"
+  description: "Decred stakeholders voted to fund the development of a Decentralized Exchange (DEX). The Decred DEX will facilitate peer-to-peer trading based on Atomic Swaps. The service will be trustless, non-custodial, and will not collect trading fees from its users."
+  link: "https://proposals.decred.org/proposals/417607aaedff2942ff3701cdb4eff76637eca4ed7f7ba816e5c0bd2e971602e1"
 - tags: completed
   image: "roadmap/identityComplete.svg"
   title: "Identity Release"
@@ -78,14 +84,14 @@
   link: "https://github.com/decred/dcrtime"
 - tags: ongoing
   image: "roadmap/dectrlOfFundsActive.svg"
-  title: "Decentralized Control of Dev Funds"
+  title: "Decentralized Control of Treasury"
   date: "Added Q1 2018"
   description: "Stakeholder voting will allow funds to be allocated implement successful proposals. Decentralised Autonomous Organizations (DAOs) will be able to take ownership of funds by way of a simple on-chain smart contract that delegates control over funds in a contract to a group of individuals."
-  link: "https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/"
-- tags: ongoing
-  image: "roadmap/androidWalletsActive.svg"
+  link: "https://proposals.decred.org/proposals/c96290a2478d0a1916284438ea2c59a1215fe768a87648d04d45f6b7ecb82c3f"
+- tags: completed
+  image: "roadmap/androidWalletsCompleted.svg"
   title: "Android Wallet"
-  date: "Added Q1 2018"
+  date: "Completed Q2 2019"
   description: "Decred wallet for Android is being developed by Raedah Group. It will employ the novel light wallet (SPV) technology with enhanced privacy called 'compact filters'. Additionally, it will have two other modes of operation: connect to custom node or run a full node for maximum security."
   link: "https://github.com/decred/dcrandroid"
 - tags: completed
@@ -100,7 +106,7 @@
   date: "Completed Q4 2018"
   description: "Enable storing and sending of Decred using Trezor hardware wallet."
   link: "https://github.com/decred/decrediton/issues/1491"
-- tags: ongoing
+- tags: new
   image: "roadmap/DAEActive.svg"
   title: "Decentralized Autonomous Organizations"
   date: "Added Q1 2018"
@@ -111,7 +117,7 @@
   title: "Proposal For a Decentralized Exchange"
   date: "Completed Q1 2019"
   description: "A proposal for a full-fledged decentralized exchange expanding on the atomicswap tools that we released in 2017. Unlike the profit-centric models common in the space, it will aim to be open, welcoming involvement from other cryptocurrencies. The project will be formalized as a Politeia proposal."
-  link: "https://blog.decred.org/2018/06/05/A-New-Kind-of-DEX/"
+  link: "https://proposals.decred.org/proposals/5431da8ff4eda8cdbf8f4f2e08566ffa573464b97ef6d6bae78e749f27800d3a"
 - tags: new
   image: "roadmap/scalabilityOpsActive.svg"
   title: "Scalability Optimizations: Signature Algorithm"
@@ -142,12 +148,12 @@
   date: "Added Q1 2018"
   description: "Enable managing of Lightning Network payments and channels directly from Decrediton wallet."
   link: "https://github.com/decred/decrediton"
-- tags: new
+- tags: ongoing
   image: "roadmap/scalabilityOpsActive.svg"
   title: "Scalability Optimizations: Block Header Commitments"
   date: "Added Q1 2018"
   description: "Adding extra data to the block header allows to bring the security of light clients close to that of full nodes. This may also have a positive impact on privacy by reducing leaks of coin ownership information. An elegant change to the block header is proposed that doesn't break existing mining hardware."
-  link: "https://github.com/decred/dcrd/issues/971"
+  link: "https://github.com/decred/dcps/blob/master/dcp-0004/dcp-0004.mediawiki"
 - tags: ongoing
   image: "roadmap/scalabilityOpsActive.svg"
   title: "Scalability Optimizations: Multipeer Syncing"
