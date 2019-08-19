@@ -1,16 +1,4 @@
 -
-  url: "https://shapeshift.io/"
-  tags:
-    - "high-liquidity"
-  logo_src: "Shapeshift.jpg"
-  name: ShapeShift
-#-
-#  url: "https://flyp.me/"
-#  tags:
-#    - "instant-exchange"
-#  logo_src: "Flypme.jpg"
-#  name: Flyp
--
   url: "https://godex.io/"
   tags:
     - "instant-exchange"
@@ -46,12 +34,6 @@
     - "high-liquidity"
   logo_src: "Poloniex.jpg"
   name: Poloniex
--
-  url: "https://bleutrade.com"
-  tags:
-    - all
-  logo_src: "Bleutrade.jpg"
-  name: BLEUTRADE
 -
   url: "https://fexpro.net/"
   tags:
