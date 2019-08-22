@@ -1,9 +1,9 @@
 # builder image
-FROM golang
+FROM golang:1.12
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
-ENV HUGO_VERSION 0.55.6
+ENV HUGO_VERSION 0.57.2
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -22,7 +22,7 @@ COPY ./ /root/
 RUN bin/build-hugo.sh
 
 # final image
-FROM nginx:1.16.0
+FROM nginx:1.16
 
 LABEL description="dcrweb server"
 LABEL version="1.0"
