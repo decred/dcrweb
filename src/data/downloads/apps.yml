@@ -81,3 +81,9 @@
       links:
         - title: Ledger Live wallet
           url: https://www.ledger.com/pages/ledger-live
+
+    - name: Evercoin
+      id: evercoin
+      links:
+        - title: Evercoin wallet
+          url: https://evercoin.com/
