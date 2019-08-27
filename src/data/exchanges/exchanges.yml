@@ -223,3 +223,9 @@
     - "high-liquidity"
   logo_src: "catalx.png"
   name: CatalX
+-
+  url: "https://evercoin.com/home"
+  tags:
+    - "instant-exchange"
+  logo_src: "evercoin.png"
+  name: "Evercoin"
