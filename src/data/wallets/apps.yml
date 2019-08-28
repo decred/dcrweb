@@ -10,28 +10,6 @@
       id: commandline
       is_third_party: false
 
-- category: mining_software
-  apps:
-    - name: gominer
-      id: gominer
-      is_third_party: false
-      links:
-        - title: gominer releases
-          url: https://github.com/decred/decred-binaries/releases/tag/v1.0.0_gominer
-
-    - name: ccminer
-      id: ccminer
-      is_third_party: true
-      links:
-        - title: ccminer releases
-          url: https://github.com/tpruvot/ccminer/releases
-
-    - name: sgminer
-      id: sgminer
-      links:
-        - title: sgminer releases
-          url: https://github.com/tpruvot/sgminer/releases
-
 - category: 3rd_party_wallets
   apps:
     - name: Exodus
