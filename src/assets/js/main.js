@@ -195,23 +195,38 @@ $(document).ready(function () {
 		teamCorporateLogo = $(".team-corporate-logo");
 
 
+	var currentCategory = '';
+	if (location.hash && location.hash.length) {
+		currentCategory = decodeURIComponent(location.hash.substr(1));
+	}
+
+	function setCurrentCategory(categoryName) {
+		teamFilterButton.not($(this)).removeClass('active');
+		teamFilterButton.siblings('[data-filter="' + categoryName + '"]').addClass('active');
+
+		teamMember.hide();
+		teamMembers.each(function () {
+			var filteredMember = $(this).find('[data-filter="' + categoryName + '"]');
+			filteredMember.fadeTo(time * 2, 1);
+		});
+
+		window.location.hash = categoryName;
+	}
+
 	// team subpage
 	teamMember.hide();
 	teamMembers.removeClass('hidden');
+
 	teamFilterButton.click(function () {
-		teamFilterButton.not($(this)).removeClass('active');
-		$(this).addClass('active');
+		var selectedCategory = $(this).data('filter').toLowerCase();
+		setCurrentCategory(selectedCategory);
+	});
 
-		var selectedCatergory = $(this).data('filter').toLowerCase(),
-			membersToSort = [];
-
-		teamMember.hide();
-		teamMembers.each(function(i){
-			var filteredMember = $(this).find('[data-filter="' + selectedCatergory + '"]');
-
-			filteredMember.fadeTo(time*2, 1);
-		});
-	}).eq(0).trigger('click');
+	if (currentCategory) {
+		setCurrentCategory(currentCategory);
+	} else {
+		teamFilterButton.eq(0).trigger('click');
+	}
 
 	teamCorporateLogo.add(teamSlack).on('mouseenter', function() {
 

@@ -1,12 +1,15 @@
 $(function(){
-
     // default variables
     var tail = $('.tail'),
-            filterCard = $('.filter-card'),
-            filters = $('.ex-filter').children(),
-                filter = $('.filter-button'),
-                all = $('.all');
+      filterCard = $('.filter-card'),
+      filters = $('.ex-filter').children(),
+      filter = $('.filter-button'),
+      all = $('.all'),
+      currentFilter = '';
 
+    if (location.hash && location.hash.length) {
+        currentFilter = decodeURIComponent(location.hash.substr(1));
+    }
 
 
     var $grid = $('.filter-cards-wrap');
@@ -44,19 +47,21 @@ $(function(){
         $(this).removeClass('is-hover');
     });
 
-    // header filter buttons 
-    filters.on('click', function() {
-        var that = $(this);
-
+    function setCurrentFilter(group){
         filters.removeClass('is-checked is-hover');
-        that.addClass('is-checked');
-
-        var group = $(this).attr('data-group');
+        filters.siblings('[data-group="'+group+'"]').addClass('is-checked');
 
         $('.roadmap__filter-legend-item').removeClass('is-checked');
         $(".roadmap__filter-legend-item[data-group='" + group +"']").addClass('is-checked');
 
-        $grid.shuffle('shuffle', $(this).attr('data-group'));
+        $grid.shuffle('shuffle', group);
+        window.location.hash = group;
+    }
+
+    // header filter buttons 
+    filters.on('click', function() {
+        var group = $(this).attr('data-group');
+        setCurrentFilter(group);
     });
 
     var newfilter = $('.filter-new').length;
@@ -68,6 +73,9 @@ $(function(){
     var completed = $('.filter-completed').length;
     $('.roadmap__filter-legend-item[data-group="completed"]').html(completed);
 
+    if(currentFilter) {
+        setCurrentFilter(currentFilter);
+    }
 
     // shuffle js .filter-card hover fix
     $grid.on('layout.shuffle', function() {
