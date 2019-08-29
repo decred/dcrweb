@@ -1,5 +1,5 @@
 
-{{ $current_release := .Site.Data.downloads.current_release }}
+{{ $current_release := .Site.Data.wallets.current_release }}
 
 <div class="footer">
     <div class="footercolumns width1100">
@@ -26,7 +26,7 @@
                     {{ end }}
                     <div class="footerblockstatsname">{{ T "general_release_stable" }}</div>
                 </div>
-                <div class="footerblockstatsrow w-clearfix"><a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="{{ "downloads/" | relLangURL }}">52k {{ T "general_total" }}</a>
+                <div class="footerblockstatsrow w-clearfix"><a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="{{ "wallets/" | relLangURL }}">52k {{ T "general_total" }}</a>
                     <div class="footerblockstatsname">{{ T "general_downloads" }}</div>
                     <div id="explorer-links">
                       <a href="https://dcrdata.decred.org/" target="_blank" rel="noopener noreferrer" class="footer-inline-el footerblocklink transition">{{ T "nav_dcrdata" }}</a>

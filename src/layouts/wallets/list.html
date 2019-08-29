@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 
-    {{ $apps := .Site.Data.downloads.apps }}
+    {{ $apps := .Site.Data.wallets.apps }}
 
     <div class="full-width">
         <div class="_960">
@@ -24,7 +24,7 @@
                                     <div class="section-card-download-links-download-page w-clearfix">
                                         {{ $links := "" }}
                                         {{ if eq .links nil }}
-                                            {{ $links = index $.Site.Data.downloads.links .id }}
+                                            {{ $links = index $.Site.Data.wallets.links .id }}
                                         {{ else }}
                                             {{ $links = .links }}
                                         {{ end }}

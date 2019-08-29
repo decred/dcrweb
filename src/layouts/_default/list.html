@@ -20,7 +20,7 @@
 
     {{ if .IsHome }}
 
-        {{ $download_links := where (index .Site.Data.downloads.links "decrediton") "is_direct_download" true }}
+        {{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
 
         <div class="fronta">
             <div class="full-width">
@@ -31,7 +31,7 @@
                         <div class="description font38">{{ T "home_mainheading" }}</div>
 
                         <div class="first-view-buttons w-clearfix">
-                            <a href="{{ "/downloads" | relLangURL }}" class="button download-wallet w-button alldl">
+                            <a href="{{ "/wallets" | relLangURL }}" class="button download-wallet w-button alldl">
                                 <span>{{ T "home_download_wallet" }}</span>
                             </a>
                             <div class="button os-specific alldl">{{ T "home_for_computer" }}</div>
@@ -46,7 +46,7 @@
                                 </div>
                             {{ end }}
 
-                            <a href="{{ "/downloads" | relLangURL }}" class="button all-downloads w-button">{{ T "home_all_downloads" }} →</a>
+                            <a href="{{ "/wallets" | relLangURL }}" class="button all-downloads w-button">{{ T "home_all_downloads" }} →</a>
                         </div>
 
                         <div class="mobile-play-button">

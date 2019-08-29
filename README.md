@@ -44,8 +44,8 @@ You should now be able to access the site at `http://localhost:1313`
 | --- | --- | --- | 
 | Press releases | `src/content/press/*.md` | When adding a new release, please follow the file naming convention in the directory.
 | Press coverage | `src/data/press/coverage.yml` ||
-| Download links | `src/data/downloads/links.yml` ||
-| Current release | `src/data/downloads/current_release.yml` | The current release as it appears in the footer|
+| Download links | `src/data/wallets/links.yml` ||
+| Current release | `src/data/wallets/current_release.yml` | The current release as it appears in the footer|
 | Contributors      |  `src/data/contributors/*.yml` | Avatar images: `src/assets/images/contributors` |
 | Community channels    | `src/data/community/channels.yml` |Logo images: `src/assets/images/community` |
 | Exchanges             | `src/data/exchanges.*.yml` | Logo images: `src/assets/images/exchanges`|
