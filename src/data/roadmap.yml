@@ -46,10 +46,10 @@
   date: "Completed Q2 2017"
   description: "A design document that describes potential protocol or consensus changes to Decred. Due to Decred's decentralized governance structure, any proposed changes to consensus require super-majority stakeholder approval via the integrated on-chain proof-of-stake voting infrastructure."
   link: "https://github.com/decred/dcps/blob/master/dcp-0000/dcp-0000.mediawiki"
-- tags: ongoing
-  image: "roadmap/privacyActive.svg"
+- tags: completed
+  image: "roadmap/privacyCompleted.svg"
   title: "Initial Privacy Release"
-  date: "Added Q1 2018"
+  date: "Completed Q3 2019"
   description: "Privacy is on the 2018 Roadmap, and work has begun in earnest. More details will be available later in 2018, when working code will be released along with a description of the approach. It will be a different method than those used by existing privacy coins."
   link: "https://twitter.com/decredproject/status/975082629102882816"
 - tags: completed
@@ -172,3 +172,15 @@
   date: "Added Q1 2018"
   description: "The Lightning Network allows users to create off-chain transactions that optionally settle on-chain. This has clear benefits for both scaling and privacy. Most of the work to port Lightning Labs’ lnd to Decred is done."
   link: "https://github.com/decred/dcrlnd"
+- tags: new
+  image: "roadmap/privacyActive.svg"
+  title: "Privacy: VSP integration"
+  date: "Added Q3 2019"
+  description: "The initial privacy release only enables ticket purchases for solo voters. VSP changes are required before private transactions can be used to fund VSP delegated ticket purchases."
+  link: "https://blog.decred.org/2019/08/28/Iterating-Privacy/"
+- tags: new
+  image: "roadmap/privacyActive.svg"
+  title: "Privacy: Decrediton integration"
+  date: "Added Q3 2019"
+  description: "The initial privacy release consisted of a set of CLI tools. The new privacy features will be integrated into Decrediton so all users can benefit."
+  link: "https://blog.decred.org/2019/08/28/Iterating-Privacy/"
