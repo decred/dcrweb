@@ -1,12 +1,12 @@
 <div class="news_banner__content">
-    <img class="news_banner__logo" alt="" src="/images/roadmap/privacyActive.svg">
+    <img class="news_banner__logo" alt="" src="/images/privacyIconRelease.png">
     <div class="news_banner__text">
         <div>
-            <strong>{{ T "home_news_banner_title" }}</strong>
-            <p>{{ T "home_news_banner_body"  }}</p>
+            <strong>{{ safeHTML (T "home_news_banner_title" ) }}</strong>
+            <p>{{ safeHTML (T "home_news_banner_body" )  }}</p>
         </div>
         <a class="button news_banner__button" href="https://blog.decred.org/2019/08/28/Iterating-Privacy/">
-            <span>{{ T "home_news_banner_link_title" }}</span>
+            <span>{{ safeHTML (T "home_news_banner_link_title" ) }}</span>
         </a>
     </div>
 </div>
