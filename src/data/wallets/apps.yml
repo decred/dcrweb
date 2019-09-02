@@ -16,7 +16,7 @@
       id: exodus
       links:
         - title: Exodus releases
-          url: https://www.exodus.io/releases/
+          url: https://www.exodus.io/download/
 
     - name: Coinomi
       id: coinomi
