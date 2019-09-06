@@ -1457,6 +1457,16 @@ body {
   font-size: 12px;
 }
 
+.stakepool-data table {
+  width: 100%;
+}
+@media (max-width: 720px) {
+  .stakepool-data table .lastUpdate,
+  .stakepool-data table .lastUpdatedHeader {
+   display: none;
+  }
+}
+
 .buttonclose {
   padding: 12px 20px 13px;
   background-color: #8997a5;
