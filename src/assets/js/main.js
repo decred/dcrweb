@@ -532,12 +532,11 @@ $(document).ready(function () {
 	var stakepoolFinder = function() {
 			$("#stakepool-data").html("Loading...");
 
-			var fields = ["Live", "Immature", "Voted", "Missed", "ProportionMissed", "PoolFees", "UserCountActive", "Launched"];
+			var fields = ["Live", "Immature", "Voted", "Missed", "ProportionMissed", "PoolFees", "UserCountActive", "Age"];
 
 			tableMarkup = '<table id="pooldata" class="datatables">' +
 				'<thead>' +
 				'<tr class="">' +
-				'<th class="poolIdHeader" style="padding-left: 2px; background-image: none;">ID</th>' +
 				'<th class="addressHeader" style="padding-left: 2px; background-image: none;">Address</th>' +
 				'<th class="lastUpdatedHeader">Last Updated</th>' +
 				'<th>Proportion</th>';
@@ -596,7 +595,6 @@ $(document).ready(function () {
 						}
 						proportion = proportion.toFixed(2) + "%";
 						tableMarkup += '<tr class="rowHover transition ' + poolData["Network"] + (overCapacity ? ' overcapacity"' : '"') + '>';
-						tableMarkup += '<td class="poolId">' + poolName + '</td>';
 						tableMarkup += '<td class="address"><a target="_blank" rel="noopener noreferrer" href="' + poolData["URL"] + '">' + poolData["URL"].replace("https://", "") + '</a></td>';
 						tableMarkup += '<td class="lastUpdate dcrwebcode">' + lastUpdateFormatted + '</td>';
 						tableMarkup += '<td class="dcrwebcode">' + (overCapacity ? ' <span class="dcrwebcode overcapacityWarning" style="" title="See warning below">' + proportion + '</span>' : proportion) + '</td>';
@@ -624,9 +622,9 @@ $(document).ready(function () {
 								value = poolFees
 								break;
 
-								case "Launched":
+								case "Age":
 								var launchDate = new Date(poolData["Launched"] * 1000);
-								var duration = moment.duration(launchDate - new Date()).humanize(true);
+								var duration = moment.duration(launchDate - new Date()).humanize(false);
 								order = launchDate.getTime();
 
 								value = '<time' +
