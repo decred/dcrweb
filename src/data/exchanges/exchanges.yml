@@ -229,3 +229,9 @@
     - "instant-exchange"
   logo_src: "evercoin.png"
   name: "Evercoin"
+-
+ url: "https://flyp.me/"
+ tags:
+   - "instant-exchange"
+ logo_src: "Flypme.jpg"
+ name: Flyp
