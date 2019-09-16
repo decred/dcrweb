@@ -1,4 +1,10 @@
 -
+  url: "https://instaex.io/"
+  tags:
+    - "instant-exchange"
+  logo_src: "InstaEx.jpg"
+  name: InstaEx
+-
   url: "https://godex.io/"
   tags:
     - "instant-exchange"
