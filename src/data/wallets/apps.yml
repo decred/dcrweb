@@ -65,3 +65,9 @@
       links:
         - title: Evercoin wallet
           url: https://evercoin.com/
+
+    - name: Trust Wallet
+      id: trust
+      links:
+        - title: Trust Wallet
+          url: https://trustwallet.com/
