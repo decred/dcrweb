@@ -1,6 +1,6 @@
 
 
-{{range where .Site.RegularPages "Section" "=" "press"}}
+{{range where .Site.RegularPages "Section" "=" "news"}}
     <div class="press__coverage-item press__releases-item">
         <img class="press__coverage-icon" src="/images/press-release-icon.svg" width="30" alt=""/>
 
@@ -14,7 +14,7 @@
         <div class="press__releases-content-wrapper">
             {{ .Content }}
 
-            {{ partial "press/release-footer" }}
+            {{ partial "news/release-footer" }}
         </div>
     </div>
 {{ end }}
