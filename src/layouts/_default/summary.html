@@ -1,0 +1,11 @@
+<article class="press__coverage-item press__releases-item {{ .Params.type }}-item">
+    <img class="press__coverage-icon" src="/images/press-release-icon.svg" width="30" alt=""/>
+
+    <div class="press__coverage-wrapper">
+        <p><span class="press__title"><a href="{{ .Permalink }}">{{ .Title }}</a></span></p>
+        <p class="press__date">{{ partial "news/byline" . }}</p>
+    </div>
+</article>
+
+
+

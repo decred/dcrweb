@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ partial "news/section-nav.html" . }}
+
+<div class="full-width">
+
+	{{ if .Params.image }}
+	<img src="{{ .Params.image }}" alt="">
+	{{ end }}
+
+	<div class="_960">
+		<!--  template       news-announcement/article.html -->
+		<div class="subpage-content-section">
+			<div class="subpage-content news">
+
+				<div class="press__releases-content">
+					<div class="press__releases-content-wrapper">
+
+
+						<h2>{{ .Title }}</h2>
+						<h5>{{ partial "news/byline" . }}</h5>
+
+						{{ .Content }}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--{{ partial "news/sidebar.html" . }}-->
+{{ end }}
+
+

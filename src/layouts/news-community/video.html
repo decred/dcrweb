@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ partial "news/section-nav.html" . }}
+
+<div class="full-width">
+	<div class="_960">
+		<!--  template       community/video.html -->
+		<div class="subpage-content-section">
+			<div class="subpage-content news">
+
+				<div class="press__releases-content">
+					<div class="press__releases-content-wrapper">
+
+						{{ if .Params.image }}
+						<img src="{{ .Params.image }}" alt="">
+						{{ end }}
+
+						<h2>{{ .Title }}</h2>
+						<h5>{{ partial "news/byline" . }}</h5>
+
+						{{ .Content }}
+
+						{{ with .Params.video }}
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ .id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						{{ end }}
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--{{ partial "news/sidebar.html" . }}-->
+{{ end }}
+
+
+

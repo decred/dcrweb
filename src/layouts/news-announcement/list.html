@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="full-width">
+    <div class="_960">
+        <!--  template       news-community/list.html</>-->
+        <div class="subpage-content-section">
+            <div class="subpage-content news">
+
+                {{ partial "news/section-nav.html" . }}
+
+                {{ range .Paginator.Pages }}
+                {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+

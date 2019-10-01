@@ -1,5 +1,3 @@
 ---
-title: Press
-draft: true
-headless: true
+title: News
 ---

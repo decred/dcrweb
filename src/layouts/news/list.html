@@ -1,27 +1,17 @@
-
-
 {{ define "main" }}
-    <div class="full-width">
-        <div class="_960">
-            <div class="subpage-description">{{ T "press_description" }}</div>
-            <div class="subpage__toggle">
-                <a data-toggle="press__coverage" class="active">{{ T "press_coverage" }}</a>
-                <a data-toggle="press__releases">{{ T "press_releases" }}</a>
-            </div>
-        </div>
-    </div>
+<main>
+    <pre>news/list.html </pre>
 
-    <div class="full-width press__wrapper">
-        <div class="_960">
-            <div class="subpage-content-section toggleable">
-                <div class="press press__coverage subpage-content w-clearfix active">
-                    {{ partial "news/coverage-list" . }}
-                </div>
+    <h1>{{ .CurrentSection.Name }}</h1>
 
-                <div class="press press__releases subpage-content w-clearfix">
-                    {{ partial "news/release-list" . }}
-                </div>
-            </div>
-        </div>
+    {{ partial "news/section-nav.html" . }}
+
+    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "news" ) }}
+    <div class="news--summary-list">
+        {{ range $paginator.Pages }}
+        {{ .Render "summary" }}
+        {{ end }}
     </div>
-{{end}}
+</main>
+
+{{ end }}

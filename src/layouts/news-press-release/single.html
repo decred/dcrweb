@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "news/section-nav.html" . }}
+
+<div class="full-width">
+    <div class="_960">
+        <!--  template       news-press-release/single.html</>-->
+        <div class="subpage-content-section">
+            <div class="subpage-content news">
+
+                <div class="press__releases-content">
+                    <div class="press__releases-content-wrapper">
+
+                        <h2>{{ .Title }}</h2>
+                        <h5>{{ partial "news/byline" . }}</h5>
+
+                        {{ .Content }}
+
+                        {{ .Render "press-release-footer" }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--{{ partial "news/sidebar.html" . }}-->
+{{ end }}

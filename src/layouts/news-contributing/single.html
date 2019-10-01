@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main>
+	<pre>news-contributing/single.html</pre>
+
+	{{ partial "news/section-nav.html" . }}
+
+	{{ partial "news/breadcrumb.html" . }}
+
+	<article class="news--article">
+
+		{{ if .Params.image }}
+		<img src="{{ .Params.image }}" alt="">
+		{{ end }}
+
+		<h2>{{ .Title }}</h2>
+		<h5>{{ partial "news/byline" . }}</h5>
+		<div class="news--article-body">
+			{{ .Content }}
+		</div>
+		<div class="news--related-content">
+			<ul id="tags">
+				{{ range .Params.tags }}
+				<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+	</article>
+</main>
+{{ partial "news/sidebar.html" . }}
+{{ end }}

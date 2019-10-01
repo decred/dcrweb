@@ -1,0 +1,20 @@
+
+
+
+{{ define "main" }}
+
+{{ partial "news/section-nav.html" . }}
+
+<div class="full-width">
+    <div class="_960">
+        <!--  template       press-release/list.html</>-->
+        <div class="subpage-content-section">
+            <div class="subpage-content news">
+                {{ range .Paginator.Pages }}
+                {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

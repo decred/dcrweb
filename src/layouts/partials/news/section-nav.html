@@ -1,0 +1,23 @@
+{{ $currentPage := . }}
+{{ $subSections := slice }}
+
+<div class="full-width">
+    <div class="_960">
+        <div class="subpage-description">
+            <br>
+        </div>
+        <div class="subpage__toggle">
+            {{ range .FirstSection.Sections }}
+                {{ if $currentPage.IsDescendant . }}
+                {{ $subSections = .Sections }}
+                {{ end }}
+                <a
+                   href="{{ .Permalink | relLangURL }}"
+                   class="{{ if  $currentPage.IsDescendant . }}active{{ end }}"
+                >{{ .Params.menu_title }}</a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+

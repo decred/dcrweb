@@ -1,0 +1,33 @@
+{{ define "main" }}
+<!-- template media/list.html -->
+
+{{ partial "news/section-nav.html" . }}
+
+<div class="full-width">
+    <div class="_960">
+        <!--  template       press-release/list.html</>-->
+        <div class="subpage-content-section">
+            <div class="subpage-content news">
+
+                {{ $press_coverage_items := .Site.Data.news.coverage }}
+
+                {{ range $press_coverage_items }}
+                <div class="press__coverage-item">
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                        <img alt="" class="press__coverage-icon" src="/images/press-coverage-icon.svg" width="30"/>
+                        <div class="press__coverage-wrapper">
+                            <p><span class="press__title">{{ .title }}</span>
+                                <span class="press__source"> ({{ .source }})</span></p>
+                            <p class="press__date">{{ dateFormat "January 2, 2006" .date }}</p>
+
+                        </div>
+                        <img alt="" class="press__coverage-hover-icon" src="/images/press-coverage-hover-icon.svg"
+                             width="16"/>
+                    </a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,7 @@
+<div class="news--related-content">
+    <ul id="tags">
+        {{ range .Params.tags }}
+        <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+    </ul>
+</div>

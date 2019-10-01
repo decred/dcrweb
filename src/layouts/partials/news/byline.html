@@ -1,0 +1,4 @@
+{{ if .Params.author }}
+By <span class="article-author">{{ .Params.author }}</span>
+on {{ end }}
+<span class="article-date">{{ .Date.Format "January 1, 2006" }}</span>

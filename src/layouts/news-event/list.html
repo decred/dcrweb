@@ -1,0 +1,78 @@
+{{ define "main" }}
+<!-- template news-events/list.html -->
+<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
+{{ partial "news/section-nav.html" . }}
+
+<div class="full-width">
+    <div id="map" class="map"></div>
+
+    <div class="_960">
+        <!--  template       press-release/list.html</>-->
+        <div class="subpage-content-section">
+            <div class="subpage-content">
+
+                <script type="text/javascript">
+                  var map = new ol.Map({
+                    target: 'map',
+                    controls: [],
+                    interactions: [],
+                    layers: [
+                      new ol.layer.Tile({
+                        source: new ol.source.OSM({
+                          wrapX: false,
+                          noWrap: true
+                        })
+                      })
+                    ],
+                    view: new ol.View({
+                      center: ol.proj.fromLonLat([3.41, 10]),
+                      zoom: 2
+                    })
+                  });
+
+
+                  function add_map_point(lat, lng) {
+                    var vectorLayer = new ol.layer.Vector({
+                      source:new ol.source.Vector({
+                        wrapX: false,
+                        features: [new ol.Feature({
+                          geometry: new ol.geom.Point(ol.proj.transform([parseFloat(lng), parseFloat(lat)], 'EPSG:4326', 'EPSG:3857')),
+                        })]
+                      }),
+                      style: new ol.style.Style({
+                        image: new ol.style.Icon({
+                          anchor: [0.5, 0.5],
+                          anchorXUnits: "fraction",
+                          anchorYUnits: "fraction",
+                          src: "/images/icons8-marker-24.png"
+                        })
+                      })
+                    });
+                    map.addLayer(vectorLayer);
+                  }
+                </script>
+
+                {{ $items := .Site.Data.news.meetup_groups }}
+
+                <h2>Meetup Groups</h2>
+
+                <ul>
+                    {{ range $items }}
+                    <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .location }}</a></li>
+                    {{ end }}
+                </ul>
+
+                <script>
+                  {{ range $items }}
+                  add_map_point({{ .lat }}, {{ .lon }})
+                  {{ end }}
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+
