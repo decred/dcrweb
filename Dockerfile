@@ -1,5 +1,5 @@
 # builder image
-FROM golang:1.13
+FROM alpine:edge
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
@@ -11,9 +11,10 @@ LABEL maintainer="peter@froggle.org"
 
 WORKDIR /tmp
 
-RUN apt-get update && apt-get -y install jq
+RUN apk update && apk upgrade
+RUN apk add --no-cache bash jq wget libc6-compat g++
 RUN wget -q https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
-RUN tar xz -C /usr/local/bin -f  hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
+RUN tar xz -C /usr/local/bin -f hugo_extended_"$HUGO_VERSION"_Linux-64bit.tar.gz
 
 WORKDIR /root
 
