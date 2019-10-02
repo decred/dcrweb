@@ -46,3 +46,7 @@
   url: "https://weibo.com/DecredProject"
   img_src: "dcr-community-platforms-weibo.png"
   name: Weibo
+-
+  url: "https://keybase.io/team/decred"
+  img_src: "dcr-community-platforms-keybase.png"
+  name: Keybase
