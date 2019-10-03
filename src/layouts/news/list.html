@@ -1,17 +1,22 @@
 {{ define "main" }}
-<main>
-    <pre>news/list.html </pre>
 
-    <h1>{{ .CurrentSection.Name }}</h1>
+{{ partial "news/section-nav.html" . }}
 
-    {{ partial "news/section-nav.html" . }}
+<div class="full-width">
+    <div class="_960">
+        <!--  template       news-community/list.html</>-->
+        <div class="subpage-content-section">
+            <div class="subpage-content news">
 
-    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "news" ) }}
-    <div class="news--summary-list">
-        {{ range $paginator.Pages }}
-        {{ .Render "summary" }}
-        {{ end }}
+                {{ $paginator := .Paginate (where .Site.RegularPages "Section" "news" ) }}
+
+                {{ range $paginator.Pages }}
+                {{ .Render "summary" }}
+                {{ end }}
+            </div>
+        </div>
     </div>
-</main>
-
+</div>
 {{ end }}
+
+

@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ partial "news/section-nav.html" . }}
 
 <div class="full-width">
     <div class="_960">
@@ -6,7 +7,6 @@
         <div class="subpage-content-section">
             <div class="subpage-content news">
 
-                {{ partial "news/section-nav.html" . }}
 
                 {{ range .Paginator.Pages }}
                 <div class="press__coverage-item press__releases-item">
