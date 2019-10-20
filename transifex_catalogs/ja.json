@@ -139,7 +139,7 @@
   "home_guide_20": "次へ",
   "home_guide_21": "戻る",
   "home_guide_22": "Proof-of-Work マイニング",
-  "home_guide_23": "<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">Proof-of-Work(PoW)</a>では取引はブロックに分けられ、PoWマイナーによって検証されます。検証されたブロックはDecredのネットワークに永久的に保存されます。</p>\n\t\t<p>計算資源をネットワークに提供することでマイナーになることができます。マイナーはその報酬としてDecredを受け取ります。</p>\n\t\t<p>効率や利便性を求める場合は、<a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">マイニングプール</a>に参加することが可能です。プールとは、作業や報酬をシェアするマイナーたちのグループです。小規模マイニングで一定の報酬を得るには、マイニングプールへの参加がおすすめです。</p>",
+  "home_guide_23": "<p><a href=\"https://docs.decred.org/mining/overview/\" title=\"_blank\">Proof-of-Work(PoW)</a>では取引はブロックに分けられ、PoWマイナーによって検証されます。検証されたブロックはDecredのネットワークに永久的に保存されます。</p>\n\t\t<p>計算資源をネットワークに提供することでマイナーになることができます。マイナーはその報酬としてDecredを受け取ります。</p>\n\t\t<p>効率や利便性を求める場合は、<a href=\"https://docs.decred.org/mining/overview/#sign-up-for-a-mining-pool\" title=\"_blank\">マイニングプール</a>に参加することが可能です。プールとは、作業や報酬をシェアするマイナーたちのグループです。小規模マイニングで一定の報酬を得るには、マイニングプールへの参加がおすすめです。</p>",
   "home_guide_24": "次へ",
   "home_guide_25": "戻る",
   "home_guide_26": "Proof-of-Stake 投票",

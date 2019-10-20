@@ -139,7 +139,7 @@
   "home_guide_20": "继续",
   "home_guide_21": "返回",
   "home_guide_22": "工作量证明挖矿",
-  "home_guide_23": "<p>在<a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\" rel=\"noopener noreferrer\">工作量证明机制（PoW）</a>中，交易被打包到区块，这些区块经过PoW矿工的打包并得PoS到验证时，它就永久成为Decred网络的一部分。</p><p>通过将空闲的计算力资源奉献给网络而成为一名矿工。作为回报，矿工们会得到Decred的奖励。</p><p>为了效率和便捷性，您可以加入<a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">矿池</a>。这些矿池是由一群矿工组成的团体，他们分担工作，分享报酬。对于较小的贡献者来说，加入一个采矿池是一个获得稳定报酬的好方法。</p>",
+  "home_guide_23": "<p>在<a href=\"https://docs.decred.org/mining/overview/\" title=\"_blank\" rel=\"noopener noreferrer\">工作量证明机制（PoW）</a>中，交易被打包到区块，这些区块经过PoW矿工的打包并得PoS到验证时，它就永久成为Decred网络的一部分。</p><p>通过将空闲的计算力资源奉献给网络而成为一名矿工。作为回报，矿工们会得到Decred的奖励。</p><p>为了效率和便捷性，您可以加入<a href=\"https://docs.decred.org/mining/overview/#sign-up-for-a-mining-pool\" title=\"_blank\" rel=\"noopener noreferrer\">矿池</a>。这些矿池是由一群矿工组成的团体，他们分担工作，分享报酬。对于较小的贡献者来说，加入一个采矿池是一个获得稳定报酬的好方法。</p>",
   "home_guide_24": "继续",
   "home_guide_25": "返回",
   "home_guide_26": "权益证明投票",
