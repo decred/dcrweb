@@ -139,7 +139,7 @@
   "home_guide_20": "계속",
   "home_guide_21": "뒤로",
   "home_guide_22": "작업증명(PoW) 채굴",
-  "home_guide_23": "<p><a href=\"https://docs.decred.org/mining/proof-of-work/\" title=\"_blank\">작업증명(PoW)</a>과정에서 여러 개의 거래가 블록 단위로 묶이게 됩니다. 이후에 블록들이 PoW 채굴기에서 인증되면, 그 블록은 Decred 네트워크에 영구적으로 기록됩니다.</p>\n\t\t<p>채굴자가 되려면 네트워크에 연결할 여분의 전용 컴퓨터를 사용하여야 합니다. 채굴의 보상으로 Decred가 지급됩니다.</p> \n\t\t<p>효율성과 편리함을 위해 <a href=\"https://docs.decred.org/mining/proof-of-work/#sign-up-for-a-mining-pool\" title=\"_blank\">채굴 연합(mining pool)</a>에 참여하실 수도 있습니다. 이러한 연합체는 채굴자들의 그룹이며 작업과 보상을 나누어 가집니다. 채굴 연합에 참가 하시는 것은 비교적 작은 규모의 채굴자들도 일에 대한 일정한 보상을 받을 수 있도록 하는 좋은 방법입니다.</p>",
+  "home_guide_23": "<p><a href=\"https://docs.decred.org/mining/overview/\" title=\"_blank\">작업증명(PoW)</a>과정에서 여러 개의 거래가 블록 단위로 묶이게 됩니다. 이후에 블록들이 PoW 채굴기에서 인증되면, 그 블록은 Decred 네트워크에 영구적으로 기록됩니다.</p>\n\t\t<p>채굴자가 되려면 네트워크에 연결할 여분의 전용 컴퓨터를 사용하여야 합니다. 채굴의 보상으로 Decred가 지급됩니다.</p> \n\t\t<p>효율성과 편리함을 위해 <a href=\"https://docs.decred.org/mining/overview/#sign-up-for-a-mining-pool\" title=\"_blank\">채굴 연합(mining pool)</a>에 참여하실 수도 있습니다. 이러한 연합체는 채굴자들의 그룹이며 작업과 보상을 나누어 가집니다. 채굴 연합에 참가 하시는 것은 비교적 작은 규모의 채굴자들도 일에 대한 일정한 보상을 받을 수 있도록 하는 좋은 방법입니다.</p>",
   "home_guide_24": "계속",
   "home_guide_25": "뒤로",
   "home_guide_26": "지분증명(PoS) 투표",
