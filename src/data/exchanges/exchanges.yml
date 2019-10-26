@@ -181,12 +181,6 @@
   logo_src: "binance.jpg"
   name: "Binance.com"
 -
-  url: "https://easyrabbit.net/"
-  tags:
-    - "instant-exchange"
-  logo_src: "easyrabbit.jpg"
-  name: "Easyrabbit.net"
--
   url: "https://simpleswap.io/"
   tags:
     - "instant-exchange"
