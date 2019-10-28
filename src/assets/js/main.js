@@ -734,6 +734,7 @@ for (var i = 0; i < pathEls.length; i++) {
 var consolestyle = [
 	'background: linear-gradient(to right, #2970ff, #2ED6A1);',
 	'color: #091440',
+	'font-family: monospace',
 	].join(';');
   
   console.log(`%c
