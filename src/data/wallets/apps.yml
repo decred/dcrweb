@@ -48,12 +48,6 @@
         - title: Guarda releases
           url: https://guarda.co/
 
-    - name: Cobo
-      id: cobo
-      links:
-        - title: Cobo releases
-          url: https://cobo.com
-
     - name: Ledger Live
       id: ledger
       links:
