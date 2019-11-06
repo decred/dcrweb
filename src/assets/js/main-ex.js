@@ -77,8 +77,8 @@ $(function(){
         var output = ""
         if (
           group !== "all" &&
-          group !== "pp-sec" &&
-          group !== "ex-sec" &&
+          group !== "payment-processors" &&
+          group !== "exchanges" &&
           group !== "otc-traders") {
               output = "(" + group + ")";
               output = output.replace('-',' ');
@@ -214,7 +214,7 @@ function exchangesClick(){
   $('#exchanges-filter').show();
   $('#exchanges-sec').show();
   $('#otc-sec').hide();
-  $('#pp-sec').hide();
+  $('#payment-processors').hide();
   $('#pp-providers').hide();
   $('#otc-providers').hide();
 }
@@ -229,7 +229,7 @@ function otcClick(){
   $('#payment-processors').hide();
   $('#payment-desc').hide();
   $('#exchanges-sec').hide();
-  $('#pp-sec').hide();
+  $('#payment-processors').hide();
   $('#pp-providers').hide();
   $('#otc-providers').show();
 }
@@ -238,7 +238,7 @@ function ppClick(){
   $('#exchanges-header').html($("#payment-processors").html());
   $('#exchanges-desc').html($("#payment-desc").html());
   flicker();
-  $('#pp-sec').hide();
+  $('#payment-processors').hide();
   $('#ex-filter').hide();
   $('#exchanges-filter').hide();
   $('#payment-processors').hide();
