@@ -1363,7 +1363,6 @@ body {
   margin-left: auto;
   background-color: #fff;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
-  cursor: pointer;
 }
 
 .button {
@@ -1604,6 +1603,7 @@ body {
   float: left;
   -webkit-transition: all 80ms cubic-bezier(.455, .03, .515, .955);
   transition: all 80ms cubic-bezier(.455, .03, .515, .955);
+  cursor: pointer;
 }
 
 .navigation-button:hover {
@@ -2051,6 +2051,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .lang-menu:hover {
