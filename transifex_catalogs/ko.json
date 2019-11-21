@@ -158,7 +158,7 @@
   "home_guide_39": "<p>Decred가 지속적으로 커뮤니티의 개발 요구를 만족시키기 위해, 새로운 블록에서 생기는 보상의 일부는 Decred의 개발팀에게 전달됩니다. 다음은 2018년과 2019년 초에 계획되어 있는 주요 개발 사항들입니다.</p><ul><li>라이트닝 네트워크(Lightning Network)</li><li>최초 보안성 출시</li><li>자금 통제권의 탈중앙화</li><li>탈중앙화된 자치 기구</li><li>확장 최적화</li><li>Decrediton 통합</li><li>마케팅 확대</li><li>탈중앙화된 환전 제안</li></ul><p>자세한 내용은 저희 블로그에서 확인하실 수 있습니다. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">디지털 통화의 미래인 Decred에 오신 여러분을 환영합니다</a></p>",
   "home_guide_40": "계속",
   "home_guide_41": "뒤로",
-  "downloads_description": "Decred를 처음 사용하신다면 <a href=\"../#guide\">시작하기 투어</a> 또는 <a href=\"../#platform\">기술 개요</a>에서 자세한 내용을 읽어보십시오. Decred 바이너리 다운로드 시 <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">바이너리 검증</a> 단계에 따라 체크섬을 검증하십시오.",
+  "downloads_description": "Decred를 처음 사용하신다면 <a href=\"../#guide\">시작하기 투어</a> 또는 <a href=\"../#platform\">기술 개요</a>에서 자세한 내용을 읽어보십시오. Decred 바이너리 다운로드 시 <a href=\"https://docs.decred.org/advanced/verifying-binaries/\">바이너리 검증</a> 단계에 따라 체크섬을 검증하십시오.",
   "downloads_category_core": "코어 소프트웨어",
   "downloads_category_mining_software": "채굴 소프트웨어",
   "downloads_category_3rd_party_wallets": "타사 지갑",

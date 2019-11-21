@@ -158,7 +158,7 @@
   "home_guide_39": "<p>来自新区块的一部分奖励将用于支持 Decred 项目的发展，以确保它能够持续改善，满足现在和未来几年内社区的需求和愿景。这些只是计划在2018年和2019年初实现的一些功能：</p><ul><li>闪电网络</li><li>初步的隐私功能</li><li>去中心化的自治基金</li><li>去中心化自治团体</li><li>可扩展性优化</li><li>decrediton的功能集成</li><li>增加市场推广</li><li>关于去中心化交易所的建议</li></ul><p>欢迎来我们的博客上浏览这些和其他更多内容。<a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">欢迎来到Decred:未来全体民众自己的数字货币</a></p>",
   "home_guide_40": "继续",
   "home_guide_41": "返回",
-  "downloads_description": "若您是新手，若您想对我们深入了解，请务必阅读<a href=\"../#guide\">入门指南</a>或<a href=\"../#platform\">技术概述</a>。如果您正在下载Decred二进制文件，请按照以下<a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">二进制验证</a>步骤来验证校验。",
+  "downloads_description": "若您是新手，若您想对我们深入了解，请务必阅读<a href=\"../#guide\">入门指南</a>或<a href=\"../#platform\">技术概述</a>。如果您正在下载Decred二进制文件，请按照以下<a href=\"https://docs.decred.org/advanced/verifying-binaries/\">二进制验证</a>步骤来验证校验。",
   "downloads_category_core": "核心软件",
   "downloads_category_mining_software": "挖矿软件",
   "downloads_category_3rd_party_wallets": "第 3 方钱包",

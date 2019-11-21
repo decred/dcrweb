@@ -158,7 +158,7 @@
   "home_guide_39": "<p>يذهب جزء من المكافأة من كتل جديدة نحو تطوير Decred لضمان أنها ستستمر في التطور لاستيفاء احتياجات ورغبات المجتمع الآن وخلال السنوات القادمة. هذه هي بعض الخصائص المخطط لها في 2018 وأوائل 2019:</p><ul><li>بروتوكول Lightning network</li><li>إصدار الخصوصية المبدئي</li><li>التحكم اللا مركزي في التمويل</li><li>الكيانات المستقلة اللا مركزية</li><li>تحسينات قابلية التوسع</li><li>إدماجات Decrediton</li><li>النمو التسويقي</li><li>اقتراح لتبادل لا مركزي</li></ul><p>اقرأ عن كل هذه الموضوعات والمزيد على مدونتنا. <a href=\"https://blog.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">مرحبًا بكم في Decred: مستقبل العملة الرقمية المستقلة</a></p>",
   "home_guide_40": "متابعة",
   "home_guide_41": "رجوع",
-  "downloads_description": "إذا كنت جديدًا على Decred، فتأكد من قراءة <a href=\"../#guide\">جولة البدء</a> أو <a href=\"../#platform\">النظرة العامة الفنية</a> إذا كنت ترغب في التعمق. إذا كنت تقوم بتنزيل ثنائيات Decred، فيرجى اتباع خطوات <a href=\"https://github.com/decred/decred-binaries/blob/v1.1.3/README.md#verifying-binaries\">التحقق من الثنائيات</a> هذه للتحقق من المجاميع الاختبارية.",
+  "downloads_description": "إذا كنت جديدًا على Decred، فتأكد من قراءة <a href=\"../#guide\">جولة البدء</a> أو <a href=\"../#platform\">النظرة العامة الفنية</a> إذا كنت ترغب في التعمق. إذا كنت تقوم بتنزيل ثنائيات Decred، فيرجى اتباع خطوات <a href=\"https://docs.decred.org/advanced/verifying-binaries/\">التحقق من الثنائيات</a> هذه للتحقق من المجاميع الاختبارية.",
   "downloads_category_core": "البرنامج الأساسي",
   "downloads_category_mining_software": "برنامج التعدين",
   "downloads_category_3rd_party_wallets": "محافظ الطرف الخارجي",
