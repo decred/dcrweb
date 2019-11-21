@@ -97,18 +97,6 @@
   logo_src: "kaiserex.jpg"
   name: Kaiserex
 -
-  url: "https://nanex.co"
-  tags:
-    - all
-  logo_src: "nanex.jpg"
-  name: Nanex
--
-  url: "https://www.ooobtc.com"
-  tags:
-    - "high-liquidity"
-  logo_src: "ooobtc.jpg"
-  name: OOOBTC
--
   url: "https://braziliex.com/"
   tags:
     - fiat
