@@ -55,15 +55,10 @@ $(document).ready(function () {
 		API_ROOT = "https://api.decred.org",
 
 		// get json
-		APIreleases = 'https://api.github.com/repos/decred/decred-release/releases',
 		APIstats = API_ROOT + '/?c=gcs',
 		APIdc = API_ROOT + '/?c=dc',
 		APIstakepools = API_ROOT + '/?c=gsd',
-		jsonPercentMined = pow = pos = devs = all = count = null,
-		statisticsRelease = $('#statisticsRelease'),
-		statisticsDownloads = $('#statisticsDownloads'),
-		footerRelease = $('#footerRelease'),
-		footerDownloads = $('#footerDownloads'),
+		jsonPercentMined = pow = pos = devs = all = null,
 
 
 
@@ -361,10 +356,9 @@ $(document).ready(function () {
 	});
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
-		count = data[1];
+		$('#footerDownloads').text(data[1]);
 	});
 
-	statisticsDownloads.add(footerDownloads).text(count);
 	// add calculated percent to UI bar
 	percentNumber.text(jsonPercentMined + '% ');
 
