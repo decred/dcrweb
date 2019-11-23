@@ -35,12 +35,7 @@ $(document).ready(function () {
 		});
 		}
 	});
-
-	// for json API
-	$.ajaxSetup({
-		async: false
-	});
-
+	
 	// language selector
 	$langSelector = $("#language-selector");
 
@@ -58,9 +53,6 @@ $(document).ready(function () {
 		APIstats = API_ROOT + '/?c=gcs',
 		APIdc = API_ROOT + '/?c=dc',
 		APIstakepools = API_ROOT + '/?c=gsd',
-		jsonPercentMined = pow = pos = devs = all = null,
-
-
 
 		// font weight
 		fontRegular = 'fontregular',
@@ -119,13 +111,11 @@ $(document).ready(function () {
 
 		// statistics
 		statistics = $('.statistics'),
-		bar = $('.statisticsmindebarpercent'),
 
 		networkStatistics = $('.networkstatistics'),
 		networkStatisticsSection = $('.networkstatisticssection'),
 		networkStatisticsFloat = $('.networkstatisticsfloat'),
 
-		percentNumber = $('.percentnumber'),
 		percentMined = $('.percentmined'),
 
 		developmentRowNum = $('.developmentrownum'),
@@ -353,36 +343,34 @@ $(document).ready(function () {
 		pos = mined * 0.3;
 		devs = mined * 0.1;
 		all = premine + pow + pos + devs;
+
+		// add calculated percent to UI bar
+		$('.percentnumber').text(jsonPercentMined + '% ');
+
+		//mission section
+		var trianglesHide = triangle.length - (Math.floor(triangle.length / 100 * jsonPercentMined) + 1),
+			triangles = [];
+		for (var i = 1; i <= triangle.length; i++) {
+			triangles.push(i);
+		}
+
+		triangles.sort(function () {
+			return .5 - Math.random();
+		}).slice(0, trianglesHide).forEach(function (e) {
+			triangle.eq(e).hide();
+		}, this);
+
+		function numberWithSpaces(x) {
+			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+		}
+		chartSupply.text(numberWithSpaces(Math.floor(all) + 1));
+		chartPercent.text(jsonPercentMined + '%');
 	});
+	
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
 		$('#footerDownloads').text(data[1]);
 	});
-
-	// add calculated percent to UI bar
-	percentNumber.text(jsonPercentMined + '% ');
-
-
-
-	//mission section
-	var trianglesHide = triangle.length - (Math.floor(triangle.length / 100 * jsonPercentMined) + 1),
-		triangles = [];
-	for (var i = 1; i <= triangle.length; i++) {
-		triangles.push(i);
-	}
-
-	triangles.sort( function() {
-		return .5 - Math.random();
-	}).slice(0, trianglesHide).forEach( function(e) {
-		triangle.eq(e).hide();
-	}, this);
-
-	function numberWithSpaces(x) {
-		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-	}
-	chartSupply.text(numberWithSpaces(Math.floor(all) + 1));
-	chartPercent.text(jsonPercentMined + '%');
-
 
 	// guide, child, content min and max height
 	block.add(child).each( function() {
@@ -486,14 +474,6 @@ $(document).ready(function () {
 	}).mouseleave( function() {
 		slogan.removeClass('opacity075');
 	});
-
-	// upon scroll show mined %
-	viewport.scroll( function() {
-		if (verge.inViewport(percentMined, -200)) {
-			bar.css('width', jsonPercentMined + '%');
-		}
-	});
-
 
 	// subpage header
 	viewport.trigger('resize');
