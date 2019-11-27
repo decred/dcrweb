@@ -1,0 +1,123 @@
+{{ define "content-top" }}
+
+{{ end }}
+
+
+{{ define "main" }}
+
+    <div class="full-width">
+        <div class="_960 ">
+
+            <div class="subpage-content-section ex" id="subpages">
+                <div class="subpage-content">
+                    <div class="subpage-description__heading" translate>
+                        <p>Consensus is how distributed parties in a peer-to-peer system 
+                        agree on the current state of the network, including the order of transactions and account balances. It is how transactions are validated and new blocks are broadcast to the blockchain, and how trusted third parties and double spending are avoided. 
+                        Multiple systems exist to serve this function.</p>
+                    </div>
+
+                    <div class="d-flex__text-1">
+                         <div class="subpage-description" translate>
+                            <p class="text-block-7">Proof-of-Work (PoW)</p>
+                            <p>In PoW, Miners compete to solve complex computational puzzles. The puzzles are difficult, but the solutions are easy to verify. When a solution is found and verified by other members of the network, the block is added to the chain and the miner receives the block reward for their service. The large amount of computational power, or hash rate, required to solve these puzzles serves to protect the network.</p>
+                            <p class="text-block-10">An Imperfect Solution</p>
+                            <ul class="subpage-description__list">
+                                <li>Energy & machine use is inefficient</li>
+                                <li>51% attacks-re-write previous blocks, steal funds</li>
+                            </ul> 
+                        </div>
+                        <div class="subpage-description r">
+                            <div>
+                                <p class="text-block-7">Proof-of-Stake (PoS)</p>
+                                <p>PoS is an alternative method to agree upon the state of the blockchain based on the principle that coin holders are interested in a secure network. A node validator for the next block is pseudo randomly selected from time-locked coins, often based upon age or wealth. The staker “forges” the blocks by verifying the transactions and adding them to the blockchain. If the network detects fraud, the forger node will lose part of their stake and lose future rights to participate in staking. </p>
+                                <p class="text-block-10">An Imperfect Solution</p>
+                                <ul class="subpage-description__list">
+                                    <li>Nothing at stake-insufficient incentive for good behavior</li>
+                                    <li>Crypto derivatives-shorting incentivizes bad behavior</li>
+                                    <li>Feudalism-rich get richer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src="/images/Rectangle_2274.jpg" class="w-100" alt="">
+
+                    <div class="d-flex__text-1">
+                         <div class="subpage-description" translate>
+                            <p class="text-block-7">GPUs vs ASICs</p>
+                            <p>There are two types of mining devices: GPUs and ASICs. GPUs can mine any coins, but ASICs are application specific to a single hash algorithm and are typically much more efficient. GPU mineable coins had previously been promoted as a decentralized solution, but they have become victims of multiple 51% attacks due to the emergence of rentable GPU hash power. ASICs are now considered to be the more secure option, provided the coin is dominant within the hash function.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex__text-1">
+                         <div class="subpage-description" translate>
+                            <p class="text-block-7">Decred’s Hybrid Solution</p>
+                            <p>Decred employs a combination of PoW and PoS to yield the best of both, mitigate their weaknesses, and deliver a layered consensus mechanism that makes it far more secure than other currencies. Decred uses conventional PoW, typically ASIC mined using the Blake-256 hash algorithm, for which it is dominant. Decred holders time-lock their funds to purchase tickets, and five tickets are pseudorandomly selected to validate the proof-of-work for each block. If at least 3 of the 5 tickets approve the work of the miner, the block is approved and added to the blockchain.</p>
+
+                            <p class="text-block-11">Resistance to Attacks</p>
+                            <p>Because five tickets are randomly selected for each block, miners cannot mine in secret. The result is that a combination of mining hash power and staking participation are required for a successful attack on the network. Based upon the cost of an attack compared with the value of the network, Decred is more than 20 times more secure than other top cryptocurrencies.</p>
+                        </div>
+                        <div class="subpage-description r">
+                            <img src="/images/Rectangle_2273.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div id="get-into" class="panelSection" style="width: 100%;">
+                        <p class="text-block-7">Find out more about</p>
+
+                        <div class="row">
+
+                            <div class="col">
+                                <div class="get-into">
+                                    <a href="https://www.decred.org/community/">
+                                        <div class="get-into__content">
+                                            <div class="text-block-9">Self-funding</div>
+                                            <div>
+                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
+                                                <p class="get-into__link">See decred.org/Self-funding →</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="get-into">
+                                    <a href="https://www.decred.org/press/">
+                                        <div class="get-into__content">
+                                            <div class="text-block-9">Security</div>
+                                            <div>
+                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
+                                                <p class="get-into__link">See decred.org/Security →</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="get-into">
+                                    <a href="https://www.decred.org/press/">
+                                        <div class="get-into__content">
+                                            <div class="text-block-9">History</div>
+                                            <div>
+                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
+                                                <p class="get-into__link">See decred.org/History →</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subpage-footer">
+        <div class="subpage-footer__content width1100">
+            <div><a href="#">Brand Resources</a> <a href="#">Communication Guidelines</a> <a href="#">Press Contacts</a> <a href="#">Liscening Information</a></div>
+            <div><a href="#" class="btn">Sign up for Decred Newsletter ›</a></div>
+        </div>
+    </div>
+{{ end  }}
+
+
