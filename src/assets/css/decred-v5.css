@@ -3719,14 +3719,14 @@ p.text-block-11 {
 .history-principles {
   margin-right: 10px;
   margin-bottom: 36px;
-  max-width: 260px;
+  max-width: 280px;
   padding: 0 24px;
 }
 
 .history-principles.last {
   margin-right: 10px;
   margin-bottom: 36px;
-  max-width: 420px;
+  max-width: 380px;
   padding: 0 24px;
 }
 
@@ -3736,6 +3736,7 @@ p.text-block-11 {
 }
 
 .text-size--10 {
+  font-family: "dcrweb-code";
   margin-bottom: 0;
   font-size: 10px;
   font-weight: 600;
@@ -3743,6 +3744,7 @@ p.text-block-11 {
 }
 
 .text-size--12 {
+  font-family: "dcrweb-code";
   margin-bottom: 24px;
   font-size: 12px;
   font-weight: 600;
@@ -3773,6 +3775,42 @@ p.text-block-11 {
   border: 0;
   height: 1px;
   background: #091440;
+}
+
+.timeline table {
+  margin-left: 24px;
+}
+
+.timeline table tr {
+  height: 37px;
+}
+
+.timeline .span {
+  font-family: "dcrweb-code";
+  font-size: 12px;
+  font-weight: 500;
+  color: #596d81;
+}
+
+.circle {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #2f74fb;
+}
+
+.circle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  border: 1px solid #2f74fb;
+  border-width: 0 0 0 1px;
+  width: 1px;
+  height: 30px;
 }
 
 .subpage-description.r {
