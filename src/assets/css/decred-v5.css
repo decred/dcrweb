@@ -3606,7 +3606,6 @@ html[dir="rtl"] .lang-menu {
 
 .subpage-description p {
   margin-bottom: 24px;
-  padding-left: 24px;
 }
 
 .subpage-description ol {
@@ -3664,6 +3663,21 @@ p.text-block-11 {
   width: 100%;
 }
 
+.subpage-content__menu {
+  padding-top: 30px;
+}
+.subpage-content__menu a {
+  margin-right: 28px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #3d5873;
+}
+
+.subpage-content__menu a:hover {
+  color: #091440;
+  text-decoration: underline;
+}
+
 .subpage-content__history {
   background-color: #f9fafa; 
   padding: 57px 0 37px;
@@ -3688,7 +3702,7 @@ p.text-block-11 {
   margin-right: 10px;
   margin-bottom: 36px;
   max-width: 310px;
-  padding: 0 24px;
+  padding-right: 48px;
 }
 
 .history__text-block {
