@@ -1725,7 +1725,7 @@ body.noscroll {
   padding-left: 30px;
 }
 
-@media (min-width: 768px) and (min-height: 1024px) {
+@media (min-width: 768px) and (min-height: 415px) {
   .navigation-top {
     padding-top: 120px;
   }
