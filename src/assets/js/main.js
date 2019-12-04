@@ -36,14 +36,6 @@ $(document).ready(function () {
 		}
 	});
 	
-	// language selector
-	$langSelector = $("#language-selector");
-
-	$langSelector.on('click', '.lang-selection', function(e){
-		_paq.push(['trackEvent', 'Language', 'Select', $(e.currentTarget).data('language')]);
-	});
-
-
 	var time = 100,
 		viewport = $(window),
 
