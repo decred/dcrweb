@@ -242,7 +242,7 @@ body.noscroll {
   margin-top: 0 !important;
 }
 
-.below.subpage.brief {
+.below.subpage.brief, .below.subpage.sustainability, .below.subpage.security, .below.subpage.adaptability {
   overflow: visible;
 }
 
@@ -3631,6 +3631,12 @@ html[dir="rtl"] .lang-menu {
   padding-left: 24px;
 }
 
+@media screen and (max-width: 768px) {
+  .subpage-description__heading {
+    width: auto;
+  }
+}
+
 ul.subpage-description__list {
   margin-left: 0;
 }
@@ -3663,13 +3669,27 @@ p.text-block-11 {
 
 .subpage-content__menu {
   padding-top: 30px;
+  overflow-wrap: normal;
 }
 .subpage-content__menu a {
-  margin-right: 28px;
+  margin-right: 24px;
   font-size: 12px;
+  line-height: 2.83;
   text-decoration: none;
   color: #3d5873;
   font-family: dcrweb-code,verdana,sans-serif!important;
+}
+.subpage-content__menu br {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .subpage-content__menu a {
+    margin-right: 20px;
+  }
+  .subpage-content__menu br {
+    display: block;
+  }
 }
 
 .subpage-content__menu a:hover, .subpage-content__menu a.active {
