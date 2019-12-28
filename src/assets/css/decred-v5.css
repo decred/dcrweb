@@ -3534,6 +3534,35 @@ html[dir="rtl"] .lang-menu {
     font-size: 52px;
   }
 }
+.landing-title {
+  font-size: 28px;
+  line-height: 34px;
+  color: #091440;
+}
+
+@media screen and (min-width: 321px) {
+  .landing-title {
+    font-size: 38px;
+    line-height: 42px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .landing-title {
+    font-size: 48px;
+    line-height: 56px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .landing-title {
+    font-size: 54px;
+    line-height: 64px;
+    width: 60%;
+  }
+}
 
 .subpage-logo {
   width: 166px;
