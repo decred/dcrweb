@@ -1,10 +1,15 @@
 {{ define "fronta"  }}
-<div class="fronta subpage video-header">
+<div class="fronta landing video-header">
     <video autoplay loop muted poster="/videos/headers/landing/fallback.jpg">
     </video>
     <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo slack-join w-inline-block"></a></div>
     <div class="_960 subpage-header">
         <div class="landing-title">Community-Directed, Superior Store of Value</div>
+        <div class="d-flex">
+            <a class="play-btn" href="#"><img src="/images/play.svg" alt=""><span>Watch Video</span></a>
+            <a class="wallet-btn" href="#"><img src="/images/wallet.svg" alt=""> Download Wallet</a>
+            <div class="all-downloads">Decrediton for Mac OS X <a href="#">All Downloads →</a></div>
+        </div>
     </div>
 </div>
 {{ end }}
@@ -12,9 +17,33 @@
 
 {{ define "main" }}
 
-    <div class="full-width">
+    <div class="full-width landing-content">
         <div class="_960">
-            
+            <div class="landing-conten-bg secure-bg">
+                <div>
+                    <p class="heading-text-block">Secure</p>
+                    <p>Decred employs an innovative hybrid proof-of-work/proof-of stake system that layers security and carefully aligns incentives. This system yields the best of both worlds, making it an order of magnitude more expensive to attack than pure attack than pure Proof-of-work or pure Proof-of-stake. </p>
+                </div>
+                <div>
+                    <a href="#">Read More About Security →</a> <a href="#">Bug Bounty Program ⇱</a>
+                </div>
+            </div>
+            <div class="landing-conten-bg adaptable-bg">
+                <div>
+                    <p class="heading-text-block">Adaptable</p>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="landing-conten-bg sustainable-bg">
+                <div>
+                    <p class="heading-text-block">Sustainable  →</p>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
         </div>
     </div>
     <div class="subpage-footer">

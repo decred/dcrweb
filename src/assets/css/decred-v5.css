@@ -251,6 +251,11 @@ body.noscroll {
   margin-top: 345px;
 }
 
+.below.landing {
+  top: 0%;
+  margin-top: 620px;
+}
+
 .statistics {
   padding-top: 65px;
   padding-bottom: 65px;
@@ -679,6 +684,19 @@ body.noscroll {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-color: #0c1e3e;
+}
+
+.fronta.landing {
+  height: 620px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: flex-start;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -3535,6 +3553,8 @@ html[dir="rtl"] .lang-menu {
   }
 }
 .landing-title {
+  margin-top: 50px;
+  margin-bottom: 19px;
   font-size: 28px;
   line-height: 34px;
   color: #091440;
@@ -3561,6 +3581,161 @@ html[dir="rtl"] .lang-menu {
     font-size: 54px;
     line-height: 64px;
     width: 60%;
+  }
+}
+
+.play-btn {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 55px;
+  height: 38px;
+  border-radius: 2px;
+  background-color: #2970ff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.28;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.play-btn span {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .play-btn {
+    width: 163px;
+  }
+  .play-btn img {
+    margin-right: 10px;
+  }
+  .play-btn span {
+    display: block;
+  }
+}
+
+.wallet-btn {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  width: 201px;
+  height: 38px;
+  border-radius: 3px;
+  border: solid 1px #2970ff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.28;
+  color: #2970ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.wallet-btn img {
+  margin-right: 10px;
+}
+
+.all-downloads {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #000000;
+}
+.all-downloads a {
+  text-decoration: none;
+  color: #2970ff;
+}
+
+@media screen and (max-width: 769px) {
+  .wallet-btn, .all-downloads {
+    display: none;
+  }
+}
+
+.landing-content {
+  padding-bottom: 20px;
+  background-color: #f3f5f6;
+}
+.landing-conten-bg {
+  margin-bottom: 20px;
+  padding: 50px 40px;
+  height: 448px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.landing-conten-bg p {
+  width: 100%
+}
+@media screen and (min-width: 480px) {
+  .landing-conten-bg p {
+    width: 75%
+  }
+}
+@media screen and (min-width: 769px) {
+  .landing-conten-bg p {
+    width: 50%
+  }
+}
+.landing-conten-bg a {
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+}
+.secure-bg {
+  background-image: url('../images/n-decred-security-2048-x-1024.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.adaptable-bg {
+  background-image: url('../images/adaptable.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.sustainable-bg {
+  background-image: url('../images/sustainable.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.heading-text-block {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+@media screen and (min-width: 480px) {
+  .heading-text-block {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .heading-text-block {
+    font-size: 34px;
+    line-height: 42px;
   }
 }
 
@@ -5415,6 +5590,9 @@ p.text-block-11 {
   .below.subpage {
     margin-top: 300px;
   }
+  .below.landing {
+    margin-top: 420px;
+  }
   .statisticscontent.width1100 {
     padding-right: 60px;
     padding-left: 60px;
@@ -5959,6 +6137,10 @@ p.text-block-11 {
     width: 20px;
     height: 20px;
     background-color: #fd714a;
+  }
+  .subpage-footer__content {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
