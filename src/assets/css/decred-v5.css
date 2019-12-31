@@ -3673,7 +3673,7 @@ html[dir="rtl"] .lang-menu {
 .landing-conten-bg {
   margin-bottom: 20px;
   padding: 50px 40px;
-  height: 448px;
+  height: 363px;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -3682,39 +3682,53 @@ html[dir="rtl"] .lang-menu {
   flex-direction: column;
   justify-content: space-between;
 }
-.landing-conten-bg p {
-  width: 100%
+.landing-text-block {
+  width: 100%;
+  font-size: 13px;
+  line-height: 19px;
+}
+@media screen and (min-width: 321px) {
+  .landing-text-block {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 @media screen and (min-width: 480px) {
-  .landing-conten-bg p {
+  .landing-conten-bg {
+    height: 450px;
+  }
+  .landing-text-block {
     width: 75%
   }
 }
 @media screen and (min-width: 769px) {
-  .landing-conten-bg p {
+  .landing-conten-bg {
+    height: 450px;
+  }
+  .landing-text-block p {
     width: 50%
   }
 }
 .landing-conten-bg a {
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 20px;
   color: #fff;
   text-decoration: none;
 }
 .secure-bg {
-  background-image: url('../images/n-decred-security-2048-x-1024.png');
+  background-image: url('../images/bg_320.png');
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
 }
 .adaptable-bg {
-  background-image: url('../images/adaptable.png');
+  background-image: url('../images/bg_320.png');
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
 }
 .sustainable-bg {
-  background-image: url('../images/sustainable.png');
+  background-image: url('../images/bg_320.png');
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   background-size: contain;
@@ -3725,17 +3739,56 @@ html[dir="rtl"] .lang-menu {
   line-height: 31px;
 }
 
+@media screen and (min-width: 321px) {
+  .secure-bg {
+    background-image: url('../images/secure_479.png');
+  }
+ .adaptable-bg {
+    background-image: url('../images/adaptable_479.png');
+  }
+  .sustainable-bg {
+    background-image: url('../images/sustainable_479.png');
+  }
+  .landing-conten-bg a {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
 @media screen and (min-width: 480px) {
+  .secure-bg {
+    background-image: url('../images/secure_768.png');
+  }
+ .adaptable-bg {
+    background-image: url('../images/adaptable_768.png');
+  }
+  .sustainable-bg {
+    background-image: url('../images/sustainable_768.png');
+  }
   .heading-text-block {
     font-size: 28px;
     line-height: 36px;
   }
+  .landing-conten-bg a {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 769px) {
+  .secure-bg {
+    background-image: url('../images/n-decred-security-2048-x-1024.png');
+  }
+  .adaptable-bg {
+    background-image: url('../images/adaptable.png');
+  }
+  .sustainable-bg {
+    background-image: url('../images/sustainable.png');
+  }
   .heading-text-block {
     font-size: 34px;
     line-height: 42px;
+  }
+  .landing-conten-bg a {
+    font-size: 18px;
   }
 }
 
