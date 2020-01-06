@@ -3667,10 +3667,10 @@ html[dir="rtl"] .lang-menu {
 }
 
 .landing-content {
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   background-color: #f3f5f6;
 }
-.landing-conten-bg {
+.landing-content-bg {
   margin-bottom: 20px;
   padding: 50px 40px;
   width: 100%;
@@ -3684,6 +3684,21 @@ html[dir="rtl"] .lang-menu {
   justify-content: space-between;
   background: #091440;
 }
+.landing-bg {
+  margin-right: 21px;
+  padding: 20px;
+  width: 224px;
+  height: 190px;
+  background: #091440;
+}
+.landing-bg.last {
+  margin-right: -21px;
+}
+.landing-heading-block {
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
 .landing-text-block {
   width: 100%;
   font-size: 13px;
@@ -3694,12 +3709,12 @@ html[dir="rtl"] .lang-menu {
     font-size: 16px;
     line-height: 22px;
   }
-  .landing-conten-bg {
+  .landing-content-bg {
     height: 363px;
   }
 }
 @media screen and (min-width: 480px) {
-  .landing-conten-bg {
+  .landing-content-bg {
     height: 450px;
   }
   .landing-text-block {
@@ -3707,14 +3722,14 @@ html[dir="rtl"] .lang-menu {
   }
 }
 @media screen and (min-width: 769px) {
-  .landing-conten-bg {
+  .landing-content-bg {
     height: 450px;
   }
   .landing-text-block {
     width: 50%
   }
 }
-.landing-conten-bg a {
+.landing-content-bg a {
   font-size: 16px;
   line-height: 20px;
   color: #fff;
@@ -3728,7 +3743,7 @@ html[dir="rtl"] .lang-menu {
 
 @media screen and (min-width: 321px) {
 
-  .landing-conten-bg a {
+  .landing-content-bg a {
     font-size: 16px;
     line-height: 23px;
   }
@@ -3739,7 +3754,7 @@ html[dir="rtl"] .lang-menu {
     font-size: 28px;
     line-height: 36px;
   }
-  .landing-conten-bg a {
+  .landing-content-bg a {
     font-size: 18px;
   }
 }
@@ -3750,9 +3765,30 @@ html[dir="rtl"] .lang-menu {
     font-size: 34px;
     line-height: 42px;
   }
-  .landing-conten-bg a {
+  .landing-content-bg a {
     font-size: 18px;
   }
+}
+
+.latest-news {
+  padding: 45px 0 50px;
+  background: #eaeef0;
+}
+.latest-news__title {
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-news__title p {
+  font-size: 22px;
+  line-height: 40px;
+  color: #091440;
+
+}
+.latest-news__title a {
+  font-size: 16px;
+  line-height: 42px;
+  color: #596d81;
+  text-decoration: none;
 }
 
 .subpage-logo {
@@ -4364,8 +4400,7 @@ p.text-block-11 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 982px;
-  margin-left: -10px;
+  width: 960px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
