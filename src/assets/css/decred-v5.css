@@ -3729,7 +3729,12 @@ html[dir="rtl"] .lang-menu {
     width: 50%
   }
 }
-.landing-content-bg a {
+.landing-content-link {
+
+}
+.landing-content-link a {
+  display: block;
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
@@ -3743,7 +3748,7 @@ html[dir="rtl"] .lang-menu {
 
 @media screen and (min-width: 321px) {
 
-  .landing-content-bg a {
+  .landing-content-link a {
     font-size: 16px;
     line-height: 23px;
   }
@@ -3754,7 +3759,7 @@ html[dir="rtl"] .lang-menu {
     font-size: 28px;
     line-height: 36px;
   }
-  .landing-content-bg a {
+  .landing-content-link a {
     font-size: 18px;
   }
 }
@@ -3765,7 +3770,7 @@ html[dir="rtl"] .lang-menu {
     font-size: 34px;
     line-height: 42px;
   }
-  .landing-content-bg a {
+  .landing-content-link a {
     font-size: 18px;
   }
 }
