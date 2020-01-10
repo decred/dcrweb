@@ -1,5 +1,7 @@
 <div class="_960">
+    <label for="offcanvas" class="toggler">
     <div class="navigation w-clearfix">
+        <input type="checkbox" id="offcanvas" class="toggle" style="display: none" />
         <div class="navigation-button">
             <div class="nav-open-close"></div>
         </div>
@@ -7,7 +9,7 @@
         {{ if .IsHome }}
             {{ partial "lang-selector.html" . }}
         {{ end }}
-
+        
         <div class="link-section">
             <div class="navigation-top">
                 <div class="nav-links-wrap w-clearfix">
@@ -94,4 +96,5 @@
         </div>
         
     </div>
+    </label>
 </div>

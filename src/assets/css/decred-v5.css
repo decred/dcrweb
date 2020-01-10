@@ -1705,7 +1705,7 @@ body.noscroll {
   transform: translate(0%, 0px);
 }
 
-.link-section.active {
+.toggle:checked + .navigation-button + .lang-menu + .link-section, .toggle:checked + .navigation-button + .link-section {
   opacity: 1;
   -webkit-transform: translate(0%, 0px);
   -ms-transform: translate(0%, 0px);
@@ -1837,6 +1837,7 @@ ul, li, nav {
   color: #091440;
   font-size: 18px;
   line-height: 36px;
+  font-weight: normal;
   text-decoration: none;
   position: relative;
   display: table;
@@ -1912,7 +1913,7 @@ ul, li, nav {
   background-image: url('../images/open-menu.svg');
 }
 
-.nav-open-close.active {
+.toggle:checked + .navigation-button .nav-open-close {
   -webkit-transform: translate(-50%, 0px);
   -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
@@ -2485,6 +2486,10 @@ ul, li, nav {
 
 .bg-illustration > video {
   width: 100%;
+}
+
+.bg-illustration > video::-webkit-media-controls {
+  display:none !important;
 }
 
 .bg-illustration.active {
