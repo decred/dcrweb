@@ -69,7 +69,7 @@ The below commands must be run when either the content changes or there are upda
 
 #### Importing new translations and content updates
 
-When translations are added/updated in [Transifex](https://www.transifex.com/decred/), pull the updates:
+When translations are added/updated in [Transifex](https://www.transifex.com/decred/public/), pull the updates:
 
 ```sh
 bin/transifex_pull.sh
