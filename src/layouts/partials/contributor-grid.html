@@ -30,37 +30,37 @@
         <div class="team-member-social">
             {{ if ne .slack_alias nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://decred.slack.com/team/{{ .slack_alias }}" class="slack team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_slack.svg" class="team-member-social-link-image">
+                <img alt="" src="{{ .Site.BaseURL }}/images/team_slack.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
 
             {{ if ne .matrix_id nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://matrix.to/#/@{{ .matrix_id }}" class="matrix team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_matrix.svg" class="team-member-social-link-image">
+                <img alt="" src="{{ .Site.BaseURL }}/images/team_matrix.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
 
             {{ if ne .twitter_alias nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ .twitter_alias }}" class="twitter team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_twitter.svg" class="team-member-social-link-image">
+                <img alt="" src="{{ .Site.BaseURL }}/images/team_twitter.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
 
             {{ if ne .linkedin_url nil }}
             <a target="_blank" rel="noopener noreferrer" href="{{ .linkedin_url }}" class="linkedin team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_linkedin.svg" class="team-member-social-link-image">
+                <img alt="" src="{{ .Site.BaseURL }}/images/team_linkedin.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
 
             {{ if ne .github_id nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/{{ .github_id }}" class="team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_github.svg" class="team-member-social-link-image">
+                <img alt="" src="{{ .Site.BaseURL }}/images/team_github.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
 
             {{ if ne .medium_alias nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@{{ .medium_alias }}" class="medium team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_medium.svg" class="team-member-social-link-image">
+                <img alt="" src="{{ .Site.BaseURL }}/images/team_medium.svg" class="team-member-social-link-image">
             </a>
             {{ end }}
         </div>
