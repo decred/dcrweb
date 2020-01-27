@@ -1,138 +1,79 @@
-{{ define "fronta"  }}
-<div class="fronta subpage video-header">
-    <video autoplay loop muted poster="/videos/headers/adaptability/fallback.jpg">
-    </video>
-    <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a></div>
-    <div class="_960 subpage-header">
-        <div class="subpage-title">ADAPTABLE</div>
-    </div>
-</div>
-{{ end }}
-
-
 {{ define "main" }}
 
     <div class="full-width">
         <div class="_960">
             <div class="print-version">
                 <div class="print-pdf">
-                    <a class="button news_banner__button" href="#"
+                    <a class="button news_banner__button play-modal" href="#"
                        target="_blank">
                         <img src="{{ .Site.BaseURL }}/images/play.svg" width="20" height="20" alt="">
-                        <span>On Adaptability</span>
+                        <span>{{ T "adaptability_playbutton" }}</span>
                     </a>
                 </div>
             </div>
             <div class="subpage-content__menu">
-               <a href="#">WHAT IS DECRED|</a><a class="active" href="/adaptability">ADAPTABLE</a><a href="/security">SECURE</a><br><a href="/sustainability">SUSTAINABLE</a><a href="/history">HISTORY</a>
+               <a href="#">{{ T "subpage_nav_whatis" }}|</a><a class="active" href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a><a href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a><br><a href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a><a href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
             </div>
 
             <div class="subpage-content-section ex" id="adaptability">
                 <div class="subpage-content">
                     <div class="subpage-description__heading" translate>
-                        <p>At some point, contentious decisions will need to be made about the protocol. Decred has built-in formal systems that ensure order and fairness in the process. </p>
+                        <p>{{ T "adaptability_introtext" }}</p>
                     </div>
                     <div class="row margin30">
                         <div class="col-6 img-hidden">
-                            <img src="{{ .Site.BaseURL }}/images/Rectangle_2272.jpg" alt="">
+                            <img src="{{ .Site.BaseURL }}/images/adaptability_no-need-to-fork-off.png" alt="">
                         </div>
                         <div class="col-6">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">No Need to Fork Off</p>
-                                <p>Change applies to cryptocurrencies in response to new technology and new threats. Real people mean real disputes, and even with the same outcome in mind, approaches may differ. In order to evolve and endure in the long-term, Decred has engineered a means to continuously adapt. Whether an emergency, conflict, bug fix or new technology, Decred facilitates formal agreement, helping to avoid contentious hard forks and maintain a unified community during the process.</p>
+                                <p class="text-block-7">{{ T "adaptability_01_headline" }}</p>
+                                <p>{{ T "adaptability_01_text" }}</p>
                             </div>
                         </div>
                         <div class="col-6 justify-content-end img-visible">
-                            <img src="{{ .Site.BaseURL }}/images/Rectangle_2272.jpg" alt="">
+                            <img src="{{ .Site.BaseURL }}/images/adaptability_no-need-to-fork-off.png" alt="">
                         </div>
                     </div>
                     <div class="row margin30">
                         <div class="col-6">  
-                            <img src="{{ .Site.BaseURL }}/images/Rectangle_2273.jpg" alt="">
+                            <img src="{{ .Site.BaseURL }}/images/adaptability_empowering-currency-holders.png" alt="">
                         </div>
                         <div class="col-6 justify-content-end">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">Empowering the currency holders</p>
-                                <p>Decred grants those who opt-in to the governance system with direct sovereignty over their money. In exchange for time-locking their coins, stakeholders acquire tickets that allow them to vote to approve blocks, make changes to the consensus rules, and to determine the policy and budget of the Decred decentralized autonomous organization (DAO).</p>
-
-                                <p>Stakeholders interact directly with the blockchain by voting to approve each mined block, giving them power over miners and adding security against majority attacks. Five tickets are pseudorandomly selected from the ticket pool to approve the previous block, ensuring good mining behavior and earning the ticket holder part of the block reward. Ticket holders also vote on-chain on changes to the consensus rules, giving stakeholders direct control over the future of Decred. </p>
+                                <p class="text-block-7">{{ T "adaptability_02_headline" }}</p>
+                                {{ T "adaptability_02_text" | safeHTML }}
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6 img-hidden">
-                            <img src="{{ .Site.BaseURL }}/images/intersection_6.jpg" alt="">
+                            <img src="{{ .Site.BaseURL }}/images/adaptability_politeia-the-proposal-system.png" alt="">
                         </div>
                         <div class="col-6">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">Politeia - The Proposal System</p>
-                                <p>The Politeia Proposal System plays a vital role within the Decred DAO, empowering stakeholders to manage Decredʼs treasury expenditures and policies. Proposals to date include new software features, marketing expenditures, partner integrations, bug bounty, and research. Politeia is a governance platform that uses timestamping and cryptographic attestation to record all activity related to the submission, discussion and voting of proposals. Once a proposal passes, the owner is authorized to begin work, knowing their efforts are supported by the community and financed by the Treasury.</p>
-                                <p class="text-block-7">To Delegate is to Trust</p>
-                                <p>Decred believes in the power of the collective intelligence of its decentralized community. It’s diverse range of active contributors do their own research and directly determine the future of Decred. With formal governance systems built-in from the beginning, the Decred DAO is able to adapt and become a superior long term store of value. </p>
+                                <p class="text-block-7">{{ T "adaptability_03_headline"  }}</p>
+                                <p>{{ T "adaptability_03_text" }}</p>
+                                <p class="text-block-7">{{ T "adaptability_04_headline" }}</p>
+                                <p>{{ T "adaptability_04_text" }}</p>
                             </div>
                         </div>
                         <div class="col-6 justify-content-end img-visible">
-                            <img src="{{ .Site.BaseURL }}/images/intersection_6.jpg" alt="">
+                            <img src="{{ .Site.BaseURL }}/images/adaptability_politeia-the-proposal-system.png" alt="">
                         </div>
                     </div>
                 </div>
-                  
                 <div class="subpage-content">
                     <div id="get-into" class="panelSection" style="width: 100%;">
-                        <p class="text-block-7">Find out more about</p>
-                        <div class="row">
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="https://www.decred.org/community/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">Self-funding</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/Self-funding →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="https://www.decred.org/press/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">Security</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/Security →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="https://www.decred.org/press/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">History</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/History →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+                        <p class="text-block-7">{{ T "footerblocks_headline" }}</p>
+                        <div class="row"> 
+                    {{ partial "subpage-footerblocks-security.html" . }}
+                    {{ partial "subpage-footerblocks-sustainability.html" . }}
+                    {{ partial "subpage-footerblocks-history.html" . }}
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="subpage-footer">
-        <div class="subpage-footer__content width1100">
-            <div><a class="bd-right" href="#">Logo</a> <a class="bd-right" href="#">Press Contacts</a> <a href="#">Liscening Information</a></div>
-            <div><a href="#" class="btn">Sign up for Decred Newsletter ›</a></div>
-        </div>
-    </div>
+    {{ partial "subpage-footer.html" . }}
 {{ end  }}
-
-

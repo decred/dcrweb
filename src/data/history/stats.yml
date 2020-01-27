@@ -1,0 +1,30 @@
+-
+  amount: "3.2+"
+  unit: "years"
+  headline: "of mainnet uptime"
+  description: ""
+-
+  amount: "9.8+"
+  unit: "mill."
+  headline: "blocks mined"
+  description: ""
+-
+  amount: "600k+"
+  unit: "$DCR"
+  headline: "in development treasury"
+  description: ""
+-
+  amount: "100+"
+  unit: ""
+  headline: "active contributors"
+  description: ""
+-
+  amount: "75+"
+  unit: ""
+  headline: "github repositories"
+  description: ""
+-
+  amount: "40k+"
+  unit: ""
+  headline: "pull requests"
+  description: ""

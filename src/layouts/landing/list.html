@@ -1,14 +1,19 @@
 {{ define "fronta"  }}
+{{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
 <div class="fronta landing video-header">
     <video autoplay loop muted poster="/videos/headers/landing/fallback.jpg">
     </video>
     <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo slack-join w-inline-block"></a></div>
     <div class="_960 subpage-header">
-        <div class="landing-title">Community-Directed, Superior Store of Value</div>
-        <div class="d-flex">
-            <a class="play-btn" href="#"><img src="{{ .Site.BaseURL }}/images/play.svg" alt=""><span>Watch Video</span></a>
-            <a class="wallet-btn" href="#"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> Download Wallet</a>
-            <div class="all-downloads">Decrediton for Mac OS X <a href="#">All Downloads →</a></div>
+        <div class="landing-title">{{ T "landing_opener" }}</div>
+        <div class="d-flex"> 
+            <a class="play-btn play-modal" href="#"><img src="{{ .Site.BaseURL }}/images/play.svg" alt=""><span>Watch Video</span></a>        
+            <a class="wallet-btn alldl" href="{{ "/wallets" | relLangURL }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
+            <div class="all-downloads os-specific alldl">{{ T "home_for_computer" }} <a href="{{ "/wallets" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
+            {{ range $download_links }}
+            <a class="wallet-btn os-specific {{ .platform }}" href="{{ .url }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" style="padding: 10px;" alt=""> {{ T "home_download_wallet" }}</a>
+            <div class="all-downloads os-specific {{ .platform }}">{{ $msg_id := print "home_decrediton_for_" .platform }} {{ T $msg_id  }} <br /><a href="{{ "/wallets" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
+            {{ end }}
         </div>
     </div>
 </div>
@@ -21,59 +26,59 @@
         <div class="_960">
             <div class="landing-content-bg secure-bg">
                 <div>
-                    <p class="heading-text-block">Secure</p>
-                    <p class="landing-text-block">Decred employs an innovative hybrid proof-of-work/proof-of stake system that layers security and carefully aligns incentives. This system yields the best of both worlds, making it an order of magnitude more expensive to attack than pure attack than pure Proof-of-work or pure Proof-of-stake. </p>
+                    <p class="heading-text-block">{{ T "landing_01_headline" }}</p>
+                    <p class="landing-text-block">{{ T "landing_01_text"}}</p>
                 </div>
                 <div class="landing-content-link">
-                    <a href="#">Read More About Security →</a> <a href="#">Bug Bounty Program →</a> <a href="#">Github →</a>
+                    <a href="{{ "security/" | relLangURL }}">{{ T "landing_01_link1"}} →</a> <a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer">{{ T "landing_01_link2"}} →</a> <a href="https://github.com/decred/" target="_blank" rel="noopener noreferrer">{{ T "landing_01_link3"}} →</a>
                 </div>
             </div>
             <div class="landing-content-bg adaptable-bg">
                 <div>
-                    <p class="heading-text-block">Adaptable</p>
-                    <p class="landing-text-block">Decred’s built-in governance systems empower its community with formal rights to make consensus changes and manage project-level decisions. Theses systems make Decred adaptable, allowing it to evolve per the stakeholders, resist forks and incorporate new technology over the long run. </p>
+                    <p class="heading-text-block">{{ T "landing_02_headline" }}</p>
+                    <p class="landing-text-block">{{ T "landing_02_text"}} </p>
                 </div>
                 <div class="landing-content-link">
-                    <a href="#">Read More About Adaptability →</a>
-                    <a href="#">Proposal System →</a>
+                    <a href="{{ "adaptability/" | relLangURL }}">{{ T "landing_02_link1"}} →</a>
+                    <a href="https://proposals.decred.org" target="_blank" rel="noopener noreferrer">{{ T "nav_politeia"}} →</a>
                 </div>
             </div>
             <div class="landing-content-bg sustainable-bg">
                 <div>
-                    <p class="heading-text-block">Sustainable  →</p>
-                    <p class="landing-text-block">Decred continually funds its treasury with 10% of each block reward and employs a flexible contractor model that allows contributors to receive compensation per their work. This makes Decred a sustainable and self-funded decentralized autonomous organization.</p>
+                    <p class="heading-text-block">{{ T "landing_03_headline" }}  →</p>
+                    <p class="landing-text-block">{{ T "landing_03_text"}}</p>
                 </div>
                 <div class="landing-content-link">
-                    <a href="#">Read More About Sustainability →</a>
-                    <a href="#">Contributing and Becoming a Contractor →</a>
+                    <a href="{{ "sustainability/" | relLangURL }}">{{ T "landing_03_link1"}} →</a>
+                    <a href="{{ "recruiting/" | relLangURL }}">{{ T "landing_03_link2"}} →</a>
                 </div>
             </div>
             <div class="row">
                 <div class="landing-bg">
-                    <a href="#">
+                    <a href="{{ "exchanges/" | relLangURL }}">
                         <div class="landing-bg__content">
-                            <p class="landing-heading-block">Exchanges →</p>
+                            <p class="landing-heading-block">{{ T "landing_04_link" }} →</p>
                         </div>
                     </a>
                 </div>
                 <div class="landing-bg">
-                    <a href="#">
+                    <a href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer">
                         <div class="landing-bg__content">
-                            <p class="landing-heading-block">Docs →</p>
+                            <p class="landing-heading-block">{{ T "landing_05_link" }} →</p>
                         </div>
                     </a>
                 </div>
                 <div class="landing-bg">
-                    <a href="#">
+                    <a href="{{ "community/" | relLangURL }}">
                         <div class="landing-bg__content">
-                            <p class="landing-heading-block">Community →</p>
+                            <p class="landing-heading-block">{{ T "landing_06_link" }} →</p>
                         </div>
                     </a>
                 </div>
                 <div class="landing-bg">
-                    <a href="#">
+                    <a href="{{ "wallets/" | relLangURL }}">
                         <div class="landing-bg__content">
-                            <p class="landing-heading-block">Downloads →</p>
+                            <p class="landing-heading-block">{{ T "landing_07_link" }} →</p>
                         </div>
                     </a>
                 </div>
@@ -83,70 +88,18 @@
     <div class="full-width latest-news">
         <div class="_960">
             <div class="d-flex latest-news__title">
-                <p>Latest News and Posts</p>
-                <a href="#">See More →</a>
+                <p>{{ T "landing_latestnews" }}</p>
+                <a href="{{ "/press/" }}">{{ T "landing_seemore" }} →</a>
             </div>
             <div class="subpage-content-section">
                 <div class="press press__coverage subpage-content w-clearfix active">
-                    <div class="press__coverage-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-release-icon.svg" width="30" />
-                            <div class="press__coverage-wrapper">
-                                <p><span class="press__title">Politeia in Production</span></p>
-                                <p class="press__date">2018-04-26</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="press__coverage-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/ltnp-2.svg" width="30" />
-                            <div class="press__coverage-wrapper">
-                                <p><span class="press__title">Decred Release Update v1.4.0</span></p>
-                                <p class="press__date">2018-03-04</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="press__coverage-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage-icon.svg" width="30" />
-                            <div class="press__coverage-wrapper">
-                                <p><span class="press__title">Decred Launches Proposal System to Advance Blockchain Governance</span>
-                                    <span class="press__source"> (nasdaq.com)</span></p>
-                                <p class="press__date">2017-10-26</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="press__coverage-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage-icon.svg" width="30" />
-                            <div class="press__coverage-wrapper">
-                                <p><span class="press__title">Chicago developers launch Decred, a Bitcoin alternative</span>
-                                    <span class="press__source"> (chicagotribune.com)</span></p>
-                                <p class="press__date">2016-02-10</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="press__coverage-item">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/ltnp-1.svg" width="30" />
-                            <div class="press__coverage-wrapper">
-                                <p><span class="press__title">Decred Journal, January 2019</span>
-                                    <span class="press__source"> (xaur.github.io)</span></p>
-                                <p class="press__date">2016-02-10</p>
-                            </div>
-                        </a>
-                    </div>
+                    {{ partial "landing-coverage-list" . }}
                 </div>
             </div>
         </div>
     </div>
-    
-    <div class="subpage-footer">
-        <div class="subpage-footer__content width1100">
-            <div><a class="bd-right" href="#">Logo</a> <a class="bd-right" href="#">Press Contacts</a> <a href="#">Liscening Information</a></div>
-            <div><a href="#" class="btn">Sign up for Decred Newsletter ›</a></div>
-        </div>
-    </div>
+
+    {{ partial "subpage-footer.html" . }}
 {{ end  }}
 
 

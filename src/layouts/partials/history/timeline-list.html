@@ -1,0 +1,16 @@
+{{ $history_items := .Site.Data.history.timeline }}
+
+{{ range $history_items }}
+<tr>
+    <td class="span" style="padding-right: 24px; text-align: right;">
+        {{ dateFormat "January 2, 2006" .date }}
+    </td>
+    <td>
+        <div class="circle"></div> 
+    </td>
+    <td style="padding-left: 24px;">
+        <a href="{{ .url }}">{{ .title }}</a> -
+        <p class="timeline_date">{{ dateFormat "January 2, 2006" .date }}</p>
+    </td>
+</tr>
+{{ end }}

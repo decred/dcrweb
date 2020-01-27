@@ -25,7 +25,7 @@
             </div>
         {{ end }}
 
-        <div class="below">
+        <div class="below subpage landing">
           {{ block "main" . -}}{{- end }}
           {{ partial "footer.html" . }}
         </div>
@@ -47,6 +47,23 @@
     {{ if .IsHome }}
         {{ partial "video-modal.html" . }}
     {{ end }}
+    
+    {{ if eq .Section "security" }}
+        {{ partial "video-modal-security.html" . }}
+    {{ end }}
+
+    {{ if eq .Section "sustainability" }}
+        {{ partial "video-modal-sustainability.html" . }}
+    {{ end }}
+
+    {{ if eq .Section "adaptability" }}
+        {{ partial "video-modal-adaptability.html" . }}
+    {{ end }}
+
+    {{ if eq .Section "landing" }}
+        {{ partial "video-modal.html" . }}
+    {{ end }}
+
 
     {{ partial "_js_builder" (dict "bundle" "main.js" "resources" $.Site.Params.js_resources.critical ) }}
 
