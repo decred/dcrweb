@@ -16,37 +16,37 @@
                     <nav id="menu">
                         <ul class="parent-menu">
                             <li>
-                                <a href="#" class="navigation-link">Intro</a>
+                                <a href="{{ "history/" | relLangURL }}" class="navigation-link">{{ T "nav_intro" }}</a>
                             </li>
-                            <li><a href="#" class="navigation-link">What is Decred →</a>
+                            <li><a href="#" class="navigation-link">{{T "nav_whatis"}} →</a>
                                 <ul>
-                                    <li><a href="#" class="navigation-link">Security</a></li>
-                                    <li><a href="#" class="navigation-link">Adaptability</a></li>
-                                    <li><a href="#" class="navigation-link">Funding and Work</a></li>
-                                    <li><a href="#" class="navigation-link">Past and Future</a></li>
+                                    <li><a href="{{ "security/" | relLangURL }}" class="navigation-link">{{ T "nav_security" }}</a></li>
+                                    <li><a href="{{ "adaptability/" | relLangURL }}" class="navigation-link">{{ T "nav_adaptability" }}</a></li>
+                                    <li><a href="{{ "sustainability/" | relLangURL }}" class="navigation-link">{{ T "nav_sustainability" }}</a></li>
+                                    <li><a href="{{ "roadmap/" | relLangURL }}" class="navigation-link">{{ T "nav_pastfuture" }}</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="navigation-link">Get Started →</a>
+                            <li><a href="#" class="navigation-link">{{ T "nav_getstarted" }} →</a>
                                 <ul>
-                                    <li><a href="{{ "downloads/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a></li>
-                                    <li><a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Proposals</a></li>
-                                    <li><a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Staking and voting</a></li>
+                                    <li><a href="{{ "wallets/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a></li>
+                                    <li><a href="https://proposals.decred.org" target="_blank" rel="noopener noreferrer" class="navigation-link external" rel="noopener noreferrer" target="_blank">{{T "nav_politeia" }}</a></li>
+                                    <li><a href="{{ "vsp/" | relLangURL }}" class="navigation-link external">{{ T "nav_stakingvoting" }}</a></li>
                                     <li><a href="{{ "exchanges/" | relLangURL }}" class="navigation-link active">{{ T "nav_exchanges" }}</a></li>
-                                    <li><a href="#" class="navigation-link">Bug bounty</a></li>
-                                    <li><a href="#" class="navigation-link external" rel="noopener noreferrer" target="_blank">Block explorer</a></li>
+                                    <li><a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer" class="navigation-link">{{ T "nav_bugbounty" }}</a></li>
+                                    <li><a href="https://dcrdata.decred.org" target="_blank" rel="noopener noreferrer" class="navigation-link external" rel="noopener noreferrer" target="_blank">{{T "nav_networkstats" }}</a></li>
                                     <li><a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="navigation-link">Insights and Resources →</a>
+                            <li><a href="#" class="navigation-link">{{ T "nav_insights_resources" }} →</a>
                                 <ul>
-                                    <li><a href="#" class="navigation-link">Business Brief</a></li>
-                                    <li><a href="#" class="navigation-link">Contributors</a></li>
-                                    <li><a href="#" class="navigation-link external">Documentation</a></li>
-                                    <li><a href="#" class="navigation-link">Development</a></li>
-                                    <li><a href="#" class="navigation-link">Design and Brand</a></li>
+                                    <li><a href="{{ "brief/" | relLangURL }}" class="navigation-link">{{ T "nav_business_brief" }}</a></li>
+                                    <li><a href="{{ "contributors/" | relLangURL }}" class="navigation-link">{{ T "nav_contributors" }}</a></li>
+                                    <li><a href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer" class="navigation-link external">{{ T "nav_documentation" }}</a></li>
+                                    <li><a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="navigation-link">{{ T "nav_development" }}</a></li>
+                                    <li><a href="{{ "brand/" | relLangURL }}" class="navigation-link">{{ T "nav_brand_resources" }}</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="navigation-link">News and Posts</a></li>
+                            <li><a href="{{ "press/" | relLangURL }}" class="navigation-link">{{ T "nav_news_posts" }}</a></li>
                         </ul>
                     </nav> 
                 </div>
@@ -58,14 +58,14 @@
                             <div class="navigation-bottom__heading">{{ T "nav_community" }}</div>
                         </div>
                         <div class="w-col w-col-6 w-col-small-6">
-                            <a href="https://decred.org/matrix/" class="nav-matrix-white nav-social-link w-inline-block"></a>
-                            <a href="#" class="nav-link nav-social-link w-inline-block"></a>
-                            <a href="https://slack.decred.org/" class="nav-slack-white nav-social-link w-inline-block"></a><br>
-                            <p class="nav-text">Join the Chat</p>
+                            <a href="https://decred.org/matrix/" target="_blank" rel="noopener noreferrer" class="nav-matrix-white nav-social-link w-inline-block"></a>
+                            <a href="https://discordapp.com/invite/GJ2GXfz" target="_blank" rel="noopener noreferrer" class="nav-discord-white nav-social-link w-inline-block"></a>
+                            <a href="https://slack.decred.org/" target="_blank" rel="noopener noreferrer" class="nav-slack-white nav-social-link w-inline-block"></a><br>
+                            <p class="nav-text">{{ T "nav_join_chat" }}</p>
                         </div>
                         <div class="w-col w-col-6 w-col-small-6">
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" class="nav-github-white nav-social-link w-inline-block"></a><br>
-                            <p class="nav-text">Contribute to our Repos</p>
+                            <p class="nav-text">{{ T "nav_cointribute_repos" }}</p>
                         </div>
                     </div>
                     
@@ -74,18 +74,18 @@
                             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter-white w-inline-block"></a>
                             <a href="https://www.reddit.com/r/decred/" target="_blank" rel="noopener noreferrer" class="nav-reddit-white nav-social-link w-inline-block"></a>
                             <a href="https://medium.com/decred" target="_blank" rel="noopener noreferrer" class="nav-m-white nav-social-link w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-facebook-white nav-social-link w-inline-block"></a>
+                            <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="nav-facebook-white nav-social-link w-inline-block"></a> -->
                             <a href="https://www.youtube.com/decredchannel" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-youtube-white w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-linkedin-white nav-social-link w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-telegram-white nav-social-link w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-irc-white nav-social-link w-inline-block"></a>
-                            <a href="https://discordapp.com/invite/GJ2GXfz" class="nav-discord-white nav-social-link w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-talk-white nav-social-link w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-forum-white w-inline-block"></a>
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-x-white w-inline-block"></a>
+                            <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="nav-linkedin-white nav-social-link w-inline-block"></a> -->
+                            <a href="https://t.me/decred" target="_blank" rel="noopener noreferrer" class="nav-telegram-white nav-social-link w-inline-block"></a>
+                            <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="nav-irc-white nav-social-link w-inline-block"></a> -->
+                            <a href="https://discordapp.com/invite/GJ2GXfz" target="_blank" rel="noopener noreferrer" class="nav-discord-white nav-social-link w-inline-block"></a>
+                            <a href="https://open.kakao.com/o/gltZ30A" target="_blank" rel="noopener noreferrer" class="nav-talk-white nav-social-link w-inline-block"></a>
+                            <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-forum-white w-inline-block"></a> -->
+                            <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-x-white w-inline-block"></a> -->
                             
                             <br>
-                            <p class="nav-text">Explore the Community Platforms</p>
+                            <p class="nav-text">{{ T "nav_explore_community" }}</p>
                         </div>
                     </div>
                     <div class="nav-social-localized" translate>

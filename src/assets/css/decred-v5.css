@@ -3690,6 +3690,18 @@ html[dir="rtl"] .lang-menu {
   padding: 20px 9px;
   background: #091440;
 }
+.landingbox-exchanges {
+  background: url('../images/landing_exchanges.png') center/cover no-repeat;
+}
+.landingbox-docs {
+  background: url('../images/landing_docs.png') center/cover no-repeat;
+}
+.landingbox-community {
+  background: url('../images/landing_community.png') center/cover no-repeat;
+}
+.landingbox-wallets {
+  background: url('../images/landing_downloads.png') center/cover no-repeat;
+}
 .landing-bg:nth-child(4n+0) {
   margin-right: -21px;
 }
@@ -4132,6 +4144,79 @@ p.text-block-11 {
   position: relative;
   margin-right: 24px;
   margin-bottom: 36px;
+  cursor: pointer;
+}
+
+.history-principles hr {
+  border: none;
+  background-color: #091440;
+  border-color: #091440;
+  color: #091440;
+  height: 1px;
+}
+
+.history-principles:hover {
+  color: #e9f8fe;
+}
+
+.history-principles.active {
+  color: #e9f8fe;
+}
+
+.history-select {
+  color: #091440; 
+}
+
+.history-select.active {
+  color: #e9f8fe;
+}
+
+.history-slide-icon {
+  height: 90px;
+  align-self: center;
+}
+.history-slide {
+  position: relative;
+  overflow: hidden;
+  height: 0px;
+  max-height: 500px;
+  opacity: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-transform: translate(0px, 50px);
+  -ms-transform: translate(0px, 50px);
+  transform: translate(0px, 50px);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.history-slide.active {
+  position: relative;
+  height: auto;
+  max-height: 500px;
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.history-slides-nest {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 260px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4194,7 +4279,7 @@ p.text-block-11 {
 
 .text-size--22 {
   margin-top: 46px;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.27;
 }
 @media screen and (max-width: 768px) {
@@ -4204,7 +4289,7 @@ p.text-block-11 {
 }
 @media screen and (max-width: 479px) {
   .text-size--22 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.1;
   }
 }

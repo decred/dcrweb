@@ -90,7 +90,7 @@ $(document).ready(function () {
 		// first view
 		logo = $('.logo'),
 		slogan = $('.slogan'),
-		playButton = $('.play-button'),
+		playButton = $('.play-modal'),
 		mobilePlayButton = $('.mobile-play-button'),
 		bgIllustration = $('.bg-illustration'),
 		bgIllustrationGhost = $('.bg-illustration-ghost'),
@@ -150,8 +150,8 @@ $(document).ready(function () {
 		featureBubble = $('.featureBubble'),
 
 		// principles section
-		principlesSelect = $('.principles-select'),
-		principlesSlide = $('.principles-slide'),
+		principlesSelect = $('.history-select'),
+		principlesSlide = $('.history-slide'),
 
 		//language menu
 		langMenu = $('.lang-menu'),

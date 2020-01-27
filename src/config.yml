@@ -5,31 +5,31 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
 params:
-    social_media_links:
-        -
-            id: matrix
-            label: Matrix
-            url: https://decred.org/matrix
-        -
-            id: discord
-            label: Discord
-            url: https://discordapp.com/invite/GJ2GXfz
+    social_media_links:    
         -
             id: slack    
             label: Slack
             url: https://slack.decred.org
         -
+            id: discord
+            label: Discord
+            url: https://discordapp.com/invite/GJ2GXfz
+        -
+            id: matrix
+            label: Matrix
+            url: https://decred.org/matrix
+        -
             id: github
             label: GitHub
             url: https://github.com/decred
         -
-            id: twitter
-            label: Twitter
-            url: https://twitter.com/decredproject
-        -
             id: reddit
             label: Reddit
             url: https://www.reddit.com/r/decred
+        -
+            id: twitter
+            label: Twitter
+            url: https://twitter.com/decredproject
         -
             id: youtube
             label: YouTube
@@ -72,17 +72,17 @@ languages:
             languageDir: ltr
             social_media_links:
                 -
-                    id: matrix
-                    label: Matrix
-                    url: https://decred.org/matrix
+                    id: slack    
+                    label: Slack
+                    url: https://slack.decred.org
                 -
                     id: discord
                     label: Discord
                     url: https://discordapp.com/invite/GJ2GXfz
                 -
-                    id: slack    
-                    label: Slack
-                    url: https://slack.decred.org
+                    id: matrix
+                    label: Matrix
+                    url: https://decred.org/matrix
                 -
                     id: github
                     label: GitHub
