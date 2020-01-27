@@ -86,7 +86,7 @@
   image: "roadmap/dectrlOfFundsActive.svg"
   title: "Decentralized Control of Treasury"
   date: "Added Q1 2018"
-  description: "Stakeholder voting will allow funds to be allocated implement successful proposals. Decentralised Autonomous Organizations (DAOs) will be able to take ownership of funds by way of a simple on-chain smart contract that delegates control over funds in a contract to a group of individuals."
+  description: "Stakeholder voting will allow funds to be allocated implement successful proposals. Decentralized Autonomous Organizations (DAOs) will be able to take ownership of funds by way of a simple on-chain smart contract that delegates control over funds in a contract to a group of individuals."
   link: "https://proposals.decred.org/proposals/c96290a2478d0a1916284438ea2c59a1215fe768a87648d04d45f6b7ecb82c3f"
 - tags: completed
   image: "roadmap/androidWalletsCompleted.svg"
