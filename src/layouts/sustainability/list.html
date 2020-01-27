@@ -12,18 +12,18 @@
                     <a class="button news_banner__button" href="#"
                        target="_blank">
                         <img src="{{ .Site.BaseURL }}/images/play.svg" width="20" height="20" alt="">
-                        <span>On Sustainability</span>
+                        <span>{{ T "sustainability_playbutton" }}</span>
                     </a>
                 </div>
             </div>
             <div class="subpage-content__menu">
-               <a href="#">WHAT IS DECRED|</a><a href="{{ .Site.BaseURL }}/adaptability">ADAPTABLE</a><a href="{{ .Site.BaseURL }}/security">SECURE</a><br><a class="active" href="{{ .Site.BaseURL }}/sustainability">SUSTAINABLE</a><a href="{{ .Site.BaseURL }}/history">HISTORY</a>
+               <a href="#">{{ T "subpage_nav_whatis" }}|</a><a href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a><a href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a><br><a class="active" href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a><a href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
             </div>
 
             <div class="subpage-content-section ex" id="subpages">
                 <div class="subpage-content">
                     <div class="subpage-description__heading" translate>
-                        <p>Remaking the financial system in a more fair and inclusive way mandates that Decred and its community operate on a long time horizon. To realize Decred as a superior long-term store of value, every effort and expenditure needs to serve its long term goals. </p>
+                        <p>{{ T "sustainability_introtext" }}</p>
                     </div>
                     <div class="row margin30">
                         <div class="col-6 img-hidden">
@@ -31,8 +31,8 @@
                         </div>
                         <div class="col-6">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">The tragedy of the commons</p>
-                                <p>Digital currencies and open source projects typically fall victim to the tragedy of the commons, where individuals who share a resource act in their own self-interest, depleting or spoiling that resource. Numerous methods have been used to solve the funding issue across cryptocurrencies, including donations, founders funds, venture capital funding, and various forms of ICO/IEO. All of these methods come with shortcomings, including agency problems, conflicts of interest, and a lack of ongoing funding.</p>
+                                <p class="text-block-7">{{ T "sustainability_01_headline" }}</p>
+                                <p>{{ T "sustainability_01_text" }}</p>
                             </div>
                         </div>
                         <div class="col-6 justify-content-end img-visible">
@@ -45,8 +45,8 @@
                         </div>
                         <div class="col-6 justify-content-end">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">Decred’s Self-Funding Solution</p>
-                                <p>Decred has solved the funding problem by directing 10% of every block reward into a Project Treasury. This ongoing solution funds Decred for generations to come. To this point, the Treasury has been managed conservatively with a long term perspective in mind and cognizant of the release of Politeia in 2018, which transitioned sovereignty over funds to the Decred stakeholders. Through Politiea, stakeholders vote on budgets, policies, and direction of the project as a Decentralized Autonomous Organizations (DAO). </p>
+                                <p class="text-block-7">{{ T "sustainability_02_headline" }}</p>
+                                <p>{{ T "sustainability_02_text" }}</p>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,8 @@
                         </div>
                         <div class="col-6">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">A new work paradigm</p>
-                                <p>The DAO ushers in a new work paradigm, one in which anyone with valuable skills can contribute to the project and be compensated by the stakeholders per proposals and voting on Politeia. In Decred, community members develop, market, and represent Decred, and they are judged on their contributions, not their pedigree or CV. The conventional work world and hierarchical structure goes out the door as contributors are free to work on what they want, when they want.</p>
-                                <p>Most contributors have full time jobs and perform their work with passion in their free time. This enables a risk-minimized on-ramp for people to test the waters before deciding to join Decred as a full-time contractor and leave the legacy corporate world behind.</p>
+                                <p class="text-block-7">{{ T "sustainability_03_headline" }}</p>
+                                {{ T "sustainability_03_text" | safeHTML }}
                             </div>
                         </div>
                         <div class="col-6 justify-content-end img-visible">
@@ -71,69 +70,18 @@
                         </div>
                         <div class="col-6 justify-content-end">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">Contractors and Proposals</p>
-                                <p>Decred is a community of self-starters and autonomous workers who relish adversity and know how to chart their own path. They can identify their own skills and examine the current state of Decred within the domains of development, marketing, research, or community to determine where and how they can contribute. They follow the path laid forth by previous contractors and contribute first to demonstrate the quality of their work product. When their work is recognized by other Contractors and funded by a Politeia proposal, they too, can become a contractor. The first place to explore is the Matrix chat rooms, which are bridged to the other communications platforms. </p>
+                                <p class="text-block-7">{{ T "sustainability_04_headline" }}</p>
+                                <p>{{ T "sustainability_04_text" }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="subpage-content">
-                    <div id="get-into" class="panelSection" style="width: 100%;">
-                        <p class="text-block-7">Find out more about</p>
-                        <div class="row">
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="{{ .Site.BaseURL }}/community/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">Self-funding</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/Self-funding →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="{{ .Site.BaseURL }}/press/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">Security</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/Security →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="{{ .Site.BaseURL }}/press/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">History</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/History →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+                {{ partial "subpage-footerblocks.html" . }}
             </div>
         </div>
     </div>
-    <div class="subpage-footer">
-        <div class="subpage-footer__content width1100">
-            <div><a class="bd-right" href="#">Logo</a> <a class="bd-right" href="#">Press Contacts</a> <a href="#">Liscening Information</a></div>
-            <div><a href="#" class="btn">Sign up for Decred Newsletter ›</a></div>
-        </div>
-    </div>
+    {{ partial "subpage-footer.html" . }}
 {{ end  }}
 
 
