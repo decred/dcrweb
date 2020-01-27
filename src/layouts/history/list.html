@@ -8,7 +8,7 @@
     <div class="full-width">
         <div class="_960">
             <div class="subpage-content__menu">
-               <a href="#">WHAT IS DECRED|</a><a href="{{ .Site.BaseURL }}/adaptability">ADAPTABLE</a><a href="{{ .Site.BaseURL }}/security">SECURE</a><br><a href="/sustainability">SUSTAINABLE</a><a class="active" href="/history">HISTORY</a>
+               <a href="#">{{ T "subpage_nav_whatis" }}|</a><a href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a><a href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a><br><a href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a><a class="active" href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
             </div>
         </div>
         <div class="_960 ">
@@ -20,10 +20,8 @@
                         </div>
                         <div class="col-6 align-self-start">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">Decred Project Origin</p>
-                                <p>The seeds of Decred were planted in the early years of Bitcoin. In April of 2013, on Bitcointalk, a developer named tacotime introduced the idea of a cryptocurrency that actually changes something, based upon the Memcoin2 (MC2) paper by Adam Mackenzie. Tacotime spent most of 2013 working with another entity, called _ingsoc, in an effort to fund the project. By early 2014, these efforts brought the idea to Company Zero (c0), a group of privacy- and security-oriented cypherpunks who wrote btcsuite in Golang, the first alternative full node implementation of Bitcoin.</p>
-
-                                <p>The three entities worked together to create a fairer cryptocurrency based upon MC2 that empowered the coin holders with direct sovereignty and supplied continuous funding. In late 2015, Jake Yocom-Piatt of c0 published articles describing <a href="https://blog.companyzero.com/2015/11/bitcoins-biggest-challenges/">Bitcoin’s biggest challenges</a>, and <a href="https://blog.companyzero.com/2015/12/decred-rethink-digital-currency/">introducing Decred to the world</a>. Three days later tacotime submitted their last ever <a href="https://bitcointalk.org/index.php?topic=169204.msg13256478#msg13256478">post</a> on the MC2 thread, “The descendant of this system is  <a href="https://bitcointalk.org/index.php?topic=1290358.0">here:</a> – Closing this thread.” </p>
+                                <p class="text-block-7">{{ T "history_01_headline" | safeHTML }}</p>
+                                {{ T "history_01_text" | safeHTML }}
                             </div>
                         </div>
                         <div class="col-6 justify-content-end img-visible">
@@ -36,8 +34,8 @@
                         </div>
                         <div class="col-6 justify-content-end">
                             <div class="subpage-description" translate>
-                                <p class="text-block-7">Airdrop & Premine</p>
-                                <p>When launched in early 2016, Decred used an innovative <a href="https://docs.decred.org/advanced/premine/">airdrop and premine</a> to bootstrap the Proof-of-Stake component of the Decred network, establish a wide network of potential project contributors, and compensate the early developers for their work prior to launch. Given the necessity of distribution, <a href="https://docs.decred.org/advanced/premine/">this process</a> was determined to be the most fair and transparent, and yielded <a href="https://forum.decred.org/threads/airdrop-rundown.313/">significant decentralization from the outset</a>.</p>
+                                <p class="text-block-7">{{ T "history_02_headline" | safeHTML }}</p>
+                                <p>{{ T "history_02_text" | safeHTML }}</p>
                             </div>
                         </div>
                     </div>
@@ -48,48 +46,7 @@
         <div class="subpage-content__history">
             <div class="_960 ">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="history-info">
-                            <h3><span>3.2+</span> years</h3>
-                            <p>of mainnet uptime</p>
-                            <p class="history__text-block">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="history-info">
-                            <h3><span>9.8+</span> mill.</h3>
-                            <p>blocks mined</p>
-                            <p class="history__text-block">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="history-info">
-                            <h3><span>600k+</span> $DCR</h3>
-                            <p>in development treasury</p>
-                            <p class="history__text-block">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="history-info">
-                            <h3><span>100+</span> active</h3>
-                            <p>contributors</p>
-                            <p class="history__text-block">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="history-info">
-                            <h3><span>75+</span></h3>
-                            <p>github repositories</p>
-                            <p class="history__text-block">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="history-info">
-                            <h3><span>40k+</span></h3>
-                            <p>pull requests</p>
-                            <p class="history__text-block">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                        </div>
-                    </div>
+                    {{ partial "history/stats-list" . }}
                 </div>
             </div>
         </div>
@@ -98,177 +55,10 @@
             <div class="subpage-content-section ex" style="padding-bottom: 50px;">
                 <div class="subpage-content">
                     <div class="subpage-description" style="width: 100%; margin-bottom: 0;" translate>
-                        <p class="text-block-7">Decred Timeline</p>
+                        <p class="text-block-7">{{ T "history_timeline" }}</p>
                         <div class="timeline">
                             <table>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        DECEMBER 15, 2015
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Decred <a href="https://bitcointalk.org/index.php?topic=1290358.0">announced on bitcointalk</a>. -
-                                        <p class="timeline_date">DECEMBER 15, 2015</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        JANUARY 1, 2016
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Airdrop <a href="https://forum.decred.org/threads/airdrop-rundown.313/">vetting finalized</a>. -
-                                        <p class="timeline_date">JANUARY 1, 2016</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        FEBRUARY 8, 2016
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Decred <a href="https://explorer.dcrdata.org/block/298e5cc3d985bfe7f81dc135f360abe089edd4396b86d2de66b0cef42b21d980">mainnet launched</a>. -
-                                        <p class="timeline_date">FEBRUARY 8, 2016</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        FEBRUARY 21, 2016
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        <a href="https://explorer.dcrdata.org/block/00000000000013722f8e5a8af9cf55492e9237e77d29da98695e65fd13033625">First PoS votes</a> are included in block 4096. -
-                                        <p class="timeline_date">FEBRUARY 21, 2016</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        JULY 25, 2016
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        First release of Paymetheus Windows GUI wallet.
-                                        <p class="timeline_date">JULY 25, 2016</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        DECEMBER 26, 2016
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        First release of <a href="https://forum.decred.org/threads/dd-20-v0-7-0-12-26-16.4702/#post-23300">Decrediton GUI wallet for Linux/OSX</a>. -
-                                        <p class="timeline_date">DECEMBER 26, 2016</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        JULY 9, 2017
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        <a href="https://blog.decred.org/">First hard fork vote</a> in the history of cryptocurrency to change Decred's stake difficulty algorithm. -
-                                        <p class="timeline_date">JULY 9, 2017</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        JULY 9, 2017
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        On-chain signaling vote to begin work on Lightning Network support.
-                                        <p class="timeline_date">JULY 9, 2017</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        OCTOBER 19, 2017
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        <a href="https://blog.decred.org/2017/09/20/On-Chain-Atomic-Swaps/">First cross-chain atomic swap</a> between Decred and Litecoin. -
-                                        <p class="timeline_date">OCTOBER 19, 2017</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        OCTOBER 25, 2017
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Politeia <a href="https://blog.decred.org/2017/10/25/Politeia/">is announced</a>. -
-                                        <p class="timeline_date">OCTOBER 25, 2017</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        JUNE 5, 2018
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        <a href="https://blog.decred.org/2018/06/05/A-New-Kind-of-DEX/">DEX proposal</a> is published. -
-                                        <p class="timeline_date">JUNE 5, 2018</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        SEPTEMBER 21, 2018
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Initial SPV <a href="https://github.com/decred/decred-binaries/releases/tag/v1.3.0">release for dcrwallet</a>. -
-                                        <p class="timeline_date">SEPTEMBER 21, 2018</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        OCTOBER 15, 2018
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Politeia goes <a href="https://blog.decred.org/2018/10/15/Politeia-in-Production/">live on mainnet</a>. -
-                                        <p class="timeline_date">OCTOBER 15, 2018</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="span" style="padding-right: 24px; text-align: right;">
-                                        AUGUST 28, 2019
-                                    </td>
-                                    <td>
-                                        <div class="circle"></div> 
-                                    </td>
-                                    <td style="padding-left: 24px;">
-                                        Initial  <a href="https://blog.decred.org/2019/08/28/Iterating-Privacy/">Privacy Implementation Released</a>. -
-                                        <p class="timeline_date">AUGUST 28, 2019</p>
-                                    </td>
-                                </tr>
+                                {{ partial "history/timeline-list" . }}
                             </table>
                         </div>
                     </div>
@@ -278,7 +68,7 @@
 
         <div class="subpage-content__principles">
             <div class="_960">
-                <p class="text-block-7">Decred Community Principles</p>
+                <p class="text-block-7">{{ T "history_principles_headline" }}</p>
                 <div class="row">
                     <div class="col-8">
                         <div class="row">
@@ -286,42 +76,42 @@
                                 <div class="history-principles">
                                     <p class="text-size--10 text-color--light">01</p>
                                     <hr class="hr-light">
-                                    <p class="text-size--12 text-color--light">FREE AND OPEN-SOURCE SOFTWARE</p>
+                                    <p class="text-size--12 text-color--light">{{ T "history_principles_01" }}</p>
                                 </div>
                             </div>
                             <div class="col-6x">
                                 <div class="history-principles">
                                     <p class="text-size--10 text-color--dark">02</p>
                                     <hr class="hr-dark">
-                                    <p class="text-size--12 text-color--dark">FREE SPEECH AND CONSIDERATION</p>
+                                    <p class="text-size--12 text-color--dark">{{ T "history_principles_02" }}</p>
                                 </div>
                             </div>
                             <div class="col-6x">
                                 <div class="history-principles">
                                     <p class="text-size--10 text-color--dark">03</p>
                                     <hr class="hr-dark">
-                                    <p class="text-size--12 text-color--dark">MULTI-STAKEHOLDER INCLUSIVITY</p>
+                                    <p class="text-size--12 text-color--dark">{{ T "history_principles_03" }}</p>
                                 </div>
                             </div>
                             <div class="col-6x">
                                 <div class="history-principles">
                                     <p class="text-size--10 text-color--dark">04</p>
                                     <hr class="hr-dark">
-                                    <p class="text-size--12 text-color--dark">INCREMENTAL PRIVACY AND SECURITY</p>
+                                    <p class="text-size--12 text-color--dark">{{ T "history_principles_04" }}</p>
                                 </div>
                             </div>
                             <div class="col-6x">
                                 <div class="history-principles">
                                     <p class="text-size--10 text-color--dark">05</p>
                                     <hr class="hr-dark">
-                                    <p class="text-size--12 text-color--dark">FIXED FINITE SUPPLY</p>
+                                    <p class="text-size--12 text-color--dark">{{ T "history_principles_05" }}</p>
                                 </div>
                             </div>
                             <div class="col-6x">
                                 <div class="history-principles">
                                     <p class="text-size--10 text-color--dark">06</p>
                                     <hr class="hr-dark">
-                                    <p class="text-size--12 text-color--dark">UNIVERSAL FUNGIBILITY</p>
+                                    <p class="text-size--12 text-color--dark">{{ T "history_principles_06" }}</p>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +119,7 @@
                     <div class="col-4x">
                         <div class="history-principles last">
                             <img src="{{ .Site.BaseURL }}/images/group_500.svg" alt="">
-                            <p class="text-size--22">All software developed as part of Decred shall be free and open-source software.</p>
+                            <p class="text-size--22">{{ T "history_principles_slogan" }}</p>
                         </div>
                     </div>
                 </div>
@@ -338,61 +128,11 @@
 
         <div class="_960 ">
             <div class="subpage-content-section ex">       
-                <div class="subpage-content">
-                    <div id="get-into" class="panelSection" style="width: 100%;">
-                        <p class="text-block-7">Find out more about...</p>
-                        <div class="row">
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="https://www.decred.org/community/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">Self-funding</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/Self-funding →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="https://www.decred.org/press/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">Security</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/Security →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-3x">
-                                <div class="get-into">
-                                    <a href="https://www.decred.org/press/">
-                                        <div class="get-into__content">
-                                            <div class="text-block-9">History</div>
-                                            <div>
-                                                <p>Decred has been acknowledged as a leading cryptocurrency project by the Chicago Tribune, Bitcoin Magazine and Nasdaq. Press page is a gallery coverage and releases.</p>
-                                                <p class="get-into__link">See decred.org/History →</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {{ partial "subpage-footerblocks.html" . }}
             </div>
         </div>
     </div>
-    <div class="subpage-footer">
-        <div class="subpage-footer__content width1100">
-            <div><a class="bd-right" href="#">Logo</a> <a class="bd-right" href="#">Press Contacts</a> <a href="#">Liscening Information</a></div>
-            <div><a href="#" class="btn">Sign up for Decred Newsletter ›</a></div>
-        </div>
-    </div>
+    {{ partial "subpage-footer.html" . }}
 {{ end  }}
 
 

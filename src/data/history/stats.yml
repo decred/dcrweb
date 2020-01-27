@@ -1,0 +1,30 @@
+-
+  amount: "3.2+"
+  unit: "years"
+  headline: "of mainnet uptime"
+  description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."
+-
+  amount: "9.8+"
+  unit: "mill."
+  headline: "blocks mined"
+  description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."
+-
+  amount: "600k+"
+  unit: "$DCR"
+  headline: "in development treasury"
+  description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."
+-
+  amount: "100+"
+  unit: ""
+  headline: "active contributors"
+  description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."
+-
+  amount: "75+"
+  unit: ""
+  headline: "github repositories"
+  description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."
+-
+  amount: "40k+"
+  unit: ""
+  headline: "pull requests"
+  description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC."

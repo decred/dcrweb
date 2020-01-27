@@ -279,5 +279,18 @@
   "landing_04_link": "Exchanges",
   "landing_05_link": "Docs",
   "landing_06_link": "Community",
-  "landing_07_link": "Downloads"
+  "landing_07_link": "Downloads",
+  "history_01_headline": "Decred Project Origin",
+  "history_01_text": "<p>The seeds of Decred were planted in the early years of Bitcoin. In April of 2013, on Bitcointalk, a developer named tacotime introduced the idea of a cryptocurrency that actually changes something, based upon the Memcoin2 (MC2) paper by Adam Mackenzie. Tacotime spent most of 2013 working with another entity, called _ingsoc, in an effort to fund the project. By early 2014, these efforts brought the idea to Company Zero (c0), a group of privacy- and security-oriented cypherpunks who wrote btcsuite in Golang, the first alternative full node implementation of Bitcoin.<p><p>The three entities worked together to create a fairer cryptocurrency based upon MC2 that empowered the coin holders with direct sovereignty and supplied continuous funding. In late 2015, Jake Yocom-Piatt of c0 published articles describing <a href=\"https://blog.companyzero.com/2015/11/bitcoins-biggest-challenges\" target=\"_blank\" rel=\"noopener noreferrer\">Bitcoin’s biggest challenges</a>, and <a href=\"https://blog.companyzero.com/2015/12/decred-rethink-digital-currency\" target=\"_blank\" rel=\"noopener noreferrer\">introducing Decred to the world</a>. Three days later tacotime submitted their last ever <a href=\"https://bitcointalk.org/index.php?topic=169204.msg13256478#msg13256478\" target=\"_blank\" rel=\"noopener noreferrer\">post</a> on the MC2 thread, “The descendant of this system is  <a href=\"https://bitcointalk.org/index.php?topic=1290358.0\" target=\"_blank\" rel=\"noopener noreferrer\">here:</a> – Closing this thread.”</p>",
+  "history_02_headline": "Airdrop & Premine",
+  "history_02_text": "When launched in early 2016, Decred used an innovative <a href=\"https://docs.decred.org/advanced/premine\" target=\"_blank\" rel=\"noopener noreferrer\">airdrop and premine</a> to bootstrap the Proof-of-Stake component of the Decred network, establish a wide network of potential project contributors, and compensate the early developers for their work prior to launch. Given the necessity of distribution, <a href=\"https://docs.decred.org/advanced/premine\" target=\"_blank\" rel=\"noopener noreferrer\">this process</a> was determined to be the most fair and transparent, and yielded <a href=\"https://forum.decred.org/threads/airdrop-rundown.313\" rel=\"noopener noreferrer\">significant decentralization from the outset</a>.",
+  "history_principles_headline": "Decred Community Principles",
+  "history_principles_01": "FREE AND OPEN-SOURCE SOFTWARE",
+  "history_principles_02": "FREE SPEECH AND CONSIDERATION",
+  "history_principles_03": "MULTI-STAKEHOLDER INCLUSIVITY",
+  "history_principles_04": "INCREMENTAL PRIVACY AND SECURITY",
+  "history_principles_05": "FIXED FINITE SUPPLY",
+  "history_principles_06": "UNIVERSAL FUNGIBILITY",
+  "history_principles_slogan": "All software developed as part of Decred shall be free and open-source software.",
+  "history_timeline": "Decred Timeline"
 }

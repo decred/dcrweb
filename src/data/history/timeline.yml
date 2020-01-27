@@ -1,0 +1,56 @@
+-
+  title: "Decred announced on bitcointalk"
+  url: "https://bitcointalk.org/index.php?topic=1290358.0"
+  date: "2015-12-15"
+-
+  title: "Airdrop vetting finalized"
+  url: "https://forum.decred.org/threads/airdrop-rundown.313/"
+  date: "2016-01-01"
+-
+  title: "Decred mainnet launched"
+  url: "https://explorer.dcrdata.org/block/298e5cc3d985bfe7f81dc135f360abe089edd4396b86d2de66b0cef42b21d980"
+  date: "2016-02-08"
+-
+  title: "First PoS votes are included in block 4096"
+  url: "https://explorer.dcrdata.org/block/00000000000013722f8e5a8af9cf55492e9237e77d29da98695e65fd13033625"
+  date: "2016-02-21"
+-
+  title: "First release of Paymetheus Windows GUI wallet"
+  url: "#"
+  date: "2016-07-25"
+-
+  title: "First release of Decrediton GUI wallet for Linux/OSX"
+  url: "https://forum.decred.org/threads/dd-20-v0-7-0-12-26-16.4702/#post-23300"
+  date: "2016-12-26"
+-
+  title: "First hard fork vote in the history of cryptocurrency to change Decred's stake difficulty algorithm"
+  url: "https://blog.decred.org/"
+  date: "2017-07-09"
+-
+  title: "On-chain signaling vote to begin work on Lightning Network support"
+  url: "#"
+  date: "2017-07-09"
+-
+  title: "First cross-chain atomic swap between Decred and Litecoin"
+  url: "https://blog.decred.org/2017/09/20/On-Chain-Atomic-Swaps/"
+  date: "2017-10-19"
+-
+  title: "Politeia is announced"
+  url: "https://blog.decred.org/2017/10/25/Politeia/"
+  date: "2017-10-25"
+-
+  title: "DEX proposal is published"
+  url: "https://blog.decred.org/2018/06/05/A-New-Kind-of-DEX/"
+  date: "2018-06-09"
+-
+  title: "Initial SPV release for dcrwallet"
+  url: "https://github.com/decred/decred-binaries/releases/tag/v1.3.0"
+  date: "2018-09-21"
+-
+  title: "Politeia goes live on mainnet"
+  url: "https://blog.decred.org/2018/10/15/Politeia-in-Production/"
+  date: "2018-10-15"
+-
+  title: "Initial Privacy Implementation Released"
+  url: "https://blog.decred.org/2019/08/28/Iterating-Privacy/"
+  date: "2019-08-28"
