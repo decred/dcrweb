@@ -1,8 +1,3 @@
-c1:
-  name: "Company One LLC"
-  url: https://www.companyone.io
-  logo: "team_company_one.svg"
-
 c0:
   name: "Company Zero LLC"
   url: https://www.companyzero.com
@@ -18,22 +13,7 @@ block_42:
   url: http://42block.io
   logo: "team_b42.svg"
 
-beanstalk:
-  name: "Beanstalk Web Solutions LLC"
-  url: https://beanstalkwebsolutions.com
-  logo: "team_company_beanstalk.svg"
-
 eeter:
   name: "EETER CO PLC"
   url: https://eeter.co
   logo: "team_eeter.svg"
-
-cryptobits:
-  name: "CRYPTOBITS TECH LLC."
-  url: http://www.cryptobits.co
-  logo: "team_cryptobits.svg"
-
-ditto:
-  name: "Ditto PR"
-  url: https://www.dittopr.co/
-  logo: "team_ditto.svg"
