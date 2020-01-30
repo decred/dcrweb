@@ -18,7 +18,7 @@ decrediton:
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v150
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v151
 
 mobilewallets:
     - title: Android
@@ -30,4 +30,4 @@ commandline:
     - title: View on Github
       url: https://github.com/decred/decred-release/releases/tag/v1.5.1
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v150
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v151
