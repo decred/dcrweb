@@ -1,17 +1,17 @@
 -
-  amount: "3.2+"
+  amount: "4.0+"
   unit: "years"
-  headline: "of mainnet uptime"
+  headline: "live on mainnet"
   description: ""
 -
-  amount: "9.8+"
-  unit: "mill."
+  amount: "419,000+"
+  unit: ""
   headline: "blocks mined"
   description: ""
 -
   amount: "600k+"
   unit: "$DCR"
-  headline: "in development treasury"
+  headline: "in project Treasury"
   description: ""
 -
   amount: "100+"
