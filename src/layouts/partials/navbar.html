@@ -16,14 +16,14 @@
                     <nav id="menu">
                         <ul class="parent-menu">
                             <li>
-                                <a href="{{ "history/" | relLangURL }}" class="navigation-link">{{ T "nav_intro" }}</a>
+                                <a href="{{ .Site.BaseURL | absLangURL  }}" class="navigation-link">{{ T "nav_intro" }}</a>
                             </li>
                             <li><a href="#" class="navigation-link">{{T "nav_whatis"}} →</a>
                                 <ul>
                                     <li><a href="{{ "security/" | relLangURL }}" class="navigation-link">{{ T "nav_security" }}</a></li>
                                     <li><a href="{{ "adaptability/" | relLangURL }}" class="navigation-link">{{ T "nav_adaptability" }}</a></li>
                                     <li><a href="{{ "sustainability/" | relLangURL }}" class="navigation-link">{{ T "nav_sustainability" }}</a></li>
-                                    <li><a href="{{ "roadmap/" | relLangURL }}" class="navigation-link">{{ T "nav_pastfuture" }}</a></li>
+                                    <li><a href="{{ "history/" | relLangURL }}" class="navigation-link">{{ T "nav_pastfuture" }}</a></li>
                                 </ul>
                             </li>
                             <li><a href="#" class="navigation-link">{{ T "nav_getstarted" }} →</a>
