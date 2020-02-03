@@ -3686,17 +3686,26 @@ html[dir="rtl"] .lang-menu {
   padding: 20px 9px;
   background: #091440;
 }
+.landingbox-secure {
+  background: url('../images/landing-security.png') center/cover no-repeat #091440;
+}
+.landingbox-sustainable {
+  background: url('../images/landing-sustainability.png') center/cover no-repeat #091440;
+}
+.landingbox-adaptable {
+  background: url('../images/landing-adaptability.png') center/cover no-repeat #091440;
+}
 .landingbox-exchanges {
-  background: url('../images/landing_exchanges.png') center/cover no-repeat;
+  background: url('../images/landing_exchanges.png') center/cover no-repeat #091440;
 }
 .landingbox-docs {
-  background: url('../images/landing_docs.png') center/cover no-repeat;
+  background: url('../images/landing_docs.png') center/cover no-repeat #091440;
 }
 .landingbox-community {
-  background: url('../images/landing_community.png') center/cover no-repeat;
+  background: url('../images/landing_community.png') center/cover no-repeat #091440;
 }
 .landingbox-wallets {
-  background: url('../images/landing_downloads.png') center/cover no-repeat;
+  background: url('../images/landing_downloads.png') center/cover no-repeat #091440;
 }
 .landing-bg:nth-child(4n+0) {
   margin-right: -21px;
