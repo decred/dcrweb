@@ -1723,7 +1723,7 @@ body.noscroll {
   transform: translate(0%, 0px);
 }
 
-.toggle:checked + .navigation-button + .lang-menu + .link-section, .toggle:checked + .navigation-button + .link-section {
+.toggle:checked + .navigation-button + .lang-menu:not(.active) + .link-section, .toggle:checked + .navigation-button + .link-section {
   opacity: 1;
   -webkit-transform: translate(0%, 0px);
   -ms-transform: translate(0%, 0px);
