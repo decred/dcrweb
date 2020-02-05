@@ -906,7 +906,7 @@ body {
   background-color: #2970ff;
 }
 
-.footer.slack-join {
+.footer.matrix-join {
   position: relative;
   padding-top: 30px;
   -webkit-box-flex: 0;
@@ -976,10 +976,6 @@ body {
 
 .youtube {
   background-image: url('../images/iconYoutube.svg');
-}
-
-.slack {
-  background-image: url('../images/iconSlack.svg');
 }
 
 .discord {
@@ -1115,7 +1111,7 @@ body {
   height: 100%;
 }
 
-.main.slack-join {
+.main.matrix-join {
   position: static;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1866,11 +1862,6 @@ body {
   mask-image: url('../images/iconDiscord.svg');
 }
 
-.nav-social-link.nav-slack {
-  -webkit-mask-image: url('../images/iconSlack.svg');
-  mask-image: url('../images/iconSlack.svg');
-}
-
 .nav-social-link.nav-twitter {
   -webkit-mask-image: url('../images/iconTwitter.svg');
   mask-image: url('../images/iconTwitter.svg');
@@ -2516,7 +2507,7 @@ html[dir="rtl"] .lang-menu {
   z-index: 1;
 }
 
-._960.slack-join {
+._960.matrix-join {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3337,7 +3328,7 @@ html[dir="rtl"] .lang-menu {
   opacity: 0.8;
 }
 
-.subpage-logo.slack-join {
+.subpage-logo.matrix-join {
   background-image: url('../images/logoWithBlueType.svg');
   background-size: contain;
 }
@@ -4149,7 +4140,7 @@ html[dir="rtl"] .lang-menu {
   background-repeat: no-repeat;
 }
 
-.wrapper.slack-join {
+.wrapper.matrix-join {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4184,7 +4175,7 @@ html[dir="rtl"] .lang-menu {
   padding-bottom: 20px;
 }
 
-.left-wrapper .slack-join-notice p {
+.left-wrapper .matrix-join-notice p {
   font-size: 1.2em;
 }
 
@@ -4194,7 +4185,7 @@ html[dir="rtl"] .lang-menu {
   padding: 91px 20px 20px 100px;
 }
 
-.slack-join-notice {
+.matrix-join-notice {
   max-width: 200px;
   margin-top: 90px;
   margin-right: 20px;
@@ -4204,7 +4195,7 @@ html[dir="rtl"] .lang-menu {
   line-height: 18px;
 }
 
-.slack-join-notice-highlight {
+.matrix-join-notice-highlight {
   font-weight: 600;
 }
 
@@ -4220,7 +4211,7 @@ html[dir="rtl"] .lang-menu {
   width: 400px;
 }
 
-.slack-join-copy {
+.matrix-join-copy {
   width: 396px;
   margin-top: 48px;
   float: left;
@@ -4229,12 +4220,12 @@ html[dir="rtl"] .lang-menu {
   font-weight: 400;
 }
 
-.slack-join-copy-heading {
+.matrix-join-copy-heading {
   font-size: 34px;
   line-height: 42px;
 }
 
-.slack-join-copy-highlight {
+.matrix-join-copy-highlight {
   font-weight: 600;
 }
 
@@ -4955,7 +4946,7 @@ html[dir="rtl"] .lang-menu {
     margin-left: 0px;
     padding-right: 0px;
   }
-  ._960.slack-join {
+  ._960.matrix-join {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -5158,7 +5149,7 @@ html[dir="rtl"] .lang-menu {
     width: 100%;
     padding-left: 20px;
   }
-  .slack-join-copy {
+  .matrix-join-copy {
     width: 100%;
   }
   .footer-logo {
@@ -5569,7 +5560,7 @@ html[dir="rtl"] .lang-menu {
     -ms-flex-align: start;
     align-items: flex-start;
   }
-  ._960.slack-join {
+  ._960.matrix-join {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5807,7 +5798,7 @@ html[dir="rtl"] .lang-menu {
   .right-wrapper {
     padding-bottom: 70px;
   }
-  .slack-join-notice {
+  .matrix-join-notice {
     margin-bottom: 30px;
   }
   .footer-logo {
@@ -5943,7 +5934,7 @@ html[dir="rtl"] .lang-menu {
   .footer {
     padding: 30px 10px;
   }
-  .footer.slack-join {
+  .footer.matrix-join {
     height: auto;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
@@ -6007,7 +5998,7 @@ html[dir="rtl"] .lang-menu {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
-  ._960.slack-join {
+  ._960.matrix-join {
     display: block;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -6222,12 +6213,12 @@ html[dir="rtl"] .lang-menu {
 }
 
 @media (min-width: 1440px) {
-  .slack-join-notice {
+  .matrix-join-notice {
       max-width: 317px;
       margin-left: -181px;
   }
 
-  .left-wrapper .slack-join-notice p {
+  .left-wrapper .matrix-join-notice p {
     font-size: 1.3em;
     line-height: 136%;
   }

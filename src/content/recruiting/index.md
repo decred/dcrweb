@@ -111,7 +111,7 @@ While what Decred needs as an organization may not line up with precisely what p
 
 #### Wallet support
 
-* support users of various wallets in Slack #support channel
+* support users of various wallets in [Matrix](https://www.decred.org/matrix/) support channel
 
 #### Payment processor and exchange integration
 

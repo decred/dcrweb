@@ -45,13 +45,11 @@
   title: developer
   github_id: dajohi
 -
-  slack_alias: klka
   company_id: block_42
   group: development
   avatar_image: "team_67.svg"
   name: "Dmitry Fedorov"
   title: Developer
-  slack_id: UALCYK2C9
 -
   matrix_id: dnldd:matrix.org
   group: development
@@ -187,7 +185,6 @@
   avatar_image: "team_10.svg"
   name: "Peter Banik"
   title: developer
-  slack_id: U4T3MAY2X
   github_id: peterzen
 -
   company_id: raedah_group
@@ -355,13 +352,11 @@
   name: "Insaf Nori"
   title: "Community Manager (Middle East)"
 -
-  slack_alias: Jesiki
   company_id: raedah_group
   group: community
   avatar_image: "team_60.svg"
   name: "Jessica Eggleston"
   title: "Conference Coordinator"
-  slack_id: UAG6W3GFP
   github_id: jesiki
 -
   matrix_id: joshuam:decred.org
@@ -396,13 +391,11 @@
   title: "Designer"
   twitter_alias: morphymore
 -
-  slack_alias: nkpla
   twitter_alias: "nkplasma"
   group: community
   avatar_image: "team_30.svg"
   name: "Namkyun Kim"
   title: "Community Manager (KR)"
-  slack_id: U6U173R9R
 -
   matrix_id: nickb:decred.org
   twitter_alias: "nbdeagle"
