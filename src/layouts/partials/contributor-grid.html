@@ -15,7 +15,7 @@
     {{ $imgPath := path.Join "images/contributors" .avatar_image }}
     {{ $image := resources.Get ($imgPath) }}
 
-    <div data-id="{{ .name }}" data-slack="{{ .slack_alias }}" data-twitter="{{ .twitter_alias }}" data-corporate-id="{{ $company_name }}" data-filter="{{ .group }}" class="team-member w-clearfix">
+    <div data-id="{{ .name }}" data-twitter="{{ .twitter_alias }}" data-corporate-id="{{ $company_name }}" data-filter="{{ .group }}" class="team-member w-clearfix">
         <div class="team-member-avatar"><img alt="" src="{{ $image.RelPermalink }}" class="image"></div>
         <div class="team-member-name">{{ .name }}</div>
         <div class="team-member-title">{{ .title }}</div>
@@ -28,12 +28,6 @@
         {{ end }}
 
         <div class="team-member-social">
-            {{ if ne .slack_alias nil }}
-            <a target="_blank" rel="noopener noreferrer" href="https://decred.slack.com/team/{{ .slack_alias }}" class="slack team-member-social-link w-inline-block">
-                <img alt="" src="/images/team_slack.svg" class="team-member-social-link-image">
-            </a>
-            {{ end }}
-
             {{ if ne .matrix_id nil }}
             <a target="_blank" rel="noopener noreferrer" href="https://matrix.to/#/@{{ .matrix_id }}" class="matrix team-member-social-link w-inline-block">
                 <img alt="" src="/images/team_matrix.svg" class="team-member-social-link-image">

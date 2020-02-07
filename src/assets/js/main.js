@@ -164,7 +164,6 @@ $(document).ready(function () {
 			teamFilterButton = $('.team-filter-button'),
 		teamMembers = $('.team-members'),
 			teamMember = $('.team-member'),
-			teamSlack = teamMember.find($('.slack')),
 			teamTwitter = teamMember.find($('.twitter')),
 		teamDataBalloon = $(".team-data-balloon"),
 			dataBalloonTop = $(".data-balloon-top"),
@@ -204,30 +203,6 @@ $(document).ready(function () {
 	} else {
 		teamFilterButton.eq(0).trigger('click');
 	}
-
-	teamCorporateLogo.add(teamSlack).on('mouseenter', function() {
-
-		// get text
-		var dataBaloonGetText = '';
-		if($(this).is(teamCorporateLogo)) {
-			dataBalloonTop.show()
-			dataBaloonGetText = $(this).parent().attr('data-corporate-id');
-		}
-		if($(this).is(teamSlack)) {
-			dataBalloonTop.hide();
-			dataBaloonGetText = $(this).parent().parent().attr('data-slack');
-		}
-		dataBalloonBottom.text(dataBaloonGetText);
-
-		// balloon follow
-		$(this).mousemove( function(e) {
-			teamDataBalloon.css({'left': e.pageX-(teamDataBalloon.width()/2), 'top': e.pageY+20});
-		});
-
-		teamDataBalloon.addClass('active');
-	}).on('mouseleave', function() {
-		teamDataBalloon.removeClass('active');
-	});
 
 	teamCorporateLogo.add(teamTwitter).on('mouseenter', function() {
 
