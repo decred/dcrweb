@@ -154,16 +154,6 @@
   title: "dcrdata Developer"
   github_id: papacarp
 -
-  matrix_id: rmykolas:decred.org
-  company_id: eeter
-  group: development
-  avatar_image: "team_53.svg"
-  name: "Mykolas Raižys"
-  title: developer
-  linkedin_url: "https://www.linkedin.com/in/mykolasraizys"
-  medium_alias: "rmykolas"
-  twitter_alias: rmykolas
--
   matrix_id: nick.k:decred.org
   company_id: block_42
   group: development
@@ -436,13 +426,6 @@
   github_id: artikozel
   medium_alias: artikozel
 -
-  matrix_id: traced:decred.org
-  twitter_alias: "traceagain"
-  group: community
-  avatar_image: "team_38.svg"
-  name: "Trace Trebilco"
-  title: "Decred Assembly Host"
--
   matrix_id: anshawblack:decred.org
   group: marketing
   avatar_image: "angel_dominguez.svg"
@@ -513,3 +496,11 @@
   title: "Developer"
   twitter_alias: "amirma209"
   github_id: "amassarwi"
+-
+  matrix_id: exitus:decred.org
+  group: marketing
+  avatar_image: "mike_winslow.svg"
+  name: "Mike Winslow"
+  title: "Media Production"
+  twitter_alias: "coveryfire7777"
+  github_id: "exitus1"
