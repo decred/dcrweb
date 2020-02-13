@@ -1,12 +1,22 @@
 #!/usr/bin/env bash
 
 # validate generated html content
+bin/build.sh
+
+# build image that contains the content 
+docker build -t decred/dcrweb-test test
 
 echo -n "Starting nu validator "
 
-docker run -d --rm --name nu_validator -p 8888:8888 validator/validator:latest || exit 1
+# run nu-validator service
+docker stop validator 2>/dev/null
 
-# wait for the service to start up
+docker run \
+    -d --rm \
+    --name validator \
+    -p 8888:8888 validator/validator:latest || exit 1
+
+# wait for the validator service to start up
 
 while true; do
     curl -qqq localhost:8888 2>/dev/null >/dev/null && break
@@ -15,29 +25,13 @@ while true; do
 done
 
 echo
-echo -n "Validating pages "
 
-FILES=$(find src/public -name \*.html | grep -v google)
-PATH=node_modules/.bin:$PATH
+docker run --rm --link validator decred/dcrweb-test
 
-exit_code=0
-error_files=""
+exit_code=$?
 
-for file in $FILES; do
-    echo -n .
-    html-validator --quiet --errors-only --validator='http://localhost:8888' --file=$file && continue
-    error_files="$error_files $file"
-    exit_code=1
-done
-
-echo done
-
-if [ $exit_code != "0" ]; then
-    echo "errors found: $error_files"
-else
-    echo "no errors found"
-fi
-
-docker stop nu_validator >/dev/null
+echo -n "Stopping validator..."
+docker stop validator 2>/dev/null
+echo
 
 exit $exit_code

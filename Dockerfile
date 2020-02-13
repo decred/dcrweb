@@ -31,4 +31,5 @@ LABEL maintainer="peter@froggle.org"
 
 COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
 
+# /usr/share/nginx/html is also hardcoded in test/run-test.sh
 COPY --from=0 /root/src/public/ /usr/share/nginx/html
