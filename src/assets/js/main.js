@@ -614,10 +614,10 @@ $(document).ready(function () {
 		};
 
 	// navigation menu
-	//navigationButton.click( function() {
-	//	navOpenClose.add(linkSection).toggleClass('active');
-	//	$("body").toggleClass('noscroll');
-	//});
+	navigationButton.click( function() {
+		navOpenClose.add(linkSection).toggleClass('active');
+		$("body").toggleClass('noscroll');
+	});
 
 	if (platform.os.family == "Windows" || platform.os.family == "Windows Server" || platform.os.family == "Windows 7" || platform.os.family == "Windows 7 / Server 2008 R2" || platform.os.family == "Windows Server 2008 R2 / 7 x64") {
 		$(".windl").show();

@@ -24,6 +24,11 @@ body {
 body.noscroll {
   height: 100vh;
   overflow: hidden;
+  padding-right: 15px;
+}
+
+body.noscroll >.below.subpage {
+	margin-right: 15px;
 }
 
 .borderradius4 {
@@ -1543,6 +1548,10 @@ body.noscroll {
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
 }
 
+body.noscroll .navigation {
+	right: 15px;
+}
+
 @media (max-height: 720px) {
   .navigation {
     top: 15px;
@@ -1719,7 +1728,7 @@ body.noscroll {
   transform: translate(0%, 0px);
 }
 
-.toggle:checked + .navigation-button + .lang-menu:not(.active) + .link-section, .toggle:checked + .navigation-button + .link-section {
+.link-section.active {
   opacity: 1;
   -webkit-transform: translate(0%, 0px);
   -ms-transform: translate(0%, 0px);
@@ -1927,7 +1936,7 @@ ul, li, nav {
   background-image: url('../images/open-menu.svg');
 }
 
-.toggle:checked + .navigation-button .nav-open-close {
+.nav-open-close.active {
   -webkit-transform: translate(-50%, 0px);
   -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
