@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 # convert localization files from Transifex format to Hugo i18n
 
 for i in transifex_catalogs/*.json; do
