@@ -698,6 +698,7 @@ body.noscroll >.below.subpage {
 
 .fronta.landing {
   height: 620px;
+  background: url('../videos/headers/landing/fallback.jpg');
   -webkit-box-pack: justify;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: justify;
@@ -3633,8 +3634,8 @@ html[dir="rtl"] .lang-menu {
   align-items: center;
   justify-content: center;
   margin-left: 10px;
-  width: 201px;
   height: 38px;
+  padding: 6px 15px 7px 15px;
   border-radius: 3px;
   border: solid 1px #2970ff;
   font-size: 18px;
@@ -3646,6 +3647,7 @@ html[dir="rtl"] .lang-menu {
 }
 .wallet-btn img {
   margin-right: 10px;
+  margin-top:-1px;
 }
 
 .all-downloads {
@@ -3698,23 +3700,47 @@ html[dir="rtl"] .lang-menu {
 .landingbox-secure {
   background: url('../images/landing-security.png') center/cover no-repeat #091440;
 }
+.landingbox-secure:hover {
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(11, 22, 65, 0.6) 100%), url('../images/landing-security.png');
+}
 .landingbox-sustainable {
   background: url('../images/landing-sustainability.png') center/cover no-repeat #091440;
+}
+.landingbox-sustainable:hover {
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing-sustainability.png');
 }
 .landingbox-adaptable {
   background: url('../images/landing-adaptability.png') center/cover no-repeat #091440;
 }
+.landingbox-adaptable:hover {
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing-adaptability.png');
+}
 .landingbox-exchanges {
   background: url('../images/landing_exchanges.png') center/cover no-repeat #091440;
+}
+.landingbox-exchanges:hover {
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_exchanges.png');
 }
 .landingbox-docs {
   background: url('../images/landing_docs.png') center/cover no-repeat #091440;
 }
+.landingbox-docs:hover {
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_docs.png');
+}
 .landingbox-community {
   background: url('../images/landing_community.png') center/cover no-repeat #091440;
 }
+.landingbox-community:hover{
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_community.png');
+}
 .landingbox-wallets {
   background: url('../images/landing_downloads.png') center/cover no-repeat #091440;
+}
+.landingbox-wallets:hover{
+  background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_downloads.png');
+}
+.landing-content-link a:hover {
+  color: #4dbeff;
 }
 .landing-bg:nth-child(4n+0) {
   margin-right: -21px;
@@ -4358,8 +4384,8 @@ p.text-block-11 {
 }
 
 .circle {
-  height: 8px;
-  width: 8px;
+  height: 9px;
+  width: 9px;
   border-radius: 50%;
   position: relative;
   background-color: #2f74fb;
@@ -4371,7 +4397,7 @@ p.text-block-11 {
   position: absolute;
   z-index: 1;
   top: 100%;
-  left: 50%;
+  left: 45%;
   border: 1px solid #2f74fb;
   border-width: 0 0 0 1px;
   width: 1px;

@@ -7,8 +7,6 @@
     {{ if .IsHome }}
     {{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
     <div class="fronta landing video-header">
-        <video autoplay loop muted poster="/videos/headers/landing/fallback.jpg">
-        </video>
         <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo slack-join w-inline-block"></a></div>
         <div class="_960 subpage-header">
             <div class="landing-title">{{ T "landing_opener" }}</div>
@@ -17,7 +15,7 @@
                 <a class="wallet-btn alldl" href="{{ "/wallets" | relLangURL }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
                 <div class="all-downloads os-specific alldl">{{ T "home_for_computer" }} <a href="{{ "/wallets" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
                 {{ range $download_links }}
-                <a class="wallet-btn os-specific {{ .platform }}" href="{{ .url }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" style="padding: 10px;" alt=""> {{ T "home_download_wallet" }}</a>
+                <a class="wallet-btn os-specific {{ .platform }}" href="{{ .url }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
                 <div class="all-downloads os-specific {{ .platform }}">{{ $msg_id := print "home_decrediton_for_" .platform }} {{ T $msg_id  }} <br /><a href="{{ "/wallets" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
                 {{ end }}
             </div>
