@@ -11,10 +11,6 @@
   img_src: "dcr-community-platforms-telegram.png"
   name: Telegram
 -
-  url: "https://open.kakao.com/o/gltZ30A"
-  img_src: "dcr-community-platforms-kakaotalk.png"
-  name: KakaoTalk
--
   url: "https://twitter.com/decredproject"
   img_src: "dcr-community-platforms-twitter.png"
   name: Twitter
