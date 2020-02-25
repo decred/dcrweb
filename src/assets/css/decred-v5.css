@@ -11,7 +11,6 @@ html {
 
 body {
   background-color: #f4f7f9;
-  background-image: url('../images/bg_.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4090,12 +4089,6 @@ p.text-block-11 {
 
 .col-8 {
   width: 66.666666%;
-}
-
-.col-6 img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
 }
 
 .col-3x, .col-4, .col-4x {
