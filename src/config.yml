@@ -99,6 +99,11 @@ languages:
                     id: chainnode
                     label: ChainNode
                     url: https://www.chainnode.com/forum/305
+    pt:
+        languageName: "PT"
+        weight: 50
+        params:
+                languageDir: ltr
     ar:
         languageName: العَرَبِيَّة
         weight: 90
