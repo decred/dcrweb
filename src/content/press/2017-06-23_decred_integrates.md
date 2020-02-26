@@ -22,7 +22,7 @@ As a special treat, the two projects have collaborated to launch a cryptographic
 
 The Exodus and Decred software are available for Windows, Mac, and Linux. For more information, visit: decred.org.
 
-Users who require additional assistance can talk to the Decred team at: [slack.decred.org](https://slack.decred.org).
+Users who require additional assistance can talk to the Decred team at: [decred.org/matrix/](https://decred.org/matrix/).
 
 
 > "...one of the most interesting current projects, both for the current characteristics and those that will be implemented in the near future." — Crypto Currency
