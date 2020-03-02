@@ -99,36 +99,11 @@ languages:
                     id: chainnode
                     label: ChainNode
                     url: https://www.chainnode.com/forum/305
-    ko:
-        languageName: 한국어
-        weight: 30
-        params:
-            languageDir: ltr
-    ja:
-        languageName: 日本語
-        weight: 40
-        params:
-            languageDir: ltr
     pt:
-        languageName: POR
+        languageName: "PT"
         weight: 50
         params:
-            languageDir: ltr
-    ru:
-        languageName: RUS
-        weight: 60
-        params:
-            languageDir: ltr
-    tr:
-        languageName: TUR
-        weight: 70
-        params:
-            languageDir: ltr
-    fa:
-        languageName: فارسی
-        weight: 80
-        params:
-            languageDir: rtl
+                languageDir: ltr
     ar:
         languageName: العَرَبِيَّة
         weight: 90

@@ -90,7 +90,7 @@ $(document).ready(function () {
 		// first view
 		logo = $('.logo'),
 		slogan = $('.slogan'),
-		playButton = $('.play-button'),
+		playButton = $('.play-modal'),
 		mobilePlayButton = $('.mobile-play-button'),
 		bgIllustration = $('.bg-illustration'),
 		bgIllustrationGhost = $('.bg-illustration-ghost'),
@@ -150,8 +150,8 @@ $(document).ready(function () {
 		featureBubble = $('.featureBubble'),
 
 		// principles section
-		principlesSelect = $('.principles-select'),
-		principlesSlide = $('.principles-slide'),
+		principlesSelect = $('.history-select'),
+		principlesSlide = $('.history-slide'),
 
 		//language menu
 		langMenu = $('.lang-menu'),
@@ -616,6 +616,7 @@ $(document).ready(function () {
 	// navigation menu
 	navigationButton.click( function() {
 		navOpenClose.add(linkSection).toggleClass('active');
+		$("body").toggleClass('noscroll');
 	});
 
 	if (platform.os.family == "Windows" || platform.os.family == "Windows Server" || platform.os.family == "Windows 7" || platform.os.family == "Windows 7 / Server 2008 R2" || platform.os.family == "Windows Server 2008 R2 / 7 x64") {

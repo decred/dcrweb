@@ -30,7 +30,7 @@
                         {{ range $items }}
                         <div data-groups="[&quot;{{ .tags }}&quot;]" class="filter-card filter-{{ .tags }} w-inline-block">
                             <div class="filter-card-footer w-clearfix">
-                                <img src="/images/{{ .image }}" class="roadmap__image" alt=""/>
+                                <img src="{{ .Site.BaseURL }}/images/{{ .image }}" class="roadmap__image" alt=""/>
                                 <p class="roadmap__card-title">{{ .title }}</p>
                                 <p class="roadmap__addition-date">{{ .date }}</p>
                                 <p class="roadmap__description">{{ .description }}</p>

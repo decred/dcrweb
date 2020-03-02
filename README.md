@@ -49,6 +49,7 @@ You should now be able to access the site at `http://localhost:1313`
 | Contributors      |  `src/data/contributors/*.yml` | Avatar images: `src/assets/images/contributors` |
 | Community channels    | `src/data/community/channels.yml` |Logo images: `src/assets/images/community` |
 | Exchanges             | `src/data/exchanges.*.yml` | Logo images: `src/assets/images/exchanges`|
+| History | `src/data/history/*.yml` | Edit timeline and stats section.
 
 The other sections live under `src/layouts`.  These pages are implemented as [Hugo templates](https://gohugo.io/templates/) and are [localized](https://gohugo.io/content-management/multilingual/#translation-of-strings).  The message catalogs can be found in `src/i18n`, when making changes in the templates, you'll want to keep the strings in the catalogs, please follow the naming scheme in the existing templates.    
 

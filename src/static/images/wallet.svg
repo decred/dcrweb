@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="XMLID_3_" transform="translate(-33 -24.6)">
+    <g id="XMLID_11_">
+      <g id="XMLID_12_">
+        <rect id="XMLID_13_" width="20" height="20" transform="translate(33 24.6)" fill="none"/>
+      </g>
+    </g>
+    <g id="XMLID_4_" transform="translate(34.2 27.2)">
+      <path id="XMLID_10_" d="M34.3,28.5Z" transform="translate(-34.2 -27.2)" fill="#8297a5"/>
+      <path id="XMLID_9_" d="M35.7,29.7H49.2v-1a1.538,1.538,0,0,0-1.5-1.5h-12a1.508,1.508,0,0,0-1.5,1.2A1.693,1.693,0,0,0,35.7,29.7Z" transform="translate(-34.2 -27.2)" fill="#091440"/>
+      <path id="XMLID_8_" d="M34.3,28.5Z" transform="translate(-34.2 -27.2)" fill="#8297a5"/>
+      <path id="XMLID_7_" d="M34.2,28.6Z" transform="translate(-34.2 -27.2)" fill="#8297a5"/>
+      <path id="XMLID_6_" d="M50.2,29.7H35.7a1.508,1.508,0,0,1-1.5-1.2h0v.1h0V40.7a1.538,1.538,0,0,0,1.5,1.5H50.2a1.538,1.538,0,0,0,1.5-1.5V39a3.1,3.1,0,0,1,0-6.2V31.2A1.417,1.417,0,0,0,50.2,29.7Z" transform="translate(-34.2 -27.2)" fill="#2970ff"/>
+      <path id="XMLID_5_" d="M48.6,35.9A3.116,3.116,0,0,0,51.7,39V32.8A3.116,3.116,0,0,0,48.6,35.9Z" transform="translate(-34.2 -27.2)" fill="#091440"/>
+    </g>
+  </g>
+</svg>

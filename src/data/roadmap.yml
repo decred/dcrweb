@@ -106,15 +106,9 @@
   date: "Completed Q4 2018"
   description: "Enable storing and sending of Decred using Trezor hardware wallet."
   link: "https://github.com/decred/decrediton/issues/1491"
-- tags: new
-  image: "roadmap/DAEActive.svg"
-  title: "Decentralized Autonomous Organizations"
-  date: "Added Q1 2018"
-  description: "Add support for user-created decentralized autonomous organizations (DAOs), with decentralized control of funds as their basis. Instead of focusing on speculative tokenization seen in \"ICOs\", a DAO will be built around an on-chain smart contract delegating control over funds to a group of individuals."
-  link: "https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/"
 - tags: completed
   image: "roadmap/DEXCompleted.svg"
-  title: "Proposal For a Decentralized Exchange"
+  title: "Decentralized Exchange Proposal"
   date: "Completed Q1 2019"
   description: "A proposal for a full-fledged decentralized exchange expanding on the atomicswap tools that we released in 2017. Unlike the profit-centric models common in the space, it will aim to be open, welcoming involvement from other cryptocurrencies. The project will be formalized as a Politeia proposal."
   link: "https://proposals.decred.org/proposals/5431da8ff4eda8cdbf8f4f2e08566ffa573464b97ef6d6bae78e749f27800d3a"
@@ -142,12 +136,12 @@
   date: "Completed Q4 2018"
   description: "Decrediton will gain a new light client mode of operation. It won't need to download and store the blockchain, but some functions will not be available. SPV approach underneath is called compact filters and is a substantial privacy improvement over traditional bloom filters."
   link: "https://github.com/decred/decrediton/issues/1243"
-- tags: ongoing
-  image: "roadmap/decreditonIntegrActive.svg"
+- tags: completed
+  image: "roadmap/decreditonIntegrCompleted.svg"
   title: "Decrediton Integrations: Lightning Network"
-  date: "Added Q1 2018"
+  date: "Completed Q4 2019"
   description: "Enable managing of Lightning Network payments and channels directly from Decrediton wallet."
-  link: "https://github.com/decred/decrediton"
+  link: "https://www.hodlalert.com/2020/01/20/beginner-guide-to-the-decred-dcr-lightning-network/"
 - tags: ongoing
   image: "roadmap/scalabilityOpsActive.svg"
   title: "Scalability Optimizations: Block Header Commitments"
@@ -160,16 +154,16 @@
   date: "Added Q1 2018"
   description: "Enable efficient multi-peer parallel downloads of blockchain data."
   link: "https://github.com/decred/dcrd/issues/1145"
-- tags: new
+- tags: ongoing
   image: "roadmap/scalabilityOpsActive.svg"
   title: "Scalability Optimizations: Schnorr Signatures"
   date: "Added Q1 2018"
   description: "Signatures from multiple private keys can be aggregated into a single signature, leading to a substantial savings on network and storage for Decred nodes."
   link: "https://blog.decred.org/2018/02/28/2018-Decred-Roadmap/"
-- tags: ongoing
-  image: "roadmap/LNActive.svg"
+- tags: completed
+  image: "roadmap/LNCompleted.svg"
   title: "Lightning Network"
-  date: "Added Q1 2018"
+  date: "Completed Q3 2019"
   description: "The Lightning Network allows users to create off-chain transactions that optionally settle on-chain. This has clear benefits for both scaling and privacy. Most of the work to port Lightning Labs’ lnd to Decred is done."
   link: "https://github.com/decred/dcrlnd"
 - tags: new

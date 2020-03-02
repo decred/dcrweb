@@ -1,111 +1,110 @@
-{{ define "content-top" }}
-    <div class="preload-on-background"></div>
-    <div class="bg w-clearfix">
-        <div class="bg-gradient">
-            <div class="bg-gradient-ghost"></div>
-        </div>
-        <div class="bg-illustration">
-            <video autoplay loop muted playsinline id="illustration-player">
-                <source src="/videos/front-bg-anim.mp4" type="video/mp4">
-                <source src="/videos/front-bg-anim.webm" type="video/webm">
-            </video>
-            <div class="active bg-illustration-ghost"></div>
-        </div>
-    </div>
-{{ end }}
+{{ define "content-top" }}{{ end }}
 
 
 
 {{ define "fronta" }}
 
     {{ if .IsHome }}
-
-        {{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
-
-        <div class="fronta">
-            <div class="full-width">
-                <div class="_960 firstview">
-                    <div class="firstview-left">
-                        <div class="logo"></div>
-                        <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralized <span class="fontsemibold">CREDITS</span>»</div>
-                        <div class="description font38">{{ T "home_mainheading" }}</div>
-
-                        <div class="first-view-buttons w-clearfix">
-                            <a href="{{ "/wallets" | relLangURL }}" class="button download-wallet w-button alldl">
-                                <span>{{ T "home_download_wallet" }}</span>
-                            </a>
-                            <div class="button os-specific alldl">{{ T "home_for_computer" }}</div>
-
-                            {{ range $download_links }}
-                                <a href="{{ .url }}" class="button download-wallet w-button {{ .platform }}">
-                                    <span>{{ T "home_download_wallet" }}</span>
-                                </a>
-                                <div class="button os-specific {{ .platform }}">
-                                    {{ $msg_id := print "home_decrediton_for_" .platform }}
-                                    <span>{{ T $msg_id  }}</span>
-                                </div>
-                            {{ end }}
-
-                            <a href="{{ "/wallets" | relLangURL }}" class="button all-downloads w-button">{{ T "home_all_downloads" }} →</a>
-                        </div>
-
-                        <div class="mobile-play-button">
-                            <a href="https://www.youtube.com/watch?v=GAMp5V_gG1E">{{ T "home_watch_video" }}</a>
-                        </div>
-                    </div>
-                    <div class="firstview-right w-hidden-small w-hidden-tiny"><a href="#" class="play-button w-inline-block"></a></div>
-                </div>
+    {{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
+    <div class="fronta landing video-header">
+        <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a></div>
+        <div class="_960 subpage-header">
+            <div class="landing-title">{{ T "landing_opener" }}</div>
+            <div class="d-flex"> 
+                <a class="play-btn play-modal" href="#"><img src="{{ .Site.BaseURL }}/images/play.svg" alt=""><span>{{ T "home_watch_video" }}</span></a>        
+                <a class="wallet-btn alldl" href="{{ "/wallets" | relLangURL }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
+                <div class="all-downloads os-specific alldl">{{ T "home_for_computer" }} <a href="{{ "/wallets" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
+                {{ range $download_links }}
+                <a class="wallet-btn os-specific {{ .platform }}" href="{{ .url }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
+                <div class="all-downloads os-specific {{ .platform }}">{{ $msg_id := print "home_decrediton_for_" .platform }} {{ T $msg_id  }} <br /><a href="{{ "/wallets" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
+                {{ end }}
             </div>
         </div>
+    </div>
     {{ end }}
 {{ end }}
 
 {{ define "main" }}
 
   {{ if .IsHome }}
-
-        <div class="full-width news_banner">
-            <div class="_960">
-                {{ partial "home/news_banner.html" . }}
+  <div class="full-width landing-content">
+    <div class="_960">
+        <div class="landing-content-bg landingbox-secure">
+            <div>
+                <p class="heading-text-block">{{ T "landing_01_headline" }}</p>
+                <p class="landing-text-block">{{ T "landing_01_text"}}</p>
+            </div>
+            <div class="landing-content-link">
+                <a href="{{ "security/" | relLangURL }}">{{ T "landing_01_link1"}} →</a> <a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer">{{ T "landing_01_link2"}} →</a> <a href="https://github.com/decred/" target="_blank" rel="noopener noreferrer">{{ T "landing_01_link3"}} →</a>
             </div>
         </div>
-
-        <div class="full-width">
-            <div class="_960">
-                <div id="mission" class="mission">
-                    {{ partial "home/mission.html" . }}
-                </div>
+        <div class="landing-content-bg landingbox-adaptable">
+            <div>
+                <p class="heading-text-block">{{ T "landing_02_headline" }}</p>
+                <p class="landing-text-block">{{ T "landing_02_text"}} </p>
+            </div>
+            <div class="landing-content-link">
+                <a href="{{ "adaptability/" | relLangURL }}">{{ T "landing_02_link1"}} →</a>
+                <a href="https://proposals.decred.org" target="_blank" rel="noopener noreferrer">{{ T "nav_politeia"}} →</a>
             </div>
         </div>
-
-        <div class="full-width">
-            <div class="_960">
-                <div class="quotes">
-                    {{ partial "home/quotes.html" . }}
-                </div>
+        <div class="landing-content-bg landingbox-sustainable">
+            <div>
+                <p class="heading-text-block">{{ T "landing_03_headline" }}</p>
+                <p class="landing-text-block">{{ T "landing_03_text"}}</p>
+            </div>
+            <div class="landing-content-link">
+                <a href="{{ "sustainability/" | relLangURL }}">{{ T "landing_03_link1"}} →</a>
+                <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">{{ T "landing_03_link2"}} →</a>
             </div>
         </div>
-
-        <div class="full-width gray-bg">
-            <div class="_960">
-                <div id="platform" class="platform">
-                    {{ partial "home/platform.html" . }}
-                </div>
+        <div class="row">
+            <div class="landing-bg landingbox-exchanges">
+                <a href="{{ "exchanges/" | relLangURL }}">
+                    <div class="landing-bg__content">
+                        <p class="landing-heading-block">{{ T "landing_04_link" }} →</p>
+                    </div>
+                </a>
+            </div>
+            <div class="landing-bg landingbox-docs">
+                <a href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer">
+                    <div class="landing-bg__content">
+                        <p class="landing-heading-block">{{ T "landing_05_link" }} →</p>
+                    </div>
+                </a>
+            </div>
+            <div class="landing-bg landingbox-community">
+                <a href="{{ "community/" | relLangURL }}">
+                    <div class="landing-bg__content">
+                        <p class="landing-heading-block">{{ T "landing_06_link" }} →</p>
+                    </div>
+                </a>
+            </div>
+            <div class="landing-bg landingbox-wallets">
+                <a href="{{ "wallets/" | relLangURL }}">
+                    <div class="landing-bg__content">
+                        <p class="landing-heading-block">{{ T "landing_07_link" }} →</p>
+                    </div>
+                </a>
             </div>
         </div>
-
-        <div class="dark-gray-bg full-width">
-            <div class="_960">
-                <div class="principles">
-                    {{ partial "home/principles.html" . }}
-                </div>
+    </div>
+</div>
+<div class="full-width latest-news">
+    <div class="_960">
+        <div class="d-flex latest-news__title">
+            <p>{{ T "landing_latestnews" }}</p>
+            <a href="{{ "press/" | relLangURL }}">{{ T "landing_seemore" }} →</a>
+        </div>
+        <div class="subpage-content-section">
+            <div class="press press__coverage subpage-content w-clearfix active">
+                {{ partial "landing-coverage-list" . }}
             </div>
         </div>
+    </div>
+</div>
 
-        <div class="guide" id="guide">
-                {{ partial "home/guide.html" . }}
-        </div>
-
+{{ partial "subpage-footer.html" . }}
   {{ end }}
 
 {{ end }}
