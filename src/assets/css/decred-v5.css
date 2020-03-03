@@ -3895,6 +3895,17 @@ html[dir="rtl"] .lang-menu {
   transition: opacity 100ms ease;
 }
 
+.subpage-logo-dark {
+  width: 166px;
+  height: 30px;
+  background-image: url('../images/subpage_logo_dark.svg');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  -webkit-transition: opacity 100ms ease;
+  transition: opacity 100ms ease;
+}
+
 .subpage-logo:hover {
   opacity: 0.8;
 }
