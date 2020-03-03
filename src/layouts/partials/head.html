@@ -2,7 +2,7 @@
   <meta charset="utf-8">
 
   {{ if eq .IsHome false }}
-  <title>Decred - {{ T .Title }}</title>
+  <title>Decred - {{ .Title }}</title>
   {{ else }}
   <title>{{ T "title" }}</title>
   {{ end }}
