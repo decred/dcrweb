@@ -3690,42 +3690,49 @@ html[dir="rtl"] .lang-menu {
   background: #091440;
 }
 .landingbox-secure {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(11, 22, 65, 0.6) 100%), url('../images/landing-security.png');
 }
 .landingbox-secure:hover {
   background: url('../images/landing-security.png') center/cover no-repeat #091440;
 }
 .landingbox-sustainable {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing-sustainability.png');
 }
 .landingbox-sustainable:hover {
   background: url('../images/landing-sustainability.png') center/cover no-repeat #091440;
 }
 .landingbox-adaptable {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing-adaptability.png');
 }
 .landingbox-adaptable:hover {
   background: url('../images/landing-adaptability.png') center/cover no-repeat #091440;
 }
 .landingbox-exchanges {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_exchanges.png');
 }
 .landingbox-exchanges:hover {
   background: url('../images/landing_exchanges.png') center/cover no-repeat #091440;
 }
 .landingbox-docs {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_docs.png');
 }
 .landingbox-docs:hover {
   background: url('../images/landing_docs.png') center/cover no-repeat #091440;
 }
 .landingbox-community {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_community.png');
 }
 .landingbox-community:hover{
   background: url('../images/landing_community.png') center/cover no-repeat #091440;
 }
 .landingbox-wallets {
+  background: center/cover no-repeat #091440;
   background-image: linear-gradient(to right, rgba(9,20,64,0.6) 0%,rgba(9,20,64,0.6) 100%), url('../images/landing_downloads.png');
 }
 .landingbox-wallets:hover{
