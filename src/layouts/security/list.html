@@ -11,8 +11,18 @@
                     </a>
                 </div>
             </div>
-            <div class="subpage-content__menu">
-               <span>{{ T "subpage_nav_whatis" }} |</span><a class="active" href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a><a href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a><a href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a><a href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
+            <div class="subpage-description breadcrumbs">
+                <div class="w-row">
+                    <div class="w-col w-col-2 w-col-small-3">
+                        {{ T "subpage_nav_whatis" }} |
+                    </div>
+                    <div class="w-col w-col-10 w-col-small-9">
+                        <a class="active" href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a>
+                        <a href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a>
+                        <a href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a>
+                        <a href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
+                    </div>
+                </div>
             </div>
             <div class="subpage-content-section ex" id="subpages">
                 <div class="subpage-content">
