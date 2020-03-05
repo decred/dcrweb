@@ -7,27 +7,30 @@
 
     {{ if .IsHome }}
 
-        {{ block "content-top" . -}}{{- end }}
+        <div class="landing-gray-bg">
 
-        {{ block "fronta" . }}
-            <div class="fronta subpage video-header">
-                <video autoplay loop muted poster="/videos/headers/{{ .Section }}/fallback.jpg">
-                    <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.mp4" type="video/mp4">
-                    <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.webm" type="video/webm">
-                    <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.ogv" type="video/ogg">
-                </video>
-                <div class="_960 subpage-header">
-                    <a href="{{ .Site.BaseURL | absLangURL  }}" class="subpage-logo w-inline-block"></a>
+            {{ block "content-top" . -}}{{- end }}
+
+            {{ block "fronta" . }}
+                <div class="fronta subpage video-header">
+                    <video autoplay loop muted poster="/videos/headers/{{ .Section }}/fallback.jpg">
+                        <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.mp4" type="video/mp4">
+                        <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.webm" type="video/webm">
+                        <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.ogv" type="video/ogg">
+                    </video>
+                    <div class="_960 subpage-header">
+                        <a href="{{ .Site.BaseURL | absLangURL  }}" class="subpage-logo w-inline-block"></a>
+                    </div>
+                    <div class="_960 subpage-header">
+                        <div class="subpage-title">{{ T .Title }}</div>
+                    </div>
                 </div>
-                <div class="_960 subpage-header">
-                    <div class="subpage-title">{{ T .Title }}</div>
-                </div>
+            {{ end }}
+
+            <div class="below subpage landing">
+            {{ block "main" . -}}{{- end }}
+            {{ partial "footer.html" . }}
             </div>
-        {{ end }}
-
-        <div class="below subpage landing">
-          {{ block "main" . -}}{{- end }}
-          {{ partial "footer.html" . }}
         </div>
 
     {{ else }}

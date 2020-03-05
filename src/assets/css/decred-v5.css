@@ -250,6 +250,17 @@ body.noscroll >.below.subpage {
   overflow: visible;
 }
 
+.below.subpage {
+  top: 0%;
+  margin-top: 345px;
+}
+
+.below.landing {
+  margin-top: -6rem;
+  position: relative;
+  background-color: transparent;
+}
+
 .statistics {
   padding-top: 65px;
   padding-bottom: 65px;
@@ -3641,8 +3652,12 @@ html[dir="rtl"] .lang-menu {
 
 .landing-content {
   padding-bottom: 60px;
+  background-color: transparent;
+}
+.landing-gray-bg {
   background-color: #f3f5f6;
 }
+
 .landing-content-bg {
   margin-bottom: 20px;
   padding: 20px 20px;
@@ -4235,7 +4250,6 @@ p.text-block-11 {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
-}
 
 @media screen and (max-width: 479px) {
   .subpage-content__principles .text-block-7 {
@@ -5825,6 +5839,12 @@ p.text-block-11 {
   }
   .fronta.landing {
     min-height: 420px;
+  }
+  .below.subpage {
+    margin-top: 300px;
+  }
+  .below.landing {
+    margin-top: 0px;
   }
   .statisticscontent.width1100 {
     padding-right: 60px;
@@ -8457,7 +8477,7 @@ p.get-into__link {
     .subpage-description {
         margin-top: 63%;
     }
-
+}
 @media (min-width: 842px) {
   #explorer-links {
     text-align: center;
