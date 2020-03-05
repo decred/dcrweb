@@ -20,6 +20,10 @@ body {
   font-weight: 400;
 }
 
+a {
+  outline: 0;
+}
+
 body.noscroll {
   height: 100vh;
   overflow: hidden;

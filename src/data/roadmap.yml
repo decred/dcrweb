@@ -32,7 +32,7 @@
   image: "roadmap/SHA256Completed.svg"
   title: "DCP-0002 - SHA256 Opcode"
   date: "Completed 2018-01-19"
-  description: "Part of the 2nd consensus vote. Enabled Hashlocks and Hash-Time Locked Contracts to work using the SHA-256 algorithm. This allows these features to work across other chains that don't use Decred's Blake256 algorithm. As a result, Decred can support off-chain atomic swaps using the Lightning Network."
+  description: "Part of the 2nd consensus vote. Enabled Hashlocks and Hash-Time Locked Contracts to work using the SHA-256 algorithm. This allows these features to work across other chains that don't use Decred's BLAKE-256 algorithm. As a result, Decred can support off-chain atomic swaps using the Lightning Network."
   link: "https://github.com/decred/dcps/blob/master/dcp-0002/dcp-0002.mediawiki"
 - tags: completed
   image: "roadmap/lockTimeComplete.svg"
@@ -44,7 +44,7 @@
   image: "roadmap/changeProposalCompleted.svg"
   title: "Decred Change Proposal (DCP) Process"
   date: "Completed Q2 2017"
-  description: "A design document that describes potential protocol or consensus changes to Decred. Due to Decred's decentralized governance structure, any proposed changes to consensus require super-majority stakeholder approval via the integrated on-chain proof-of-stake voting infrastructure."
+  description: "A design document that describes potential protocol or consensus changes to Decred. Due to Decred's decentralized governance structure, any proposed changes to consensus require super-majority stakeholder approval via the integrated on-chain Proof-of-Stake voting infrastructure."
   link: "https://github.com/decred/dcps/blob/master/dcp-0000/dcp-0000.mediawiki"
 - tags: completed
   image: "roadmap/privacyCompleted.svg"
