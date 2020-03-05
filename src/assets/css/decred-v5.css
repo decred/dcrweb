@@ -230,14 +230,8 @@ body.noscroll >.below.subpage {
   transition: all 100ms cubic-bezier(.455, .03, .515, .955);
 }
 
-.below {
-  position: absolute;
-  left: 0px;
-  top: 100%;
-  right: 0px;
-  z-index: 1;
+.subpage {
   overflow: hidden;
-  background-color: #fff;
 }
 
 .below.subpage.brand {
@@ -248,16 +242,6 @@ body.noscroll >.below.subpage {
 
 .below.subpage.brief, .below.subpage.sustainability, .below.subpage.security, .below.subpage.adaptability {
   overflow: visible;
-}
-
-.below.subpage {
-  top: 0%;
-  margin-top: 345px;
-}
-
-.below.landing {
-  top: 0%;
-  margin-top: 620px;
 }
 
 .statistics {
@@ -696,7 +680,7 @@ body.noscroll >.below.subpage {
 }
 
 .fronta.landing {
-  height: 620px;
+  min-height: 620px;
   background: url('../videos/headers/landing/fallback.jpg');
   -webkit-box-pack: justify;
   -webkit-justify-content: flex-start;
@@ -5847,11 +5831,8 @@ p.text-block-11 {
     font-size: 32px;
     line-height: 38px;
   }
-  .below.subpage {
-    margin-top: 300px;
-  }
-  .below.landing {
-    margin-top: 420px;
+  .fronta.landing {
+    min-height: 420px;
   }
   .statisticscontent.width1100 {
     padding-right: 60px;
