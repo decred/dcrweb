@@ -3,6 +3,7 @@ languageCode: en-us
 title: Decred
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
+pluralizelisttitles: false
 
 params:
     social_media_links:
