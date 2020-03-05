@@ -2,19 +2,9 @@
 
     <div class="full-width">
         <div class="_960">
-            <div class="subpage-description breadcrumbs">
-                <div class="w-row">
-                    <div class="w-col w-col-2 w-col-small-3">
-                        {{ T "subpage_nav_whatis" }} |
-                    </div>
-                    <div class="w-col w-col-10 w-col-small-9">
-                        <a href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a>
-                        <a href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a>
-                        <a href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a>
-                        <a class="active" href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
-                    </div>
-                </div>
-            </div>
+            
+            {{ partial "breadcrumbs.html" . }}
+            
         </div>
         <div class="_960 ">
             <div class="subpage-content-section ex" id="subpages">
