@@ -252,7 +252,6 @@ body.noscroll >.below.subpage {
 
 .below.subpage {
   top: 0%;
-  margin-top: 345px;
 }
 
 .below.landing {
@@ -5854,9 +5853,6 @@ p.text-block-11 {
   }
   .fronta.landing {
     min-height: 420px;
-  }
-  .below.subpage {
-    margin-top: 300px;
   }
   .below.landing {
     margin-top: 0px;
