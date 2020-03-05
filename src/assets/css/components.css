@@ -299,9 +299,8 @@ input[type="reset"] {
   padding: 10px;
   background-color: #ffdede;
 }
-label {
+.toggler {
   display: block;
-  margin-bottom: 5px;
   font-weight: bold;
 }
 .w-input,
