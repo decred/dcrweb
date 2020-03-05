@@ -1,26 +1,7 @@
 
 
 {{ define "main" }}
-<div class="full-width">
-	<div class="_960">
-		<div class="subpage-description breadcrumbs">
-			<div class="w-row">
-				<div class="w-col w-col-2 w-col-small-3">
-					{{ T "nav_getstarted" }} |
-				</div>
-				<div class="w-col w-col-10 w-col-small-9">
-					<a href="{{ "wallets/" | relLangURL }}" >{{ T "nav_downloads" }}</a>
-					<a href="https://proposals.decred.org" target="_blank" rel="noopener noreferrer" class="external">{{ T "nav_proposals" }}</a>
-					<a href="https://docs.decred.org/proof-of-stake/overview/" target="_blank" rel="noopener noreferrer" class="external">{{ T "nav_stakingvoting" }}</a>
-					<a href="{{ "exchanges/" | relLangURL }}" >{{ T "nav_exchanges" }}</a>
-					<a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer" class="external">{{ T "nav_bugbounty" }}</a>
-					<a href="https://dcrdata.decred.org" target="_blank" rel="noopener noreferrer" class="external">{{ T "nav_dcrdata" }}</a>
-					<a href="{{ "community/" | relLangURL }}" class="active">{{ T "nav_community" }}</a>
-				</div>
-			</div>	
-		</div>
-	</div>
-</div>
+	{{ partial "breadcrumbs_getstarted.html" . }}
     <div class="full-width">
         <div class="_960">
             <div class="subpage-content-section">
