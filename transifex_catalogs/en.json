@@ -274,7 +274,7 @@
   "landing_01_text": "Decred employs an innovative hybrid proof-of-work/proof-of stake system that layers security and carefully aligns incentives. This system yields the best of both worlds, making it an order of magnitude more expensive to attack than pure Proof-of-work or pure Proof-of-stake.",
   "landing_01_link1": "Read More About Security",
   "landing_01_link2": "Bug Bounty Program",
-  "landing_01_link3": "Github",
+  "landing_01_link3": "GitHub",
   "landing_02_headline": "Adaptable",
   "landing_02_text": "Decred’s built-in governance systems empower its community with formal rights to make consensus changes and manage project-level decisions. These systems make Decred adaptable, allowing it to evolve per the will of the stakeholders, resist forks and incorporate new technology over the long run.",
   "landing_02_link1": "Read More About Adaptability",
