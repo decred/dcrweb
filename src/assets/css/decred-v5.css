@@ -1606,42 +1606,6 @@ body.noscroll .navigation {
   background-color: #2669ef;
 }
 
-.button.all-downloads {
-  margin-top: 5px;
-  margin-left: 22px;
-  padding: 2px 0px 0px;
-  float: left;
-  clear: left;
-  border-bottom: 1px solid #e2e2e2;
-  border-radius: 0px;
-  background-color: transparent;
-  box-shadow: none;
-  -webkit-transition-property: none;
-  transition-property: none;
-  font-size: 12px;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.button.all-downloads:hover {
-  color: #f4f7f9;
-}
-
-.button.os-specific {
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 22px;
-  clear: left;
-  border-style: none;
-  border-radius: 0px;
-  background-color: transparent;
-  box-shadow: none;
-  color: hsla(0, 0%, 100%, .7);
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: none;
-}
-
 .button-description {
   display: block;
   clear: left;
@@ -3608,13 +3572,7 @@ html[dir="rtl"] .lang-menu {
 }
 
 .wallet-btn {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline;
   margin-left: 10px;
   height: 38px;
   padding: 6px 15px 7px 15px;

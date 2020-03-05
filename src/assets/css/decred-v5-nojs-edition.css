@@ -1337,24 +1337,6 @@ body {
   background-color: #2669ef;
 }
 
-.button.all-downloads {
-  padding-top: 2px;
-  padding-bottom: 4px;
-  float: left;
-  clear: left;
-  border-radius: 0px;
-  background-color: transparent;
-  box-shadow: none;
-  -webkit-transition-property: none;
-  transition-property: none;
-  font-size: 11px;
-  font-weight: 400;
-}
-
-.button.all-downloads:hover {
-  color: #f4f7f9;
-}
-
 .button-description {
   display: block;
   clear: left;
@@ -3540,9 +3522,6 @@ body {
   .button.download-wallet {
     margin-left: 92px;
   }
-  .button.all-downloads {
-    margin-left: 92px;
-  }
   .navigation-link {
     line-height: 28px;
   }
@@ -3966,9 +3945,6 @@ body {
   .button.download-wallet {
     display: none;
   }
-  .button.all-downloads {
-    display: none;
-  }
   .link-section {
     overflow: auto;
     width: 100%;
@@ -4276,9 +4252,6 @@ body {
     margin-top: 10px;
     margin-left: 0px;
     float: left;
-  }
-  .button.all-downloads {
-    float: none;
   }
   .nav-social {
     margin-top: 5px;
