@@ -3555,7 +3555,19 @@ html[dir="rtl"] .lang-menu {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
+  -webkit-transition: background-color 50ms cubic-bezier(.445, .05, .55, .95), box-shadow 50ms cubic-bezier(.445, .05, .55, .95);
+  transition: background-color 50ms cubic-bezier(.445, .05, .55, .95), box-shadow 50ms cubic-bezier(.445, .05, .55, .95);
 }
+
+.play-btn:hover {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.play-btn:active {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
+}
+
 .play-btn span {
   display: none;
 }
@@ -3584,7 +3596,19 @@ html[dir="rtl"] .lang-menu {
   color: #2970ff;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.2s;
 }
+.wallet-btn:hover {
+  color: #1B41B3;
+}
+
+.wallet-alld {
+  transition: 0.2s;
+}
+.wallet-alld:hover {
+  color: #1B41B3;
+}
+
 .wallet-btn img {
   margin-right: 10px;
   margin-top:-1px;
