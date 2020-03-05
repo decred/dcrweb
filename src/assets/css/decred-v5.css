@@ -231,10 +231,6 @@ body.noscroll >.below.subpage {
 }
 
 .below {
-  position: absolute;
-  left: 0px;
-  top: 100%;
-  right: 0px;
   z-index: 1;
   overflow: hidden;
   background-color: #fff;
@@ -248,16 +244,6 @@ body.noscroll >.below.subpage {
 
 .below.subpage.brief, .below.subpage.sustainability, .below.subpage.security, .below.subpage.adaptability {
   overflow: visible;
-}
-
-.below.subpage {
-  top: 0%;
-  margin-top: 345px;
-}
-
-.below.landing {
-  top: 0%;
-  margin-top: 620px;
 }
 
 .statistics {
@@ -696,7 +682,7 @@ body.noscroll >.below.subpage {
 }
 
 .fronta.landing {
-  height: 620px;
+  min-height: 620px;
   background: url('../videos/headers/landing/fallback.jpg');
   -webkit-box-pack: justify;
   -webkit-justify-content: flex-start;
@@ -2572,7 +2558,7 @@ ul, li, nav {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 0;
+  z-index: -999;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4448,8 +4434,10 @@ p.text-block-11 {
 
 .subpage-description.breadcrumbs {
   width: 100%;
-  margin-top: 21px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 21px;
+  padding-bottom: 20px;
   font-size: 12px;
   text-transform: uppercase;
   color: #8997a5;
@@ -5847,11 +5835,8 @@ p.text-block-11 {
     font-size: 32px;
     line-height: 38px;
   }
-  .below.subpage {
-    margin-top: 300px;
-  }
-  .below.landing {
-    margin-top: 420px;
+  .fronta.landing {
+    min-height: 420px;
   }
   .statisticscontent.width1100 {
     padding-right: 60px;
