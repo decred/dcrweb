@@ -7,7 +7,7 @@
     {{ if .IsHome }}
     {{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
     <div class="fronta landing video-header">
-        <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo-dark w-inline-block"></a></div>
+        <div class="_960 subpage-header"><a href="{{ "/" | relLangURL }}" class="subpage-logo-dark w-inline-block"></a></div>
         <div class="_960 subpage-header">
             <div class="landing-title">{{ T "landing_opener" }}</div>
             <div class="d-flex"> 
