@@ -3630,12 +3630,27 @@ html[dir="rtl"] .lang-menu {
   flex-direction: column;
   justify-content: space-between;
   background: #091440;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+  box-shadow: none;
+  transition: 0.34s;
+}
+.landing-content-bg:hover {
+  -webkit-box-shadow: 13px 13px 21px 0px rgba(9,20,64,0.21);
+  -moz-box-shadow: 13px 13px 21px 0px rgba(9,20,64,0.21);
+  box-shadow: 13px 13px 21px 0px rgba(9,20,64,0.21); 
 }
 .landing-bg {
   margin-right: 21px;
   margin-bottom: 20px;
   padding: 20px 9px;
   background: #091440;
+  transition: 0.34s;
+}
+.landing-bg:hover {
+  -webkit-box-shadow: 13px 13px 21px 0px rgba(9,20,64,0.21);
+  -moz-box-shadow: 13px 13px 21px 0px rgba(9,20,64,0.21);
+  box-shadow: 13px 13px 21px 0px rgba(9,20,64,0.21); 
 }
 .landingbox-secure {
   background: center/cover no-repeat #091440;
