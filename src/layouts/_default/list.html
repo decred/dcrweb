@@ -11,9 +11,8 @@
         <div class="_960 subpage-header">
             <div class="landing-title">{{ T "landing_opener" }}</div>
             <div class="d-flex"> 
-                <a class="play-btn play-modal" href="#"><img src="{{ .Site.BaseURL }}/images/play.svg" alt=""><span>{{ T "home_watch_video" }}</span></a>        
+                <a class="play-btn play-modal" href="#"><img src="{{ .Site.BaseURL }}/images/play.svg" alt=""><span>{{ T "home_watch_video" }}</span></a>
                 <a class="wallet-btn alldl" href="{{ "/wallets/" | relLangURL }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
-                <div class="all-downloads os-specific alldl">{{ T "home_for_computer" }} <a href="{{ "/wallets/" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
                 {{ range $download_links }}
                 <a class="wallet-btn os-specific {{ .platform }}" href="{{ .url }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
                 <div class="all-downloads os-specific {{ .platform }}">{{ $msg_id := print "home_decrediton_for_" .platform }} {{ T $msg_id  }} <br /><a href="{{ "/wallets/" | relLangURL }}">{{ T "home_all_downloads" }} →</a></div>
