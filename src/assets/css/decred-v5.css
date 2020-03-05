@@ -663,6 +663,8 @@ body.noscroll >.below.subpage {
 }
 
 .fronta.brand {
+  position: static;
+  min-height: 884px; /* 884px matches the size of the background image declared below */
   overflow: hidden;
   background-color: #091440;
   background-image: url('../images/bg-brand.png');
