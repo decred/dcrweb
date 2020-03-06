@@ -5257,10 +5257,6 @@ p.text-block-11 {
   flex: 1;
 }
 
-.first-view-buttons {
-  position: absolute;
-}
-
 .left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6287,9 +6283,6 @@ p.text-block-11 {
     margin-top: 50px;
     margin-bottom: 36px;
     padding-right: 0px;
-  }
-  .first-view-buttons {
-    margin-left: 92px;
   }
   .left {
     width: 240px;
