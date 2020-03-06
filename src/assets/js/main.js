@@ -83,7 +83,6 @@ $(document).ready(function () {
 		// addins
 		guideBlockContentLast = 'guideblockcontentlast',
 		cursor = 'cursor',
-		hand = 'hand',
 		active = 'active',
 		counter = 1,
 
