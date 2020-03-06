@@ -2539,7 +2539,7 @@ ul, li, nav {
 
 .lang-menu {
   position: relative;
-  z-index: 0;
+  z-index: -2;
   overflow: hidden;
   width: 60px;
   margin-top: 10px;
