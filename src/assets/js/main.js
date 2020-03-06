@@ -135,7 +135,6 @@ $(document).ready(function () {
 		// footer
 		footerBlock = $('.footerblock'),
 		icon = $('.icon'),
-		footerBlockIndicator = $('.footerblockindicator'),
 
 		// navigation
 		navigationButton = $('.navigation-button'),
@@ -424,13 +423,6 @@ $(document).ready(function () {
 		if (!$(this).hasClass(backgroundCyan)) {
 			$(this).prev().children().eq(1).removeClass(backgroundCyan);
 		}
-	});
-
-	// show label when hovering icon
-	icon.mouseenter( function() {
-		footerBlockIndicator.text($(this).attr('data-label')).removeClass('opacity000');
-	}).mouseleave( function() {
-		footerBlockIndicator.addClass('opacity000');
 	});
 
 	// show slogan when hovering frontpage logo

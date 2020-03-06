@@ -1050,14 +1050,6 @@ body.noscroll >.below.subpage {
   background-image: url('../images/iconMedium.svg');
 }
 
-.footerblockindicator {
-  display: inline-block;
-  margin-top: 9px;
-  padding: 3px 12px;
-  float: right;
-  clear: right;
-}
-
 .font12 {
   font-size: 12px;
 }
@@ -6559,9 +6551,6 @@ p.text-block-11 {
     margin-right: 20px;
     margin-left: 0px;
     float: left;
-  }
-  .footerblockindicator.backgroundlightblue.colorblue.borderradius4.dropshadow.font12.transition.opacity000 {
-    display: none;
   }
   .footerblocklinkdev {
     display: block;
