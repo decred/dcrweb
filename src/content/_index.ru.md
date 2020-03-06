@@ -1,5 +1,5 @@
 ---
-title: "Autonomous Digital Currency"
+title: "Secure. Adaptable. Sustainable."
 ---
 
 # home page
