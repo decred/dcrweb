@@ -299,10 +299,6 @@ input[type="reset"] {
   padding: 10px;
   background-color: #ffdede;
 }
-.toggler {
-  display: block;
-  font-weight: bold;
-}
 .w-input,
 .w-select {
   display: block;

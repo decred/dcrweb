@@ -1,8 +1,11 @@
 <div class="lang-menu w-clearfix">
     <div class="lang-current">{{ .Site.Language.LanguageName }}</div>
-    <div class="lang-select" id="language-selector">
+    <input class="dcr-lang-menu-toggler" type="checkbox">
+    <div class="lang-select">
         {{ range $.Site.Home.AllTranslations }}
-        <a class="lang-selection" href="{{ .Permalink }}" data-language="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+            {{ if not (eq .Language.LanguageName $.Site.Language.LanguageName) }}
+                <a class="lang-selection" href="{{ .Permalink }}" data-language="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
         {{ end }}
     </div>
 </div>

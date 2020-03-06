@@ -135,11 +135,6 @@ $(document).ready(function () {
 		footerBlock = $('.footerblock'),
 		icon = $('.icon'),
 
-		// navigation
-		navigationButton = $('.navigation-button'),
-		navOpenClose = $('.nav-open-close'),
-		linkSection = $('.link-section'),
-
 		//mission section
 		triangles = $('#triangles'),
 		triangle = $('.triangle'),
@@ -150,12 +145,6 @@ $(document).ready(function () {
 		// principles section
 		principlesSelect = $('.history-select'),
 		principlesSlide = $('.history-slide'),
-
-		//language menu
-		langMenu = $('.lang-menu'),
-		langCurrent = $('.lang-current'),
-		langSelect = $('.lang-select'),
-		langSelection = $('.lang-selection'),
 
 		// team subpage
 		teamFilter = $('.team-filter'),
@@ -224,32 +213,6 @@ $(document).ready(function () {
 		teamDataBalloon.addClass('active');
 	}).on('mouseleave', function() {
 		teamDataBalloon.removeClass('active');
-	});
-
-	// language menu
-	// when loaded add data-language to langCurrent
-	// langSelection.each( function() {
-	// 	if ($(this).text().toUpperCase() === langCurrent.text().toUpperCase()) {
-	// 		langCurrent.attr('data-language', $(this).attr('data-language'));
-	// 	}
-	// });
-	langCurrent.add(langSelect).add(langSelection).on('change click', function () {
-		langMenu.toggleClass('active');
-
-		langSelection.each( function() {
-			if ($(this).text().toUpperCase() === langCurrent.text().toUpperCase()) {
-				$(this).hide();
-			} else {
-				$(this).css('display', 'block');
-			}
-		});
-
-		if ($(this).is(langSelect)) {
-			langMenu.removeClass('active');
-		}
-		if ($(this).is(langSelection)) {
-			langCurrent.text($(this).text()).attr('data-language', $(this).attr('data-language'));
-		}
 	});
 
 	playButton.on('mouseenter', function() {
@@ -601,12 +564,6 @@ $(document).ready(function () {
 		if (window.location.href.indexOf('vsp') != -1) {
 		stakepoolFinder();
 		};
-
-	// navigation menu
-	navigationButton.click( function() {
-		navOpenClose.add(linkSection).toggleClass('active');
-		$("body").toggleClass('noscroll');
-	});
 
 	if (platform.os.family == "Windows" || platform.os.family == "Windows Server" || platform.os.family == "Windows 7" || platform.os.family == "Windows 7 / Server 2008 R2" || platform.os.family == "Windows Server 2008 R2 / 7 x64") {
 		$(".windl").show();
