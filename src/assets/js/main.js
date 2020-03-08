@@ -243,7 +243,7 @@ $(document).ready(function () {
 
 	$(document).click(function(event) {
 		//Watch for clicks and check if it is outside the video modal
-		if (!$(event.target).closest(".video-modal-wrapper").length || videoModal.hasClass==active) {
+		if (!$(event.target).closest(".video-modal-wrapper").length && (videoModal).hasClass(active)) {
 			closevideo();
 		}
 	  });
@@ -251,18 +251,18 @@ $(document).ready(function () {
 	document.onkeydown = function(evt) {
 		// Watch for escape key and close video modal if active
 		evt = evt || window.event;
-		if (evt.keyCode == 27 || videoModal.hasClass==active) {
+		if (evt.keyCode == 27 && (videoModal).hasClass(active)) {
 			closevideo();
 		}
 	};
 
 	function closevideo(){
+		// make video modal not active
+		videoModal.removeClass('active');
 		// pausevideo
 		videoModalPlayPauseButton.children().eq(0).click();
 			jQuery.each(mejs.players, function(key, val) {
 				val.pause();
-		// make video modal not active
-		videoModal.removeClass('active');
 		});
 	}
 
