@@ -264,7 +264,6 @@ $(document).ready(function () {
 		// make video modal not active
 		videoModal.removeClass('active');
 		});
-		return false;
 	}
 
 	// principles section
