@@ -257,12 +257,12 @@ $(document).ready(function () {
 	};
 
 	function closevideo(){
-		// make video modal not active
-		videoModal.removeClass('active');
 		// pausevideo
 		videoModalPlayPauseButton.children().eq(0).click();
-			jQuery.each(mejs.players, function(key, val) {
-				val.pause();
+		jQuery.each(mejs.players, function(key, val) {
+			val.pause();
+		// make video modal not active
+		videoModal.removeClass('active');
 		});
 	}
 
