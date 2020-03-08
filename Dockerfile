@@ -1,5 +1,5 @@
 # builder image
-FROM alpine:edge
+FROM alpine:latest
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
