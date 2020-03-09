@@ -1,7 +1,4 @@
 
-// mission section hexagon grid
-$('.svg-embed').html('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10470.155 -9740 447.31 387.4"><defs><style>.a{fill:#E9F8FE;}.triangle{fill:#2970ff;}.c{fill:none;stroke:#2970ff;stroke-miterlimit:10;stroke-width:1px;stroke-opacity:0.3;}</style></defs><g transform="translate(-10470.2 -9740)"><path class="a" d="M418.4,241.9h0l27.8,48.2h0l-27.8,48.2H362.8L335,386.4H279.3l-27.8-48.1H195.9l-27.8,48.1H112.4L84.6,338.3H29L1.2,290.1,29,241.9,1.2,193.7,29,145.5,1.2,97.4,29,49.2H84.6L112.4,1h55.7l27.8,48.2h55.6L279.3,1H335l27.8,48.2h55.6l27.8,48.2h0l-27.8,48.1h0l27.8,48.2h0Z"/><g transform="translate(-35.2 140)"><path class="triangle" d="M92-42.6h0L64.2,5.5h55.6Z"/><path class="triangle" d="M36.4-42.6,64.2,5.5,92-42.6Z"/><path class="triangle" d="M119.8-90.8H64.2L92-42.6Z"/><path class="triangle" d="M92-42.6h55.6L119.8-90.8Z"/><path class="triangle" d="M92-42.6,64.2-90.8,36.4-42.6Z"/><path class="triangle" d="M92-42.6,119.8,5.5l27.8-48.1Z"/><path class="triangle" d="M92-42.6"/><path class="triangle" d="M175.4-90.8,147.6-42.6h55.7Z"/><path class="triangle" d="M203.3-139H147.6l27.8,48.2Z"/><path class="triangle" d="M147.6-139,119.8-90.8h55.6Z"/><path class="triangle" d="M231.1-90.8,203.3-139,175.4-90.8Z"/><path class="triangle" d="M203.3-42.6l27.8-48.2H175.4Z"/><path class="triangle" d="M175.4-90.8H119.8l27.8,48.2Z"/><path class="triangle" d="M286.7-90.8H231.1l27.8,48.2Z"/><path class="triangle" d="M286.7,5.5,258.9-42.6h0L231.1,5.5Z"/><path class="triangle" d="M258.9-42.6h0L231.1-90.8,203.3-42.6h55.6Z"/><path class="triangle" d="M258.9-42.6H203.3L231.1,5.5Z"/><path class="triangle" d="M314.5-42.6H258.9L286.7,5.5Z"/><path class="triangle" d="M258.9-42.6"/><path class="triangle" d="M258.9-42.6h55.6L286.7-90.8Z"/><path class="triangle" d="M425.8-42.6h55.6L453.6-90.8Z"/><path class="triangle" d="M425.8-42.6H370.2L398,5.5Z"/><path class="triangle" d="M425.8-42.6"/><path class="triangle" d="M453.6,5.5l27.8-48.1H425.8Z"/><path class="triangle" d="M425.8-42.6h0L398-90.8,370.2-42.6h55.6Z"/><path class="triangle" d="M453.6-90.8H398l27.8,48.2Z"/><path class="triangle" d="M425.8-42.6,398,5.5h55.6Z"/><path class="triangle" d="M370.2-42.6,398-90.8H342.3Z"/><path class="triangle" d="M398-90.8,370.2-139,342.3-90.8Z"/><path class="triangle" d="M342.3-90.8,314.5-42.6h55.7Z"/><path class="triangle" d="M370.2-139H314.5l27.8,48.2Z"/><path class="triangle" d="M342.3-90.8H286.7l27.8,48.2Z"/><path class="triangle" d="M314.5-139,286.7-90.8h55.6Z"/><path class="triangle" d="M175.4,5.5l27.9-48.1H147.6Z"/><path class="triangle" d="M147.6-42.6,119.8,5.5h55.6Z"/><path class="triangle" d="M231.1,5.5,203.3-42.6,175.4,5.5Z"/><path class="triangle" d="M175.4,5.5H119.8l27.8,48.2Z"/><path class="triangle" d="M175.4,5.5"/><path class="triangle" d="M231.1,5.5H175.4l27.9,48.2Z"/><path class="triangle" d="M175.4,5.5,147.6,53.7h55.7Z"/><path class="triangle" d="M342.3,5.5H286.7l27.8,48.2Z"/><path class="triangle" d="M314.5,53.7h55.7L342.3,5.5Z"/><path class="triangle" d="M342.3,5.5"/><path class="triangle" d="M342.3,5.5l27.9-48.1H314.5Z"/><path class="triangle" d="M342.3,5.5l27.9,48.2L398,5.5Z"/><path class="triangle" d="M342.3,5.5,314.5-42.6,286.7,5.5Z"/><path class="triangle" d="M398,5.5,370.2-42.6,342.3,5.5Z"/><path class="triangle" d="M92,53.7l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M119.8,5.5,92,53.7h55.6Z"/><path class="triangle" d="M92,53.7"/><path class="triangle" d="M92,53.7,64.2,5.5,36.4,53.7Z"/><path class="triangle" d="M119.8,5.5H64.2L92,53.7Z"/><path class="triangle" d="M36.4,53.7l27.8,48.2L92,53.7Z"/><path class="triangle" d="M92,53.7h0L64.2,101.9h55.6Z"/><path class="triangle" d="M203.3,53.7l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M258.9,53.7l-27.8,48.2h55.6Z"/><path class="triangle" d="M258.9,53.7"/><path class="triangle" d="M258.9,53.7h0L231.1,5.5,203.3,53.7Z"/><path class="triangle" d="M258.9,53.7h55.6L286.7,5.5Z"/><path class="triangle" d="M286.7,5.5H231.1l27.8,48.2Z"/><path class="triangle" d="M258.9,53.7l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M425.8,53.7,453.6,5.5H398Z"/><path class="triangle" d="M425.8,53.7h55.6L453.6,5.5Z"/><path class="triangle" d="M425.8,53.7"/><path class="triangle" d="M398,5.5,370.2,53.7h55.6Z"/><path class="triangle" d="M425.8,53.7,398,101.9h55.6Z"/><path class="triangle" d="M398,101.9l27.8-48.2H370.2Z"/><path class="triangle" d="M425.8,53.7l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M36.4,150.1l27.8,48.2L92,150.1Z"/><path class="triangle" d="M64.2,198.3h55.6L92,150.1Z"/><path class="triangle" d="M64.2,101.9,36.4,150.1H92Z"/><path class="triangle" d="M92,150.1l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M119.8,101.9H64.2L92,150.1Z"/><path class="triangle" d="M92,150.1h55.6l-27.8-48.2Z"/><path class="triangle" d="M175.4,101.9h55.7L203.3,53.7Z"/><path class="triangle" d="M175.4,101.9"/><path class="triangle" d="M147.6,53.7l27.8,48.2h0l27.9-48.2Z"/><path class="triangle" d="M147.6,150.1h55.7l-27.9-48.2Z"/><path class="triangle" d="M175.4,101.9h0l27.9,48.2,27.8-48.2Z"/><path class="triangle" d="M147.6,53.7l-27.8,48.2h55.6Z"/><path class="triangle" d="M175.4,101.9H119.8l27.8,48.2Z"/><path class="triangle" d="M258.9,150.1h55.6l-27.8-48.2Z"/><path class="triangle" d="M258.9,150.1l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M231.1,101.9l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M231.1,198.3h55.6l-27.8-48.2Z"/><path class="triangle" d="M203.3,150.1h55.6l-27.8-48.2Z"/><path class="triangle" d="M203.3,150.1l27.8,48.2,27.8-48.2Z"/><path class="triangle" d="M370.2,150.1,398,198.3l27.8-48.2Z"/><path class="triangle" d="M398,198.3h55.6l-27.8-48.2Z"/><path class="triangle" d="M425.8,150.1l27.8-48.2H398Z"/><path class="triangle" d="M481.4,150.1l-27.8-48.2-27.8,48.2Z"/><path class="triangle" d="M453.6,198.3l27.8-48.2H425.8Z"/><path class="triangle" d="M425.8,150.1,398,101.9l-27.8,48.2Z"/><path class="triangle" d="M342.3,101.9"/><path class="triangle" d="M342.3,101.9H286.7l27.8,48.2Z"/><path class="triangle" d="M342.3,101.9l27.9,48.2L398,101.9Z"/><path class="triangle" d="M342.3,101.9h0l27.9-48.2H314.5Z"/><path class="triangle" d="M286.7,101.9h55.6L314.5,53.7Z"/><path class="triangle" d="M342.3,101.9H398L370.2,53.7Z"/><path class="triangle" d="M314.5,150.1h55.7l-27.9-48.2Z"/><path class="triangle" d="M175.4,198.3h55.7l-27.8-48.2Z"/><path class="triangle" d="M175.4,198.3l27.9-48.2H147.6Z"/><path class="triangle" d="M175.4,198.3"/><path class="triangle" d="M203.3,246.4l27.8-48.1H175.4Z"/><path class="triangle" d="M175.4,198.3l-27.8,48.1h55.7Z"/><path class="triangle" d="M175.4,198.3l-27.8-48.2-27.8,48.2Z"/><path class="triangle" d="M119.8,198.3l27.8,48.1,27.8-48.1H119.8Z"/><path class="triangle" d="M342.3,198.3l27.9-48.2H314.5Z"/><path class="triangle" d="M342.3,198.3"/><path class="triangle" d="M370.2,246.4,398,198.3H342.3Z"/><path class="triangle" d="M342.3,198.3H398l-27.8-48.2Z"/><path class="triangle" d="M342.3,198.3l-27.8-48.2-27.8,48.2Z"/><path class="triangle" d="M342.3,198.3l-27.8,48.1h55.7Z"/><path class="triangle" d="M286.7,198.3l27.8,48.1,27.8-48.1H286.7Z"/><path class="c" d="M119.8-90.8H64.2L36.4-42.6,64.2,5.5h55.6l27.8-48.1Z"/><line class="c" x2="55.6" y2="96.3" transform="translate(64.2 -90.8)"/><line class="c" x1="55.6" y2="96.3" transform="translate(64.2 -90.8)"/><line class="c" x2="111.2" transform="translate(36.4 -42.6)"/><path class="c" d="M203.3-139H147.6L119.8-90.8l27.8,48.2h55.7l27.8-48.2Z"/><line class="c" x2="55.7" y2="96.4" transform="translate(147.6 -139)"/><line class="c" x1="55.7" y2="96.4" transform="translate(147.6 -139)"/><line class="c" x2="111.3" transform="translate(119.8 -90.8)"/><path class="c" d="M286.7-90.8H231.1L203.3-42.6,231.1,5.5h55.6l27.8-48.1Z"/><line class="c" x2="55.6" y2="96.3" transform="translate(231.1 -90.8)"/><line class="c" x1="55.6" y2="96.3" transform="translate(231.1 -90.8)"/><line class="c" x2="111.2" transform="translate(203.3 -42.6)"/><path class="c" d="M453.6-90.8H398L370.2-42.6,398,5.5h55.6l27.8-48.1Z"/><line class="c" x2="55.6" y2="96.3" transform="translate(398 -90.8)"/><line class="c" x1="55.6" y2="96.3" transform="translate(398 -90.8)"/><line class="c" x2="111.2" transform="translate(370.2 -42.6)"/><path class="c" d="M370.2-139H314.5L286.7-90.8l27.8,48.2h55.7L398-90.8Z"/><line class="c" x2="55.7" y2="96.4" transform="translate(314.5 -139)"/><line class="c" x1="55.7" y2="96.4" transform="translate(314.5 -139)"/><line class="c" x2="111.3" transform="translate(286.7 -90.8)"/><path class="c" d="M203.3-42.6H147.6L119.8,5.5l27.8,48.2h55.7L231.1,5.5Z"/><line class="c" x2="55.7" y2="96.3" transform="translate(147.6 -42.6)"/><line class="c" x1="55.7" y2="96.3" transform="translate(147.6 -42.6)"/><line class="c" x2="111.3" transform="translate(119.8 5.5)"/><path class="c" d="M370.2-42.6H314.5L286.7,5.5l27.8,48.2h55.7L398,5.5Z"/><line class="c" x2="55.7" y2="96.3" transform="translate(314.5 -42.6)"/><line class="c" x1="55.7" y2="96.3" transform="translate(314.5 -42.6)"/><line class="c" x2="111.3" transform="translate(286.7 5.5)"/><path class="c" d="M119.8,5.5H64.2L36.4,53.7l27.8,48.2h55.6l27.8-48.2Z"/><line class="c" x2="55.6" y2="96.4" transform="translate(64.2 5.5)"/><line class="c" x1="55.6" y2="96.4" transform="translate(64.2 5.5)"/><line class="c" x2="111.2" transform="translate(36.4 53.7)"/><path class="c" d="M286.7,5.5H231.1L203.3,53.7l27.8,48.2h55.6l27.8-48.2Z"/><line class="c" x2="55.6" y2="96.4" transform="translate(231.1 5.5)"/><line class="c" x1="55.6" y2="96.4" transform="translate(231.1 5.5)"/><line class="c" x2="111.2" transform="translate(203.3 53.7)"/><path class="c" d="M453.6,5.5H398L370.2,53.7,398,101.9h55.6l27.8-48.2Z"/><line class="c" x2="55.6" y2="96.4" transform="translate(398 5.5)"/><line class="c" x1="55.6" y2="96.4" transform="translate(398 5.5)"/><line class="c" x2="111.2" transform="translate(370.2 53.7)"/><path class="c" d="M119.8,101.9H64.2L36.4,150.1l27.8,48.2h55.6l27.8-48.2Z"/><line class="c" x2="55.6" y2="96.4" transform="translate(64.2 101.9)"/><line class="c" x1="55.6" y2="96.4" transform="translate(64.2 101.9)"/><line class="c" x2="111.2" transform="translate(36.4 150.1)"/><path class="c" d="M203.3,53.7H147.6l-27.8,48.2,27.8,48.2h55.7l27.8-48.2Z"/><line class="c" x2="55.7" y2="96.4" transform="translate(147.6 53.7)"/><line class="c" x1="55.7" y2="96.4" transform="translate(147.6 53.7)"/><line class="c" x2="111.3" transform="translate(119.8 101.9)"/><path class="c" d="M286.7,101.9H231.1l-27.8,48.2,27.8,48.2h55.6l27.8-48.2Z"/><line class="c" x2="55.6" y2="96.4" transform="translate(231.1 101.9)"/><line class="c" x1="55.6" y2="96.4" transform="translate(231.1 101.9)"/><line class="c" x2="111.2" transform="translate(203.3 150.1)"/><path class="c" d="M453.6,101.9H398l-27.8,48.2L398,198.3h55.6l27.8-48.2Z"/><line class="c" x2="55.6" y2="96.4" transform="translate(398 101.9)"/><line class="c" x1="55.6" y2="96.4" transform="translate(398 101.9)"/><line class="c" x2="111.2" transform="translate(370.2 150.1)"/><path class="c" d="M370.2,53.7H314.5l-27.8,48.2,27.8,48.2h55.7L398,101.9Z"/><line class="c" x2="55.7" y2="96.4" transform="translate(314.5 53.7)"/><line class="c" x1="55.7" y2="96.4" transform="translate(314.5 53.7)"/><line class="c" x2="111.3" transform="translate(286.7 101.9)"/><path class="c" d="M203.3,150.1H147.6l-27.8,48.2,27.8,48.1h55.7l27.8-48.1Z"/><line class="c" x2="55.7" y2="96.3" transform="translate(147.6 150.1)"/><line class="c" x1="55.7" y2="96.3" transform="translate(147.6 150.1)"/><line class="c" x2="111.3" transform="translate(119.8 198.3)"/><path class="c" d="M370.2,150.1H314.5l-27.8,48.2,27.8,48.1h55.7L398,198.3Z"/><line class="c" x2="55.7" y2="96.3" transform="translate(314.5 150.1)"/><line class="c" x1="55.7" y2="96.3" transform="translate(314.5 150.1)"/><line class="c" x2="111.3" transform="translate(286.7 198.3)"/></g><path class="a" d="M418.4,145.5Z"/><path class="a" d="M418.4,241.9Z"/></g></svg>');
-
 $(document).ready(function () {
 
 	$('.subpage__toggle a').on('click', function() {
@@ -42,46 +39,17 @@ $(document).ready(function () {
 		API_ROOT = "https://api.decred.org",
 
 		// get json
-		APIstats = API_ROOT + '/?c=gcs',
 		APIdc = API_ROOT + '/?c=dc',
 		APIstakepools = API_ROOT + '/?c=gsd',
-
-		// font weight
-		fontRegular = 'fontregular',
-		fontSemibold = 'fontsemibold',
-		fontBold = 'fontbold',
-
-		// font size
-		font14 = 'font14',
-		font16 = 'font16',
-		font18 = 'font18',
-		font22 = 'font22',
-		font24 = 'font24',
-		font28 = 'font28',
-		font38 = 'font38',
 
 		// font color
 		colorDarkBlue = 'colordarkblue',
 
-		// line color
-		verticalBlue = 'verticalblue',
-
 		// bg color
 		backgroundDarkBlue = 'backgrounddarkblue',
 		backgroundCyan = 'backgroundcyan',
-		backgroundGray = 'backgroundgray',
-		backgroundBlue = 'backgroundblue',
-
-		// solid color
-		turquoise = 'turquoise';
-
-		// transition
-		transition = 'transition',
-		transitionModest = 'transitionmodest',
-		transitionSlow = 'transitionslow',
 
 		// addins
-		guideBlockContentLast = 'guideblockcontentlast',
 		cursor = 'cursor',
 		active = 'active',
 		counter = 1,
@@ -91,56 +59,22 @@ $(document).ready(function () {
 		slogan = $('.slogan'),
 		playButton = $('.play-modal'),
 		mobilePlayButton = $('.mobile-play-button'),
-		bgIllustration = $('.bg-illustration'),
 		bgIllustrationGhost = $('.bg-illustration-ghost'),
 		bgGradientGhost = $('.bg-gradient-ghost'),
 		firstViewLeft = $('.firstview-left'),
-		bgGhost = $('.bg-ghost'),
 		videoModal = $('.video-modal'),
-		videoModalClose = $('.video-modal-close'),
 		bgVideo = $('.bg-video'),
 
-		// statistics
-		statistics = $('.statistics'),
-
-		networkStatistics = $('.networkstatistics'),
-		networkStatisticsSection = $('.networkstatisticssection'),
-		networkStatisticsFloat = $('.networkstatisticsfloat'),
-
-		percentMined = $('.percentmined'),
-
-		developmentRowNum = $('.developmentrownum'),
-
-		// guide
-		guide = $('.guide'),
 		block = $('.block'),
 		child = $('.child'),
 
-		top = $('.top'),
 		dot = $('.dot'),
 		vertical = $('.vertical'),
-		small = $('.small'),
-		big = $('.big'),
 		header = $('.header'),
 
-		content = $('.content'),
 		lineLeft = $('.lineleft'),
-		media = $('.media'),
-		info = $('.info'),
-		text = $('.text'),
 		buttonContinue = $('.buttoncontinue'),
 		buttonBack = $('.buttonback'),
-
-		// footer
-		footerBlock = $('.footerblock'),
-		icon = $('.icon'),
-
-		//mission section
-		triangles = $('#triangles'),
-		triangle = $('.triangle'),
-		chartPercent = $('.mission-chart-mined.percent'),
-		chartSupply = $('.mission-chart-supply.amount'),
-		featureBubble = $('.featureBubble'),
 
 		// principles section
 		principlesSelect = $('.history-select'),
@@ -257,42 +191,6 @@ $(document).ready(function () {
 	});
 
 
-	// get data from external json and output correct values
-	$.getJSON(APIstats, function(json) {
-		var supply_total = Math.floor((json.CoinSupplyMinedRaw / 100000000)),
-			mined = supply_total - 1680000;
-
-		jsonPercentMined = ((supply_total / 21000000) * 100).toFixed(1);
-
-		premine = 1680000;
-		pow = mined * 0.6;
-		pos = mined * 0.3;
-		devs = mined * 0.1;
-		all = premine + pow + pos + devs;
-
-		// add calculated percent to UI bar
-		$('.percentnumber').text(jsonPercentMined + '% ');
-
-		//mission section
-		var trianglesHide = triangle.length - (Math.floor(triangle.length / 100 * jsonPercentMined) + 1),
-			triangles = [];
-		for (var i = 1; i <= triangle.length; i++) {
-			triangles.push(i);
-		}
-
-		triangles.sort(function () {
-			return .5 - Math.random();
-		}).slice(0, trianglesHide).forEach(function (e) {
-			triangle.eq(e).hide();
-		}, this);
-
-		function numberWithSpaces(x) {
-			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-		}
-		chartSupply.text(numberWithSpaces(Math.floor(all) + 1));
-		chartPercent.text(jsonPercentMined + '%');
-	});
-	
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
 		$('#footerDownloads').text(data[1]);
