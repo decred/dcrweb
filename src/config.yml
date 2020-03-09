@@ -42,7 +42,6 @@ params:
             - "js/modernizr.custom.min.js"
             - "js/jquery.min.js"
             - "js/decred-v5.js"
-            - "js/verge.min.js"
             - "js/underscore.min.js"
             - "js/moment.min.js"
             - "js/jquery.cookie.js"
