@@ -45,28 +45,20 @@ $(document).ready(function () {
 		slogan = $('.slogan'),
 		playButton = $('.play-modal'),
 		mobilePlayButton = $('.mobile-play-button'),
-		bgIllustrationGhost = $('.bg-illustration-ghost'),
-		bgGradientGhost = $('.bg-gradient-ghost'),
-		firstViewLeft = $('.firstview-left'),
 		videoModal = $('.video-modal'),
-		bgVideo = $('.bg-video'),
-
-		block = $('.block'),
-		child = $('.child'),
 
 		// principles section
 		principlesSelect = $('.history-select'),
 		principlesSlide = $('.history-slide'),
 
 		// team subpage
-		teamFilter = $('.team-filter'),
-			teamFilterButton = $('.team-filter-button'),
+		teamFilterButton = $('.team-filter-button'),
 		teamMembers = $('.team-members'),
-			teamMember = $('.team-member'),
-			teamTwitter = teamMember.find($('.twitter')),
+		teamMember = $('.team-member'),
+		teamTwitter = teamMember.find($('.twitter')),
 		teamDataBalloon = $(".team-data-balloon"),
-			dataBalloonTop = $(".data-balloon-top"),
-			dataBalloonBottom = $(".data-balloon-bottom"),
+		dataBalloonTop = $(".data-balloon-top"),
+		dataBalloonBottom = $(".data-balloon-bottom"),
 		teamCorporateLogo = $(".team-corporate-logo");
 
 
@@ -127,13 +119,6 @@ $(document).ready(function () {
 		teamDataBalloon.removeClass('active');
 	});
 
-	playButton.on('mouseenter', function() {
-		bgIllustrationGhost.removeClass('active');
-		bgGradientGhost.add(firstViewLeft).add(bgVideo).addClass('active');
-	}).on('mouseleave', function() {
-		bgIllustrationGhost.addClass('active');
-		bgGradientGhost.add(firstViewLeft).add(bgVideo).removeClass('active');
-	});
 	playButton.add(mobilePlayButton).click( function() {
 		if($(this).is(playButton) || $(this).is(mobilePlayButton)) {
 			initMediaElement(function(media){
