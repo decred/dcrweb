@@ -33,7 +33,6 @@ $(document).ready(function () {
 	});
 	
 	var time = 100,
-		viewport = $(window),
 
 		API_ROOT = "https://api.decred.org",
 
