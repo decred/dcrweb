@@ -40,6 +40,9 @@ $(document).ready(function () {
 		APIdc = API_ROOT + '/?c=dc',
 		APIstakepools = API_ROOT + '/?c=gsd',
 
+			
+		active = 'active',
+
 		// first view
 		logo = $('.logo'),
 		slogan = $('.slogan'),
