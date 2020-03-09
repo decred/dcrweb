@@ -46,7 +46,6 @@ params:
             - "js/underscore.min.js"
             - "js/moment.min.js"
             - "js/jquery.cookie.js"
-            - "js/anime.min.js"
             - "js/platform.min.js"
             - "js/main.js"
         extra:
