@@ -1,5 +1,3 @@
-
-
 {{ define "main" }}
     {{ partial "breadcrumbs_getstarted.html" . }}
     <div class="full-width">
@@ -12,8 +10,8 @@
                                 <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a><br/>
                             {{ end }}
                         </div>
-                        <div class="section-title-text">{{ T "general_javascript_warning" }}</div>
-                        <div class="mission-copy">{{ T "general_javascript_warning_description" }}</div>
+                        <div class="subpage-description">{{ T "general_javascript_warning" }}</div>
+                        <div class="subpage-content">{{ T "general_javascript_warning_description" }}</div>
                     </noscript>
                 </div>
 
@@ -29,5 +27,3 @@
         </div>
     </div>
 {{end}}
-
-
