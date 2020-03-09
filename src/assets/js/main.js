@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
 	$('.subpage__toggle a').on('click', function() {
@@ -42,18 +41,6 @@ $(document).ready(function () {
 		APIdc = API_ROOT + '/?c=dc',
 		APIstakepools = API_ROOT + '/?c=gsd',
 
-		// font color
-		colorDarkBlue = 'colordarkblue',
-
-		// bg color
-		backgroundDarkBlue = 'backgrounddarkblue',
-		backgroundCyan = 'backgroundcyan',
-
-		// addins
-		cursor = 'cursor',
-		active = 'active',
-		counter = 1,
-
 		// first view
 		logo = $('.logo'),
 		slogan = $('.slogan'),
@@ -67,14 +54,6 @@ $(document).ready(function () {
 
 		block = $('.block'),
 		child = $('.child'),
-
-		dot = $('.dot'),
-		vertical = $('.vertical'),
-		header = $('.header'),
-
-		lineLeft = $('.lineleft'),
-		buttonContinue = $('.buttoncontinue'),
-		buttonBack = $('.buttonback'),
 
 		// principles section
 		principlesSelect = $('.history-select'),
@@ -190,99 +169,9 @@ $(document).ready(function () {
 		$(this).toggleClass('active');
 	});
 
-
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
 		$('#footerDownloads').text(data[1]);
-	});
-
-	// guide, child, content min and max height
-	block.add(child).each( function() {
-		var element = $(this);
-
-		if (element.is(block)) {
-			element.attr('data-min-height', element.children().first().children().first().height()); //.attr('data-max-height', element.height());
-		}
-		if (element.is(child)) {
-			element.attr('data-min-height', element.children().first().height()); //.attr('data-max-height', element.height());
-		}
-	});
-	// hide last content vertical line
-	lineLeft.last().addClass('opacity000');
-	// vertical, first and last add dark blue
-	vertical.eq(0).addClass(backgroundDarkBlue);
-	vertical.last().addClass(backgroundDarkBlue);
-	// add new text to last continue button
-	buttonContinue.last().text($('#label-tour-start-button').attr('value'));
-	// remove first back button
-	buttonBack.eq(0).remove();
-	// guide navigation
-	header.on('click', function() {
-		var header_ = $(this),
-			child_ = header_.parent().parent(),
-			block_ = child_.parent(),
-			h_ = 0;
-
-		// do nothing if this section is already open
-		if( child_.hasClass(active) ) {
-			return;
-		}
-
-		// reset counter for continue or back button
-		counter = header.index(this);
-
-		// add active class to visible elements
-		block.add(child).add(header).removeClass(active);
-		block_.add(child_).add(header_).addClass(active);
-
-		// current header and dot to cyan
-		header.removeClass(backgroundCyan).removeClass(colorDarkBlue).removeClass(cursor);
-		dot.children().removeClass(backgroundCyan);
-		header_.addClass(backgroundCyan).addClass(colorDarkBlue).addClass(cursor);
-		header_.prev().children().addClass(backgroundCyan);
-
-		// vertical, next and current
-		header.eq(counter + 1).prev().children().eq(0).addClass(backgroundCyan);
-		header_.prev().children().eq(0).removeClass(backgroundCyan);
-
-		// block height what has visible content
-		block_.children().not(child_).each(function () {
-			h_ += parseInt($(this).attr('data-min-height'));
-		});
-
-		//                   parseInt(child_[0].scrollHeight)+h_
-		block_.css('height', child_[0].scrollHeight + h_);
-		block.not(block_).css('height', block_.attr('data-min-height'));
-
-		//                   child_.attr('data-max-height')
-		child_.css('height', child_[0].scrollHeight);
-		child.not(child_).each(function () {
-			$(this).css('height', $(this).attr('data-min-height'));
-		});
-
-	}).eq(0).trigger('click');
-	// guide continue and back button
-	buttonContinue.add(buttonBack).click(function () {
-		var element = $(this);
-
-		if (element.is(buttonContinue)) {
-			counter = (counter + 1 < header.length ? counter + 1 : 0);
-			header.eq(counter).trigger('click');
-		}
-		if (element.is(buttonBack)) {
-			counter = (counter - 1 < header.length ? counter - 1 : 0);
-			header.eq(counter).trigger('click');
-		}
-	});
-	// guide header
-	header.mouseenter( function() {
-		if (!$(this).hasClass(backgroundCyan)) {
-			$(this).prev().children().eq(1).addClass(backgroundCyan);
-		}
-	}).mouseleave( function() {
-		if (!$(this).hasClass(backgroundCyan)) {
-			$(this).prev().children().eq(1).removeClass(backgroundCyan);
-		}
 	});
 
 	// show slogan when hovering frontpage logo
@@ -291,33 +180,6 @@ $(document).ready(function () {
 	}).mouseleave( function() {
 		slogan.removeClass('opacity075');
 	});
-
-	// subpage header
-	viewport.trigger('resize');
-
-
-	// upon resize
-	viewport.resize(_.debounce( function() {
-		var activeElement = $('.active'),
-			activeBlock = activeElement.not(child.add(header)),
-			activeChild = activeElement.not(block.add(header)),
-			childrenHeight = 0,
-			activeChildHeight = activeChild.children().last().outerHeight(true) + parseFloat(activeChild.attr('data-min-height'));
-
-		// calculate block children height
-		activeBlock.children().not(activeChild).each(function () {
-			childrenHeight += parseFloat($(this).attr('data-min-height'));
-		});
-
-		// re-height guide section
-		activeElement.not(child.add(block)).trigger('click');
-		activeChild.css('height', activeChildHeight);
-		activeBlock.css('height', activeChildHeight + childrenHeight);
-
-		// re-float element networkstatisticsfloat
-		$('.networkstatisticssection').eq(0).trigger('click');
-	}, time * 3));
-
 
 	// stakepools
 	var stakepoolFinder = function() {
