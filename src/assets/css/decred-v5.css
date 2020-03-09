@@ -6330,24 +6330,6 @@ p.text-block-11 {
   text-decoration: underline;
 }
 
-.press__releases-box {
-  background: #F3F5F6;
-  padding: 20px;
-  margin-bottom: 20px;
-  font-size: 13px;
-  line-height: 19px;
-  color: #8997A5;
-}
-
-.press__releases-box a {
-  color: #8997A5;
-  text-decoration: underline;
-}
-
-.press__releases-box p:last-child {
-  margin-bottom: 0;
-}
-
 .subpage__toggle {
   border: 1px solid #E7EAED;
   border-radius: 5px;
