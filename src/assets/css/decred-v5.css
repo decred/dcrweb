@@ -2741,20 +2741,6 @@ html[dir="rtl"] .lang-menu {
   font-size: 13px;
 }
 
-.quotes {
-  position: relative;
-  width: 100%;
-  min-height: 150px;
-  margin-bottom: -30px;
-  padding: 34px 64px 34px 160px;
-  background-color: #2dd8a3;
-  background-image: url('../images/quote_icon.svg');
-  background-position: 50px 50%;
-  background-size: 42px 42px;
-  background-repeat: no-repeat;
-  box-shadow: 0 3px 13px 0 rgba(0, 0, 0, .21);
-}
-
 .full-width {
   width: 100%;
 }
@@ -2773,44 +2759,6 @@ html[dir="rtl"] .lang-menu {
 
 .div-block-4 {
   position: absolute;
-}
-
-.quotes-quote {
-  font-family: 'dcrweb-code';
-  color: #e9f8fe;
-  font-size: 21px;
-  line-height: 22px;
-  font-weight: 400;
-}
-
-.quotes-by {
-  margin-top: 25px;
-  color: #0c1e3e;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.quotes-by a:link {
-  color: #0C1E3E  ;
-  text-decoration: underline;
-  font-size: 15px;
-  font-weight: 600;
-}
-.quotes-by a:visited {
-  color: #0C1E3E  ;
-  text-decoration: underline;
-  font-size: 15px;
-  font-weight: 600;
-}
-.quotes-by a:hover {
-  color: #0C1E3E  ;
-  text-decoration: underline;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.quotes-by-title {
-  font-weight: 400;
 }
 
 .features-description {
@@ -6430,16 +6378,6 @@ p.text-block-11 {
   .section-title.platform-fix {
     margin-top: 81px;
   }
-  .quotes {
-    padding: 20px 20px 20px 110px;
-    background-position: 35px 50%;
-  }
-  .quotes-quote {
-    font-size: 19px;
-  }
-  .quotes-by {
-    margin-top: 15px;
-  }
   .features-description {
     width: 100%;
   }
@@ -6820,12 +6758,6 @@ p.text-block-11 {
   .section-title {
     margin-top: -20px;
     margin-left: -21px;
-  }
-  .quotes {
-    padding-top: 60px;
-    padding-left: 20px;
-    background-position: 50% 15px;
-    background-size: 30px 30px;
   }
   .full-width {
     -webkit-box-flex: 1;
