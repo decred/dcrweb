@@ -130,13 +130,7 @@ $(document).ready(function () {
 				$('.mejs__controls').prepend('<a href="#" class="video-modal-close">Close</a>');
 
 				$('.video-modal-close').click(function(){
-					videoModal.removeClass('active');
-
-					// play media element
-					videoModalPlayPauseButton.children().eq(0).click();
-					jQuery.each(mejs.players, function(key, val) {
-						val.pause();
-					});
+					closevideo();
 					return false;
 				});
 
@@ -146,6 +140,31 @@ $(document).ready(function () {
 			return false;
 		}
 	});
+
+	$(document).click(function(event) {
+		//Watch for clicks and check if it is outside the video modal
+		if (!$(event.target).closest(".video-modal-wrapper").length && (videoModal).hasClass(active)) {
+			closevideo();
+		}
+	  });
+
+	document.onkeydown = function(evt) {
+		// Watch for escape key and close video modal if active
+		evt = evt || window.event;
+		if (evt.keyCode == 27 && (videoModal).hasClass(active)) {
+			closevideo();
+		}
+	};
+
+	function closevideo(){
+		// pausevideo
+		videoModalPlayPauseButton.children().eq(0).click();
+		jQuery.each(mejs.players, function(key, val) {
+			val.pause();
+		// make video modal not active
+		videoModal.removeClass('active');
+		});
+	}
 
 	// principles section
 	principlesSelect.eq(0).addClass('active');
