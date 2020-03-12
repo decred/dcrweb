@@ -4,11 +4,11 @@
             {{ partial "_js_builder" (dict "bundle" "video.js" "async" true "resources" ( slice "js/mediaelement-and-player.js" "js/mediaelement.js" )) }}
             {{ partial "_css_builder" (dict "bundle" "video.css" "resources" ( slice "css/mediaelementplayer.css" "css/mediaplayer-custom.css"  ) ) }}
             <video id="player1" class="video-stream"
-                   poster="{{ .Site.BaseURL }}/videos/headers/landing/fallback.jpg"
                    preload="metadata"
                    controls="controls">
                 <source src="{{ .Site.BaseURL }}/videos/explainer/decred_on_security.mp4" type="video/mp4">
                 <source src="{{ .Site.BaseURL }}/videos/explainer/decred_on_security.webm" type="video/webm">
+                <source src="{{ .Site.BaseURL }}/videos/explainer/decred_on_security.ogv" type="video/ogg">
             </video>
         </div>
     </div>
