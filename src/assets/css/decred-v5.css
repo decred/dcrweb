@@ -6214,7 +6214,7 @@ p.text-block-11 {
 .press__coverage-item {
   background: #fff;
   width: 100%;
-  padding: 25px 50px 15px 20px;
+  padding: 26px 23px 8px;
   position: relative;
   border-bottom: 1px solid #F3F5F6;
 }
@@ -6232,9 +6232,12 @@ p.text-block-11 {
 }
 
 .press__coverage-item img.press__coverage-icon {
-  display: inline-block;
   float: left;
-  margin-right: 25px;
+  margin-right: 34px;
+  vertical-align: top;
+  margin-bottom: 0;
+  height: 30px;
+  width: 30px;
 }
 
 .press__coverage-item img.press__coverage-hover-icon {
@@ -6243,19 +6246,16 @@ p.text-block-11 {
   right: 15px;
   margin-right: 0;
   opacity: 0;
-  visibility: hidden;
   transition: 0.25s ease-in-out;
 }
 
 .press__coverage-item:hover img.press__coverage-hover-icon {
   opacity: 1;
-  visibility: visible;
 }
 
 .press__coverage-wrapper {
-  display: inline-block;
   float: left;
-  max-width: calc(100% - 60px);
+  max-width: calc(100% - 80px);
 }
 
 .press__title {
