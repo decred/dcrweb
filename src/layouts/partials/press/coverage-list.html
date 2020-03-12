@@ -1,6 +1,4 @@
-{{ $press_coverage_items := .Site.Data.press.coverage }}
-
-{{ range $press_coverage_items }}
+{{ range . }}
 <div class="press__coverage-item">
     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
         <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage-icon.svg" width="30" />

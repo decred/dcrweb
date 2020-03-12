@@ -97,7 +97,7 @@
         </div>
         <div class="subpage-content-section">
             <div class="press press__coverage subpage-content w-clearfix active">
-                {{ partial "landing-coverage-list" . }}
+                {{ partial "press/coverage-list" (first 5 .Site.Data.press.coverage) }}
             </div>
         </div>
     </div>
