@@ -1,5 +1,0 @@
----
-title: Voting Service Providers
----
-
-

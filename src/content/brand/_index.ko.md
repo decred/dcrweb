@@ -1,4 +1,0 @@
----
-title: Visual communication toolkit
----
-
