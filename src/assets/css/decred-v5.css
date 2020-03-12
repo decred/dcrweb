@@ -463,7 +463,7 @@ body.noscroll >.below.subpage {
 
 .fronta.landing {
   min-height: 620px;
-  background: url('../videos/headers/landing/fallback.jpg');
+  background-image: url('../images/dcrweb-header-1366.png');
   -webkit-box-pack: justify;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: justify;
@@ -473,8 +473,15 @@ body.noscroll >.below.subpage {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #0c1e3e;
-  background-position: no-repeat;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .fronta.landing {
+    background-image: url('../images/dcrweb-header-768.png');
+  }
 }
 
 .charts {
