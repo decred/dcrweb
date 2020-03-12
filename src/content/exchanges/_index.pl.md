@@ -1,6 +1,0 @@
----
-title: Exchanges and Payments
----
-
-
-
