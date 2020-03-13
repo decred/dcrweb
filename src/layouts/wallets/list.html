@@ -1,11 +1,9 @@
-
-
 {{ define "main" }}
-    {{ partial "breadcrumbs_getstarted.html" . }}
-    {{ $apps := .Site.Data.wallets.apps }}
+{{ $apps := .Site.Data.wallets.apps }}
 
-    <div class="full-width">
-        <div class="_960">
+<div class="full-width">
+    <div class="_960">
+            {{ partial "breadcrumbs_getstarted.html" . }}
             <div class="subpage-content-section">
                 <div class="subpage-description">{{ safeHTML ( T "downloads_description") }}</div>
                 <div class="subpage-content">
