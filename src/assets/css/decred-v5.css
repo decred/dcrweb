@@ -2365,16 +2365,6 @@ html[dir="rtl"] .lang-menu {
   cursor: default;
 }
 
-.recruiting-link-tag {
-  margin-top: 8px;
-  padding: 1px 12px 2px;
-  border-radius: 4px;
-  background-color: #2ed8a3;
-  color: #fff;
-  font-size: 13px;
-  cursor: default;
-}
-
 .section-title {
   display: -webkit-box;
   display: -webkit-flex;
