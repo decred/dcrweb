@@ -1,13 +1,11 @@
 <div class="subpage-description breadcrumbs">
-    <div class="w-row">
-        <div class="w-col w-col-2 w-col-small-3">
-            {{ T "subpage_nav_whatis" }} |
-        </div>
-        <div class="w-col w-col-10 w-col-small-9">
-            <a {{ if eq .Section "security" }} class="active" {{end}} href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a>
-            <a {{ if eq .Section "adaptability" }} class="active" {{end}} href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a>
-            <a {{ if eq .Section "sustainability" }} class="active" {{end}} href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a>
-            <a {{ if eq .Section "history" }} class="active" {{end}} href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
-        </div>
+    <div>
+        {{ T "subpage_nav_whatis" }}|
+    </div>
+    <div>
+        <a {{ if eq .Section "security" }} class="active" {{end}} href="{{ "security/" | relLangURL }}">{{ T "subpage_nav_secure" }}</a>
+        <a {{ if eq .Section "adaptability" }} class="active" {{end}} href="{{ "adaptability/" | relLangURL }}">{{ T "subpage_nav_adaptable" }}</a>
+        <a {{ if eq .Section "sustainability" }} class="active" {{end}} href="{{ "sustainability/" | relLangURL }}">{{ T "subpage_nav_sustainable" }}</a>
+        <a {{ if eq .Section "history" }} class="active" {{end}} href="{{ "history/" | relLangURL }}">{{ T "subpage_nav_history" }}</a>
     </div>
 </div>

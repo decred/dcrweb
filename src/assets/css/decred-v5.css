@@ -3420,7 +3420,12 @@ p.text-block-11 {
   padding-bottom: 20px;
   font-size: 12px;
   text-transform: uppercase;
-  color: #8997a5;
+  color: #3d5873;
+}
+
+.subpage-description.breadcrumbs div {
+  display: inline-block;
+  position: relative;
 }
 
 .subpage-description.breadcrumbs .external:after {
@@ -3445,7 +3450,7 @@ p.text-block-11 {
 
 .subpage-description.breadcrumbs a {
   display: inline-block;
-  padding-left: 15px;
+  padding-left: 28px;
   text-decoration: none;
   color: #3d5873;
 }
