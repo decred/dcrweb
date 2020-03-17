@@ -1,7 +1,103 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
 
-  {{ partial "head.html" . }}
+    <head>
+        <meta charset="utf-8">
+      
+        {{ block "page-title" . }}
+          <title>{{ T "title" }}</title>
+          <meta content="{{ T "title" }}" property="og:title">
+        {{ end }}
+      
+        <meta content='{{ T "description" }}' name="description">
+      
+        <meta content="{{ T "description" }}" property="og:description">
+        <meta content="https://decred.org/ogMainSite.jpg" property="og:image">
+      
+        <meta content="summary" name="twitter:card">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+      
+        <!-- [if lt IE 9]><script src="{{ .Site.BaseURL }}/js/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+      
+        <script>
+          ! function(o, c) {
+            var n = c.documentElement,
+                    t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+          }(window, document);
+        </script>
+        <link href="/images/32.png" rel="shortcut icon" type="image/x-icon">
+        <link href="/images/256.png" rel="apple-touch-icon">
+      
+        {{ partial "_css_builder" (dict "bundle" "main.css" "resources" (slice "css/modern-normalize.css" "css/components.css" "css/fonts.css" "css/decred-v5.css" "css/dataTables.css" )) }}
+      
+        <!--  Custom favicon  -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=yHh3NA">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png?v=yHh3NA" sizes="32x32">
+        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png?v=yHh3NA" sizes="16x16">
+        <link rel="manifest" href="/images/favicon/manifest.json?v=yHh3NA">
+        <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=yHh3NA" color="#2973ff">
+        <link rel="shortcut icon" href="/images/favicon/favicon.ico?v=yHh3NA">
+        <meta name="apple-mobile-web-app-title" content="Decred - Secure. Adaptable. Sustainable.">
+        <meta name="application-name" content="Decred - Secure. Adaptable. Sustainable.">
+        <meta name="msapplication-TileColor" content="#2973ff">
+        <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png?v=fi5jKKtbwv">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=fi5jKKtbwv">
+        <meta name="theme-color" content="#ffffff">
+        <style>
+          @media (min-width: 1024px) and (max-width: 1212px) {
+            .logo {
+              margin-left: -20px;
+            }
+            .slogan,
+            .description {
+              margin-left: 105px;
+            }
+          }
+          @media (min-width: 992px) and (max-width: 1024px) {
+            .front {
+              width: 480px;
+            }
+            .width1100 {
+              width: 100%;
+              padding-left: 60px;
+              padding-right: 60px;
+            }
+            /*footer*/
+            .footerrowscolumn1.footerblockstats,
+            .footerrowscolumn1.footerblockicon {
+              width: 20.666667%;
+            }
+            .networkstatistics {
+              width: 237px;
+            }
+            .column.percentmined {
+              width: 100%;
+            }
+            .column.supplydistribution {
+              width: 397px;
+            }
+            .column.development {
+              margin-left: 23px;
+              padding-left: 27px;
+            }
+            .column {
+              margin-bottom: 20px;
+            }
+          }
+          .text a,
+          .text a:active,
+          .text a:focus {
+            color: #69d3f5 !important;
+            text-decoration: none !important;
+          }
+          .text a:hover {
+            text-decoration: underline !important;
+          }
+      
+        </style>
+      
+    </head>
 
   <body class="body">
 

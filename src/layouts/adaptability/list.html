@@ -1,5 +1,10 @@
 {{ define "main" }}
 
+    {{ block "page-title" . }}
+        <title>Decred - {{ T "nav_adaptability" }}</title>
+        <meta content="Decred - {{ T "nav_adaptability" }}" property="og:title">
+    {{ end}}
+
     <div class="full-width">
         <div class="_960">
             <div class="print-version">
