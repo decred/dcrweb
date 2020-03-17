@@ -6,18 +6,18 @@
         <div class="footerrows w-row">
             <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3">
                 <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="footerblocklinkdev footer-margin-bottom">{{ T "general_copyright" }}</a>
-                <a href="https://timestamp.decred.org" target="_blank" rel="noopener noreferrer" class="footer-inline footerblocklink transition footer-margin-top footer-margin-left">{{ T "nav_time" }}</a>
-                <a href="https://bounty.decred.org" target="_blank" rel="noopener noreferrer" class="footer-inline footerblocklink transition">{{ T "nav_bounty" }}</a>
             </div>
             <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3">
                 <a href="{{ "brand/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_brand_resources" }}</a>
                 <a href="{{ "press/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_press" }}</a>
                 <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_become_contributor" }}</a>
+                <a href="{{ "brief/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_business_brief" }}</a>
             </div>
             <div class="footerrowscolumn1 w-col w-col-2 w-col-medium-2">
-                <a href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer" class="footerblocklink transition" >{{ T "nav_tech_overview" }}</a>
-                <a href="{{ "brief/" | relLangURL }}" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_business_brief" }}</a>
-                <a href="{{ "roadmap/" | relLangURL }}" class="footerblocklink transition">{{ T "footer_roadmap" }}</a>
+                <a href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_tech_overview" }}</a>
+                <a href="https://dcrdata.decred.org/"  target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_dcrdata" }}</a>
+                <a href="https://timestamp.decred.org" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_time" }}</a>
+                <a href="https://bounty.decred.org"    target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_bounty" }}</a>
             </div>
             <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
                 <div class="footerblockstatsrow w-clearfix">
@@ -26,11 +26,9 @@
                     {{ end }}
                     <div class="footerblockstatsname">{{ T "general_release_stable" }}</div>
                 </div>
-                <div class="footerblockstatsrow w-clearfix"><a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="{{ "wallets/" | relLangURL }}">457k {{ T "general_total" }}</a>
+                <div class="footerblockstatsrow w-clearfix">
+                    <a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="{{ "wallets/" | relLangURL }}">457k {{ T "general_total" }}</a>
                     <div class="footerblockstatsname">{{ T "general_downloads" }}</div>
-                    <div id="explorer-links">
-                      <a href="https://dcrdata.decred.org/" target="_blank" rel="noopener noreferrer" class="footer-inline-el footerblocklink transition">{{ T "nav_dcrdata" }}</a>
-                    </div>
                 </div>
             </div>
             <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
