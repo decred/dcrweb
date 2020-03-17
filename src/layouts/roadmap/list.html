@@ -1,9 +1,9 @@
-{{ define "main" }}
+{{ define "page-title" }}
+    <title>Decred - {{ T "nav_roadmap" }}</title>
+    <meta content="Decred - {{ T "nav_roadmap" }}" property="og:title">
+{{ end }}
 
-    {{ block "page-title" . }}
-        <title>Decred - {{ T "nav_roadmap" }}</title>
-        <meta content="Decred - {{ T "nav_roadmap" }}" property="og:title">
-    {{ end}}
+{{ define "main" }}
 
     {{ $items := .Site.Data.roadmap }}
 

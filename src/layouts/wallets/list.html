@@ -1,9 +1,9 @@
-{{ define "main" }}
-
-{{ block "page-title" . }}
+{{ define "page-title" }}
     <title>Decred - {{ T "nav_downloads" }}</title>
     <meta content="Decred - {{ T "nav_downloads" }}" property="og:title">
-{{ end}}
+{{ end }}
+
+{{ define "main" }}
 
 {{ $apps := .Site.Data.wallets.apps }}
 
