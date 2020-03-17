@@ -2820,7 +2820,7 @@ html[dir="rtl"] .lang-menu {
 }
 
 .latest-news {
-  padding: 45px 0 50px;
+  padding-top: 45px;
   background: #eaeef0;
 }
 .latest-news__title {
@@ -2873,7 +2873,7 @@ html[dir="rtl"] .lang-menu {
 
 .subpage-content-section {
   min-height: 300px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .subpage-content-section.ex {
