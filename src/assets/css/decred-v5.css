@@ -2879,6 +2879,14 @@ html[dir="rtl"] .lang-menu {
   margin-top: 0;
 }
 
+.vsp-description {
+  margin-top: 46px;
+  margin-bottom: 46px;
+  color: #596d81;
+  line-height: 22px;
+  text-decoration: none;
+}
+
 .subpage-description {
   width: 440px;
   margin-top: 46px;
