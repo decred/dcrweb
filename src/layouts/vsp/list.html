@@ -9,7 +9,8 @@
     <div class="_960">
         <div class="subpage-content-section">
                 {{ partial "breadcrumbs_getstarted.html" . }}
-                <div class="subpage-description">{{ T "stakepools_description"  }}
+                <div class="vsp-description">
+                    {{ safeHTML (T "stakepools_description")  }}
                     <noscript>
                         <div>
                             {{ range .Site.Data.stakepools.stakepools }}
