@@ -115,7 +115,7 @@
                         <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.ogv" type="video/ogg">
                     </video>
                     <div class="_960 subpage-header">
-                        <a href="{{ .Site.BaseURL | absLangURL  }}" class="subpage-logo w-inline-block"></a>
+                        <a href="{{ .Site.BaseURL | relLangURL  }}" class="subpage-logo w-inline-block"></a>
                     </div>
                     <div class="_960 subpage-header">
                         <div class="subpage-title">{{ T .Title }}</div>
