@@ -180,13 +180,6 @@ $(document).ready(function () {
 		$('#footerDownloads').text(data[1]);
 	});
 
-	// show slogan when hovering frontpage logo
-	logo.mouseenter( function() {
-		slogan.addClass('opacity075');
-	}).mouseleave( function() {
-		slogan.removeClass('opacity075');
-	});
-
 	// stakepools
 	var stakepoolFinder = function() {
 			$("#stakepool-data").html("Loading...");
