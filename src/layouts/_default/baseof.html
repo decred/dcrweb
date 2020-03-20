@@ -3,12 +3,15 @@
 
     <head>
         <meta charset="utf-8">
-      
-        {{ block "page-title" . }}
+
+        {{ if .IsHome }}
           <title>{{ T "title" }}</title>
           <meta content="{{ T "title" }}" property="og:title">
+        {{ else }}
+          <title>Decred - {{ block "page-title" . }}{{ end }}</title>
+          <meta content="Decred - {{ block "page-title" . }}{{ end }}" property="og:title">
         {{ end }}
-      
+
         <meta content='{{ T "description" }}' name="description">
       
         <meta content="{{ T "description" }}" property="og:description">
@@ -118,7 +121,7 @@
                         <a href="{{ .Site.BaseURL | absLangURL  }}" class="subpage-logo w-inline-block"></a>
                     </div>
                     <div class="_960 subpage-header">
-                        <div class="subpage-title">{{ T .Title }}</div>
+                        <div class="subpage-title">{{ block "page-title" . }}{{ end }}</div>
                     </div>
                 </div>
             {{ end }}
