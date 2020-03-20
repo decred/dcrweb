@@ -1,7 +1,0 @@
-
-{{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
-<ul>
-    {{ range sort .Paginator.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-</ul>
