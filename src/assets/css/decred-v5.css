@@ -6599,60 +6599,6 @@ p.text-block-11 {
   text-decoration: none;
 }
 
-.news_banner {
-  background: #1B41B3;
-}
-
-.news_banner__content {
-  padding: 30px 0;
-  display: flex;
-}
-
-.news_banner__content p {
-  margin-bottom: 0;
-}
-
-.news_banner__content strong {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.news_banner__text {
-  padding: 0 30px;
-}
-
-@media screen and (max-width: 480px) {
-  .news_banner__text {
-    padding: 0 15px;
-  }
-}
-
-@media screen and (min-width: 730px) {
-  .news_banner__text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 730px) {
-  .news_banner__text div {
-    max-width: 400px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .news_banner__text div {
-    max-width: 560px;
-  }
-}
-
-.news_banner__logo {
-  width: 70px;
-  height: 70px;
-}
-
 .news_banner__button {
   text-decoration: none;
   color: #fff;
