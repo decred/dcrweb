@@ -132,11 +132,12 @@ body.noscroll >.below.subpage {
 
 .slogan {
   opacity: 0;
-}
-
-.slogan.font28 {
   width: 606px;
   padding-top: 18px;
+}
+
+.brand:hover + .slogan {
+  opacity: 0.75;
 }
 
 .description {
@@ -303,10 +304,6 @@ body.noscroll >.below.subpage {
 .transitionslow {
   -webkit-transition: all 500ms cubic-bezier(.77, 0, .175, 1);
   transition: all 500ms cubic-bezier(.77, 0, .175, 1);
-}
-
-.opacity075 {
-  opacity: 0.75;
 }
 
 .guide {
@@ -4722,7 +4719,7 @@ p.text-block-11 {
   .logo.brand {
     margin-left: 0px;
   }
-  .slogan.font28.transition {
+  .slogan {
     width: 100%;
   }
   .description {
@@ -5174,7 +5171,7 @@ p.text-block-11 {
     margin-bottom: 35px;
     margin-left: 0px;
   }
-  .slogan.font28.transition {
+  .slogan {
     display: none;
     width: 100%;
     margin-bottom: 40px;
