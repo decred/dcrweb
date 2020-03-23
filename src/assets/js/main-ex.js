@@ -11,12 +11,11 @@ $(function(){
         currentFilter = decodeURIComponent(location.hash.substr(1));
     }
 
-
     var $grid = $('.filter-cards-wrap');
-        //$sizer = $grid.find('.shuffle__sizer');
 
-    var Shuffle = window.Shuffle;
-
+    // Sort the exchange list alphabetically.
+    // TODO: Do this sorting server-side rather than using JS - use contributor
+    // list sorting as reference.
     $grid.shuffle({
         itemSelector: '.filter-card',
         initialSort: {
@@ -26,9 +25,7 @@ $(function(){
         }
     });
 
-    $('.filter-cards-wrap--roadmap').shuffle('shuffle', 'new');
-
-    // filter icons display tail
+    // The tooltip for exchange category buttons
     filter.not(all).on('mouseenter', function() {
         var that = $(this);
 
@@ -51,9 +48,6 @@ $(function(){
         filters.removeClass('is-checked is-hover');
         filters.siblings('[data-group="'+group+'"]').addClass('is-checked');
 
-        $('.roadmap__filter-legend-item').removeClass('is-checked');
-        $(".roadmap__filter-legend-item[data-group='" + group +"']").addClass('is-checked');
-
         $grid.shuffle('shuffle', group);
         window.location.hash = group;
     }
@@ -64,20 +58,12 @@ $(function(){
         setCurrentFilter(group);
     });
 
-    var newfilter = $('.filter-new').length;
-    $('.roadmap__filter-legend-item[data-group="new"]').html(newfilter);
-
-    var ongoing = $('.filter-ongoing').length;
-    $('.roadmap__filter-legend-item[data-group="ongoing"]').html(ongoing);
-
-    var completed = $('.filter-completed').length;
-    $('.roadmap__filter-legend-item[data-group="completed"]').html(completed);
-
     if(currentFilter) {
         setCurrentFilter(currentFilter);
     }
 
     // shuffle js .filter-card hover fix
+    // TODO: This should be trivial to implement in css rather than js.
     $grid.on('layout.shuffle', function() {
         setTimeout(function() {  
             filterCard.each(function() {
@@ -92,6 +78,11 @@ $(function(){
         $(this).css('margin-top', '0px');
     });
 
+
+    //
+    // Code below here is implementing the nav menu for /brief
+    //
+    
     $('#hide-all').click(function(){
         $('#x-menu').toggle(500);
         $('#hide-all').hide();
