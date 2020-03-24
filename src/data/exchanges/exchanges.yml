@@ -17,12 +17,6 @@
   logo_src: "livecoin.jpg"
   name: Livecoin
 -
-  url: "https://www.chainrift.com/"
-  tags:
-    - all
-  logo_src: "chainrift.jpg"
-  name: ChainRift
--
   url: "https://coinswitch.co/"
   tags:
     - "instant-exchange"
