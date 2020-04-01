@@ -142,19 +142,19 @@
   url: "https://www.bitladon.com/"
   tags:
     - fiat
-  logo_src: "bitladon.png"
+  logo_src: "bitladon.jpg"
   name: Bitladon
 -
   url: "https://bitvavo.com/en"
   tags:
     - fiat
-  logo_src: "bitvavo.png"
+  logo_src: "bitvavo.jpg"
   name: Bitvavo
 -
   url: "https://www.gate.io/"
   tags:
     - all
-  logo_src: "gate-io.png"
+  logo_src: "gate-io.jpg"
   name: "Gate.io"
 -
   url: "https://www.binance.com/"
@@ -166,7 +166,7 @@
   url: "https://simpleswap.io/"
   tags:
     - "instant-exchange"
-  logo_src: "simpleswap.png"
+  logo_src: "simpleswap.jpg"
   name: "Simple Swap"
 -
   url: "https://www.lykke.com/trade/"
