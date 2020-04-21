@@ -505,3 +505,11 @@
   title: "Media Production"
   twitter_alias: "coveryfire7777"
   github_id: "exitus1"
+-
+  matrix_id: guisso:decred.org
+  group: development
+  avatar_image: "fernando_guisso.svg"
+  name: "Fernando Guisso"
+  title: developer
+  github_id: fguisso
+  twitter_alias: "_fguisso"
