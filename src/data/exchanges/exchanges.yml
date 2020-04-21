@@ -217,3 +217,9 @@
    - "instant-exchange"
  logo_src: "Flypme.jpg"
  name: Flyp
+-
+  url: "https://www.metalpay.com/"
+  tags:
+    - all
+  logo_src: "metalpay.png"
+  name: "Metal Pay"
