@@ -323,27 +323,27 @@ body.noscroll >.below.subpage {
 
 .backgroundcyan {
   background-color: #70cbff;
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .guideblockheaderactive {
   display: inline-block;
   margin-left: -20px;
   padding: 13px 20px;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 24px;
 }
 
 .guideblockheaderactive:hover {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .colordarkblue {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .colordarkblue:hover {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .text {
@@ -378,19 +378,19 @@ body.noscroll >.below.subpage {
 }
 
 .colordarkkeyblue {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .colordarkkeyblue:hover {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .colordarkkeyblue:active {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .colordarkkeyblue:focus {
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .guideblockcontentlast {
@@ -455,7 +455,7 @@ body.noscroll >.below.subpage {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: #0c1e3e;
+  background-color: #091440;
 }
 
 .fronta.landing {
@@ -1112,7 +1112,7 @@ body.noscroll >.below.subpage {
 .stakepool-data {
   position: relative;
   min-height: 100px;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 12px;
 }
 
@@ -1260,7 +1260,7 @@ body.noscroll .navigation {
   transition: opacity 150ms ease-in-out, -webkit-transform 200ms ease;
   transition: transform 200ms ease, opacity 150ms ease-in-out;
   transition: transform 200ms ease, opacity 150ms ease-in-out, -webkit-transform 200ms ease;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 22px;
   text-align: left;
   text-decoration: none;
@@ -1300,7 +1300,7 @@ body.noscroll .navigation {
 }
 
 .link {
-  color: #0c1e3e;
+  color: #091440;
   text-decoration: none;
 }
 
@@ -1664,7 +1664,7 @@ ul, li, nav {
   margin-left: 5px;
   float: left;
   clear: left;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -1736,7 +1736,7 @@ ul, li, nav {
 
 .section-title-download-page {
   margin-bottom: 20px;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 14px;
   line-height: 18px;
   font-weight: 600;
@@ -1792,7 +1792,7 @@ ul, li, nav {
 
 .download-page {
   background-image: none;
-  color: #0c1e3e;
+  color: #091440;
 }
 
 .section-card-title-download-page {
@@ -1925,7 +1925,7 @@ ul, li, nav {
   margin-right: 3px;
   margin-left: 2px;
   float: left;
-  background-color: #0c1e3e;
+  background-color: #091440;
 }
 
 .section-card-download-links-download-page > .separator:last-child {
@@ -1973,7 +1973,7 @@ ul, li, nav {
 
 .bg.subpage {
   position: absolute;
-  background-color: #0c1e3e;
+  background-color: #091440;
 }
 
 .bg-gradient {
@@ -3679,7 +3679,7 @@ p.text-block-11 {
   width: 100%;
   padding-left: 12px;
   float: left;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
@@ -3718,7 +3718,7 @@ p.text-block-11 {
   opacity: 0;
   -webkit-transition: opacity 400ms ease;
   transition: opacity 400ms ease;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 13px;
   line-height: 17px;
   text-align: center;
@@ -4499,7 +4499,7 @@ p.text-block-11 {
   opacity: 0;
   -webkit-transition: opacity 400ms ease;
   transition: opacity 400ms ease;
-  color: #0c1e3e;
+  color: #091440;
   font-size: 13px;
   line-height: 17px;
 }
