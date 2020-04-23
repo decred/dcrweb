@@ -233,11 +233,11 @@ table.dataTable td {
       text-align: center;
       text-decoration: none !important;
       cursor: pointer;
-      color: #0c1e3e !important;
+      color: #091440 !important;
       border: 1px solid transparent;
       border-radius: 2px; }
       .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-        color: #0c1e3e !important;
+        color: #091440 !important;
         border: 1px solid #979797;
         background-color: white;
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, gainsboro));
@@ -315,7 +315,7 @@ table.dataTable td {
   .dataTables_wrapper .dataTables_info,
   .dataTables_wrapper .dataTables_processing,
   .dataTables_wrapper .dataTables_paginate {
-    color: #0c1e3e; }
+    color: #091440; }
   .dataTables_wrapper .dataTables_scroll {
     clear: both; }
     .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
