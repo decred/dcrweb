@@ -469,7 +469,7 @@ body.noscroll >.below.subpage {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: #0c1e3e;
+  background-color: #fdfdfd;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2171,7 +2171,7 @@ html[dir="rtl"] .lang-menu {
 }
 
 .body {
-  background-color: #0c1e3e;
+  background-color: #fdfdfd;
   background-image: none;
 }
 
