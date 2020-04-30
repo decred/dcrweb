@@ -83,6 +83,8 @@ $(function(){
     // Code below here is implementing the nav menu for /brief
     //
     
+    $('.basic-sticky').show();
+
     $('#hide-all').click(function(){
         $('#x-menu').toggle(500);
         $('#hide-all').hide();
