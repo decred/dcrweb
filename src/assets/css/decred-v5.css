@@ -6034,18 +6034,19 @@ p.text-block-11 {
   }
 }
 
-.subpage__toggle a {
+.subpage__toggle label {
   color: #596D81;
   padding: 10px 30px;
   display: inline-block;
   margin-right: -1px;
 }
 
-.subpage__toggle a:hover {
+.subpage__toggle label:hover {
   cursor: pointer;
 }
 
-.subpage__toggle a.active {
+#releases:checked ~ div label[for='releases'],
+#coverage:checked ~ div label[for='coverage'] {
   background: #E7EAED;
   color: #091440;
 }
@@ -6058,7 +6059,8 @@ p.text-block-11 {
   top: 0;
 }
 
-.toggleable .subpage-content.active {
+#releases:checked ~ div .press__releases,
+#coverage:checked ~ div .press__coverage {
   opacity: 1;
   visibility: visible;
   position: relative;

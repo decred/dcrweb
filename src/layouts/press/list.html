@@ -3,23 +3,26 @@
 {{ end }}
 
 {{ define "main" }}
+    <input class="w-hidden" type="radio" id="coverage" name="subpage_toggler" checked />
+    <input class="w-hidden" type="radio" id="releases" name="subpage_toggler" />
+    
     <div class="full-width">
         <div class="_960">
             <div class="subpage-description">{{ T "press_description" | safeHTML }}</div>
             <div class="subpage__toggle">
-                <a data-toggle="press__coverage" class="active">{{ T "press_coverage" }}</a>
-                <a data-toggle="press__releases">{{ T "press_releases" }}</a>
+                <label for="coverage">{{ T "press_coverage" }}</label>
+                <label for="releases">{{ T "press_releases" }}</label>
             </div>
         </div>
     </div>
-
+    
     <div class="full-width press__wrapper">
         <div class="_960">
             <div class="subpage-content-section toggleable">
-                <div class="press press__coverage subpage-content w-clearfix active">
+                <div class="press press__coverage subpage-content w-clearfix">
                     {{ partial "press/coverage-list" .Site.Data.press.coverage }}
                 </div>
-
+                
                 <div class="press press__releases subpage-content w-clearfix">
                     {{ partial "press/release-list" . }}
                 </div>
