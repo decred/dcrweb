@@ -36,15 +36,9 @@ $(document).ready(function () {
 		active = 'active',
 
 		// first view
-		logo = $('.logo'),
-		slogan = $('.slogan'),
 		playButton = $('.play-modal'),
 		mobilePlayButton = $('.mobile-play-button'),
 		videoModal = $('.video-modal'),
-
-		// principles section
-		principlesSelect = $('.history-select'),
-		principlesSlide = $('.history-slide'),
 
 		// team subpage
 		teamFilterButton = $('.team-filter-button'),
@@ -157,15 +151,6 @@ $(document).ready(function () {
 		videoModal.removeClass('active');
 		});
 	}
-
-	// principles section
-	principlesSelect.eq(0).addClass('active');
-	principlesSlide.eq(0).addClass('active');
-	principlesSelect.click( function() {
-		principlesSelect.add(principlesSlide).removeClass('active');
-		principlesSlide.eq($(this).index()).addClass('active');
-		$(this).toggleClass('active');
-	});
 
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
