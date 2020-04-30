@@ -3,7 +3,7 @@ FROM alpine:latest
 
 ARG HUGO_BASEURL
 ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
-ENV HUGO_VERSION 0.69.1
+ENV HUGO_VERSION 0.69.2
 
 LABEL description="gohugo build"
 LABEL version="1.0"
