@@ -175,11 +175,11 @@
   logo_src: "lykke.jpg"
   name: Lykke
 -
-  url: "https://www.vertbase.com/"
+  url: "https://www.sequoir.com/"
   tags:
     - fiat
-  logo_src: "vertbase.jpg"
-  name: Vertbase
+  logo_src: "sequoir.png"
+  name: Sequoir
 -
   url: "https://cryptofacil.com/"
   tags:
@@ -223,3 +223,9 @@
     - all
   logo_src: "metalpay.png"
   name: "Metal Pay"
+-
+  url: "https://global.transak.com/?defaultCryptoCurrency=DCR"
+  tags:
+    - fiat
+  logo_src: "transak.png"
+  name: "Transak"
