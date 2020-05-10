@@ -26,6 +26,7 @@
   url: "https://bittrex.com/"
   tags:
     - "high-liquidity"
+    - "fiat"
   logo_src: "Bittrex.jpg"
   name: Bittrex
 -
@@ -180,19 +181,6 @@
     - fiat
   logo_src: "vertbase.jpg"
   name: Vertbase
--
-  url: "https://cryptofacil.com/"
-  tags:
-    - fiat
-    - high-liquidity
-  logo_src: "cryptofacil.png"
-  name: Cryptofacil
--
-  url: "https://www.okcoin.com/"
-  tags:
-    - fiat
-  logo_src: "okcoin.jpg"
-  name: OKCoin
 -
   url: "https://stealthex.io/"
   tags:
