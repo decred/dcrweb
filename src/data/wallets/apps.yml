@@ -16,7 +16,7 @@
       id: exodus
       links:
         - title: Exodus releases
-          url: https://www.exodus.io/download/
+          url: https://www.exodus.io/decred-wallet
 
     - name: Coinomi
       id: coinomi
