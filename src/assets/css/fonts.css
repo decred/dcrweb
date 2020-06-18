@@ -53,11 +53,9 @@
 }
 
 html, body {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "dcrweb", "Verdana", "sans-serif" !important;
+    font-family: "dcrweb", "Verdana", sans-serif;
 }
 
 pre, code {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "dcrweb-code", "Courier New", "monospace" !important;
+    font-family: "dcrweb-code", "Courier New", monospace;
 }
