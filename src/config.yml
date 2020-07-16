@@ -43,6 +43,7 @@ params:
             - "js/jquery.shuffle.js"
             - "js/inview.min.js"
             - "js/main-ex.js"
+            - "js/lottie-webplayer-0.5.1.js"
 
 languages: 
     en:

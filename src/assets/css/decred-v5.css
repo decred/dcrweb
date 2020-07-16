@@ -3146,7 +3146,11 @@ p.text-block-11 {
 }
 
 .history-principles:hover {
-  color: #e9f8fe;
+  color: #70CBFF;
+}
+
+.history-principles:hover hr {
+  background-color: #70CBFF;
 }
 
 .history-principles label {
@@ -3167,13 +3171,24 @@ p.text-block-11 {
   color: #e9f8fe;
 }
 
+#principle1:checked ~ div label[for='principle1'] ~ hr,
+#principle2:checked ~ div label[for='principle2'] ~ hr,
+#principle3:checked ~ div label[for='principle3'] ~ hr,
+#principle4:checked ~ div label[for='principle4'] ~ hr,
+#principle5:checked ~ div label[for='principle5'] ~ hr,
+#principle6:checked ~ div label[for='principle6'] ~ hr {
+  background-color: #e9f8fe;
+}
+
 .history-principles {
   color: #091440; 
 }
 
 .history-slide-icon {
-  height: 90px;
+  height: 100px;
   align-self: center;
+  margin-top: 65px;
+  margin-bottom: 46px;
 }
 .history-slide {
   position: relative;
@@ -3211,7 +3226,7 @@ p.text-block-11 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    min-height: 260px;
+    min-height: 340px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3282,14 +3297,8 @@ p.text-block-11 {
 }
 
 .text-size--22 {
-  margin-top: 46px;
   font-size: 18px;
   line-height: 1.27;
-}
-@media screen and (max-width: 768px) {
-  .text-size--22 {
-    margin-top: 0;
-  }
 }
 @media screen and (max-width: 479px) {
   .text-size--22 {
