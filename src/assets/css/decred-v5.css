@@ -3137,20 +3137,9 @@ p.text-block-11 {
   margin-bottom: 36px;
 }
 
-.history-principles hr {
-  border: none;
-  background-color: #091440;
-  border-color: #091440;
-  color: #091440;
-  height: 1px;
-}
-
-.history-principles:hover {
+.history-principles:hover p {
   color: #70CBFF;
-}
-
-.history-principles:hover hr {
-  background-color: #70CBFF;
+  border-color: #70CBFF;
 }
 
 .history-principles label {
@@ -3169,15 +3158,7 @@ p.text-block-11 {
 #principle5:checked ~ div label[for='principle5'] ~ p,
 #principle6:checked ~ div label[for='principle6'] ~ p {
   color: #e9f8fe;
-}
-
-#principle1:checked ~ div label[for='principle1'] ~ hr,
-#principle2:checked ~ div label[for='principle2'] ~ hr,
-#principle3:checked ~ div label[for='principle3'] ~ hr,
-#principle4:checked ~ div label[for='principle4'] ~ hr,
-#principle5:checked ~ div label[for='principle5'] ~ hr,
-#principle6:checked ~ div label[for='principle6'] ~ hr {
-  background-color: #e9f8fe;
+  border-color: #e9f8fe;
 }
 
 .history-principles {
@@ -3286,9 +3267,12 @@ p.text-block-11 {
   font-size: 10px;
   font-weight: 600;
   line-height: 1.25;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #091440;
 }
 
 .text-size--12 {
+  padding-top: 8px;
   font-family: "dcrweb-code";
   margin-bottom: 24px;
   font-size: 12px;
