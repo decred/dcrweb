@@ -1650,3 +1650,19 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+/* NoScript extension for FireFox adds a `__ns__pop2top` class to the full
+   ancestry of blocked elements, to set the z-index to a high value and bring
+   its blocked content placeholder in front of everything else.
+
+   This messes with pop-ups, modals and dropdowns, eg. hamburger nav menu, video
+   player modals. 
+
+   Adding css rules to work around browser extension behaviour is icky, but
+   NoScript is the number 4 most popular browser extension, and a good chunk of
+   our target audience are probably using it.
+*/
+body .__ns__pop2top,
+div .__ns__pop2top {
+    z-index: -999 !important;
+}
