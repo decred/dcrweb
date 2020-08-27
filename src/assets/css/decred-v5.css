@@ -1322,17 +1322,9 @@ ul, li, nav {
 }
 
 #menu { 
-  overflow-y: scroll;
-  overflow-x: hidden;
   position: relative; 
   z-index: 2; 
   padding-bottom: 30px;
-}
-
-@media (min-width: 768px) {
-  #menu {
-    overflow: hidden !important;
-  }
 }
 
 .parent-menu { 
