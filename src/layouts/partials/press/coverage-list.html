@@ -1,7 +1,7 @@
 {{ range . }}
 <div class="press__coverage-item">
     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-        <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage-icon.svg" width="30" />
+        <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .icon }}" width="30" />
         <div class="press__coverage-wrapper">
             <p><span class="press__title">{{ .title }}</span>
                 <span class="press__source"> ({{ .source }})</span></p>
