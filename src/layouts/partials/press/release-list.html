@@ -1,6 +1,6 @@
 {{range where .Site.RegularPages "Section" "=" "press"}}
     <div class="press__coverage-item press__releases-item">
-        <img class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-release-icon.svg" width="30" alt=""/>
+        <img class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .Params.icon }}" width="30" alt=""/>
 
         <div class="press__coverage-wrapper">
             <p><span class="press__title">{{ .Params.title }}</span></p>
