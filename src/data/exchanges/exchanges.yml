@@ -104,6 +104,13 @@
   logo_src: "profitfy.jpg"
   name: Profitfy
 -
+  url: "https://www.swyftx.com.au/"
+  tags:
+    - fiat
+    - "high-liquidity"
+  logo_src: "Swyftx.jpg"
+  name: Swyftx
+-
   url: "https://www.cointree.com.au/"
   tags:
     - all
