@@ -318,7 +318,7 @@
   group: community
   avatar_image: "team_74.svg"
   name: "Elian Huesca"
-  title: "Community Manager (MX)"
+  title: "Latam Ops"
   linkedin_url: ""
   twitter_alias: elianhuesca
   medium_alias:
@@ -513,3 +513,63 @@
   title: developer
   github_id: fguisso
   twitter_alias: "_fguisso"
+-
+  name: "Carolina Ibarra"
+  title: "Operations Colombia"
+  matrix_id: caibarrad:decred.org
+  twitter_alias: "caibarrad"
+  group: community
+  avatar_image: "caibarrad.svg"
+  linkedin_url: https://www.linkedin.com/in/caibarrad
+-
+  name: "Victor Rubin"
+  title: "Content Production"
+  matrix_id: victorarubin:matrix.org
+  twitter_alias: "victorarubin"
+  group: design
+  avatar_image: "arubin.svg"
+-
+  name: "Lorena Franco"
+  title: "Social Media Manager"
+  matrix_id: francov_:decred.org
+  twitter_alias: "Francov99_"
+  group: community
+  avatar_image: "francov.svg"
+  github_id: francov99
+-
+  name: "Pablito Labarta"
+  title: "Content Production"
+  matrix_id: pablito:decred.org
+  twitter_alias: "plabarta_"
+  github_id: plabarta
+  group: design
+  avatar_image: "pablito.svg"
+  medium_alias: pablit0
+-
+  name: "Ana Chávez"
+  title: "BizDev and Outreach"
+  matrix_id: adcade:matrix.org
+  twitter_alias: "addcade"
+  group: community
+  avatar_image: "adcade.svg"
+-
+  name: "Ignacio Rodriguez"
+  title: "Designer"
+  matrix_id: nachito:decred.org
+  github_id: Reidiojed
+  group: design
+  avatar_image: "nachito.svg"
+-
+  name: "Tomas Grooss"
+  title: "Operations Argentina"
+  matrix_id: tomee:decred.org
+  github_id: TomeeGrooss
+  group: community
+  avatar_image: "tomee.svg"
+  twitter_alias: "tomasgroos"
+-
+  name: "Camilo Rodriguez"
+  title: "Outreach Argentina"
+  github_id: camilolwi
+  group: community
+  avatar_image: "camilo.svg"
