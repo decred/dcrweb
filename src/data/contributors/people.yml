@@ -570,6 +570,7 @@
 -
   name: "Camilo Rodriguez"
   title: "Outreach Argentina"
+  matrix_id: camilolwii:matrix.org
   github_id: camilolwi
   group: community
   avatar_image: "camilo.svg"
