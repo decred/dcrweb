@@ -7,6 +7,6 @@
     "author": "Peter Banik <peter@froggle.org>",
     "license": "ISC",
     "devDependencies": {
-        "html-validator-cli": "^6.0.2"
+        "html-validator-cli": "^7.0.1"
     }
 }
