@@ -58,14 +58,6 @@
   title: developer
   github_id: dnldd
 -
-  matrix_id: dustorf:decred.org
-  twitter_alias: "lefebvre_dustin"
-  group: marketing
-  avatar_image: "team_64.svg"
-  name: "Dustin LeFebvre"
-  title: Marketing
-  linkedin_url: "https://www.linkedin.com/in/dustinlefebvre"
--
   matrix_id: fernandoabolafio:matrix.org
   group: development
   avatar_image: "team_39.svg"
