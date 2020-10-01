@@ -1,10 +1,10 @@
 dcrweb
 ======
 
-This is the code for the [decred.org](https://www.decred.org) website.
+ This is the code for the [decred.org](https://www.decred.org) website.
 
-[![Build Status](https://travis-ci.org/decred/dcrweb.png?branch=master)](https://travis-ci.org/decred/dcrweb)
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
+ [![Build Status](https://travis-ci.org/decred/dcrweb.png?branch=master)](https://travis-ci.org/decred/dcrweb)
+ [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 
 #### Downloading web site code
@@ -17,7 +17,7 @@ git clone https://github.com/decred/dcrweb
 
 ## Development
 
-1. Install prerequisites:
+1. Install prerequisites :
 
    * [Hugo](https://gohugo.io/)
    * Docker
