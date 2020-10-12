@@ -1,19 +1,10 @@
-dcrweb
-======
+# dcrweb
+
 
 This is the code for the [decred.org](https://www.decred.org) website.
 
 [![Build Status](https://travis-ci.org/decred/dcrweb.png?branch=master)](https://travis-ci.org/decred/dcrweb)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-
-
-#### Downloading web site code
-
-Make sure you have [git](https://git-scm.com/) installed.
-
-```sh
-git clone https://github.com/decred/dcrweb
-```
 
 ## Development
 
@@ -23,12 +14,14 @@ git clone https://github.com/decred/dcrweb
    * Docker
 
 2. Clone repo
+
     ```sh
     git clone https://github.com/decred/dcrweb
     cd dcrweb
     ```
 
 3. Start development web server:
+
     ```sh
     bin/watch.sh
     ```
@@ -39,9 +32,8 @@ You should now be able to access the site at `http://localhost:1313`
 
 `dcrweb` is built using the [Hugo](https://gohugo.io/) site generator framework.  The most frequently updated content sections live in the below locations:
 
-
 | Section | File | Comments |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Press releases | `src/content/press/*.md` | When adding a new release, please follow the file naming convention in the directory.
 | Press coverage | `src/data/press/coverage.yml` ||
 | Download links | `src/data/wallets/links.yml` ||
@@ -57,16 +49,13 @@ The other sections live under `src/layouts`.  These pages are implemented as [Hu
 
 Run the HTML validator to make sure all of the generated files are syntactically correct.  (The script depends on `yarn` and `docker` being installed.)
 
-
 ```sh
 yarn && yarn test
 ```
 
-
 ## Localization
 
 The below commands must be run when either the content changes or there are updates in the translations in Transifex.  You'll first need to install the [Transifex client](https://docs.transifex.com/client/installing-the-client).
-
 
 #### Importing new translations and content updates
 
@@ -98,6 +87,7 @@ bin/transifex_push.sh
 A Docker configuration is included for building the deployable images of dcrweb.
 
 ### Prerequisites
+
   - docker
 
 ### Building the Docker image for deployment
@@ -105,6 +95,7 @@ A Docker configuration is included for building the deployable images of dcrweb.
 ```sh
 bin/build.sh
 ```
+
 This builds the docker image `decred/dcrweb`, which can then be run using:
 
 ```sh
