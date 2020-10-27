@@ -224,3 +224,9 @@
     - fiat
   logo_src: "transak.png"
   name: "Transak"
+-
+  url: "https://www.novadax.com.br/"
+  tags:
+    - all
+  logo_src: "novadax.png"
+  name: "Novadax"
