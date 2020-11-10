@@ -230,3 +230,11 @@
     - all
   logo_src: "novadax.png"
   name: "Novadax"
+-
+  url: "https://dex.decred.org/"
+  tags:
+    - "high-liquidity"
+    - decentralized
+    - atomic-swaps
+  logo_src: "dcrdex.png"
+  name: "DCRDEX"
