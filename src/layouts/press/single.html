@@ -1,0 +1,20 @@
+{{ define "page-title" }}
+    {{ T "Press" }}
+{{ end }}
+
+{{ define "main" }}
+
+    <div class="full-width">
+        <div class="_960 ">
+            <div class="subpage-content-section ex">
+                <div class="press__releases-content">
+                    <div class="press__releases-content-wrapper">
+                        <h1>{{ .Title }}</h1>
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{ end }}

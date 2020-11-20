@@ -1,29 +1,5 @@
 $(document).ready(function () {
 
-	$('.press__releases-item').on('click', function() {
-		$a = $(this);
-
-		$('.press__releases-item').not(this).removeClass('active');
-		$(this).toggleClass('active');
-
-		$('.press__releases-item').not(this).find('.press__releases-arrow').removeClass('active');
-		$(this).find('.press__releases-arrow').toggleClass('active');
-
-		$('.press__releases-content').slideUp();
-
-		if($(this).next('.press__releases-content').is(":visible")) {
-			$(this).next('.press__releases-content').slideUp();
-		} else {
-			$(this).next('.press__releases-content').slideToggle( "slow", function(){
-			if ($(this).is(":visible")) { 
-				$('html,body').animate({ 
-					scrollTop: $(this).offset().top - 100
-				}, "slow")
-			}
-		});
-		}
-	});
-	
 	var time = 100,
 
 		API_ROOT = "https://api.decred.org",

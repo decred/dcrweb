@@ -17,7 +17,7 @@ Value of Decred (DCR) has increased XX% YTD, on the heels of new releases, MIT t
 
 “We are moving fast into the next phase of this project,” said Jacob Yocom-Piatt, Decred Project Lead. “As we announced in our 2018 roadmap, we have shortlisted the key areas that our community has highlighted. Speed has been an overarching theme; so has the overall system of prioritizing requests. The endorsement of folks like Chris Burniske and the opportunity to speak at MIT Review’s Business of Blockchain conference makes us only want to work harder to affirm the trust of early investors and attract the attention of people just entering the world of cryptocurrency.”
 
-#### Consensus 2018 Must-Sees:
+#### Consensus 2018 Must-Sees
 
 ##### On-chain consensus voting
 
@@ -38,4 +38,3 @@ Politeia, our proposal system named after the Greek word for "system of governme
 ##### Real-world use-cases - for financial records, asset tracking, insurance policies, etc.
 
 In addition to a proposal system, Politeia also has vast potential to benefit any enterprise that depends on time-stamped data.
-
