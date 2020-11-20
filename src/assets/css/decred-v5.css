@@ -5954,43 +5954,27 @@ p.text-block-11 {
   line-height: 15px;
 }
 
-.press__releases-arrow {
-  position: absolute;
-  top: 35px;
-  right: 30px;
-  margin-right: 0;
-  transition: 0.25s ease-in-out;
-}
-
-.press__releases-arrow.active {
-  transform: rotate(180deg);
-}
-
-.press__releases-item:hover {
-  cursor: pointer;
-}
-
 .press__releases-content {
-  display: none;
-  width: 100%;
+  width: 75%;
+  max-width: 680px;
   color: #000;
   clear: both;
   width: 100%;
-  margin: 0;
+  margin: auto;
   background: #fff;
   padding-bottom: 50px;
   border-bottom: 1px solid #F3F5F6;
 }
 
-.press__releases-content-wrapper {
-  max-width: 460px;
-  padding: 0 20px;
+.press__releases-content h1 {
+  font-size: 26px;
+  line-height: 1.25;
+  padding: 10px 0;
 }
 
-@media screen and (min-width: 992px) {
-  .press__releases-content-wrapper {
-    margin-left: 200px;
-  }
+.press__releases-content ul,
+.press__releases-content ol {
+  margin-left: 22px;
 }
 
 .press__releases-content blockquote {

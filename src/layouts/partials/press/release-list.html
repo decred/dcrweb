@@ -1,16 +1,12 @@
 {{range where .Site.RegularPages "Section" "=" "press"}}
     <div class="press__coverage-item press__releases-item">
-        <img class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .Params.icon }}" width="30" alt=""/>
-
-        <div class="press__coverage-wrapper">
-            <p><span class="press__title">{{ .Params.title }}</span></p>
-            <p class="press__date">{{ .PublishDate.Format "January 2, 2006" }}</p>
-        </div>
-        <img class="press__releases-arrow" src="{{ .Site.BaseURL }}/images/press-releases-arrow.svg" width="10" alt=""/>
-    </div>
-    <div class="press__releases-content">
-        <div class="press__releases-content-wrapper">
-            {{ .Content }}
-        </div>
+        <a href="{{ .Permalink }}" rel="noopener noreferrer">
+            <img class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .Params.icon }}" width="30" alt=""/>
+    
+            <div class="press__coverage-wrapper">
+                <p><span class="press__title">{{ .Params.title }}</span></p>
+                <p class="press__date">{{ .PublishDate.Format "January 2, 2006" }}</p>
+            </div>
+        </a>
     </div>
 {{ end }}
