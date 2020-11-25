@@ -5,6 +5,12 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 pluralizelisttitles: false
 
+# By default, hugo creates pages for the "category" and "tag" taxonomy. We don't
+# use these in dcrweb, so disableKinds will prevent them being created.
+disableKinds:
+- taxonomy
+- term
+
 params:
     social_media_links:
         -
