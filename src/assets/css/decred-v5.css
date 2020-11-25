@@ -5883,8 +5883,13 @@ p.text-block-11 {
   z-index: 0;
 }
 
+.press .subpage-description {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .press__wrapper {
-  padding: 50px 0;
+  padding: 20px 0;
   background: #F3F5F6;
   height: auto;
 }
