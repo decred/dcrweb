@@ -1,5 +1,9 @@
 {{ define "page-title" }}
-    {{ T "Press" }}
+   {{ .Title }}
+{{ end }}
+
+{{ define "header" }}
+   Press Release
 {{ end }}
 
 {{ define "main" }}
@@ -10,6 +14,7 @@
                 <div class="press__releases-content">
                     <div class="press__releases-content-wrapper">
                         <h1>{{ .Title }}</h1>
+                        <p>{{ dateFormat "January 2, 2006" .Date }}</p>
                         {{ .Content }}
                     </div>
                 </div>

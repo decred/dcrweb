@@ -8,7 +8,7 @@
           <title>{{ T "title" }}</title>
           <meta content="{{ T "title" }}" property="og:title">
         {{ else }}
-          <title>Decred - {{ block "page-title" . }}{{ end }}</title>
+          <title>{{ block "page-title" . }}{{ end }}</title>
           <meta content="Decred - {{ block "page-title" . }}{{ end }}" property="og:title">
         {{ end }}
 
@@ -126,7 +126,7 @@
                         <a href="{{ .Site.BaseURL | relLangURL  }}" class="subpage-logo w-inline-block"></a>
                     </div>
                     <div class="_960 subpage-header">
-                        <div class="subpage-title">{{ block "page-title" . }}{{ end }}</div>
+                        <div class="subpage-title">{{ block "header" . }}{{ end }}</div>
                     </div>
                 </div>
             {{ end }}
