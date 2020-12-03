@@ -451,14 +451,6 @@
   name: "Michael Guimaraes"
   twitter_alias: "michae2xl"
 -
-  matrix_id: akinsawyerr:decred.org
-  group: strategy
-  avatar_image: "akin_sawyerr.svg"
-  title: "Africa Lead & Strategy"
-  name: "Akin Sawyerr"
-  twitter_alias: "akinsawyerr"
-  linkedin_url: https://www.linkedin.com/in/akinsawyerr/
--
   matrix_id: klebe:decred.org
   group: development
   avatar_image: "kevin_hebert.svg"
