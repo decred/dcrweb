@@ -339,14 +339,6 @@
   title: "Designer"
   twitter_alias: morphymore
 -
-  matrix_id: nickb:decred.org
-  twitter_alias: "nbdeagle"
-  group: community
-  avatar_image: "team_37.svg"
-  name: "Nick Boariu"
-  title: "Docs and Analytics"
-  github_id: nickboariu
--
   matrix_id: dezryth:decred.org
   twitter_alias: "scottrchristian"
   group: community
