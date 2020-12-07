@@ -130,22 +130,6 @@
   linkedin_url: "https://br.linkedin.com/in/matheus-degiovani-69ab0166"
   github_id: matheusd
 -
-  matrix_id: migwi:matrix.org
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_59.svg"
-  name: "Migwi Ndung'u"
-  title: "dcrdata Developer"
-  github_id: dmigwi
--
-  matrix_id: papa_carp:decred.org
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_61.svg"
-  name: "Mike Fullmann"
-  title: "dcrdata Developer"
-  github_id: papacarp
--
   matrix_id: nick.k:decred.org
   company_id: block_42
   group: development
@@ -154,27 +138,12 @@
   title: "Project Manager"
   linkedin_url: "https://www.linkedin.com/in/kaeshko/"
 -
-  matrix_id: rogueelement:decred.org
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_49.svg"
-  name: "Oluwandabira Alawode"
-  title: developer
-  github_id: RogueElement
--
   matrix_id: peter_zen:decred.org
   group: development
   avatar_image: "team_10.svg"
   name: "Peter Banik"
   title: developer
   github_id: peterzen
--
-  company_id: raedah_group
-  group: development
-  avatar_image: "team_62.svg"
-  name: "Philipp Maluta"
-  title: "iOS Developer"
-  linkedin_url: ensoreus
 -
   matrix_id: s_ben:decred.org
   twitter_alias: "zen_bacon"
