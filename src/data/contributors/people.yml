@@ -176,20 +176,6 @@
   title: "iOS Developer"
   linkedin_url: ensoreus
 -
-  matrix_id: sndurkin:matrix.org
-  group: development
-  avatar_image: "team_11.svg"
-  name: "Sean Durkin"
-  title: developer
-  github_id: sndurkin
--
-  matrix_id: oktapodia:matrix.org
-  group: development
-  avatar_image: "team_35.svg"
-  name: "Sebastien Bramille"
-  title: developer
-  github_id: oktapodia
--
   matrix_id: s_ben:decred.org
   twitter_alias: "zen_bacon"
   group: development
@@ -315,19 +301,6 @@
   twitter_alias: elianhuesca
   medium_alias:
 -
-  matrix_id: emiliomann:decred.org
-  group: community
-  avatar_image: "team_18.svg"
-  name: "Emilio Mann"
-  title: "Community manager (BR)"
--
-  matrix_id: guang:decred.org
-  twitter_alias: "GuangGuang168"
-  group: community
-  avatar_image: "team_70.svg"
-  name: Guang
-  title: "Community Manager (Asia)"
--
   matrix_id: arij:matrix.org
   twitter_alias: "in_insaf"
   group: community
@@ -341,14 +314,6 @@
   name: "Jessica Eggleston"
   title: "Conference Coordinator"
   github_id: jesiki
--
-  matrix_id: joshuam:decred.org
-  twitter_alias: "joshuam_"
-  group: community
-  avatar_image: "team_36.svg"
-  name: "Joshua Mark"
-  title: "Asia Pacific Outreach"
-  linkedin_url: "https://au.linkedin.com/in/joshuambuirski"
 -
   matrix_id: mmartins:matrix.org
   group: community
@@ -388,22 +353,6 @@
   title: "Docs and Analytics"
   github_id: nickboariu
 -
-  matrix_id: Haon:decred.org
-  twitter_alias: "NoahPierau"
-  group: community
-  avatar_image: "team_19.svg"
-  name: "Noah Pierau"
-  title: "Community Manager"
-  github_id: noahpierau
-  medium_alias: NoahPierau
-  linkedin_url: https://www.linkedin.com/in/noahpierau/
--
-  matrix_id: isaacj:decred.org
-  group: community
-  avatar_image: "team_54.svg"
-  name: "Oregon Isaac"
-  title: "Community Manager"
--
   matrix_id: dezryth:decred.org
   twitter_alias: "scottrchristian"
   group: community
@@ -431,12 +380,6 @@
   title: "Developer"
   name: "Thiago de Freitas Figueiredo"
 -
-  matrix_id: changhugo:decred.org
-  group: community
-  avatar_image: "hugo_chang.svg"
-  title: "Community Manager (CN)"
-  name: "Hugo Chang"
--
   matrix_id: dominic.d:decred.org
   group: community
   avatar_image: "dominic_ting.svg"
@@ -451,14 +394,6 @@
   name: "Michael Guimaraes"
   twitter_alias: "michae2xl"
 -
-  matrix_id: klebe:decred.org
-  group: development
-  avatar_image: "kevin_hebert.svg"
-  name: "Kevin Hebert"
-  title: "Developer"
-  twitter_alias: "CamusCrypto"
-  github_id: "camus-code"
--
   matrix_id: VictorGuedes:decred.org
   group: development
   avatar_image: "victor_guedes.svg"
@@ -466,13 +401,6 @@
   title: "Developer"
   twitter_alias: "_victorguedes"
   github_id: "victorgcramos"
--
-  matrix_id: praxxis:decred.org
-  group: community
-  avatar_image: "jure_kralj.svg"
-  name: "Jure Kralj"
-  title: "Alternative Outreach Lead"
-  twitter_alias: "TivraTivra"
 -
   matrix_id: amass:decred.org
   group: development
