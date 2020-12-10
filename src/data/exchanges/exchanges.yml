@@ -238,3 +238,9 @@
     - atomic-swaps
   logo_src: "dcrdex.png"
   name: "DCRDEX"
+-
+  url: "https://swapzone.io/"
+  tags:
+    - "instant-exchange"
+  logo_src: "swapzone.png"
+  name: "Swapzone"
