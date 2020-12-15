@@ -66,14 +66,6 @@
   linkedin_url: "https://www.linkedin.com/in/fernandoabolafio"
   github_id: fernandoabolafio
 -
-  matrix_id: karamble:decred.org
-  twitter_alias: "karamblez"
-  group: development
-  avatar_image: "team_12.svg"
-  name: "Holger Klein"
-  title: developer
-  github_id: karamble
--
   matrix_id: jholdstock:decred.org
   group: development
   avatar_image: "team_9.svg"
