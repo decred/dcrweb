@@ -42,12 +42,6 @@
   logo_src: "Fexhk.jpg"
   name: "FEX.HK"
 -
-  url: "https://upbit.com/"
-  tags:
-    - "high-liquidity"
-  logo_src: "Upbit.jpg"
-  name: UPbit
--
   url: "https://www.zhaobi.com/"
   tags:
     - all
