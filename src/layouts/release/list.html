@@ -1,0 +1,363 @@
+{{ define "page-title" }}
+    Decred 1.6 Release
+{{ end }}
+
+{{ define "content-top" }}{{ end }}
+
+{{ define "fronta" }}
+
+<section class="cover-section">
+    <div class="cover">
+        
+        {{ $landingbg   := resources.Get "/images/release/landingbg.webm" }}
+        {{ $landingbgfb := resources.Get "/images/release/landingbg.png" }}
+        <video playsinline autoplay muted loop poster="{{ $landingbgfb.Permalink }}" id="bgvid">
+            <source src="{{ $landingbg.Permalink }}" type="video/webm">
+        </video>
+        
+        <div class="cover-fade">
+            <div class="cover-content">
+
+                {{ $header := resources.Get "/images/release/160-header.svg" }}
+                <div class="dcr-header" style="background-image:url('{{ $header.Permalink }}');">
+                </div>
+
+                <div class="links">
+                    <a class="btn btn-primary" href="#">Download&nbsp;Soon</a>
+                    <a class="more" href="#new-features">Find&nbsp;out more&nbsp;↓</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+{{ end }}
+
+
+{{ define "main" }}
+
+<div id="new-features">
+
+    <div class="full-width release-section whats-new">
+        <div class="_960" >
+            <div class="whats-new-headline">
+                Whats new in the 1.6 release?
+            </div>
+            
+            <div class="highlights"> 
+                <div class="highlight">
+                    {{ $ln := resources.Get "/images/release/lightning.svg" }}
+                    <img src="{{ $ln.Permalink }}" alt=""/>
+                    <div class="highlight-title">Lightning<br/>Network</div>
+                    <div class="highlight-text">
+                        Connect your wallet to the Lightning Network to send payments quickly and cheaply.
+                    </div>
+                </div>
+
+                <div class="highlight">
+                    {{ $priv := resources.Get "/images/release/privacy.svg" }}
+                    <img src="{{ $priv.Permalink }}" alt=""/>
+                    <div class="highlight-title">Improved<br/>Privacy</div>
+                    <div class="highlight-text">
+                        Coin mixing built directly into Decrediton enables anonymizing your Decred.
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    {{ $treas := resources.Get "/images/release/treasury.svg" }}
+                    <img src="{{ $treas.Permalink }}" alt=""/>
+                    <div class="highlight-title">Decentralized<br/>Treasury</div>
+                    <div class="highlight-text">
+                        The process of spending from the Decred treasury will be decentralized by an upcoming consensus vote.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width release-section lightning">
+        <div class="_960">
+
+            <div class="_450">
+                <noscript>
+                    {{ $lnfb := resources.Get "/images/release/ln-fallback.png" }}
+                    <img class="header-anim-fallback" src="{{ $lnfb.Permalink }}" alt="">
+                </noscript>
+
+                {{ $lightninglot := resources.Get "/lottie/release/lightning.json" }}
+                <lottie-player class="header-anim" background="transparent" loop mode="normal" autoplay speed="1"
+                                src="{{ $lightninglot.Permalink }}"></lottie-player>
+
+            
+                <h1>
+                    Lightning Network
+                </h1>
+                <p>
+                    Everything you need to send and receive Lightning
+                    payments is now fully integrated into Decrediton.
+                </p>
+                <p>
+                    <a href="https://lightning.network/" target="_blank" rel="noopener noreferrer">Lightning Network</a>
+                    is the world's most popular "Layer 2" blockchain
+                    protocol. It allows for sending off-chain transactions
+                    which occur almost instantly and with almost zero fees.
+                </p>
+                <p>
+                    Supporting Lightning Network has great benefits for
+                    scalability and user privacy.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width release-section mixer">
+        <div class="_960 isRow" >
+            
+            <div class="mix-paragraph" style="padding: 26px 22px;">
+                <noscript>
+                    {{ $privfb := resources.Get "/images/release/privacy.svg" }}
+                    <img class="header-anim-fallback" src="{{ $privfb.Permalink }}" alt="">
+                </noscript>
+
+                {{ $privacylot := resources.Get "/lottie/release/privacy.json" }}
+                <lottie-player class="header-anim" background="transparent" loop mode="normal" autoplay speed="1"
+                                src="{{ $privacylot.Permalink }}"></lottie-player>
+
+                <div class="mix-header">
+                    <h1>Automatic Coin Mixing</h1>
+                </div>
+    
+                <p>Anonymize your Decred with the easy to use coin mixer.</p>
+
+                <p>
+                    Press one button to turn on the mixer and your Decred will
+                    be mixed with the Decred of many other users. Once mixed,
+                    tracing the coins back to your original wallet is
+                    infeasible.
+                </p>
+    
+                <p>
+                    The mixer uses an innovative peer-to-peer coin mixing protocol known as
+                    <a href="https://github.com/decred/cspp" target="_blank" rel="noopener noreferrer">CoinShuffle++</a>.
+                    No third parties ever have access to your coins, so they are never at risk of theft.</p>
+
+            </div>
+
+            <div class="fakeMixer">
+    
+                <div class="mixerStatus isRow running-NC">
+                    <noscript>
+                        {{ $mixfb := resources.Get "/images/release/mixer-fallback.gif" }}
+                        <img class="mixer-running-img-fallback" src="{{ $mixfb.Permalink }}" alt="">
+                    </noscript>
+        
+                    {{ $mixerlot := resources.Get "/lottie/release/mixer.json" }}
+                    <lottie-player class="mixer-running-img" background="transparent" speed="1" autoplay loop mode="normal" style="width: 50px; height: 50px;"
+                        src="{{ $mixerlot.Permalink }}"></lottie-player>
+                    
+                    {{ $mixoff := resources.Get "/images/release/decentralizedLoopStill.svg" }}
+                    <img class="mixer-not-running-img" src="{{ $mixoff.Permalink }}" alt=""/>
+
+                    <span id="mixerStatus">Mixer is running</span>
+                </div>
+        
+                <div class="isRow balanceRow">
+                    
+                    {{ $unmixed := resources.Get "/images/release/unmixedAccount.svg" }}
+                    <div class="balanceContainer unmixedAccount" style="background-image:url('{{ $unmixed.Permalink }}');">
+                        <div>
+                            <span>
+                                <span class="">30.46</span><span class="balance-small">887236&nbsp;</span><span class="balance-small ">DCR</span>
+                            </span>
+                        </div>
+                        <label>Unmixed&nbsp;Balance</label>
+                    </div>
+                    
+                    {{ $arrow := resources.Get "/images/release/mixerArrows.gif" }}
+                    <div class="privacyArrows" style="background-image:url('{{ $arrow.Permalink }}')"></div>
+
+                    {{ $mixed := resources.Get "/images/release/mixedAccount.svg" }}
+                    <div class="balanceContainer mixedAccount" style="background-image:url('{{ $mixed.Permalink }}');">
+                        <div>
+                            <span>
+                                <span class="">82.91</span><span class="balance-small">884032&nbsp;</span><span class="balance-small ">DCR</span>
+                            </span>
+                        </div>
+                        <label>Mixed&nbsp;Balance</label>
+                    </div>
+                </div>
+
+                <div class="isRow">
+                    <div class="startButtonContrainer">
+                        <div id="start-mixer-btn" class="button danger-button">Stop&nbsp;Mixer</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="full-width release-section treasury">
+        <div class="_960" >
+                
+            <div class="w-col w-col-7 w-col-medium-12 prop">
+                {{ $prop := resources.Get "/images/release/proposal.png" }}
+                <img class="proposal" src="{{ $prop.Permalink }}" alt=""/>
+            </div>
+
+            <div class="w-col w-col-5 w-col-medium-12 _450">
+                <noscript>
+                    {{ $trfb := resources.Get "/images/release/treasury-fallback.png" }}
+                    <img class="header-anim-fallback" src="{{ $trfb.Permalink }}" alt="">
+                </noscript>
+
+                {{ $treasurylot := resources.Get "/lottie/release/treasury.json" }}
+                <lottie-player class="header-anim" background="transparent" loop mode="normal" autoplay speed="1"
+                                src="{{ $treasurylot.Permalink }}"></lottie-player>
+
+                <h1>Decentralized Treasury</h1>
+                <p>Unlocking the power of the Decred Treasury.</p>
+                <p>
+                    Last year Decred stakeholders approved
+                    <a href="https://proposals.decred.org/proposals/c96290a" target="_blank" rel="noopener noreferrer">
+                        a proposal</a>
+                    to further decentralize the process of spending from the
+                    Decred Treasury.
+                </p>
+                <p>
+                    The code is complete, and now lies dormant in version
+                    1.6. A consensus vote to activate the new code will
+                    begin when enough stakeholders have updated to the new
+                    version.
+                </p>
+                <p>
+                    When the code activates, Decred stakeholders will be
+                    granted the power to veto or approve all Treasury
+                    spending.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="full-width release-section vspd">
+        <div class="_960">
+            <div class="_450">
+                
+                <noscript>
+                    {{ $tickfb := resources.Get "/images/release/ticketLive.svg" }}
+                    <img class="header-anim-fallback" src="{{ $tickfb.Permalink }}" alt="">
+                </noscript>
+
+                {{ $ticketlot := resources.Get "/lottie/release/ticketLive.json" }}
+                <lottie-player class="header-anim" background="transparent" loop mode="normal" autoplay speed="1"
+                                src="{{ $ticketlot.Permalink }}"></lottie-player>
+
+                <h1>
+                    A more private way to stake
+                </h1>
+                <p>
+                    Decrediton now supports a new VSP implementation named
+                    vspd.
+                    Using vspd allows tickets to be purchased with mixed
+                    coins, and these tickets will no longer all be linked to
+                    a single Decred address.
+                    This means a huge improvement for user privacy.
+                </p>
+                
+                <p>
+                    Using vspd is simple. There is no need to register an
+                    account with an email address, and there is no redeem
+                    script to back up.
+                </p>
+    
+                <p>
+                    Read the vspd <a href="https://blog.decred.org/2020/06/02/A-More-Private-Way-to-Stake/"
+                    target="_blank" rel="noopener noreferrer">blog post</a> to find out more.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- <div id="downloads" class="full-width release-section downloads">
+        <div class="_960">
+            
+            <h1>Download Decrediton 1.6</h1>
+
+            <div class="downloads-container isRow">
+
+                {{ $download_links := .Site.Data.wallets.links.release_page }}
+
+                <div class="download">
+                    {{ $win := resources.Get "/images/release/win.svg" }}
+                    <div class="isRow">
+                        <img src="{{ $win.Permalink }}" alt=""/>
+                        <span>Windows&nbsp;x64</span>
+                    </div>
+
+                    <div class="btn-bg">
+                        <a class="btn btn-primary" href="{{ $download_links.win64.url }}">
+                            Download
+                        </a>
+                        <span>Sorry - no 32-bit</span>
+                    </div>
+                </div>
+            
+                <div class="download">
+
+                    {{ $mac := resources.Get "/images/release/mac.svg" }}
+                    <div class="isRow">
+                        <img src="{{ $mac.Permalink }}" alt=""/>
+                        <span>macOS</span>
+                    </div>
+
+                    <div class="btn-bg">
+                        <a class="btn btn-primary" href="{{ $download_links.mac.url }}">
+                            Download
+                        </a>
+                        <span>Apple Silicon coming soon!</span>
+                    </div>
+                </div>
+            
+                <div class="download">
+
+                    {{ $linux := resources.Get "/images/release/linux.svg" }}
+                    <div class="isRow">
+                        <img src="{{ $linux.Permalink }}" alt=""/>
+                        <span>Linux&nbsp;x64</span>
+                    </div>
+
+                    <div class="btn-bg">
+                        <a class="btn btn-primary" href="{{ $download_links.linapp.url }}">
+                            Download
+                        </a>
+                        <a class="" href="{{ $download_links.lintar.url }}">
+                            Prefer a tarball?
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="downloads-container isRow">
+                <div class="cli">
+                    <a class="" href="{{ $download_links.cli.url }}">
+                        Click here to download Decred 1.6 command line tools&nbsp;&nbsp;↓
+                    </a>
+
+                </div>
+            </div>
+    
+        </div>
+    </div> -->
+</div>
+
+{{ end  }}
+
+
