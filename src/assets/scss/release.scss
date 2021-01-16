@@ -1,0 +1,534 @@
+// This .scss file is used on the /release/ page only.
+
+$bg-light-gray: #eee;
+$bg-color-white: #f4f7f9;
+$p-text-color: #3F486A;
+$highlight-blue: #2970FF;
+$light-blue: #1B41B3;
+$dark-blue: #091440;
+$error-red: #ed6d47;
+$light-gray: #5a6d81;
+$footer-blue: #1B2B54;
+$dcr-yellow: #FFC624;
+
+.btn-primary {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    border:  solid 1px $highlight-blue;
+    background-color: $highlight-blue;
+    transition: all 0.15s ease-in-out;
+    padding: 12px 18px;
+    margin: auto;
+}
+
+.btn-primary:hover {
+    background-color: $light-blue !important;
+    border-color: $light-blue !important;
+    text-decoration: none !important;
+}
+
+.cover-section {
+    .cover {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        height: 100vh;
+    }
+    
+    #bgvid {
+        background: url('../images/release/landingbg.png') center center/cover no-repeat;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+    
+    .cover-fade {
+        background: 
+            linear-gradient(
+                rgba(9, 20, 64, 0.6), 
+                rgba(9, 20, 64, 0.6)
+            );
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .cover-content {
+        z-index: 10;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+        .dcr-header {
+            height: 110px;
+            margin: 0 22px 80px;
+            width: auto;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .links {
+            font-size: 22px;
+            display: flex;
+            flex-direction: column;
+
+            .more {
+                font-weight: bold;
+                font-size: 20px;
+                padding-top: 20px;
+            }
+        }
+    }
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.release-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+
+    ._960 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ._450 {
+        max-width: 450px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 18px;
+        font-weight: normal;
+    }
+
+    .header-anim {
+        width: 125px;
+        height: 125px; 
+        margin-left: -25px;
+        margin-top: -25px;
+        margin-bottom: -12px;
+    }
+
+    .header-anim-fallback {
+        width: 100%;
+        max-width: 82px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        padding-bottom: 12px;
+
+        a,
+        a:visited,
+        a:hover,
+        a:active {
+            font-weight: bold;
+            color: $highlight-blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+.whats-new {
+    background-color: white;
+    padding: 30px 0;
+    
+    ._960 {
+        flex-direction: column;
+    }
+
+    .whats-new-headline {
+        padding: 34px 0;
+        color: $highlight-blue;
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    .highlights {
+        padding: 20px 0;
+        color: $dark-blue;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+
+        .highlight {
+            max-width: 250px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                height: 100px;
+                width: 100px;
+                margin-bottom: 12px;
+            }
+
+            .highlight-title {
+                font-size: 24px;
+                margin: 0;
+                margin-bottom:14px;
+                line-height: 1.2;
+            }
+
+            .highlight-text {
+                font-size: 16px;
+                color: $p-text-color
+            }
+        }
+    }
+}
+
+.lightning {
+    background-color: $dark-blue;
+    background:
+    linear-gradient(
+        rgba(9, 20, 64, 0.70), 
+        rgba(9, 20, 64, 0.70)
+    ),
+    url('../images/release/decrediton-ln.png') bottom center/contain no-repeat,
+    linear-gradient(
+        rgb(9, 20, 64), 
+        rgb(9, 20, 64)
+    ),;
+
+    color: $bg-color-white;
+    padding: 10px 0 0;
+
+    .header-anim {
+        margin-left: 0;
+    }
+    .row {
+        justify-content: center;
+    }
+
+    h1 {
+        color: $dcr-yellow;
+    }
+
+    img {
+        padding-top: 10px;
+        margin: auto;
+    }
+}
+
+.mixer {
+    background-color: $bg-color-white;
+    padding: 56px 0 80px;
+    color: $dark-blue;
+    
+    ._960 {
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+        margin-top: 0;
+    }
+
+    .mix-paragraph {
+        max-width: 440px;
+    }
+
+    .mix-header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mixer-running-img-fallback {
+        padding: 2px 10px 2px 5px;
+    }
+
+    .mixer-not-running-img {
+        display: none;
+        padding: 2px 2px 2px 5px;
+        height:46px;
+        width:46px;
+        margin-right: 4px;
+    }
+}
+
+.treasury {
+    
+    background-color: white;
+    padding-bottom: 0;
+    min-height: initial;
+
+    ._960 {
+        flex-wrap: wrap-reverse;
+    }
+
+    ._450 {
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .prop {
+        display: flex;
+        align-self: flex-start;
+        justify-content: center;
+    }
+    
+    .proposal {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin-top: 0;
+        padding-top: 10px;
+        color: $highlight-blue;
+    }
+
+    p {
+        color: $dark-blue;
+    }
+
+    @media screen and (max-width: 991px) {
+        ._450 {
+            min-height: 500px;
+        }
+        .prop {
+            max-width: 550px;
+        }
+    }
+
+}
+
+.vspd {
+
+    ._960 {
+        height: 100%;
+    }
+
+    color: white;
+    position: relative;
+    padding: 30px;
+
+    background: 
+        linear-gradient(
+            rgba(9, 20, 64, 0.5), 
+            rgba(9, 20, 64, 0.5)
+        ),
+        url('../images/release/stakey-t.svg') 85% 100%/400px no-repeat,
+        url('../images/release/bg-gradient-stakey.svg') center center/cover no-repeat;
+
+    .header-anim-fallback {
+        width: 100%;
+        max-width: 60px;
+    }
+
+    h1 {
+        margin-top: 12px;
+        color: #2ed6a1;
+    }
+
+}
+
+.downloads {
+    background-color: white;
+    color: $dark-blue;
+    text-align: center;
+
+    ._960 {
+        flex-direction: column;
+    }
+
+    h1 {
+        margin-top: 45px;
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+    
+    .downloads-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cli {
+        padding: 12px;
+        font-size: 16px;
+        margin-bottom: 70px;
+        
+        a,
+        a:visited,
+        a:hover,
+        a:active {
+            font-weight: bold;
+            color: $light-gray;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f1f1f1;
+        border: 2px solid #f1f1f1;
+        border-radius: 8px;
+        font-size: 16px;
+        padding: 0;
+        margin: 24px;
+    
+        img {
+            height: 40px;
+            width: 40px;
+            margin: 14px 14px 14px 0;
+        }
+
+        .btn-bg {
+            background: white;
+            border-radius: 0 0 8px 8px;
+            font-size: 14px;
+            padding-bottom: 12px;
+            color: $light-gray;
+        }
+
+        a {
+            color: $light-gray;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a.btn {
+            text-decoration: none;
+            margin: 30px 60px 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            font-size: 16px;
+            color: white;
+        }
+    }
+}
+
+
+
+
+
+.fakeMixer {
+    width: 490px;
+    color: $dark-blue;
+    background-color: white;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+    padding: 20px 20px 14px 20px;
+    position: relative;
+    margin: 18px 13px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
+
+    .danger-button {
+        margin-top: 10px;
+        width: 100%;
+        cursor: pointer;
+        display: inline-block;
+        padding: 12px 0 14px 0;
+        border-radius: 5px;
+        background-color: $error-red;
+        box-shadow: 0 5px 13px rgba(0, 0, 0, 0.21);
+        color: white;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all 100ms cubic-bezier(0.86, 0, 0.07, 1) 0s;
+        user-select: none;
+    }
+    .danger-button.stopped {
+        background-color: $highlight-blue;
+    }
+    .privacyContent {
+        width: 740px;
+    }
+    .isRow {
+        display: flex;
+        flex-direction: row;
+    }
+    .balanceRow {
+        width: 100%;
+        align-items: center;
+    }
+    .mixerStatus {
+        margin-right: auto;
+        font-size: 18px;
+        margin-bottom: 20px;
+        height: 34px;
+        align-items: center;
+    }
+    .balanceContainer {
+        background-size: 18px;
+        background-position: 2px 0;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        font-size: 17px;
+        line-height: 15px;
+        position: relative;
+        font-family: 'dcrweb-code';
+        box-sizing: content-box;
+    }
+    .balance-small {
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+    .balanceContainer label {
+        font-size: 11px;
+        color: #596d81;
+        line-height: 20px;
+        font-family: 'dcrweb';
+    }
+    .privacyArrows {
+        min-width: 50px;
+        height: 20px;
+        margin: 0 14px;
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .startButtonContrainer {
+        min-width: 120px;
+        margin-left: auto;
+    }
+}

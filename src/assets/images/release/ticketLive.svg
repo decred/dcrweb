@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg14"
+   version="1.1"
+   viewBox="0 0 315.77689 442.58649"
+   height="442.58649"
+   width="315.77689">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ticketLive</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18" />
+  <title
+     id="title2">ticketLive</title>
+  <path
+     style="fill:#2ed6a1;fill-opacity:1;stroke-width:1.26614618"
+     id="path4"
+     d="m 241.97954,0 a 84.091102,84.091102 0 0 1 -84.0911,84.091103 v 0 A 84.091102,84.091102 0 0 1 73.797336,0 H 0 v 442.58648 h 73.801136 a 84.091102,84.091102 0 0 1 168.182204,0 h 73.79354 V 0 Z" />
+  <path
+     style="fill:#2971ff;fill-opacity:1;stroke-width:1.26614618"
+     id="path6"
+     d="M 63.507366,221.29324 A 94.381073,94.381073 0 1 1 157.88844,315.67431 94.381073,94.381073 0 0 1 63.507366,221.29324 Z" />
+  <rect
+     width="450"
+     height="450"
+     id="rect10"
+     x="-67.111565"
+     y="-3.7067595"
+     style="fill:none" />
+</svg>

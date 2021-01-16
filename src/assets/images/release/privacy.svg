@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg26"
+   version="1.1"
+   viewBox="0 0 22 22"
+   height="22"
+   width="22">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30" />
+  <g
+     id="g22"
+     transform="matrix(1.0600763,0,0,1.0600763,-2138.0459,166.09443)">
+    <path
+       style="fill:#c4cbd2"
+       id="path2"
+       d="m 2034.116,-145.507 -3.2,-8.556 v 0 a 6.856,6.856 0 0 1 -3.667,1.222 6.85,6.85 0 0 1 -3.666,-1.222 v 0 l -3.22,8.556 z" />
+    <path
+       style="fill:#c4cbd2"
+       id="path4"
+       d="m 2027.256,-142.585 a 23.871,23.871 0 0 1 -9.892,-2.32 l -0.414,-0.217 0.414,-0.216 a 23.845,23.845 0 0 1 9.892,-2.321 23.844,23.844 0 0 1 9.892,2.321 l 0.413,0.216 -0.413,0.217 a 23.87,23.87 0 0 1 -9.892,2.32 z" />
+    <path
+       style="fill:#151640"
+       id="path6"
+       d="m 2020.8,-146.663 a 22.532,22.532 0 0 0 6.457,1 22.516,22.516 0 0 0 6.431,-0.995 l -0.484,-1.3 h -11.919 z" />
+    <rect
+       style="fill:#151640"
+       y="0"
+       x="0"
+       id="rect8"
+       transform="translate(2021.145,-142.213)"
+       rx="0.73100001"
+       height="3.6670001"
+       width="5.5" />
+    <rect
+       style="fill:#151640"
+       y="0"
+       x="0"
+       id="rect10"
+       transform="translate(2027.867,-142.213)"
+       rx="0.73100001"
+       height="3.6670001"
+       width="5.5" />
+    <rect
+       style="fill:#151640"
+       y="0"
+       x="0"
+       id="rect12"
+       transform="translate(2020.534,-142.213)"
+       height="0.611"
+       width="1.222" />
+    <rect
+       style="fill:#151640"
+       y="0"
+       x="0"
+       id="rect14"
+       transform="translate(2032.756,-142.213)"
+       height="0.611"
+       width="1.222" />
+    <rect
+       style="fill:#151640"
+       y="0"
+       x="0"
+       id="rect16"
+       transform="translate(2025.552,-141.602)"
+       height="0.611"
+       width="3.4400001" />
+    <path
+       style="fill:#c4cbd2"
+       id="path18"
+       d="m 2022.519,-139.086 a 0.976,0.976 0 0 1 -0.975,-0.976 h 0.489 a 0.487,0.487 0 0 0 0.486,0.487 z" />
+    <path
+       style="fill:#c4cbd2"
+       id="path20"
+       d="m 2029.209,-139.086 a 0.976,0.976 0 0 1 -0.975,-0.976 h 0.489 a 0.487,0.487 0 0 0 0.486,0.487 z" />
+  </g>
+  <rect
+     id="rect24"
+     fill="none"
+     height="22"
+     width="22" />
+</svg>
