@@ -2,23 +2,35 @@ decrediton:
     - title: macOS
       platform: macdl
       id: decreditonmac
-      url: https://github.com/decred/decred-binaries/releases/download/v1.5.2/decrediton-v1.5.2.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.dmg
       is_direct_download: true
 
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
-      url: https://github.com/decred/decred-binaries/releases/download/v1.5.2/decrediton-v1.5.2.tar.gz
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.tar.gz
       is_direct_download: true
 
     - title: Windows
       platform: windl
       id: decreditonwindows
-      url: https://github.com/decred/decred-binaries/releases/download/v1.5.2/decrediton-v1.5.2.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.exe
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v152
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v160
+
+release_page:
+  mac:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.dmg
+  win64:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.exe
+  lintar:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.tar.gz
+  linapp:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.AppImage
+  cli:
+    url: https://github.com/decred/decred-binaries/releases/tag/v1.6.0
 
 mobilewallets:
     - title: Android
@@ -28,6 +40,6 @@ mobilewallets:
 
 commandline:
     - title: View on GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.5.2
+      url: https://github.com/decred/decred-release/releases/tag/v1.6.0
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v152
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v160
