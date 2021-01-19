@@ -225,7 +225,8 @@ body.noscroll >.below.subpage {
 }
 
 .below.landing {
-  margin-top: -6rem;
+  /* Reset this margin-top to -6rem when the homepage banner is removed. */
+  margin-top: -1rem;
   position: relative;
   background-color: transparent;
 }
@@ -4732,11 +4733,9 @@ p.text-block-11 {
     font-size: 32px;
     line-height: 38px;
   }
-  .fronta.landing {
-    min-height: 420px;
-  }
+  
   .below.landing {
-    margin-top: 0px;
+    margin-top: -1rem;
   }
   .statisticscontent.width1100 {
     padding-right: 60px;
@@ -6703,4 +6702,76 @@ p.get-into__link {
     .subpage-description {
         margin-top: 63%;
     }
+}
+
+.homepage-ann {
+  padding: 10px 50px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #1B41B3;
+  align-items: center;
+}
+
+.homepage-ann-text {
+  color: white;
+  max-width: 400px;
+}
+
+.homepage-ann-text h1 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin: 10px 0 5px;
+}
+
+.homepage-ann-text p {
+  font-size: 16px;
+  padding: 0;
+  margin: 0 0 14px;
+}
+
+.homepage-ann-icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 70px;
+  width: 70px;
+  float: left;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #091440;
+  border-radius: 100%;
+}
+
+.homepage-ann .button {
+  overflow: initial;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #2970ff;
+  padding: 10px 20px;
+  text-transform: none;
+  flex-wrap: wrap;
+}
+
+.homepage-ann .rowcol {
+  padding-left: 40px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 625px) {
+  .homepage-ann {
+    padding: 12px;
+  }
+  .homepage-ann .rowcol{
+    padding-left: 8px;
+  }
 }

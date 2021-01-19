@@ -19,6 +19,35 @@
                 {{ end }}
             </div>
         </div>
+
+        <div class="_960">
+            <div class="homepage-ann">
+                <!-- When this homepage ann banner is removed, reset css:
+                    .below.landing {
+                        margin-top: -6rem: 
+                    }
+                -->
+                {{ $annicon := resources.Get "/images/ann.gif" }}
+                <div class="homepage-ann-icon" style="background-image:url('{{ $annicon.Permalink }}');">
+                </div>
+                <div class="rowcol">
+                    <div class="homepage-ann-text">
+                        <h1>
+                            New release available
+                        </h1>
+                        <p>
+                            Use the Lightning Network. Mix your Decred. Vote on a new consensus change. Upgrade to the 1.6 release now.
+                        </p>
+                    </div>
+                    <div>
+                        <a class="button" href="{{ "/release/" | relLangURL }}">
+                            Find&nbsp;out&nbsp;more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     {{ end }}
 {{ end }}
