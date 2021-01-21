@@ -24,6 +24,6 @@
   "homepage": "https://github.com/decred/dcrweb#readme",
   "devDependencies": {
     "html-validator-cli": "^7.0.1",
-    "netlify-cli": "^2.69.6"
+    "netlify-cli": "^2.71.0"
   }
 }
