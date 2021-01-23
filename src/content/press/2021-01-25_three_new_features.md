@@ -5,7 +5,7 @@ draft: false
 icon: "announcementsDefault.svg"
 ---
 
-**[Chicago, IL October 25, 2021]**  Decred (DCR), a digital currency that
+**[Chicago, IL January 25, 2021]**  Decred (DCR), a digital currency that
 emphasizes security, privacy and scalability to empower stakeholders, today
 announced the addition of several major new features to its Decrediton wallet.
 In one of the project’s largest technological developments to date, Decrediton
