@@ -8,7 +8,7 @@ decrediton:
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
-      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.tar.gz
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.AppImage
       is_direct_download: true
 
     - title: Windows
