@@ -25,7 +25,7 @@ space,” said Jake Yocom-Piatt, Co-Founder and Project Lead at
 The launch marks the project’s bold move to further decentralize its treasury,
 which receives 10 percent of every block reward. In 2018, the project gave the
 community the power to vote on how treasury funds are spent with the launch of
-Politeia, it’s off-chain proposal system. If the new vote passes, stakeholders
+Politeia, its off-chain proposal system. If the new vote passes, stakeholders
 will be able to review the contractor payout each month and vote on whether to
 approve it via their wallet. The new process will greatly increase the
 transparency of treasury spending and eliminate the risk of treasury fund theft,
