@@ -1,10 +1,4 @@
 -
-  url: "https://instaex.io/"
-  tags:
-    - "instant-exchange"
-  logo_src: "InstaEx.jpg"
-  name: InstaEx
--
   url: "https://godex.io/"
   tags:
     - "instant-exchange"
@@ -36,12 +30,6 @@
   logo_src: "Poloniex.jpg"
   name: Poloniex
 -
-  url: "https://fexpro.net/"
-  tags:
-    - "high-liquidity"
-  logo_src: "Fexhk.jpg"
-  name: "FEX.HK"
--
   url: "https://www.zhaobi.com/"
   tags:
     - all
@@ -72,13 +60,6 @@
     - all
   logo_src: "tuxexchange.jpg"
   name: "Tux Exchange"
--
-  url: "https://changenow.io"
-  tags:
-    - fiat
-    - "instant-exchange"
-  logo_src: "cryptopiachangenow.jpg"
-  name: changeNOW
 -
   url: "https://www.kaiserex.com/"
   tags:
