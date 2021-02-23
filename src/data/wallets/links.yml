@@ -2,19 +2,19 @@ decrediton:
     - title: macOS
       platform: macdl
       id: decreditonmac
-      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.dmg
       is_direct_download: true
 
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
-      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.AppImage
       is_direct_download: true
 
     - title: Windows
       platform: windl
       id: decreditonwindows
-      url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.exe
       is_direct_download: true
 
     - title: Release notes
@@ -22,15 +22,15 @@ decrediton:
 
 release_page:
   mac:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.dmg
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.dmg
   win64:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.exe
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.exe
   lintar:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.tar.gz
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.tar.gz
   linapp:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.0/decrediton-v1.6.0.AppImage
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.1/decrediton-v1.6.1.AppImage
   cli:
-    url: https://github.com/decred/decred-binaries/releases/tag/v1.6.0
+    url: https://github.com/decred/decred-binaries/releases/tag/v1.6.1
 
 mobilewallets:
     - title: Android
@@ -40,6 +40,6 @@ mobilewallets:
 
 commandline:
     - title: View on GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.6.0
+      url: https://github.com/decred/decred-release/releases/tag/v1.6.1
     - title: Release notes
       url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrd-v160
