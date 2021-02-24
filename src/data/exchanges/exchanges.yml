@@ -165,6 +165,12 @@
   logo_src: "binance.jpg"
   name: "Binance.com"
 -
+  url: "https://swapswop.io/"
+  tags:
+    - "instant-exchange"
+  logo_src: "SwapSwop.jpg"
+  name: "SwapSwop"
+-
   url: "https://simpleswap.io/"
   tags:
     - "instant-exchange"
