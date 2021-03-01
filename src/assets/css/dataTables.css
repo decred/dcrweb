@@ -40,7 +40,7 @@ table.dataTable {
   table.dataTable thead .sorting_asc_disabled,
   table.dataTable thead .sorting_desc_disabled {
     background-repeat: no-repeat;
-    background-position: center right; }
+    background-position: right center; }
   table.dataTable thead .sorting {
     background-image: url("../images/sort.svg"); }
   table.dataTable thead .sorting_asc {
@@ -371,6 +371,9 @@ table.dataTable td {
   table {
       text-align: right !important;
   }
+  table.dataTable th {
+    text-transform: capitalize;
+  }
   .rowHover:hover {
       background-color: #e9f8fe !important; }
   .poolId, .address, .address > a {
@@ -384,10 +387,12 @@ table.dataTable td {
   .poolIdHeader, .addressHeader {
       text-align: left !important;
   }
+  #vspd-table > thead > tr > th, #vspd-table > tbody > tr ,
   #stakepool-table > thead > tr > th, #stakepool-table > tbody > tr {
       border-bottom: 1px solid #e2e2e2 !important;
       white-space: nowrap;
   }
+  #vspd-table > thead > tr > th ,
   #stakepool-table > thead > tr > th {
       font-weight: 700 !important;
   }
