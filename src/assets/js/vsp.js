@@ -1,5 +1,10 @@
 var APIstakepools = API_ROOT + '/?c=gsd';
 
+// maxProportion is the maximum percentage of all network tickets that a VSP can
+// hold before it is considered over capacity. These VSPs will be relegated to
+// the bottom of the list and a warning is attached.
+var maxProportion = 5;
+
 $(document).ready(function () {
 	if (window.location.href.indexOf('vsp') != -1) {
 		stakepoolFinder();
@@ -67,7 +72,7 @@ var stakepoolFinder = function() {
 				}
 				var proportion = proplive * 100;
 				totalPropLive = totalPropLive + proportion;
-				if (proportion > 5 && poolData["Network"] == "mainnet") {
+				if (proportion > maxProportion) {
 					overCapacity = 1;
 				}
 				proportion = proportion.toFixed(2) + "%";
@@ -131,7 +136,7 @@ var stakepoolFinder = function() {
 			$("#stakepool-table").DataTable({
 				"ordering": true,
 				"order": [
-					[4, 'asc'] // sort by Proportion
+					[2, 'desc'] // sort by Proportion
 				],
 				"jQueryUI": false,
 				"paging": false,
