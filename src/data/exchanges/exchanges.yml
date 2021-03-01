@@ -61,6 +61,13 @@
   logo_src: "tuxexchange.jpg"
   name: "Tux Exchange"
 -
+  url: "https://changenow.io"
+  tags:
+    - fiat
+    - "instant-exchange"
+  logo_src: "cryptopiachangenow.jpg"
+  name: changeNOW
+-
   url: "https://www.kaiserex.com/"
   tags:
     - fiat
