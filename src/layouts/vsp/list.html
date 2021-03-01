@@ -15,13 +15,10 @@
                 <div class="vsp-description">
                     {{ safeHTML (T "stakepools_description")  }}
                     <noscript>
-                        <div>
-                            {{ range .Site.Data.stakepools.stakepools }}
-                                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a><br/>
-                            {{ end }}
+                        <div class="javascript-warning">
+                            <div>{{ T "general_javascript_warning" }}</div>
+                            <div>{{ T "general_javascript_warning_description" }}</div>
                         </div>
-                        <div class="subpage-description">{{ T "general_javascript_warning" }}</div>
-                        <div class="subpage-content">{{ T "general_javascript_warning_description" }}</div>
                     </noscript>
                 </div>
 

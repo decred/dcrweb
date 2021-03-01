@@ -1112,7 +1112,6 @@ body.noscroll >.below.subpage {
 
 .stakepool-data {
   position: relative;
-  min-height: 100px;
   color: #091440;
   font-size: 12px;
 }
@@ -6774,4 +6773,10 @@ p.get-into__link {
   .homepage-ann .rowcol{
     padding-left: 8px;
   }
+}
+
+.javascript-warning {
+  margin-top: 26px;
+  font-weight: 700;
+  color: #fd714a;
 }

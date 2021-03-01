@@ -43,6 +43,7 @@ params:
             - "js/jquery.cookie.js"
             - "js/platform.min.js"
             - "js/main.js"
+            - "js/vsp.js"
         extra:
             - "js/jquery.dataTables.min.js"
             - "js/jquery.waypoints.min.js"
