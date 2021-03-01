@@ -238,3 +238,21 @@
     - "instant-exchange"
   logo_src: "swapzone.png"
   name: "Swapzone"
+-
+  url: "https://www.firstkudi.pro/"
+  tags:
+    - "fiat"
+  logo_src: "firstkudipro.png"
+  name: "First Kudi Pro"
+-
+  url: "https://www.hotbit.io/"
+  tags:
+    - all
+  logo_src: "hotbit.png"
+  name: "Hotbit"
+-
+  url: "https://www.hotbit.co.kr/"
+  tags:
+    - "fiat"
+  logo_src: "hotbitkorea.png"
+  name: "Hotbit Korea"
