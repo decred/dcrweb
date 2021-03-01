@@ -23,7 +23,11 @@
                 </div>
 
                 <div class="subpage-content w-clearfix">
-                    <div id="stakepool-data" class="stakepool-data"></div>
+                    <div id="vspd-data" class="stakepool-data"></div>
+                    <details>
+                        <summary class="hidden-legacy-vsps">{{ T "stakepools_viewlegacy" }}</summary>
+                        <div id="stakepool-data" class="stakepool-data"></div>
+                    </details>
                     <div class="modalparagraph left" >{{ safeHTML (T "stakepools_warning_1") }}</div>
                     <div class="modalparagraph right">{{ safeHTML (T "stakepools_warning_2") }}</div>
                 </div>
