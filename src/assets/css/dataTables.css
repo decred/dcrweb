@@ -384,11 +384,11 @@ table.dataTable td {
   .poolIdHeader, .addressHeader {
       text-align: left !important;
   }
-  #pooldata > thead > tr > th, #pooldata > tbody > tr {
+  #stakepool-table > thead > tr > th, #stakepool-table > tbody > tr {
       border-bottom: 1px solid #e2e2e2 !important;
       white-space: nowrap;
   }
-  #pooldata > thead > tr > th {
+  #stakepool-table > thead > tr > th {
       font-weight: 700 !important;
   }
   .overcapacityWarning {
