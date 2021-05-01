@@ -173,7 +173,6 @@
   "downloads_app_anybit": "Anybit, Android ve iOS için dahili fiyat ve haber takibi barındıran mobil bir cüzdandır.",
   "downloads_app_atomicwallet": "Emanet barındırmayan atomik takaslar ve merkezi olmayan sipariş defteri üzerinden dahili takasa sahip çok varlıklı masaüstü cüzdanıdır.",
   "downloads_app_guarda": "Guarda İnternet, Masaüstü ve Mobil için çok para birimli cüzdanlar tarafından temsil edilir.",
-  "downloads_app_cobo": "F2Pool'un kurucu ortağı tarafından sunulan Cobo, PoS Bulut Havuz oylamasını ve 30'un üstünde coin ile 500'ün üstünde token'i destekleyen, ileri derecede güvenli bir mobil cüzdandır.",
   "downloads_app_ledger": "Ledger Live, Ledger donanım cüzdanı tarafından güvende tutulan, web tabanlı bir cüzdandır.",
   "stakepools_description": "Oylama Hizmeti Sağlayıcıları (VSP'ler) bilgisayar arızası, gidip gelen internet bağlantısı veya elektrik kesintisine bağlı kayıplardan endişe etmeden Decred'in proof-of-stake (PoS) sistemine katılmanıza izin verir.",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">Dikkat:</span>&nbsp;Eksik biletlerin sebebi kötü bağlantıya sahip bir proof-of-work (PoW) madencisi olabilir; dolayısıyla suç her zaman sağlayıcıda olmayabilir.",
