@@ -10,7 +10,7 @@ ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION v14
 
 RUN mkdir -p $NVM_DIR && \
-    curl -s -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    curl -s -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 # install node and npm
 RUN . $NVM_DIR/nvm.sh \
