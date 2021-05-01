@@ -173,7 +173,6 @@
   "downloads_app_anybit": "Anybit ist eine mobile Wallet für Android und iOS mit integriertem Preis- und Nachrichten-Tracking.",
   "downloads_app_atomicwallet": "Multi-Asset-Desktop-Wallet mit integriertem Umtausch über nicht depotführenden atomaren Austausch und das dezentralisierte Auftragsbuch.",
   "downloads_app_guarda": "Guarda wird von Web-, Desktop und mobilen Multiwährungs-Wallets unterstützt.",
-  "downloads_app_cobo": "Cobo wurde vom Mitbegründer von F2Pool entwickelt und ist eine hochsichere mobile Wallet, die PoS Cloud Pool-Voting und über 30 Währungen und 500 Token unterstützt.",
   "downloads_app_ledger": "Ledger Live ist eine webbasierte Wallet, gesichert von der Ledger-Hardware-Wallet.",
   "stakepools_description": "Voting Service Providers (VSPs) ermöglichen es Ihnen, am Proof-of-Stake-System (PoS) von Decred mitzuwirken, ohne dass Sie sich über Verluste bei Computerausfällen, unzuverlässiger Internetverbindung oder unbeständiger Stromversorgung Gedanken machen müssen.",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">Hinweis:</span>&nbsp;Entgangene Tickets können durch einen schlecht verbundenen Proof-of-Work-Miner (PoW) verursacht werden, der Fehler liegt nicht notwendigerweise beim Anbieter.",

@@ -187,7 +187,6 @@
   "downloads_app_anybit": "A Anybit é uma carteira móvel disponível para Android e iOS com monitorização integrada de preços e notícias.",
   "downloads_app_atomicwallet": "Carteira para versão do ambiente de trabalho com múltiplos ativos e mercado de bolsa integrado através de trocas atómicas sem custódia e carteira de encomendas descentralizada.",
   "downloads_app_guarda": "A Guarda é representada por carteiras múlti-moeda com versão web, ambiente de trabalho e móvel.",
-  "downloads_app_cobo": "Do co-fundador da F2Pool, Cobo é uma carteira móvel extremamente segura que permite votação de conjunto PoS Cloud e mais de 30 moedas e 500 tokens",
   "downloads_app_ledger": "Ledger Live é uma carteira baseada na Web protegida pela carteira Ledger de hardware.",
   "stakepools_description": "Os VSP (Voting Service Providers) permitem participar no sistema proof-of-stake (PoS) da Decred sem ter de se preocupar com perdas devido a interrupções de processamento, problemas de ligação à Internet ou falhas de energia.",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">Aviso:</span>&nbsp;Os bilhetes perdidos podem ser causados por uma mineração proof-of-work (PoW) com problemas de ligação e não necessariamente devido ao fornecedor.",

@@ -173,7 +173,6 @@
   "downloads_app_anybit": "Anybit es una cartera para dispositivos móviles con Android e iOS que tiene un sistema de seguimiento de precios y novedades integrado.",
   "downloads_app_atomicwallet": "Se trata de una cartera de escritorio para varios activos con un sistema de cambio a través de intercambios atómicos no custodiados y un libro de órdenes descentralizado integrados.",
   "downloads_app_guarda": "Guarda cuenta con carteras multidivisa para dispositivos móviles, de escritorio y sitios web.",
-  "downloads_app_cobo": "Cobo es una cartera móvil de máxima seguridad creada por el cofundador de F2Pool que admite votaciones de grupos PoS en la nube y más de 30 criptomonedas y tokens.",
   "downloads_app_ledger": "Ledger Live es una cartera web amparada por la cartera de hardware Ledger.",
   "stakepools_description": "Los proveedores de servicios de votación (VSPs) le permiten participar en el sistema de Prueba de Participación (PoS) de Decred sin que deba preocuparse de pérdidas provocadas por inactividad, mala conexión a Internet o problemas con el suministro eléctrico.",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">Aviso:</span>&nbsp;La pérdida de boletos puede deberse a la mala conexión de un minero de Prueba de Trabajo (PoW) sin ser necesariamente culpa del proveedor.",

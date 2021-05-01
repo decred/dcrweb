@@ -173,7 +173,6 @@
   "downloads_app_anybit": "AnybitはAndroidおよびiOSで利用可能なモバイルウォレットで、価格やニュースをトラッキングできる機能を搭載しています。",
   "downloads_app_atomicwallet": "マルチアセット対応のデスクトップウォレットで、非カストディ型のアトミックスワップと分散型台帳経由の取引機能を搭載。",
   "downloads_app_guarda": "Guardaは、Webおよびデスクトップ、モバイルで利用可能なマルチ通貨対応ウォレットです。",
-  "downloads_app_cobo": "F2Poolの共同創立者が提供するCoboは、非常に高度なセキュリティを誇るモバイルウォレットで、PoSクラウドプール投票に対応し、30種類のコインおよび500種類のトークンの利用が可能です。",
   "downloads_app_ledger": "Ledger Liveは、Ledger製ハードウェアウォレットにより保護されたウェブベースのウォレットです。",
   "stakepools_description": "投票サービスプロバイダー (VSP) を使用すると、コンピューターのダウンタイム、または不安定なインターネット接続や電源供給による損失を心配することなくDecredのproof-of-stake (PoS) システムに参加できます。",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">注:</span>&nbsp;チケットの紛失はProof-of-work (PoW) を行うマイナーの接続状態に問題の場合があり、プロバイダーの問題とは限りません。",

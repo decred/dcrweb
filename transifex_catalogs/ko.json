@@ -173,7 +173,6 @@
   "downloads_app_anybit": "Android와 iOS에서 사용할 수 있는 Anybit은 가격 및 뉴스 확인 기능이 내장된 모바일 월렛입니다.",
   "downloads_app_atomicwallet": "비구금형 아토믹 스왑을 통한 환전 기능과 탈중앙화된 주문 장부가 내장된 멀티에셋 데스크톱 월렛입니다.",
   "downloads_app_guarda": "Guarda는 웹, 데스크톱 및 모바일 다중 통화 월렛으로 대변됩니다.",
-  "downloads_app_cobo": "F2Pool의 공동 창업자로 시작한 Cobo는 PoS Cloud Pool 투표 및 30개가 넘는 코인과 500개가 넘는 토큰을 지원하는 매우 안전한 모바일 지갑입니다.",
   "downloads_app_ledger": "Ledger Live는 Ledger 하드웨어 지갑으로 보호되는 웹 기반 지갑입니다.",
   "stakepools_description": "VSP(Voting Service Providers)를 사용하면 컴퓨터 가동 중지, 취약한 인터넷 연결 또는 일정하지 않은 전원으로 인한 손실을 걱정할 필요 없이 Decred의 지분증명(PoS) 시스템에 참여할 수 있습니다.",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">참고:</span>&nbsp;티켓 누락은 작업증명(PoW) 채굴기의 연결 상태가 좋지 않아 발생할 수 있으며, 꼭 제공자의 잘못으로 인한 것은 아닐 수 있습니다.",

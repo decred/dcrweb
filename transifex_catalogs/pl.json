@@ -189,7 +189,6 @@
   "downloads_app_anybit": "Anybit to mobilny portfel dostępny dla systemów Android i iOS z wbudowanym śledzeniem cen i wiadomości.",
   "downloads_app_atomicwallet": "Wielozasobowy portfel pulpitowy wyposażony w wbudowaną funkcję wymiany poprzez operacje typu non-custodial atomic swaps i zdecentralizowany rejestr zamówień.",
   "downloads_app_guarda": "Guarda jest reprezentowana przez wielowalutowe portfele internetowe, stacjonarne i mobilne.",
-  "downloads_app_cobo": "Cobo, dostarczany przez współzałożyciela F2Pool jest wyjątkowo bezpiecznym portfelem mobilnym obsługującym głosowanie PoS Cloud Pool oraz ponad 30 walut i 500 tokenów",
   "downloads_app_ledger": "Ledger Live to portfel sieciowy zabezpieczany przez portfel sprzętowy Ledger.",
   "stakepools_description": "Pule głosujących (VSP) pozwalają na udział w systemie Decred proof-of-stake (PoS) bez konieczności obawiania się o straty związane z niedziałającym komputerem, słabym połączeniem internetowym lub przerwami w zasilaniu.",
   "stakepools_warning_1": "<span class=\"modalparagraphbold\">Uwaga:</span>&nbsp;Pominięte bilety mogą być wynikiem słabego połączenia   górnika proof-of-work (PoW)   i nie muszą oznaczać błędu dostawcy.",
