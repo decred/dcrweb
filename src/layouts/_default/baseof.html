@@ -6,19 +6,25 @@
 
         {{ if .IsHome }}
           <title>{{ T "title" }}</title>
-          <meta content="{{ T "title" }}" property="og:title">
+          <meta property="og:title"      content="{{ T "title" }}" >
+          <meta property="twitter:title" content="{{ T "title" }}" >
         {{ else }}
           <title>{{ block "page-title" . }}{{ end }}</title>
-          <meta content="Decred - {{ block "page-title" . }}{{ end }}" property="og:title">
+          <meta property="og:title"      content="Decred - {{ block "page-title" . }}{{ end }}">
+          <meta property="twitter:title" content="{{ T "title" }}" >
         {{ end }}
 
-        <meta content='{{ T "description" }}' name="description">
-      
-        <meta content="{{ T "description" }}" property="og:description">
-        <meta content="https://decred.org/og-logo.png" property="og:image">
-      
-        <meta content="summary" name="twitter:card">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta name="description"         content='{{ T "description" }}'>
+        <meta name="viewport"            content="width=device-width, initial-scale=1" >
+
+        <meta property="og:type"         content="website" />
+        <meta property="og:url"          content="https://decred.org/" />
+        <meta property="og:image"        content="https://decred.org/og-logo.png"/>
+        <meta property="og:description"  content="{{ T "description" }}" />
+        
+        <meta name="twitter:card"        content="summary_large_image"/>
+        <meta name="twitter:image"       content="https://decred.org/og-logo.png"/>
+        <meta name="twitter:description" content="{{ T "description" }}"/>
       
         <!-- [if lt IE 9]><script src="{{ .Site.BaseURL }}/js/html5shiv.min.js" type="text/javascript"></script><![endif] -->
       
