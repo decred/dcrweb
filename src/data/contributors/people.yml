@@ -106,13 +106,12 @@
   title: developer
   github_id: marcopeereboom
 -
-  matrix_id: kyle_firethought:matrix.org
-  twitter_alias: "kyleFirethought"
+  matrix_id: kyle:decred.org
   group: design
   avatar_image: "team_14.svg"
   name: "Kyle Chivers"
   title: "Motion Designer"
-  linkedin_url: "https://www.linkedin.com/company/27009401/"
+  linkedin_url: "https://www.linkedin.com/in/firethought/"
 -
   matrix_id: matheusd:matrix.org
   group: development
