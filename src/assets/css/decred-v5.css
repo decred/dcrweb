@@ -1778,7 +1778,7 @@ ul, li, nav {
 }
 
 .section-card-download-page.third-party {
-  background-image: url('../images/3rd-party.svg');
+  background-image: url('../images/wallets/3rd-party.svg');
   background-position: 95% 10px;
 }
 
@@ -1794,7 +1794,7 @@ ul, li, nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: url('../images/placeholder.svg');
+  background-image: url('../images/wallets/placeholder.svg');
   background-position: 0px 0px;
   background-repeat: no-repeat;
   color: #091440;
@@ -1802,63 +1802,63 @@ ul, li, nav {
 }
 
 .section-card-title-download-page.decrediton {
-  background-image: url('../images/decrediton.svg');
+  background-image: url('../images/wallets/decrediton.svg');
 }
 
 .section-card-title-download-page.mobilewallets {
-  background-image: url('../images/ic_mobile.svg');
+  background-image: url('../images/wallets/ic_mobile.svg');
 }
 
 .section-card-title-download-page.commandline {
-  background-image: url('../images/commandline.svg');
+  background-image: url('../images/wallets/commandline.svg');
 }
 
 .section-card-title-download-page.exodus {
-  background-image: url('../images/exodus_symbol.png');
+  background-image: url('../images/wallets/exodus_symbol.png');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.coinomi {
-  background-image: url('../images/coinomi-color-for-loght-bg.png');
+  background-image: url('../images/wallets/coinomi-color-for-loght-bg.png');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.ownbit {
-  background-image: url('../images/ownbit.svg');
+  background-image: url('../images/wallets/ownbit.svg');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.anybit {
-  background-image: url('../images/anybit-color-for-loght-bg.png');
+  background-image: url('../images/wallets/anybit-color-for-loght-bg.png');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.atomicwallet {
-  background-image: url('../images/atomic-color-for-loght-bg.png');
+  background-image: url('../images/wallets/atomic-color-for-loght-bg.png');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.guarda {
-  background-image: url('../images/guarda-shield-logo.svg');
+  background-image: url('../images/wallets/guarda-shield-logo.svg');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.ledger {
-  background-image: url('../images/ledger_logo.png');
+  background-image: url('../images/wallets/ledger_logo.png');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.trezor {
-  background-image: url('../images/trezor.png');
+  background-image: url('../images/wallets/trezor.png');
   background-size: 20px 20px;
 }
 .section-card-title-download-page.evercoin {
-  background-image: url('../images/evercoin_logo.png');
+  background-image: url('../images/wallets/evercoin_logo.png');
   background-size: 20px 20px;
 }
 
 .section-card-title-download-page.trust {
-  background-image: url('../images/trust_logo.png');
+  background-image: url('../images/wallets/trust_logo.png');
   background-size: 20px 20px;
 }
 
