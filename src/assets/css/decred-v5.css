@@ -1817,21 +1817,6 @@ ul, li, nav {
   background-image: url('../images/commandline.svg');
 }
 
-.section-card-title-download-page.ccminer {
-  background-image: url('../images/ccminer.svg');
-  background-size: 20px 20px;
-}
-
-.section-card-title-download-page.sgminer {
-  background-image: url('../images/sgminer.svg');
-  background-size: 20px 20px;
-}
-
-.section-card-title-download-page.gominer {
-  background-image: url('../images/gominer.svg');
-  background-size: 20px 20px;
-}
-
 .section-card-title-download-page.exodus {
   background-image: url('../images/exodus_symbol.png');
   background-size: 20px 20px;
