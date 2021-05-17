@@ -45,12 +45,6 @@
   title: developer
   github_id: dajohi
 -
-  company_id: block_42
-  group: development
-  avatar_image: "team_67.svg"
-  name: "Dmitry Fedorov"
-  title: Developer
--
   matrix_id: dnldd:matrix.org
   group: development
   avatar_image: "team_8.svg"
@@ -123,7 +117,7 @@
 -
   matrix_id: nick.k:decred.org
   company_id: block_42
-  group: development
+  group: design
   avatar_image: "team_66.svg"
   name: "Nick Kaeshko"
   title: "Project Manager"
@@ -136,20 +130,12 @@
   title: developer
   github_id: peterzen
 -
-  matrix_id: s_ben:decred.org
-  twitter_alias: "zen_bacon"
-  group: development
-  avatar_image: "team_71.svg"
-  name: "Seth Benton"
-  title: developer
-  github_id: "s-ben"
--
   matrix_id: raedah:decred.org
   company_id: raedah_group
   group: development
   avatar_image: "team_45.svg"
   name: "Steven Wagner"
-  title: developer
+  title: Project Lead
   github_id: raedah
 -
   matrix_id: tiagoalvesdulce:matrix.org
@@ -236,15 +222,6 @@
   github_id: RichardRed0x
   medium_alias: "richardred"
 -
-  matrix_id: zubairzia0:decred.org
-  group: community
-  avatar_image: "team_73.svg"
-  name: "Zubair Zia"
-  title: "Research and Outreach"
-  linkedin_url: "https://www.linkedin.com/in/zubairzia0/"
-  github_id: zubairzia0
-  medium_alias: zubairzia
--
   matrix_id: esizedave:decred.org
   group: community
   avatar_image: "team_75.svg"
@@ -267,13 +244,6 @@
   avatar_image: "team_69.svg"
   name: "Insaf Nori"
   title: "Community Manager (Middle East)"
--
-  company_id: raedah_group
-  group: community
-  avatar_image: "team_60.svg"
-  name: "Jessica Eggleston"
-  title: "Conference Coordinator"
-  github_id: jesiki
 -
   matrix_id: mmartins:matrix.org
   group: community
