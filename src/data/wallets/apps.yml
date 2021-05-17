@@ -10,6 +10,21 @@
       id: commandline
       is_third_party: false
 
+- category: hardware_wallets
+  apps:
+    - name: Trezor
+      id: trezor
+      links:
+        - title: Decrediton
+          url: https://decred.org/release/#downloads
+        - title: Exodus
+          url: https://www.exodus.io/decred-wallet
+    - name: Ledger Live
+      id: ledger
+      links:
+        - title: Ledger Live wallet
+          url: https://www.ledger.com/pages/ledger-live
+
 - category: 3rd_party_wallets
   apps:
     - name: Exodus
@@ -47,12 +62,6 @@
       links:
         - title: Guarda releases
           url: https://guarda.com/
-
-    - name: Ledger Live
-      id: ledger
-      links:
-        - title: Ledger Live wallet
-          url: https://www.ledger.com/pages/ledger-live
 
     - name: Evercoin
       id: evercoin

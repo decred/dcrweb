@@ -1867,6 +1867,10 @@ ul, li, nav {
   background-size: 20px 20px;
 }
 
+.section-card-title-download-page.trezor {
+  background-image: url('../images/trezor.png');
+  background-size: 20px 20px;
+}
 .section-card-title-download-page.evercoin {
   background-image: url('../images/evercoin_logo.png');
   background-size: 20px 20px;
