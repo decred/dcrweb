@@ -213,12 +213,6 @@
   logo_src: "metalpay.png"
   name: "Metal Pay"
 -
-  url: "https://global.transak.com/?defaultCryptoCurrency=DCR"
-  tags:
-    - fiat
-  logo_src: "transak.png"
-  name: "Transak"
--
   url: "https://www.novadax.com.br/"
   tags:
     - all
