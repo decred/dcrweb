@@ -68,8 +68,6 @@
   "brand_guide_12": "Orange",
   "brand_guide_13": "Decred’s visual identity objectives are to ensure unique representation amongst digital currencies, support consistent use across a variety of platforms as well as be memorable and engaging for onboarding new adopters. This is achieved through correct usage of the logo, type setting, color direction and graphic assets. We have developed simple style templates suitable for all users as well as for designers to produce more complex materials.",
   "brand_guide_14": "View github/dcrdesign repo for design packages, guidelines and documentations",
-  "exchanges_otc_title": "Decred OTC Traders",
-  "exchanges_otc_description": "Over The Counter (OTC) trading allows customers to buy or sell Decred directly from a trader. The customer and the trader agree on a fixed price for a large quantity of Decred and conduct the transaction without going through an exchange. The minimum transaction size for OTC trading is typically $100,000 or higher.",
   "exchanges_payment_title": "Decred Payment Processors",
   "exchanges_payment_description": "Solutions for online merchants to start accepting Decred (DCR) as payment. Payment processors provide a quick and easy integration to accept cryptocurrencies through e-commerce platforms.",
   "exchanges_subtitle": "Decred on Exchanges",

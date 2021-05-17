@@ -59,8 +59,6 @@
   "brand_guide_12": "주황색",
   "brand_guide_13": "Decred의 시각적 정체성의 목표는 다양한 전자 화폐 중에서 두각을 보이고, 다양한 플랫폼에서 지속적으로 사용이 가능하도록 지원하면서 새로운 사용자에게 기억에 남고 매력적으로 보이게 하는 것입니다. 이는 로고, 타입 세팅, 색상 방향성 및 그래픽 자산을 알맞게 사용함으로써 실현됩니다. 저희는 모든 사용자가 쉽게 쓸 수 있으면서 디자이너들이 더 정교한 결과물을 만들 수 있는 간단한 스타일 템플릿을 만들었습니다.",
   "brand_guide_14": "github/dcrdesign 저장소에서 디자인 패키지, 가이드라인과 문서 보기",
-  "exchanges_otc_title": "Decred OTC 트레이더",
-  "exchanges_otc_description": "고객은 장외거래(OTC)를 통해 트레이더와 직접 Decred 매수/매도를 진행할 수 있습니다. 상호 합의한 고정 금액으로 다량의 Decred를 거래하는 데 동의한 고객과 트레이더는 환전 절차를 생략하고 거래를 진행할 수 있습니다. 최소 OTC 거래 금액은 보통 10만 달러 이상입니다.",
   "exchanges_payment_title": "Decred 결제 기관",
   "exchanges_payment_description": "온라인 판매자가 Decred(DCR)를 결제 수단으로 승인할 수 있는 솔루션입니다. 결제 기관은 전자상거래 플랫폼을 통해 암호화폐 승인을 위한 빠르고 쉬운 통합을 제공합니다.",
   "exchanges_subtitle": "Decred와 환전",

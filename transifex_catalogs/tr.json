@@ -59,8 +59,6 @@
   "brand_guide_12": "Turuncu",
   "brand_guide_13": "Decred'ın görsel kimlik hedefleri, Decred'ı dijital para birimleri arasında temsil etmek, çeşitli platformlarda tutarlı kullanımı desteklemek, ayrıca yeni kullanıcılar için akılda kalıcı ve cazip olmasını sağlamaktır. Bu hedefler logo, yazı ayarı, renk yönetimi ve grafik varlıkların doğru kullanımıyla gerçekleştirilir. Tüm kullanıcıların ve tasarımcıların daha komplike materyaller üretmesine uygun basit stil şablonları geliştirdik.",
   "brand_guide_14": "Tasarım paketleri, kılavuz ilkeler ve belgeler için github/dcrdesign havuzuna bakın",
-  "exchanges_otc_title": "Decred OTC Tüccarlar",
-  "exchanges_otc_description": "Borsa Dışı (Over The Counter/OTC) ticaret müşterilerin doğrudan bir tüccar ile Decred alım veya satım işlemi yapmasına izin verir. Müşteri ve tüccar büyük bir Decred miktarı için sabit bir fiyat üzerinde anlaşır ve işlemi takas yapmadan gerçekleştirir. OTC ticaret için minimum işlem boyutu tipik olarak 100,000 $ veya üzeridir.",
   "exchanges_payment_title": "Decred Ödeme İşleyicileri",
   "exchanges_payment_description": "Çevrimiçi tüccarların Decred'i (DCR) ödeme olarak kabul etmeye başlamasına yönelik çözümler. Ödeme işleyicileri e-ticaret platformları üzerinden kripto paraların kabulü için hızlı ve kolay bir entegrasyon sağlar.",
   "exchanges_subtitle": "Takaslarda Decred",
