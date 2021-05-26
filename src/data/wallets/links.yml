@@ -18,7 +18,7 @@ decrediton:
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v162
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v163
 
 release_page:
   mac:
