@@ -24,6 +24,7 @@ var drawTable = function(data) {
 		'<th>Voting</th>' +
 		'<th>Voted</th>' +
 		'<th>Revoked</th>' +
+		'<th>Revoked %</th>' +
 		'<th>Fees</th>' +
 		'<th>Age</th>' +
 		'</tr>' +
@@ -48,6 +49,19 @@ var drawTable = function(data) {
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voting"] + '</td>';
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voted"] + '</td>';
 		tableMarkup += '<td class="dcrwebcode">' + poolData["revoked"] + '</td>';
+
+		var revokedPercent;
+		if (poolData["voted"] == 0) {
+			if (poolData["revoked"] == 0) {
+				revokedPercent = 0;
+			} else {
+				revokedPercent = 1;
+			}
+		} else {
+			revokedPercent = 100 * (poolData["revoked"] / poolData["voted"]);
+		}
+
+		tableMarkup += '<td class="dcrwebcode">' + revokedPercent.toFixed(2) + "%" + '</td>';
 		
 		tableMarkup += '<td class="dcrwebcode">' + poolData["feepercentage"] + '%</td>';
 
