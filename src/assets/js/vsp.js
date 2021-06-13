@@ -6,6 +6,8 @@ var APIvspds = API_ROOT + '/?c=vsp';
 // the bottom of the list and a warning is attached.
 var maxProportion = 5;
 
+var now = Math.floor((new Date).getTime() / 1000);
+
 $(document).ready(function () {
 	if (window.location.href.indexOf('vsp') != -1) {
 		stakepoolFinder();
@@ -13,115 +15,90 @@ $(document).ready(function () {
 	};
 });
 
-var vspdFinder = function() {
-	$("#vspd-data").html("Loading...");
-
-	var fields = ["voting", "voted", "revoked", "PoolFees", "Age"];
-
+var drawTable = function(data) {
 	var tableMarkup = '<table id="vspd-table" class="datatables">' +
 		'<thead>' +
 		'<tr class="">' +
 		'<th class="addressHeader" style="padding-left: 2px; background-image: none;">Address</th>' +
-		'<th class="lastUpdatedHeader">Last Updated</th>';
-
-	$.each(fields, function (i, field) {
-		switch (field) {
-			case "PoolFees":
-			field = "Fees";
-			break;
-
-			default:
-			// add whitespaces to CamelCase
-			field = field.split(/(?=[A-Z])/).join(' ')
+		'<th class="lastUpdatedHeader">Last Updated</th>'+
+		'<th>Voting</th>' +
+		'<th>Voted</th>' +
+		'<th>Revoked</th>' +
+		'<th>Fees</th>' +
+		'<th>Age</th>' +
+		'</tr>' +
+		'</thead>' +
+		'<tbody>';
+		
+		
+	$.each(data, function (poolUrl, poolData) {
+		if (poolData["network"] === 'testnet') {
+			return;
 		}
+		
+		var lastUpdated = poolData["lastupdated"] - now;
+		var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
+		if (lastUpdateFormatted.indexOf("years") > 0) {
+			lastUpdateFormatted = "N/A";
+		}
+		
+		tableMarkup += '<td class="address"><a target="_blank" rel="noopener noreferrer" href="https://' + poolUrl + '">' + poolUrl + '</a></td>';
+		tableMarkup += '<td class="lastUpdate dcrwebcode">' + lastUpdateFormatted + '</td>';
+		
+		tableMarkup += '<td class="dcrwebcode">' + poolData["voting"] + '</td>';
+		tableMarkup += '<td class="dcrwebcode">' + poolData["voted"] + '</td>';
+		tableMarkup += '<td class="dcrwebcode">' + poolData["revoked"] + '</td>';
+		
+		tableMarkup += '<td class="dcrwebcode">' + poolData["feepercentage"] + '%</td>';
 
-		tableMarkup += '<th>' + field + '</th>';
+		var launchDate = new Date(poolData["launched"] * 1000);
+		var duration = moment.duration(launchDate - new Date()).humanize(false);
+		order = launchDate.getTime();
+		value = '<time' +
+			'  style="white-space: nowrap' +
+			'" datetime="' + launchDate.toISOString() +
+			'" title="' + launchDate.toString() +
+			'">' + duration +
+			'</time>';
+		tableMarkup += '<td class="dcrwebcode" data-order="' + order + '">' + value + '</td>';
+
+		tableMarkup += '</tr>';
 	});
 
-	tableMarkup += '</tr></thead><tbody>';
+	tableMarkup += '</tbody></table>';
+
+	$("#vspd-data").html(tableMarkup);
+
+	$("#vspd-table").DataTable({
+		"ordering": true,
+		"order": [
+			[2, 'desc'] // sort by Voting
+		],
+		"jQueryUI": false,
+		"paging": false,
+		"searching": false,
+		"info": false,
+		'lengthChange': false
+	});
+};
+
+var drawError = function(jqXHR) {
+	var errorMarkup = '<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
+		'<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>' +
+		'<strong>Error:</strong> ' + jqXHR.status + '</p></div></div>';
+	$("#vspd-data").html(errorMarkup);
+};
+
+var vspdFinder = function() {
+	$("#vspd-data").html("Loading...");
 
 	$.ajax({
 		url: APIvspds,
 		dataType: "json",
-		error: function (jqXHR) {
-			var errorMarkup = '<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
-			'<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>' +
-			'<strong>Error:</strong> ' + jqXHR.status + '</p></div></div>';
-		$("#vspd-data").html(errorMarkup);
-		},
-		success: function (data, _) {
-			$.each(data, function (poolUrl, poolData) {
-				if (poolData["network"] === 'testnet') return;
-
-				var now = Math.floor((new Date).getTime() / 1000);
-				var lastUpdated = poolData["lastupdated"] - now;
-				var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
-				if (lastUpdateFormatted.indexOf("years") > 0) {
-					lastUpdateFormatted = "N/A";
-				}
-				
-				tableMarkup += '<td class="address"><a target="_blank" rel="noopener noreferrer" href="https://' + poolUrl + '">' + poolUrl + '</a></td>';
-				tableMarkup += '<td class="lastUpdate dcrwebcode">' + lastUpdateFormatted + '</td>';
-
-				$.each(fields, function (_, field) {
-					var value = 'N/A';
-					var order = null;
-
-					if (poolData.hasOwnProperty(field)) value = poolData[field]
-
-					switch (field) {
-						case "PoolFees":
-						poolFees = "" + poolData["feepercentage"];
-						if (poolFees != "N/A" && poolFees.substr(-1) != "%") {
-							poolFees += "%";
-						}
-						value = poolFees
-						break;
-
-						case "Age":
-						var launchDate = new Date(poolData["launched"] * 1000);
-						var duration = moment.duration(launchDate - new Date()).humanize(false);
-						order = launchDate.getTime();
-
-						value = '<time' +
-							'  style="white-space: nowrap' +
-							'" datetime="' + launchDate.toISOString() +
-							'" title="' + launchDate.toString() +
-							'">' + duration +
-							'</time>';
-						break;
-					}
-
-					if (order) {
-						tableMarkup += '<td class="dcrwebcode" data-order="' + order + '">' + value + '</td>';
-					} else {
-						tableMarkup += '<td class="dcrwebcode">' + value + '</td>';
-					}
-				});
-
-				tableMarkup += '</tr>';
-			});
-
-			tableMarkup += '</tbody></table>';
-
-			$("#vspd-data").html(tableMarkup);
-
-			$("#vspd-table").DataTable({
-				"ordering": true,
-				"order": [
-					[2, 'desc'] // sort by Voting
-				],
-				"jQueryUI": false,
-				"paging": false,
-				"searching": false,
-				"info": false,
-				'lengthChange': false
-			});
-			
-		},
+		error:  drawError,
+		success: drawTable,
 	});
-
-}
+};
 
 var stakepoolFinder = function() {
 	$("#stakepool-data").html("Loading...");
@@ -173,7 +150,6 @@ var stakepoolFinder = function() {
 			$.each(data, function (poolName, poolData) {
 				if (poolData["Network"] === 'testnet') return;
 				var overCapacity = 0;
-				var now = Math.floor((new Date).getTime() / 1000);
 				var lastUpdated = poolData["LastUpdated"] - now;
 				var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
 				if (lastUpdateFormatted.indexOf("years") > 0) {
