@@ -43,10 +43,11 @@ var vspdFinder = function() {
 	$.ajax({
 		url: APIvspds,
 		dataType: "json",
-		error: function (_, textStatus, errorThrown) {
-			errorMarkup = '<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
-				'<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>' +
-				'<strong>Error:</strong> ' + textStatus + ": " + errorThrown + '</p></div></div>';
+		error: function (jqXHR) {
+			var errorMarkup = '<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
+			'<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>' +
+			'<strong>Error:</strong> ' + jqXHR.status + '</p></div></div>';
+		$("#vspd-data").html(errorMarkup);
 		},
 		success: function (data, _) {
 			$.each(data, function (poolUrl, poolData) {
@@ -161,10 +162,11 @@ var stakepoolFinder = function() {
 	$.ajax({
 		url: APIstakepools,
 		dataType: "json",
-		error: function (jqXHR, textStatus, errorThrown) {
-			errorMarkup = '<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
+		error: function (jqXHR) {
+			var errorMarkup = '<div class="ui-widget"><div class="ui-state-error ui-corner-all">' +
 				'<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>' +
-				'<strong>Error:</strong> ' + textStatus + ": " + errorThrown + '</p></div></div>';
+				'<strong>Error:</strong> ' + jqXHR.status + '</p></div></div>';
+			$("#stakepool-data").html(errorMarkup);
 		},
 		success: function (data, textStatus) {
 			var totalPropLive = 0;
