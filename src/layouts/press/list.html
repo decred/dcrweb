@@ -28,7 +28,7 @@
                 </div>
                 
                 <div class="press press__releases subpage-content w-clearfix">
-                    {{ partial "press/release-list" . }}
+                    {{ partial "press/coverage-list" (where .Site.RegularPages "Section" "=" "press") }}
                 </div>
             </div>
         </div>

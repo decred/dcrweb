@@ -1,14 +1,21 @@
 {{ range . }}
 <div class="press__coverage-item">
-    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-        <img alt="" class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .icon }}" width="30" />
-        <div class="press__coverage-wrapper">
-            <p><span class="press__title">{{ .title }}</span>
-                <span class="press__source"> ({{ .source }})</span></p>
-            <p class="press__date">{{ dateFormat "January 2, 2006" .date }}</p>
+    <a href="{{ .Permalink }}" {{ if .Params.externalSource }} target="_blank" {{ end }} rel="noopener noreferrer">
+        <img class="press__coverage-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .Params.icon }}" width="30" alt="" />
 
+        <div class="press__coverage-wrapper">
+            <p>
+                <span class="press__title">{{ .Title }}</span>
+                {{ if .Params.externalSource }}
+                    <span class="press__source"> ({{ .Params.externalSource }})</span>
+                {{ end }}
+            </p>
+            <p class="press__date">{{ dateFormat "January 2, 2006" .PublishDate }}</p>
         </div>
-        <img alt="" class="press__coverage-hover-icon" src="{{ .Site.BaseURL }}/images/press-coverage-hover-icon.svg" width="16" />
+
+        {{ if .Params.externalSource }}
+            <img class="press__coverage-hover-icon" src="{{ .Site.BaseURL }}/images/press-coverage-hover-icon.svg" width="16" alt="" />
+        {{ end }}
     </a>
 </div>
 {{ end }}
