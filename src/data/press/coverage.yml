@@ -102,7 +102,7 @@
   PublishDate: "2020-07-01"
   Params:
     icon: "announcementsDefault.svg"
-    externalSource: "decred.org"
+    externalSource: "blog.decred.org"
 -
   Title: "Decred Journal, May 2020"
   Permalink: "https://medium.com/decred/decred-journal-may-2020-a481bec47516"
@@ -130,7 +130,7 @@
   PublishDate: "2020-06-02"
   Params:
     icon: "announcementsDefault.svg"
-    externalSource: "decred.org"
+    externalSource: "blog.decred.org"
 -
   Title: "Decred Journal, April 2020"
   Permalink: "https://medium.com/decred/decred-journal-april-2020-8ddca048dc67"
@@ -221,7 +221,7 @@
   PublishDate: "2019-11-11"
   Params:
     icon: "dcrInMedia.svg"
-    externalSource: "decred.org"
+    externalSource: "blog.decred.org"
 -
   Title: "Decred’s Politeia: Lessons Learned From A Year Of Decentralized Governance"
   Permalink: "https://cryptobriefing.com/decred-politeia-decentralized-governance/"
