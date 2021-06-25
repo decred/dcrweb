@@ -231,3 +231,9 @@
     - "fiat"
   logo_src: "hotbitkorea.png"
   name: "Hotbit Korea"
+-
+  url: "https://wazirx.com/"
+  tags:
+    - fiat
+  logo_src: "wazirx.png"
+  name: WazirX
