@@ -127,7 +127,11 @@
         </div>
         <div class="subpage-content-section">
             <div class="press press__coverage subpage-content w-clearfix active">
-                {{ partial "press/coverage-list" (first 5 .Site.Data.press.coverage) }}
+                {{ $pressPages := where .Site.RegularPages "Section" "=" "press" }}
+                {{ $coveragePages := .Site.Data.press.coverage }}
+                {{ $allNews := append $coveragePages $pressPages }}
+                {{ $sortedNews := sort $allNews "Params.sortDate" "desc" }}
+                {{ partial "press/coverage-list" (first 5 $sortedNews) }}
             </div>
         </div>
     </div>

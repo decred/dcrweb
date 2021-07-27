@@ -1,6 +1,7 @@
 ---
 title: "Decred Integrates with Exodus to Offer Secure Transfer of Blockchain Assets"
 date: 2017-06-23
+sortDate: 2017-06-23
 draft: false
 icon: "announcementsDefault.svg"
 ---

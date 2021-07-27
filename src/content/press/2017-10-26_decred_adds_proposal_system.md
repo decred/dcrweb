@@ -1,6 +1,7 @@
 ---
 title: "Decred Adds First Intelligent Proposal System to Advance Blockchain Governance"
 date: 2017-10-26
+sortDate: 2017-10-26
 draft: false
 icon: "announcementsDefault.svg"
 ---

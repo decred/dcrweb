@@ -1,6 +1,7 @@
 ---
 title: "Decred’s Position as Money Evolved Further Cemented by Three New Features"
 date: 2021-01-25
+sortDate: 2021-01-25
 draft: false
 icon: "announcementsDefault.svg"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Decred Makes Consensus Change to Further Decentralize $128M Treasury"
 date: 2021-04-12
+sortDate: 2021-04-12
 draft: false
 icon: "announcementsDefault.svg"
 ---
