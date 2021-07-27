@@ -13,6 +13,13 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Talking Decred with Jake Yocom-Piatt"
+  Permalink: "https://www.youtube.com/watch?v=ZCfIM8IHurU"
+  Params:
+    sortDate: "2021-05-14"
+    icon: "broadcasts.svg"
+    externalSource: "youtube.com"
+-
   Title: "Decred Journal, April 2021"
   Permalink: "https://medium.com/decred/decred-journal-april-2021-8f3bb25e6eb2"
   Params:
