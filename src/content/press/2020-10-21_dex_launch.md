@@ -1,6 +1,7 @@
 ---
 title: "Decred Announces Launch of DCRDEX"
 date: 2020-10-21
+sortDate: 2020-10-21
 draft: false
 icon: "announcementsDefault.svg"
 ---

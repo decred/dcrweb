@@ -1,6 +1,7 @@
 ---
 title: "Decred Releases Proposal for Decentralized Exchange (“DEX”) with Eye toward Disrupting Billion-Dollar Exchange Market"
 date: 2018-06-05
+sortDate: 2018-06-05
 draft: false
 icon: "announcementsDefault.svg"
 ---

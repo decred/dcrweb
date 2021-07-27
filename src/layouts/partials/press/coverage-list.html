@@ -10,7 +10,7 @@
                     <span class="press__source"> ({{ .Params.externalSource }})</span>
                 {{ end }}
             </p>
-            <p class="press__date">{{ dateFormat "January 2, 2006" .PublishDate }}</p>
+            <p class="press__date">{{ dateFormat "January 2, 2006" .Params.sortDate }}</p>
         </div>
 
         {{ if .Params.externalSource }}
