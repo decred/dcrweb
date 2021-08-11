@@ -243,3 +243,9 @@
     - fiat
   logo_src: "bitfinex.png"
   name: Bitfinex
+-
+  url: "https://exchange.bitcoin.com/"
+  tags:
+    - all
+  logo_src: "bitcoin.png"
+  name: Bitcoin.com
