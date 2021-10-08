@@ -128,10 +128,10 @@
   logo_src: "bitladon.jpg"
   name: Bitladon
 -
-  url: "https://bitvavo.com/en"
+  url: "https://bitvavo.com/en/decred"
   tags:
     - fiat
-  logo_src: "bitvavo.jpg"
+  logo_src: "bitvavo.png"
   name: Bitvavo
 -
   url: "https://www.gate.io/"
