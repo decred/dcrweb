@@ -12,11 +12,9 @@
         <div class="_960 ">
             <div class="subpage-content-section ex">
                 <div class="press__releases-content">
-                    <div class="press__releases-content-wrapper">
-                        <h1>{{ .Title }}</h1>
-                        <p>{{ dateFormat "January 2, 2006" .Date }}</p>
-                        {{ .Content }}
-                    </div>
+                    <h1>{{ .Title }}</h1>
+                    <p>{{ dateFormat "January 2, 2006" .Date }}</p>
+                    {{ .Content }}
                 </div>
             </div>
         </div>
