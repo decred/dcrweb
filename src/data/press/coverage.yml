@@ -14,6 +14,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, August 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-august-2021-3948fe1ed773"
   Params:
     sortDate: "2021-09-15"
@@ -21,6 +22,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, July 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-july-2021-fa3ce428b3ed"
   Params:
     sortDate: "2021-08-11"
@@ -28,6 +30,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, June 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-june-2021-9b631d2f8218"
   Params:
     sortDate: "2021-07-14"
@@ -35,6 +38,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, May 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-may-2021-364042ccbecd"
   Params:
     sortDate: "2021-06-09"
@@ -42,6 +46,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Talking Decred with Jake Yocom-Piatt"
+  Author: "Dominic Frisby"
   Permalink: "https://www.youtube.com/watch?v=ZCfIM8IHurU"
   Params:
     sortDate: "2021-05-14"
@@ -49,6 +54,7 @@
     externalSource: "youtube.com"
 -
   Title: "Decred Journal, April 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-april-2021-8f3bb25e6eb2"
   Params:
     sortDate: "2021-05-13"
@@ -56,6 +62,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, March 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-march-2021-fe6ec072f09c"
   Params:
     sortDate: "2021-04-13"
@@ -63,6 +70,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, February 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-february-2021-39fa12ee2fb7"
   Params:
     sortDate: "2021-03-14"
@@ -70,6 +78,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, January 2021"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-january-2021-87bd8d184885"
   Params:
     sortDate: "2021-02-10"
@@ -77,6 +86,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, December 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-december-2020-d9e89313f480"
   Params:
     sortDate: "2021-01-12"
@@ -84,6 +94,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, November 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-november-2020-d1bb2681a4d8"
   Params:
     sortDate: "2020-12-12"
@@ -91,6 +102,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, October 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-october-2020-b7e9a71de788"
   Params:
     sortDate: "2020-11-12"
@@ -98,6 +110,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, September 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-september-2020-fb6608ff74be"
   Params:
     sortDate: "2020-10-11"
@@ -105,6 +118,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, August 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-august-2020-37bd63997722"
   Params:
     sortDate: "2020-09-12"
@@ -112,6 +126,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred, Mining Market Mechanics"
+  Author: "Checkmate"
   Permalink: "https://medium.com/decred/decred-mining-market-mechanics-fd26b921dc46"
   Params:
     sortDate: "2020-08-23"
@@ -119,6 +134,7 @@
     externalSource: "medium.com/decred/"
 -
   Title: "Decred Journal, July 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-july-2020-7da45ed48660"
   Params:
     sortDate: "2020-08-07"
@@ -126,6 +142,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, June 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-june-2020-7f9eb7c0d122"
   Params:
     sortDate: "2020-07-10"
@@ -133,6 +150,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "The Federal Reserve: A Blatantly Rigged Game"
+  Author: "Jake Yocom-Piatt"
   Permalink: "https://blog.decred.org/2020/07/01/The-Federal-Reserve-A-Blatantly-Rigged-Game/"
   Params:
     sortDate: "2020-07-01"
@@ -140,6 +158,7 @@
     externalSource: "blog.decred.org"
 -
   Title: "Decred Journal, May 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-may-2020-a481bec47516"
   Params:
     sortDate: "2020-06-11"
@@ -147,6 +166,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred On-chain: Realised Cap, MVRV Ratio and Gradient Oscillators"
+  Author: "Checkmate"
   Permalink: "https://medium.com/decred/decred-on-chain-realised-cap-mvrv-ratio-and-gradient-oscillators-a36ed2cc8182"
   Params:
     sortDate: "2020-06-10"
@@ -154,6 +174,7 @@
     externalSource: "medium.com/decred/home"
 -
   Title: "Decred Blockchain Analysis - Part 1"
+  Author: "Richard Red"
   Permalink: "https://blockcommons.red/post/dcr-on-chain-1/"
   Params:
     sortDate: "2020-06-08"
@@ -161,6 +182,7 @@
     externalSource: "blockcommons.red"
 -
   Title: "A More Private Way to Stake"
+  Author: "Jamie Holdstock"
   Permalink: "https://blog.decred.org/2020/06/02/A-More-Private-Way-to-Stake/"
   Params:
     sortDate: "2020-06-02"
@@ -168,6 +190,7 @@
     externalSource: "blog.decred.org"
 -
   Title: "Decred Journal, April 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-april-2020-8ddca048dc67"
   Params:
     sortDate: "2020-05-11"
@@ -175,6 +198,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, March 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-march-2020-46a3df734ec5"
   Params:
     sortDate: "2020-04-10"
@@ -182,6 +206,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, February 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-february-2020-8ff1eac92305"
   Params:
     sortDate: "2020-03-10"
@@ -189,6 +214,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred, The Resilient Stronghold"
+  Author: "Checkmate"
   Permalink: "https://medium.com/decred/decred-the-resilient-stronghold-4038dc64dd2a"
   Params:
     sortDate: "2020-02-17"
@@ -196,6 +222,7 @@
     externalSource: "https://medium.com/@_Checkmatey_"
 -
   Title: "Decred On-Chain: Ticket Funding Rates"
+  Author: "Permabull Nino"
   Permalink: "https://medium.com/@permabullnino/decred-on-chain-ticket-funding-rates-4e7233c7b64f"
   Params:
     sortDate: "2020-02-11"
@@ -203,6 +230,7 @@
     externalSource: "https://medium.com/@permabullnino/"
 -
   Title: "Decred Journal, January 2020"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-january-2020-616d919784ff"
   Params:
     sortDate: "2020-02-08"
@@ -210,6 +238,7 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Conversion Rates"
+  Author: "Permabull Nino"
   Permalink: "https://decredindepth.libsyn.com/"
   Params:
     sortDate: "2020-01-15"
@@ -217,6 +246,7 @@
     externalSource: "decredindepth.libsyn.com/"
 -
   Title: "Decred Journal, December 2019"
+  Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-december-2019-9b48c8bf8516"
   Params:
     sortDate: "2020-01-09"
@@ -224,20 +254,23 @@
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "POV Crypto: 105 — Fight Night XI: BTC vs ETH vs DCR, with Checkmate"
+  Author: "David Hoffman"
   Permalink: "https://medium.com/@TrustlessState/105-fight-night-xi-btc-vs-eth-vs-dcr-with-checkmate-e5ca1064ea84?"
   Params:
     sortDate: "2019-12-20"
     icon: "broadcasts.svg"
     externalSource: "povcryptopod.libsyn.com"
 -
-  Title: "It’s Time to Walk-the-Talk on Decentralized Governance, by Jake Yocom-Piatt"
+  Title: "It’s Time to Walk-the-Talk on Decentralized Governance"
+  Author: "Jake Yocom-Piatt"
   Permalink: "https://www.coindesk.com/its-time-to-walk-the-talk-on-decentralized-governance"
   Params:
     sortDate: "2019-12-13"
     icon: "pressReleasesInterviews.svg"
     externalSource: "coindesk.com"
 -
-  Title: "Akin Sawyerr, Team Lead at Decred: How Crypto is Bridging the Gap Between the Banked and Unbanked"
+  Title: "Akin Sawyerr: How Crypto is Bridging the Gap Between the Banked and Unbanked"
+  Author: "Anthony Pompliano"
   Permalink: "https://www.youtube.com/watch?v=NNg5G_EZxtU"
   Params:
     sortDate: "2019-12-12"
@@ -245,13 +278,15 @@
     externalSource: "anthonypompliano.com"
 -
   Title: "Secrets They Missed at Devcon: What it’s Really Like Working in a DAO"
+  Author: "Jake Yocom-Piatt"
   Permalink: "https://cointelegraph.com/news/secrets-they-missed-at-devcon-what-its-really-like-in-a-working-dao"
   Params:
     sortDate: "2019-11-19"
     icon: "pressReleasesInterviews.svg"
     externalSource: "coindesk.com"
 -
-  Title: "LN & Multi-Owner Tickets, by Matheus Degiovani"
+  Title: "LN & Multi-Owner Tickets"
+  Author: "Matheus Degiovani"
   Permalink: "https://blog.decred.org/2019/11/11/LN-Multi-Owner-Tickets/"
   Params:
     sortDate: "2019-11-11"
@@ -259,6 +294,7 @@
     externalSource: "blog.decred.org"
 -
   Title: "Decred’s Politeia: Lessons Learned From A Year Of Decentralized Governance"
+  Author: "Darren Kleine"
   Permalink: "https://cryptobriefing.com/decred-politeia-decentralized-governance/"
   Params:
     sortDate: "2019-10-23"
@@ -266,6 +302,7 @@
     externalSource: "cryptobriefing.com"
 -
   Title: "After Years of Secret Work, Decred Adds a New Feature: Privacy"
+  Author: "Laura Shin"
   Permalink: "https://unchainedpodcast.com/after-years-of-secret-work-decred-adds-a-new-feature-privacy/"
   Params:
     sortDate: "2019-08-27"
@@ -273,6 +310,7 @@
     externalSource: "unchainedpodcast.com"
 -
   Title: "Sovereign Cryptonetworks"
+  Author: "Joel Monegro"
   Permalink: "https://www.placeholder.vc/blog/2019/7/31/sovereign-cryptonetworks"
   Params:
     sortDate: "2019-07-31"
@@ -280,6 +318,7 @@
     externalSource: "placeholder.vc"
 -
   Title: "Murad Mahmudov - DCR Investment Thesis + SoV Narrative + Crypto Economics"
+  Author: "Murad Mahmudov"
   Permalink: "https://decredindepth.libsyn.com/murad-mahmudov-dcr-investment-thesis-sov-narrative-crypto-economics-0"
   Params:
     sortDate: "2019-07-15"
@@ -287,6 +326,7 @@
     externalSource: "decredindepth.libsyn.com"
 -
   Title: "Decred: What Gold And Bitcoin Wanted To Be"
+  Author: "Pascal Thellmann"
   Permalink: "https://seekingalpha.com/instablog/49962360-pascal-thellmann/5324856-decred-gold-bitcoin-wanted"
   Params:
     sortDate: "2019-07-08"
@@ -294,6 +334,7 @@
     externalSource: "seekingalpha.com"
 -
   Title: "Geron’s Take: Decred Aims to Reach Crypto’s Decentralized Ideals "
+  Author: "Tomio Geron"
   Permalink: "https://www.wsj.com/articles/gerons-take-decred-aims-to-reach-cryptos-decentralized-ideals-11552523191"
   Params:
     sortDate: "2019-03-13"
@@ -301,6 +342,7 @@
     externalSource: "wsj.com"
 -
   Title: "No More Trading Or Listing Fees? Decred Releases New DEX Proposal"
+  Author: "Leslie Ankney"
   Permalink: "https://www.forbes.com/sites/leslieankney/2019/02/04/no-more-trading-or-listing-fees-decred-releases-new-dex-proposal/#31b74e9135d9"
   Params:
     sortDate: "2019-02-04"
@@ -308,6 +350,7 @@
     externalSource: "forbes.com"
 -
   Title: "Who Should Hold Power? Decred Governance And What It Means For Investors"
+  Author: "Leslie Ankney"
   Permalink: "https://www.forbes.com/sites/leslieankney/2019/01/11/who-should-hold-power-decred-governance-and-what-it-means-for-investors/#282694e8e2ca"
   Params:
     sortDate: "2019-01-11"
@@ -315,6 +358,7 @@
     externalSource: "forbes.com"
 -
   Title: "Decred Is Turning Its Entire $21 Million Crypto Treasury Over to Investors"
+  Author: "Brady Dale"
   Permalink: "https://www.coindesk.com/decred-is-turning-its-entire-21-million-crypto-treasury-over-to-investors"
   Params:
     sortDate: "2018-10-16"
@@ -322,6 +366,7 @@
     externalSource: "coindesk.com"
 -
   Title: "Decred Adds Atomic Swap Support for Exchange-Free Cryptocurrency Trading"
+  Author: "Bitcoin Magazine"
   Permalink: "https://www.nasdaq.com/article/decred-adds-atomic-swap-support-for-exchange-free-cryptocurrency-trading-cm848329"
   Params:
     sortDate: "2017-09-20"

@@ -5927,6 +5927,14 @@ p.text-block-11 {
   margin-right: 5px;
 }
 
+.press__author {
+  color: #596D81;
+  font-size: 14px;
+  line-height: 24px;
+  transition: 0.25s ease-in-out;
+  margin-right: 5px;
+}
+
 .press__coverage-item:hover .press__title {
   color: #596D81;
 }
