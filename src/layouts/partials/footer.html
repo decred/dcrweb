@@ -22,7 +22,7 @@
             <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
                 <div class="footerblockstatsrow w-clearfix">
                     {{ with $current_release }}
-                        <a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="{{ .release_url_base }}/{{ .current_version }}" target="_blank" rel="noopener noreferrer">{{ .current_version }}</a>
+                        <a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="{{ .release_url_base }}{{ .current_version }}" target="_blank" rel="noopener noreferrer">{{ .current_version }}</a>
                     {{ end }}
                     <div class="footerblockstatsname">{{ T "general_release_stable" }}</div>
                 </div>

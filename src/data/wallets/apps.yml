@@ -16,7 +16,7 @@
       id: trezor
       links:
         - title: Decrediton
-          url: https://decred.org/release/#downloads
+          url: https://decred.org/wallets/#decrediton
         - title: Exodus
           url: https://www.exodus.io/decred-wallet
     - name: Ledger Live

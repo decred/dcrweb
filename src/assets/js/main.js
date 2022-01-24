@@ -171,6 +171,10 @@ $(document).ready(function () {
 	}
 
 	if (platform.os.family == "OS X") {
+
+		// If we detect OS X, we can't know if the user will want an amd or arm
+		// build. Just show the amd64 link which will work on both platforms.
+
 		$(".macdl").show();
 		$(".alldl").hide();
 
