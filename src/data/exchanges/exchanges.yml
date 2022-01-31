@@ -92,11 +92,11 @@
   logo_src: "cointree.jpg"
   name: CoinTree
 -
-  url: "https://okex.com/"
+  url: "https://okx.com/"
   tags:
     - "high-liquidity"
-  logo_src: "okex.jpg"
-  name: Okex
+  logo_src: "okx.png"
+  name: OKX
 -
   url: "https://www.huobi.com/"
   tags:
@@ -167,8 +167,8 @@
   url: "https://stealthex.io/"
   tags:
     - all
-  logo_src: "stealthex.jpg"
-  name: Stealthex
+  logo_src: "stealthex.png"
+  name: StealthEX
 -
   url: "https://catalx.io/"
   tags:
