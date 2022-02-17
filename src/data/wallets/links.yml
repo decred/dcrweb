@@ -2,29 +2,29 @@ decrediton:
     - title: macOS
       platform: macdl
       id: decreditonmac
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.0/decrediton-amd64-v1.7.0.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.1/decrediton-amd64-v1.7.1.dmg
       is_direct_download: true
 
     - title: macOS (M1)
       platform: macm1dl
       id: decreditonmacm1
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.0/decrediton-arm64-v1.7.0.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.1/decrediton-arm64-v1.7.1.dmg
       is_direct_download: true
 
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.0/decrediton-v1.7.0.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.1/decrediton-v1.7.1.AppImage
       is_direct_download: true
 
     - title: Windows
       platform: windl
       id: decreditonwindows
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.0/decrediton-v1.7.0.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.1/decrediton-v1.7.1.exe
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v170
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v171
 
 release_page_1_6:
   mac:
@@ -46,6 +46,6 @@ mobilewallets:
 
 commandline:
     - title: View on GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.7.0
+      url: https://github.com/decred/decred-release/releases/tag/v1.7.1
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v170
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v171
