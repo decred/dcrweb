@@ -15,10 +15,10 @@ params:
     social_media_links:
         -
             id: matrix
-            url: https://decred.org/matrix
+            url: https://chat.decred.org/
         -
             id: discord
-            url: https://discordapp.com/invite/GJ2GXfz
+            url: https://discord.gg/dXSmwvYury
         -
             id: twitter
             url: https://twitter.com/decredproject
@@ -66,10 +66,10 @@ languages:
             social_media_links:
                 -
                     id: matrix
-                    url: https://decred.org/matrix
+                    url: https://chat.decred.org/
                 -
                     id: discord
-                    url: https://discordapp.com/invite/GJ2GXfz
+                    url: https://discord.gg/dXSmwvYury
                 -
                     id: reddit
                     url: https://www.reddit.com/r/decred
