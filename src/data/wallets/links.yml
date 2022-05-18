@@ -2,29 +2,29 @@ decrediton:
     - title: macOS
       platform: macdl
       id: decreditonmac
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.2/decrediton-amd64-v1.7.2.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-amd64-v1.7.3.dmg
       is_direct_download: true
 
     - title: macOS (M1)
       platform: macm1dl
       id: decreditonmacm1
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.2/decrediton-arm64-v1.7.2.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-arm64-v1.7.3.dmg
       is_direct_download: true
 
     - title: Linux
       platform: linuxdl
       id: decreditonlinux
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.2/decrediton-v1.7.2.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-v1.7.3.AppImage
       is_direct_download: true
 
     - title: Windows
       platform: windl
       id: decreditonwindows
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.2/decrediton-v1.7.2.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-v1.7.3.exe
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v172
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v173
 
 release_page_1_6:
   mac:
