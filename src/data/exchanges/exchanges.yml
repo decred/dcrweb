@@ -30,12 +30,6 @@
   logo_src: "Poloniex.jpg"
   name: Poloniex
 -
-  url: "https://www.zhaobi.com/"
-  tags:
-    - all
-  logo_src: "Zhaobi.jpg"
-  name: Zhaobi
--
   url: "https://holytransaction.com/"
   tags:
     - all
@@ -152,12 +146,6 @@
   logo_src: "simpleswap.jpg"
   name: "Simple Swap"
 -
-  url: "https://www.lykke.com/trade/"
-  tags:
-    - all
-  logo_src: "lykke.jpg"
-  name: Lykke
--
   url: "https://www.sequoir.com/"
   tags:
     - fiat
@@ -214,12 +202,6 @@
   logo_src: "swapzone.png"
   name: "Swapzone"
 -
-  url: "https://www.firstkudi.pro/"
-  tags:
-    - "fiat"
-  logo_src: "firstkudipro.png"
-  name: "First Kudi Pro"
--
   url: "https://www.hotbit.io/"
   tags:
     - all
@@ -237,12 +219,6 @@
     - fiat
   logo_src: "wazirx.png"
   name: WazirX
--
-  url: "https://www.bitfinex.com/"
-  tags:
-    - fiat
-  logo_src: "bitfinex.png"
-  name: Bitfinex
 -
   url: "https://exchange.bitcoin.com/"
   tags:
