@@ -18,6 +18,6 @@ Users can begin performing exchanges between DCR, BTC and LTC using tools that t
 
 Users should note that on-chain atomic swaps are intended for simple exchanges that don't require the order book management of full-service exchanges. A more detailed technical brief has been posted on the Decred Blog.
 
-Users who require additional assistance can talk to the Decred team at: [decred.org/matrix/](https://decred.org/matrix/)
+Users who require additional assistance can talk to the Decred team at <https://chat.decred.org>.
 
 > "...one of the most interesting current projects, both for the current characteristics and those that will be implemented in the near future." — Crypto Currency
