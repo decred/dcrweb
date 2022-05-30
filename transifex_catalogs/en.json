@@ -5,6 +5,7 @@
   "general_javascript_warning": "JavaScript required.",
   "general_javascript_warning_description": "We're sorry, but this website doesn't work properly without JavaScript enabled.",
   "exchanges_title": "Exchanges",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "Digital currency exchanges provide an easy way to purchase and trade Decred (DCR). Disclaimer: Always do your own research (DYOR) before using a service. The safest way to store Decred is in a wallet where you exclusively control the private keys.",
   "title": "Decred - Secure. Adaptable. Sustainable.",
   "description": "Decred is an autonomous digital currency. With a hybrid consensus system, it is built to be a decentralized, sustainable, and self-ruling currency where stakeholders make the rules.",

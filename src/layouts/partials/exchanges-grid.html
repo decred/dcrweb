@@ -8,15 +8,22 @@
 <div class="subpage-content-header">
     <div class="text-block-5">{{ T "exchanges_subtitle" }}</div>
     <div class="subpage-content-header-footer">
-        <div class="subpage-description ex">{{ T "exchanges_description" }}</div>
-        <div class="ex-filter w-clearfix">
-            <a href="#" data-group="all" class="filter-button all is-checked w-button">{{ T "exchanges_showall" }}</a>
-            {{ range $id, $tag := $tags }}
-                <a href="#"
-                   data-tail="{{ $tag.name }}"
-                   data-group="{{ $id }}"
-                   class="filter-button {{  $id }} w-button"></a>
-            {{ end }}
+        <div class="subpage-description-wide">
+            <span class="modalparagraphbold">{{ T "warning" }}:</span>
+            {{ safeHTML (T "exchanges_disclaimer")  }}
+        </div>
+
+        <div style="position:relative;">
+            <div class="subpage-description ex">{{ T "exchanges_description" }}</div>
+            <div class="ex-filter w-clearfix">
+                <a href="#" data-group="all" class="filter-button all is-checked w-button">{{ T "exchanges_showall" }}</a>
+                {{ range $id, $tag := $tags }}
+                    <a href="#"
+                       data-tail="{{ $tag.name }}"
+                       data-group="{{ $id }}"
+                       class="filter-button {{  $id }} w-button"></a>
+                {{ end }}
+            </div>
         </div>
     </div>
 </div>

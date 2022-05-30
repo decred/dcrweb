@@ -5,6 +5,7 @@
   "general_javascript_warning": "Требуется JavaScript",
   "general_javascript_warning_description": "Для работы этого сайта необходимо включить JavaScript.",
   "exchanges_title": "Сервисы обмена",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "Проще всего купить или обменять Decred (DCR) с помощью цифровых сервисов обмена. Предупреждение. Тщательно проверяйте сервис, прежде чем воспользоваться его услугами. Надежнее всего хранить Decred в кошельке, ключи от которого контролируете исключительно вы.",
   "title": "Decred — автономная цифровая валюта",
   "description": "Decred — это автономная цифровая валюта, основанная на гибридной консенсусной системе. Она задумана как децентрализованная, стабильная и самоуправляющаяся валюта, работающая по правилам, которые устанавливают сами пользователи.",
