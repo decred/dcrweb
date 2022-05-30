@@ -5,6 +5,7 @@
   "general_javascript_warning": "JavaScriptが必要です",
   "general_javascript_warning_description": "申し訳ありませんが、このウェブサイトを正常に表示するにはJavaScriptを有効にする必要があります。",
   "exchanges_title": "取引所",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "Decred (DCR) は、デジタル通貨取引所で簡単に売買できます。免責事項：サービスをご利用になる前に、必ずご自身で必要な情報をご確認ください (DYOR)。Decredの安全な保管には、所有者が専用のプライベートキーで管理できるウォレットが最適です。",
   "title": "Decred - 自律的なデジタル通貨",
   "description": "Decredは自律的なデジタル通貨です。ハイブリッド型コンセンサスシステムでは、ステークホルダーがルールを作成するので、分散化された持続可能な自律的通貨が構築されます。",

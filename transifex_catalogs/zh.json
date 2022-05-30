@@ -5,6 +5,7 @@
   "general_javascript_warning": "JavaScript请求",
   "general_javascript_warning_description": "很抱歉，此网站在没有JavaScript的情况下不能正常工作。",
   "exchanges_title": "交易所",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "数字货币交易所提供了一种简单的购买和交易Decred（DCR）的方法。免责声明：在使用其服务之前，一定要谨慎自行研究。存储Decred的最安全方法永远是保存在一个只有您自己控制私钥的钱包中。",
   "title": "Decred - 拥有社区自治的数字货币",
   "description": "Decred 是拥有社区自治的数字货币。通过混合共识系统，使利益相关者可以制定规则，将其构建为去中心化、可持续和社区自治的数字货币。",

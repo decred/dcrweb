@@ -5,6 +5,7 @@
   "general_javascript_warning": "자바스크립트 필수",
   "general_javascript_warning_description": "죄송합니다. 이 웹사이트는 자바스크립트를 사용하도록 설정하지 않으면 제대로 작동하지 않습니다.",
   "exchanges_title": "환전",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "디지털 통화 환전을 통해 손쉽게 Decred(DCR)을 구매하고 거래할 수 있습니다. 고지 사항: 서비스를 사용하기 전에 항상 직접 알아보세요(DYOR: Do Your Own Research). 본인이 개인 키를 독점적으로 관리하는 월렛에 Decred를 저장하는 것이 가장 안전합니다.",
   "title": "Decred - 자율적인 가상 화폐",
   "description": "Decred는 자율적인 가상 화폐입니다. Decred는 혼합형 합의 투표 시스템을 통해 이해 관계자가 직접 규칙을 만드는 지속가능한 자기통치형 탈중앙적 화폐가 되도록 설계되었습니다.",

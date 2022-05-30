@@ -5,6 +5,7 @@
   "general_javascript_warning": "مطلوب جافاسكريبت",
   "general_javascript_warning_description": "نأسف، لكن هذا الموقع الإلكتروني لا يعمل بشكلٍ صحيح بدون تمكين جافاسكريبت.",
   "exchanges_title": "منصات التبادل",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "توفر منصات تبادل العملات الرقمية طريقة سهلة لشراء وتداول ديكريد (DCR). إخلاء المسؤولية: قم دائماً ببحثك الخاص (DYOR) قبل استخدام الخدمة. الطريقة الأكثر أماناً لتخزين ديكريد هي في محفظة حيث تتحكم بالمفاتيح الخاصة بشكل حصري.",
   "title": "ديكريد - عملة رقمية مستقلة",
   "description": "ديكريد عملة رقمية مستقلة. مع نظام إجماع هجين، تم بناؤها لتكون عملة لامركزية و مستديمة ذات حكم ذاتي حيث يتولى أصحاب الحصص وضع القواعد.",

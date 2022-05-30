@@ -5,6 +5,7 @@
   "general_javascript_warning": "جاوااسکریپت لازم است",
   "general_javascript_warning_description": "متأسفیم، اما این وب‌سایت بدون فعال بودن جاوااسکریپت درست کار نمی‌کند.",
   "exchanges_title": "مبادلات",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "مبادلات ارز دیجیتال روش آسانی برای خرید و تجارت «دکرید» (DCR) فراهم می‌آورد. سلب مسئولیت: قبل از استفاده از هر سرویسی، «همیشه خودتان درباره آن تحقیق کنید» (DYOR). ایمن‌ترین روش برای ذخیره کردن «دکرید» در کیف پولی است که در آن منحصراً خود شما کلیدهای خصوصی را کنترل می‌کنید.",
   "title": "Decred - ارز دیجیتال مستقل",
   "description": "Decred یک ارز دیجیتال مستقل است. این ارز با سیستم اجماع ترکیبی (جایی که ذینفعان قوانین را می سازند)،‌ برای غیرمتمرکز بودن، پایدار بودن و مستقل بودن ساخته شده است.",

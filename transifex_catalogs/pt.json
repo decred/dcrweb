@@ -5,6 +5,7 @@
   "general_javascript_warning": "JavaScript obrigatório",
   "general_javascript_warning_description": "Pedimos desculpa. Tem de ativar o JavaScript para o site funcionar corretamente.",
   "exchanges_title": "Exchanges",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "As exchanges de moedas digitais oferecem uma forma fácil de comprar e vender Decred (DCR). Isenção de responsabilidade: antes de utilizar um serviço, deve-se sempre pesquisar e investigar o mesmo. A forma mais segura de armazenar Decred é utilizar uma carteira digital, onde pode-se controlar chaves privadas de forma exclusiva.",
   "title": "Decred - Moeda Digital Autónoma",
   "description": "A Decred é uma moeda digital autónoma. Com um sistema híbrido consistente, é concebido para ser uma moeda descentralizada, sustentável e com regras próprias em que os investidores fazem as regras.",

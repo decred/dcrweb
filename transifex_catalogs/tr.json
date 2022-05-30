@@ -5,6 +5,7 @@
   "general_javascript_warning": "JavaScript gerekiyor",
   "general_javascript_warning_description": "Üzgünüz ancak bu İnternet Sitesi JavaScript etkinleştirilmeden düzgün çalışmamaktadır.",
   "exchanges_title": "Takaslar",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "Dijital para birimi takasları Decred (DCR) satın almak ve takas etmek için kolay bir yol sunar. Yasal Uyarı: Bir hizmeti kullanmadan önce daima kendi araştırmanızı yapın (DYOR). Decred saklamanın en güvenli yolu özel anahtarlarını sadece sizin kontrol ettiğiniz bir cüzdan kullanmaktır.",
   "title": "Decred - Özerk Dijital Para Birimi",
   "description": "Decred özerk bir dijital para birimidir. Karma oy birliği sistemiyle merkezi olmayan, sürdürülebilir ve kuralları paydaşların koyduğu kendi kendini yöneten bir para birimi olacak şekilde tasarlanmıştır.",

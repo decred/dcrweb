@@ -5,6 +5,7 @@
   "general_javascript_warning": "Wymagane środowisko JavaScript",
   "general_javascript_warning_description": "Przykro nam, ale ta strona nie działa prawidłowo bez włączonego środowiska JavaScript.",
   "exchanges_title": "Giełdy i kantory",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "Giełdy walut cyfrowych są łatwym sposobem na zakup i handel Decred (DCR). Uwaga: Zawsze rób własną analizę przed skorzystaniem z usługi. Najbezpieczniejszym miejscem do przechowywania Decred jest portfel, do którego tylko Ty masz klucze dostępu.",
   "title": "Decred — niezależna waluta cyfrowa",
   "description": "Decred to niezależna waluta cyfrowa. Dzięki zastosowaniu hybrydowego systemu uzyskiwania konsensusu jest to zdecentralizowana, rozwijana w sposób zrównoważony i samorządna waluta, której zasady działania określają interesariusze.",

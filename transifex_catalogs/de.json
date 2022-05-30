@@ -5,6 +5,7 @@
   "general_javascript_warning": "JavaScript erforderlich",
   "general_javascript_warning_description": "Leider funktioniert diese Website ohne JavaScript nicht ordnungsgemäß.",
   "exchanges_title": "Austauschen",
+  "exchanges_disclaimer": "None of the exchanges listed below other than <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dex.decred.org/\">DCRDEX</a> allow users to keep custody of their funds throughout the exchange process. Some centralized exchanges including the \"instant\" type may also request personal information in order to complete trades after funds have been deposited. Users are strongly advised to trade on DCRDEX to maximize their privacy and security of their funds. A <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=XaE_xzGKjeQ\">DCRDEX tutorial</a> is available.",
   "exchanges_description": "Der digitale Währungsumtausch ist eine einfache Möglichkeit, Decred (DCR) zu kaufen und damit zu handeln. Haftungsausschluss: Informieren Sie sich selbst (DYOR), bevor Sie einen Service nutzen. Am sichersten ist es, Decred in einer Wallet aufzubewahren, für die nur Sie über die privaten Schlüssel verfügen.",
   "title": "Decred – Autonome digitale Währung",
   "description": "Decred ist eine autonome digitale Währung. Mit einem hybriden Konsenssystem ist es als dezentralisierte, nachhaltige und selbstbestimmte Währung gestaltet, bei der die Stakeholder die Regeln bestimmen.",
