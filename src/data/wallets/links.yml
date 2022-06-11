@@ -26,6 +26,58 @@ decrediton:
     - title: Release notes
       url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v173
 
+godcr:
+    - title: macOS
+      platform: macdl
+      id: godcrmac
+      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/GoDCR-v1.7.0.dmg
+      is_direct_download: true
+
+    - title: Linux (amd64)
+      platform: linuxamddl
+      id: godcrlinuxamd
+      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-linux-amd64-v1.7.0.tgz
+      is_direct_download: true
+
+    - title: Linux (arm64)
+      platform: linuxarmdl
+      id: godcrlinuxarm
+      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-linux-arm64-v1.7.0.tgz
+      is_direct_download: true
+
+    - title: Windows
+      platform: windl
+      id: godcrwindows
+      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-windows-amd64-v1.7.0.zip
+      is_direct_download: true
+
+    # - title: FreeBSD (amd64)
+    #   platform: bsdamddl
+    #   id: godcrbsdamd
+    #   url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-freebsd13-amd64-v1.7.0.tgz
+    #   is_direct_download: true
+
+    # - title: FreeBSD (arm64)
+    #   platform: bsdarmdl
+    #   id: godcrbsdarm
+    #   url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-freebsd13-arm64-v1.7.0.tgz
+    #   is_direct_download: true
+
+    - title: Release notes
+      url: https://github.com/planetdecred/godcr/releases
+
+release_page_1_6:
+  mac:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.dmg
+  win64:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.exe
+  lintar:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.tar.gz
+  linapp:
+    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.AppImage
+  cli:
+    url: https://github.com/decred/decred-binaries/releases/tag/v1.6.3
+
 mobilewallets:
     - title: Android
       url: https://play.google.com/store/apps/details?id=com.decred.dcrandroid.mainnet

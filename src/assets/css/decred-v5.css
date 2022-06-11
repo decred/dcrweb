@@ -1789,6 +1789,10 @@ ul, li, nav {
   background-image: url('../images/wallets/decrediton.svg');
 }
 
+.section-card-title-download-page.godcr {
+  background-image: url('../images/wallets/decrediton.svg');
+}
+
 .section-card-title-download-page.mobilewallets {
   background-image: url('../images/wallets/ic_mobile.svg');
 }
