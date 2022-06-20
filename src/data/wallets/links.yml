@@ -51,18 +51,6 @@ godcr:
       url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-windows-amd64-v1.7.0.zip
       is_direct_download: true
 
-    # - title: FreeBSD (amd64)
-    #   platform: bsdamddl
-    #   id: godcrbsdamd
-    #   url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-freebsd13-amd64-v1.7.0.tgz
-    #   is_direct_download: true
-
-    # - title: FreeBSD (arm64)
-    #   platform: bsdarmdl
-    #   id: godcrbsdarm
-    #   url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-freebsd13-arm64-v1.7.0.tgz
-    #   is_direct_download: true
-
     - title: Release notes
       url: https://github.com/planetdecred/godcr/releases
 
@@ -83,6 +71,8 @@ mobilewallets:
       url: https://play.google.com/store/apps/details?id=com.decred.dcrandroid.mainnet
     - title: iOS
       url: https://apps.apple.com/us/app/decred-wallet/id1462247643
+    - title: Android APK
+      url: https://github.com/planetdecred/dcrandroid/releases/tag/v1.7.0
 
 commandline:
     - title: View on GitHub
