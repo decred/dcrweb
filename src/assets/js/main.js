@@ -1,9 +1,13 @@
+// Global vars.
 var API_ROOT = "https://api.decred.org";
 
+
+
+// Release page - add actions for "Start/Stop Mixer" button.
 $(document).ready(function () {
 
-	// Release page - add actions for "Start/Stop Mixer" button.
-	mixerBtn = $('#start-mixer-btn');
+	var mixerBtn = $('#start-mixer-btn');
+
 	mixerBtn.on('click', function() {
 		if (mixerBtn.hasClass("stopped")) {
 			mixerBtn.html("Stop&nbsp;mixer");
@@ -21,19 +25,14 @@ $(document).ready(function () {
 			$(".mixer-not-running-img").show();
 		}
 	});
+});
+
+
+
+// Contributors page.
+$(document).ready(function () {
 
 	var time = 100,
-
-		// get json
-		APIdc = API_ROOT + '/?c=dc',
-		active = 'active',
-
-		// first view
-		playButton = $('.play-modal'),
-		mobilePlayButton = $('.mobile-play-button'),
-		videoModal = $('.video-modal'),
-
-		// team subpage
 		teamFilterButton = $('.team-filter-button'),
 		teamMembers = $('.team-members'),
 		teamMember = $('.team-member'),
@@ -101,6 +100,19 @@ $(document).ready(function () {
 		teamDataBalloon.removeClass('active');
 	});
 
+
+});
+
+
+
+// Homepage video player.
+$(document).ready(function () {
+
+	var active = 'active',
+		playButton = $('.play-modal'),
+		mobilePlayButton = $('.mobile-play-button'),
+		videoModal = $('.video-modal');
+
 	playButton.add(mobilePlayButton).click( function() {
 		if($(this).is(playButton) || $(this).is(mobilePlayButton)) {
 			initMediaElement(function(media){
@@ -145,6 +157,18 @@ $(document).ready(function () {
 		});
 	}
 
+	if (typeof $('#mediaplayer').mediaelementplayer !== 'undefined') {
+        $('#mediaplayer').mediaelementplayer();
+	}
+});
+
+
+
+// All pages - footer download stats.
+$(document).ready(function () {
+
+	var APIdc = API_ROOT + '/?c=dc';
+
 	// get download_count from github
 	$.getJSON(APIdc, function(data) {
 		$('#footerDownloads').text(data[1]);
@@ -183,11 +207,9 @@ $(document).ready(function () {
 			$("#decreditonwindows").css({color:  "#a2a7b0"});
 		}
 	}
-
-	if (typeof $('#mediaplayer').mediaelementplayer !== 'undefined') {
-        $('#mediaplayer').mediaelementplayer();
-	}
 });
+
+
 
 var consolestyle = [
 	'background: linear-gradient(to right, #2970ff, #2ED6A1);',
@@ -195,11 +217,11 @@ var consolestyle = [
 	'font-family: monospace',
 	].join(';');
   
-  console.log(`%c
-  Stakey needs you! for a bug squishin' mission https://docs.decred.org/contributing/overview/
-    ┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐    ┌ᴗᴗᴗᴗᴗᴗ┐╭    ┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐    ┌ᴗᴗᴗᴗᴗᴗ┐╭ 
-   ╭╣● ▄  ●╠╯  ╰╣●    ●╠╯  ╰╣●   ● ╠╮  ╭╣● ▄▄ ●╠╯   ╭╣● ▄▄ ●╠╯  ╰╣●    ●╠╯  ╰╣●   ● ╠╮  ╭╣●  ▄ ●╠╯ 
-   ╯║      ║    ║   ▄  ║    ║  ▄▄  ║╰  ╯║      ║    ╯║      ║    ║  ▄▄  ║    ║  ▄   ║╰  ╯║      ║  
-    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝     ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝  
-      ┙  ┕        ┕  ┙        ┙  ┙        ┙  ┕         ┙  ┙        ┕  ┕        ┕  ┙        ┙  ┕    `
-  , consolestyle);
+console.log(`%c
+Stakey needs you! for a bug squishin' mission https://docs.decred.org/contributing/overview/
+┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐    ┌ᴗᴗᴗᴗᴗᴗ┐╭    ┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐    ┌ᴗᴗᴗᴗᴗᴗ┐╭ 
+╭╣● ▄  ●╠╯  ╰╣●    ●╠╯  ╰╣●   ● ╠╮  ╭╣● ▄▄ ●╠╯   ╭╣● ▄▄ ●╠╯  ╰╣●    ●╠╯  ╰╣●   ● ╠╮  ╭╣●  ▄ ●╠╯ 
+╯║      ║    ║   ▄  ║    ║  ▄▄  ║╰  ╯║      ║    ╯║      ║    ║  ▄▄  ║    ║  ▄   ║╰  ╯║      ║  
+╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝     ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝  
+	┙  ┕        ┕  ┙        ┙  ┙        ┙  ┕         ┙  ┙        ┕  ┕        ┕  ┙        ┙  ┕    `
+, consolestyle);
