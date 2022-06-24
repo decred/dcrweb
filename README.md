@@ -38,7 +38,6 @@ You should now be able to access the site at `http://localhost:1313`
 | Press coverage | `src/data/press/coverage.yml` ||
 | Download links | `src/data/wallets/links.yml` ||
 | Current release | `src/data/wallets/current_release.yml` | The current release as it appears in the footer|
-| Contributors      |  `src/data/contributors/*.yml` | Avatar images: `src/assets/images/contributors` |
 | Community channels    | `src/data/community/channels.yml` |Logo images: `src/assets/images/community` |
 | Exchanges             | `src/data/exchanges.*.yml` | Logo images: `src/assets/images/exchanges`|
 | History | `src/data/history/*.yml` | Edit timeline and stats section.
