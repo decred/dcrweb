@@ -1,396 +1,297 @@
 -
-  matrix_id: macsleven:decred.org
   twitter_alias: macsleven
   company_id: raedah_group
   group: development
   avatar_image: "team_51.svg"
   name: "Abubakar Suleiman"
   title: "Mobile Developer"
-  linkedin_url: "https://linkedin.com/in/macsleven"
-  medium_alias: macsleven
 -
-  matrix_id: ay-p:decred.org
   twitter_alias: "_alyp_"
   company_id: c0
   group: development
   avatar_image: "team_1.svg"
   name: "Alex Yocom-Piatt"
   title: Developer
-  github_id: alexlyp
 -
-  matrix_id: beansgum:decred.org
   twitter_alias: "beansgum"
   company_id: raedah_group
   group: development
   avatar_image: "team_46.svg"
   name: "Collins Olanrewaju"
   title: "Mobile Developer"
-  github_id: "C-ollins"
 -
-  matrix_id: davecgh:decred.org
   twitter_alias: "davecgh"
   company_id: c0
   group: development
   avatar_image: "team_2.svg"
   name: "Dave Collins"
   title: "Lead Developer"
-  github_id: davecgh
 -
-  matrix_id: dhill:decred.org
   twitter_alias: "dajohi"
   company_id: c0
   group: development
   avatar_image: "team_3.svg"
   name: "David Hill"
   title: developer
-  github_id: dajohi
 -
-  matrix_id: dnldd:matrix.org
   group: development
   avatar_image: "team_8.svg"
   name: "Donald Adu-Poku"
   title: developer
-  github_id: dnldd
 -
-  matrix_id: fernandoabolafio:matrix.org
   group: development
   avatar_image: "team_39.svg"
   name: "Fernando Abolafio"
   title: developer
-  linkedin_url: "https://www.linkedin.com/in/fernandoabolafio"
-  github_id: fernandoabolafio
 -
-  matrix_id: jholdstock:decred.org
   group: development
   avatar_image: "team_9.svg"
   name: "Jamie Holdstock"
   title: developer
-  github_id: jholdstock
 -
-  matrix_id: chappjc:decred.org
   twitter_alias: "chappjc"
   group: development
   avatar_image: "team_7.svg"
   name: "Jonathan Chappelow"
   title: Developer
-  github_id: chappjc
 -
-  matrix_id: jrick:zettaport.com
   twitter_alias: "joshrickmar"
   company_id: c0
   group: development
   avatar_image: "team_5.svg"
   name: "Josh Rickmar"
   title: developer
-  github_id: jrick
 -
-  matrix_id: lukebp:decred.org
   twitter_alias: "lukebp_"
   group: development
   avatar_image: "team_29.svg"
   name: "Luke Powell"
   title: "Developer"
 -
-  matrix_id: moo31337:decred.org
   twitter_alias: "marco_peereboom"
   company_id: c0
   group: development
   avatar_image: "team_6.svg"
   name: "Marco Peereboom"
   title: developer
-  github_id: marcopeereboom
 -
-  matrix_id: kyle:decred.org
   group: design
   avatar_image: "team_14.svg"
   name: "Kyle Chivers"
   title: "Motion Designer"
-  linkedin_url: "https://www.linkedin.com/in/firethought/"
 -
-  matrix_id: matheusd:matrix.org
   group: development
   avatar_image: "team_34.svg"
   name: "Matheus Degiovani"
   title: developer
-  linkedin_url: "https://br.linkedin.com/in/matheus-degiovani-69ab0166"
-  github_id: matheusd
 -
-  matrix_id: nick.k:decred.org
   company_id: block_42
   group: design
   avatar_image: "team_66.svg"
   name: "Nick Kaeshko"
   title: "Project Manager"
-  linkedin_url: "https://www.linkedin.com/in/kaeshko/"
 -
-  matrix_id: peter_zen:decred.org
   group: development
   avatar_image: "team_10.svg"
   name: "Peter Banik"
   title: developer
-  github_id: peterzen
 -
-  matrix_id: raedah:decred.org
   company_id: raedah_group
   group: development
   avatar_image: "team_45.svg"
   name: "Steven Wagner"
   title: Project Lead
-  github_id: raedah
 -
-  matrix_id: tiagoalvesdulce:matrix.org
   group: development
   avatar_image: "team_40.svg"
   name: "Tiago Alves"
   title: developer
-  linkedin_url: "https://www.linkedin.com/in/tiagoalvesdulce"
-  github_id: tiagoalvesdulce
 -
-  matrix_id: vctt:decred.org
   group: development
   avatar_image: "team_41.svg"
   name: "Victor Oliveira"
   title: developer
-  linkedin_url: "https://www.linkedin.com/in/victor-oliveira-3a9b8675"
-  github_id: vctt94
 -
-  matrix_id: lustosa:decred.org
   twitter_alias: "marcelolustosa"
   group: design
   avatar_image: "team_16.svg"
   name: "Marcelo Lustosa"
   title: illustrator
 -
-  matrix_id: mariapleshkova:decred.org
   company_id: block_42
   group: design
   avatar_image: "team_68.svg"
   name: "Maria Pleshkova"
   title: Designer
 -
-  matrix_id: saender:decred.org
   company_id: eeter
   group: design
   avatar_image: "team_17.svg"
   name: "Sander Meentalo"
   title: designer
 -
-  matrix_id: linnutee:decred.org
   company_id: eeter
   group: design
   avatar_image: "team_15.svg"
   name: "Tanel August Lind"
   title: "lead designer"
-  linkedin_url: "https://www.linkedin.com/in/tanel-august-lind-78556855/"
-  medium_alias: linnutee
 -
-  matrix_id: lindseymm:decred.org
   twitter_alias: "LindseyMelissaM"
   group: marketing
   avatar_image: "team_47.svg"
   name: "Lindsey McConaghy"
   title: "Public Relations"
-  linkedin_url: "https://www.linkedin.com/in/lindsey-melissa-mcconaghy-a5960822/"
 -
-  matrix_id: jy-p:decred.org
   company_id: c0
   group: strategy
   avatar_image: "team_22.svg"
   name: "Jake Yocom-Piatt"
   title: "Project Lead"
 -
-  matrix_id: jz:decred.org
   twitter_alias: "jz_bz"
   group: strategy
   avatar_image: "team_23.svg"
   name: "Jonathan Zeppettini"
   title: "International Ops Lead"
-  github_id: "jzbz"
 -
-  matrix_id: sefbkn:matrix.org
   group: development
   avatar_image: "team_72.svg"
   name: "Youssef Boukenken"
   title: developer
-  github_id: sefbkn
 -
-  matrix_id: richardred:decred.org
   group: strategy
   avatar_image: "team_65.svg"
   name: "Richard Red"
   title: "Research and Strategy"
-  github_id: RichardRed0x
-  medium_alias: "richardred"
 -
-  matrix_id: esizedave:decred.org
   group: community
   avatar_image: "team_75.svg"
   name: "David Habibi"
   title: "Community Manager (AU)"
   twitter_alias: davesaddress
 -
-  matrix_id: elianh:matrix.org
   group: community
   avatar_image: "team_74.svg"
   name: "Elian Huesca"
   title: "Latam Ops"
-  linkedin_url: ""
   twitter_alias: elianhuesca
-  medium_alias:
 -
-  matrix_id: arij:matrix.org
   twitter_alias: "in_insaf"
   group: community
   avatar_image: "team_69.svg"
   name: "Insaf Nori"
   title: "Community Manager (Middle East)"
 -
-  matrix_id: mmartins:matrix.org
   group: community
   avatar_image: "team_77.svg"
   name: "Marcelo Martins"
   title: "Community Manager (PT)"
-  linkedin_url: "https://www.linkedin.com/in/marcelomartins"
   twitter_alias: dcrStakeyClub
 -
-  matrix_id: donmario:decred.org
   group: community
   avatar_image: "team_78.svg"
   name: "Mariusz Szyma"
   title: "Community Manager (PL)"
-  linkedin_url: "https://www.linkedin.com/in/szyma/"
   twitter_alias: Donmario
-  github_id: szyma
 -
-  matrix_id: morphymore:decred.org
   group: design
   avatar_image: "team_76.svg"
   name: "Morphy Tsai"
   title: "Designer"
   twitter_alias: morphymore
 -
-  matrix_id: kozel:decred.org
   group: community
   avatar_image: "team_79.svg"
   name: "Tomasz Porwit"
   title: "Education And Outreach"
-  github_id: artikozel
-  medium_alias: artikozel
 -
-  matrix_id: anshawblack:decred.org
   group: marketing
   avatar_image: "angel_dominguez.svg"
   title: "Marketing"
   name: "Mr. Black"
 -
-  matrix_id: thi4go:matrix.org
   group: development
   avatar_image: "thiago_de_freitas_figueiredo.svg"
   title: "Developer"
   name: "Thiago de Freitas Figueiredo"
 -
-  matrix_id: dominic.d:decred.org
   group: community
   avatar_image: "dominic_ting.svg"
   title: "Community Manager (CN)"
   name: "Dominic Ting"
   twitter_alias: "wanbihou"
 -
-  matrix_id: michae2xl:decred.org
   group: community
   avatar_image: "michael_guimaraes.svg"
   title: "Community Manager"
   name: "Michael Guimaraes"
   twitter_alias: "michae2xl"
 -
-  matrix_id: VictorGuedes:decred.org
   group: development
   avatar_image: "victor_guedes.svg"
   name: "Victor Guedes"
   title: "Developer"
   twitter_alias: "_victorguedes"
-  github_id: "victorgcramos"
 -
-  matrix_id: amass:decred.org
   group: development
   avatar_image: "amir_massarwa.svg"
   name: "Amir Massarwa"
   title: "Developer"
-  github_id: "amass01"
 -
-  matrix_id: exitus:decred.org
   group: marketing
   avatar_image: "mike_winslow.svg"
   name: "Mike Winslow"
   title: "Media Production"
   twitter_alias: "coveryfire7777"
-  github_id: "exitus1"
 -
-  matrix_id: guisso:decred.org
   group: development
   avatar_image: "fernando_guisso.svg"
   name: "Fernando Guisso"
   title: developer
-  github_id: fguisso
   twitter_alias: "_fguisso"
 -
   name: "Carolina Ibarra"
   title: "Operations Colombia"
-  matrix_id: caibarrad:decred.org
   twitter_alias: "caibarrad"
   group: community
   avatar_image: "caibarrad.svg"
-  linkedin_url: https://www.linkedin.com/in/caibarrad
 -
   name: "Victor Rubin"
   title: "Content Production"
-  matrix_id: victorarubin:matrix.org
   twitter_alias: "victorarubin"
   group: design
   avatar_image: "arubin.svg"
 -
   name: "Lorena Franco"
   title: "Social Media Manager"
-  matrix_id: francov_:decred.org
   twitter_alias: "Francov99_"
   group: community
   avatar_image: "francov.svg"
-  github_id: francov99
 -
   name: "Pablito Labarta"
   title: "Content Production"
-  matrix_id: pablito:decred.org
   twitter_alias: "plabarta_"
-  github_id: plabarta
   group: design
   avatar_image: "pablito.svg"
-  medium_alias: pablit0
 -
   name: "Ana Chávez"
   title: "BizDev and Outreach"
-  matrix_id: adcade:matrix.org
   twitter_alias: "addcade"
   group: community
   avatar_image: "adcade.svg"
 -
   name: "Ignacio Rodriguez"
   title: "Designer"
-  matrix_id: nachito:decred.org
-  github_id: Reidiojed
   group: design
   avatar_image: "nachito.svg"
 -
   name: "Tomas Grooss"
   title: "Operations Argentina"
-  matrix_id: tomee:decred.org
-  github_id: TomeeGrooss
   group: community
   avatar_image: "tomee.svg"
   twitter_alias: "tomasgroos"
 -
   name: "Camilo Rodriguez"
   title: "Outreach Argentina"
-  matrix_id: camilolwii:matrix.org
-  github_id: camilolwi
   group: community
   avatar_image: "camilo.svg"
