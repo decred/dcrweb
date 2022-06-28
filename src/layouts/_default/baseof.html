@@ -40,13 +40,6 @@
       
         {{ partial "_css_builder" (dict "bundle" "main.css" "resources" (slice "css/modern-normalize.css" "css/components.css" "css/fonts.css" "css/decred-v5.css" "css/dataTables.css" )) }}
 
-        <!--  Only the release page uses scss instead of raw css.  -->
-        {{ if eq .Section "release" }}
-          {{ $options := (dict "targetPath" "release.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-          {{ $releaseStyle := resources.Get "scss/release.scss" | resources.ToCSS $options | resources.Fingerprint  }}
-          <link rel="stylesheet" href="{{ $releaseStyle.Permalink }}">
-        {{ end }}
-      
         <!--  Custom favicon  -->
         <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=yHh3NA">
         <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png?v=yHh3NA" sizes="32x32">

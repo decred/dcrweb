@@ -1,34 +1,6 @@
 // Global vars.
 var API_ROOT = "https://api.decred.org";
 
-
-
-// Release page - add actions for "Start/Stop Mixer" button.
-$(document).ready(function () {
-
-	var mixerBtn = $('#start-mixer-btn');
-
-	mixerBtn.on('click', function() {
-		if (mixerBtn.hasClass("stopped")) {
-			mixerBtn.html("Stop&nbsp;mixer");
-			mixerBtn.removeClass("stopped");
-			$(".privacyArrows").css("visibility", "visible");
-			$("#mixerStatus").text("Mixer is running");
-			$(".mixer-running-img").show();
-			$(".mixer-not-running-img").hide();
-		} else {
-			mixerBtn.html("Start&nbsp;mixer");
-			mixerBtn.addClass("stopped");
-			$(".privacyArrows").css("visibility", "hidden");
-			$("#mixerStatus").text("Mixer is not running");
-			$(".mixer-running-img").hide();
-			$(".mixer-not-running-img").show();
-		}
-	});
-});
-
-
-
 // Homepage video player.
 $(document).ready(function () {
 
