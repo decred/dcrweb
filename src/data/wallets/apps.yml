@@ -3,6 +3,9 @@
     - name: Decrediton
       id: decrediton
       is_third_party: false
+    - name: GoDCR
+      id: godcr
+      is_third_party: false
     - name: Mobile Wallets
       id: mobilewallets
       is_third_party: false

@@ -84,6 +84,7 @@
   "downloads_category_3rd_party_wallets": "3rd party wallets",
   "downloads_category_hardware_wallets": "Hardware wallets",
   "downloads_app_decrediton": "Graphical UI wallet for Windows, macOS and Linux.",
+  "downloads_app_godcr": "A lightweight SPV GUI wallet built purely in Go.",
   "downloads_app_commandline": "A cross-platform, automatic installer/updater for the command-line applications.",
   "downloads_app_mobilewallets": "Decred mobile wallets available for both Android and iOS platforms.",
   "downloads_app_exodus": "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets.",
