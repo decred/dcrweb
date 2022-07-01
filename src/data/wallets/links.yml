@@ -52,19 +52,7 @@ godcr:
       is_direct_download: true
 
     - title: Release notes
-      url: https://github.com/planetdecred/godcr/releases
-
-release_page_1_6:
-  mac:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.dmg
-  win64:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.exe
-  lintar:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.tar.gz
-  linapp:
-    url: https://github.com/decred/decred-binaries/releases/download/v1.6.3/decrediton-v1.6.3.AppImage
-  cli:
-    url: https://github.com/decred/decred-binaries/releases/tag/v1.6.3
+      url: https://github.com/planetdecred/godcr/releases/tag/v1.7.0
 
 mobilewallets:
     - title: Android
