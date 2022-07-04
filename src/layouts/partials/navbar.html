@@ -52,9 +52,9 @@
                                 <div class="navigation-bottom__heading">{{ T "nav_community" }}</div>
                             </div>
                             <div class="w-col w-col-6 w-col-small-6">
-                                <a href="https://chat.decred.org" target="_blank" rel="noopener noreferrer" class="nav-matrix-white nav-social-link w-inline-block"></a>
-                                <a href="https://discord.gg/dXSmwvYury" target="_blank" rel="noopener noreferrer" class="nav-discord-white nav-social-link w-inline-block"></a>
-                                <a href="https://t.me/decred" target="_blank" rel="noopener noreferrer" class="nav-telegram-white nav-social-link w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.matrix.url   }}" target="_blank" rel="noopener noreferrer" class="nav-matrix-white   nav-social-link w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.discord.url  }}" target="_blank" rel="noopener noreferrer" class="nav-discord-white  nav-social-link w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.telegram.url }}" target="_blank" rel="noopener noreferrer" class="nav-telegram-white nav-social-link w-inline-block"></a>
                                 <p class="nav-text">{{ T "nav_join_chat" }}</p>
                             </div>
                             <div class="w-col w-col-6 w-col-small-6">
@@ -65,10 +65,10 @@
                         
                         <div class="w-row">
                             <div class="w-col w-col-12 w-col-small-12">
-                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/decredproject" class="nav-social-link nav-twitter-white w-inline-block"></a>
-                                <a href="https://www.reddit.com/r/decred/" target="_blank" rel="noopener noreferrer" class="nav-reddit-white nav-social-link w-inline-block"></a>
-                                <a href="https://medium.com/decred" target="_blank" rel="noopener noreferrer" class="nav-m-white nav-social-link w-inline-block"></a>
-                                <a href="https://www.youtube.com/decredchannel" target="_blank" rel="noopener noreferrer" class="nav-social-link nav-youtube-white w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.twitter.url }}" target="_blank" rel="noopener noreferrer" class="nav-twitter-white nav-social-link w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.reddit.url  }}" target="_blank" rel="noopener noreferrer" class="nav-reddit-white  nav-social-link w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.medium.url  }}" target="_blank" rel="noopener noreferrer" class="nav-medium-white  nav-social-link w-inline-block"></a>
+                                <a href="{{ $.Site.Data.community.channels.youtube.url }}" target="_blank" rel="noopener noreferrer" class="nav-youtube-white nav-social-link w-inline-block"></a>
                                 <br>
                                 <p class="nav-text">{{ T "nav_explore_community" }}</p>
                             </div>

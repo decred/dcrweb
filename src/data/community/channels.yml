@@ -1,44 +1,36 @@
--
+matrix:
   url: "https://chat.decred.org/"
   img_src: "dcr-community-platforms-matrix.png"
   name: "Matrix (via Element)"
--
+discord:
   url: "https://discord.gg/dXSmwvYury"
   img_src: "dcr-community-platforms-discord.png"
   name: Discord
--
+telegram:
   url: "https://t.me/Decred"
   img_src: "dcr-community-platforms-telegram.png"
   name: Telegram
--
+twitter:
   url: "https://twitter.com/decredproject"
   img_src: "dcr-community-platforms-twitter.png"
   name: Twitter
--
+facebook:
   url: "https://facebook.com/decredproject"
   img_src: "dcr-community-platforms-facebook.png"
   name: Facebook
--
+reddit:
   url: "https://reddit.com/r/decred"
   img_src: "dcr-community-platforms-reddit.png"
   name: Reddit
--
+youtube:
   url: "https://www.youtube.com/decredchannel"
   img_src: "dcr-community-platforms-youtube.png"
   name: YouTube
--
+medium:
   url: "https://medium.com/decred"
   img_src: "dcr-community-platforms-medium.png"
   name: Medium
--
-  url: "https://mp.weixin.qq.com/s/6FY8MR7rUXzou2Cy1-oEfQ"
-  img_src: "dcr-community-platforms-wechat.png"
-  name: WeChat
--
-  url: "https://weibo.com/DecredProject"
-  img_src: "dcr-community-platforms-weibo.png"
-  name: Weibo
--
+keybase:
   url: "https://keybase.io/team/decred"
   img_src: "dcr-community-platforms-keybase.png"
   name: Keybase
