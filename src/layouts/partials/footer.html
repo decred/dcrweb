@@ -32,9 +32,12 @@
                 </div>
             </div>
             <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
-                {{ range $.Site.Params.social_media_links }}
-                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}" class="icon w-inline-block {{ .id }}"></a>
-                {{ end }}
+                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.matrix.url  }}" class="icon w-inline-block matrix"></a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.discord.url }}" class="icon w-inline-block discord"></a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.twitter.url }}" class="icon w-inline-block twitter"></a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.reddit.url  }}" class="icon w-inline-block reddit"></a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.youtube.url }}" class="icon w-inline-block youtube"></a>
+                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.medium.url  }}" class="icon w-inline-block medium"></a>
             </div>
         </div>
     </div>

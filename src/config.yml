@@ -12,27 +12,6 @@ disableKinds:
 - term
 
 params:
-    social_media_links:
-        -
-            id: matrix
-            url: https://chat.decred.org/
-        -
-            id: discord
-            url: https://discord.gg/dXSmwvYury
-        -
-            id: twitter
-            url: https://twitter.com/decredproject
-        -
-            id: reddit
-            url: https://www.reddit.com/r/decred
-        -
-            id: youtube
-            url: https://www.youtube.com/decredchannel
-        -
-            id: medium
-            url: https://medium.com/decred
-
-
     js_resources:
         critical:
             - "js/modernizr.custom.min.js"
@@ -63,33 +42,11 @@ languages:
         weight: 20
         params:
             languageDir: ltr
-            social_media_links:
-                -
-                    id: matrix
-                    url: https://chat.decred.org/
-                -
-                    id: discord
-                    url: https://discord.gg/dXSmwvYury
-                -
-                    id: reddit
-                    url: https://www.reddit.com/r/decred
-                -
-                    id: qq
-                    url: http://qm.qq.com/cgi-bin/qm/qr?k=Jl72I0gE6ggrKzF0PdSayXGLXyIj8od0
-                -
-                    id: wechat
-                    url: https://mp.weixin.qq.com/s/6FY8MR7rUXzou2Cy1-oEfQ
-                -
-                    id: youku
-                    url: https://i.youku.com/decredproject
-                -
-                    id: chainnode
-                    url: https://www.chainnode.com/forum/305
     pt:
         languageName: "PT"
         weight: 50
         params:
-                languageDir: ltr
+            languageDir: ltr
     ar:
         languageName: العَرَبِيَّة
         weight: 90
