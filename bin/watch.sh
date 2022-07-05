@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 bin/i18n-convert-transifex-hugo.sh
 
 # Remove old hugo output before building

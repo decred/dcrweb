@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Requires docker 17.05 or higher
 
+set -e
+
 echo ""
 echo "================================="
 echo "  Building dcrweb docker image   "
