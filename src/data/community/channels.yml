@@ -1,36 +1,57 @@
-matrix:
-  url: "https://chat.decred.org/"
-  img_src: "dcr-community-platforms-matrix.png"
+##
+## Community communication channels
+##
+##    "id"        - unique ID for the channel, not displayed on website
+##    "url"       - url to the channel
+##    "name"      - display name for the channel, displayed on website
+##    "highlight" - whether the channel should be highlighted on the top row
+##    "footer"    - whether the channel should be included in the page footer
+
+-
+  id: politeia
+  url: "https://proposals.decred.org"
+  name: "Proposals"
+  highlight: true
+  footer: false
+-
+  id: voting
+  url: "https://voting.decred.org"
+  name: "Voting Dashboard"
+  highlight: true
+  footer: false
+-
+  id: github
+  url: "https://github.com/decred"
+  name: "GitHub"
+  highlight: true
+  footer: false
+-
+  id: matrix
+  url: "https://chat.decred.org"
   name: "Matrix (via Element)"
-discord:
+  highlight: false
+  footer: true
+-
+  id: discord
   url: "https://discord.gg/dXSmwvYury"
-  img_src: "dcr-community-platforms-discord.png"
   name: Discord
-telegram:
+  highlight: false
+  footer: true
+-
+  id: telegram
   url: "https://t.me/Decred"
-  img_src: "dcr-community-platforms-telegram.png"
   name: Telegram
-twitter:
+  highlight: false
+  footer: false
+-
+  id: twitter
   url: "https://twitter.com/decredproject"
-  img_src: "dcr-community-platforms-twitter.png"
   name: Twitter
-facebook:
-  url: "https://facebook.com/decredproject"
-  img_src: "dcr-community-platforms-facebook.png"
-  name: Facebook
-reddit:
+  highlight: false
+  footer: true
+-
+  id: reddit
   url: "https://reddit.com/r/decred"
-  img_src: "dcr-community-platforms-reddit.png"
   name: Reddit
-youtube:
-  url: "https://www.youtube.com/decredchannel"
-  img_src: "dcr-community-platforms-youtube.png"
-  name: YouTube
-medium:
-  url: "https://medium.com/decred"
-  img_src: "dcr-community-platforms-medium.png"
-  name: Medium
-keybase:
-  url: "https://keybase.io/team/decred"
-  img_src: "dcr-community-platforms-keybase.png"
-  name: Keybase
+  highlight: false
+  footer: true

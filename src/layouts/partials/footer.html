@@ -1,44 +1,41 @@
+<footer class="g-0">
+    <div class="container">
+        <div class="row flex-column-reverse flex-xl-row">
+            
+            <div class="col-12 col-xl-3 d-none d-xl-block">
+                <div>
+                    <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer">{{ T "general_copyright" }}</a>
+                </div>
+            </div>
+            
+            <div class="col-12 col-xl-3">
+                <div class="d-flex flex-row flex-wrap flex-xl-column align-items-start">
+                    <a class="footer-link" href="{{ "brand/" | relLangURL }}">{{ T "nav_brand_resources" }}</a>
+                    <a class="footer-link" href="{{ "press/" | relLangURL }}">{{ T "nav_in_the_press" }}</a>
+                    <a class="footer-link" href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">{{ T "nav_become_contributor" }}</a>
+                </div>
+            </div>
 
-{{ $current_release := .Site.Data.wallets.current_release }}
+            <div class="col-12 col-xl-3">
+                <div class="d-flex flex-row flex-wrap flex-xl-column align-items-start">
+                    <a class="footer-link" href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer">{{ T "nav_tech_overview" }}</a>
+                    <a class="footer-link" href="https://dcrdata.decred.org/"                target="_blank" rel="noopener noreferrer">{{ T "nav_dcrdata" }}</a>
+                    <a class="footer-link" href="https://timestamp.decred.org"               target="_blank" rel="noopener noreferrer">{{ T "nav_time" }}</a>
+                    <a class="footer-link" href="https://bounty.decred.org"                  target="_blank" rel="noopener noreferrer">{{ T "nav_bugbounty" }}</a>
+                </div>
+            </div>
 
-<div class="footer">
-    <div class="footercolumns width1100">
-        <div class="footerrows w-row">
-            <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3">
-                <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="footerblocklinkdev footer-margin-bottom">{{ T "general_copyright" }}</a>
-            </div>
-            <div class="footerrowscolumn1 w-col w-col-3 w-col-medium-3">
-                <a href="{{ "brand/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_brand_resources" }}</a>
-                <a href="{{ "press/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_press" }}</a>
-                <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_become_contributor" }}</a>
-                <a href="{{ "brief/" | relLangURL }}" class="footerblocklink transition">{{ T "nav_business_brief" }}</a>
-            </div>
-            <div class="footerrowscolumn1 w-col w-col-2 w-col-medium-2">
-                <a href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_tech_overview" }}</a>
-                <a href="https://dcrdata.decred.org/"  target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_dcrdata" }}</a>
-                <a href="https://timestamp.decred.org" target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_time" }}</a>
-                <a href="https://bounty.decred.org"    target="_blank" rel="noopener noreferrer" class="footerblocklink transition">{{ T "nav_bounty" }}</a>
-            </div>
-            <div class="footerblockstats footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
-                <div class="footerblockstatsrow w-clearfix">
-                    {{ with $current_release }}
-                        <a id="footerRelease" class="backgroundturquoise borderradius4 dropshadow footerblockstatslink" href="{{ .release_url_base }}{{ .current_version }}" target="_blank" rel="noopener noreferrer">{{ .current_version }}</a>
+            <div class="col-12 col-xl-3">
+                <div class="d-flex flex-row flex-wrap align-items-start justify-content-between justify-content-xl-start pt-4 pt-md-0">
+                    {{ range where $.Site.Data.community.channels "footer" true }}
+                        <a href="{{ .url }}" class="social-icon d-inline-block {{ .id }}" target="_blank" rel="noopener noreferrer"></a>
                     {{ end }}
-                    <div class="footerblockstatsname">{{ T "general_release_stable" }}</div>
-                </div>
-                <div class="footerblockstatsrow w-clearfix">
-                    <a id="footerDownloads" class="backgroundwashedblue borderradius4 dropshadow footerblockstatslink" href="{{ "wallets/" | relLangURL }}">457k {{ T "general_total" }}</a>
-                    <div class="footerblockstatsname">{{ T "general_downloads" }}</div>
+                    {{ range where $.Site.Data.community.publications "footer" true }}
+                        <a href="{{ .url }}" class="social-icon d-inline-block {{ .id }}" target="_blank" rel="noopener noreferrer"></a>
+                    {{ end }}
                 </div>
             </div>
-            <div class="footerblockicon footerrowscolumn1 w-clearfix w-col w-col-2 w-col-medium-2">
-                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.matrix.url  }}" class="icon w-inline-block matrix"></a>
-                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.discord.url }}" class="icon w-inline-block discord"></a>
-                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.twitter.url }}" class="icon w-inline-block twitter"></a>
-                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.reddit.url  }}" class="icon w-inline-block reddit"></a>
-                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.youtube.url }}" class="icon w-inline-block youtube"></a>
-                <a target="_blank" rel="noopener noreferrer" href="{{ $.Site.Data.community.channels.medium.url  }}" class="icon w-inline-block medium"></a>
-            </div>
+
         </div>
     </div>
-</div>
+</footer>

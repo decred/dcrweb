@@ -1,143 +1,219 @@
-{{ define "content-top" }}{{ end }}
-
-
+{{ define "page-title" }}
+    {{ T "title" }}
+{{ end }}
 
 {{ define "fronta" }}
+<div class="landing-fronta g-0">
+    <div class="container h-100">
 
-    {{ if .IsHome }}
-    {{ $download_links := where (index .Site.Data.wallets.links "decrediton") "is_direct_download" true }}
-    <div class="fronta landing video-header">
-        <div class="_960 subpage-header"><a href="{{ "/" | relLangURL }}" class="subpage-logo-dark w-inline-block"></a></div>
-        <div class="_960 subpage-header">
-            <div class="landing-title">{{ T "landing_opener" }}</div>
-            <div class="d-flex"> 
-                <a class="play-btn play-modal" href="#"><img src="{{ .Site.BaseURL }}/images/play.svg" alt=""><span>{{ T "home_watch_video" }}</span></a>
-                <a class="wallet-btn alldl" href="{{ "/wallets/" | relLangURL }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
-                {{ range $download_links }}
-                <a class="wallet-btn os-specific {{ .platform }}" href="{{ .url }}"><img src="{{ .Site.BaseURL }}/images/wallet.svg" alt=""> {{ T "home_download_wallet" }}</a>
-                <div class="all-downloads os-specific {{ .platform }}">{{ $msg_id := print "home_decrediton_for_" .platform }} {{ T $msg_id  }} <br /><a href="{{ "/wallets/" | relLangURL }}" class="wallet-alld">{{ T "home_all_downloads" }} →</a></div>
-                {{ end }}
-            </div>
-        </div>
+        <div class="d-flex flex-column justify-content-center h-100">
 
-        <div class="_960">
-            <div class="homepage-ann">
-                <!-- When this homepage ann banner is removed, reset css:
-                    .below.landing {
-                        margin-top: -6rem: 
-                    }
-                -->
-                {{ $annicon := resources.Get "/images/ann.gif" }}
-                <div class="homepage-ann-icon" style="background-image:url('{{ $annicon.Permalink }}');">
+            <div class="fronta-center flex-column flex-xl-row">
+                <div class="title">
+                    <span class="dcr">Decred&nbsp;<span class="light-hyphen">—</span></span>
+                    <span>{{ T "landing_opener" }}</span>
                 </div>
-                <div class="rowcol">
-                    <div class="homepage-ann-text">
-                        <h1>
-                            New release available
-                        </h1>
-                        <p>
-                            Use DCRDEX inside Decrediton and vote on four new consensus changes. Upgrade to the 1.7 release now!
-                        </p>
+                
+                <div class="fronta-buttons flex-row flex-md-column flex-lg-row flex-xl-column justify-content-start"> 
+                    <a class="col-12 col-md-auto btn wallet-btn" id="alldl" href="{{ "/wallets/" | relLangURL }}">{{ T "home_download_wallet" }}</a>
+                    {{ range where .Site.Data.wallets.wallets "id" "decrediton" }}
+                        {{ range where .links "is_direct_download" true }}
+                            <a class="col-12 col-md-auto btn wallet-btn os-specific" id="{{ .platform }}" href="{{ .url }}">{{ T "home_download_wallet" }}</a>
+                        {{ end }}
+                    {{ end }}
+                    <a class="col-12 col-md-auto btn exchange-btn" href="{{ "/exchanges/" | relLangURL }}">{{ T "nav_exchanges" }}</a>
+                </div>
+            </div>
+    
+            <div class="fronta-bottom">
+                <div class="container d-flex flex-row">
+                    <div class="socials col-md-4 d-none d-md-flex">
+                        {{ range where $.Site.Data.community.channels "id" "matrix" }}
+                            <a class="social {{ .id }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer"></a>
+                        {{ end }}
+                        {{ range where $.Site.Data.community.channels "id" "discord" }}
+                            <a class="social {{ .id }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer"></a>
+                        {{ end }}
+                        {{ range where $.Site.Data.community.channels "id" "telegram" }}
+                            <a class="social {{ .id }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer"></a>
+                        {{ end }}
+                        {{ range where $.Site.Data.community.channels "id" "twitter" }}
+                            <a class="social {{ .id }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer"></a>
+                        {{ end }}
                     </div>
-                    <div>
-                        <a class="button" href="{{ "/wallets/" | relLangURL }}">
-                            Download&nbsp;Now
+                    
+                    <div class="see-more col-12 col-md-4">
+                        <a href="#content">
+                            <div>
+                                See More
+                            </div>
+                            <div class="down-arrow">
+                            </div>
                         </a>
                     </div>
+                    <div class="col-4 d-none d-md-flex"></div>
                 </div>
             </div>
-        </div>
 
+        </div>
+        
     </div>
-    {{ end }}
+    
+</div>
+
 {{ end }}
 
 {{ define "main" }}
+<div id="content"></div>
 
-  {{ if .IsHome }}
-  <div class="full-width landing-content">
-    <div class="_960">
-        <div class="landing-content-bg landingbox-secure">
-            <div>
-                <p class="heading-text-block">{{ T "landing_01_headline" }}</p>
-                <p class="landing-text-block">{{ T "landing_01_text"}}</p>
+<div class="landing-content sovereignty g-0">
+    
+    <div class="landing-grad"></div>
+
+    <div class="container">
+
+        <div class="landing-box">
+            
+            <div class="landing-wrapper">
+                <p class="headline">{{ T "landing_sovereignty_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                <p class="text">{{ T "landing_sovereignty_text"}}</p>
             </div>
-            <div class="landing-content-link">
-                <a href="{{ "security/" | relLangURL }}">{{ T "landing_01_link1"}} →</a> <a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer">{{ T "landing_01_link2"}} →</a> <a href="https://github.com/decred/" target="_blank" rel="noopener noreferrer">{{ T "landing_01_link3"}} →</a>
-            </div>
-        </div>
-        <div class="landing-content-bg landingbox-adaptable">
-            <div>
-                <p class="heading-text-block">{{ T "landing_02_headline" }}</p>
-                <p class="landing-text-block">{{ T "landing_02_text"}} </p>
-            </div>
-            <div class="landing-content-link">
-                <a href="{{ "adaptability/" | relLangURL }}">{{ T "landing_02_link1"}} →</a>
-                <a href="https://proposals.decred.org" target="_blank" rel="noopener noreferrer">{{ T "nav_politeia"}} →</a>
-                <a href="https://voting.decred.org" target="_blank" rel="noopener noreferrer">{{ T "landing_02_link2"}} →</a>
-            </div>
-        </div>
-        <div class="landing-content-bg landingbox-sustainable">
-            <div>
-                <p class="heading-text-block">{{ T "landing_03_headline" }}</p>
-                <p class="landing-text-block">{{ T "landing_03_text"}}</p>
-            </div>
-            <div class="landing-content-link">
-                <a href="{{ "sustainability/" | relLangURL }}">{{ T "landing_03_link1"}} →</a>
-                <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">{{ T "landing_03_link2"}} →</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="landing-bg landingbox-exchanges">
-                <a href="{{ "exchanges/" | relLangURL }}">
-                    <div class="landing-bg__content">
-                        <p class="landing-heading-block">{{ T "landing_04_link" }} →</p>
-                    </div>
+            
+
+            <div class="links">
+                <a href="https://docs.decred.org/governance/overview/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_sovereignty_link1" }}</span><span class="link-arrow">&nbsp;→</span>
                 </a>
-            </div>
-            <div class="landing-bg landingbox-docs">
-                <a href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer">
-                    <div class="landing-bg__content">
-                        <p class="landing-heading-block">{{ T "landing_05_link" }} →</p>
-                    </div>
-                </a>
-            </div>
-            <div class="landing-bg landingbox-community">
-                <a href="{{ "community/" | relLangURL }}">
-                    <div class="landing-bg__content">
-                        <p class="landing-heading-block">{{ T "landing_06_link" }} →</p>
-                    </div>
-                </a>
-            </div>
-            <div class="landing-bg landingbox-wallets">
-                <a href="{{ "wallets/" | relLangURL }}">
-                    <div class="landing-bg__content">
-                        <p class="landing-heading-block">{{ T "landing_07_link" }} →</p>
-                    </div>
+                <a href="https://voting.decred.org" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_02_link2" }}</span><span class="link-arrow">&nbsp;→</span>
                 </a>
             </div>
         </div>
     </div>
 </div>
-<div class="full-width latest-news">
-    <div class="_960">
-        <div class="d-flex latest-news__title">
-            <p>{{ T "landing_latestnews" }}</p>
-            <a href="{{ "press/" | relLangURL }}">{{ T "landing_seemore" }} →</a>
-        </div>
-        <div class="subpage-content-section">
-            <div class="press press__coverage subpage-content w-clearfix active">
-                {{ $pressPages := where .Site.RegularPages "Section" "=" "press" }}
-                {{ $coveragePages := .Site.Data.press.coverage }}
-                {{ $allNews := append $coveragePages $pressPages }}
-                {{ $sortedNews := sort $allNews "Params.sortDate" "desc" }}
-                {{ partial "press/coverage-list" (first 5 $sortedNews) }}
+
+<div class="landing-content privacy right g-0">
+    
+    <div class="landing-grad"></div>
+
+    <div class="container">
+        
+        <div class="landing-box">
+            
+            <div class="landing-wrapper">
+                <p class="headline">{{ T "landing_privacy_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                <p class="text">{{ T "landing_privacy_text"}} </p>
+            </div>
+            
+
+            <div class="links">
+                <a href="https://docs.decred.org/privacy/cspp/overview/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_privacy_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
+                <a href="https://dcrdata.decred.org/charts?chart=coin-supply&visibility=true-true-true" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_privacy_link2" }}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
-  {{ end }}
+<div class="landing-content treasury g-0">
+    
+    <div class="landing-grad"></div>
+
+    <div class="container">
+        
+        <div class="landing-box">
+            
+            <div class="landing-wrapper">
+                <p class="headline">{{ T "landing_treasury_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                <p class="text">{{ T "landing_treasury_text"}}</p>
+            </div>
+            
+
+            <div class="links">
+                <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_treasury_link1"}}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
+
+                <a href="https://proposals.decred.org/?tab=approved" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "nav_politeia"}}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="landing-content resolve right g-0">
+    
+    <div class="landing-grad"></div>
+
+    <div class="container">
+
+        <div class="landing-box">
+            
+            <div class="landing-wrapper">
+                <p class="headline">{{ T "landing_resolve_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                <p class="text">{{ T "landing_resolve_text"}}</p>
+            </div>
+            
+
+            <div class="links">
+                <a href="https://docs.decred.org/proof-of-stake/overview/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_resolve_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="landing-content freedom g-0">
+    
+    <div class="landing-grad"></div>
+
+    <div class="container">
+        
+        <div class="landing-box">
+            
+            <div class="landing-wrapper">
+                <p class="headline">{{ T "landing_freedom_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                <p class="text">{{ T "landing_freedom_text"}}</p>
+            </div>
+            
+
+            <div class="links">
+                <a href="https://docs.decred.org/governance/decred-constitution/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_freedom_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="landing-content insights right g-0">
+    
+    <div class="landing-grad"></div>
+
+    <div class="container">
+        
+        <div class="landing-box">
+            
+            <div class="landing-wrapper">
+                <p class="headline">{{ T "landing_insights_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                <p class="text">{{ T "landing_insights_text"}}</p>
+            </div>
+            
+
+            <div class="links">
+                <a href="https://dcrdata.decred.org/" target="_blank" rel="noopener noreferrer">
+                    <span class="link-text">{{ T "landing_insights_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 {{ end }}
 

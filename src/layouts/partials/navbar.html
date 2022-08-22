@@ -1,92 +1,61 @@
-<div class="_960">
-    <div class="navigation w-clearfix">
-
-        <div class="dcr-nav-menu-container">
-            <input class="dcr-nav-menu-toggler" type="checkbox">
-        
-            <div class="dcr-nav-menu">
-                
-                <div class="navigation-top">
-                    <div class="nav-links-wrap w-clearfix">
-                        <nav id="menu">
-                            <ul class="parent-menu">
-                                <li>
-                                    <a href="{{ .Site.BaseURL | relLangURL  }}" class="navigation-link">{{ T "nav_intro" }}</a>
-                                </li>
-                                <li><a href="#" class="navigation-link">{{T "nav_whatis"}} →</a>
-                                    <ul>
-                                        <li><a href="{{ "security/" | relLangURL }}" class="navigation-link">{{ T "nav_security" }}</a></li>
-                                        <li><a href="{{ "adaptability/" | relLangURL }}" class="navigation-link">{{ T "nav_adaptability" }}</a></li>
-                                        <li><a href="{{ "sustainability/" | relLangURL }}" class="navigation-link">{{ T "nav_sustainability" }}</a></li>
-                                        <li><a href="{{ "history/" | relLangURL }}" class="navigation-link">{{ T "nav_pastfuture" }}</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="navigation-link">{{ T "nav_getstarted" }} →</a>
-                                    <ul>
-                                        <li><a href="{{ "wallets/" | relLangURL }}" class="navigation-link">{{ T "nav_downloads" }}</a></li>
-                                        <li><a href="{{ "exchanges/" | relLangURL }}" class="navigation-link">{{ T "nav_exchanges" }}</a></li>
-                                        <li><a href="{{ "vsp/" | relLangURL }}" class="navigation-link">{{ T "nav_stakingvoting" }}</a></li>
-                                        <li><a href="https://proposals.decred.org" target="_blank" rel="noopener noreferrer" class="navigation-link external">{{T "nav_politeia" }}</a></li>
-                                        <li><a href="https://dcrdata.decred.org" target="_blank" rel="noopener noreferrer" class="navigation-link external">{{T "nav_networkstats" }}</a></li>
-                                        <li><a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer" class="navigation-link external">{{ T "nav_bugbounty" }}</a></li>
-                                        <li><a href="{{ "community/" | relLangURL }}" class="navigation-link">{{ T "nav_community" }}</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#" class="navigation-link">{{ T "nav_insights_resources" }} →</a>
-                                    <ul>
-                                        <li><a href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer" class="navigation-link external">{{ T "nav_documentation" }}</a></li>
-                                        <li><a href="https://github.com/decred" target="_blank" rel="noopener noreferrer" class="navigation-link external">{{ T "nav_development" }}</a></li>
-                                        <li><a href="{{ "brief/" | relLangURL }}" class="navigation-link">{{ T "nav_business_brief" }}</a></li>
-                                        <li><a href="{{ "brand/" | relLangURL }}" class="navigation-link">{{ T "nav_brand_resources" }}</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="{{ "press/" | relLangURL }}" class="navigation-link">{{ T "nav_news_posts" }}</a></li>
-                            </ul>
-                        </nav> 
-                    </div>
-                </div>
-                <div class="navigation-bottom">
-                    <div class="nav-social w-clearfix">
-                        <div class="w-row mb-33">
-                            <div class="w-col w-col-12">
-                                <div class="navigation-bottom__heading">{{ T "nav_community" }}</div>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6">
-                                <a href="{{ $.Site.Data.community.channels.matrix.url   }}" target="_blank" rel="noopener noreferrer" class="nav-matrix-white   nav-social-link w-inline-block"></a>
-                                <a href="{{ $.Site.Data.community.channels.discord.url  }}" target="_blank" rel="noopener noreferrer" class="nav-discord-white  nav-social-link w-inline-block"></a>
-                                <a href="{{ $.Site.Data.community.channels.telegram.url }}" target="_blank" rel="noopener noreferrer" class="nav-telegram-white nav-social-link w-inline-block"></a>
-                                <p class="nav-text">{{ T "nav_join_chat" }}</p>
-                            </div>
-                            <div class="w-col w-col-6 w-col-small-6">
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/decred" class="nav-github-white nav-social-link w-inline-block"></a><br>
-                                <p class="nav-text">{{ T "nav_cointribute_repos" }}</p>
-                            </div>
-                        </div>
-                        
-                        <div class="w-row">
-                            <div class="w-col w-col-12 w-col-small-12">
-                                <a href="{{ $.Site.Data.community.channels.twitter.url }}" target="_blank" rel="noopener noreferrer" class="nav-twitter-white nav-social-link w-inline-block"></a>
-                                <a href="{{ $.Site.Data.community.channels.reddit.url  }}" target="_blank" rel="noopener noreferrer" class="nav-reddit-white  nav-social-link w-inline-block"></a>
-                                <a href="{{ $.Site.Data.community.channels.medium.url  }}" target="_blank" rel="noopener noreferrer" class="nav-medium-white  nav-social-link w-inline-block"></a>
-                                <a href="{{ $.Site.Data.community.channels.youtube.url }}" target="_blank" rel="noopener noreferrer" class="nav-youtube-white nav-social-link w-inline-block"></a>
-                                <br>
-                                <p class="nav-text">{{ T "nav_explore_community" }}</p>
-                            </div>
-                        </div>
-                        <div class="nav-social-localized" translate>
-                            <!-- localized social media links -->
-                        </div>
-                    </div>
-                </div>
-            
+<div class="fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark g-0">
+    
+        <div class="container-md" style="height: 100%">
+            <div>
+                {{ if .IsHome }}
+                    <a class="navbar-brand dcr-logo" href="#top"></a>
+                {{ else }}
+                    <a class="navbar-brand dcr-logo" href="{{ .Site.BaseURL | relLangURL }}"></a>
+                {{ end }}
             </div>
-
+            
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="navbar-collapse collapse" id="collapse-nav">
+                <ul class="navbar-nav ms-auto pb-4 pb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link {{ if eq .Section "wallets" }}active{{end}}" href="{{ "wallets/" | relLangURL }}">
+                            {{ T "nav_downloads" }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ if eq .Section "exchanges" }}active{{end}}" href="{{ "exchanges/" | relLangURL }}">
+                            {{ T "nav_exchanges" }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ if eq .Section "community" }}active{{end}}" href="{{ "community/" | relLangURL }}">
+                            {{ T "nav_community" }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer">
+                            {{ T "nav_documentation" }}
+                        </a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ .Site.Language.LanguageName }}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            {{ range $.Site.Home.AllTranslations }}
+                                {{ if not (eq .Language.LanguageName $.Site.Language.LanguageName) }}
+                                <li>
+                                    <a class="dropdown-item" href="{{ .Permalink }}" data-language="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+                                </li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    </li>
+    
+                </ul>
+            
+    
+          </div>
         </div>
-        
-        {{ if .IsHome }}
-            {{ partial "lang-selector.html" . }}
-        {{ end }}
-
-    </div>
-
+    </nav>
 </div>

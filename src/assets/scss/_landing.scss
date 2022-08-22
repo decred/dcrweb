@@ -1,0 +1,473 @@
+#content {
+    position: absolute; top: calc(100vh - #{$navbar-height});
+}
+
+.landing-fronta {
+    height: calc(100vh - #{$navbar-height});
+
+    background: linear-gradient(200deg, #0f2666 0%, #091440 62%, #091440 100%);
+    background-image: url('../images/landing-bg/xl.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    @include media-breakpoint-down(xl) {
+        background-image: url('../images/landing-bg/lg.svg');
+    }
+    @include media-breakpoint-down(lg) {
+        background-image: url('../images/landing-bg/md.svg');
+    }
+    @include media-breakpoint-down(md) {
+        background-image: url('../images/landing-bg/sm.svg');
+    }
+
+    .fronta-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: $navbar-height;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            margin-right: 51px;
+            margin-bottom: 32px;
+
+            font-family: "dcrweb-poppins", "Verdana", sans-serif;;
+            font-size: 65px;
+            line-height: 71px;
+            font-weight: bold;
+            letter-spacing: 1.36px;
+            color: white;
+
+            @include media-breakpoint-down(xl) {
+                line-height: 65px;
+                margin-right: 0;
+            }
+
+            @include media-breakpoint-down(md) {
+                font-size: 55px;
+                line-height: 55px;
+                letter-spacing: 0.71px;
+            }
+
+            .dcr {
+                text-transform: uppercase;
+            }
+        }
+
+        .fronta-buttons {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+
+            .btn {
+                padding: 10px 21px;
+                border-radius: 100px;
+                font-size: 18px;
+                line-height: 31px;
+                font-weight: bold;
+                text-decoration: none;
+                transition: background-color 0.13s ease-in-out;
+                white-space: nowrap;
+                
+                
+                &.exchange-btn {
+                    color: $dark-blue;
+                    background-color: $turquoise;
+                    
+                    &:hover,
+                    &:focus {
+                        background-color: rgba($turquoise, 0.89);
+                    }
+                }
+                
+                &.wallet-btn {
+                    color: $white;
+                    background-color: $light-blue;
+                    margin: 0 12px 21px 0;
+                    
+                    &:hover,
+                    &:focus {
+                        background-color: rgba($light-blue, 0.89);
+                    }
+                    
+                    &#alldl {
+                        display: block;
+                    }
+                    
+                    &.os-specific {
+                        display: none;
+                    }
+
+                    @include media-breakpoint-down(lg) {
+                        margin: 0 0 13px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .fronta-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 26px;
+
+        .socials {
+            display: flex;
+            flex-direction: row;
+
+            .social {
+                margin: 8px;
+                height: 30px;
+                width: 30px;
+                background-size: 30px 30px;
+                background-repeat: no-repeat;
+                opacity: 0.34;
+                transition: opacity 0.13s ease-in-out;
+
+                &:hover,
+                &:focus {
+                    opacity: 0.55;
+                }
+
+                &.discord {
+                    background-image: url('../images/social-icons/discord.svg');
+                }
+
+                &.telegram {
+                    background-image: url('../images/social-icons/telegram.svg');
+                }
+
+                &.twitter {
+                    background-image: url('../images/social-icons/twitter.svg');
+                }
+
+                &.matrix {
+                    background-image: url('../images/social-icons/matrix.svg');
+                }
+            }
+        }
+
+        .see-more a {
+            color: $white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            opacity: 0.60;
+            transition: opacity 0.08s ease-in-out;
+
+            .down-arrow {
+                margin-top: 8px;
+                height: 16px;
+                width: 32px;
+                background-image: url("../images/white-down-arrow.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+
+            &:hover,
+            &:focus {
+                opacity: 0.89;
+            }
+        }
+    }
+}
+
+$left-grad:  transparent linear-gradient(270deg, #09144021 0%, #091440   100%) 0% 0% no-repeat padding-box;
+$right-grad: transparent linear-gradient(270deg, #091440   0%, #09144021 100%) 0% 0% no-repeat padding-box;
+$down-grad:  transparent linear-gradient(0deg,   #09144021 0%, #091440   100%) 0% 0% no-repeat padding-box;
+
+.landing-content {
+    color: $white;
+    height: 377px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    
+    padding-top: 34px;
+    padding-bottom: 34px;
+
+    @include media-breakpoint-down(xl) {
+        height: 322px;
+    }
+    
+    @include media-breakpoint-down(md) {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    .landing-grad {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: $left-grad;
+        @include media-breakpoint-down(md) {
+            background: $down-grad !important;
+        }
+    }
+    
+    &.right {
+        .landing-grad {
+            background: $right-grad;
+        }
+        .landing-box {
+            @include media-breakpoint-up(md) {
+                align-items: flex-end;
+                text-align: right;
+            }
+        }
+    }
+
+
+    &.sovereignty {
+        background-image: -webkit-image-set(
+            url("../images/landing/sm/sovereignty.jpg") 1x,
+            url("../images/landing/sm/sovereignty@2x.jpg") 2x
+        );
+        
+        @include media-breakpoint-up(md) {
+            background-image: -webkit-image-set(
+                url("../images/landing/md/sovereignty.jpg") 1x,
+                url("../images/landing/md/sovereignty@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(lg) {
+            background-image: -webkit-image-set(
+                url("../images/landing/lg/sovereignty.jpg") 1x,
+                url("../images/landing/lg/sovereignty@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(xl) {
+            background-image: -webkit-image-set(
+                url("../images/landing/xl/sovereignty.jpg") 1x,
+                url("../images/landing/xl/sovereignty@2x.jpg") 2x
+            );
+        }
+    }
+    
+    &.privacy {
+        background-image: -webkit-image-set(
+            url("../images/landing/sm/privacy.jpg") 1x,
+            url("../images/landing/sm/privacy@2x.jpg") 2x
+        );
+        
+        @include media-breakpoint-up(md) {
+            background-image: -webkit-image-set(
+                url("../images/landing/md/privacy.jpg") 1x,
+                url("../images/landing/md/privacy@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(lg) {
+            background-image: -webkit-image-set(
+                url("../images/landing/lg/privacy.jpg") 1x,
+                url("../images/landing/lg/privacy@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(xl) {
+            background-image: -webkit-image-set(
+                url("../images/landing/xl/privacy.jpg") 1x,
+                url("../images/landing/xl/privacy@2x.jpg") 2x
+            );
+        }
+    }
+
+    &.treasury {
+        background-image: -webkit-image-set(
+            url("../images/landing/sm/treasury.jpg") 1x,
+            url("../images/landing/sm/treasury@2x.jpg") 2x
+        );
+
+        @include media-breakpoint-up(md) {
+            background-image: -webkit-image-set(
+                url("../images/landing/md/treasury.jpg") 1x,
+                url("../images/landing/md/treasury@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(lg) {
+            background-image: -webkit-image-set(
+                url("../images/landing/lg/treasury.jpg") 1x,
+                url("../images/landing/lg/treasury@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(xl) {
+            background-image: -webkit-image-set(
+                url("../images/landing/xl/treasury.jpg") 1x,
+                url("../images/landing/xl/treasury@2x.jpg") 2x
+            );
+        }
+    }
+
+    &.resolve {
+        background-image: -webkit-image-set(
+            url("../images/landing/sm/resolve.jpg") 1x,
+            url("../images/landing/sm/resolve@2x.jpg") 2x
+        );
+
+        @include media-breakpoint-up(md) {
+            background-image: -webkit-image-set(
+                url("../images/landing/md/resolve.jpg") 1x,
+                url("../images/landing/md/resolve@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(lg) {
+            background-image: -webkit-image-set(
+                url("../images/landing/lg/resolve.jpg") 1x,
+                url("../images/landing/lg/resolve@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(xl) {
+            background-image: -webkit-image-set(
+                url("../images/landing/xl/resolve.jpg") 1x,
+                url("../images/landing/xl/resolve@2x.jpg") 2x
+            );
+        }
+    }
+
+    &.freedom {
+        background-image: -webkit-image-set(
+            url("../images/landing/sm/freedom.jpg") 1x,
+            url("../images/landing/sm/freedom@2x.jpg") 2x
+        );
+
+        @include media-breakpoint-up(md) {
+            background-image: -webkit-image-set(
+                url("../images/landing/md/freedom.jpg") 1x,
+                url("../images/landing/md/freedom@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(lg) {
+            background-image: -webkit-image-set(
+                url("../images/landing/lg/freedom.jpg") 1x,
+                url("../images/landing/lg/freedom@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(xl) {
+            background-image: -webkit-image-set(
+                url("../images/landing/xl/freedom.jpg") 1x,
+                url("../images/landing/xl/freedom@2x.jpg") 2x
+            );
+        }
+    }
+
+    &.insights {
+        background-image: -webkit-image-set(
+            url("../images/landing/sm/powerful-insights.jpg") 1x,
+            url("../images/landing/sm/powerful-insights@2x.jpg") 2x
+        );
+
+        @include media-breakpoint-up(md) {
+            background-image: -webkit-image-set(
+                url("../images/landing/md/powerful-insights.jpg") 1x,
+                url("../images/landing/md/powerful-insights@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(lg) {
+            background-image: -webkit-image-set(
+                url("../images/landing/lg/powerful-insights.jpg") 1x,
+                url("../images/landing/lg/powerful-insights@2x.jpg") 2x
+            );
+        }
+        @include media-breakpoint-up(xl) {
+            background-image: -webkit-image-set(
+                url("../images/landing/xl/powerful-insights.jpg") 1x,
+                url("../images/landing/xl/powerful-insights@2x.jpg") 2x
+            );
+        }
+    }    
+
+    .container {
+        height: 100%;
+
+        .landing-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            
+
+            .landing-wrapper {
+
+                max-width: 45%;
+
+                @include media-breakpoint-down(lg) {
+                    max-width: 100%;
+                }
+
+                .headline {
+                    font-size: 34px;
+                    line-height: 41px;
+                    margin-bottom: 13px;
+                    font-weight: bold;
+                    @include media-breakpoint-down(md) {
+                        font-size: 30px;
+                        line-height: 36px;
+                    }
+                }
+        
+                .text {
+                    font-size: 21px;
+                    line-height: 25px;
+                    margin-bottom: 0;
+                    
+                    @include media-breakpoint-down(lg) {
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+                }
+
+            }
+            
+    
+            .links {
+                a {
+                    display: block;
+                    font-size: 15px;
+                    line-height: 19px;
+                    color: $white;
+                    text-decoration: none;
+                    margin-bottom: 5px;
+    
+                    .link-text {
+                        text-decoration: underline;
+                    }
+    
+                    .link-arrow {
+                        opacity: 0.34;
+                        font-size: 20px;
+                        transition: opacity 0.08s ease-in-out;
+                    }
+    
+                    &:hover,
+                    &:focus {
+                        .link-arrow {
+                            opacity: 0.55;
+                        }
+                    }
+    
+                }
+            }
+        }
+    }
+}

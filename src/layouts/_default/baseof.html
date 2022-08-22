@@ -4,15 +4,9 @@
     <head>
         <meta charset="utf-8">
 
-        {{ if .IsHome }}
-          <title>{{ T "title" }}</title>
-          <meta property="og:title"      content="{{ T "title" }}" >
-          <meta property="twitter:title" content="{{ T "title" }}" >
-        {{ else }}
-          <title>{{ block "page-title" . }}{{ end }}</title>
-          <meta property="og:title"      content="Decred - {{ block "page-title" . }}{{ end }}">
-          <meta property="twitter:title" content="{{ T "title" }}" >
-        {{ end }}
+        <title>{{ block "page-title" . }}{{ end }}</title>
+        <meta property="og:title"      content="{{ block "page-title" . }}{{ end }}">
+        <meta property="twitter:title" content="{{ block "page-title" . }}{{ end }}" >
 
         <meta name="description"         content='{{ T "description" }}'>
         <meta name="viewport"            content="width=device-width, initial-scale=1" >
@@ -26,19 +20,13 @@
         <meta name="twitter:image"       content="https://decred.org/og-logo.png"/>
         <meta name="twitter:description" content="{{ T "description" }}"/>
       
-        <!-- [if lt IE 9]><script src="{{ .Site.BaseURL }}/js/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-      
-        <script>
-          ! function(o, c) {
-            var n = c.documentElement,
-                    t = " w-mod-";
-            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-          }(window, document);
-        </script>
         <link href="/images/32.png" rel="shortcut icon" type="image/x-icon">
         <link href="/images/256.png" rel="apple-touch-icon">
       
-        {{ partial "_css_builder" (dict "bundle" "main.css" "resources" (slice "css/modern-normalize.css" "css/components.css" "css/fonts.css" "css/decred-v5.css" "css/dataTables.css" )) }}
+        <!-- Compile and load scss. -->
+        {{ $scssOptions := (dict "targetPath" "decred-v6.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+        {{ $v6Style := resources.Get "scss/decred-v6.scss" | resources.ToCSS $scssOptions | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $v6Style.Permalink }}" integrity="{{ $v6Style.Data.Integrity }}">
 
         <!--  Custom favicon  -->
         <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=yHh3NA">
@@ -47,144 +35,35 @@
         <link rel="manifest" href="/images/favicon/manifest.json?v=yHh3NA">
         <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=yHh3NA" color="#2973ff">
         <link rel="shortcut icon" href="/images/favicon/favicon.ico?v=yHh3NA">
-        <meta name="apple-mobile-web-app-title" content="Decred - Secure. Adaptable. Sustainable.">
-        <meta name="application-name" content="Decred - Secure. Adaptable. Sustainable.">
+        <meta name="apple-mobile-web-app-title" content="Decred — Money Evolved">
+        <meta name="application-name" content="Decred — Money Evolved">
         <meta name="msapplication-TileColor" content="#2973ff">
         <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png?v=fi5jKKtbwv">
         <meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=fi5jKKtbwv">
         <meta name="theme-color" content="#ffffff">
-        <style>
-          @media (min-width: 1024px) and (max-width: 1212px) {
-            .logo {
-              margin-left: -20px;
-            }
-            .slogan,
-            .description {
-              margin-left: 105px;
-            }
-          }
-          @media (min-width: 992px) and (max-width: 1024px) {
-            .front {
-              width: 480px;
-            }
-            .width1100 {
-              width: 100%;
-              padding-left: 60px;
-              padding-right: 60px;
-            }
-            /*footer*/
-            .footerrowscolumn1.footerblockstats,
-            .footerrowscolumn1.footerblockicon {
-              width: 20.666667%;
-            }
-            .networkstatistics {
-              width: 237px;
-            }
-            .column.percentmined {
-              width: 100%;
-            }
-            .column.supplydistribution {
-              width: 397px;
-            }
-            .column.development {
-              margin-left: 23px;
-              padding-left: 27px;
-            }
-            .column {
-              margin-bottom: 20px;
-            }
-          }
-          .text a,
-          .text a:active,
-          .text a:focus {
-            color: #69d3f5 !important;
-            text-decoration: none !important;
-          }
-          .text a:hover {
-            text-decoration: underline !important;
-          }
-      
-        </style>
-
-        <!-- hide lottie players when javascript is disabled -->
-        <noscript>
-          <style> lottie-player { display: none } </style>
-        </noscript>
       
     </head>
 
-  <body class="body">
-
-    {{ if .IsHome }}
-
-        <div class="landing-gray-bg">
-
-            {{ block "content-top" . -}}{{- end }}
-
-            {{ block "fronta" . }}
-                <div class="fronta subpage video-header">
-                    <video autoplay loop muted poster="/videos/headers/{{ .Section }}/fallback.jpg">
-                        <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.mp4" type="video/mp4">
-                        <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.webm" type="video/webm">
-                        <source src="{{ .Site.BaseURL }}/videos/headers/{{ .Section }}/video.ogv" type="video/ogg">
-                    </video>
-                    <div class="_960 subpage-header">
-                        <a href="{{ .Site.BaseURL | relLangURL  }}" class="subpage-logo w-inline-block"></a>
-                    </div>
-                    <div class="_960 subpage-header">
-                        <div class="subpage-title">{{ block "header" . }}{{ end }}</div>
-                    </div>
-                </div>
-            {{ end }}
-
-            <div class="below subpage landing">
-            {{ block "main" . -}}{{- end }}
-            {{ partial "footer.html" . }}
-            </div>
-        </div>
-
-    {{ else }}
-
-        {{ block "content-top" . }}{{ end }}
-
-        {{ block "fronta" . -}}{{- end }}
-
-        <div class="below subpage {{ .Section }}">
-          {{ block "main" . -}}{{- end }}
-          {{ partial "footer.html" . }}
-        </div>
-    {{ end }}
+  <body id="top">
 
     {{ partial "navbar.html" . }}
-
-    {{ if .IsHome }}
-        {{ partial "video-modal.html" . }}
-    {{ end }}
     
-    {{ if eq .Section "security" }}
-        {{ partial "video-modal-security.html" . }}
-    {{ end }}
+    <div class="navbar-margin">
+      {{ block "fronta" . }}
+      {{ end }}
+  
+      {{ block "main" . }}{{ end }}
+      
+      {{ partial "footer.html" . }}
+      
+      {{ $jsFiles := slice }}
+      {{ range $.Site.Params.js_resources }}
+          {{ $jsFiles = $jsFiles | append ( resources.Get . ) }}
+      {{ end }}
+      {{ $js := $jsFiles | resources.Concat "main.js" | resources.Minify | resources.Fingerprint "sha512" }}
+    </div>
 
-    {{ if eq .Section "sustainability" }}
-        {{ partial "video-modal-sustainability.html" . }}
-    {{ end }}
-
-    {{ if eq .Section "adaptability" }}
-        {{ partial "video-modal-adaptability.html" . }}
-    {{ end }}
-
-    {{ if eq .Section "landing" }}
-        {{ partial "video-modal.html" . }}
-    {{ end }}
-
-
-    {{ partial "_js_builder" (dict "bundle" "main.js" "resources" $.Site.Params.js_resources.critical ) }}
-
-    {{ if ne .IsHome true }}
-        {{ partial "_js_builder" (dict "bundle" "extra.js" "resources" $.Site.Params.js_resources.extra ) }}
-    {{ end }}
-
-    {{ block "custom-assets" . -}}{{- end }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
   </body>
 </html>

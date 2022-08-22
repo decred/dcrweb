@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg14"
+   version="1.1"
+   viewBox="0 0 25.062 25.063"
+   height="25.063"
+   width="25.062">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2DD8A3;
+      }
+    </style>
+  </defs>
+  <g
+     id="Group_33"
+     data-name="Group 33"
+     transform="translate(-1247.469,-1500)">
+    <g
+       id="Group_32"
+       data-name="Group 32">
+      <rect
+         id="Rectangle_44"
+         data-name="Rectangle 44"
+         class="cls-1"
+         width="34"
+         height="34"
+         transform="translate(1243,1495.531)"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </g>
+  </g>
+  <g
+     id="Group_34"
+     data-name="Group 34"
+     transform="translate(-1247.469,-1500)">
+    <path
+       id="Path_40"
+       data-name="Path 40"
+       class="cls-2"
+       d="m 1272.531,1500 h -22 v 3.063 h -3.062 v 22 h 22 V 1522 h 3.062 z m -4.062,24.063 h -20 v -20 h 2.062 V 1522 h 17.938 z m 0,-3.063 h -16.938 v -16.937 h 16.938 z m 3.062,0 h -2.062 v -17.937 h -17.938 V 1501 h 20 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_41"
+       data-name="Path 41"
+       class="cls-2"
+       d="m 1262.5,1509.031 v 2 h -8 v 1 h 11 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_42"
+       data-name="Path 42"
+       class="cls-2"
+       d="m 1257.5,1516.031 v -2 h 8 v -1 h -11 z"
+       style="fill:#2dd8a3" />
+  </g>
+</svg>

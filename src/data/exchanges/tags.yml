@@ -1,10 +1,5 @@
-atomic-swaps:
-  name: Atomic swaps
-decentralized:
-  name: Decentralized
-fiat:
-  name: Fiat
-high-liquidity:
-  name: High liquidity
-instant-exchange:
-  name: Instant exchange
+- instant_exchange
+- high_liquidity
+- fiat
+- decentralized
+- atomic_swaps

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg15"
+   version="1.1"
+   viewBox="0 0 14 14"
+   height="14"
+   width="14">
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2DD8A3;
+      }
+    </style>
+  </defs>
+  <g
+     transform="translate(-1644.42,-1503.03)"
+     id="Group_53"
+     data-name="Group 53">
+    <rect
+       id="Rectangle_53"
+       data-name="Rectangle 53"
+       class="cls-1"
+       width="34"
+       height="34"
+       transform="translate(1634.415,1493.031)"
+       x="0"
+       y="0"
+       style="fill:none" />
+  </g>
+  <g
+     transform="translate(-1644.42,-1503.03)"
+     id="Group_64"
+     data-name="Group 64">
+    <path
+       id="Path_47"
+       data-name="Path 47"
+       class="cls-2"
+       d="m 1650.42,1503.03 v 3 h -1 v -2 h -4 v 4 h 2 v 1 h -3 v -6 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_48"
+       data-name="Path 48"
+       class="cls-2"
+       d="m 1658.42,1503.03 v 6 h -3 v -1 h 2 v -4 h -4 v 2 h -1 v -3 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_49"
+       data-name="Path 49"
+       class="cls-2"
+       d="m 1650.42,1514.03 v 3 h -6 v -6 h 3 v 1 h -2 v 4 h 4 v -2 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_50"
+       data-name="Path 50"
+       class="cls-2"
+       d="m 1658.42,1511.03 v 6 h -6 v -3 h 1 v 2 h 4 v -4 h -2 v -1 z"
+       style="fill:#2dd8a3" />
+    <rect
+       id="Rectangle_54"
+       data-name="Rectangle 54"
+       class="cls-2"
+       width="6"
+       height="6"
+       transform="translate(1648.42,1507.03)"
+       x="0"
+       y="0"
+       style="fill:#2dd8a3" />
+  </g>
+</svg>

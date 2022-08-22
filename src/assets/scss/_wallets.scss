@@ -1,0 +1,94 @@
+.wallet-cards {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &.highlight {
+        margin-bottom: 34px;
+    }
+
+    .wallet-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 21px;
+        border: 1px solid rgba($white, 0.21);
+        border-radius: 8px;
+        background-color: transparent;
+        color: $white;
+        transition: border 0.08s ease-in-out ;
+
+        &:hover,
+        &:focus {
+            border: 1px solid rgba($white, 0.55);
+        }
+
+        @include media-breakpoint-down(md) {
+            padding: 13px;
+        }
+
+        &.highlight {
+            border: 1px solid $light-blue;
+        }
+
+        .wallet-card-title {
+            font-size: 18px;
+            line-height: 21px;
+            color: $white;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+    
+        .wallet-card-description {
+            font-size: 13px;
+            line-height: 15px;
+            color: $white;
+            opacity: 0.45;
+            margin-bottom: 16px;
+        }
+    
+        .wallet-card-links {
+            margin-top: auto;
+            font-size: 13px;
+            line-height: 15px;
+
+            .wallet-link {
+                display: inline-block;
+                white-space: nowrap;
+                margin-bottom: 7px;
+                margin-right: 3px;
+                
+                a,
+                a:hover {
+                    color: $white;
+                    opacity: 0.89;
+                }
+
+                &.direct-dl {
+                    background: #FFFFFF1C;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin-bottom: 3px;
+                    
+                    a {
+                        text-decoration: none;
+                        
+                        .dl-arrow {
+                            margin-left: 4px;
+                            opacity: 0.45;
+                            transition: opacity 0.08s ease-in-out;
+                        }
+                        &:hover,
+                        &:focus {
+                            .dl-arrow {
+                                opacity: 0.60;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+}

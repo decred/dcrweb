@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg19"
+   version="1.1"
+   viewBox="0 0 20.34 23"
+   height="23"
+   width="20.34">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2DD8A3;
+      }
+    </style>
+  </defs>
+  <g
+     transform="translate(-1313.83,-1501.031)"
+     id="Group_18"
+     data-name="Group 18">
+    <g
+       id="Group_17"
+       data-name="Group 17">
+      <rect
+         id="Rectangle_24"
+         data-name="Rectangle 24"
+         class="cls-1"
+         width="34"
+         height="34"
+         transform="translate(1307,1495.531)"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </g>
+  </g>
+  <g
+     transform="translate(-1313.83,-1501.031)"
+     id="Group_19"
+     data-name="Group 19">
+    <path
+       id="Path_26"
+       data-name="Path 26"
+       class="cls-2"
+       d="m 1315.83,1512.031 v 1 h -1 v -1 h 1 m 1,-1 h -3 v 3 h 3 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_27"
+       data-name="Path 27"
+       class="cls-2"
+       d="m 1321.61,1510.031 v 3 h -1 v -3 h 1 m 1,-1 h -3 v 5 h 3 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_28"
+       data-name="Path 28"
+       class="cls-2"
+       d="m 1327.39,1507.031 v 6 h -1 v -6 h 1 m 1,-1 h -3 v 8 h 3 z"
+       style="fill:#2dd8a3" />
+    <path
+       id="Path_29"
+       data-name="Path 29"
+       class="cls-2"
+       d="m 1333.17,1502.031 v 11 h -1 v -11 h 1 m 1,-1 h -3 v 13 h 3 z"
+       style="fill:#2dd8a3" />
+    <rect
+       id="Rectangle_25"
+       data-name="Rectangle 25"
+       class="cls-2"
+       width="3"
+       height="2"
+       transform="translate(1331.17,1516.031)"
+       x="0"
+       y="0"
+       style="fill:#2dd8a3" />
+    <rect
+       id="Rectangle_26"
+       data-name="Rectangle 26"
+       class="cls-2"
+       width="3"
+       height="3"
+       transform="translate(1325.39,1516.031)"
+       x="0"
+       y="0"
+       style="fill:#2dd8a3" />
+    <rect
+       id="Rectangle_27"
+       data-name="Rectangle 27"
+       class="cls-2"
+       width="3"
+       height="5"
+       transform="translate(1319.61,1516.031)"
+       x="0"
+       y="0"
+       style="fill:#2dd8a3" />
+    <rect
+       id="Rectangle_28"
+       data-name="Rectangle 28"
+       class="cls-2"
+       width="3"
+       height="8"
+       transform="translate(1313.83,1516.031)"
+       x="0"
+       y="0"
+       style="fill:#2dd8a3" />
+  </g>
+</svg>

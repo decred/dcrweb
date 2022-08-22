@@ -1,56 +1,112 @@
 {{ define "page-title" }}
-   Decred -  {{ T "nav_downloads" }}
+   Decred — {{ T "nav_downloads" }}
 {{ end }}
 
-{{ define "header" }}
-   {{ T "nav_downloads" }}
+{{ define "fronta" }}
+<div class="subpage-fronta">
+    <div class="gradient1"></div>
+    <div class="wallet-header"></div>
+    <div class="gradient2"></div>
+</div>
 {{ end }}
 
 {{ define "main" }}
 
-{{ $apps := .Site.Data.wallets.apps }}
+{{ $wallets := .Site.Data.wallets.wallets }}
+{{ $tags    := .Site.Data.wallets.tags }}
 
-<div class="full-width">
-    <div class="_960">
-            {{ partial "breadcrumbs_getstarted.html" . }}
-            <div class="subpage-content-section">
-                <div class="subpage-description">{{ safeHTML ( T "downloads_description") }}</div>
-                <div class="subpage-content">
-                    {{ range $apps }}
-                    <div class="section-download-page w-clearfix">
-                        <div class="section-title-download-page">
-                            {{ $msg_id := print "downloads_category_" .category }}
-                            {{ T $msg_id  }}
-                        </div>
-                            {{ range .apps }}
-                                <div class="section-card-download-page {{ if ne .is_third_party false }}third-party{{end}}" id="{{ .id }}">
-                                    <div class="{{ .id }} section-card-title-download-page">{{ .name }}</div>
-                                    {{ $msg_id := print "downloads_app_" .id }}
+<div class="subpage-padding body-gradient g-0">
+    <div class="container">
+        
+        <!-- Invisible radio buttons used for filtering -->
+        {{ range $index, $tag := $tags }}
+            <input class="d-none" type="radio" id="{{ $tag }}" name="toggler"  {{ if eq $index 0 }}checked{{end}}/>
+        {{ end }}
 
-                                    <div class="section-card-description-download">{{ T $msg_id }}</div>
-                                    <div class="section-card-download-links-download-page w-clearfix">
-                                        {{ $links := "" }}
-                                        {{ if eq .links nil }}
-                                            {{ $links = index $.Site.Data.wallets.links .id }}
-                                        {{ else }}
-                                            {{ $links = .links }}
-                                        {{ end }}
-                                        {{ range $links }}
-                                            <a  {{ if ne .is_direct_download true }}target="_blank" rel="noopener noreferrer"{{end}} href="{{ .url }}" {{ if ne .id nil }}id="{{ .id }}"{{end}} class="section-card-link-download-page">
-                                                {{ .title }}
-                                                {{ if eq .is_direct_download true }} ↓
-                                                {{ else }} →
-                                                {{ end }}
-                                            </a>
-                                            <div class="separator"></div>
-                                        {{ end }}
-                                    </div>
-                                </div>
-                            {{ end }}
-                        </div>
-                    {{ end }}
-                </div>
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "nav_downloads" }}</div>
+
+            <div class="filter-buttons">
+                {{ range $tag := $tags }}
+                    {{ $msg_id := print "downloads_category_" $tag }}
+                    <div class="message {{ $tag }}">{{ T $msg_id  }}</div>
+                {{ end }}
+    
+                {{ range $tag := $tags }}
+                    <label class="filter-button {{ $tag }}" for="{{ $tag }}"></label>
+                {{ end }}
             </div>
         </div>
+
+
+        <!-- Highlighted downloads -->
+        <div class="wallet-cards row g-3 highlight">
+            {{ range where $wallets "highlight" true }}
+                <div class="g-3 col-12 col-md-4 col-xl-3">
+                    
+                    <div class="wallet-card highlight {{ range .tags }} {{.}} {{end}}">
+                        <div class="wallet-card-title">{{ .name }}</div>
+                        {{ $msg_id := print "downloads_app_" .id }}
+                        <div class="wallet-card-description">{{ T $msg_id }}</div>
+                        <div class="wallet-card-links">
+                            <div>
+                                {{ range where .links "is_direct_download" "!=" true }}
+                                <div class="wallet-link">
+                                    <a href="{{ .url }}">{{ .title }}</a>
+                                </div>
+                                {{ end }}
+                            </div>
+                            <div>
+                                {{ range where .links "is_direct_download" true }}
+                                <div class="wallet-link direct-dl">
+                                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}">{{ .title }}<span class="dl-arrow">↓</span></a>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            {{ end }}
+        </div>
+
+        <!-- All others -->
+        <div class="wallet-cards row g-3">
+            {{ range where $wallets "highlight" false }}
+                <div class="g-3 col-12 col-md-4 col-xl-3">
+
+                    <div class="wallet-card {{ range .tags }} {{.}} {{end}}">
+                        <div class="wallet-card-title">{{ .name }}</div>
+                        {{ $msg_id := print "downloads_app_" .id }}
+                        <div class="wallet-card-description">{{ T $msg_id }}</div>
+                        <div class="wallet-card-links">
+                            <div>
+                                {{ range where .links "is_direct_download" "!=" true }}
+                                <div class="wallet-link">
+                                    <a href="{{ .url }}">{{ .title }}</a>
+                                </div>
+                                {{ end }}
+                            </div>
+                            <div>
+                                {{ range where .links "is_direct_download" true }}
+                                <div class="wallet-link direct-dl">
+                                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}">{{ .title }}<span class="dl-arrow">↓</span></a>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            {{ end }}
+        </div>
+        
+        <div class="warning">
+            <span class="orange">{{ T "warning" }}:</span>
+            {{ safeHTML (T "downloads_description")  }}
+        </div>
+            
     </div>
+</div>
+
 {{end}}

@@ -1,0 +1,47 @@
+// Decred colors
+$light-blue: rgb( 41, 112, 255); // #2970FF
+$turquoise:  rgb( 45, 216, 163); // #2DD8A3
+$white:      rgb(255, 255, 255); // #FFFFFF
+$dark-blue:  rgb(  9,  20,  64); // #091440
+$orange:     rgb(237, 109,  71); // #ED6D47
+
+$navbar-height: 98px;
+$max-width: 1920px;
+
+$grid-sm: 302px;
+$grid-md: 608px;
+$grid-lg: 788px;
+$grid-xl: 1004px;
+
+// Override some bootstrap defaults.
+$grid-breakpoints: (
+    xs: 0,
+    sm: $grid-sm + 100,
+    md: $grid-md + 100,
+    lg: $grid-lg + 100,
+    xl: $grid-xl + 100,
+    xxl: 999999999999999999999px
+);
+$container-max-widths: (
+    xs: $grid-sm - 1,
+    sm: $grid-sm,
+    md: $grid-md,
+    lg: $grid-lg,
+    xl: $grid-xl,
+);
+
+// Import bootstrap.
+@import "bootstrap-5.0.2/bootstrap";
+
+// Import dcrweb.
+@import "_common";
+@import "_navbar";
+@import "_footer";
+@import "_landing";
+@import "_wallets";
+@import "_filter-buttons";
+@import "_brand";
+@import "_vsp";
+@import "_press";
+@import "_dataTables";
+@import "_fonts";

@@ -1,0 +1,21 @@
+.javascript-warning {
+  margin-top: 26px;
+  font-weight: 700;
+  color: #fd714a;
+}
+
+.stakepool-data {
+  position: relative;
+  color: rgba($white, 0.65);
+  font-size: 12px;
+}
+
+.stakepool-data table {
+  width: 100%;
+}
+
+@include media-breakpoint-down(lg) {
+  .stakepool-data {
+    overflow: auto;
+  }
+}
