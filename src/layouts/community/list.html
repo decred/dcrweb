@@ -1,22 +1,93 @@
 {{ define "page-title" }}
-   Decred -  {{ T "nav_community" }}
+   Decred — {{ T "nav_community" }}
 {{ end }}
 
-{{ define "header" }}
-   {{ T "nav_community" }}
+{{ define "fronta" }}
+<div class="subpage-fronta">
+    <div class="gradient1"></div>
+    <div class="community-header"></div>
+    <div class="gradient2"></div>
+</div>
 {{ end }}
 
 {{ define "main" }}
 
-<div class="full-width">
-    <div class="_960">
-        <div class="subpage-content-section">
-                {{ partial "breadcrumbs_getstarted.html" . }}
-                <div class="subpage-description">{{ T "community_description" }}</div>
-                <div class="subpage-content community">
-                    {{ partial "community-grid" . }}
-                </div>
-            </div>
+{{ $social_channels  := $.Site.Data.community.channels }}
+{{ $publications     := $.Site.Data.community.publications }}
+{{ $support_channels := $.Site.Data.community.support }}
+
+<div class="subpage-padding body-gradient g-0">
+    <div class="container">
+        
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "community_community_title" }}</div>
         </div>
+
+        <div class="pills">
+            {{ range where $social_channels "highlight" true }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill highlight">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+        
+        
+        <div class="pills">
+            {{ range where $social_channels "highlight" false }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+        
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "community_publications_title" }}</div>
+        </div>
+
+        <div class="pills">
+            {{ range where $publications "highlight" true }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill highlight">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+        
+        
+        <div class="pills">
+            {{ range where $publications "highlight" false }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "community_support_title" }}</div>
+        </div>
+
+        <div class="pills">
+            {{ range where $support_channels "highlight" true }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill highlight">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+
+        <div class="pills">
+            {{ range where $support_channels "highlight" false }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill">{{ .name }}</div>
+                 </a>
+            {{ end }}
+        </div>
+
+        <div class="warning">
+            <span class="orange">{{ T "warning" }}:</span>
+            {{ T "community_support_warning" }}
+        </div>
+
     </div>
+</div>
+
+
 {{end}}

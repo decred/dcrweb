@@ -1,0 +1,266 @@
+.brand-fronta {
+    position: static;
+    min-height: 884px;
+    /* 884px matches the size of the background image declared below */
+    overflow: hidden;
+    background-color: #091440;
+    background-image: url('../images/bg-brand.png');
+    background-position: 50% 50%;
+    background-size: 884px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-size: 26px;
+    text-decoration: none;
+
+    .logo {
+        height: 80px;
+        margin-left: 45px;
+        background-image: url('../images/logo.svg');
+        background-position: 0px 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        @include media-breakpoint-down(lg) {
+            margin-left: 0;
+            height: 60px;
+        }
+    }
+    
+    .slogan {
+        opacity: 0;
+        margin-left: 165px;
+        transition: all 100ms cubic-bezier(.455, .03, .515, .955);
+        @include media-breakpoint-down(lg) {
+            display: none;
+        }
+    }
+    
+    .logo:hover+.slogan {
+        opacity: 0.75;
+    }
+    
+    .description {
+        padding-top: 36px;
+        margin-left: 165px;
+        @include media-breakpoint-down(lg) {
+            margin-left: 0;
+            padding-top: 18px;
+        }
+    }
+}
+
+
+
+
+
+
+.margin20 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 17px;
+}
+
+
+
+
+
+.font16 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.font38 {
+    font-size: 38px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.fontsemibold {
+    font-weight: bold;
+}
+
+
+
+
+.backgroundroyalblue {
+    background-color: #2970ff;
+}
+
+.backgroundgreen {
+    background-color: #41bf53;
+}
+
+.backgroundorange {
+    background-color: #ed6d47;
+}
+
+.colorblue {
+    color: #2970ff;
+}
+
+.colorlightblue {
+    color: #69d5f7;
+}
+
+.backgroundturquoise {
+    background-color: #2ed6a1;
+}
+
+.colorgray {
+    color: #5a6d81;
+}
+
+.backgroundcyan {
+    background-color: #70cbff;
+    color: #091440;
+}
+
+.colordarkblue {
+    color: #091440;
+}
+
+.colordarkblue:hover {
+    color: #091440;
+}
+
+.backgrounddarkblue {
+    background-color: #091440;
+}
+
+.backgroundwhite {
+    background-color: $white;
+}
+
+.backgroundgray {
+    background-color: #f4f7f9;
+}
+
+
+
+
+.brand-logo {
+    position: relative;
+    background-image: url('../images/logoWithBlueType.svg');
+    background-position: 50px 37px;
+    background-size: 228px;
+    background-repeat: no-repeat;
+    min-width: 340px;
+    margin-bottom: 20px;
+}
+
+.brand-subtext {
+    font-size: 15px;
+    text-decoration: none;
+    color: #2970ff;
+    white-space: nowrap;
+}
+
+.brand-hex {
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #091440;
+}
+
+
+
+
+.brand-color {
+    width: 100px;
+    height: 120px;
+}
+
+.copy-color {
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
+    height: 160px;
+}
+
+.copy-color:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.copy-color.margin20 {
+    cursor: pointer;
+}
+
+.margin10 {
+    margin-bottom: 10px;
+}
+
+.width-100px {
+    width: 100px;
+}
+
+.width-100px.colors.brand {
+    color: #5a6d81;
+}
+
+.width-100px.colors.brand.font16 {
+    float: left;
+    color: #8795a3;
+    text-align: center;
+}
+
+
+
+.height-122 {
+    height: 122px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .2);
+}
+
+.height-122.width-122 {
+    float: left;
+}
+
+.height-122.width-122.margin20.ss {
+    background-image: url('../images/sourceSans.svg');
+    background-position: 50% 50%;
+    background-size: 68px;
+    background-repeat: no-repeat;
+}
+
+.height-122.width-122.margin20.ii {
+    background-image: url('../images/sourceCode.svg');
+    background-position: 50% 50%;
+    background-size: 68px;
+    background-repeat: no-repeat;
+}
+
+
+.width-122 {
+    width: 122px;
+}
+
+
+.brand-bottom {
+    max-width: 640px;
+    padding-bottom: 100px;
+
+    .bottom-paragraph {
+        padding-bottom: 65px;
+        padding-top: 65px;
+        font-size: 26px;
+        color: #091440;
+        margin: 0 auto;
+    }
+
+    .bottom-link {
+        color: #2970ff;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}

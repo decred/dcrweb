@@ -1,23 +1,88 @@
 {{ define "page-title" }}
-   Decred -  {{ T "nav_exchanges" }}
+   Decred — {{ T "nav_exchanges" }}
 {{ end }}
 
-{{ define "header" }}
-   {{ T "nav_exchanges" }}
+{{ define "fronta" }}
+<div class="subpage-fronta">
+    <div class="gradient1"></div>
+    <div class="exchange-header"></div>
+    <div class="gradient2"></div>
+</div>
 {{ end }}
-
-{{ define "content-top" }}
-    <div class="tail"></div>
-{{ end }}
-
 
 {{ define "main" }}
-    <div class="full-width">
-        <div class="_960">
-            <div class="subpage-content-section ex">
-                    {{ partial "breadcrumbs_getstarted.html" . }}
-                    {{ partial "exchanges-grid" . }}
+
+{{ $exchanges :=  sort .Site.Data.exchanges.exchanges "name" "asc" }}
+{{ $payments  :=  sort .Site.Data.exchanges.payment   "name" "asc" }}
+{{ $tags      := .Site.Data.exchanges.tags }}
+
+<div class="subpage-padding body-gradient g-0">
+    <div class="container">
+
+        <!-- Invisible radio buttons used for filtering -->
+        {{ range $index, $tag := $tags }}
+            <input class="d-none" type="radio" id="{{ $tag }}" name="toggler" {{ if eq $index 0 }}checked{{end}} />
+        {{ end }}
+        
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "nav_exchanges" }}</div>
+
+            <div class="filter-buttons">
+                {{ range $tag := $tags }}
+                    {{ $msg_id := print "exchanges_category_" $tag }}
+                    <div class="message {{ $tag }}">{{ T $msg_id  }}</div>
+                {{ end }}
+    
+                {{ range $tag := $tags }}
+                    <label class="filter-button {{ $tag }}" for="{{ $tag }}"></label>
+                {{ end }}
             </div>
         </div>
+
+
+        <!-- Highlighted exchanges -->
+        <div class="pills">
+            {{ range where $exchanges "super_highlight" true }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="{{ range .tags }} {{.}} {{end}}">
+                    <div class="pill super-highlight">{{ .name }}</div>
+                </a>
+            {{ end }}
+            {{ range where $exchanges "highlight" true }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="{{ range .tags }} {{.}} {{end}}">
+                    <div class="pill highlight">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+
+        <!-- All others -->
+        <div class="pills">
+            {{ range where $exchanges "highlight" false }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="{{ range .tags }} {{.}} {{end}}">
+                    <div class="pill">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "exchanges_payment_title" }}</div>
+        </div>
+
+        <div class="pills">
+            {{ range $payments }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                    <div class="pill">{{ .name }}</div>
+                </a>
+            {{ end }}
+        </div>
+
+        <div class="warning">
+            <span class="orange">{{ T "warning" }}:</span>
+            {{ safeHTML (T "exchanges_disclaimer")  }}
+            <br /><br />
+            {{ T "exchanges_description" }}
+        </div>
+
     </div>
+</div>
+
 {{end}}

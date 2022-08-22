@@ -2,31 +2,19 @@
     {{ T "Page not found" }}
 {{ end }}
 
-
-{{ define "fronta"  }}
-<div class="fronta subpage video-header">
-    <div class="_960 subpage-header">
-        <a href="{{ "/" | relLangURL  }}" class="subpage-logo w-inline-block"></a>
-    </div>
-    <div class="_960 subpage-header">
-        <div class="subpage-title">404</div>
-    </div>
-</div>
+{{ define "fronta" }}
 {{ end }}
 
-
 {{ define "main" }}
-<div class="full-width">
-    <div class="_960">
-        <div class="subpage-content-section">
-            <div class="subpage-content-header">
-                <div class="subpage-description">
-                    <div class="text-block-5">{{ T "Page not found" }}</div>
-                    <br>
-                    <a href="{{ "/" | relLangURL }}">{{ T "Back to home page" }}</a>
-                </div>
-            </div>
+<div class="subpage-padding body-gradient g-0">
+    <div class="container">
+
+        <div class="subpage-header">
+            <div class="subpage-title">{{ T "Page not found" }}</div>
         </div>
+
+        <a href="{{ "/" | relLangURL }}">{{ T "Back to home page" }}</a>
+    
     </div>
 </div>
 {{ end }}

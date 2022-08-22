@@ -1,0 +1,39 @@
+##
+## Publications
+##
+##    "id"        - unique ID for the publication, not displayed on website
+##    "url"       - url to the publication
+##    "name"      - display name for the publication, displayed on website
+##    "highlight" - whether the publication should be highlighted on the top row
+##    "footer"    - whether the publication should be included in the page footer
+
+-
+  id: youtube
+  url: "https://www.youtube.com/decredchannel"
+  name: YouTube
+  highlight: false
+  footer: true
+-
+  id: medium
+  url: "https://medium.com/decred"
+  name: Medium
+  highlight: false
+  footer: true
+-
+  id: magazine
+  url: "https://www.decredmagazine.com/"
+  name: Decred Magazine
+  highlight: true
+  footer: false
+-
+  id: journal
+  url: "https://xaur.github.io/decred-news/"
+  name: Decred Journal
+  highlight: true
+  footer: false
+-
+  id: digest
+  url: "https://www.blockcommons.red/politeia-digest/"
+  name: Politeia Digest
+  highlight: true
+  footer: false

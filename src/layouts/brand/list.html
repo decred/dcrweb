@@ -1,109 +1,131 @@
 {{ define "page-title" }}
-   Decred -  {{ T "nav_brand_resources" }}
+   Decred — {{ T "nav_brand_resources" }}
 {{ end }}
-
-{{ define "header" }}
-   {{ T "nav_brand_resources" }}
-{{ end }}
-
-{{ define "content-top" }}
-
-{{ end }}
-
-
 
 {{ define "fronta" }}
-<div class="brand fronta">
-    <div class="brand front">
-        <div class="brand logo"></div>
-        <div class="font28 slogan transition">«<span class="fontsemibold">de</span>centralized <span class="fontsemibold">CREDITS</span>»</div>
-        <div class="brand description font28">{{ safeHTML ( T "brand_guide_0" ) }}</div>
+<div class="brand-fronta g-0">
+    <div class="container">
+        <div class="logo"></div>
+        <div class="slogan">«<span class="fontsemibold">de</span>centralized <span class="fontsemibold">CREDITS</span>»</div>
+        <div class="description">{{ safeHTML ( T "brand_guide_0" ) }}</div>
     </div>
 </div>
 {{ end }}
 
 {{ define "main" }}
 
-<div class="backgroundgray width-full">
-    <div class="w-clearfix width860">
-        <div class="margin-bottom-60 width-full">
-            <h1 class="brand colorblue font38 fontsemibold margin65">{{ safeHTML ( T "brand_guide_1" ) }}</h1>
+<div class="backgroundgray g-0" style="padding-bottom: 65px; padding-top: 100px;">
+    <div class="container">
+    
+        <div>
+            <h1 class="colorblue font38" style="font-weight: bold; margin-bottom: 65px; margin-top: 25px;">{{ safeHTML ( T "brand_guide_title" ) }}</h1>
         </div>
-        <div class="right-padding-90 w-clearfix width-half">
-            <div class="colorgray font16 margin20">{{ safeHTML ( T "brand_guide_2" ) }}</div>
-            <div class="brand height-122 margin20">
-                <div class="brand width-full">
-                    <div class="colorlightblue font12 margin10">png, svg, pdf, ai</div>
+
+        <div class="row py-4">
+
+            <!-- Logo -->
+            <div class="col-12 col-md-6 my-4">
+                <div class="d-flex flex-column align-items-start">
+                    <div class="colorgray font16 margin20">{{ safeHTML ( T "brand_guide_2" ) }}</div>
+                    <div class="brand height-122 brand-logo">
+                        <div class="w-100 text-center" style="bottom: 0px; position: absolute;">
+                            <div class="colorlightblue font12 margin10">png, svg, pdf, ai</div>
+                        </div>
+                    </div>
+                    <a href="https://github.com/decred/dcrdesign/files/2160933/decred.-.logo.package.zip" target="_blank" rel="noopener noreferrer" class="brand-subtext">{{ safeHTML ( T "brand_guide_3" ) }} ↓</a>
                 </div>
             </div>
-            <a href="https://github.com/decred/dcrdesign/files/2160933/decred.-.logo.package.zip" target="_blank" rel="noopener noreferrer" class="brand colorblue font16 margin65">{{ safeHTML ( T "brand_guide_3" ) }} ↓</a>
-            <a href="#" class="brand colordarkblue font16 margin20">{{ safeHTML ( T "brand_guide_4" ) }}</a>
-            <div class="w-clearfix width-full">
-                <div class="w-clearfix width-third">
-                    <div data-hex-code="#2970FF" class="brand copy-color height-160 margin20 width-100">
-                        <div class="backgroundroyalblue height-120"></div>
-                        <div class="brand colordarkblue font16 dcrwebcode">#2970ff</div>
+                
+            <!-- Typography -->
+            <div class="col-12 col-md-6 my-4">
+                <div class="d-flex flex-column align-items-start">
+                    <div class="colorgray font16 margin20">{{ safeHTML ( T "brand_guide_8" ) }}</div>
+                    <div class="row">
+                        <div class="d-flex flex-column mb-4 col-12 col-sm-6">
+                            <div class="height-122 margin20 ss width-122"></div>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/adobe-fonts/source-sans-pro" class="brand-subtext">Source Sans Pro →</a>
+                        </div>
+                        <div class="d-flex flex-column mb-4 col-12 col-sm-6">
+                            <div class="height-122 ii margin20 width-122"></div>
+                            <a target="_blank" rel="noopener noreferrer" href="https://fonts.google.com/specimen/Source+Code+Pro" class="brand-subtext">Source Code Pro →</a>
+                        </div>
                     </div>
-                    <div class="brand colors font16 dcrwebcode width-100">{{ safeHTML ( T "brand_guide_5" ) }}</div>
-                </div>
-                <div class="w-clearfix width-third">
-                    <div data-hex-code="#2ED6A1" class="brand copy-color height-160 margin20 width-100">
-                        <div class="backgroundturquoise height-120"></div>
-                        <div class="brand colordarkblue font16 dcrwebcode">#2ED6A1</div>
-                    </div>
-                    <div class="brand colors font16 dcrwebcode width-100">{{ safeHTML ( T "brand_guide_6" ) }}</div>
-                </div>
-                <div class="w-clearfix width-third">
-                    <div data-hex-code="#091440" class="brand copy-color height-160 margin20 width-100">
-                        <div class="backgrounddarkblue height-120"></div>
-                        <div class="brand colordarkblue font16 dcrwebcode">#091440</div>
-                    </div>
-                    <div class="brand colors font16 dcrwebcode width-100">{{ safeHTML ( T "brand_guide_7" ) }}</div>
                 </div>
             </div>
+
         </div>
-        <div class="left-padding-50 right-padding-40px w-clearfix width-half">
-            <div class="colorgray font16 margin20">{{ safeHTML ( T "brand_guide_8" ) }}</div>
-            <div class="margin65 w-clearfix width-full">
-                <div class="w-clearfix width-half">
-                    <div class="height-122 margin20 ss width-122"></div>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/adobe-fonts/source-sans-pro" class="brand colorblue font16">Source Sans Pro →</a>
-                </div>
-                <div class="w-clearfix width-half">
-                    <div class="height-122 ii margin20 width-122"></div>
-                    <a target="_blank" rel="noopener noreferrer" href="https://fonts.google.com/specimen/Source+Code+Pro" class="brand colorblue font16">Source Code Pro →</a>
-                </div>
-            </div><a href="#" class="brand colordarkblue font16 margin20">{{ safeHTML ( T "brand_guide_9" ) }}</a>
-            <div class="w-clearfix width-full">
-                <div class="w-clearfix width-third">
-                    <div data-hex-code="#70cbff" class="brand copy-color height-160 margin20 width-100">
-                        <div class="backgroundcyan height-120"></div>
-                        <div class="brand colordarkblue font16 dcrwebcode">#70cbff</div>
+
+        <div class="row py-4">
+
+            <!-- Primary colors -->
+            <div class="col-12 col-md-6 my-4">
+                <div class="d-flex flex-column align-items-start">
+                    <a href="#" class="brand colordarkblue font16 margin20">{{ safeHTML ( T "brand_guide_4" ) }}</a>
+                    <div class="row">
+                        <div class="col 12 col-xs-6 col-sm-4 align-items-center d-flex flex-column mb-4">
+                            <div class="brand copy-color margin20 width-100px">
+                                <div class="backgroundroyalblue brand-color"></div>
+                                <div class="brand-hex">#2970ff</div>
+                            </div>
+                            <div class="brand colors font16 dcrwebcode width-100px">{{ safeHTML ( T "brand_guide_5" ) }}</div>
+                        </div>
+                        <div class="col 12 col-xs-6 col-sm-4 align-items-center d-flex flex-column mb-4">
+                            <div class="brand copy-color margin20 width-100px">
+                                <div class="backgroundturquoise brand-color"></div>
+                                <div class="brand-hex">#2ED6A1</div>
+                            </div>
+                            <div class="brand colors font16 dcrwebcode width-100px">{{ safeHTML ( T "brand_guide_6" ) }}</div>
+                        </div>
+                        <div class="col 12 col-xs-6 col-sm-4 align-items-center d-flex flex-column mb-4">
+                            <div class="brand copy-color margin20 width-100px">
+                                <div class="backgrounddarkblue brand-color"></div>
+                                <div class="brand-hex">#091440</div>
+                            </div>
+                            <div class="brand colors font16 dcrwebcode width-100px">{{ safeHTML ( T "brand_guide_7" ) }}</div>
+                        </div>
                     </div>
-                    <div class="brand colors font16 dcrwebcode width-100">{{ safeHTML ( T "brand_guide_10" ) }}</div>
-                </div>
-                <div class="w-clearfix width-third">
-                    <div data-hex-code="#41BF53" class="brand copy-color height-160 margin20 width-100">
-                        <div class="backgroundgreen height-120"></div>
-                        <div class="brand colordarkblue font16 dcrwebcode">#41bf53</div>
-                    </div>
-                    <div class="brand colors font16 dcrwebcode width-100">{{ safeHTML ( T "brand_guide_11" ) }}</div>
-                </div>
-                <div class="w-clearfix width-third">
-                    <div data-hex-code="#ed6d47" class="brand copy-color height-160 margin20 width-100">
-                        <div class="backgroundorange height-120"></div>
-                        <div class="brand colordarkblue font16 dcrwebcode">#ed6d47</div>
-                    </div>
-                    <div class="brand colors font16 dcrwebcode width-100">{{ safeHTML ( T "brand_guide_12" ) }}</div>
                 </div>
             </div>
+            
+            <!-- Complementary colors -->
+            <div class="col-12 col-md-6 my-4">
+                <div class="d-flex flex-column align-items-start">
+                    <a href="#" class="brand colordarkblue font16 margin20">{{ safeHTML ( T "brand_guide_9" ) }}</a>
+                    <div class="row">
+                        <div class="col 12 col-xs-6 col-sm-4 align-items-center d-flex flex-column mb-4">
+                            <div class="brand copy-color margin20 width-100px">
+                                <div class="backgroundcyan brand-color"></div>
+                                <div class="brand-hex">#70cbff</div>
+                            </div>
+                            <div class="brand colors font16 dcrwebcode width-100px">{{ safeHTML ( T "brand_guide_10" ) }}</div>
+                        </div>
+                        <div class="col 12 col-xs-6 col-sm-4 align-items-center d-flex flex-column mb-4">
+                            <div class="brand copy-color margin20 width-100px">
+                                <div class="backgroundgreen brand-color"></div>
+                                <div class="brand-hex">#41bf53</div>
+                            </div>
+                            <div class="brand colors font16 dcrwebcode width-100px">{{ safeHTML ( T "brand_guide_11" ) }}</div>
+                        </div>
+                        <div class="col 12 col-xs-6 col-sm-4 align-items-center d-flex flex-column mb-4">
+                            <div class="brand copy-color margin20 width-100px">
+                                <div class="backgroundorange brand-color"></div>
+                                <div class="brand-hex">#ed6d47</div>
+                            </div>
+                            <div class="brand colors font16 dcrwebcode width-100px">{{ safeHTML ( T "brand_guide_12" ) }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
-<div class="width-full">
-    <div class="w-clearfix width860">
-        <div class="w-clearfix width-640">
-            <p class="brand colordarkblue font28 margin65">{{ safeHTML ( T "brand_guide_13" ) }}</p><p><a href="https://github.com/decred/dcrdesign/releases" target="_blank" rel="noopener noreferrer" class="brand colorblue font16">{{ safeHTML ( T "brand_guide_14" ) }}</a></p>
+
+<div class="backgroundwhite g-0">
+    <div class="container">
+        <div class="brand-bottom">
+            <p class="bottom-paragraph">{{ safeHTML ( T "brand_guide_13" ) }}</p>
+            <a class="bottom-link" href="https://github.com/decred/dcrdesign/releases" target="_blank" rel="noopener noreferrer">{{ safeHTML ( T "brand_guide_14" ) }}</a>
         </div>
     </div>
 </div>

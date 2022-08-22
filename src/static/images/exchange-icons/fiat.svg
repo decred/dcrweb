@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="26"
+   height="17"
+   viewBox="0 0 26 17"
+   version="1.1"
+   id="svg16">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2DD8A3;
+      }
+    </style>
+  </defs>
+  <g
+     data-name="Group 23"
+     id="Group_23"
+     transform="translate(-1379,-1504.031)">
+    <g
+       data-name="Group 22"
+       id="Group_22">
+      <g
+         data-name="Group 21"
+         id="Group_21">
+        <rect
+           style="fill:none"
+           y="0"
+           x="0"
+           transform="translate(1375,1495.531)"
+           height="34"
+           width="34"
+           class="cls-1"
+           data-name="Rectangle 29"
+           id="Rectangle_29" />
+      </g>
+    </g>
+  </g>
+  <path
+     id="Path_30"
+     data-name="Path 30"
+     class="cls-2"
+     d="M 26,0 H 2 V 2 H 0 v 15 h 24 v -2 h 2 z m -5,3 2,2 v 7 l -2,2 H 5 L 3,12 V 5 L 5,3 Z m 2,13 H 1 V 3 h 1 v 12 h 21 z m 2,-2 H 24 V 2 H 3 V 1 h 22 z"
+     style="fill:#2dd8a3" />
+  <ellipse
+     id="Ellipse_2"
+     data-name="Ellipse 2"
+     class="cls-2"
+     cx="13"
+     cy="8.5"
+     rx="2.5"
+     ry="3.5"
+     style="fill:#2dd8a3" />
+  <circle
+     id="Ellipse_3"
+     data-name="Ellipse 3"
+     class="cls-2"
+     cx="7"
+     cy="8.5"
+     r="1.5"
+     style="fill:#2dd8a3" />
+  <circle
+     id="Ellipse_4"
+     data-name="Ellipse 4"
+     class="cls-2"
+     cx="19"
+     cy="8.5"
+     r="1.5"
+     style="fill:#2dd8a3" />
+</svg>

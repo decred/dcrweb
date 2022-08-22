@@ -1,227 +1,171 @@
+##
+## Exchanges
+##
+##    "url"             - url for the exchange
+##    "tags"            - tags for the exchange, should exist in tags.yml
+##    "name"            - display name for the exchange, displayed on website
+##    "highlight"       - whether the exchange should be highlighted on the top row
+##    "super_highlight" - whether the exchange should be *really* highlighted on the top row
+
 -
   url: "https://godex.io/"
   tags:
-    - "instant-exchange"
-  logo_src: "Godex.jpg"
+    - "instant_exchange"
   name: Godex
--
-  url: "https://www.livecoin.net/"
-  tags:
-    - all
-  logo_src: "livecoin.jpg"
-  name: Livecoin
+  highlight: false
 -
   url: "https://coinswitch.co/"
   tags:
-    - "instant-exchange"
-  logo_src: "Coinswitch.jpg"
+    - "instant_exchange"
   name: CoinSwitch
+  highlight: false
 -
   url: "https://bittrex.com/"
   tags:
-    - "high-liquidity"
+    - "high_liquidity"
     - "fiat"
-  logo_src: "Bittrex.jpg"
   name: Bittrex
--
-  url: "https://poloniex.com/"
-  tags:
-    - "high-liquidity"
-  logo_src: "Poloniex.jpg"
-  name: Poloniex
+  highlight: true
 -
   url: "https://holytransaction.com/"
   tags:
-    - all
-  logo_src: "HolyTransaction.jpg"
   name: HolyTransaction
--
-  url: "https://www.coinspot.com.au/"
-  tags:
-    - "high-liquidity"
-    - fiat
-  logo_src: "Coinspot.jpg"
-  name: CoinSpot
--
-  url: "https://bisq.network"
-  tags:
-    - decentralized
-  logo_src: "Bisq.jpg"
-  name: Bisq
--
-  url: "https://tuxexchange.com/"
-  tags:
-    - all
-  logo_src: "tuxexchange.jpg"
-  name: "Tux Exchange"
+  highlight: false
 -
   url: "https://www.kaiserex.com/"
   tags:
     - fiat
-  logo_src: "kaiserex.jpg"
   name: Kaiserex
--
-  url: "https://braziliex.com/"
-  tags:
-    - fiat
-  logo_src: "braziliex.jpg"
-  name: Braziliex
--
-  url: "https://profitfy.trade/"
-  tags:
-    - fiat
-  logo_src: "profitfy.jpg"
-  name: Profitfy
+  highlight: false
 -
   url: "https://www.swyftx.com.au/"
   tags:
     - fiat
-    - "high-liquidity"
-  logo_src: "Swyftx.jpg"
+    - "high_liquidity"
   name: Swyftx
+  highlight: false
 -
   url: "https://www.cointree.com.au/"
   tags:
-    - all
-  logo_src: "cointree.jpg"
   name: CoinTree
+  highlight: false
 -
   url: "https://okx.com/"
   tags:
-    - "high-liquidity"
-  logo_src: "okx.png"
+    - "high_liquidity"
   name: OKX
+  highlight: false
 -
   url: "https://www.huobi.com/"
   tags:
-    - "high-liquidity"
-  logo_src: "huobi.jpg"
+    - "high_liquidity"
   name: Huobi
+  highlight: false
 -
   url: "https://www.kucoin.com/"
   tags:
-    - all
-  logo_src: "kucoin.jpg"
   name: KuCoin
--
-  url: "https://www.coinex.com/"
-  tags:
-    - all
-  logo_src: "coinex.jpg"
-  name: CoinEx
+  highlight: false
 -
   url: "https://changelly.com/"
   tags:
-    - all
-  logo_src: "changelly.png"
   name: Changelly
+  highlight: false
 -
   url: "https://www.bitladon.com/"
   tags:
     - fiat
-  logo_src: "bitladon.jpg"
   name: Bitladon
+  highlight: false
 -
   url: "https://bitvavo.com/en/decred"
   tags:
     - fiat
-  logo_src: "bitvavo.png"
   name: Bitvavo
+  highlight: false
 -
   url: "https://www.gate.io/"
   tags:
-    - all
-  logo_src: "gate-io.jpg"
   name: "Gate.io"
+  highlight: false
 -
   url: "https://www.binance.com/"
   tags:
-    - "high-liquidity"
-  logo_src: "binance.jpg"
-  name: "Binance.com"
+    - "high_liquidity"
+  name: "Binance"
+  highlight: true
 -
   url: "https://simpleswap.io/"
   tags:
-    - "instant-exchange"
-  logo_src: "simpleswap.jpg"
+    - "instant_exchange"
   name: "Simple Swap"
+  highlight: false
 -
   url: "https://www.sequoir.com/"
   tags:
     - fiat
-  logo_src: "sequoir.png"
   name: Sequoir
+  highlight: false
 -
   url: "https://stealthex.io/"
   tags:
-    - all
-  logo_src: "stealthex.png"
   name: StealthEX
+  highlight: false
 -
   url: "https://catalx.io/"
   tags:
-    - "high-liquidity"
-  logo_src: "catalx.png"
+    - "high_liquidity"
   name: CatalX
+  highlight: false
 -
   url: "https://evercoin.com/home"
   tags:
-    - "instant-exchange"
-  logo_src: "evercoin.png"
+    - "instant_exchange"
   name: "Evercoin"
+  highlight: false
 -
  url: "https://flyp.me/"
  tags:
-   - "instant-exchange"
- logo_src: "Flypme.jpg"
+   - "instant_exchange"
  name: Flyp
+ highlight: false
 -
   url: "https://www.metalpay.com/"
   tags:
-    - all
-  logo_src: "metalpay.png"
   name: "Metal Pay"
+  highlight: false
 -
   url: "https://www.novadax.com.br/"
   tags:
-    - all
-  logo_src: "novadax.png"
   name: "Novadax"
+  highlight: false
 -
   url: "https://dex.decred.org/"
   tags:
-    - "high-liquidity"
+    - high_liquidity
     - decentralized
-    - atomic-swaps
-  logo_src: "dcrdex.png"
+    - atomic_swaps
   name: "DCRDEX"
+  super_highlight: true
 -
   url: "https://swapzone.io/"
   tags:
-    - "instant-exchange"
-  logo_src: "swapzone.png"
+    - instant_exchange
   name: "Swapzone"
+  highlight: false
 -
   url: "https://www.hotbit.io/"
   tags:
-    - all
-  logo_src: "hotbit.png"
   name: "Hotbit"
--
-  url: "https://www.hotbit.co.kr/"
-  tags:
-    - "fiat"
-  logo_src: "hotbitkorea.png"
-  name: "Hotbit Korea"
+  highlight: false
 -
   url: "https://wazirx.com/"
   tags:
     - fiat
-  logo_src: "wazirx.png"
   name: WazirX
+  highlight: false
 -
   url: "https://exchange.bitcoin.com/"
   tags:
-    - all
-  logo_src: "bitcoin.png"
   name: Bitcoin.com
+  highlight: false

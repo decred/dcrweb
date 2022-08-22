@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg16"
+   version="1.1"
+   viewBox="0 0 14.019283 14.019312"
+   height="14.019312"
+   width="14.019283">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2DD8A3;
+      }
+    </style>
+  </defs>
+  <g
+     transform="translate(-1780.5994,-1503.0203)"
+     id="Group_56"
+     data-name="Group 56">
+    <g
+       id="Group_55"
+       data-name="Group 55">
+      <rect
+         id="Rectangle_55"
+         data-name="Rectangle 55"
+         class="cls-1"
+         width="34"
+         height="34"
+         transform="translate(1770.61,1493.031)"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </g>
+  </g>
+  <g
+     transform="translate(-1780.5994,-1503.0203)"
+     data-name="Group 57"
+     id="Group_57">
+    <rect
+       style="fill:none"
+       y="0"
+       x="0"
+       transform="translate(1770.61,1493.031)"
+       height="34"
+       width="34"
+       class="cls-1"
+       data-name="Rectangle 56"
+       id="Rectangle_56" />
+  </g>
+  <g
+     transform="translate(-1780.5994,-1503.0203)"
+     data-name="Group 65"
+     id="Group_65">
+    <path
+       style="fill:#2dd8a3"
+       d="m 1792.109,1511.08 v -2.1 a 3,3 0 1 0 -3.45,-3.45 h -2.1 a 3,3 0 1 0 -3.451,3.45 v 1.05 h 1 v -1.05 a 2.953,2.953 0 0 0 2.451,-2.45 h 2.1 a 2.95,2.95 0 0 0 2.45,2.45 v 2.1 a 2.951,2.951 0 0 0 -2.45,2.45 h -1.05 v 1 h 1.05 a 3,3 0 1 0 3.45,-3.45 z m -6.569,-4.55 a 1.993,1.993 0 0 1 -1.431,1.43 1.819,1.819 0 0 1 -1,0 2,2 0 1 1 2.431,-2.43 1.847,1.847 0 0 1 0,1 z m 4.139,0 a 1.822,1.822 0 0 1 0,-1 2,2 0 1 1 2.43,2.43 1.819,1.819 0 0 1 -1,0 1.992,1.992 0 0 1 -1.43,-1.43 z m 1.93,9.5 a 2,2 0 0 1 -1.93,-1.5 1.822,1.822 0 0 1 0,-1 1.992,1.992 0 0 1 1.43,-1.43 1.822,1.822 0 0 1 1,0 2,2 0 0 1 -0.5,3.93 z"
+       class="cls-2"
+       data-name="Path 51"
+       id="Path_51" />
+    <rect
+       style="fill:#2dd8a3"
+       y="0"
+       x="0"
+       transform="translate(1780.609,1511.03)"
+       height="6"
+       width="6"
+       class="cls-2"
+       data-name="Rectangle 57"
+       id="Rectangle_57" />
+  </g>
+</svg>
