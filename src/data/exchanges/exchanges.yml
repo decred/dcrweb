@@ -14,12 +14,6 @@
   name: Godex
   highlight: false
 -
-  url: "https://coinswitch.co/"
-  tags:
-    - "instant_exchange"
-  name: CoinSwitch
-  highlight: false
--
   url: "https://bittrex.com/"
   tags:
     - "high_liquidity"
@@ -78,7 +72,7 @@
   name: Bitladon
   highlight: false
 -
-  url: "https://bitvavo.com/en/decred"
+  url: "https://bitvavo.com/"
   tags:
     - fiat
   name: Bitvavo
@@ -101,12 +95,6 @@
   name: "Simple Swap"
   highlight: false
 -
-  url: "https://www.sequoir.com/"
-  tags:
-    - fiat
-  name: Sequoir
-  highlight: false
--
   url: "https://stealthex.io/"
   tags:
   name: StealthEX
@@ -116,12 +104,6 @@
   tags:
     - "high_liquidity"
   name: CatalX
-  highlight: false
--
-  url: "https://evercoin.com/home"
-  tags:
-    - "instant_exchange"
-  name: "Evercoin"
   highlight: false
 -
  url: "https://flyp.me/"
@@ -163,9 +145,4 @@
   tags:
     - fiat
   name: WazirX
-  highlight: false
--
-  url: "https://exchange.bitcoin.com/"
-  tags:
-  name: Bitcoin.com
   highlight: false
