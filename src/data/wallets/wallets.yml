@@ -80,9 +80,9 @@
     - hardware_wallets
   links:
     - title: Decrediton
-      url: https://decred.org/wallets/#decrediton
+      url: https://decred.org/wallets/
     - title: Exodus
-      url: https://www.exodus.io/decred-wallet
+      url: https://www.exodus.com/decred-wallet-dcr
   highlight: false
       
 - id: ledger
@@ -91,7 +91,7 @@
     - hardware_wallets
   links:
     - title: Ledger Live wallet
-      url: https://www.ledger.com/pages/ledger-live
+      url: https://www.ledger.com/ledger-live/
   highlight: false
 
 - id: exodus
@@ -100,7 +100,7 @@
     - third_party_wallets
   links:
     - title: Exodus releases
-      url: https://www.exodus.io/decred-wallet
+      url: https://www.exodus.com/decred-wallet-dcr
   highlight: false
 
 - id: coinomi
@@ -112,33 +112,6 @@
       url: https://www.coinomi.com/downloads/
   highlight: false
 
-- id: ownbit
-  name: Ownbit
-  tags:
-    - third_party_wallets
-  links:
-    - title: Ownbit releases
-      url: https://ownbit.io/
-  highlight: false
-
-- id: anybit
-  name: AnyBit
-  tags:
-    - third_party_wallets
-  links:
-    - title: AnyBit releases
-      url: https://www.anybit.io/
-  highlight: false
-
-- id: atomicwallet
-  name: Atomic
-  tags:
-    - third_party_wallets
-  links:
-    - title: Atomic Wallet releases
-      url: https://atomicwallet.io/
-  highlight: false
-
 - id: guarda
   name: Guarda
   tags:
@@ -146,15 +119,6 @@
   links:
     - title: Guarda releases
       url: https://guarda.com/
-  highlight: false
-
-- id: evercoin
-  name: Evercoin
-  tags:
-    - third_party_wallets
-  links:
-    - title: Evercoin wallet
-      url: https://evercoin.com/
   highlight: false
 
 - id: trust
