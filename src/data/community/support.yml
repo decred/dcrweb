@@ -13,7 +13,7 @@
   highlight: true
 -
   id: matrix
-  url: "https://chat.decred.org"
+  url: "https://chat.decred.org/#/room/#support:decred.org"
   name: "Support Channel on Matrix"
   highlight: false
 -
