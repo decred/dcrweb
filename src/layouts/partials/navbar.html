@@ -17,17 +17,17 @@
             <div class="navbar-collapse collapse" id="collapse-nav">
                 <ul class="navbar-nav ms-auto pb-4 pb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link {{ if eq .Section "wallets" }}active{{end}}" href="{{ "wallets/" | relLangURL }}">
+                        <a class="nav-link {{ if eq .Section "wallets" }}active{{end}}" href="{{ "/wallets/" | relLangURL }}">
                             {{ T "nav_downloads" }}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ if eq .Section "exchanges" }}active{{end}}" href="{{ "exchanges/" | relLangURL }}">
+                        <a class="nav-link {{ if eq .Section "exchanges" }}active{{end}}" href="{{ "/exchanges/" | relLangURL }}">
                             {{ T "nav_exchanges" }}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ if eq .Section "community" }}active{{end}}" href="{{ "community/" | relLangURL }}">
+                        <a class="nav-link {{ if eq .Section "community" }}active{{end}}" href="{{ "/community/" | relLangURL }}">
                             {{ T "nav_community" }}
                         </a>
                     </li>
