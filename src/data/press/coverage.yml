@@ -130,6 +130,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Decred Blockchain Analysis - Part 2"
+  Author: "Richard Red"
+  Permalink: "https://blockcommons.red/post/dcr-on-chain-2/"
+  Params:
+    sortDate: "2021-01-27"
+    icon: "generalResearch.svg"
+    externalSource: "blockcommons.red"
+-
   Title: "Decred Journal, December 2020"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-december-2020-d9e89313f480"
