@@ -56,11 +56,6 @@
   name: Huobi
   highlight: false
 -
-  url: "https://www.kucoin.com/"
-  tags:
-  name: KuCoin
-  highlight: false
--
   url: "https://changelly.com/"
   tags:
   name: Changelly
