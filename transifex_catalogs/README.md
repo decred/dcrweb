@@ -1,8 +1,22 @@
 # dcrweb Translations
 
+## Updating translation strings with `translator.html`
+
 [`translator.html`](./translator.html) is a GUI tool to update translations.
 
-Example code to review existing translation files for errors.
+- Checkout dcrweb repo
+- Create a branch to do your work in
+- Open `transifex_catalogs/translator.html` in a browser
+- Load `en.json` as the base file, and then the `.json` file for your language as the second file
+- The panel on the left displays untranslated strings. Click the top one to load it into the right panel.
+- Translate the string
+- Hit "Save & next"
+- When finished, hit export translation to download the new `.json` file for your language.
+- Overwrite the existing file with the new file, and create a pull request from your branch to master
+
+## Validating translation files
+
+Below is some example code to review existing translation files for errors.
 This code only checks for keys in non-base files which do not exist in the base
 file, but it can easily be expanded to add other checks.
 
