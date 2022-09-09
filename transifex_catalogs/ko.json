@@ -42,7 +42,6 @@
   "downloads_app_coinomi": "Bitcoin과 Ethereum을 비롯한 500가지 이상의 블록체인 자산을 안전하게 보관, 관리 및 환전할 수 있습니다.",
   "downloads_app_guarda": "Guarda는 웹, 데스크톱 및 모바일 다중 통화 월렛으로 대변됩니다.",
   "downloads_app_ledger": "Ledger Live는 Ledger 하드웨어 지갑으로 보호되는 웹 기반 지갑입니다.",
-  "stakepools_description": "VSP(Voting Service Providers)를 사용하면 컴퓨터 가동 중지, 취약한 인터넷 연결 또는 일정하지 않은 전원으로 인한 손실을 걱정할 필요 없이 Decred의 지분증명(PoS) 시스템에 참여할 수 있습니다.",
   "notice": "참고",
   "warning": "주의",
   "stakepools_warning_1": "티켓 누락은 작업증명(PoW) 채굴기의 연결 상태가 좋지 않아 발생할 수 있으며, 꼭 제공자의 잘못으로 인한 것은 아닐 수 있습니다.",
