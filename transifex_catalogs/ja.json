@@ -42,7 +42,6 @@
   "downloads_app_coinomi": "ビットコイン、イーサリアムをはじめとする500種類以上のブロックチェーンアセットを安全に保管、管理、取引することができます。",
   "downloads_app_guarda": "Guardaは、Webおよびデスクトップ、モバイルで利用可能なマルチ通貨対応ウォレットです。",
   "downloads_app_ledger": "Ledger Liveは、Ledger製ハードウェアウォレットにより保護されたウェブベースのウォレットです。",
-  "stakepools_description": "投票サービスプロバイダー (VSP) を使用すると、コンピューターのダウンタイム、または不安定なインターネット接続や電源供給による損失を心配することなくDecredのproof-of-stake (PoS) システムに参加できます。",
   "notice": "注",
   "warning": "警告",
   "stakepools_warning_1": "チケットの紛失はProof-of-work (PoW) を行うマイナーの接続状態に問題の場合があり、プロバイダーの問題とは限りません。",
