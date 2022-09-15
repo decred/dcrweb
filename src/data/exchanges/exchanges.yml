@@ -50,12 +50,6 @@
   name: OKX
   highlight: false
 -
-  url: "https://www.huobi.com/"
-  tags:
-    - "high_liquidity"
-  name: Huobi
-  highlight: false
--
   url: "https://changelly.com/"
   tags:
   name: Changelly
