@@ -1,4 +1,4 @@
-{{ range . }}
+{{ range sort . ".Params.sortDate" "desc" }}
     <div class="press__news-item">
         <a href="{{ .Permalink }}" {{ if .Params.externalSource }} target="_blank" {{ end }} rel="noopener noreferrer">
             <img class="press-icon" src="{{ .Site.BaseURL }}/images/news-icons/{{ .Params.icon }}" width="30" alt="" />
