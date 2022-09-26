@@ -7,6 +7,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "https://www.decredmagazine.com/tag/news/"
 -
+  Title: "Brian ‘Buck’ Stafford of Decred On The Future of Money and Banking"
+  Author: "Jason Hartman"
+  Permalink: "https://medium.com/authority-magazine/brian-buck-stafford-of-decred-on-the-future-of-money-and-banking-45f25305b409"
+  Params:
+    sortDate: "2022-09-09"
+    icon: "interview.svg"
+    externalSource: "https://medium.com/authority-magazine"
+-
   Title: "DCRDEX Release v0.5.2"
   Author: "Jonathan Chappelow"
   Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.2"
@@ -47,6 +55,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Interview w/ Jake Yocom-Piatt: Sovereignty, Privacy, Decred So Far"
+  Author: "CoinJournal"
+  Permalink: "https://www.youtube.com/watch?v=EAiIAbKQAjI"
+  Params:
+    sortDate: "2022-06-24"
+    icon: "broadcasts.svg"
+    externalSource: "youtube.com"
+-
   Title: "Decred Journal, May 2022"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-may-2022-6e59d31c5b1c"
@@ -54,6 +70,14 @@
     sortDate: "2022-06-21"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "Co-founder Jake Yocom-Piatt discusses alternate stores-of-value to Bitcoin"
+  Author: "Dan Ashmore"
+  Permalink: "https://www.youtube.com/watch?v=_QsWw4EDPyg"
+  Params:
+    sortDate: "2022-06-01"
+    icon: "broadcasts.svg"
+    externalSource: "youtube.com"
 -
   Title: "Decred Release v1.7.3"
   Author: "Alex Yocom-Piatt"
@@ -133,6 +157,14 @@
     sortDate: "2022-01-20"
     icon: "releaseUpdates.svg"
 -
+  Title: "Decred Announces System Improvements, Included Quantum Computing Protection, in V1.7"
+  Author: "Tony Zerucha"
+  Permalink: "https://www.crowdfundinsider.com/2022/01/185890-decred-announces-system-improvements-included-quantum-computing-protection-in-v1-7/"
+  Params:
+    sortDate: "2022-01-24"
+    icon: "dcrInMedia.svg"
+    externalSource: "crowdfundinsider.com"
+-
   Title: "Decred Journal, December 2021"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-december-2021-376a27e7cc4e"
@@ -189,6 +221,14 @@
     icon: "generalResearch.svg"
     externalSource: "medium.com"
 -
+  Title: "Decentralized Digital Currency Project Decred (DCR) Reaches Governance Milestone of 77% Voter Participation"
+  Author: "Omar Faridi"
+  Permalink: "https://www.crowdfundinsider.com/2021/10/182204-decentralized-digital-currency-project-decred-dcr-reaches-governance-milestone-of-77-voter-participation/"
+  Params:
+    sortDate: "2021-10-27"
+    icon: "dcrInMedia.svg"
+    externalSource: "crowdfundinsider.com"
+-
   Title: "Decred Journal, September 2021"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-september-2021-1c3de363c1df"
@@ -221,6 +261,14 @@
     icon: "generalResearch.svg"
     externalSource: "medium.com"
 -
+  Title: "Decred (DCR), a Virtual Currency Focused on Security and Scalability, to Enhance User Experience"
+  Author: "Omar Faridi"
+  Permalink: "https://www.crowdfundinsider.com/2021/07/178473-decred-dcr-a-virtual-currency-focused-on-security-and-scalability-to-enhance-user-experience/"
+  Params:
+    sortDate: "2021-07-29"
+    icon: "dcrInMedia.svg"
+    externalSource: "crowdfundinsider.com"
+-
   Title: "Decred Journal, June 2021"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-june-2021-9b631d2f8218"
@@ -244,6 +292,14 @@
     sortDate: "2021-06-09"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "Digital Currency Project Decred Announces Initial Integration of its Decentralized Exchange into Decrediton Wallet"
+  Author: "Omar Faridi"
+  Permalink: "https://www.crowdfundinsider.com/2021/05/175918-digital-currency-project-decred-announces-initial-integration-of-its-decentralized-exchange-into-decrediton-wallet/"
+  Params:
+    sortDate: "2021-05-27"
+    icon: "dcrInMedia.svg"
+    externalSource: "crowdfundinsider.com"
 -
   Title: "Talking Decred with Jake Yocom-Piatt"
   Author: "Dominic Frisby"
@@ -413,6 +469,14 @@
   Params:
     sortDate: "2020-10-29"
     icon: "releaseUpdates.svg"
+-
+  Title: "Decred, a Security and Scalability focused Digital Currency Project, Launches DCRDEX, a Non-Custodial Exchange"
+  Author: "Omar Faridi"
+  Permalink: "https://www.crowdfundinsider.com/2020/10/168215-decred-a-security-and-scalability-focused-digital-currency-project-launches-dcrdex-a-non-custodial-exchange/"
+  Params:
+    sortDate: "2020-10-21"
+    icon: "dcrInMedia.svg"
+    externalSource: "crowdfundinsider.com"
 -
   Title: "Decred Journal, September 2020"
   Author: "Decred Journal Team"
