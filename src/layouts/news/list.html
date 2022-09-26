@@ -1,5 +1,5 @@
 {{ define "page-title" }}
-   Decred — {{ T "nav_press" }}
+   Decred — {{ T "nav_news" }}
 {{ end }}
 
 {{ define "fronta" }}
@@ -14,24 +14,24 @@
         <input class="d-none" type="radio" id="releases" name="subpage_toggler" />
         
         <div class="subpage-header">
-            <div class="subpage-title">{{ T "nav_press" }}</div>
+            <div class="subpage-title">{{ T "press_title" }}</div>
         </div>
         
         <div class="w-100 position-relative">
             <div class="subpage-paragraph" style="max-width: 490px;">{{ T "press_description" | safeHTML }}</div>
             <div class="press-toggle">
-                <label for="coverage">{{ T "press_coverage" }}</label>
+                <label for="coverage">{{ T "press_title" }}</label>
                 <label for="releases">{{ T "press_releases" }}</label>
             </div>
         </div>
         
         <div class="toggleable">
             <div class="press-items press__coverage">
-                {{ partial "press/coverage-list" .Site.Data.press.coverage }}
+                {{ partial "news/coverage-list" .Site.Data.news.coverage }}
             </div>
             
             <div class="press-items press__releases">
-                {{ partial "press/coverage-list" (where .Site.RegularPages "Section" "=" "press") }}
+                {{ partial "news/coverage-list" (where .Site.RegularPages "Section" "=" "news") }}
             </div>
         </div>
     </div>
