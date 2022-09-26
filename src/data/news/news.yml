@@ -335,7 +335,7 @@
   Permalink: "https://www.coindesk.com/its-time-to-walk-the-talk-on-decentralized-governance"
   Params:
     sortDate: "2019-12-13"
-    icon: "pressReleasesInterviews.svg"
+    icon: "interview.svg"
     externalSource: "coindesk.com"
 -
   Title: "Akin Sawyerr: How Crypto is Bridging the Gap Between the Banked and Unbanked"
@@ -351,7 +351,7 @@
   Permalink: "https://cointelegraph.com/news/secrets-they-missed-at-devcon-what-its-really-like-in-a-working-dao"
   Params:
     sortDate: "2019-11-19"
-    icon: "pressReleasesInterviews.svg"
+    icon: "interview.svg"
     externalSource: "coindesk.com"
 -
   Title: "LN & Multi-Owner Tickets"

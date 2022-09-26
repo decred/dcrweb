@@ -1,9 +1,9 @@
 {{ range . }}
-    <div class="press__coverage-item">
+    <div class="press__news-item">
         <a href="{{ .Permalink }}" {{ if .Params.externalSource }} target="_blank" {{ end }} rel="noopener noreferrer">
-            <img class="press-icon" src="{{ .Site.BaseURL }}/images/press-coverage/{{ .Params.icon }}" width="30" alt="" />
+            <img class="press-icon" src="{{ .Site.BaseURL }}/images/news-icons/{{ .Params.icon }}" width="30" alt="" />
 
-            <div class="press__coverage-wrapper">
+            <div class="press__news-wrapper">
                 <p>
                     <span class="press__title">{{ .Title }}</span>
                     {{ if .Params.externalSource }}
@@ -17,7 +17,7 @@
             </div>
 
             {{ if .Params.externalSource }}
-                <img class="press-hover-icon" src="{{ .Site.BaseURL }}/images/press-coverage-hover-icon.svg" width="16" alt="" />
+                <img class="press-hover-icon" src="{{ .Site.BaseURL }}/images/external-link.svg" width="16" alt="" />
             {{ end }}
         </a>
     </div>

@@ -1,5 +1,5 @@
 // 
-// Coverage/release toggle.
+// News/release toggle.
 // 
 
 .press-toggle label {
@@ -30,8 +30,8 @@
   }
 }
 
-#releases:checked~div label[for='releases'],
-#coverage:checked~div label[for='coverage'] {
+    #news:checked~div label[for='news'],
+#releases:checked~div label[for='releases'] {
   background: #E7EAED;
   color: #091440;
 }
@@ -45,8 +45,8 @@
   flex-wrap: nowrap;
 }
 
-#releases:checked~div .press__releases,
-#coverage:checked~div .press__coverage {
+    #news:checked~div .press__news,
+#releases:checked~div .press__releases {
   opacity: 1;
   visibility: visible;
   position: relative;
@@ -55,25 +55,25 @@
 }
 
 // 
-// Coverage/release list.
+// News/release list.
 // 
 
-.press__coverage-item {
+.press__news-item {
   width: 100%;
   padding: 26px 23px 8px;
   position: relative;
   border-bottom: 1px solid rgba($white, 0.5);
 }
 
-.press__coverage-item a {
+.press__news-item a {
   text-decoration: none;
 }
 
-.press__coverage-item p {
+.press__news-item p {
   margin-bottom: 5px;
 }
 
-.press__coverage-item img.press-icon {
+.press__news-item img.press-icon {
   float: left;
   margin-right: 34px;
   vertical-align: top;
@@ -82,7 +82,7 @@
   width: 30px;
 }
 
-.press__coverage-item img.press-hover-icon {
+.press__news-item img.press-hover-icon {
   position: absolute;
   top: 30px;
   right: 15px;
@@ -91,11 +91,11 @@
   transition: 0.08s ease-in-out;
 }
 
-.press__coverage-item:hover img.press-hover-icon {
+.press__news-item:hover img.press-hover-icon {
   opacity: 1;
 }
 
-.press__coverage-wrapper {
+.press__news-wrapper {
   float: left;
   max-width: calc(100% - 80px);
 }
@@ -116,7 +116,7 @@
   margin-right: 5px;
 }
 
-.press__coverage-item:hover .press__title {
+.press__news-item:hover .press__title {
   color: rgba($white, 0.95);
 }
 

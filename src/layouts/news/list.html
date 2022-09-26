@@ -10,28 +10,28 @@
 <div class="subpage-padding body-gradient g-0">
     <div class="container">
 
-        <input class="d-none" type="radio" id="coverage" name="subpage_toggler" checked />
+        <input class="d-none" type="radio" id="news" name="subpage_toggler" checked />
         <input class="d-none" type="radio" id="releases" name="subpage_toggler" />
         
         <div class="subpage-header">
-            <div class="subpage-title">{{ T "press_title" }}</div>
+            <div class="subpage-title">{{ T "news_title" }}</div>
         </div>
         
         <div class="w-100 position-relative">
-            <div class="subpage-paragraph" style="max-width: 490px;">{{ T "press_description" | safeHTML }}</div>
+            <div class="subpage-paragraph" style="max-width: 490px;">{{ T "news_description" | safeHTML }}</div>
             <div class="press-toggle">
-                <label for="coverage">{{ T "press_title" }}</label>
-                <label for="releases">{{ T "press_releases" }}</label>
+                <label for="news">{{ T "news_title" }}</label>
+                <label for="releases">{{ T "news_press_releases" }}</label>
             </div>
         </div>
         
         <div class="toggleable">
-            <div class="press-items press__coverage">
-                {{ partial "news/coverage-list" .Site.Data.news.coverage }}
+            <div class="press-items press__news">
+                {{ partial "news/news-list" .Site.Data.news.news }}
             </div>
             
             <div class="press-items press__releases">
-                {{ partial "news/coverage-list" (where .Site.RegularPages "Section" "=" "news") }}
+                {{ partial "news/news-list" (where .Site.RegularPages "Section" "=" "news") }}
             </div>
         </div>
     </div>
