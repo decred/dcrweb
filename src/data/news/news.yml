@@ -7,6 +7,30 @@
     icon: "dcrInMedia.svg"
     externalSource: "https://www.decredmagazine.com/tag/news/"
 -
+  Title: "DCRDEX Release v0.5.2"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.2"
+  Params:
+    sortDate: "2022-08-29"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "DCRDEX Release v0.5.1"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.1"
+  Params:
+    sortDate: "2022-08-29"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "DCRDEX Release v0.5.0"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.0"
+  Params:
+    sortDate: "2022-08-23"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
   Title: "Decred Journal, July 2022"
   Author: "Decred Journal Team"
   Permalink: "https://www.decredmagazine.com/decred-journal-july-2022/"
@@ -31,6 +55,30 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Decred Release v1.7.3"
+  Author: "Alex Yocom-Piatt"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.3"
+  Params:
+    sortDate: "2022-05-18"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Decred Release v1.7.2"
+  Author: "Josh Rickmar"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.2"
+  Params:
+    sortDate: "2022-05-11"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Decred shifts to majority Proof of Stake consensus model"
+  Author: "Benson Toti"
+  Permalink: "https://invezz.com/news/2022/05/09/decred-shifts-to-majority-proof-of-stake-consensus-model/"
+  Params:
+    sortDate: "2022-05-09"
+    icon: "dcrInMedia.svg"
+    externalSource: "invezz.com"
+-
   Title: "Decred Journal, April 2022"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-april-2022-c2831e517eb4"
@@ -38,7 +86,52 @@
     sortDate: "2022-05-17"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
-
+-
+  Title: "DCRDEX Release v0.4.3"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.4.3"
+  Params:
+    sortDate: "2022-04-29"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Decred price soars 45% in one day three weeks before a major hard fork"
+  Author: "Yashu Gola"
+  Permalink: "https://cointelegraph.com/news/decred-price-soars-45-in-one-day-three-weeks-before-a-major-hard-fork"
+  Params:
+    sortDate: "2022-04-18"
+    icon: "dcrInMedia.svg"
+    externalSource: "cointelegraph.com"
+-
+  Title: "DCRDEX Release v0.4.2"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.4.2"
+  Params:
+    sortDate: "2022-03-17"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Decred Release v1.7.1"
+  Author: "Josh Rickmar"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.1"
+  Params:
+    sortDate: "2022-02-17"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "DCRDEX Release v0.4.1"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.4.1"
+  Params:
+    sortDate: "2022-02-11"
+    icon: "releaseUpdates.svg"
+-
+  Title: "DCRDEX Release v0.4.0"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.4.0"
+  Params:
+    sortDate: "2022-01-20"
+    icon: "releaseUpdates.svg"
 -
   Title: "Decred Journal, December 2021"
   Author: "Decred Journal Team"
@@ -47,7 +140,30 @@
     sortDate: "2022-01-15"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
-
+-
+  Title: "Decred urge users to upgrade to v1.7"
+  Author: "Hassan Maishera"
+  Permalink: "https://www.binance.com/en/news/top/6943919"
+  Params:
+    sortDate: "2022-02-09"
+    icon: "dcrInMedia.svg"
+    externalSource: "binance.com"
+-
+  Title: "Decred Release v1.7.0"
+  Author: "Josh Rickmar"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.0"
+  Params:
+    sortDate: "2022-01-24"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Decred accidentally creates three TSpends for December"
+  Author: "Hassan Maishera"
+  Permalink: "https://www.binance.com/en/news/top/6784887"
+  Params:
+    sortDate: "2022-01-19"
+    icon: "dcrInMedia.svg"
+    externalSource: "binance.com"
 -
   Title: "Decred Journal, November 2021"
   Author: "Decred Journal Team"
@@ -56,7 +172,6 @@
     sortDate: "2021-12-15"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
-
 -
   Title: "Decred Journal, October 2021"
   Author: "Decred Journal Team"
@@ -65,6 +180,14 @@
     sortDate: "2021-11-14"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "The Suppressor Part 2: On-Chain Analysis"
+  Author: "tacorevenge"
+  Permalink: "https://medium.com/@tacorevenge/the-suppressor-part-2-on-chain-analysis-6561c5a478c4"
+  Params:
+    sortDate: "2021-11-03"
+    icon: "generalResearch.svg"
+    externalSource: "medium.com"
 -
   Title: "Decred Journal, September 2021"
   Author: "Decred Journal Team"
@@ -90,6 +213,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "The Suppressor Part 1: War of Attrition"
+  Author: "tacorevenge"
+  Permalink: "https://medium.com/@tacorevenge/the-suppressor-part-1-war-of-attrition-3081a61b202b"
+  Params:
+    sortDate: "2021-08-06"
+    icon: "generalResearch.svg"
+    externalSource: "medium.com"
+-
   Title: "Decred Journal, June 2021"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-june-2021-9b631d2f8218"
@@ -97,6 +228,14 @@
     sortDate: "2021-07-14"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "Treasury Expenditure Policy Bug"
+  Author: "Matheus Degiovani"
+  Permalink: "https://blog.decred.org/2021/06/25/Treasury-Expenditure-Policy-Bug/"
+  Params:
+    sortDate: "2021-06-25"
+    icon: "devPosts.svg"
+    externalSource: "blog.decred.org"
 -
   Title: "Decred Journal, May 2021"
   Author: "Decred Journal Team"
@@ -122,6 +261,21 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Decred Release v1.6.3"
+  Author: "Josh Rickmar"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.6.3"
+  Params:
+    sortDate: "2021-05-12"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "DCRDEX Release v0.2.0"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.2.0"
+  Params:
+    sortDate: "2021-05-07"
+    icon: "releaseUpdates.svg"
+-
   Title: "Decred Journal, March 2021"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-march-2021-fe6ec072f09c"
@@ -130,6 +284,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Decred Release v1.6.2"
+  Author: "Josh Rickmar"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.6.2"
+  Params:
+    sortDate: "2021-04-08"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
   Title: "Decred Journal, February 2021"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-february-2021-39fa12ee2fb7"
@@ -137,6 +299,21 @@
     sortDate: "2021-03-14"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "Decred Release v1.6.1"
+  Author: "Alex Yocom-Piatt"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.6.1"
+  Params:
+    sortDate: "2021-02-23"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "DCRDEX Release v0.1.5"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.1.5"
+  Params:
+    sortDate: "2021-02-22"
+    icon: "releaseUpdates.svg"
 -
   Title: "Decred Journal, January 2021"
   Author: "Decred Journal Team"
@@ -154,6 +331,29 @@
     icon: "generalResearch.svg"
     externalSource: "blockcommons.red"
 -
+  Title: "Decred Release v1.6.0"
+  Author: "Josh Rickmar"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.6.0"
+  Params:
+    sortDate: "2021-01-25"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Decred co-founder explains the possible effects of a CBDC takeover"
+  Author: "Benjamin Pirus"
+  Permalink: "https://cointelegraph.com/news/decred-co-founder-explains-the-possible-effects-of-a-cbdc-takeover"
+  Params:
+    sortDate: "2021-01-17"
+    icon: "interview.svg"
+    externalSource: "cointelegraph.com"
+-
+  Title: "DCRDEX Release v0.1.4"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.1.4"
+  Params:
+    sortDate: "2021-01-14"
+    icon: "releaseUpdates.svg"
+-
   Title: "Decred Journal, December 2020"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-december-2020-d9e89313f480"
@@ -170,6 +370,28 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "DCRDEX Release v0.1.3"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.1.3"
+  Params:
+    sortDate: "2020-11-30"
+    icon: "releaseUpdates.svg"
+-
+  Title: "DCRDEX Release v0.1.2"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.1.2"
+  Params:
+    sortDate: "2020-11-30"
+    icon: "releaseUpdates.svg"
+-
+  Title: "Decred co-founder explains rationale behind Bitcoin bull and bear cycles"
+  Author: "Benjamin Pirus"
+  Permalink: "https://cointelegraph.com/news/decred-co-founder-explains-rationale-behind-bitcoin-bull-and-bear-cycles"
+  Params:
+    sortDate: "2020-11-27"
+    icon: "interview.svg"
+    externalSource: "cointelegraph.com"
+-
   Title: "Decred Journal, October 2020"
   Author: "Decred Journal Team"
   Permalink: "https://medium.com/decred/decred-journal-october-2020-b7e9a71de788"
@@ -177,6 +399,20 @@
     sortDate: "2020-11-12"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "DCRDEX Release v0.1.1"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/release-v0.1.1"
+  Params:
+    sortDate: "2020-11-03"
+    icon: "releaseUpdates.svg"
+-
+  Title: "DCRDEX Release v0.1.0"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/release-v0.1.0"
+  Params:
+    sortDate: "2020-10-29"
+    icon: "releaseUpdates.svg"
 -
   Title: "Decred Journal, September 2020"
   Author: "Decred Journal Team"
@@ -193,6 +429,14 @@
     sortDate: "2020-09-12"
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
+-
+  Title: "Decred Release v1.5.2"
+  Author: "David Hill"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.5.2"
+  Params:
+    sortDate: "2020-08-28"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
 -
   Title: "Decred, Mining Market Mechanics"
   Author: "Checkmate"
@@ -306,6 +550,22 @@
     icon: "dcrInMedia.svg"
     externalSource: "medium.com/decred/journals/home"
 -
+  Title: "Decred Release v1.5.1"
+  Author: "David Hill"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.5.1"
+  Params:
+    sortDate: "2020-01-29"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "Do “no-coiners” gate-keep Crypto Wikipedia?"
+  Author: "Ben Munster"
+  Permalink: "https://decrypt.co/17371/we-found-the-no-coiner-troll-guarding-wikipedia"
+  Params:
+    sortDate: "2020-01-22"
+    icon: "dcrInMedia.svg"
+    externalSource: "decrypt.co"
+-
   Title: "Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Conversion Rates"
   Author: "Permabull Nino"
   Permalink: "https://decredindepth.libsyn.com/"
@@ -330,6 +590,14 @@
     icon: "broadcasts.svg"
     externalSource: "povcryptopod.libsyn.com"
 -
+  Title: "Decred Release v1.5.0"
+  Author: "David Hill"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.5.0"
+  Params:
+    sortDate: "2019-12-16"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
   Title: "It’s Time to Walk-the-Talk on Decentralized Governance"
   Author: "Jake Yocom-Piatt"
   Permalink: "https://www.coindesk.com/its-time-to-walk-the-talk-on-decentralized-governance"
@@ -352,14 +620,14 @@
   Params:
     sortDate: "2019-11-19"
     icon: "interview.svg"
-    externalSource: "coindesk.com"
+    externalSource: "cointelegraph.com"
 -
   Title: "LN & Multi-Owner Tickets"
   Author: "Matheus Degiovani"
   Permalink: "https://blog.decred.org/2019/11/11/LN-Multi-Owner-Tickets/"
   Params:
     sortDate: "2019-11-11"
-    icon: "dcrInMedia.svg"
+    icon: "devPosts.svg"
     externalSource: "blog.decred.org"
 -
   Title: "Decred’s Politeia: Lessons Learned From A Year Of Decentralized Governance"
@@ -369,6 +637,30 @@
     sortDate: "2019-10-23"
     icon: "dcrInMedia.svg"
     externalSource: "cryptobriefing.com"
+-
+  Title: "Decred project lead Jake Yocom-Piatt: Practice what you preach"
+  Author: "Matt Hussey"
+  Permalink: "https://decrypt.co/8801/decred-project-lead-jake-yocom-piatt-interview-profile"
+  Params:
+    sortDate: "2019-08-30"
+    icon: "interview.svg"
+    externalSource: "decrypt.co"
+-
+  Title: "Crypto Project Decred Adds Privacy Features to Its Coin"
+  Author: "Joeri Cant"
+  Permalink: "https://cointelegraph.com/news/crypto-project-decred-adds-privacy-features-to-its-coin"
+  Params:
+    sortDate: "2019-08-30"
+    icon: "dcrInMedia.svg"
+    externalSource: "cointelegraph.com"
+-
+  Title: "Decred aims to be a “more effective” privacy coin than Monero or Zcash"
+  Author: "Nicholas Marinoff"
+  Permalink: "https://decrypt.co/8796/decred-aims-to-be-a-more-effective-privacy-coin-than-monero-or-zcash"
+  Params:
+    sortDate: "2019-08-29"
+    icon: "dcrInMedia.svg"
+    externalSource: "decrypt.co"
 -
   Title: "After Years of Secret Work, Decred Adds a New Feature: Privacy"
   Author: "Laura Shin"
@@ -402,6 +694,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "seekingalpha.com"
 -
+  Title: "Staking Isn't Just a Way to Earn Crypto Money – And It Shouldn't Be"
+  Author: "Jake Yocom-Piatt"
+  Permalink: "https://www.coindesk.com/markets/2019/06/22/staking-isnt-just-a-way-to-earn-crypto-money-and-it-shouldnt-be/"
+  Params:
+    sortDate: "2019-06-22"
+    icon: "interview.svg"
+    externalSource: "coindesk.com"
+-
   Title: "Geron’s Take: Decred Aims to Reach Crypto’s Decentralized Ideals "
   Author: "Tomio Geron"
   Permalink: "https://www.wsj.com/articles/gerons-take-decred-aims-to-reach-cryptos-decentralized-ideals-11552523191"
@@ -409,6 +709,14 @@
     sortDate: "2019-03-13"
     icon: "dcrInMedia.svg"
     externalSource: "wsj.com"
+-
+  Title: "Decred Release v1.4.0"
+  Author: "David Hill"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.4.0"
+  Params:
+    sortDate: "2019-02-06"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
 -
   Title: "No More Trading Or Listing Fees? Decred Releases New DEX Proposal"
   Author: "Leslie Ankney"
@@ -426,6 +734,14 @@
     icon: "dcrInMedia.svg"
     externalSource: "forbes.com"
 -
+  Title: "How to Last the Crypto Winter? Seek Simplicity, Manage Complexity"
+  Author: "Jake Yocom-Piatt"
+  Permalink: "https://www.coindesk.com/markets/2019/01/03/how-to-last-the-crypto-winter-seek-simplicity-manage-complexity/"
+  Params:
+    sortDate: "2019-01-03"
+    icon: "interview.svg"
+    externalSource: "coindesk.com"
+-
   Title: "Decred Is Turning Its Entire $21 Million Crypto Treasury Over to Investors"
   Author: "Brady Dale"
   Permalink: "https://www.coindesk.com/decred-is-turning-its-entire-21-million-crypto-treasury-over-to-investors"
@@ -433,6 +749,30 @@
     sortDate: "2018-10-16"
     icon: "dcrInMedia.svg"
     externalSource: "coindesk.com"
+-
+  Title: "Decred Release v1.3.1"
+  Author: "David Hill"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.3.1"
+  Params:
+    sortDate: "2018-10-15"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "One of Investors' Favorite Governance Blockchains Is Handing Over $20 Million"
+  Author: "Brady Dale"
+  Permalink: "https://www.coindesk.com/markets/2018/09/20/one-of-investors-favorite-governance-blockchains-is-handing-over-20-million/"
+  Params:
+    sortDate: "2018-09-20"
+    icon: "dcrInMedia.svg"
+    externalSource: "coindesk.com"
+-
+  Title: "Governing Decentralization: How On-Chain Voting Protocols Operate and Vary"
+  Author: "Guest Author"
+  Permalink: "https://cointelegraph.com/news/governing-decentralization-how-on-chain-voting-protocols-operate-and-vary"
+  Params:
+    sortDate: "2018-09-20"
+    icon: "dcrInMedia.svg"
+    externalSource: "cointelegraph.com"
 -
   Title: "Decred Adds Atomic Swap Support for Exchange-Free Cryptocurrency Trading"
   Author: "Bitcoin Magazine"
