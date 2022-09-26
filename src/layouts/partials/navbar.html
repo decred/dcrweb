@@ -32,6 +32,11 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {{ if eq .Section "news" }}active{{end}}" href="{{ "/news/" | relLangURL }}">
+                            {{ T "nav_news" }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://docs.decred.org/" target="_blank" rel="noopener noreferrer">
                             {{ T "nav_documentation" }}
                         </a>
