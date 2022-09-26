@@ -40,7 +40,7 @@ The most frequently updated content sections live in the below locations:
 
 | Section            | File |
 | ------------------ | ---- |
-| News               | `src/data/news/coverage.yml` |
+| News               | `src/data/news/news.yml` |
 | Press releases     | `src/content/news/*.md` |
 | Wallets            | `src/data/wallets/wallets.yml` |
 | Community channels | `src/data/community/channels.yml` |
