@@ -23,11 +23,20 @@
 @include media-breakpoint-up(lg) {
   .press-toggle {
     position: absolute;
-    right: 0;
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
   }
+
+  // This is a bit of a bodge. Could be improved by using start/end instead of
+  // left/right.
+  html[dir="rtl"] .press-toggle {
+    left: 0;
+  }
+  html[dir="ltr"] .press-toggle {
+    right: 0;
+  }
+
 }
 
     #news:checked~div label[for='news'],
