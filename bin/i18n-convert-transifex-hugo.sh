@@ -1,15 +1,22 @@
 #!/usr/bin/env bash
 
-set -ex
-
-# convert localization files from Transifex format to Hugo i18n
+set -e
 
 for i in transifex_catalogs/*.json; do
 
-    f=$(basename $i)
-    outfile=src/i18n/$f
+    lang=$(basename $i .json)
+    outfile=src/i18n/$lang.json
 
+    echo "Writing i18n files for $lang"
+
+    # Convert localization files from Transifex format to Hugo i18n.
     jq 'to_entries | map({ id: .key, translation: .value})' $i > $outfile
 
+    # Create content sub-directory for this lang.
+    if [ $lang = "en" ]; then
+        continue
+    fi
+    rm -rf src/content/$lang
+    cp -r src/content/en src/content/$lang
 done
 
