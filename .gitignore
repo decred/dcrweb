@@ -6,3 +6,16 @@ node_modules/
 .DS_Store
 .hugo_build.lock
 *.log
+
+# Ignore all i18n sub-directories apart from en.
+src/content/ar
+src/content/de
+src/content/es
+src/content/fa
+src/content/ja
+src/content/ko
+src/content/pl
+src/content/pt
+src/content/ru
+src/content/tr
+src/content/zh

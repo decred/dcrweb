@@ -23,36 +23,43 @@ params:
 
 languages: 
     en:
-        weight: 10
+        contentDir: content/en
         languageName: ENG
+        weight: 10
         params:
             languageDir: ltr
     zh:
+        contentDir: content/zh
         languageName: 中文
         weight: 20
         params:
             languageDir: ltr
     pt:
+        contentDir: content/pt
         languageName: "PT"
         weight: 50
         params:
             languageDir: ltr
     ar:
+        contentDir: content/ar
         languageName: العَرَبِيَّة
         weight: 90
         params:
             languageDir: rtl
     es:
+        contentDir: content/es
         languageName: SPA
         weight: 100
         params:
             languageDir: ltr
     de:
+        contentDir: content/de
         languageName: GER
         weight: 110
         params:
             languageDir: ltr
     pl:
+        contentDir: content/pl
         languageName: POL
         weight: 120
         params:
