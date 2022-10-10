@@ -10,31 +10,53 @@
 <div class="subpage-padding body-gradient g-0">
     <div class="container">
 
-        <input class="d-none" type="radio" id="news" name="subpage_toggler" checked />
-        <input class="d-none" type="radio" id="releases" name="subpage_toggler" />
+        <!-- Hidden anchors to facilitate filtering. -->
+        <div class="d-none" id="all"></div>
+        <div class="d-none" id="coverage"></div>
+        <div class="d-none" id="software_releases"></div>
+        <div class="d-none" id="decred_journals"></div>
+        <div class="d-none" id="press_releases"></div>
         
         <div class="subpage-header">
             <div class="subpage-title">{{ T "news_title" }}</div>
         </div>
         
-        <div class="w-100 position-relative">
-            <div class="subpage-paragraph" style="max-width: 490px;">{{ T "news_description" | safeHTML }}</div>
-            <div class="press-toggle">
-                <label for="news">{{ T "news_title" }}</label>
-                <label for="releases">{{ T "news_press_releases" }}</label>
-            </div>
+        <div class="news-toggle pills">
+            <a id="all_filter" href="#all">
+                <div class="pill">
+                    {{ T "news_all" }}
+                </div>
+            </a>
+            <a id="coverage_filter" href="#coverage">
+                <div class="pill">
+                    {{ T "news_coverage" }}
+                </div>
+            </a>
+            <a id="software_filter" href="#software_releases">
+                <div class="pill">
+                    {{ T "news_software" }}
+                </div>
+            </a>
+            <a id="journal_filter" href="#decred_journals">
+                <div class="pill">
+                    {{ T "news_decred_journal" }}
+                </div>
+            </a>
+            <a id="press_release_filter" href="#press_releases">
+                <div class="pill">
+                    {{ T "news_press_releases" }}
+                </div>
+            </a>
         </div>
         
-        <div class="toggleable">
-            <div class="press-items press__news">
-                {{ partial "news/news-list" .Site.Data.news.news }}
-            </div>
-            
-            <div class="press-items press__releases">
-                {{ partial "news/news-list" (where .Site.RegularPages "Section" "=" "news") }}
-            </div>
+        <div class="news-list">
+            {{ partial "news/news-list" (dict "filterCategory" "coverage"         "items" .Site.Data.news.coverage) }}
+            {{ partial "news/news-list" (dict "filterCategory" "journal"          "items" .Site.Data.news.decred_journals) }}
+            {{ partial "news/news-list" (dict "filterCategory" "software_release" "items" .Site.Data.news.software_releases) }}
+            {{ partial "news/news-list" (dict "filterCategory" "press_release"    "items" (where .Site.RegularPages "Section" "=" "news")) }}
         </div>
+
     </div>
-    
+
 </div>
 {{end}}

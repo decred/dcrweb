@@ -1,23 +1,23 @@
-{{ range sort . ".Params.sortDate" "desc" }}
-    <div class="press__news-item">
+{{ range .items }}
+    <div class="news-item {{ $.filterCategory }}" style="order: {{ (.Params.sortDate | time.AsTime).Unix }}">
         <a href="{{ .Permalink }}" {{ if .Params.externalSource }} target="_blank" {{ end }} rel="noopener noreferrer">
-            <img class="press-icon" src="{{ .Site.BaseURL }}/images/news-icons/{{ .Params.icon }}" width="30" alt="" />
+            <img class="news-icon" src="{{ .Site.BaseURL }}/images/news-icons/{{ .Params.icon }}" width="30" alt="" />
 
-            <div class="press__news-wrapper">
+            <div class="news-item-wrapper">
                 <p>
-                    <span class="press__title">{{ .Title }}</span>
+                    <span class="news-item-title">{{ .Title }}</span>
                     {{ if .Params.externalSource }}
-                        <span class="press__source"> ({{ .Params.externalSource }})</span>
+                        <span class="news-source"> ({{ .Params.externalSource }})</span>
                     {{ end }}
                 </p>
                 {{ if .Params.externalSource }}
-                    <p class="press__author">{{ .Author }}</p>
+                    <p class="news-author">{{ .Author }}</p>
                 {{ end }}
-                <p class="press__date">{{ dateFormat "January 2, 2006" .Params.sortDate }}</p>
+                <p class="news-date">{{ dateFormat "January 2, 2006" .Params.sortDate }}</p>
             </div>
 
             {{ if .Params.externalSource }}
-                <img class="press-hover-icon" src="{{ .Site.BaseURL }}/images/external-link.svg" width="16" alt="" />
+                <img class="news-external-link" src="{{ .Site.BaseURL }}/images/external-link.svg" width="16" alt="" />
             {{ end }}
         </a>
     </div>
