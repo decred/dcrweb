@@ -15,18 +15,18 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-amd64-v1.7.3.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.5/decrediton-amd64-v1.7.5.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-v1.7.3.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.5/decrediton-v1.7.5.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.3/decrediton-v1.7.3.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.5/decrediton-v1.7.5.exe
       is_direct_download: true
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v173
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v175
     - title: GitHub
       url: https://github.com/decred/decrediton
 
@@ -70,9 +70,9 @@
   highlight: true
   links:
     - title: GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.7.2
+      url: https://github.com/decred/decred-release/releases/tag/v1.7.5
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v172
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v175
 
 - id: trezor
   name: Trezor
