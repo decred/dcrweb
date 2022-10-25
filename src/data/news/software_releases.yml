@@ -1,3 +1,11 @@
+-
+  Title: "Decred Release v1.7.5"
+  Author: "Alex Yocom-Piatt"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.5"
+  Params:
+    sortDate: "2022-10-14"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
 - 
   Title: "DCRDEX Release v0.5.4"
   Author: "Jonathan Chappelow"
@@ -28,14 +36,6 @@
   Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.0"
   Params:
     sortDate: "2022-08-23"
-    icon: "releaseUpdates.svg"
-    externalSource: "github.com"
--
-  Title: "Decred Release v1.7.5"
-  Author: "Alex Yocom-Piatt"
-  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.5"
-  Params:
-    sortDate: "2022-10-14"
     icon: "releaseUpdates.svg"
     externalSource: "github.com"
 -
@@ -87,19 +87,19 @@
     icon: "releaseUpdates.svg"
     externalSource: "github.com"
 -
-  Title: "DCRDEX Release v0.4.0"
-  Author: "Jonathan Chappelow"
-  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.4.0"
-  Params:
-    sortDate: "2022-01-20"
-    icon: "releaseUpdates.svg"
-    externalSource: "github.com"
--
   Title: "Decred Release v1.7.0"
   Author: "Josh Rickmar"
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.0"
   Params:
     sortDate: "2022-01-24"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+-
+  Title: "DCRDEX Release v0.4.0"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.4.0"
+  Params:
+    sortDate: "2022-01-20"
     icon: "releaseUpdates.svg"
     externalSource: "github.com"
 -
