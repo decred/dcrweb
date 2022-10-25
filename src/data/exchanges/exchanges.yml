@@ -120,7 +120,7 @@
   name: "DCRDEX"
   super_highlight: true
 -
-  url: "https://swapzone.io/"
+  url: "https://swapzone.io/exchange/btc/dcr"
   tags:
     - instant_exchange
   name: "Swapzone"
