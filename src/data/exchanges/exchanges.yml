@@ -84,8 +84,9 @@
   name: "Simple Swap"
   highlight: false
 -
-  url: "https://stealthex.io/"
+  url: "https://stealthex.io/?to=dcr"
   tags:
+    - "instant_exchange"
   name: StealthEX
   highlight: false
 -
@@ -134,4 +135,10 @@
   tags:
     - fiat
   name: WazirX
+  highlight: false
+-
+  url: "https://changenow.io/?from=btc&to=dcr"
+  tags:
+    - "instant_exchange"
+  name: ChangeNOW
   highlight: false
