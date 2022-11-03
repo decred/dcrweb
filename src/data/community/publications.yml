@@ -9,7 +9,7 @@
 
 -
   id: youtube
-  url: "https://www.youtube.com/decredchannel"
+  url: "https://www.youtube.com/@DecredTV"
   name: YouTube
   highlight: false
   footer: true
