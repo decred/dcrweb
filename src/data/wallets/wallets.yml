@@ -15,15 +15,15 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.5/decrediton-amd64-v1.7.5.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.6/decrediton-amd64-v1.7.6.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.5/decrediton-v1.7.5.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.6/decrediton-v1.7.6.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.5/decrediton-v1.7.5.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.6/decrediton-v1.7.6.exe
       is_direct_download: true
     - title: Release notes
       url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v175
