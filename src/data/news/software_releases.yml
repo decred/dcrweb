@@ -1,4 +1,12 @@
 -
+  Title: "Decred Release v1.7.6"
+  Author: "Alex Yocom-Piatt"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.6"
+  Params:
+    sortDate: "2022-11-16"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+- 
   Title: "Decred Release v1.7.5"
   Author: "Alex Yocom-Piatt"
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.5"
