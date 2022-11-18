@@ -26,7 +26,7 @@
       url: https://github.com/decred/decred-binaries/releases/download/v1.7.6/decrediton-v1.7.6.exe
       is_direct_download: true
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v175
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v176
     - title: GitHub
       url: https://github.com/decred/decrediton
 
