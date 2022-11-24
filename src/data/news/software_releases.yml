@@ -7,6 +7,14 @@
     icon: "releaseUpdates.svg"
     externalSource: "github.com"
 - 
+  Title: "DCRDEX Release v0.5.5"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.5"
+  Params:
+    sortDate: "2022-11-01 20:30:16"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+- 
   Title: "Decred Release v1.7.5"
   Author: "Alex Yocom-Piatt"
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.5"
