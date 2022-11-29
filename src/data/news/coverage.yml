@@ -15,14 +15,6 @@
     icon: "dcrInMedia.svg"
     externalSource: "thefintechtimes.com/"
 -
-  Title: "Jonathan Zeppettini Talks About The Future of Crypto After the FTX Collapse"
-  Author: "Jason Hartman"
-  Permalink: "https://www.themanual.com/culture/what-experts-say-will-happen-next-for-crypto/"
-  Params:
-    sortDate: "2022-11-20"
-    icon: "dcrInMedia.svg"
-    externalSource: "themanual.com/"
--
   Title: "Jake Yocom-Piatt Interview on Blockchain and Elections: Brazil's Lula Publishing Policy Documents on the Blockchain"
   Author: "Dan Ashmore"
   Permalink: "https://invezz.com/news/2022/11/11/video-blockchain-and-elections-jake-yocom-piatt/"
@@ -30,14 +22,6 @@
     sortDate: "2022-11-11"
     icon: "interview.svg"
     externalSource: "invezz.com/"
--
-  Title: "Jonathan Zeppettini Comments on FTX Collapse: The Crypto Industry's Lehman Brothers Moment"
-  Author: "Prashant Jha"
-  Permalink: "https://cointelegraph.com/news/ftx-collapse-the-crypto-industry-s-lehman-brothers-moment"
-  Params:
-    sortDate: "2022-11-11"
-    icon: "dcrInMedia.svg"
-    externalSource: "cointelegraph.com/"
 -
   Title: "Brazil's Presidential Candidate Lula, and São Paulo Governor Nominee Fernando Haddad, Publish Governing Policies on the Decred Blockchain"
   Author: "Francis Bignell"
@@ -70,14 +54,6 @@
     sortDate: "2022-10-26"
     icon: "dcrInMedia.svg"
     externalSource: "cointelegraph.com.br/"
--
-  Title: "Jonathan Zeppettini Comments on Importance of Privacy for Any Currency"
-  Author: "Crystal Kim"
-  Permalink: "https://www.axios.com/2022/09/15/privacy-coins-test-crypto-exchanges-comfort-with-compliance"
-  Params:
-    sortDate: "2022-09-15"
-    icon: "dcrInMedia.svg"
-    externalSource: "axios.com/"
 -
   Title: "Decred's Brian ‘Buck’ Stafford Interview on The Future of Money and Banking"
   Author: "Jason Hartman"
