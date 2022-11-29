@@ -1,5 +1,85 @@
 -
-  Title: "Brian ‘Buck’ Stafford of Decred On The Future of Money and Banking"
+  Title: "Jake Yocom-Piatt Interview on Blockchain Fixing Political Voting, Campaign Spending, and Privacy"
+  Author: "Matt Zahab"
+  Permalink: "https://cryptonews.com/exclusives/jake-yocom-piatt-co-founder-of-decred-on-blockchain-fixing-political-voting-campaign-spending-and-privacy.htm"
+  Params:
+    sortDate: "2022-11-29"
+    icon: "interview.svg"
+    externalSource: "cryptonews.com/"
+-
+  Title: "Sustainable Crypto Alternatives to Mining With Decred"
+  Author: "Francis Bignell"
+  Permalink: "https://thefintechtimes.com/sustainable-crypto-alternatives-to-mining-with-decred-sellix-and-omnia-markets/"
+  Params:
+    sortDate: "2022-11-27"
+    icon: "dcrInMedia.svg"
+    externalSource: "thefintechtimes.com/"
+-
+  Title: "Jonathan Zeppettini Talks About The Future of Crypto After the FTX Collapse"
+  Author: "Jason Hartman"
+  Permalink: "https://www.themanual.com/culture/what-experts-say-will-happen-next-for-crypto/"
+  Params:
+    sortDate: "2022-11-20"
+    icon: "dcrInMedia.svg"
+    externalSource: "themanual.com/"
+-
+  Title: "Jake Yocom-Piatt Interview on Blockchain and Elections: Brazil's Lula Publishing Policy Documents on the Blockchain"
+  Author: "Dan Ashmore"
+  Permalink: "https://invezz.com/news/2022/11/11/video-blockchain-and-elections-jake-yocom-piatt/"
+  Params:
+    sortDate: "2022-11-11"
+    icon: "interview.svg"
+    externalSource: "invezz.com/"
+-
+  Title: "Jonathan Zeppettini Comments on FTX Collapse: The Crypto Industry's Lehman Brothers Moment"
+  Author: "Prashant Jha"
+  Permalink: "https://cointelegraph.com/news/ftx-collapse-the-crypto-industry-s-lehman-brothers-moment"
+  Params:
+    sortDate: "2022-11-11"
+    icon: "dcrInMedia.svg"
+    externalSource: "cointelegraph.com/"
+-
+  Title: "Brazil's Presidential Candidate Lula, and São Paulo Governor Nominee Fernando Haddad, Publish Governing Policies on the Decred Blockchain"
+  Author: "Francis Bignell"
+  Permalink: "https://thefintechtimes.com/new-use-for-blockchain-setting-the-record-straight-in-political-battles/"
+  Params:
+    sortDate: "2022-11-02"
+    icon: "dcrInMedia.svg"
+    externalSource: "thefintechtimes.com/"
+-
+  Title: "Jake Yocom-Piatt Interview on Decred's PoW/PoS Hybrid and Hostile Miners"
+  Author: "Joël Valenzuela"
+  Permalink: "https://anchor.fm/digitalcashnetwork/episodes/Jake-Yocom-Piatt-on-Decreds-PoWPoS-Hybrid-And-Hostile-Miner-Troubles-e1q1b0t"
+  Params:
+    sortDate: "2022-10-31"
+    icon: "interview.svg"
+    externalSource: "anchor.fm/digitalcashnetwork/"
+-
+  Title: "Lula and Haddad Register Government Plans on Decred Blockchain to Avoid Fake News"
+  Author: "Thiago Barboza"
+  Permalink: "https://br.beincrypto.com/planos-governo-lula-haddad-registrados-blockchain/"
+  Params:
+    sortDate: "2022-10-27"
+    icon: "dcrInMedia.svg"
+    externalSource: "br.beincrypto.com/"
+-
+  Title: "Lula and Haddad Register Government Plan on Decred's Blockchain"
+  Author: "Cassio Gusson"
+  Permalink: "https://cointelegraph.com.br/news/lula-and-haddad-register-government-plan-on-blockchain"
+  Params:
+    sortDate: "2022-10-26"
+    icon: "dcrInMedia.svg"
+    externalSource: "cointelegraph.com.br/"
+-
+  Title: "Jonathan Zeppettini Comments on Importance of Privacy for Any Currency"
+  Author: "Crystal Kim"
+  Permalink: "https://www.axios.com/2022/09/15/privacy-coins-test-crypto-exchanges-comfort-with-compliance"
+  Params:
+    sortDate: "2022-09-15"
+    icon: "dcrInMedia.svg"
+    externalSource: "axios.com/"
+-
+  Title: "Decred's Brian ‘Buck’ Stafford Interview on The Future of Money and Banking"
   Author: "Jason Hartman"
   Permalink: "https://medium.com/authority-magazine/brian-buck-stafford-of-decred-on-the-future-of-money-and-banking-45f25305b409"
   Params:
@@ -7,39 +87,39 @@
     icon: "interview.svg"
     externalSource: "https://medium.com/authority-magazine"
 -
-  Title: "Interview w/ Jake Yocom-Piatt: Sovereignty, Privacy, Decred So Far"
+  Title: "Jake Yocom-Piatt Interview on Sovereignty, Privacy, Decred So Far"
   Author: "CoinJournal"
   Permalink: "https://www.youtube.com/watch?v=EAiIAbKQAjI"
   Params:
     sortDate: "2022-06-24"
     icon: "broadcasts.svg"
-    externalSource: "youtube.com"
+    externalSource: "youtube.com/@CoinJournal"
 -
-  Title: "Co-founder Jake Yocom-Piatt discusses alternate stores-of-value to Bitcoin"
+  Title: "Jake Yocom-Piatt Discusses Alternate Stores-of-Value to Bitcoin"
   Author: "Dan Ashmore"
   Permalink: "https://www.youtube.com/watch?v=_QsWw4EDPyg"
   Params:
     sortDate: "2022-06-01"
     icon: "broadcasts.svg"
-    externalSource: "youtube.com"
+    externalSource: "youtube.com/@invezzcom"
 -
-  Title: "Decred shifts to majority Proof of Stake consensus model"
+  Title: "Decred Shifts to Majority Proof of Stake Consensus Model"
   Author: "Benson Toti"
   Permalink: "https://invezz.com/news/2022/05/09/decred-shifts-to-majority-proof-of-stake-consensus-model/"
   Params:
     sortDate: "2022-05-09"
     icon: "dcrInMedia.svg"
-    externalSource: "invezz.com"
+    externalSource: "invezz.com/"
 -
-  Title: "Decred price soars 45% in one day three weeks before a major hard fork"
+  Title: "Decred Price Soars 45% Three Weeks Before Major Hard Fork"
   Author: "Yashu Gola"
   Permalink: "https://cointelegraph.com/news/decred-price-soars-45-in-one-day-three-weeks-before-a-major-hard-fork"
   Params:
     sortDate: "2022-04-18"
     icon: "dcrInMedia.svg"
-    externalSource: "cointelegraph.com"
+    externalSource: "cointelegraph.com/"
 -
-  Title: "Decred Announces System Improvements, Included Quantum Computing Protection, in V1.7"
+  Title: "Decred v1.7: System Improvements Included Quantum Computing Protection"
   Author: "Tony Zerucha"
   Permalink: "https://www.crowdfundinsider.com/2022/01/185890-decred-announces-system-improvements-included-quantum-computing-protection-in-v1-7/"
   Params:
@@ -47,7 +127,7 @@
     icon: "dcrInMedia.svg"
     externalSource: "crowdfundinsider.com"
 -
-  Title: "Decred urge users to upgrade to v1.7"
+  Title: "Decred Urges Users to Upgrade to v1.7"
   Author: "Hassan Maishera"
   Permalink: "https://www.binance.com/en/news/top/6943919"
   Params:
@@ -55,7 +135,7 @@
     icon: "dcrInMedia.svg"
     externalSource: "binance.com"
 -
-  Title: "Decred accidentally creates three TSpends for December"
+  Title: "Decred Accidentally Creates Three TSpends for December"
   Author: "Hassan Maishera"
   Permalink: "https://www.binance.com/en/news/top/6784887"
   Params:
@@ -69,7 +149,7 @@
   Params:
     sortDate: "2021-11-03"
     icon: "generalResearch.svg"
-    externalSource: "medium.com"
+    externalSource: "medium.com/@tacorevenge/"
 -
   Title: "Decentralized Digital Currency Project Decred (DCR) Reaches Governance Milestone of 77% Voter Participation"
   Author: "Omar Faridi"
@@ -85,7 +165,7 @@
   Params:
     sortDate: "2021-08-06"
     icon: "generalResearch.svg"
-    externalSource: "medium.com"
+    externalSource: "medium.com/@tacorevenge/"
 -
   Title: "Decred (DCR), a Virtual Currency Focused on Security and Scalability, to Enhance User Experience"
   Author: "Omar Faridi"
@@ -117,9 +197,9 @@
   Params:
     sortDate: "2021-05-14"
     icon: "broadcasts.svg"
-    externalSource: "youtube.com"
+    externalSource: "youtube.com/@moneymarketsmorewithdomini9987"
 -
-  Title: "Decred Blockchain Analysis - Part 2"
+  Title: "Decred Blockchain Analysis with Richard Red - Part 2"
   Author: "Richard Red"
   Permalink: "https://blockcommons.red/post/dcr-on-chain-2/"
   Params:
@@ -127,21 +207,21 @@
     icon: "generalResearch.svg"
     externalSource: "blockcommons.red"
 -
-  Title: "Decred co-founder explains the possible effects of a CBDC takeover"
+  Title: "Decred Co-Founder Explains the Possible Effects of a CBDC Takeover"
   Author: "Benjamin Pirus"
   Permalink: "https://cointelegraph.com/news/decred-co-founder-explains-the-possible-effects-of-a-cbdc-takeover"
   Params:
     sortDate: "2021-01-17"
     icon: "interview.svg"
-    externalSource: "cointelegraph.com"
+    externalSource: "cointelegraph.com/"
 -
-  Title: "Decred co-founder explains rationale behind Bitcoin bull and bear cycles"
+  Title: "Decred Co-Founder Explains Rationale Behind Bitcoin Bull and Bear Cycles"
   Author: "Benjamin Pirus"
   Permalink: "https://cointelegraph.com/news/decred-co-founder-explains-rationale-behind-bitcoin-bull-and-bear-cycles"
   Params:
     sortDate: "2020-11-27"
     icon: "interview.svg"
-    externalSource: "cointelegraph.com"
+    externalSource: "cointelegraph.com/"
 -
   Title: "Decred, a Security and Scalability focused Digital Currency Project, Launches DCRDEX, a Non-Custodial Exchange"
   Author: "Omar Faridi"
@@ -173,9 +253,9 @@
   Params:
     sortDate: "2020-06-10"
     icon: "generalResearch.svg"
-    externalSource: "medium.com/decred/home"
+    externalSource: "medium.com/decred/"
 -
-  Title: "Decred Blockchain Analysis - Part 1"
+  Title: "Decred Blockchain Analysis with Richard Red - Part 1"
   Author: "Richard Red"
   Permalink: "https://blockcommons.red/post/dcr-on-chain-1/"
   Params:
@@ -197,7 +277,7 @@
   Params:
     sortDate: "2020-02-17"
     icon: "generalResearch.svg"
-    externalSource: "https://medium.com/@_Checkmatey_"
+    externalSource: "medium.com/@_Checkmatey_"
 -
   Title: "Decred On-Chain: Ticket Funding Rates"
   Author: "Permabull Nino"
@@ -205,9 +285,9 @@
   Params:
     sortDate: "2020-02-11"
     icon: "generalResearch.svg"
-    externalSource: "https://medium.com/@permabullnino/"
+    externalSource: "medium.com/@permabullnino/"
 -
-  Title: "Do “no-coiners” gate-keep Crypto Wikipedia?"
+  Title: "Do “No-Coiners” Gate-Keep Crypto Wikipedia?"
   Author: "Ben Munster"
   Permalink: "https://decrypt.co/17371/we-found-the-no-coiner-troll-guarding-wikipedia"
   Params:
@@ -245,7 +325,7 @@
   Params:
     sortDate: "2019-12-12"
     icon: "broadcasts.svg"
-    externalSource: "anthonypompliano.com"
+    externalSource: "youtube.com/@AnthonyPompliano"
 -
   Title: "Secrets They Missed at Devcon: What it’s Really Like Working in a DAO"
   Author: "Jake Yocom-Piatt"
@@ -253,7 +333,7 @@
   Params:
     sortDate: "2019-11-19"
     icon: "interview.svg"
-    externalSource: "cointelegraph.com"
+    externalSource: "cointelegraph.com/"
 -
   Title: "LN & Multi-Owner Tickets"
   Author: "Matheus Degiovani"
@@ -271,7 +351,7 @@
     icon: "dcrInMedia.svg"
     externalSource: "cryptobriefing.com"
 -
-  Title: "Decred project lead Jake Yocom-Piatt: Practice what you preach"
+  Title: "Decred Project Lead Jake Yocom-Piatt: Practice What You Preach"
   Author: "Matt Hussey"
   Permalink: "https://decrypt.co/8801/decred-project-lead-jake-yocom-piatt-interview-profile"
   Params:
@@ -285,9 +365,9 @@
   Params:
     sortDate: "2019-08-30"
     icon: "dcrInMedia.svg"
-    externalSource: "cointelegraph.com"
+    externalSource: "cointelegraph.com/"
 -
-  Title: "Decred aims to be a “more effective” privacy coin than Monero or Zcash"
+  Title: "Decred Aims to be a “More Effective” Privacy Coin than Monero or Zcash"
   Author: "Nicholas Marinoff"
   Permalink: "https://decrypt.co/8796/decred-aims-to-be-a-more-effective-privacy-coin-than-monero-or-zcash"
   Params:
@@ -389,7 +469,7 @@
   Params:
     sortDate: "2018-09-20"
     icon: "dcrInMedia.svg"
-    externalSource: "cointelegraph.com"
+    externalSource: "cointelegraph.com/news/"
 -
   Title: "Decred Adds Atomic Swap Support for Exchange-Free Cryptocurrency Trading"
   Author: "Bitcoin Magazine"
