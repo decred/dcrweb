@@ -21,7 +21,7 @@
   Params:
     sortDate: "2022-10-31"
     icon: "interview.svg"
-    externalSource: "https://www.youtube.com/@DigitalCashNetwork"
+    externalSource: "youtube.com/@DigitalCashNetwork"
 -
   Title: "Brian ‘Buck’ Stafford of Decred On The Future of Money and Banking"
   Author: "Jason Hartman"
@@ -29,10 +29,10 @@
   Params:
     sortDate: "2022-09-09"
     icon: "interview.svg"
-    externalSource: "https://medium.com/authority-magazine"
+    externalSource: "medium.com/authority-magazine"
 -
   Title: "Interview w/ Jake Yocom-Piatt: Sovereignty, Privacy, Decred So Far"
-  Author: "CoinJournal"
+  Author: "Joe K.B. and Dan Ashmore"
   Permalink: "https://www.youtube.com/watch?v=EAiIAbKQAjI"
   Params:
     sortDate: "2022-06-24"
@@ -93,7 +93,7 @@
   Params:
     sortDate: "2021-11-03"
     icon: "generalResearch.svg"
-    externalSource: "medium.com"
+    externalSource: "medium.com/@tacorevenge"
 -
   Title: "Decentralized Digital Currency Project Decred (DCR) Reaches Governance Milestone of 77% Voter Participation"
   Author: "Omar Faridi"
@@ -109,7 +109,7 @@
   Params:
     sortDate: "2021-08-06"
     icon: "generalResearch.svg"
-    externalSource: "medium.com"
+    externalSource: "medium.com/@tacorevenge"
 -
   Title: "Decred (DCR), a Virtual Currency Focused on Security and Scalability, to Enhance User Experience"
   Author: "Omar Faridi"
@@ -181,7 +181,7 @@
   Params:
     sortDate: "2020-08-23"
     icon: "generalResearch.svg"
-    externalSource: "medium.com/decred/"
+    externalSource: "medium.com/decred"
 -
   Title: "The Federal Reserve: A Blatantly Rigged Game"
   Author: "Jake Yocom-Piatt"
@@ -197,7 +197,7 @@
   Params:
     sortDate: "2020-06-10"
     icon: "generalResearch.svg"
-    externalSource: "medium.com/decred/home"
+    externalSource: "medium.com/decred"
 -
   Title: "Decred Blockchain Analysis - Part 1"
   Author: "Richard Red"
@@ -221,7 +221,7 @@
   Params:
     sortDate: "2020-02-17"
     icon: "generalResearch.svg"
-    externalSource: "https://medium.com/@_Checkmatey_"
+    externalSource: "medium.com/decred"
 -
   Title: "Decred On-Chain: Ticket Funding Rates"
   Author: "Permabull Nino"
@@ -229,7 +229,7 @@
   Params:
     sortDate: "2020-02-11"
     icon: "generalResearch.svg"
-    externalSource: "https://medium.com/@permabullnino/"
+    externalSource: "medium.com/@permabullnino"
 -
   Title: "Do “no-coiners” gate-keep Crypto Wikipedia?"
   Author: "Ben Munster"
@@ -239,21 +239,21 @@
     icon: "dcrInMedia.svg"
     externalSource: "decrypt.co"
 -
-  Title: "Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Conversion Rates"
-  Author: "Permabull Nino"
+  Title: "Decred in Depth 16: Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Rates"
+  Author: "mr.black"
   Permalink: "https://www.youtube.com/watch?v=yyDL0OTmRMg"
   Params:
     sortDate: "2020-01-15"
     icon: "broadcasts.svg"
     externalSource: "youtube.com/@DecredTV"
 -
-  Title: "POV Crypto: 105 — Fight Night XI: BTC vs ETH vs DCR, with Checkmate"
-  Author: "David Hoffman"
+  Title: "POV Crypto 105 — Fight Night XI: BTC vs ETH vs DCR, with Checkmate"
+  Author: "David Hoffman and Christian Keroles"
   Permalink: "https://medium.com/@TrustlessState/105-fight-night-xi-btc-vs-eth-vs-dcr-with-checkmate-e5ca1064ea84"
   Params:
     sortDate: "2019-12-20"
     icon: "broadcasts.svg"
-    externalSource: "povcryptopod.libsyn.com"
+    externalSource: "medium.com/@TrustlessState"
 -
   Title: "It’s Time to Walk-the-Talk on Decentralized Governance"
   Author: "Jake Yocom-Piatt"
@@ -269,7 +269,7 @@
   Params:
     sortDate: "2019-12-12"
     icon: "broadcasts.svg"
-    externalSource: "anthonypompliano.com"
+    externalSource: "youtube.com/@AnthonyPompliano"
 -
   Title: "Secrets They Missed at Devcon: What it’s Really Like Working in a DAO"
   Author: "Jake Yocom-Piatt"
@@ -335,8 +335,8 @@
     icon: "dcrInMedia.svg"
     externalSource: "placeholder.vc"
 -
-  Title: "Murad Mahmudov - DCR Investment Thesis + SoV Narrative + Crypto Economics"
-  Author: "Murad Mahmudov"
+  Title: "Decred in Depth 4: Murad Mahmudov - DCR Investment Thesis + SoV Narrative + Crypto Economics"
+  Author: "mr.black"
   Permalink: "https://www.youtube.com/watch?v=XkvcdjSH0c0"
   Params:
     sortDate: "2019-07-15"
