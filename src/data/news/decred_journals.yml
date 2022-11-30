@@ -5,7 +5,7 @@
   Params:
     sortDate: "2022-11-19"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, September 2022"
   Author: "Decred Journal Team"
@@ -13,7 +13,7 @@
   Params:
     sortDate: "2022-10-19"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, August 2022"
   Author: "Decred Journal Team"
@@ -21,7 +21,7 @@
   Params:
     sortDate: "2022-09-16"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, July 2022"
   Author: "Decred Journal Team"
@@ -29,7 +29,7 @@
   Params:
     sortDate: "2022-08-17"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, June 2022"
   Author: "Decred Journal Team"
