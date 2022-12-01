@@ -270,7 +270,7 @@
     externalSource: "decrypt.co"
 -
   Title: "Decred in Depth 16: Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Rates"
-  Author: "mr.black"
+  Author: "Mr. Black"
   Permalink: "https://www.youtube.com/watch?v=yyDL0OTmRMg"
   Params:
     sortDate: "2020-01-15"
@@ -378,7 +378,7 @@
     externalSource: "placeholder.vc"
 -
   Title: "Decred in Depth 4: Murad Mahmudov - DCR Investment Thesis + SoV Narrative + Crypto Economics"
-  Author: "mr.black"
+  Author: "Mr. Black"
   Permalink: "https://www.youtube.com/watch?v=XkvcdjSH0c0"
   Params:
     sortDate: "2019-07-15"
@@ -468,10 +468,10 @@
     externalSource: "cointelegraph.com"
 -
   Title: "Decred Adds Atomic Swap Support for Exchange-Free Cryptocurrency Trading"
-  Author: "Bitcoin Magazine"
-  Permalink: "https://www.nasdaq.com/article/decred-adds-atomic-swap-support-for-exchange-free-cryptocurrency-trading-cm848329"
+  Author: "Giulio Prisco"
+  Permalink: "https://bitcoinmagazine.com/markets/decred-adds-atomic-swap-support-exchange-free-cryptocurrency-trading"
   Params:
     sortDate: "2017-09-20"
     icon: "announcementsDefault.svg"
-    outlet: "Nasdaq"
-    externalSource: "nasdaq.com"
+    outlet: "Bitcoin Magazine"
+    externalSource: "bitcoinmagazine.com"
