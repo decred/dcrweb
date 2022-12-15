@@ -16,7 +16,7 @@ if [ "$1" != "" ]; then
     IMAGE_NAME=$1
 fi
 
-docker build --build-arg HUGO_BASEURL=$HUGO_BASEURL -t $IMAGE_NAME  .
+docker build --build-arg HUGO_BASEURL=$HUGO_BASEURL -t $IMAGE_NAME .
 
 echo ""
 echo "==================="
@@ -24,5 +24,5 @@ echo "  Build complete"
 echo "==================="
 echo ""
 echo "You can now run dcrweb with the following command:"
-echo "    docker run -d --rm -p <local port>:80 decred/dcrweb:latest"
+echo "    docker run -d --rm -p <local port>:80 $IMAGE_NAME:latest"
 echo ""

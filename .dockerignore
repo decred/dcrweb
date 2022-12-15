@@ -1,6 +1,7 @@
 *~
 .vscode/
 .git/
+.github/
 .tmp/
 resources/
 public/
