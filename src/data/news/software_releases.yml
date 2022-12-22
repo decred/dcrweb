@@ -1,3 +1,43 @@
+- 
+  Title: "DCRDEX Release v0.5.8"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.8"
+  Params:
+    sortDate: "2022-12-19 22:24:59"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+- 
+  Title: "Bison Relay Release v0.1.1"
+  Author: "Alex Yocom-Piatt"
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.1.1"
+  Params:
+    sortDate: "2022-12-16 21:19:02"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+- 
+  Title: "Bison Relay Release v0.1.0"
+  Author: "Alex Yocom-Piatt"
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.1.0"
+  Params:
+    sortDate: "2022-12-15 18:56:48"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+- 
+  Title: "DCRDEX Release v0.5.7"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.7"
+  Params:
+    sortDate: "2022-11-29 01:02:15"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
+- 
+  Title: "DCRDEX Release v0.5.6"
+  Author: "Jonathan Chappelow"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.6"
+  Params:
+    sortDate: "2022-11-29 00:59:00"
+    icon: "releaseUpdates.svg"
+    externalSource: "github.com"
 -
   Title: "Decred Release v1.7.6"
   Author: "Alex Yocom-Piatt"
