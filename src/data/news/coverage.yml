@@ -275,7 +275,7 @@
   Params:
     sortDate: "2020-01-15"
     icon: "broadcasts.svg"
-    outlet: "DecredTV"
+    outlet: "Decred in Depth Podcast"
     externalSource: "youtube.com/@DecredTV"
 -
   Title: "POV Crypto 105 — Fight Night XI: BTC vs ETH vs DCR, with Checkmate"
@@ -383,7 +383,7 @@
   Params:
     sortDate: "2019-07-15"
     icon: "broadcasts.svg"
-    outlet: "DecredTV"
+    outlet: "Decred in Depth Podcast"
     externalSource: "youtube.com/@DecredTV"
 -
   Title: "Decred: What Gold And Bitcoin Wanted To Be"
