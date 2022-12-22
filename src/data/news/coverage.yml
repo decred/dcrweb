@@ -1,4 +1,49 @@
 -
+  Title: "Decred launches new social media platform Bison Relay"
+  Author: "Benson Toti"
+  Permalink: "https://invezz.com/news/2022/12/16/decred-launches-new-social-media-platform-bison-relay/"
+  Params:
+    sortDate: "2022-12-16"
+    icon: "dcrInMedia.svg"
+    outlet: "Invezz"
+    externalSource: "invezz.com"
+-
+  Title: "Bison Relay: The Sovereign Internet"
+  Author: "Jake Yocom-Piatt"
+  Permalink: "https://blog.decred.org/2022/12/14/Bison-Relay-The-Sovereign-Internet/"
+  Params:
+    sortDate: "2022-12-14"
+    icon: "announcementsDefault.svg"
+    outlet: "Decred Blog"
+    externalSource: "blog.decred.org"
+-
+  Title: "Trapped in the Web"
+  Author: "Jake Yocom-Piatt"
+  Permalink: "https://blog.decred.org/2022/12/09/Trapped-in-the-Web/"
+  Params:
+    sortDate: "2022-12-09"
+    icon: "announcementsDefault.svg"
+    outlet: "Decred Blog"
+    externalSource: "blog.decred.org"
+-
+  Title: "What is wrong with Decred?"
+  Author: "Jake Yocom-Piatt"
+  Permalink: "https://blog.decred.org/2022/12/02/What-is-wrong-with-Decred/"
+  Params:
+    sortDate: "2022-12-02"
+    icon: "announcementsDefault.svg"
+    outlet: "Decred Blog"
+    externalSource: "blog.decred.org"
+-
+  Title: "Jake Yocom-Piatt, Co-Founder of Decred, on Blockchain Fixing Political Voting, Campaign Spending and Privacy | Cryptonews Podcast 182"
+  Author: "Matt Zahab"
+  Permalink: "https://cryptonews.com/exclusives/jake-yocom-piatt-co-founder-of-decred-on-blockchain-fixing-political-voting-campaign-spending-and-privacy.htm"
+  Params:
+    sortDate: "2022-11-29"
+    icon: "interview.svg"
+    outlet: "Cryptonews Podcast"
+    externalSource: "cryptonews.com"
+-
   Title: "VIDEO: Blockchain and elections | Jake Yocom-Piatt | Invezz"
   Author: "Dan Ashmore"
   Permalink: "https://invezz.com/news/2022/11/11/video-blockchain-and-elections-jake-yocom-piatt/"
