@@ -30,26 +30,6 @@
     - title: GitHub
       url: https://github.com/decred/decrediton
 
-- id: godcr
-  name: GoDCR
-  tags:
-    - core_software
-  highlight: true
-  links:
-    - title: macOS
-      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/GoDCR-v1.7.0.dmg
-      is_direct_download: true
-    - title: Linux
-      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-linux-amd64-v1.7.0.tgz
-      is_direct_download: true
-    - title: Windows
-      url: https://github.com/planetdecred/godcr/releases/download/v1.7.0/godcr-windows-amd64-v1.7.0.zip
-      is_direct_download: true
-    - title: Release notes
-      url: https://github.com/planetdecred/godcr/releases/tag/v1.7.0
-    - title: GitHub
-      url: https://github.com/planetdecred/godcr
-
 - id: commandline
   name: Command-line app suite
   tags:
