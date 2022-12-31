@@ -5,6 +5,7 @@
   Params:
     sortDate: "2022-11-11"
     icon: "interview.svg"
+    outlet: "Invezz"
     externalSource: "invezz.com"
 -
   Title: "New Use for Blockchain: Setting the Record Straight in Political Battles"
@@ -13,6 +14,7 @@
   Params:
     sortDate: "2022-11-02"
     icon: "dcrInMedia.svg"
+    outlet: "The Fintech Times"
     externalSource: "thefintechtimes.com"
 -
   Title: "Jake Yocom-Piatt on Decred's PoW/PoS Hybrid And Hostile Miner Troubles"
@@ -21,7 +23,8 @@
   Params:
     sortDate: "2022-10-31"
     icon: "interview.svg"
-    externalSource: "https://www.youtube.com/@DigitalCashNetwork"
+    outlet: "Digital Cash Network"
+    externalSource: "youtube.com/@DigitalCashNetwork"
 -
   Title: "Brian ‘Buck’ Stafford of Decred On The Future of Money and Banking"
   Author: "Jason Hartman"
@@ -29,23 +32,26 @@
   Params:
     sortDate: "2022-09-09"
     icon: "interview.svg"
-    externalSource: "https://medium.com/authority-magazine"
+    outlet: "Authority Magazine"
+    externalSource: "medium.com/authority-magazine"
 -
   Title: "Interview w/ Jake Yocom-Piatt: Sovereignty, Privacy, Decred So Far"
-  Author: "CoinJournal"
-  Permalink: "https://www.youtube.com/watch?v=EAiIAbKQAjI"
+  Author: "Joe K.B. and Dan Ashmore"
+  Permalink: "https://coinjournal.net/news/interview-with-decred-project-lead-jake-yocom-piatt/"
   Params:
     sortDate: "2022-06-24"
     icon: "broadcasts.svg"
-    externalSource: "youtube.com"
+    outlet: "CoinJournal"
+    externalSource: "coinjournal.net"
 -
   Title: "Co-founder Jake Yocom-Piatt discusses alternate stores-of-value to Bitcoin"
   Author: "Dan Ashmore"
-  Permalink: "https://www.youtube.com/watch?v=_QsWw4EDPyg"
+  Permalink: "https://invezz.com/news/2022/06/01/co-founder-jake-yocom-piatt-discusses-alternate-stores-of-value-to-bitcoin/"
   Params:
     sortDate: "2022-06-01"
     icon: "broadcasts.svg"
-    externalSource: "youtube.com"
+    outlet: "Invezz"
+    externalSource: "invezz.com"
 -
   Title: "Decred shifts to majority Proof of Stake consensus model"
   Author: "Benson Toti"
@@ -53,6 +59,7 @@
   Params:
     sortDate: "2022-05-09"
     icon: "dcrInMedia.svg"
+    outlet: "Invezz"
     externalSource: "invezz.com"
 -
   Title: "Decred price soars 45% in one day three weeks before a major hard fork"
@@ -61,6 +68,7 @@
   Params:
     sortDate: "2022-04-18"
     icon: "dcrInMedia.svg"
+    outlet: "Cointelegraph"
     externalSource: "cointelegraph.com"
 -
   Title: "Decred Announces System Improvements, Included Quantum Computing Protection, in V1.7"
@@ -69,6 +77,7 @@
   Params:
     sortDate: "2022-01-24"
     icon: "dcrInMedia.svg"
+    outlet: "Crowdfund Insider"
     externalSource: "crowdfundinsider.com"
 -
   Title: "Decred urge users to upgrade to v1.7"
@@ -77,6 +86,7 @@
   Params:
     sortDate: "2022-02-09"
     icon: "dcrInMedia.svg"
+    outlet: "Binance News"
     externalSource: "binance.com"
 -
   Title: "Decred accidentally creates three TSpends for December"
@@ -85,6 +95,7 @@
   Params:
     sortDate: "2022-01-19"
     icon: "dcrInMedia.svg"
+    outlet: "Binance News"
     externalSource: "binance.com"
 -
   Title: "The Suppressor Part 2: On-Chain Analysis"
@@ -93,7 +104,8 @@
   Params:
     sortDate: "2021-11-03"
     icon: "generalResearch.svg"
-    externalSource: "medium.com"
+    outlet: "Medium"
+    externalSource: "medium.com/@tacorevenge"
 -
   Title: "Decentralized Digital Currency Project Decred (DCR) Reaches Governance Milestone of 77% Voter Participation"
   Author: "Omar Faridi"
@@ -101,6 +113,7 @@
   Params:
     sortDate: "2021-10-27"
     icon: "dcrInMedia.svg"
+    outlet: "Crowdfund Insider"
     externalSource: "crowdfundinsider.com"
 -
   Title: "The Suppressor Part 1: War of Attrition"
@@ -109,7 +122,8 @@
   Params:
     sortDate: "2021-08-06"
     icon: "generalResearch.svg"
-    externalSource: "medium.com"
+    outlet: "Medium"
+    externalSource: "medium.com/@tacorevenge"
 -
   Title: "Decred (DCR), a Virtual Currency Focused on Security and Scalability, to Enhance User Experience"
   Author: "Omar Faridi"
@@ -117,6 +131,7 @@
   Params:
     sortDate: "2021-07-29"
     icon: "dcrInMedia.svg"
+    outlet: "Crowdfund Insider"
     externalSource: "crowdfundinsider.com"
 -
   Title: "Treasury Expenditure Policy Bug"
@@ -125,6 +140,7 @@
   Params:
     sortDate: "2021-06-25"
     icon: "devPosts.svg"
+    outlet: "Decred Blog"
     externalSource: "blog.decred.org"
 -
   Title: "Digital Currency Project Decred Announces Initial Integration of its Decentralized Exchange into Decrediton Wallet"
@@ -133,6 +149,7 @@
   Params:
     sortDate: "2021-05-27"
     icon: "dcrInMedia.svg"
+    outlet: "Crowdfund Insider"
     externalSource: "crowdfundinsider.com"
 -
   Title: "Talking Decred with Jake Yocom-Piatt"
@@ -141,6 +158,7 @@
   Params:
     sortDate: "2021-05-14"
     icon: "broadcasts.svg"
+    outlet: "Money, Markets & More with Dominic Frisby"
     externalSource: "youtube.com"
 -
   Title: "Decred Blockchain Analysis - Part 2"
@@ -149,6 +167,7 @@
   Params:
     sortDate: "2021-01-27"
     icon: "generalResearch.svg"
+    outlet: "Block Commons"
     externalSource: "blockcommons.red"
 -
   Title: "Decred co-founder explains the possible effects of a CBDC takeover"
@@ -157,6 +176,7 @@
   Params:
     sortDate: "2021-01-17"
     icon: "interview.svg"
+    outlet: "Cointelegraph"
     externalSource: "cointelegraph.com"
 -
   Title: "Decred co-founder explains rationale behind Bitcoin bull and bear cycles"
@@ -165,6 +185,7 @@
   Params:
     sortDate: "2020-11-27"
     icon: "interview.svg"
+    outlet: "Cointelegraph"
     externalSource: "cointelegraph.com"
 -
   Title: "Decred, a Security and Scalability focused Digital Currency Project, Launches DCRDEX, a Non-Custodial Exchange"
@@ -173,6 +194,7 @@
   Params:
     sortDate: "2020-10-21"
     icon: "dcrInMedia.svg"
+    outlet: "Crowdfund Insider"
     externalSource: "crowdfundinsider.com"
 -
   Title: "Decred, Mining Market Mechanics"
@@ -181,7 +203,8 @@
   Params:
     sortDate: "2020-08-23"
     icon: "generalResearch.svg"
-    externalSource: "medium.com/decred/"
+    outlet: "Decred Medium"
+    externalSource: "medium.com/decred"
 -
   Title: "The Federal Reserve: A Blatantly Rigged Game"
   Author: "Jake Yocom-Piatt"
@@ -189,6 +212,7 @@
   Params:
     sortDate: "2020-07-01"
     icon: "announcementsDefault.svg"
+    outlet: "Decred Blog"
     externalSource: "blog.decred.org"
 -
   Title: "Decred On-chain: Realised Cap, MVRV Ratio and Gradient Oscillators"
@@ -197,7 +221,8 @@
   Params:
     sortDate: "2020-06-10"
     icon: "generalResearch.svg"
-    externalSource: "medium.com/decred/home"
+    outlet: "Decred Medium"
+    externalSource: "medium.com/decred"
 -
   Title: "Decred Blockchain Analysis - Part 1"
   Author: "Richard Red"
@@ -205,6 +230,7 @@
   Params:
     sortDate: "2020-06-08"
     icon: "generalResearch.svg"
+    outlet: "Block Commons"
     externalSource: "blockcommons.red"
 -
   Title: "A More Private Way to Stake"
@@ -213,6 +239,7 @@
   Params:
     sortDate: "2020-06-02"
     icon: "announcementsDefault.svg"
+    outlet: "Decred Blog"
     externalSource: "blog.decred.org"
 -
   Title: "Decred, The Resilient Stronghold"
@@ -221,7 +248,8 @@
   Params:
     sortDate: "2020-02-17"
     icon: "generalResearch.svg"
-    externalSource: "https://medium.com/@_Checkmatey_"
+    outlet: "Decred Medium"
+    externalSource: "medium.com/decred"
 -
   Title: "Decred On-Chain: Ticket Funding Rates"
   Author: "Permabull Nino"
@@ -229,7 +257,8 @@
   Params:
     sortDate: "2020-02-11"
     icon: "generalResearch.svg"
-    externalSource: "https://medium.com/@permabullnino/"
+    outlet: "Medium"
+    externalSource: "medium.com/@permabullnino"
 -
   Title: "Do “no-coiners” gate-keep Crypto Wikipedia?"
   Author: "Ben Munster"
@@ -237,23 +266,26 @@
   Params:
     sortDate: "2020-01-22"
     icon: "dcrInMedia.svg"
+    outlet: "Decrypt"
     externalSource: "decrypt.co"
 -
-  Title: "Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Conversion Rates"
-  Author: "Permabull Nino"
-  Permalink: "https://decredindepth.libsyn.com/"
+  Title: "Decred in Depth 16: Permabull Nino - Block Subsidies + Ticket Pool VWAP + HODLer Rates"
+  Author: "Mr. Black"
+  Permalink: "https://www.youtube.com/watch?v=yyDL0OTmRMg"
   Params:
     sortDate: "2020-01-15"
     icon: "broadcasts.svg"
-    externalSource: "decredindepth.libsyn.com/"
+    outlet: "Decred in Depth Podcast"
+    externalSource: "youtube.com/@DecredTV"
 -
-  Title: "POV Crypto: 105 — Fight Night XI: BTC vs ETH vs DCR, with Checkmate"
-  Author: "David Hoffman"
-  Permalink: "https://medium.com/@TrustlessState/105-fight-night-xi-btc-vs-eth-vs-dcr-with-checkmate-e5ca1064ea84?"
+  Title: "POV Crypto 105 — Fight Night XI: BTC vs ETH vs DCR, with Checkmate"
+  Author: "David Hoffman and Christian Keroles"
+  Permalink: "https://medium.com/@TrustlessState/105-fight-night-xi-btc-vs-eth-vs-dcr-with-checkmate-e5ca1064ea84"
   Params:
     sortDate: "2019-12-20"
     icon: "broadcasts.svg"
-    externalSource: "povcryptopod.libsyn.com"
+    outlet: "POV Crypto Podcast"
+    externalSource: "medium.com/@TrustlessState"
 -
   Title: "It’s Time to Walk-the-Talk on Decentralized Governance"
   Author: "Jake Yocom-Piatt"
@@ -261,6 +293,7 @@
   Params:
     sortDate: "2019-12-13"
     icon: "interview.svg"
+    outlet: "CoinDesk"
     externalSource: "coindesk.com"
 -
   Title: "Akin Sawyerr: How Crypto is Bridging the Gap Between the Banked and Unbanked"
@@ -269,7 +302,8 @@
   Params:
     sortDate: "2019-12-12"
     icon: "broadcasts.svg"
-    externalSource: "anthonypompliano.com"
+    outlet: "Off The Chain Podcast"
+    externalSource: "youtube.com/@AnthonyPompliano"
 -
   Title: "Secrets They Missed at Devcon: What it’s Really Like Working in a DAO"
   Author: "Jake Yocom-Piatt"
@@ -277,6 +311,7 @@
   Params:
     sortDate: "2019-11-19"
     icon: "interview.svg"
+    outlet: "Cointelegraph"
     externalSource: "cointelegraph.com"
 -
   Title: "LN & Multi-Owner Tickets"
@@ -285,6 +320,7 @@
   Params:
     sortDate: "2019-11-11"
     icon: "devPosts.svg"
+    outlet: "Decred Blog"
     externalSource: "blog.decred.org"
 -
   Title: "Decred’s Politeia: Lessons Learned From A Year Of Decentralized Governance"
@@ -293,6 +329,7 @@
   Params:
     sortDate: "2019-10-23"
     icon: "dcrInMedia.svg"
+    outlet: "Crypto Briefing"
     externalSource: "cryptobriefing.com"
 -
   Title: "Decred project lead Jake Yocom-Piatt: Practice what you preach"
@@ -301,6 +338,7 @@
   Params:
     sortDate: "2019-08-30"
     icon: "interview.svg"
+    outlet: "Decrypt"
     externalSource: "decrypt.co"
 -
   Title: "Crypto Project Decred Adds Privacy Features to Its Coin"
@@ -309,6 +347,7 @@
   Params:
     sortDate: "2019-08-30"
     icon: "dcrInMedia.svg"
+    outlet: "Cointelegraph"
     externalSource: "cointelegraph.com"
 -
   Title: "Decred aims to be a “more effective” privacy coin than Monero or Zcash"
@@ -317,6 +356,7 @@
   Params:
     sortDate: "2019-08-29"
     icon: "dcrInMedia.svg"
+    outlet: "Decrypt"
     externalSource: "decrypt.co"
 -
   Title: "After Years of Secret Work, Decred Adds a New Feature: Privacy"
@@ -325,6 +365,7 @@
   Params:
     sortDate: "2019-08-27"
     icon: "broadcasts.svg"
+    outlet: "Unchained Podcast"
     externalSource: "unchainedpodcast.com"
 -
   Title: "Sovereign Cryptonetworks"
@@ -333,15 +374,17 @@
   Params:
     sortDate: "2019-07-31"
     icon: "dcrInMedia.svg"
+    outlet: "Placeholder"
     externalSource: "placeholder.vc"
 -
-  Title: "Murad Mahmudov - DCR Investment Thesis + SoV Narrative + Crypto Economics"
-  Author: "Murad Mahmudov"
-  Permalink: "https://decredindepth.libsyn.com/murad-mahmudov-dcr-investment-thesis-sov-narrative-crypto-economics-0"
+  Title: "Decred in Depth 4: Murad Mahmudov - DCR Investment Thesis + SoV Narrative + Crypto Economics"
+  Author: "Mr. Black"
+  Permalink: "https://www.youtube.com/watch?v=XkvcdjSH0c0"
   Params:
     sortDate: "2019-07-15"
     icon: "broadcasts.svg"
-    externalSource: "decredindepth.libsyn.com"
+    outlet: "Decred in Depth Podcast"
+    externalSource: "youtube.com/@DecredTV"
 -
   Title: "Decred: What Gold And Bitcoin Wanted To Be"
   Author: "Pascal Thellmann"
@@ -349,6 +392,7 @@
   Params:
     sortDate: "2019-07-08"
     icon: "dcrInMedia.svg"
+    outlet: "Seeking Alpha"
     externalSource: "seekingalpha.com"
 -
   Title: "Staking Isn't Just a Way to Earn Crypto Money – And It Shouldn't Be"
@@ -357,6 +401,7 @@
   Params:
     sortDate: "2019-06-22"
     icon: "interview.svg"
+    outlet: "CoinDesk"
     externalSource: "coindesk.com"
 -
   Title: "Geron’s Take: Decred Aims to Reach Crypto’s Decentralized Ideals "
@@ -365,22 +410,25 @@
   Params:
     sortDate: "2019-03-13"
     icon: "dcrInMedia.svg"
+    outlet: "Wall Street Journal"
     externalSource: "wsj.com"
 -
   Title: "No More Trading Or Listing Fees? Decred Releases New DEX Proposal"
   Author: "Leslie Ankney"
-  Permalink: "https://www.forbes.com/sites/leslieankney/2019/02/04/no-more-trading-or-listing-fees-decred-releases-new-dex-proposal/#31b74e9135d9"
+  Permalink: "https://www.forbes.com/sites/leslieankney/2019/02/04/no-more-trading-or-listing-fees-decred-releases-new-dex-proposal/"
   Params:
     sortDate: "2019-02-04"
     icon: "announcementsDefault.svg"
+    outlet: "Forbes"
     externalSource: "forbes.com"
 -
   Title: "Who Should Hold Power? Decred Governance And What It Means For Investors"
   Author: "Leslie Ankney"
-  Permalink: "https://www.forbes.com/sites/leslieankney/2019/01/11/who-should-hold-power-decred-governance-and-what-it-means-for-investors/#282694e8e2ca"
+  Permalink: "https://www.forbes.com/sites/leslieankney/2019/01/11/who-should-hold-power-decred-governance-and-what-it-means-for-investors/"
   Params:
     sortDate: "2019-01-11"
     icon: "dcrInMedia.svg"
+    outlet: "Forbes"
     externalSource: "forbes.com"
 -
   Title: "How to Last the Crypto Winter? Seek Simplicity, Manage Complexity"
@@ -389,6 +437,7 @@
   Params:
     sortDate: "2019-01-03"
     icon: "interview.svg"
+    outlet: "CoinDesk"
     externalSource: "coindesk.com"
 -
   Title: "Decred Is Turning Its Entire $21 Million Crypto Treasury Over to Investors"
@@ -397,6 +446,7 @@
   Params:
     sortDate: "2018-10-16"
     icon: "dcrInMedia.svg"
+    outlet: "CoinDesk"
     externalSource: "coindesk.com"
 -
   Title: "One of Investors' Favorite Governance Blockchains Is Handing Over $20 Million"
@@ -405,6 +455,7 @@
   Params:
     sortDate: "2018-09-20"
     icon: "dcrInMedia.svg"
+    outlet: "CoinDesk"
     externalSource: "coindesk.com"
 -
   Title: "Governing Decentralization: How On-Chain Voting Protocols Operate and Vary"
@@ -413,12 +464,14 @@
   Params:
     sortDate: "2018-09-20"
     icon: "dcrInMedia.svg"
+    outlet: "Cointelegraph"
     externalSource: "cointelegraph.com"
 -
   Title: "Decred Adds Atomic Swap Support for Exchange-Free Cryptocurrency Trading"
-  Author: "Bitcoin Magazine"
-  Permalink: "https://www.nasdaq.com/article/decred-adds-atomic-swap-support-for-exchange-free-cryptocurrency-trading-cm848329"
+  Author: "Giulio Prisco"
+  Permalink: "https://bitcoinmagazine.com/markets/decred-adds-atomic-swap-support-exchange-free-cryptocurrency-trading"
   Params:
     sortDate: "2017-09-20"
     icon: "announcementsDefault.svg"
-    externalSource: "nasdaq.com"
+    outlet: "Bitcoin Magazine"
+    externalSource: "bitcoinmagazine.com"

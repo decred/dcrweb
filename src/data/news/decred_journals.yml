@@ -5,7 +5,8 @@
   Params:
     sortDate: "2022-11-19"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    outlet: "Decred Magazine"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, September 2022"
   Author: "Decred Journal Team"
@@ -13,7 +14,8 @@
   Params:
     sortDate: "2022-10-19"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    outlet: "Decred Magazine"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, August 2022"
   Author: "Decred Journal Team"
@@ -21,7 +23,8 @@
   Params:
     sortDate: "2022-09-16"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    outlet: "Decred Magazine"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, July 2022"
   Author: "Decred Journal Team"
@@ -29,7 +32,8 @@
   Params:
     sortDate: "2022-08-17"
     icon: "dcrInMedia.svg"
-    externalSource: "https://www.decredmagazine.com/tag/news/"
+    outlet: "Decred Magazine"
+    externalSource: "decredmagazine.com/tag/news"
 -
   Title: "Decred Journal, June 2022"
   Author: "Decred Journal Team"
@@ -37,6 +41,7 @@
   Params:
     sortDate: "2022-07-16"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, May 2022"
@@ -45,6 +50,7 @@
   Params:
     sortDate: "2022-06-21"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, April 2022"
@@ -53,6 +59,7 @@
   Params:
     sortDate: "2022-05-17"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, December 2021"
@@ -61,6 +68,7 @@
   Params:
     sortDate: "2022-01-15"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, November 2021"
@@ -69,6 +77,7 @@
   Params:
     sortDate: "2021-12-15"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, October 2021"
@@ -77,6 +86,7 @@
   Params:
     sortDate: "2021-11-14"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, September 2021"
@@ -85,6 +95,7 @@
   Params:
     sortDate: "2021-10-16"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, August 2021"
@@ -93,6 +104,7 @@
   Params:
     sortDate: "2021-09-15"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, July 2021"
@@ -101,6 +113,7 @@
   Params:
     sortDate: "2021-08-11"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, June 2021"
@@ -109,6 +122,7 @@
   Params:
     sortDate: "2021-07-14"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, May 2021"
@@ -117,6 +131,7 @@
   Params:
     sortDate: "2021-06-09"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, April 2021"
@@ -125,6 +140,7 @@
   Params:
     sortDate: "2021-05-13"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, March 2021"
@@ -133,6 +149,7 @@
   Params:
     sortDate: "2021-04-13"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, February 2021"
@@ -141,6 +158,7 @@
   Params:
     sortDate: "2021-03-14"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, January 2021"
@@ -149,6 +167,7 @@
   Params:
     sortDate: "2021-02-10"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, December 2020"
@@ -157,6 +176,7 @@
   Params:
     sortDate: "2021-01-12"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, November 2020"
@@ -165,6 +185,7 @@
   Params:
     sortDate: "2020-12-12"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, October 2020"
@@ -173,6 +194,7 @@
   Params:
     sortDate: "2020-11-12"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, September 2020"
@@ -181,6 +203,7 @@
   Params:
     sortDate: "2020-10-11"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, August 2020"
@@ -189,6 +212,7 @@
   Params:
     sortDate: "2020-09-12"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, July 2020"
@@ -197,6 +221,7 @@
   Params:
     sortDate: "2020-08-07"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, June 2020"
@@ -205,6 +230,7 @@
   Params:
     sortDate: "2020-07-10"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, May 2020"
@@ -213,6 +239,7 @@
   Params:
     sortDate: "2020-06-11"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, April 2020"
@@ -221,6 +248,7 @@
   Params:
     sortDate: "2020-05-11"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, March 2020"
@@ -229,6 +257,7 @@
   Params:
     sortDate: "2020-04-10"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, February 2020"
@@ -237,6 +266,7 @@
   Params:
     sortDate: "2020-03-10"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, January 2020"
@@ -245,6 +275,7 @@
   Params:
     sortDate: "2020-02-08"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
 -
   Title: "Decred Journal, December 2019"
@@ -253,4 +284,5 @@
   Params:
     sortDate: "2020-01-09"
     icon: "dcrInMedia.svg"
+    outlet: "Decred Medium"
     externalSource: "medium.com/decred/journals/home"
