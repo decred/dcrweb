@@ -30,7 +30,7 @@
   "brand_guide_14": "Пакет ПО, руководства и документацию можно найти в репозитории github/dcrdesign.",
   "exchanges_payment_title": "Платежные процессоры Decred",
   "home_download_wallet": "Загрузить кошелек",
-  "downloads_description": "Если вы только знакомитесь с Decred, обязательно прочитайте <a href=\"../#guide\">Руководство по началу работы</a>. Если вас интересуют технические подробности, посмотрите <a href=\"../#platform\">Технический обзор</a>. Если вы скачиваете двоичные модули Decred, выполните инструкции по их <a href=\"https://docs.decred.org/advanced/verifying-binaries/\">верификации</a>.",
+  "downloads_description": "Если вы только знакомитесь с Decred, обязательно прочитайте <a href='../#guide'>Руководство по началу работы</a>. Если вас интересуют технические подробности, посмотрите <a href='../#platform'>Технический обзор</a>. Если вы скачиваете двоичные модули Decred, выполните инструкции по их <a href='https://docs.decred.org/advanced/verifying-binaries/'>верификации</a>.",
   "downloads_category_core_software": "Базовое ПО",
   "downloads_category_third_party_wallets": "СТОРОННИЕ КОШЕЛЬКИ",
   "downloads_app_decrediton": "Кошелек с графическим интерфейсом для Windows, macOS и Linux.",

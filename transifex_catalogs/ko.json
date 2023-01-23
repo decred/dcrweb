@@ -31,7 +31,7 @@
   "brand_guide_14": "github/dcrdesign 저장소에서 디자인 패키지, 가이드라인과 문서 보기",
   "exchanges_payment_title": "Decred 결제 기관",
   "home_download_wallet": "월렛 다운로드",
-  "downloads_description": "Decred를 처음 사용하신다면 <a href=\"../#guide\">시작하기 투어</a> 또는 <a href=\"../#platform\">기술 개요</a>에서 자세한 내용을 읽어보십시오. Decred 바이너리 다운로드 시 <a href=\"https://docs.decred.org/advanced/verifying-binaries/\">바이너리 검증</a> 단계에 따라 체크섬을 검증하십시오.",
+  "downloads_description": "Decred를 처음 사용하신다면 <a href='../#guide'>시작하기 투어</a> 또는 <a href='../#platform'>기술 개요</a>에서 자세한 내용을 읽어보십시오. Decred 바이너리 다운로드 시 <a href='https://docs.decred.org/advanced/verifying-binaries/'>바이너리 검증</a> 단계에 따라 체크섬을 검증하십시오.",
   "downloads_category_core_software": "코어 소프트웨어",
   "downloads_category_third_party_wallets": "타사 지갑",
   "downloads_app_decrediton": "Windows, macOS 및 Linux 용 GUI 지갑",

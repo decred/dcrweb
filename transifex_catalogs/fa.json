@@ -31,7 +31,7 @@
   "brand_guide_14": "مشاهده قرارداد بازخرید github/dcrdesign برای بسته‌های طراحی، دستورالعمل‌ها و اسناد",
   "exchanges_payment_title": "پردازشگران پرداخت دیکرید",
   "home_download_wallet": "دانلود کیف پول",
-  "downloads_description": "اگر تازه با «دیکرید» آشنا شده‌اید و می‌خواهید اطلاعات عمیق‌تری داشته باشید، حتماً <a href=\"../#guide\">تور شروع به کار</a> یا <a href=\"../#platform\">مشخصات کلی فنی</a> را بخوانید. اگر درحال دانلود کردن باینری‌های دیکرید هستید، لطفاً با دنبال کردن این مراحل <a href=\"https://docs.decred.org/advanced/verifying-binaries/\">راستی‌آزمایی باینری</a>، سرجمع‌ها را به تأیید برسانید.",
+  "downloads_description": "اگر تازه با «دیکرید» آشنا شده‌اید و می‌خواهید اطلاعات عمیق‌تری داشته باشید، حتماً <a href='../#guide'>تور شروع به کار</a> یا <a href='../#platform'>مشخصات کلی فنی</a> را بخوانید. اگر درحال دانلود کردن باینری‌های دیکرید هستید، لطفاً با دنبال کردن این مراحل <a href='https://docs.decred.org/advanced/verifying-binaries/'>راستی‌آزمایی باینری</a>، سرجمع‌ها را به تأیید برسانید.",
   "downloads_category_core_software": "نرم‌افزار اصلی",
   "downloads_category_third_party_wallets": "کیف پول های شخص ثالث",
   "downloads_app_decrediton": "کیف پول رابط کاربری گرافیکی برای Windows،‏ macOS و Linux.",

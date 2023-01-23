@@ -31,7 +31,7 @@
   "brand_guide_14": "Tasarım paketleri, kılavuz ilkeler ve belgeler için github/dcrdesign havuzuna bakın",
   "exchanges_payment_title": "Decred Ödeme İşleyicileri",
   "home_download_wallet": "Cüzdanı İndir",
-  "downloads_description": "Eğer Decred'de yeniyseniz <a href=\"../#guide\">Başlangıç Turu</a>'nu veya daha derine inmek isterseniz <a href=\"../#platform\">Teknik Genel Bakış</a>'ı okumayı ihmal etmeyin. Decred ikilileri indirmekteyseniz lütfen sağlama toplamlarını doğrulamak için bu <a href=\"https://docs.decred.org/advanced/verifying-binaries/\">İkili Doğrulama</a> adımlarını takip edin.",
+  "downloads_description": "Eğer Decred'de yeniyseniz <a href='../#guide'>Başlangıç Turu</a>'nu veya daha derine inmek isterseniz <a href='../#platform'>Teknik Genel Bakış</a>'ı okumayı ihmal etmeyin. Decred ikilileri indirmekteyseniz lütfen sağlama toplamlarını doğrulamak için bu <a href='https://docs.decred.org/advanced/verifying-binaries/'>İkili Doğrulama</a> adımlarını takip edin.",
   "downloads_category_core_software": "Çekirdek yazılım",
   "downloads_category_third_party_wallets": "3. TARAF CÜZDANLAR",
   "downloads_app_decrediton": "Windows, macOS ve Linux için grafik kullanıcı arabirimi cüzdanı",
