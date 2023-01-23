@@ -31,7 +31,7 @@
   "brand_guide_14": "github/dcrdesignリポジトリでデザインパッケージ、ガイドライン、ドキュメンテーションを参照",
   "exchanges_payment_title": "Decred決済サービス",
   "home_download_wallet": "ウォレットをダウンロード",
-  "downloads_description": "Decredを初めてご利用になる場合は、<a href=\"../#guide\">スタートガイド</a>または<a href=\"../#platform\">技術概要</a>にて詳細をご確認ください。Decredのバイナリをダウンロードするには、<a href=\"https://docs.decred.org/advanced/verifying-binaries/\">バイナリ検証</a>ステップでチェックサムの検証を行ってください。",
+  "downloads_description": "Decredを初めてご利用になる場合は、<a href='../#guide'>スタートガイド</a>または<a href='../#platform'>技術概要</a>にて詳細をご確認ください。Decredのバイナリをダウンロードするには、<a href='https://docs.decred.org/advanced/verifying-binaries/'>バイナリ検証</a>ステップでチェックサムの検証を行ってください。",
   "downloads_category_core_software": "コアソフトウェア",
   "downloads_category_third_party_wallets": "サードパーティ製ウォレット",
   "downloads_app_decrediton": "Windows、macOS、Linux対応グラフィックUIウォレット",

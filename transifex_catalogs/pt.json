@@ -32,7 +32,7 @@
   "brand_guide_14": "Consulte o repositório github/dcrdesign para obter pacotes de design, diretrizes e documentação",
   "exchanges_payment_title": "Processadores de pagamento Decred",
   "home_download_wallet": "Download da Carteira",
-  "downloads_description": "Se você é um novo usuário da Decred, revise a <a href=\"https://docs.decred.org\" target=\"_blank\" rel=\"noopener noreferrer\">documentação</a>. Pessoas preocupadas com segurança, por favor sigam <a href=\"https://docs.decred.org/advanced/verifying-binaries/\" target=\"_blank\" rel=\"noopener noreferrer\">essas instruções</a> para verificar os binários da Decrediton e dos aplicativos de linha de comando.",
+  "downloads_description": "Se você é um novo usuário da Decred, revise a <a href='https://docs.decred.org' target='_blank' rel='noopener noreferrer'>documentação</a>. Pessoas preocupadas com segurança, por favor sigam <a href='https://docs.decred.org/advanced/verifying-binaries/' target='_blank' rel='noopener noreferrer'>essas instruções</a> para verificar os binários da Decrediton e dos aplicativos de linha de comando.",
   "downloads_category_core_software": "Software principal",
   "downloads_category_third_party_wallets": "Carteiras de terceiros",
   "downloads_app_decrediton": "Carteira GUI para Windows, macOS e Linux.",
