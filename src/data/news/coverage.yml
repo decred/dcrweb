@@ -1,4 +1,12 @@
 -
+  Title: "Combining proof of work and proof of stake for a decentralized financial system with Decred – SlateCast 49"
+  Permalink: "https://cryptoslate.com/podcasts/combining-proof-of-work-and-proof-of-stake-for-a-decentralized-financial-system-with-decred/"
+  Params:
+    author: "Liam Wright"
+    sortDate: "2023-01-23"
+    icon: "interview.svg"
+    outlet: "SlateCast"
+-
   Title: "Decred 2022 End of Year Summary"
   Permalink: "https://www.decredmagazine.com/decred-2022-end-of-year-summary/"
   Params:
@@ -78,6 +86,14 @@
     sortDate: "2022-10-31"
     icon: "interview.svg"
     outlet: "Digital Cash Network"
+-
+  Title: "OP_PEEL: Unilaterally exitable coin pools"
+  Permalink: "https://matheusd.com/post/op_peel/"
+  Params:
+    author: "Matheus Degiovani"
+    sortDate: "2022-10-27"
+    icon: "generalResearch.svg"
+    outlet: "matheusd.com"
 -
   Title: "Brian ‘Buck’ Stafford of Decred On The Future of Money and Banking"
   Permalink: "https://medium.com/authority-magazine/brian-buck-stafford-of-decred-on-the-future-of-money-and-banking-45f25305b409"
