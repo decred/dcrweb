@@ -1,10 +1,10 @@
 dist/
-src/resources/_gen
-src/public/
+src/resources
+src/public
+src/.hugo_build.lock
 src/i18n/*
 node_modules/
 .DS_Store
-.hugo_build.lock
 *.log
 
 # Ignore all i18n sub-directories apart from en.

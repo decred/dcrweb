@@ -1,4 +1,4 @@
-# builder image
+# Build image
 FROM alpine:latest
 
 ARG HUGO_BASEURL
@@ -22,7 +22,9 @@ COPY ./ /root/
 
 RUN bin/build-hugo.sh
 
-# final image
+# Serve image (stable nginx version)
+# This cannot use Alpine because test/Dockerfile builds on this image and
+# expects it to have apt-get.
 FROM nginx:1.22
 
 LABEL description="dcrweb server"
