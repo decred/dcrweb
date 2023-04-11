@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg906"
+   version="1.1"
+   viewBox="0 0 10 10"
+   height="10mm"
+   width="10mm">
+  <defs
+     id="defs900">
+    <clipPath
+       id="a">
+      <path
+         id="path4"
+         transform="translate(4965.564,858.978)"
+         d="m -4952.577,-848.046 a 10.933,10.933 0 0 0 -10.8,-10.931 h -2.187 v 2.229 h 2.077 0.143 a 4.954,4.954 0 0 1 4.8,4.951 4.953,4.953 0 0 1 -4.943,4.953 h -2.077 v 2.229 h 2.077 a 8.651,8.651 0 0 1 6.221,2.635 8.651,8.651 0 0 1 -6.221,2.635 h -2.077 v 2.229 h 2.077 a 4.953,4.953 0 0 1 4.943,4.953 4.954,4.954 0 0 1 -4.8,4.951 h -0.143 -2.077 v 2.229 h 2.187 a 10.933,10.933 0 0 0 10.8,-10.931 10.887,10.887 0 0 0 -1.839,-6.068 10.886,10.886 0 0 0 1.839,-6.064 z m -6.691,2.053 a 7.183,7.183 0 0 0 2.949,-5.8 7.255,7.255 0 0 0 -0.124,-1.336 8.667,8.667 0 0 1 1.641,5.086 8.661,8.661 0 0 1 -1.118,4.267 10.925,10.925 0 0 0 -3.348,-2.216 z m 2.825,15.167 a 7.256,7.256 0 0 0 0.124,-1.336 7.182,7.182 0 0 0 -2.949,-5.8 10.923,10.923 0 0 0 3.348,-2.214 8.664,8.664 0 0 1 1.118,4.267 8.667,8.667 0 0 1 -1.641,5.084 z"
+         class="a" />
+    </clipPath>
+    <linearGradient
+       gradientTransform="scale(0.63244633,1.5811618)"
+       gradientUnits="userSpaceOnUse"
+       y2="2.2821383"
+       x2="29.080965"
+       y1="19.452513"
+       x1="-7.346312"
+       id="b">
+      <stop
+         id="stop7"
+         stop-color="#c30"
+         offset="0" />
+      <stop
+         id="stop9"
+         stop-color="#f60"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata903">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-45.78881,-70.092845)"
+     id="layer1">
+    <g
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,49.070737,70.595458)"
+       id="g48">
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         class="c"
+         clip-path="url(#a)"
+         id="g46">
+        <rect
+           class="d"
+           width="13.746"
+           height="34.366001"
+           id="rect44"
+           style="fill:#ffffff;fill-opacity:1"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+  </g>
+</svg>
