@@ -41,6 +41,12 @@
     sortDate: "2022-11-29 00:59:00"
     icon: "releaseUpdates.svg"
 -
+  Title: "Decred Release v1.7.7"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.7"
+  Params:
+    sortDate: "2022-04-17"
+    icon: "releaseUpdates.svg"
+-
   Title: "Decred Release v1.7.6"
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.6"
   Params:
