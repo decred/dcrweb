@@ -6,7 +6,12 @@
 ##    "name"      - display name for the channel, displayed on website
 ##    "highlight" - whether the channel should be highlighted on the top row
 ##    "footer"    - whether the channel should be included in the page footer
-
+-
+  id: br
+  url: "https://bisonrelay.org"
+  name: "Bison Relay"
+  highlight: true
+  footer: true
 -
   id: politeia
   url: "https://proposals.decred.org"
