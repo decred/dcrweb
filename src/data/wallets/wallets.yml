@@ -15,7 +15,7 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.7/decrediton-amd64-v1.7.7.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.7.7/decrediton-v1.7.7-amd64.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
