@@ -1,17 +1,9 @@
-
--
-  name: Globee
-  url: "https://globee.com/"
-  logo_src: "Globee.jpg"
 -
   name: Coingate
   url: "https://coingate.com/"
-  logo_src: "coingate.jpg"
 -
   name: Livingroomofsatoshi
   url: "https://www.livingroomofsatoshi.com/"
-  logo_src: "livingroomofsatoshi.jpg"
 -
   name: NOWPayments
   url: "https://nowpayments.io/"
-  logo_src: "nowpayments.jpg"
