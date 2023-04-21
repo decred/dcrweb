@@ -8,7 +8,8 @@ icon: "announcementsDefault.svg"
 
 **[Chicago, IL, April 17, 2023]** Decred (DCR), a sovereignty and privacy maximizing currency, today released the latest version of its decentralized exchange. DCRDEX 0.6 offers direct peer-to-peer cross-chain swaps without any kind of intermediaries, solving key problems around privacy and security. The combination of privacy, resilience, and cross-chain compatibility in the new release is a first.
 
-New Assets
+#### New Assets
+
 The most notable new feature of DCRDEX 0.6 is the introduction of Ethereum and USDC. Users now have access to direct layer 1 atomic swaps with no intermediary, utility token, or third-party arbitration. When swapping from an asset like BTC, the funds are locked in a native contract of the user's creation that is never spendable by a third party, only the swap participants. As with all swaps performed by the software, no auxiliary chain or DEX-managed vault is used to trustlessly execute the swap.
 
 Full Self Custody
