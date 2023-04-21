@@ -16,7 +16,8 @@ The most notable new feature of DCRDEX 0.6 is the introduction of Ethereum and U
 
 DCRDEX 0.6 offers direct P2P swaps between ETH and other L1 chains like BTC and DCR, without any centralized pools or wallets. The solution requires no trusted parties or complex escrow systems, just a matching order. The user maintains full custody of their funds for the entire duration of the swap.
 
-New Native Wallets
+#### New Native Wallets
+
 DCRDEX 0.6 also features native wallets for Litecoin and Bitcoin Cash. As with the Bitcoin and Decred wallets, these wallets are all built on the privacy-preserving light wallet technology introduced by BIP157/158 and transact directly on P2P networks, providing a high level of privacy and security while keeping system requirements and sync times reasonable.
 
 As opposed to using centralized and trusted API providers to power the native wallets, the DCRDEX user application preserves user privacy and minimizes reliance on third parties by using the best light wallet protocols provided by the blockchain networks themselves.
