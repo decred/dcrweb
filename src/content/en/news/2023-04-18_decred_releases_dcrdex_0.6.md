@@ -21,7 +21,8 @@ DCRDEX 0.6 also features native wallets for Litecoin and Bitcoin Cash. As with t
 
 As opposed to using centralized and trusted API providers to power the native wallets, the DCRDEX user application preserves user privacy and minimizes reliance on third parties by using the best light wallet protocols provided by the blockchain networks themselves.
 
-No Registration Fee
+#### No Registration Fee
+
 Another significant change is the elimination of the one-time registration fee in favor of time-locked fidelity bonds. Instead of an initial sacrifice of funds for the ability to place orders, users now lock up funds on-chain for a certain amount of time after which the bond expires and the user redeems it.
 
 This change has a number of benefits, most notably that the bonds are only spendable by the user that posted them. This is essential as DCRDEX moves towards a fully-decentralized DEX mesh network with no rent-seeking mechanisms of any kind. The only cost of the swap is on-chain transaction fees. There is no intermediate utility token or liquidity pool, just another user and the assets' chains.
