@@ -12,7 +12,8 @@ icon: "announcementsDefault.svg"
 
 The most notable new feature of DCRDEX 0.6 is the introduction of Ethereum and USDC. Users now have access to direct layer 1 atomic swaps with no intermediary, utility token, or third-party arbitration. When swapping from an asset like BTC, the funds are locked in a native contract of the user's creation that is never spendable by a third party, only the swap participants. As with all swaps performed by the software, no auxiliary chain or DEX-managed vault is used to trustlessly execute the swap.
 
-Full Self Custody
+#### Full Self Custody
+
 DCRDEX 0.6 offers direct P2P swaps between ETH and other L1 chains like BTC and DCR, without any centralized pools or wallets. The solution requires no trusted parties or complex escrow systems, just a matching order. The user maintains full custody of their funds for the entire duration of the swap.
 
 New Native Wallets
