@@ -27,7 +27,7 @@ Another significant change is the elimination of the one-time registration fee i
 
 This change has a number of benefits, most notably that the bonds are only spendable by the user that posted them. This is essential as DCRDEX moves towards a fully-decentralized DEX mesh network with no rent-seeking mechanisms of any kind. The only cost of the swap is on-chain transaction fees. There is no intermediate utility token or liquidity pool, just another user and the assets' chains.
 
-“With centralized exchanges experiencing frequent hacks and outages, DCRDEX 0.6 is a timely and crucial development in the world of decentralized finance, said Brian Stafford, Blockchain Developer at Decred. “This latest release demonstrates that users can still exchange their funds without compromising the key principles of security, privacy, and self-custody.”
+> “With centralized exchanges experiencing frequent hacks and outages, DCRDEX 0.6 is a timely and crucial development in the world of decentralized finance, said Brian Stafford, Blockchain Developer at Decred. “This latest release demonstrates that users can still exchange their funds without compromising the key principles of security, privacy, and self-custody.”
 
 The development of DCRDEX 0.6 took eight months and involved writing or modifying approximately 90,000 lines of code, with contributions from around ten software engineers.
 
