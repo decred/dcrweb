@@ -1,4 +1,36 @@
 -
+  Title: "Decred announces DCRDEX 0.6 with support for Ethereum and USDC swaps"
+  Permalink: "https://invezz.com/news/2023/04/17/decred-announces-dcrdex-0-6-with-support-for-ethereum-and-usdc-swaps/"
+  Params:
+    author: "Benson Toti"
+    sortDate: "2023-04-17"
+    icon: "dcrInMedia.svg"
+    outlet: "Invezz"
+-
+  Title: "Decred - Bricking ASICs and P2P Social Media discussion feat. Dave Collins & Jake Yocom-Piatt"
+  Permalink: "https://www.youtube.com/watch?v=ZZmq7NVqYBA"
+  Params:
+    author: "Phoenix Green, Exitus"
+    sortDate: "2023-04-05"
+    icon: "interview.svg"
+    outlet: "Decred YouTube"
+-
+  Title: "State of the Market - Content and development proposals for Decred feat. Cointelegraph"
+  Permalink: "https://www.youtube.com/watch?v=d-tCKPYOII0"
+  Params:
+    author: "Phoenix Green, Exitus"
+    sortDate: "2023-03-12"
+    icon: "interview.svg"
+    outlet: "Decred YouTube"
+-
+  Title: "David Vorick on Fairness in ASIC Production & Proof-of-Work - A Deep Dive Discussion"
+  Permalink: "https://www.youtube.com/watch?v=n8Wz5Zx0MSs"
+  Params:
+    author: "Tivra"
+    sortDate: "2023-02-19"
+    icon: "interview.svg"
+    outlet: "Decred Twitter Spaces"
+-
   Title: "Combining proof of work and proof of stake for a decentralized financial system with Decred – SlateCast 49"
   Permalink: "https://cryptoslate.com/podcasts/combining-proof-of-work-and-proof-of-stake-for-a-decentralized-financial-system-with-decred/"
   Params:
