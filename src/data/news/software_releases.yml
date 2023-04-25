@@ -1,3 +1,27 @@
+-
+  Title: "Decred Release v1.7.7"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.7"
+  Params:
+    sortDate: "2023-04-17 16:00:22"
+    icon: "releaseUpdates.svg"
+- 
+  Title: "DCRDEX Release v0.6.0"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.6.0"
+  Params:
+    sortDate: "2023-04-17 04:29:48"
+    icon: "releaseUpdates.svg"
+- 
+  Title: "Bison Relay Release v0.1.5"
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.1.5"
+  Params:
+    sortDate: "2023-03-14 21:03:53"
+    icon: "releaseUpdates.svg"
+- 
+  Title: "DCRDEX Release v0.5.9"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.9"
+  Params:
+    sortDate: "2023-02-23 14:01:03"
+    icon: "releaseUpdates.svg"
 - 
   Title: "Bison Relay Release v0.1.4"
   Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.1.4"
@@ -39,12 +63,6 @@
   Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.5.6"
   Params:
     sortDate: "2022-11-29 00:59:00"
-    icon: "releaseUpdates.svg"
--
-  Title: "Decred Release v1.7.7"
-  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.7"
-  Params:
-    sortDate: "2023-04-17"
     icon: "releaseUpdates.svg"
 -
   Title: "Decred Release v1.7.6"
