@@ -16,8 +16,6 @@
 -
   url: "https://bittrex.com/"
   tags:
-    - "high_liquidity"
-    - "fiat"
   name: Bittrex
   highlight: true
 -
@@ -32,10 +30,9 @@
   name: Kaiserex
   highlight: false
 -
-  url: "https://www.swyftx.com.au/"
+  url: "https://swyftx.com/"
   tags:
     - fiat
-    - "high_liquidity"
   name: Swyftx
   highlight: false
 -
@@ -46,7 +43,6 @@
 -
   url: "https://okx.com/"
   tags:
-    - "high_liquidity"
   name: OKX
   highlight: false
 -
@@ -92,7 +88,6 @@
 -
   url: "https://catalx.io/"
   tags:
-    - "high_liquidity"
   name: CatalX
   highlight: false
 -
@@ -101,11 +96,6 @@
    - "instant_exchange"
  name: Flyp
  highlight: false
--
-  url: "https://www.metalpay.com/"
-  tags:
-  name: "Metal Pay"
-  highlight: false
 -
   url: "https://www.novadax.com.br/"
   tags:
@@ -141,4 +131,10 @@
   tags:
     - "instant_exchange"
   name: ChangeNOW
+  highlight: false
+-
+  url: "https://trocador.app/"
+  tags:
+    - "instant_exchange"
+  name: Trocador
   highlight: false
