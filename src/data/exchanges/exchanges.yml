@@ -142,3 +142,9 @@
     - "instant_exchange"
   name: ChangeNOW
   highlight: false
+-
+  url: "https://swapika.com/exchange-pairs/btc-to-dcr/"
+  tags:
+    - "instant_exchange"
+  name: Swapika
+  highlight: false
