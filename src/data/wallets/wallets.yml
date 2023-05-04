@@ -30,6 +30,17 @@
     - title: GitHub
       url: https://github.com/decred/decrediton
 
+- id: dcrdex
+  name: DCRDEX
+  tags:
+    - core_software
+  highlight: true
+  links:
+    - title: GitHub
+      url: https://github.com/decred/dcrdex/releases/tag/v0.6.1
+    - title: Release notes
+      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.1.md
+
 - id: commandline
   name: Command-line app suite
   tags:
