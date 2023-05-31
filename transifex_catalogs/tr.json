@@ -40,6 +40,7 @@
   "downloads_app_coinomi": "Bitcoin, Ethereum ve 500'den fazla başka blockchain varlığını güvenle depolayın, yönetin ve takas edin.",
   "downloads_app_guarda": "Guarda İnternet, Masaüstü ve Mobil için çok para birimli cüzdanlar tarafından temsil edilir.",
   "downloads_app_ledger": "Ledger Live, Ledger donanım cüzdanı tarafından güvende tutulan, web tabanlı bir cüzdandır.",
+  "downloads_app_atomic": "Decred, Bitcoin, Ethereum, USDT ve 1000'den fazla diğer madeni para ve jetonunuzu yönetin.",
   "notice": "Dikkat",
   "warning": "Uyarı",
   "stakepools_warning_1": "Eksik biletlerin sebebi kötü bağlantıya sahip bir proof-of-work (PoW) madencisi olabilir; dolayısıyla suç her zaman sağlayıcıda olmayabilir.",

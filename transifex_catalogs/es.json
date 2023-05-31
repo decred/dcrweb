@@ -40,6 +40,7 @@
   "downloads_app_coinomi": "Almacena, gestiona y cambia de forma segura criptomonedas de Bitcoin y Ethereum, entre otras 500 criptomonedas.",
   "downloads_app_guarda": "Guarda cuenta con carteras multidivisa para dispositivos móviles, de escritorio y sitios web.",
   "downloads_app_ledger": "Ledger Live es una cartera web amparada por la cartera de hardware Ledger.",
+  "downloads_app_atomic": "Administre su Decred, Bitcoin, Ethereum, USDT y más de 1000 monedas y tokens.",
   "notice": "Aviso",
   "warning": "Advertencia",
   "stakepools_warning_1": "La pérdida de boletos puede deberse a la mala conexión de un minero de Prueba de Trabajo (PoW) sin ser necesariamente culpa del proveedor.",

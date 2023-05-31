@@ -55,6 +55,7 @@
   "downloads_app_ledger": "Ledger Live is a web based wallet secured by the Ledger hardware wallet.",
   "downloads_app_trezor": "Trezor is a hardware wallet supported by both Decrediton and Exodus wallets.",
   "downloads_app_trust": "Trust Wallet is a secure multi-coin wallet for Android and iOS.",
+  "downloads_app_atomic": "Manage your Decred, Bitcoin, Ethereum, USDT, and over 1000+ other coins and tokens.",
   "stakepools_description_1": "Decred coin holders can opt-in to project governance by pseudorandomly locking their coins in exchange for tickets in order to earn staking rewards. By participating, stakeholders help secure the network by voting to approve the work of the miners, and gain voting rights on proposed changes to the Decred blockchain and project management via Politeia. For a complete explanation, see <a href='https://docs.decred.org/proof-of-stake/overview/' target='_blank' rel='noopener noreferrer'>the documentation</a>.",
   "stakepools_description_2": "Because tickets are called pseudorandomly and a wallet must be online to vote when a ticket is called, many people use a Voting Service Provider (VSP) using Decrediton or dcrwallet. VSPs lack access to your funds and are tasked with relaying your voting preferences to the network.",
   "stakepools_description_3": "The following VSPs have been reviewed by the community.",
