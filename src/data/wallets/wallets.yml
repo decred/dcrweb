@@ -97,7 +97,7 @@
       url: https://trustwallet.com/
   highlight: false
   
-  - id: atomic
+- id: atomic
   name: Atomic Wallet
   tags:
     - third_party_wallets
