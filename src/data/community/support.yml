@@ -15,4 +15,4 @@
   id: matrix
   url: "https://decred.org/matrix-support/"
   name: "Support Channel on Matrix"
-  highlight: false
+  highlight: true
