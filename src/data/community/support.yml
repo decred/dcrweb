@@ -15,14 +15,4 @@
   id: matrix
   url: "https://decred.org/matrix-support/"
   name: "Support Channel on Matrix"
-  highlight: false
--
-  id: discord
-  url: "https://discord.com/channels/349993843728449537/350007452152102923"
-  name: "Support Channel on Discord"
-  highlight: false
--
-  id: telegram
-  url: "https://t.me/DecredSupport"
-  name: "Support Channel on Telegram"
-  highlight: false
+  highlight: true
