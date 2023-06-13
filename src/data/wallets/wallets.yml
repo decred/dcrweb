@@ -15,15 +15,15 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.7/decrediton-amd64-v1.7.7.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-amd64-v1.8.0.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.7/decrediton-v1.7.7.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.7.7/decrediton-v1.7.7.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.exe
       is_direct_download: true
     - title: Release notes
       url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v177
@@ -48,7 +48,7 @@
   highlight: true
   links:
     - title: GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.7.7
+      url: https://github.com/decred/decred-release/releases/tag/v1.8.0
     - title: Release notes
       url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v177
 
