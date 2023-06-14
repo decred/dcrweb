@@ -26,7 +26,7 @@
       url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.exe
       is_direct_download: true
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v177
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#decrediton-v180
     - title: GitHub
       url: https://github.com/decred/decrediton
 
@@ -50,7 +50,7 @@
     - title: GitHub
       url: https://github.com/decred/decred-release/releases/tag/v1.8.0
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v177
+      url: https://github.com/decred/decred-binaries/blob/master/release-notes.md#dcrwallet-v180
 
 - id: trezor
   name: Trezor
