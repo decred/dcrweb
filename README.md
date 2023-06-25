@@ -1,6 +1,5 @@
 # dcrweb
-
-[![Build Status](https://travis-ci.org/decred/dcrweb.png?branch=master)](https://travis-ci.org/decred/dcrweb)
+[![Build Status](https://github.com/decred/dcrweb/actions/workflows/build.yml/badge.svg)](https://github.com/decred/dcrweb/actions/workflows/build.yml)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 ## Overview
