@@ -1,4 +1,22 @@
 -
+  Title: "Decred Release v1.8.0"
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.8.0"
+  Params:
+    sortDate: "2023-06-13 16:00:22"
+    icon: "releaseUpdates.svg"
+- 
+  Title: "DCRDEX Release v0.6.2"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.6.2"
+  Params:
+    sortDate: "2023-06-20 04:29:48"
+    icon: "releaseUpdates.svg"
+- 
+  Title: "DCRDEX Release v0.6.1"
+  Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.6.1"
+  Params:
+    sortDate: "2023-05-05 04:29:48"
+    icon: "releaseUpdates.svg"
+-
   Title: "Decred Release v1.7.7"
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v1.7.7"
   Params:
