@@ -1,7 +1,7 @@
 {{ range .items }}
     <div class="news-item {{ $.filterCategory }}" style="order: {{ (.Params.sortDate | time.AsTime).Unix }}">
         <a href="{{ .Permalink }}" {{ if not .Page }} target="_blank" {{ end }} rel="noopener noreferrer">
-            <img class="news-icon" src="{{ .Site.BaseURL }}/images/news-icons/{{ .Params.icon }}" width="30" alt="" />
+            <img class="news-icon" src="{{ $.site.BaseURL }}/images/news-icons/{{ .Params.icon }}" width="30" alt="" />
 
             <div class="news-item-wrapper">
                 <p>
@@ -17,7 +17,7 @@
             </div>
 
             {{ if not .Page }}
-                <img class="news-external-link" src="{{ .Site.BaseURL }}/images/external-link.svg" width="16" alt="" />
+                <img class="news-external-link" src="{{ $.site.BaseURL }}/images/external-link.svg" width="16" alt="" />
             {{ end }}
 
         </a>

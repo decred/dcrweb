@@ -50,10 +50,10 @@
         </div>
         
         <div class="news-list">
-            {{ partial "news/news-list" (dict "filterCategory" "coverage"         "items" .Site.Data.news.coverage) }}
-            {{ partial "news/news-list" (dict "filterCategory" "journal"          "items" .Site.Data.news.decred_journals) }}
-            {{ partial "news/news-list" (dict "filterCategory" "software_release" "items" .Site.Data.news.software_releases) }}
-            {{ partial "news/news-list" (dict "filterCategory" "press_release"    "items" (where .Site.RegularPages "Section" "=" "news")) }}
+            {{ partial "news/news-list"             (dict "site" .Site "filterCategory" "coverage"         "items" .Site.Data.news.coverage) }}
+            {{ partial "news/news-list"             (dict "site" .Site "filterCategory" "journal"          "items" .Site.Data.news.decred_journals) }}
+            {{ partial "news/software-release-list" (dict "site" .Site "filterCategory" "software_release" "items" .Site.Data.news.software_releases) }}
+            {{ partial "news/news-list"             (dict "site" .Site "filterCategory" "press_release"    "items" (where .Site.RegularPages "Section" "=" "news")) }}
         </div>
 
     </div>

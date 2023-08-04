@@ -1,0 +1,19 @@
+{{ range .items }}
+
+    {{ $software := index $.site.Data.news.software .software }}
+
+    <div class="news-item {{ $.filterCategory }}" style="order: {{ (.Params.sortDate | time.AsTime).Unix }}">
+        <a href="{{ .Permalink }}" {{ if not .Page }} target="_blank" {{ end }} rel="noopener noreferrer">
+            <img class="news-icon" src="{{ $.site.BaseURL }}/images/software-icons/{{ $software.icon }}" width="30" alt="" />
+
+            <div class="news-item-wrapper">
+                <p>
+                    <span class="news-item-title">{{ $software.name }} Release {{ .version }}</span>
+                </p>
+                <p class="news-date">{{ dateFormat "January 2, 2006" .Params.sortDate }}</p>
+            </div>
+
+            <img class="news-external-link" src="{{ $.site.BaseURL }}/images/external-link.svg" width="16" alt="" />
+        </a>
+    </div>
+{{ end }}

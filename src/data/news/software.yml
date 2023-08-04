@@ -1,0 +1,9 @@
+dcrdex: 
+  name: "DCRDEX"
+  icon: "dcrdex.svg"
+decred: 
+  name: "Decred"
+  icon: "decred.svg"
+bison: 
+  name: "Bison Relay"
+  icon: "bison.svg"
