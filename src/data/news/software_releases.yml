@@ -1,3 +1,9 @@
+- 
+  software: bison
+  version: 0.1.8
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.1.8"
+  Params:
+    sortDate: "2023-08-21 20:26:50"
 -
   software: decred
   version: 1.8.0
@@ -16,6 +22,12 @@
   Permalink: "https://github.com/decred/dcrdex/releases/tag/v0.6.1"
   Params:
     sortDate: "2023-05-05 04:29:48"
+- 
+  software: bison
+  version: 0.1.7
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.1.7"
+  Params:
+    sortDate: "2023-04-25 18:05:36"
 -
   software: decred
   version: 1.7.7
