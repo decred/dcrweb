@@ -15,7 +15,7 @@
     icon: "broadcasts.svg"
     outlet: "Decred YouTube"
 -
-  Title: "The Future Is Now: Jake Yocom-Piatt Of Decred.org On How Their Technological Innovation Will Shake Up The Tech Scene"
+  Title: "The Future Is Now: Jake Yocom-Piatt Of decred.org On How Their Technological Innovation Will Shake Up The Tech Scene"
   Permalink: "https://medium.com/authority-magazine/the-future-is-now-jake-yocom-piatt-on-how-their-technological-innovation-will-shake-u-3966dc1adc22"
   Params:
     author: "Authority Magazine Editorial Staff"
@@ -44,7 +44,7 @@
   Params:
     author: "Patrick Hynds, Ciprian Jichici"
     sortDate: "2023-04-04"
-    icon: "dcrInMedia.svg"
+    icon: "interview.svg"
     outlet: "Entangled Things Podcast"
 -
   Title: "State of the Market - Content and development proposals for Decred feat. Cointelegraph"
