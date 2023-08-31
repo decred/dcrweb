@@ -1,4 +1,28 @@
 -
+  Title: "Decred v1.8.0 - 'The Forkening' feat. Lead Dev Dave Collins"
+  Permalink: "https://www.youtube.com/watch?v=TJnP_t4dEq8"
+  Params:
+    author: "Phoenix Green, Exitus"
+    sortDate: "2023-08-06"
+    icon: "broadcasts.svg"
+    outlet: "Decred YouTube"
+-
+  Title: "Crypto Integrations - Cake Wallet"
+  Permalink: "https://www.youtube.com/watch?v=0KKsD4ZhZn0"
+  Params:
+    author: "Phoenix Green, Tivra"
+    sortDate: "2023-08-02"
+    icon: "broadcasts.svg"
+    outlet: "Decred YouTube"
+-
+  Title: "The Future Is Now: Jake Yocom-Piatt Of decred.org On How Their Technological Innovation Will Shake Up The Tech Scene"
+  Permalink: "https://medium.com/authority-magazine/the-future-is-now-jake-yocom-piatt-on-how-their-technological-innovation-will-shake-u-3966dc1adc22"
+  Params:
+    author: "Authority Magazine Editorial Staff"
+    sortDate: "2023-05-21"
+    icon: "dcrInMedia.svg"
+    outlet: "Authority Magazine"
+-
   Title: "Decred announces DCRDEX 0.6 with support for Ethereum and USDC swaps"
   Permalink: "https://invezz.com/news/2023/04/17/decred-announces-dcrdex-0-6-with-support-for-ethereum-and-usdc-swaps/"
   Params:
@@ -14,6 +38,14 @@
     sortDate: "2023-04-05"
     icon: "interview.svg"
     outlet: "Decred YouTube"
+-
+  Title: "Quantum and Cryptocurrency with Jake Yocom-Piatt"
+  Permalink: "https://www.entangledthings.com/all-episodes/episode/7bef6428/quantum-and-cryptocurrency-with-jake-yocom-piatt"
+  Params:
+    author: "Patrick Hynds, Ciprian Jichici"
+    sortDate: "2023-04-04"
+    icon: "interview.svg"
+    outlet: "Entangled Things Podcast"
 -
   Title: "State of the Market - Content and development proposals for Decred feat. Cointelegraph"
   Permalink: "https://www.youtube.com/watch?v=d-tCKPYOII0"
@@ -40,12 +72,12 @@
     outlet: "SlateCast"
 -
   Title: "Decred 2022 End of Year Summary"
-  Permalink: "https://www.decredmagazine.com/decred-2022-end-of-year-summary/"
+  Permalink: "https://www.cypherpunktimes.com/decred-2022-end-of-year-summary/"
   Params:
     author: "Phoenix Green"
     sortDate: "2022-12-31"
     icon: "dcrInMedia.svg"
-    outlet: "Decred Magazine"
+    outlet: "Cypherpunk Times"
 -
   Title: "My Chat with Decred Founder/CEO Jake Yocom-Piatt"
   Permalink: "https://www.youtube.com/watch?v=OS_AOyMdAeU"
