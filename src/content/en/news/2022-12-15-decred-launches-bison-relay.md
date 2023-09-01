@@ -48,7 +48,7 @@ The project has created several tools to enhance financial sovereignty and
 privacy, including a decentralized peer-to-peer exchange (DCRDEX), voting system
 (Politeia), and opt-in privacy system, with post-quantum-secure mixing.
 
-For more information visit <https://bisonrelay.org>.
+For more information visit [bisonrelay.org](https://bisonrelay.org).
 
 ### About Decred ([decred.org](https://decred.org))
 

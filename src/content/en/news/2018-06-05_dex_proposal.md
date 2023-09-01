@@ -48,4 +48,5 @@ Decred’s proposal leverages on-chain atomic swaps, announced in September 2017
 making it the first project to support direct exchanges between users of Decred,
 Bitcoin and Litecoin.
 
-To read the full DEX proposal, visit the Decred Blog: <https://blog.decred.org>.
+To read the full DEX proposal, visit the Decred Blog:
+[blog.decred.org](https://blog.decred.org).

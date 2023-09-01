@@ -67,8 +67,8 @@ The development of DCRDEX 0.6 took eight months and involved writing or
 modifying approximately 90,000 lines of code, with contributions from around ten
 software engineers.
 
-For more information visit <https://github.com/decred/dcrdex> or
-<https://dex.decred.org>.
+For more information visit [github.com/decred/dcrdex](https://github.com/decred/dcrdex/)
+or [dex.decred.org](https://dex.decred.org/).
 
 ### About Decred ([decred.org](https://decred.org))
 

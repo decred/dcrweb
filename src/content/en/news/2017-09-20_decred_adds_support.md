@@ -39,7 +39,7 @@ that don't require the order book management of full-service exchanges. A more
 detailed technical brief has been posted on the Decred Blog.
 
 Users who require additional assistance can talk to the Decred team at
-<https://chat.decred.org>.
+[chat.decred.org](https://chat.decred.org).
 
 > "...one of the most interesting current projects, both for the current
 > characteristics and those that will be implemented in the near future."
