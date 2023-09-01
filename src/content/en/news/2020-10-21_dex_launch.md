@@ -60,7 +60,7 @@ Key features of DCRDEX:
   deployed incrementally in the coming months. For more information visit
   [dex.decred.org](https://dex.decred.org).
 
-### About Decred (www.decred.org)
+### About Decred ([decred.org](https://decred.org))
 
 Decred is a community-directed cryptocurrency with built-in governance to make
 it a superior long-term store of value. Decred's hybrid

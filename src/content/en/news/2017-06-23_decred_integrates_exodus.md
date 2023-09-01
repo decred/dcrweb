@@ -20,7 +20,7 @@ The news of this integration comes on the heels of Decred's launch of decentrali
 
 As a special treat, the two projects have collaborated to launch a cryptographic challenge with USD $5K prize in $DCR. Decred has a history of creating cryptographic challenges with bountiful prizes, and this event will be no different. The challenge begins at, and it will be Exodus.io/decred live as of June 22 at 10 PM PDT. May the best hacker win!
 
-The Exodus and Decred software are available for Windows, Mac, and Linux. For more information, visit: decred.org.
+The Exodus and Decred software are available for Windows, Mac, and Linux. For more information, visit: [decred.org](https://decred.org).
 
 Users who require additional assistance can talk to the Decred team at <https://chat.decred.org>.
 

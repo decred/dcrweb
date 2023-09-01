@@ -45,7 +45,7 @@ of the funds.
 
 For more information visit <https://decred.org/> or <https://dex.decred.org/>.
 
-### About Decred (www.decred.org)
+### About Decred ([decred.org](https://decred.org))
 
 Decred is Money Evolved. By combining battle-tested Proof-of-Work with an
 innovative take on Proof-of-Stake that places coin holders in charge of shaping

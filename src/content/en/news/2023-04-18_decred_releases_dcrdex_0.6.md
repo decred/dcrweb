@@ -34,5 +34,6 @@ The development of DCRDEX 0.6 took eight months and involved writing or modifyin
 
 For more information visit <https://github.com/decred/dcrdex> or <https://dex.decred.org>.
 
-### About Decred (decred.org)
+### About Decred ([decred.org](https://decred.org))
+
 Decred is Money Evolved. By combining battle-tested Proof-of-Work with an innovative take on Proof-of-Stake that places coin holders in charge of shaping the future, Decred is able to adapt to challenges and innovate at a rapid pace. You acquire influence in Decred by putting “skin in the game”. Decred’s security, privacy, scalability, and decentralized treasury empower stakeholders and provides them with the tools needed to enhance their financial sovereignty.
