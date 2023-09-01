@@ -20,7 +20,7 @@ Proof-of-Work/Proof-of-Stake/Treasury block reward split from 60/30/10 to
 10/80/10 if it passes a second vote which will take place on-chain.
 
 The proposal to change the block reward distribution was presented to
-stakeholders by Decred’s Co-Founder Jake Yocom-Piatt, referencing 
+stakeholders by Decred’s Co-Founder Jake Yocom-Piatt, referencing
 [on-chain data](https://medium.com/@tacorevenge/the-suppressor-part-2-on-chain-analysis-6561c5a478c4)
 uncovered by an anonymous community member using the pseudonym ‘tacorevenge’,
 which showed ongoing price suppression in Decred markets. The research indicates
