@@ -13,7 +13,7 @@ kind of intermediaries, solving key problems around privacy and security. The
 combination of privacy, resilience, and cross-chain compatibility in the new
 release is a first.
 
-#### New Assets
+## New Assets
 
 The most notable new feature of DCRDEX 0.6 is the introduction of Ethereum and
 USDC. Users now have access to direct layer 1 atomic swaps with no intermediary,
@@ -23,14 +23,14 @@ spendable by a third party, only the swap participants. As with all swaps
 performed by the software, no auxiliary chain or DEX-managed vault is used to
 trustlessly execute the swap.
 
-#### Full Self Custody
+## Full Self Custody
 
 DCRDEX 0.6 offers direct P2P swaps between ETH and other L1 chains like BTC and
 DCR, without any centralized pools or wallets. The solution requires no trusted
 parties or complex escrow systems, just a matching order. The user maintains
 full custody of their funds for the entire duration of the swap.
 
-#### New Native Wallets
+## New Native Wallets
 
 DCRDEX 0.6 also features native wallets for Litecoin and Bitcoin Cash. As with
 the Bitcoin and Decred wallets, these wallets are all built on the
@@ -43,7 +43,7 @@ wallets, the DCRDEX user application preserves user privacy and minimizes
 reliance on third parties by using the best light wallet protocols provided by
 the blockchain networks themselves.
 
-#### No Registration Fee
+## No Registration Fee
 
 Another significant change is the elimination of the one-time registration fee
 in favor of time-locked fidelity bonds. Instead of an initial sacrifice of funds
@@ -58,10 +58,12 @@ intermediate utility token or liquidity pool, just another user and the assets'
 chains.
 
 > “With centralized exchanges experiencing frequent hacks and outages, DCRDEX
-> 0.6 is a timely and crucial development in the world of decentralized finance,
-> said Brian Stafford, Blockchain Developer at Decred. “This latest release
-> demonstrates that users can still exchange their funds without compromising
-> the key principles of security, privacy, and self-custody.”
+> 0.6 is a timely and crucial development in the world of decentralized finance.
+> This latest release demonstrates that users can still exchange their funds
+> without compromising the key principles of security, privacy, and
+> self-custody.”
+>
+> — Brian Stafford, Blockchain Developer at Decred
 
 The development of DCRDEX 0.6 took eight months and involved writing or
 modifying approximately 90,000 lines of code, with contributions from around ten
@@ -70,7 +72,7 @@ software engineers.
 For more information visit [github.com/decred/dcrdex](https://github.com/decred/dcrdex/)
 or [dex.decred.org](https://dex.decred.org/).
 
-### About Decred ([decred.org](https://decred.org))
+## About Decred ([decred.org](https://decred.org))
 
 Decred is Money Evolved. By combining battle-tested Proof-of-Work with an
 innovative take on Proof-of-Stake that places coin holders in charge of shaping

@@ -43,7 +43,7 @@ security and privacy,” added Yocom-Piatt. “The project continues to demonstr
 its ability to evolve and adapt with the will of its stakeholders and improve
 the security of their coins and their privacy.”
 
-### About Decred ([decred.org](https://decred.org))
+## About Decred ([decred.org](https://decred.org))
 
 Decred is Money Evolved. By combining battle tested Proof-of-Work with an
 innovative take on Proof-of-Stake that places coin holders in charge of shaping

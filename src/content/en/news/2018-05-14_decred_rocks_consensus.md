@@ -36,31 +36,31 @@ Review’s Business of Blockchain conference makes us only want to work harder t
 affirm the trust of early investors and attract the attention of people just
 entering the world of cryptocurrency.”
 
-#### Consensus 2018 Must-Sees
+## Consensus 2018 Must-Sees
 
-##### On-chain consensus voting
+### On-chain consensus voting
 
 Decred uses an innovative hybrid proof-of-work (PoW), proof-of-stake (PoS)
 system to validate transactions, keep the network secure and make decisions on
 consensus rules.
 
-##### Atomic Swaps - for trusted peer-to-peer trading
+### Atomic Swaps - for trusted peer-to-peer trading
 
 This new type of exchange removes unnecessary third parties. The result is full
 control of assets at all times.
 
-##### Lightning Network integration
+### Lightning Network integration
 
 Blockchains are notoriously slow. The Lightning Network will allow Decred to
 scale up its transaction capacity to thousands of transactions per second.
 
-##### Time-ordering governance data
+### Time-ordering governance data
 
 Politeia, our proposal system named after the Greek word for "system of
 government," improves upon existing blockchain governance systems by eliminating
 the possibility of altering historical records.
 
-##### Real-world use-cases - for financial records, asset tracking, insurance policies, etc
+### Real-world use-cases - for financial records, asset tracking, insurance policies, etc
 
 In addition to a proposal system, Politeia also has vast potential to benefit
 any enterprise that depends on time-stamped data.

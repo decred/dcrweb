@@ -43,4 +43,5 @@ Users who require additional assistance can talk to the Decred team at
 
 > "...one of the most interesting current projects, both for the current
 > characteristics and those that will be implemented in the near future."
+>
 > — Crypto Currency

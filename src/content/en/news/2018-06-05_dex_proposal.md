@@ -26,7 +26,7 @@ community. Decentralization has been our guiding principle at Decred and it is
 what motivated us to create this project, which can benefit the entire
 ecosystem.”
 
-### Key features of DEX
+## Key features of DEX
 
 - It is architected as a simple client and server, without a corresponding token
   or a blockchain.

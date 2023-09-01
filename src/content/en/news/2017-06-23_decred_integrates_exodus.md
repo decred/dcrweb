@@ -38,7 +38,7 @@ decentralized voting for the blockchain. It also comes as Exodus has implemented
 confirmation tracking and other new features to make its wallet more
 user-friendly and secure to the broadest range of users.
 
-#### Surprise Launch Challenge
+## Surprise Launch Challenge
 
 As a special treat, the two projects have collaborated to launch a cryptographic
 challenge with USD $5K prize in $DCR. Decred has a history of creating
@@ -54,9 +54,11 @@ Users who require additional assistance can talk to the Decred team at
 
 > "...one of the most interesting current projects, both for the current
 > characteristics and those that will be implemented in the near future."
+>
 > — Crypto Currency
 
 > “Decred is developed by the authors of btcsuite, a widely respected Bitcoin
 > library that has been used by several high-profile projects including, but not
 > limited to, the Lightning Network, BitGo, Ethereum, and Factom."
+>
 > — Brave New Coin
