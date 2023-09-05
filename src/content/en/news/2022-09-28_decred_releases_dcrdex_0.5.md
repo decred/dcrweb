@@ -43,9 +43,10 @@ These properties make DCRDEX much like a bulletin board where users trade with
 each other and less like a typical exchange where the exchange must take control
 of the funds.
 
-For more information visit <https://decred.org/> or <https://dex.decred.org/>.
+For more information visit [decred.org](https://decred.org/) or
+[dex.decred.org](https://dex.decred.org/).
 
-### About Decred (www.decred.org)
+## About Decred ([decred.org](https://decred.org))
 
 Decred is Money Evolved. By combining battle-tested Proof-of-Work with an
 innovative take on Proof-of-Stake that places coin holders in charge of shaping

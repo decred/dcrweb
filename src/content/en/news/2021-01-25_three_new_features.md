@@ -21,7 +21,7 @@ decentralized, secure and sustainable - aligning with the original ideals of the
 space,” said Jake Yocom-Piatt, Co-Founder and Project Lead at
 [decred.org](https://decred.org).
 
-### Decentralized On-chain Treasury
+## Decentralized On-chain Treasury
 
 The launch marks the project’s bold move to further decentralize its treasury,
 which receives 10 percent of every block reward. In 2018, the project gave the
@@ -36,7 +36,7 @@ steps to ensure it is governed by the collective intelligence of its community
 as opposed to a central planning committee,” added Yocom-Piatt. “The sovereignty
 of our users is unmatched in the crypto space.”
 
-### Privacy
+## Privacy
 
 Decrediton v1.6 also includes Decred’s opt-in privacy system, Stakeshuffle,
 which allows users to anonymize their DCR via coin mixing. The mixer uses a
@@ -52,7 +52,7 @@ Yocom-Piatt. “Privacy also makes the project substantially more resilient
 against malicious actors, which will magnify our sustainability in the long
 term.”
 
-### Lightning Network Payments
+## Lightning Network Payments
 
 The third major feature of the new wallet is Lightning Network integration,
 which enables near-instant low-cost off-chain transactions. Lightning opens a
@@ -65,7 +65,7 @@ adoption,” added Yocom-Piatt.
 
 For more information visit [decred.org/release](https://decred.org/release)
 
-### About Decred (www.decred.org)
+## About Decred ([decred.org](https://decred.org))
 
 Decred is Money Evolved. By combining battle tested Proof-of-Work with an
 innovative take on Proof-of-Stake that places coin holders in charge of shaping

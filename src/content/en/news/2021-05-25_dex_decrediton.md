@@ -35,7 +35,7 @@ the ecosystem as a whole. The DCRDEX integration and recent consensus change are
 the latest examples of how Decred is leading the way in helping crypto stay true
 to its original ideals and keeping crypto decentralized.”
 
-### Key features of DCRDEX
+## Key features of DCRDEX
 
 - **Fees** - There are no per-trade fees that go to the server operator and
   there is no superfluous token or blockchain that is used to monetize the
@@ -58,7 +58,7 @@ to its original ideals and keeping crypto decentralized.”
   attestation, both clients and servers can be held accountable for malicious
   behavior.
 
-### About Decred (www.decred.org)
+## About Decred ([decred.org](https://decred.org))
 
 Decred is Money Evolved. By combining battle tested Proof-of-Work with an
 innovative take on Proof-of-Stake that places coin holders in charge of shaping

@@ -6,7 +6,8 @@ draft: false
 icon: "announcementsDefault.svg"
 ---
 
-> First Exchange with No Trading Fees Seeks to Disrupt Billion-Dollar Crypto Exchange Market
+> First Exchange with No Trading Fees Seeks to Disrupt Billion-Dollar Crypto
+> Exchange Market
 
 **[Chicago, IL October 21, 2020]** Decred (DCR), a digital currency that
 emphasizes security and scalability, today announced the launch of DCRDEX, the
@@ -60,7 +61,7 @@ Key features of DCRDEX:
   deployed incrementally in the coming months. For more information visit
   [dex.decred.org](https://dex.decred.org).
 
-### About Decred (www.decred.org)
+## About Decred ([decred.org](https://decred.org))
 
 Decred is a community-directed cryptocurrency with built-in governance to make
 it a superior long-term store of value. Decred's hybrid
