@@ -116,11 +116,6 @@
   name: "Swapzone"
   highlight: false
 -
-  url: "https://www.hotbit.io/"
-  tags:
-  name: "Hotbit"
-  highlight: false
--
   url: "https://wazirx.com/"
   tags:
     - fiat
@@ -137,4 +132,34 @@
   tags:
     - "instant_exchange"
   name: Trocador
+  highlight: false
+-
+  url: "https://huobi.com/"
+  tags:
+  name: Huobi
+  highlight: false
+-
+  url: "https://kucoin.com/"
+  tags:
+  name: Kucoin
+  highlight: false
+-
+  url: "https://bitbns.com/"
+  tags:
+  name: Bitbns
+  highlight: false
+-
+  url: "https://bingx.com/"
+  tags:
+  name: Bingx
+  highlight: false
+-
+  url: "https://mexc.com/"
+  tags:
+  name: Mexc
+  highlight: false
+-
+  url: "https://coinex.com/"
+  tags:
+  name: Coinex
   highlight: false
