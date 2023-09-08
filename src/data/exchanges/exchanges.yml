@@ -143,23 +143,4 @@
   tags:
   name: Kucoin
   highlight: false
--
-  url: "https://bitbns.com/"
-  tags:
-  name: Bitbns
-  highlight: false
--
-  url: "https://bingx.com/"
-  tags:
-  name: Bingx
-  highlight: false
--
-  url: "https://mexc.com/"
-  tags:
-  name: Mexc
-  highlight: false
--
-  url: "https://coinex.com/"
-  tags:
-  name: Coinex
-  highlight: false
+  
