@@ -59,10 +59,13 @@
                 margin-bottom: 7px;
                 margin-right: 3px;
                 
-                a,
-                a:hover {
+                a {
                     color: $white;
                     opacity: 0.89;
+                }
+                
+                a:hover {
+                    opacity: 1.0;
                 }
 
                 &.direct-dl {
