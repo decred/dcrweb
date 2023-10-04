@@ -41,6 +41,17 @@
     - title: Release notes
       url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.3.md
 
+- id: cryptopower
+  name: Cryptopower
+  tags:
+    - core_software
+  highlight: true
+  links:
+    - title: GitHub
+      url: https://github.com/crypto-power/cryptopower
+    - title: Release notes
+      url: https://github.com/crypto-power/cryptopower/releases/tag/release-v1.0.0
+      
 - id: commandline
   name: Command-line app suite
   tags:
