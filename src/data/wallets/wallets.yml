@@ -47,11 +47,11 @@
     - core_software
   highlight: true
   links:
-    - title: GitHub
-      url: https://github.com/crypto-power/cryptopower
-    - title: Release notes
+    - title: Download and release notes
       url: https://github.com/crypto-power/cryptopower/releases/tag/release-v1.0.0
-      
+    - title: Website
+      url: https://cryptopower.dev
+
 - id: commandline
   name: Command-line app suite
   tags:
