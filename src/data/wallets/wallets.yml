@@ -15,18 +15,18 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-amd64-v1.8.0.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v1.8.1/decrediton-amd64-v1.8.1.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v1.8.1/decrediton-v1.8.1.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v1.8.1/decrediton-v1.8.1.exe
       is_direct_download: true
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.0#user-content-decrediton-v180
+      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.1#user-content-decrediton-v181
     - title: GitHub
       url: https://github.com/decred/decrediton
 
@@ -39,9 +39,8 @@
     - title: Download
       url: https://github.com/decred/dcrdex/releases/tag/v0.6.3
     - title: Release notes
-      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.0.md
-    - title: Website
-      url: https://dex.decred.org
+      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.3.md
+
 - id: commandline
   name: Command-line app suite
   tags:
@@ -49,9 +48,9 @@
   highlight: true
   links:
     - title: GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.8.0
+      url: https://github.com/decred/decred-release/releases/tag/v1.8.1
     - title: Release notes
-      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.0#user-content-dcrwallet-v180
+      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.1#user-content-dcrwallet-v181
 
 - id: trezor
   name: Trezor
