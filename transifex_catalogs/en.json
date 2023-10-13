@@ -48,6 +48,7 @@
   "downloads_category_hardware_wallets": "Hardware wallets",
   "downloads_app_decrediton": "Graphical UI wallet for Windows, macOS and Linux.",
   "downloads_app_dcrdex": "Multi-coin light wallet with DEX support. No staking or advanced wallet features.",
+  "downloads_app_cryptopower": "Multi-coin light GUI wallet for DCR, BTC and LTC. Built purely in Go.",
   "downloads_app_commandline": "A cross-platform, automatic installer/updater for the command-line applications.",
   "downloads_app_mobilewallets": "Decred mobile wallets available for both Android and iOS platforms.",
   "downloads_app_exodus": "Exodus is a friendly, all-in-one application, to secure, manage and exchange blockchain assets.",
