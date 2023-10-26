@@ -62,7 +62,7 @@
   "stakepools_description_3": "The following VSPs have been reviewed by the community.",
   "notice": "Notice",
   "warning": "Warning",
-  "stakepools_warning_1": "Tickets may be revoked either because they were missed, or because they expired. Missed tickets can be caused by a poorly connected Proof-of-Work (PoW) miner and may not necessarily be the fault of the provider.",
+  "stakepools_warning_1": "Missed tickets can be caused by a poorly connected Proof-of-Work (PoW) miner and may not necessarily be the fault of the provider.",
   "stakepools_warning_2": "To encourage decentralization of the network, it is recommended to avoid providers that have over 5% of network votes.",
   "news_title": "News",
   "news_press_releases": "Press Releases",
