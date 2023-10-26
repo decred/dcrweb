@@ -43,15 +43,13 @@ var drawTable = function(data) {
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voted"] + '</td>';
 		tableMarkup += '<td class="dcrwebcode">' + poolData["revoked"] + '</td>';
 
+		var total = poolData["revoked"] + poolData["voted"];
+
 		var revokedPercent;
-		if (poolData["voted"] == 0) {
-			if (poolData["revoked"] == 0) {
+		if (total == 0) {
 				revokedPercent = 0;
-			} else {
-				revokedPercent = 1;
-			}
 		} else {
-			revokedPercent = 100 * (poolData["revoked"] / poolData["voted"]);
+			revokedPercent = 100 * (poolData["revoked"] / total);
 		}
 
 		tableMarkup += '<td class="dcrwebcode">' + revokedPercent.toFixed(2) + "%" + '</td>';
