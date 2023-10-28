@@ -14,7 +14,7 @@ var drawTable = function(data) {
 		'<tr class="">' +
 		'<th class="addressHeader" style="padding-left: 2px; background-image: none;">Address</th>' +
 		'<th class="lastUpdatedHeader">Last Updated</th>'+
-		'<th>Voting</th>' +
+		'<th>Live</th>' +
 		'<th>Voted</th>' +
 		'<th>Missed</th>' +
 		'<th>Missed %</th>' +
