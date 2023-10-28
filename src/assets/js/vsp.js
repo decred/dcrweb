@@ -16,8 +16,8 @@ var drawTable = function(data) {
 		'<th class="lastUpdatedHeader">Last Updated</th>'+
 		'<th>Voting</th>' +
 		'<th>Voted</th>' +
-		'<th>Revoked</th>' +
-		'<th>Revoked %</th>' +
+		'<th>Missed</th>' +
+		'<th>Missed %</th>' +
 		'<th>Fees</th>' +
 		'<th>Age</th>' +
 		'</tr>' +
@@ -41,18 +41,17 @@ var drawTable = function(data) {
 		
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voting"] + '</td>';
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voted"] + '</td>';
-		tableMarkup += '<td class="dcrwebcode">' + poolData["revoked"] + '</td>';
+		tableMarkup += '<td class="dcrwebcode">' + poolData["missed"] + '</td>';
 
-		var total = poolData["revoked"] + poolData["voted"];
+		var total = poolData["expired"] + poolData["missed"] + poolData["voted"];
 
-		var revokedPercent;
+		var missedPercent;
 		if (total == 0) {
-				revokedPercent = 0;
+			missedPercent = 0;
 		} else {
-			revokedPercent = 100 * (poolData["revoked"] / total);
+			missedPercent = 100 * (poolData["missed"] / total);
 		}
-
-		tableMarkup += '<td class="dcrwebcode">' + revokedPercent.toFixed(2) + "%" + '</td>';
+		tableMarkup += '<td class="dcrwebcode">' + missedPercent.toFixed(2) + "%" + '</td>';
 		
 		tableMarkup += '<td class="dcrwebcode">' + poolData["feepercentage"] + '%</td>';
 
