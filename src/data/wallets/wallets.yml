@@ -118,3 +118,12 @@
     - title: Trust Wallet
       url: https://trustwallet.com/
   highlight: false
+  
+- id: atomic
+  name: Atomic Wallet
+  tags:
+    - third_party_wallets
+  links:
+    - title: Atomic Wallet
+      url: https://atomicwallet.io
+  highlight: false

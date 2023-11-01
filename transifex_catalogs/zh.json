@@ -30,6 +30,7 @@
   "downloads_app_mobilewallets": "适用于Android和iOS平台的Decred 移动钱包。",
   "downloads_app_trezor": "Trezor 是兼容 Decrediton 和 Exodus 的硬件钱包。",
   "downloads_app_trust": "Trust Wallet 钱包是Android和iOS的多硬币钱包。",
+  "downloads_app_atomic": "管理您的 Decred、比特币、以太坊、USDT 以及 1000 多种其他硬币和代币。",
   "downloads_category_core_software": "核心软件",
   "downloads_category_hardware_wallets": "硬件钱包",
   "downloads_category_third_party_wallets": "第三方钱包",

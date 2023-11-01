@@ -40,6 +40,7 @@
   "downloads_app_coinomi": "ビットコイン、イーサリアムをはじめとする500種類以上のブロックチェーンアセットを安全に保管、管理、取引することができます。",
   "downloads_app_guarda": "Guardaは、Webおよびデスクトップ、モバイルで利用可能なマルチ通貨対応ウォレットです。",
   "downloads_app_ledger": "Ledger Liveは、Ledger製ハードウェアウォレットにより保護されたウェブベースのウォレットです。",
+  "downloads_app_atomic": "Decred、ビットコイン、イーサリアム、USDT、その他 1000 以上のコインとトークンを管理します。",
   "notice": "注",
   "warning": "警告",
   "stakepools_warning_1": "チケットの紛失はProof-of-work (PoW) を行うマイナーの接続状態に問題の場合があり、プロバイダーの問題とは限りません。",

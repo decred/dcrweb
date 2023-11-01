@@ -41,6 +41,7 @@
   "downloads_app_coinomi": "Armazene, faça a gestão e troque Bitcoin, Ethereum, e mais 500 outros tipos de recursos blockchain, tudo de forma segura.",
   "downloads_app_guarda": "A Guarda é representada por carteiras múlti-moeda com versão web, ambiente de trabalho e móvel.",
   "downloads_app_ledger": "Ledger Live é uma carteira baseada na Web protegida pela carteira Ledger de hardware.",
+  "downloads_app_atomic": "Gerencie seu Decred, Bitcoin, Ethereum, USDT e mais de 1000 outras moedas e tokens.",
   "notice": "Aviso",
   "warning": "Aviso",
   "stakepools_warning_1": "Os bilhetes perdidos podem ser causados por uma mineração proof-of-work (PoW) com problemas de ligação e não necessariamente devido ao fornecedor.",
