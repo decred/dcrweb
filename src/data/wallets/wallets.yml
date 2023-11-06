@@ -25,10 +25,8 @@
       platform: windl
       url: https://github.com/decred/decred-binaries/releases/download/v1.8.1/decrediton-v1.8.1.exe
       is_direct_download: true
-    - title: Release notes
+    - title: Downloads and release notes
       url: https://github.com/decred/decred-binaries/releases/tag/v1.8.1#user-content-decrediton-v181
-    - title: GitHub
-      url: https://github.com/decred/decrediton
 
 - id: dcrdex
   name: DCRDEX
@@ -36,10 +34,14 @@
     - core_software
   highlight: true
   links:
-    - title: Download
+    - title: Downloads
       url: https://github.com/decred/dcrdex/releases/tag/v0.6.3
     - title: Release notes
       url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.3.md
+    - title: Website
+      url: https://dex.decred.org
+    - title: Setup guide
+      url: https://github.com/decred/dcrdex/wiki/Client-Installation-and-Configuration
 
 - id: cryptopower
   name: Cryptopower
@@ -47,7 +49,7 @@
     - core_software
   highlight: true
   links:
-    - title: Download and release notes
+    - title: Downloads and release notes
       url: https://github.com/crypto-power/cryptopower/releases/tag/v1.0.0
     - title: Website
       url: https://cryptopower.dev
@@ -58,10 +60,12 @@
     - core_software
   highlight: true
   links:
-    - title: GitHub
+    - title: Download installer
       url: https://github.com/decred/decred-release/releases/tag/v1.8.1
-    - title: Release notes
-      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.1#user-content-dcrwallet-v181
+    - title: Installer guide
+      url: https://docs.decred.org/wallets/cli/cli-installation/
+    - title: Release notes + standalone
+      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.1
 
 - id: trezor
   name: Trezor
