@@ -14,10 +14,10 @@ var drawTable = function(data) {
 		'<tr class="">' +
 		'<th class="addressHeader" style="padding-left: 2px; background-image: none;">Address</th>' +
 		'<th class="lastUpdatedHeader">Last Updated</th>'+
-		'<th>Voting</th>' +
+		'<th>Live</th>' +
 		'<th>Voted</th>' +
-		'<th>Revoked</th>' +
-		'<th>Revoked %</th>' +
+		'<th>Missed</th>' +
+		'<th>Missed %</th>' +
 		'<th>Fees</th>' +
 		'<th>Age</th>' +
 		'</tr>' +
@@ -41,20 +41,17 @@ var drawTable = function(data) {
 		
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voting"] + '</td>';
 		tableMarkup += '<td class="dcrwebcode">' + poolData["voted"] + '</td>';
-		tableMarkup += '<td class="dcrwebcode">' + poolData["revoked"] + '</td>';
+		tableMarkup += '<td class="dcrwebcode">' + poolData["missed"] + '</td>';
 
-		var revokedPercent;
-		if (poolData["voted"] == 0) {
-			if (poolData["revoked"] == 0) {
-				revokedPercent = 0;
-			} else {
-				revokedPercent = 1;
-			}
+		var total = poolData["expired"] + poolData["missed"] + poolData["voted"];
+
+		var missedPercent;
+		if (total == 0) {
+			missedPercent = 0;
 		} else {
-			revokedPercent = 100 * (poolData["revoked"] / poolData["voted"]);
+			missedPercent = 100 * (poolData["missed"] / total);
 		}
-
-		tableMarkup += '<td class="dcrwebcode">' + revokedPercent.toFixed(2) + "%" + '</td>';
+		tableMarkup += '<td class="dcrwebcode">' + missedPercent.toFixed(2) + "%" + '</td>';
 		
 		tableMarkup += '<td class="dcrwebcode">' + poolData["feepercentage"] + '%</td>';
 
