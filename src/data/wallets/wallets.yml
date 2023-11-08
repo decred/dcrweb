@@ -48,7 +48,7 @@
   highlight: true
   links:
     - title: Download and release notes
-      url: https://github.com/crypto-power/cryptopower/releases/tag/release-v1.0.0
+      url: https://github.com/crypto-power/cryptopower/releases/tag/v1.0.0
     - title: Website
       url: https://cryptopower.dev
 
