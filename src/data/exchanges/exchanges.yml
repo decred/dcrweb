@@ -138,4 +138,8 @@
   tags:
   name: Kucoin
   highlight: false
-  
+-
+  url: "https://www.mexc.com/exchange/DCR_USDT"
+  tags:
+  name: MEXC
+  highlight: false
