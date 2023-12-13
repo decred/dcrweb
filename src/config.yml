@@ -64,3 +64,9 @@ languages:
         weight: 120
         params:
             languageDir: ltr
+    id:
+        contentDir: content/id
+        languageName: IND
+        weight: 130
+        params:
+            languageDir: ltr
