@@ -64,7 +64,6 @@
   "stakepools_warning_1": "Os tickets podem ser revogados porque foram perdidos ou porque expiraram. Tickets perdidos podem ser causados por um minerador de Proof-of-Work (PoW) mal conectado, e não necessariamente por culpa do provedor.",
   "stakepools_warning_2": "Para incentivar a descentralização da rede, recomendamos que evite provedores com mais de 5% dos votos de rede.",
   "news_title": "Notícias",
-  "news_description": "A Decred foi destaque no Wall Street Journal, Forbes, Bitcoin Magazine entre outros. Encontre abaixo alguns exemplos da cobertura recente.<br /><br />Para entrar em contato com a Decred, entre em contato através de <a href=\"mailto:press@decred.org\">press@decred.org</a>",
   "news_press_releases": "Comunicados de imprensa",
   "news_all": "Todas",
   "news_coverage": "Cobertura na imprensa",
@@ -86,7 +85,7 @@
   "landing_privacy_link2": "Veja a participação na privacidade na Decred",
   "landing_treasury_headline": "Tesouraria",
   "landing_treasury_text": "O poder para continuar construindo.",
-  "landing_treasury_link1": "Contribuindo e tornando-se um Contratante"
+  "landing_treasury_link1": "Contribuindo e tornando-se um Contratante",
   "landing_resolve_headline": "Resolva",
   "landing_resolve_text": "Resolução de disputas incluída para que a horda possa viver em harmonia.",
   "landing_resolve_link1": "Votação Proof of Stake",
