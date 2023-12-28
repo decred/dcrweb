@@ -105,15 +105,6 @@
       url: https://www.coinomi.com/downloads/
   highlight: false
 
-- id: guarda
-  name: Guarda
-  tags:
-    - third_party_wallets
-  links:
-    - title: Guarda releases
-      url: https://guarda.com/
-  highlight: false
-
 - id: trust
   name: Trust Wallet
   tags:
