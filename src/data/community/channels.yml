@@ -60,3 +60,9 @@
   name: Reddit
   highlight: false
   footer: true
+-
+  id: instagram
+  url: "https://www.instagram.com/decredproject"
+  name: Instagram
+  highlight: false
+  footer: false
