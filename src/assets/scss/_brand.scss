@@ -91,7 +91,7 @@
 
 
 .backgroundroyalblue {
-    background-color: #2970ff;
+    background-color: $light-blue;
 }
 
 .backgroundgreen {
@@ -103,7 +103,7 @@
 }
 
 .colorblue {
-    color: #2970ff;
+    color: $light-blue;
 }
 
 .colorlightblue {
@@ -159,7 +159,7 @@
 .brand-subtext {
     font-size: 15px;
     text-decoration: none;
-    color: #2970ff;
+    color: $light-blue;
     white-space: nowrap;
 }
 
@@ -259,7 +259,7 @@
     }
 
     .bottom-link {
-        color: #2970ff;
+        color: $light-blue;
         font-size: 16px;
         text-decoration: none;
     }

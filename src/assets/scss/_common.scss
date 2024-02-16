@@ -4,7 +4,6 @@
 
 body {
     background: $dark-blue;
-    background-image: url("../images/body-bg.svg");
     min-height: 100vh;
     display: flex;
     -webkit-font-smoothing: antialiased;
@@ -24,7 +23,7 @@ a {
 }
 
 .light-hyphen {
-    font-weight: 100;
+    font-weight: 200;
     &.translucent {
         color: rgba($white, 0.34);
     }
@@ -137,7 +136,7 @@ $subpage-header-height: 352px;
     .subpage-title {
         width: 100%;
         color: $white;
-        font-family: "dcrweb-poppins", "Verdana", sans-serif;;
+        font-family: "dcrweb-poppins", "Verdana", sans-serif;
         font-size: 34px;
     }
 }
@@ -186,52 +185,51 @@ $subpage-header-height: 352px;
     flex-direction: row;
     flex-wrap: wrap;
 
-    
     a {
         text-decoration: none;
         color: white;
+    }
+
+    .pill {
+        padding: 15px 24px 14px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        border-radius: 10000px;
+        white-space: nowrap;
+        transition: border 0.21s ease-in-out;
         
-        .pill {
-            padding: 15px 24px 14px;
-            margin-right: 13px;
-            margin-bottom: 13px;
-            border-radius: 10000px;
-            white-space: nowrap;
-            transition: border 0.21s ease-in-out;
-            
-            border: 2px solid rgba($white, 0.21);
-            font-size:18px;
-            
-            @include media-breakpoint-down(md) {
-                font-size: 15px;
-                padding: 11px 19px;
-                margin-right: 8px;
-                margin-bottom: 8px;
-            }
-            
+        border: 2px solid rgba($white, 0.21);
+        font-size:18px;
+        
+        @include media-breakpoint-down(md) {
+            font-size: 15px;
+            padding: 11px 19px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        
+        &:hover,
+        &:focus {
+            border: 2px solid rgba($white, 0.55);
+        }
+
+        &.highlight {
+            border: 2px solid rgba($light-blue, 0.7);
+
             &:hover,
             &:focus {
-                border: 2px solid rgba($white, 0.55);
+                border: 2px solid rgba($light-blue, 1.0);
             }
-
-            &.highlight {
-                border: 2px solid rgba($light-blue, 0.7);
-
-                &:hover,
-                &:focus {
-                    border: 2px solid rgba($light-blue, 1.0);
-                }
-            }
-
-            &.super-highlight {
-                border: 2px solid rgba($turquoise, 0.7);
-
-                &:hover,
-                &:focus {
-                    border: 2px solid rgba($turquoise, 1.0);
-                }
-            }
-
         }
+
+        &.super-highlight {
+            border: 2px solid rgba($turquoise, 0.7);
+
+            &:hover,
+            &:focus {
+                border: 2px solid rgba($turquoise, 1.0);
+            }
+        }
+
     }
 }
