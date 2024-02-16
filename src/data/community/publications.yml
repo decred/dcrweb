@@ -37,9 +37,3 @@
   name: Politeia Digest
   highlight: true
   footer: false
--
-  id: instagram
-  url: "https://www.instagram.com/decredproject"
-  name: Instagram
-  highlight: false
-  footer: false
