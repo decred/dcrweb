@@ -7,3 +7,6 @@ decred:
 bison: 
   name: "Bison Relay"
   icon: "bison.svg"
+cryptopower: 
+  name: "Cryptopower"
+  icon: "cryptopower.svg"
