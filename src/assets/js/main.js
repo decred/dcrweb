@@ -70,11 +70,6 @@ function drawStats(webinfo, priceinfo){
 		this.innerHTML = circulatingDcr.toLocaleString("en-US");
 	});
 
-	var circulatingUsd = Math.round(webinfo.circulatingsupply * priceinfo.decred_usd/1000000);
-	$('[data-stat-name="circulating-supply-usd"]').each(function(){
-		this.innerHTML = "USD " + circulatingUsd + "M";
-	});
-
 	// Total coins mined.
 
 	var mined = Math.round(100 * (webinfo.circulatingsupply / webinfo.ultimatesupply));
