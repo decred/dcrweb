@@ -6,26 +6,44 @@
 <div class="landing-fronta g-0">
     <div class="container h-100">
 
-        <div class="d-flex flex-column justify-content-center h-100">
+        <div class="fronta-wrapper pt-5 pt-md-0">
 
-            <div class="fronta-center flex-column flex-xl-row">
-                <div class="title">
-                    <span class="dcr">Decred&nbsp;<span class="light-hyphen">—</span></span>
-                    <span>{{ T "landing_opener" }}</span>
+            <div class="fronta-center col-12 col-lg-10  d-flex flex-column justify-content-center align-items-center">
+                
+                <div class="d-flex flex-column flex-xl-row align-self-start">
+                    <div class="title">
+                        <span class="dcr">Decred&nbsp;<span class="light-hyphen">—</span></span>
+                        <span>{{ T "landing_opener" }}</span>
+                    </div>
+                    
+                    <div class="fronta-buttons landing-btns flex-row flex-sm-column flex-md-row flex-xl-column justify-content-start"> 
+                        <a class="col-12 col-md-auto btn wallet-btn alldl" href="{{ "/wallets/" | relLangURL }}">{{ T "home_download_wallet" }}</a>
+                        {{ range where .Site.Data.wallets.wallets "id" "decrediton" }}
+                            {{ range where .links "is_direct_download" true }}
+                                <a class="col-12 col-md-auto btn wallet-btn os-specific {{ .platform }}" href="{{ .url }}">{{ T "home_download_wallet" }}</a>
+                            {{ end }}
+                        {{ end }}
+                        <a class="col-12 col-md-auto btn exchange-btn" href="{{ "/exchanges/" | relLangURL }}">{{ T "nav_exchanges" }}</a>
+                    </div>
+                </div>
+
+                <div class="intro-line">
+                    {{ T "landing_intro" }}
+                </div>
+
+                <div class="pills">
+                    <div class="pill highlight">{{ T "landing_pill_1" }}</div>
+                    <div class="pill highlight">{{ T "landing_pill_2" }}</div>
+                    <div class="pill highlight">{{ T "landing_pill_3" }}</div>
+                    <div class="pill highlight">{{ T "landing_pill_4" }}</div>
+                    <div class="pill highlight">{{ T "landing_pill_5" }}</div>
+                    <div class="pill highlight">{{ T "landing_pill_6" }}</div>
                 </div>
                 
-                <div class="fronta-buttons flex-row flex-md-column flex-lg-row flex-xl-column justify-content-start"> 
-                    <a class="col-12 col-md-auto btn wallet-btn" id="alldl" href="{{ "/wallets/" | relLangURL }}">{{ T "home_download_wallet" }}</a>
-                    {{ range where .Site.Data.wallets.wallets "id" "decrediton" }}
-                        {{ range where .links "is_direct_download" true }}
-                            <a class="col-12 col-md-auto btn wallet-btn os-specific" id="{{ .platform }}" href="{{ .url }}">{{ T "home_download_wallet" }}</a>
-                        {{ end }}
-                    {{ end }}
-                    <a class="col-12 col-md-auto btn exchange-btn" href="{{ "/exchanges/" | relLangURL }}">{{ T "nav_exchanges" }}</a>
-                </div>
             </div>
+            
     
-            <div class="fronta-bottom">
+            <div class="fronta-bottom d-none d-md-block">
                 <div class="container d-flex flex-row">
                     <div class="socials col-md-4 d-none d-md-flex">
                         {{ range where $.Site.Data.community.channels "id" "matrix" }}
@@ -51,7 +69,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-4 d-none d-md-flex"></div>
+                    <div class="col-4"></div>
                 </div>
             </div>
 
@@ -66,152 +84,342 @@
 {{ define "main" }}
 <div id="content"></div>
 
-<div class="landing-content sovereignty g-0">
-    
-    <div class="landing-grad"></div>
-
+<div class="section-header pt-5 mt-5">
     <div class="container">
-
-        <div class="landing-box">
-            
-            <div class="landing-wrapper">
-                <p class="headline">{{ T "landing_sovereignty_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
-                <p class="text">{{ T "landing_sovereignty_text"}}</p>
-            </div>
-            
-
-            <div class="links">
-                <a href="https://docs.decred.org/governance/overview/" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_sovereignty_link1" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-                <a href="https://voting.decred.org" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_sovereignty_link2" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-            </div>
-        </div>
+        {{ T "landing_features" }} <div class="section-header-arrow"></div>
     </div>
 </div>
 
-<div class="landing-content privacy right g-0">
-    
-    <div class="landing-grad"></div>
+<div class="features-section">
+    <div class="container">
 
+        <div class="row row-cols-2 row-cols-lg-4 g-3 mb-3">
+            <div class="col">
+                <div class="feature feature1">
+                    <div class="feature-heading">{{ T "landing_feature1" }}</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feature feature2">
+                    <div class="feature-heading">{{ T "landing_feature2" }}</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feature feature3">
+                    <div class="feature-heading">{{ T "landing_feature3" }}</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feature feature4">
+                    <div class="feature-heading">{{ T "landing_feature4" }}</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row row-cols-2 row-cols-lg-4 g-3 mb-3">
+            <div class="col">
+                <div class="feature feature5">
+                    <div class="feature-heading">{{ T "landing_feature5" }}</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feature feature6">
+                    <div class="feature-heading">{{ T "landing_feature6" }}</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feature feature7">
+                    <div class="feature-heading">{{ T "landing_feature7" }}</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feature feature8">
+                    <div class="feature-heading">{{ T "landing_feature8" }}</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="section-header hide-stats">
+    <div class="container">
+        {{ T "landing_stats" }} <div class="section-header-arrow"></div>
+    </div>
+</div>
+
+<div class="stats-section hide-stats">
     <div class="container">
         
-        <div class="landing-box">
-            
-            <div class="landing-wrapper">
-                <p class="headline">{{ T "landing_privacy_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
-                <p class="text">{{ T "landing_privacy_text"}} </p>
+        <div class="container">
+            <div class="stats-info">
+                <div class="stats-info-warp big-number">
+                    <h1 class="stats-info-heading">
+                        CIRCULATING SUPPLY&nbsp;<span style="color: rgb(120, 127, 152);">DCR</span>
+                    </h1>
+                    <h1 class="stats-info-heading ghost">
+                        CIRCULATING<br>SUPPLY <span style="color: rgb(120, 127, 152);">DCR</span>
+                    </h1>
+                    <h1 class="stats-info-variable big-variable" data-stat-name="circulating-supply-dcr">
+                        15,808,337
+                    </h1>
+                </div>
+                <div class="stats-info-sub">
+                    <div class="d-block d-md-inline-block">COINS MINED <span style="color: rgb(183, 183, 183);" data-stat-name="coins-mined">88%</span></div>
+                    <div class="d-block d-md-inline-block">EMISSION <span style="color: rgb(183, 183, 183);" data-stat-name="coins-emission">+1%/YEAR</span></div>
+                </div>
             </div>
-            
-
-            <div class="links">
-                <a href="https://docs.decred.org/privacy/cspp/overview/" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_privacy_link1" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-                <a href="https://dcrdata.decred.org/charts?chart=coin-supply&visibility=true-true-true" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_privacy_link2" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
+            <div class="stats-node node-img-1"></div>
+            <div class="stats-info right">
+                <div class="stats-info-warp">
+                    <h1 class="stats-info-heading">TOTAL STAKED</h1>
+                    <h1 class="stats-info-variable" data-stat-name="total-staked">62%</h1>
+                    <h1 class="stats-info-heading ghost">TOTAL<br>STAKED</h1>
+                </div>
+                <div class="stats-info-sub">Staking is completely self-custodial</div>
+            </div>
+            <div class="stats-node node-img-2"></div>
+            <div class="stats-info">
+                <div class="stats-info-warp">
+                    <h1 class="stats-info-heading">
+                        TREASURY&nbsp;<span style="color: rgb(120, 127, 152);">DCR</span>
+                    </h1>
+                    <h1 class="stats-info-heading ghost">
+                        TREASURY<br><span style="color: rgb(120, 127, 152);">DCR</span>
+                    </h1>
+                    <h1 class="stats-info-variable" data-stat-name="treasury-dcr">
+                        786K
+                    </h1>
+                </div>
+                <div class="stats-info-sub">
+                    EQUAL TO <span style="color: rgb(183, 183, 183);" data-stat-name="treasury-usd"></span> SELF-FUNDED FROM <span style="color: rgb(183, 183, 183);">10%</span> OF THE BLOCK REWARD
+                </div>
+            </div>
+            <div class="stats-node node-img-3"></div>
+            <div class="stats-info right">
+                <div class="stats-info-warp">
+                    <h1 class="stats-info-heading">STAKE REWARD</h1>
+                    <h1 class="stats-info-variable" data-stat-name="stake-reward">7%APY</h1>
+                    <h1 class="stats-info-heading ghost">STAKE<br>REWARD</h1>
+                </div>
+                <div class="stats-info-sub">GET REWARDED FOR STAKING AND VOTING</div>
+            </div>
+            <div class="stats-node node-img-4"></div>
+            <div class="stats-info">
+                <div class="stats-info-warp">
+                    <h1 class="stats-info-heading">BLOCK REWARD REDUCTION IN</h1>
+                    <h1 class="stats-info-heading ghost">BLOCK REWARD<br>REDUCTION IN</h1>
+                    <h1 class="stats-info-variable" data-stat-name="reward-reduction-days">20 DAYS</h1>
+                </div>
+                <div class="stats-info-sub">
+                    BLOCK REWARD REDUCES BY <span style="color: rgb(183, 183, 183);">1%</span> EVERY <span style="color: rgb(183, 183, 183);">21 DAYS</span>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-
-<div class="landing-content treasury g-0">
-    
-    <div class="landing-grad"></div>
-
-    <div class="container">
         
-        <div class="landing-box">
-            
-            <div class="landing-wrapper">
-                <p class="headline">{{ T "landing_treasury_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
-                <p class="text">{{ T "landing_treasury_text"}}</p>
-            </div>
-            
+    </div>
+</div>
 
-            <div class="links">
-                <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_treasury_link1"}}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-
-                <a href="https://proposals.decred.org/?tab=approved" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "nav_politeia"}}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-            </div>
+<div class="why-section">
+    <div class="container">
+        <div class="col-12 col-lg-10 mx-auto">
+            <h1>{{ T "landing_why_title" }}</h1>
+            <p>{{ T "landing_why_text1" }}<br /><br />{{ T "landing_why_text2" }}</p>
         </div>
     </div>
 </div>
 
 
-<div class="landing-content resolve right g-0">
-    
-    <div class="landing-grad"></div>
-
+<div class="quote-section">
     <div class="container">
-
-        <div class="landing-box">
+        <div class="col-12 col-lg-10 mx-auto">
             
-            <div class="landing-wrapper">
-                <p class="headline">{{ T "landing_resolve_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
-                <p class="text">{{ T "landing_resolve_text"}}</p>
+            <div class="quote-box">
+                <div class="quote">“If I understand it correctly, Decred could solve most of Bitcoin’s structural problems.”</div>
+                <div class="citation">- 
+                    <a href="https://twitter.com/CathieDWood/status/995377528318644224" target="_blank" rel="noopener noreferrer">
+                        <span class="ul">Cathie Wood, ARK Invest</span>
+                    </a>
+                </div>
             </div>
-            
+            <div class="quote-box">
+                <div class="quote">“Decred’s killer feature is good governance, and with good governance, you can have any feature you want.”</div>
+                <div class="citation">- 
+                    <a href="https://www.placeholder.vc/blog/2018/5/12/decred-investment-thesis" target="_blank" rel="noopener noreferrer">
+                        <span class="ul">Chris Burniske & Joel Monégro, Placeholder Ventures</span>
+                    </a>
+                </div>
+            </div>
 
-            <div class="links">
-                <a href="https://docs.decred.org/proof-of-stake/overview/" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_resolve_link1" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-            </div>
         </div>
     </div>
 </div>
 
-<div class="landing-content freedom g-0">
-    
-    <div class="landing-grad"></div>
-
+<div class="section-header">
     <div class="container">
-        
-        <div class="landing-box">
-            
-            <div class="landing-wrapper">
-                <p class="headline">{{ T "landing_freedom_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
-                <p class="text">{{ T "landing_freedom_text"}}</p>
-            </div>
-            
-
-            <div class="links">
-                <a href="https://docs.decred.org/governance/decred-constitution/" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_freedom_link1" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
-            </div>
-        </div>
+        {{ T "landing_explore" }} <div class="section-header-arrow"></div>
     </div>
 </div>
 
-<div class="landing-content insights right g-0">
-    
-    <div class="landing-grad"></div>
+<div class="large-boxes-section">
 
-    <div class="container">
-        
-        <div class="landing-box">
-            
-            <div class="landing-wrapper">
-                <p class="headline">{{ T "landing_insights_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
-                <p class="text">{{ T "landing_insights_text"}}</p>
-            </div>
-            
-
-            <div class="links">
-                <a href="https://dcrdata.decred.org/" target="_blank" rel="noopener noreferrer">
-                    <span class="link-text">{{ T "landing_insights_link1" }}</span><span class="link-arrow">&nbsp;→</span>
-                </a>
+    <div class="landing-content landing-bg1 g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_sovereignty_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_sovereignty_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://docs.decred.org/governance/overview/" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_sovereignty_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                    <a href="https://voting.decred.org" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_sovereignty_link2" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
             </div>
         </div>
+    </div>
+    
+    <div class="landing-content landing-bg2 right g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_development_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_development_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://dcrdata.decred.org/treasury" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_development_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-content landing-bg3 g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_proposals_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_proposals_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://proposals.decred.org/?tab=approved" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_proposals_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-content landing-bg4 right g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_dao_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_dao_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_dao_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                    <a href="https://docs.decred.org/proof-of-stake/overview/" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_dao_link2" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="landing-content landing-bg5 g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_privacy_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_privacy_text" }} </p>
+                </div>
+                <div class="links">
+                    <a href="https://docs.decred.org/privacy/cspp/overview/" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_privacy_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                    <a href="https://dcrdata.decred.org/charts?chart=coin-supply&zoom=ikd7pc00-ly52mtc0&bin=day&axis=time&visibility=true-true-true" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_privacy_link2" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-content landing-bg6 right g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_dex_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_dex_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://dex.decred.org/" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_dex_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-content landing-bg3 left g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_security_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_security_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://dcrdata.decred.org/attack-cost" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_security_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-content landing-bg2 right g-0">
+        <div class="landing-grad"></div>
+        <div class="container">
+            <div class="landing-box">
+                <div class="paragraph">
+                    <p class="headline">{{ T "landing_lightning_headline" }}&nbsp;<span class="light-hyphen translucent">—</span></p>
+                    <p class="text">{{ T "landing_lightning_text" }}</p>
+                </div>
+                <div class="links">
+                    <a href="https://bisonrelay.org/" target="_blank" rel="noopener noreferrer">
+                        <span class="link-text">{{ T "landing_lightning_link1" }}</span><span class="link-arrow">&nbsp;→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="footer-button-bg">
+    <div class="container landing-btns">
+        <a class="col-12 col-md-auto btn wallet-btn alldl" href="{{ "/wallets/" | relLangURL }}">{{ T "home_download_wallet" }}</a>
+        {{ range where .Site.Data.wallets.wallets "id" "decrediton" }}
+            {{ range where .links "is_direct_download" true }}
+                <a class="col-12 col-md-auto btn wallet-btn os-specific {{ .platform }}" href="{{ .url }}">{{ T "home_download_wallet" }}</a>
+            {{ end }}
+        {{ end }}
+
+        <a class="col-12 col-md-auto btn exchange-btn" href="{{ "/exchanges/" | relLangURL }}">{{ T "nav_exchanges" }}</a>
     </div>
 </div>
 

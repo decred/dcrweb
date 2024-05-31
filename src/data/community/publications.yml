@@ -21,8 +21,8 @@
   footer: true
 -
   id: magazine
-  url: "https://www.decredmagazine.com/"
-  name: Decred Magazine
+  url: "https://www.cypherpunktimes.com/"
+  name: Cypherpunk Times
   highlight: true
   footer: false
 -

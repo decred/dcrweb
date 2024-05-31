@@ -15,20 +15,18 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-amd64-v1.8.0.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v2.0.1/decrediton-darwin-amd64-v2.0.1.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v2.0.1/decrediton-linux-amd64-v2.0.1.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
-      url: https://github.com/decred/decred-binaries/releases/download/v1.8.0/decrediton-v1.8.0.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v2.0.1/decrediton-windows-amd64-v2.0.1.exe
       is_direct_download: true
-    - title: Release notes
-      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.0#user-content-decrediton-v180
-    - title: GitHub
-      url: https://github.com/decred/decrediton
+    - title: Downloads and release notes
+      url: https://github.com/decred/decred-binaries/releases/tag/v2.0.1
 
 - id: dcrdex
   name: DCRDEX
@@ -36,10 +34,34 @@
     - core_software
   highlight: true
   links:
-    - title: GitHub
-      url: https://github.com/decred/dcrdex/releases/tag/v0.6.1
+    - title: Downloads
+      url: https://github.com/decred/dcrdex/releases/tag/v0.6.3
     - title: Release notes
-      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.1.md
+      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.3.md
+    - title: Website
+      url: https://dex.decred.org
+    - title: Setup guide
+      url: https://github.com/decred/dcrdex/wiki/Client-Installation-and-Configuration
+
+- id: cryptopower
+  name: Cryptopower
+  tags:
+    - core_software
+  highlight: true
+  links:
+    - title: iOS
+      url: https://apps.apple.com/us/app/cryptopower-wallet/id6472668308
+      is_direct_download: true
+    - title: Android
+      url: https://play.google.com/store/apps/details?id=com.dreacotdigital.cryptopower.mainnet
+      is_direct_download: true
+    - title: APK
+      url: https://github.com/crypto-power/cryptopower/releases/download/v1.1.2/cryptopower-v1.1.2.apk
+      is_direct_download: true
+    - title: Downloads and release notes
+      url: https://github.com/crypto-power/cryptopower/releases/tag/v1.1.2
+    - title: Website
+      url: https://cryptopower.dev
 
 - id: commandline
   name: Command-line app suite
@@ -47,10 +69,12 @@
     - core_software
   highlight: true
   links:
-    - title: GitHub
-      url: https://github.com/decred/decred-release/releases/tag/v1.8.0
-    - title: Release notes
-      url: https://github.com/decred/decred-binaries/releases/tag/v1.8.0#user-content-dcrwallet-v180
+    - title: Download installer
+      url: https://github.com/decred/decred-release/releases/tag/v2.0.1
+    - title: Installer guide
+      url: https://docs.decred.org/wallets/cli/cli-installation/
+    - title: Release notes + standalone
+      url: https://github.com/decred/decred-binaries/releases/tag/v2.0.1
 
 - id: trezor
   name: Trezor
@@ -88,15 +112,6 @@
   links:
     - title: Coinomi releases
       url: https://www.coinomi.com/downloads/
-  highlight: false
-
-- id: guarda
-  name: Guarda
-  tags:
-    - third_party_wallets
-  links:
-    - title: Guarda releases
-      url: https://guarda.com/
   highlight: false
 
 - id: trust

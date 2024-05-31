@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1225.8 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #80aaff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: #4d88ff;
+      }
+
+      .cls-5 {
+        fill: #2970ff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="346.25" y1="1282.17" x2="1225.8" y2="1282.17" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2970ff"/>
+      <stop offset=".06" stop-color="#317ef5"/>
+      <stop offset=".19" stop-color="#4198e5"/>
+      <stop offset=".33" stop-color="#4dacd8"/>
+      <stop offset=".49" stop-color="#56bbcf"/>
+      <stop offset=".68" stop-color="#5bc3ca"/>
+      <stop offset="1" stop-color="#5dc6c9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="625.14" y2="625.14" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Text">
+    <g>
+      <polygon class="cls-4" points="659.94 1099.97 973.51 913.99 973.56 587.27 659.91 750.63 659.94 1099.97"/>
+      <polygon class="cls-5" points="659.94 1098.93 659.94 1099.97 659.07 1099.46 465.02 985.25 346.25 915.36 345.38 914.86 345.38 914.23 346.25 587.26 659.92 750.62 659.94 1098.93"/>
+      <polygon class="cls-1" points="346.26 587.27 659.91 750.63 973.56 587.27 659.91 401.29 346.26 587.27"/>
+      <g>
+        <path class="cls-2" d="M979.6,1075.16l-181.58,107.8-109.16,64.82c-24.32,14.44-54.59,14.44-78.91,0l-100.36-59.59-163.34-96.97v197.4c0,27.27,14.37,52.53,37.83,66.45l62.05,36.84,163.83,97.26c24.32,14.44,54.58,14.44,78.9,0l163.83-97.26,165.54-98.3,207.57-123.22-168.52-95.93c-24.14-13.74-53.8-13.47-77.68.71Z"/>
+        <path class="cls-3" d="M609.74,252.18c24.25-14.4,54.44-14.4,78.69,0l291.27,172.94c23.82,14.14,53.4,14.41,77.47.71l168.63-95.99-207.57-123.22-165.86-98.47L688.44,10.8c-24.25-14.4-54.44-14.4-78.69,0l-163.96,97.34-99.53,59.08-138.68,82.34-169.85,100.85C14.34,364.3,0,389.48,0,416.68v666.48c0,27.2,14.34,52.38,37.72,66.27l169.85,100.85v-715.46c0-27.2,14.34-52.38,37.72-66.27l100.96-59.94,263.5-156.43Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
