@@ -34,7 +34,7 @@
   "downloads_category_core_software": "نرم‌افزار اصلی",
   "downloads_category_hardware_wallets": "کیف پول های سخت افزاری",
   "downloads_category_third_party_wallets": "کیف پول های شخص ثالث",
-  "downloads_description": "اگر تازه با دیکْرِد(Decred) آشنا شده‌اید و می‌خواهید اطلاعات عمیق‌تری داشته باشید، حتماً <a href='https://docs.decred.org' target='_blank' rel='noopener noreferrer'> مستندات </a> را بخوانید. برای افراد محتاط در زمینه امنیت لطفا <a href='https://docs.decred.org/advanced/verifying-binaries/' target='_blank' rel='noopener noreferrer'>these این مراحل </a> را برای تایید کد های باینری اپلیکیشن های دیکردتان و کیت خط فرمان دنبال کنید.",
+  "downloads_description": "اگر تازه با دیکْرِد(Decred) آشنا شده‌اید و می‌خواهید اطلاعات عمیق‌تری داشته باشید، حتماً <a href='https://docs.decred.org' target='_blank' rel='noopener noreferrer'> مستندات </a> را بخوانید. برای افراد محتاط در زمینه امنیت لطفا <a href='https://docs.decred.org/advanced/verifying-binaries/' target='_blank' rel='noopener noreferrer'> این مراحل </a> را برای تایید کد های باینری اپلیکیشن های دیکردتان و کیت خط فرمان دنبال کنید.",
   "exchanges_category_atomic_swaps": "اتمیک سواپ (Atomic Swaps)",
   "exchanges_category_decentralized": "غیرمتمرکز",
   "exchanges_category_fiat": "پول نقد (Fiat)",
