@@ -6,7 +6,13 @@
 ##    "name"            - display name for the exchange, displayed on website
 ##    "highlight"       - whether the exchange should be highlighted on the top row
 ##    "super_highlight" - whether the exchange should be *really* highlighted on the top row
-
+-
+  url: "https://basicswapdex.com/"
+  tags:
+    - "decentralized"
+    - "atomic_swaps"
+  name: BasicSwap
+  highlight: false
 -
   url: "https://godex.io/"
   tags:
