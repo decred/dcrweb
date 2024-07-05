@@ -14,11 +14,6 @@
   name: Godex
   highlight: false
 -
-  url: "https://bittrex.com/"
-  tags:
-  name: Bittrex
-  highlight: true
--
   url: "https://holytransaction.com/"
   tags:
   name: HolyTransaction
