@@ -49,9 +49,9 @@
   highlight: false
   footer: false
 -
-  id: twitter
-  url: "https://twitter.com/decredproject"
-  name: Twitter
+  id: x
+  url: "https://x.com/decredproject"
+  name: X
   highlight: false
   footer: true
 -

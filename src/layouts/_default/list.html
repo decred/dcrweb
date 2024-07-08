@@ -55,7 +55,7 @@
                         {{ range where $.Site.Data.community.channels "id" "telegram" }}
                             <a class="social {{ .id }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer"></a>
                         {{ end }}
-                        {{ range where $.Site.Data.community.channels "id" "twitter" }}
+                        {{ range where $.Site.Data.community.channels "id" "x" }}
                             <a class="social {{ .id }}" href="{{ .url }}" target="_blank" rel="noopener noreferrer"></a>
                         {{ end }}
                     </div>
