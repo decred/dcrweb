@@ -28,16 +28,16 @@
     - title: Downloads and release notes
       url: https://github.com/decred/decred-binaries/releases/tag/v2.0.3
 
-- id: dcrdex
-  name: DCRDEX
+- id: bisonw
+  name: Bison Wallet
   tags:
     - core_software
   highlight: true
   links:
     - title: Downloads
-      url: https://github.com/decred/dcrdex/releases/tag/v0.6.3
+      url: https://github.com/decred/dcrdex/releases/tag/v1.0.0
     - title: Release notes
-      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-0.6.3.md
+      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-1.0.0.md
     - title: Website
       url: https://dex.decred.org
     - title: Setup guide
