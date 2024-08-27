@@ -4,9 +4,9 @@ dcrdex:
 decred: 
   name: "Decred"
   icon: "decred.svg"
-bison: 
+bison_relay: 
   name: "Bison Relay"
-  icon: "bison.svg"
+  icon: "bison_relay.svg"
 cryptopower: 
   name: "Cryptopower"
   icon: "cryptopower.svg"
