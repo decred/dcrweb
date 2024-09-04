@@ -1,3 +1,6 @@
+bison_wallet: 
+  name: "Bison Wallet"
+  icon: "bison_wallet.svg"
 dcrdex: 
   name: "DCRDEX"
   icon: "dcrdex.svg"
