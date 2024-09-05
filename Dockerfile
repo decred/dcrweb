@@ -2,8 +2,8 @@
 FROM alpine:latest
 
 ARG HUGO_BASEURL
-ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org}
-ENV HUGO_VERSION 0.110.0
+ENV HUGO_BASEURL ${HUGO_BASEURL:-https://decred.org/}
+ENV HUGO_VERSION 0.134.0
 
 LABEL description="gohugo build"
 LABEL version="1.0"
@@ -25,7 +25,7 @@ RUN bin/build-hugo.sh
 # Serve image (stable nginx version)
 # This cannot use Alpine because test/Dockerfile builds on this image and
 # expects it to have apt-get.
-FROM nginx:1.22
+FROM nginx:1.26
 
 LABEL description="dcrweb server"
 LABEL version="1.0"

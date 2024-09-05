@@ -25,7 +25,7 @@
       
         <!-- Compile and load scss. -->
         {{ $scssOptions := (dict "targetPath" "decred-v6.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-        {{ $v6Style := resources.Get "scss/decred-v6.scss" | resources.ToCSS $scssOptions | resources.Fingerprint }}
+        {{ $v6Style := resources.Get "scss/decred-v6.scss" | css.Sass $scssOptions | resources.Fingerprint }}
         <link rel="stylesheet" href="{{ $v6Style.Permalink }}" integrity="{{ $v6Style.Data.Integrity }}">
 
         <!--  Custom favicon  -->

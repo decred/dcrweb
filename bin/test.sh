@@ -14,7 +14,7 @@ docker stop validator 2>/dev/null
 docker run \
     -d --rm \
     --name validator \
-    -p 8888:8888 ghcr.io/validator/validator:21.7.10 || exit 1
+    -p 8888:8888 ghcr.io/validator/validator:23.4.11 || exit 1
 
 # wait for the validator service to start up
 
