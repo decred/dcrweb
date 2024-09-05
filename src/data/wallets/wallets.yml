@@ -15,15 +15,15 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v2.0.3/decrediton-darwin-amd64-v2.0.4.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v2.0.4/decrediton-darwin-amd64-v2.0.4.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v2.0.3/decrediton-linux-amd64-v2.0.4.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v2.0.4/decrediton-linux-amd64-v2.0.4.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
-      url: https://github.com/decred/decred-binaries/releases/download/v2.0.3/decrediton-windows-amd64-v2.0.4.exe
+      url: https://github.com/decred/decred-binaries/releases/download/v2.0.4/decrediton-windows-amd64-v2.0.4.exe
       is_direct_download: true
     - title: Downloads and release notes
       url: https://github.com/decred/decred-binaries/releases/tag/v2.0.4
@@ -70,11 +70,11 @@
   highlight: true
   links:
     - title: Download installer
-      url: https://github.com/decred/decred-release/releases/tag/v2.0.3
+      url: https://github.com/decred/decred-release/releases/tag/v2.0.4
     - title: Installer guide
       url: https://docs.decred.org/wallets/cli/cli-installation/
     - title: Release notes + standalone
-      url: https://github.com/decred/decred-binaries/releases/tag/v2.0.3
+      url: https://github.com/decred/decred-binaries/releases/tag/v2.0.4
 
 - id: trezor
   name: Trezor
