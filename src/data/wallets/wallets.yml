@@ -56,10 +56,10 @@
       url: https://play.google.com/store/apps/details?id=com.dreacotdigital.cryptopower.mainnet
       is_direct_download: true
     - title: APK
-      url: https://github.com/crypto-power/cryptopower/releases/download/v2.0.0/cryptopower-v2.0.0.apk
+      url: https://github.com/crypto-power/cryptopower/releases/download/v2.0.2/cryptopower-v2.0.2.apk
       is_direct_download: true
     - title: Downloads and release notes
-      url: https://github.com/crypto-power/cryptopower/releases/tag/v2.0.0
+      url: https://github.com/crypto-power/cryptopower/releases/tag/v2.0.2
     - title: Website
       url: https://cryptopower.dev
 
