@@ -1,4 +1,22 @@
 -
+  software: bison_relay
+  version: 0.2.2
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.2.2"
+  Params:
+    sortDate: "2024-09-19 18:48:00"
+-
+  software: cryptopower
+  version: 2.0.1
+  Permalink: "https://github.com/crypto-power/cryptopower/releases/tag/v2.0.1"
+  Params:
+    sortDate: "2024-09-19 02:42:00"
+-
+  software: cryptopower
+  version: 2.0.0
+  Permalink: "https://github.com/crypto-power/cryptopower/releases/tag/v2.0.0"
+  Params:
+    sortDate: "2024-09-18 02:42:00"
+-
   software: decred
   version: 2.0.4
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v2.0.4"
@@ -16,6 +34,12 @@
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v2.0.3"
   Params:
     sortDate: "2024-06-21 09:36:00"
+-
+  software: bison_relay
+  version: 0.2.1
+  Permalink: "https://github.com/companyzero/bisonrelay/releases/tag/v0.2.1"
+  Params:
+    sortDate: "2024-06-06 18:48:00"
 -
   software: decred
   version: 2.0.2
