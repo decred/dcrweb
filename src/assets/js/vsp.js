@@ -30,6 +30,10 @@ var drawTable = function(data) {
 			return;
 		}
 		
+		if (poolData["lastupdated"] === 0) {
+			return;
+		}
+		
 		var lastUpdated = poolData["lastupdated"] - now;
 		var lastUpdateFormatted = moment.duration(lastUpdated, "seconds").humanize(true);
 		if (lastUpdateFormatted.indexOf("years") > 0) {
