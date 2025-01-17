@@ -47,12 +47,6 @@
   name: OKX
   highlight: false
 -
-  url: "https://www.bitladon.com/"
-  tags:
-    - fiat
-  name: Bitladon
-  highlight: false
--
   url: "https://bitvavo.com/"
   tags:
     - fiat
