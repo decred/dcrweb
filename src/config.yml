@@ -64,3 +64,9 @@ languages:
         weight: 120
         params:
             languageDir: ltr
+    fa:
+        contentDir: content/fa
+        languageName: فارسی
+        weight: 140
+        params:
+            languageDir: rtl
