@@ -122,3 +122,12 @@
     - title: Trust Wallet
       url: https://trustwallet.com/
   highlight: false
+
+- id: cake
+  name: Cake Wallet
+  tags:
+    - third_party_wallets
+  links:
+    - title: Cake Wallet
+      url: https://cakewallet.com/
+  highlight: false
