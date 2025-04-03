@@ -27,13 +27,13 @@
 -
   url: "https://www.kaiserex.com/"
   tags:
-    - fiat
+    - "fiat"
   name: Kaiserex
   highlight: false
 -
   url: "https://swyftx.com/"
   tags:
-    - fiat
+    - "fiat"
   name: Swyftx
   highlight: false
 -
@@ -44,7 +44,7 @@
 -
   url: "https://bitvavo.com/"
   tags:
-    - fiat
+    - "fiat"
   name: Bitvavo
   highlight: false
 -
@@ -84,21 +84,21 @@
 -
   url: "https://dex.decred.org/"
   tags:
-    - high_liquidity
-    - decentralized
-    - atomic_swaps
+    - "high_liquidity"
+    - "decentralized"
+    - "atomic_swaps"
   name: "DCRDEX"
   super_highlight: true
 -
   url: "https://swapzone.io/exchange/btc/dcr"
   tags:
-    - instant_exchange
+    - "instant_exchange"
   name: "Swapzone"
   highlight: false
 -
   url: "https://wazirx.com/"
   tags:
-    - fiat
+    - "fiat"
   name: WazirX
   highlight: false
 -
@@ -137,6 +137,7 @@
 -
   url: "https://alchemypay.org/"
   tags:
-    - fiat
+    - "fiat"
+    - "instant_exchange"
   name: Alchemy Pay
   highlight: false
