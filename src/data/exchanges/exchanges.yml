@@ -138,3 +138,9 @@
   tags:
   name: MEXC
   highlight: false
+-
+  url: "https://exolix.com/currencies/dcr"
+  tags:
+    - "instant_exchange"
+  name: Exolix
+  highlight: false
