@@ -42,11 +42,6 @@
   name: CoinTree
   highlight: false
 -
-  url: "https://okx.com/"
-  tags:
-  name: OKX
-  highlight: false
--
   url: "https://bitvavo.com/"
   tags:
     - fiat
@@ -74,11 +69,6 @@
   tags:
     - "instant_exchange"
   name: StealthEX
-  highlight: false
--
-  url: "https://catalx.io/"
-  tags:
-  name: CatalX
   highlight: false
 -
  url: "https://flyp.me/"
@@ -124,9 +114,9 @@
   name: Trocador
   highlight: false
 -
-  url: "https://huobi.com/"
+  url: "https://htx.com/"
   tags:
-  name: Huobi
+  name: HTX
   highlight: false
 -
   url: "https://kucoin.com/"
@@ -143,4 +133,10 @@
   tags:
     - "instant_exchange"
   name: Exolix
+  highlight: false
+-
+  url: "https://alchemypay.org/"
+  tags:
+    - fiat
+  name: Alchemy Pay
   highlight: false
