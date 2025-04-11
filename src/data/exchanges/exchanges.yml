@@ -144,3 +144,9 @@
     - "instant_exchange"
   name: Exolix
   highlight: false
+-
+  url: "https://cyphergoat.com/"
+  tags:
+    - "instant_exchange"
+  name: CypherGoat
+  highlight: false
