@@ -135,7 +135,7 @@
   name: Exolix
   highlight: false
 -
-  url: "https://alchemypay.org/"
+  url: "https://ramp.alchemypay.org/?crypto=DCR"
   tags:
     - "fiat"
     - "instant_exchange"
