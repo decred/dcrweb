@@ -146,3 +146,10 @@
   tags:
   name: NonKYC
   highlight: false
+-
+  url: "https://guarda.com/"
+  tags:
+    - "fiat"
+    - "instant_exchange"
+  name: Guarda
+  highlight: false
