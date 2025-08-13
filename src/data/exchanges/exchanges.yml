@@ -141,3 +141,10 @@
     - "instant_exchange"
   name: Alchemy Pay
   highlight: false
+-
+  url: "https://guarda.com/"
+  tags:
+    - "fiat"
+    - "instant_exchange"
+  name: Guarda
+  highlight: false
