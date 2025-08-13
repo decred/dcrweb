@@ -27,13 +27,13 @@
 -
   url: "https://www.kaiserex.com/"
   tags:
-    - fiat
+    - "fiat"
   name: Kaiserex
   highlight: false
 -
   url: "https://swyftx.com/"
   tags:
-    - fiat
+    - "fiat"
   name: Swyftx
   highlight: false
 -
@@ -42,14 +42,9 @@
   name: CoinTree
   highlight: false
 -
-  url: "https://okx.com/"
-  tags:
-  name: OKX
-  highlight: false
--
   url: "https://bitvavo.com/"
   tags:
-    - fiat
+    - "fiat"
   name: Bitvavo
   highlight: false
 -
@@ -76,11 +71,6 @@
   name: StealthEX
   highlight: false
 -
-  url: "https://catalx.io/"
-  tags:
-  name: CatalX
-  highlight: false
--
  url: "https://flyp.me/"
  tags:
    - "instant_exchange"
@@ -94,21 +84,21 @@
 -
   url: "https://dex.decred.org/"
   tags:
-    - high_liquidity
-    - decentralized
-    - atomic_swaps
+    - "high_liquidity"
+    - "decentralized"
+    - "atomic_swaps"
   name: "DCRDEX"
   super_highlight: true
 -
   url: "https://swapzone.io/exchange/btc/dcr"
   tags:
-    - instant_exchange
+    - "instant_exchange"
   name: "Swapzone"
   highlight: false
 -
   url: "https://wazirx.com/"
   tags:
-    - fiat
+    - "fiat"
   name: WazirX
   highlight: false
 -
@@ -124,9 +114,9 @@
   name: Trocador
   highlight: false
 -
-  url: "https://huobi.com/"
+  url: "https://htx.com/"
   tags:
-  name: Huobi
+  name: HTX
   highlight: false
 -
   url: "https://kucoin.com/"
@@ -143,4 +133,11 @@
   tags:
     - "instant_exchange"
   name: Exolix
+  highlight: false
+-
+  url: "https://ramp.alchemypay.org/?crypto=DCR"
+  tags:
+    - "fiat"
+    - "instant_exchange"
+  name: Alchemy Pay
   highlight: false
