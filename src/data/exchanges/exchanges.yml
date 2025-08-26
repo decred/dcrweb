@@ -141,3 +141,8 @@
     - "instant_exchange"
   name: Alchemy Pay
   highlight: false
+-
+  url: "https://nonkyc.io/market/DCR_USDT"
+  tags:
+  name: NonKYC
+  highlight: false
