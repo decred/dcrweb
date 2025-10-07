@@ -25,21 +25,10 @@
   name: HolyTransaction
   highlight: false
 -
-  url: "https://www.kaiserex.com/"
-  tags:
-    - "fiat"
-  name: Kaiserex
-  highlight: false
--
   url: "https://swyftx.com/"
   tags:
     - "fiat"
   name: Swyftx
-  highlight: false
--
-  url: "https://www.cointree.com.au/"
-  tags:
-  name: CoinTree
   highlight: false
 -
   url: "https://bitvavo.com/"
@@ -96,12 +85,6 @@
   name: "Swapzone"
   highlight: false
 -
-  url: "https://wazirx.com/"
-  tags:
-    - "fiat"
-  name: WazirX
-  highlight: false
--
   url: "https://changenow.io/?from=btc&to=dcr"
   tags:
     - "instant_exchange"
@@ -112,11 +95,6 @@
   tags:
     - "instant_exchange"
   name: Trocador
-  highlight: false
--
-  url: "https://htx.com/"
-  tags:
-  name: HTX
   highlight: false
 -
   url: "https://kucoin.com/"
