@@ -35,9 +35,9 @@
   highlight: true
   links:
     - title: Downloads
-      url: https://github.com/decred/dcrdex/releases/tag/v1.0.3
+      url: https://github.com/decred/dcrdex/releases/tag/v1.0.4
     - title: Release notes
-      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-1.0.3.md
+      url: https://github.com/decred/dcrdex/blob/master/docs/release-notes/release-notes-1.0.4.md
     - title: Website
       url: https://bisonwallet.org/
     - title: Setup guide
