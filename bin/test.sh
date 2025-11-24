@@ -11,10 +11,16 @@ echo -n "Starting nu validator "
 # run nu-validator service
 docker stop validator 2>/dev/null
 
+# validator image pulled by the digest (immutable id) to avoid supply-chain attacks.
+# validator no longer does numbered releases, this is the latest as of November 2025.
+validator_version="sha256:bced7e1a07762be88a6514302c68c37dae98c60f62deb48db7b0a2ab91bb9041"
+
 docker run \
     -d --rm \
     --name validator \
-    -p 8888:8888 ghcr.io/validator/validator:23.4.11 || exit 1
+    -p 8888:8888 \
+    ghcr.io/validator/validator@$validator_version \
+    || exit 1
 
 # wait for the validator service to start up
 
