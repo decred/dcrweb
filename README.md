@@ -59,38 +59,10 @@ catalogs, please follow the naming scheme in the existing templates.
 
 ## Localization
 
-The below commands must be run when either the content changes or there are
-updates in the translations in Transifex.
-You'll first need to install the [Transifex client](https://docs.transifex.com/client/installing-the-client).
-
-#### Importing new translations and content updates
-
-When translations are added/updated in [Transifex](https://www.transifex.com/decred/public/),
-pull the updates:
-
-```sh
-./bin/transifex_pull.sh
-```
-
-When you run this for the first time, you'll be asked to log in with your
-Transifex username/password.
-
-To push the changes to staging:
-
-```sh
-git commit -m "Translation update"
-git push origin
-```
-
-#### Updating the message catalog
-
-When the master content changes in the HTML files, you'll need to regenerate
-the message catalog and push it to Transifex so that translators can update the
-localized message catalogs:
-
-```sh
-./bin/transifex_push.sh
-```
+Internationalization (i18n) files for translating dcrweb into languages other
+than English are in the [transifex_catalogs](./transifex_catalogs/)
+directory.
+A README in that directory explains how translation strings should be updated.
 
 ## License
 
