@@ -9,7 +9,7 @@ rm -rf src/public src/resources
 
 HUGO=hugo
 if [[ ! $(type -P  ${HUGO}) ]]; then
-    HUGO="go run -v -tags extended github.com/gohugoio/hugo@latest"
+    HUGO="go run -v -tags extended github.com/gohugoio/hugo@v0.152.2"
 fi
 
 ${HUGO} version
