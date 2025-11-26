@@ -1,10 +1,15 @@
 -
+  software: decred
+  version: 2.1.0
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v2.1.0"
+  Params:
+    sortDate: "2025-11-26 10:40:00"
+-
   software: bison_wallet
   version: 1.0.4
   Permalink: "https://github.com/decred/dcrdex/releases/tag/v1.0.4"
   Params:
     sortDate: "2025-11-06 21:34:00"
-
 -
   software: cryptopower
   version: 2.1.1
