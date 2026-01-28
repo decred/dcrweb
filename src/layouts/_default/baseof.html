@@ -42,6 +42,11 @@
         <meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=fi5jKKtbwv">
         <meta name="theme-color" content="#ffffff">
       
+        <!-- Link to RSS feed -->
+        {{ with .OutputFormats.Get "rss" }}
+          {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+        {{ end }}
+
     </head>
 
   <body id="top">
