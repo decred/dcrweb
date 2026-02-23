@@ -31,12 +31,6 @@
   name: Swyftx
   highlight: false
 -
-  url: "https://bitvavo.com/"
-  tags:
-    - "fiat"
-  name: Bitvavo
-  highlight: false
--
   url: "https://www.gate.io/"
   tags:
   name: "Gate.io"
