@@ -131,3 +131,8 @@
     - "instant_exchange"
   name: Guarda
   highlight: false
+-
+  url: "https://www.bitmart.com/trade/DCR_USDT"
+  tags:
+  name: BitMart
+  highlight: false
