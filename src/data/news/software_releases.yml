@@ -1,5 +1,11 @@
 -
   software: decred
+  version: 2.1.5
+  Permalink: "https://github.com/decred/decred-binaries/releases/tag/v2.1.5"
+  Params:
+    sortDate: "2026-04-10 10:40:00"
+-
+  software: decred
   version: 2.1.4
   Permalink: "https://github.com/decred/decred-binaries/releases/tag/v2.1.4"
   Params:
