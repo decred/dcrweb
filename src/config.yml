@@ -6,67 +6,61 @@ defaultContentLanguageInSubdir: false
 pluralizelisttitles: false
 
 # By default, hugo creates pages for the "category" and "tag" taxonomy. We don't
-# use these in dcrweb, so disableKinds will prevent them being created.
+# use these, so disableKinds will prevent them being created.
 disableKinds:
-- taxonomy
-- term
+  - taxonomy
+  - term
 
 params:
-    js_resources:
-        - "js/jquery.min.js"
-        - "js/jquery.dataTables.min.js"
-        - "js/bootstrap.bundle-5.0.2.min.js"
-        - "js/moment.min.js"
-        - "js/platform.min.js"
-        - "js/main.js"
-        - "js/vsp.js"
+  js_resources:
+    - "js/main.js"
 
-languages: 
-    en:
-        contentDir: content/en
-        languageName: ENG
-        weight: 10
-        params:
-            languageDir: ltr
-    zh:
-        contentDir: content/zh
-        languageName: 中文
-        weight: 20
-        params:
-            languageDir: ltr
-    pt:
-        contentDir: content/pt
-        languageName: "PT"
-        weight: 50
-        params:
-            languageDir: ltr
-    ar:
-        contentDir: content/ar
-        languageName: العَرَبِيَّة
-        weight: 90
-        params:
-            languageDir: rtl
-    es:
-        contentDir: content/es
-        languageName: SPA
-        weight: 100
-        params:
-            languageDir: ltr
-    de:
-        contentDir: content/de
-        languageName: GER
-        weight: 110
-        params:
-            languageDir: ltr
-    pl:
-        contentDir: content/pl
-        languageName: POL
-        weight: 120
-        params:
-            languageDir: ltr
-    fa:
-        contentDir: content/fa
-        languageName: فارسی
-        weight: 140
-        params:
-            languageDir: rtl
+languages:
+  en:
+    contentDir: content/en
+    languageName: ENG
+    weight: 10
+    params:
+      languageDir: ltr
+  zh:
+    contentDir: content/zh
+    languageName: 中文
+    weight: 20
+    params:
+      languageDir: ltr
+  pt:
+    contentDir: content/pt
+    languageName: "PT"
+    weight: 50
+    params:
+      languageDir: ltr
+  ar:
+    contentDir: content/ar
+    languageName: العَرَبِيَّة
+    weight: 90
+    params:
+      languageDir: rtl
+  es:
+    contentDir: content/es
+    languageName: SPA
+    weight: 100
+    params:
+      languageDir: ltr
+  de:
+    contentDir: content/de
+    languageName: GER
+    weight: 110
+    params:
+      languageDir: ltr
+  pl:
+    contentDir: content/pl
+    languageName: POL
+    weight: 120
+    params:
+      languageDir: ltr
+  fa:
+    contentDir: content/fa
+    languageName: فارسی
+    weight: 140
+    params:
+      languageDir: rtl

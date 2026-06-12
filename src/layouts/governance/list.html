@@ -1,0 +1,133 @@
+{{ define "page-title" }}{{ T "title" }} - {{ T "menuitem3" | safeHTML }}{{ end }}
+
+{{ define "main" }}
+<div class="governancebanner">
+    <div class="container mx-auto flex justify-center items-end pt-[84px] px-4">
+        <div class="box">
+          <div class="relative z-10">
+            <div class="mb-3"><img src="{{ "/images/governancebannerstar.png" | relURL }}" alt="star" class="mx-auto" /></div>
+            <h3 class="text-2xl xl:text-4xl text-gray-200 mb-4">{{ T "govbanner1" | safeHTML }}</h3>
+            <h1 class="text-4xl xl:text-7xl text-gray-200 mb-4">{{ T "govbanner2" | safeHTML }}</h1>
+            <h4 class="text-2xl xl:text-4xl text-gray-200">{{ T "govbanner3" | safeHTML }}</h4>
+          </div>
+        </div>
+    </div>
+</div>
+<!-- banner end -->
+<div class="px-4">
+  <!-- sec 2 -->
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mx-auto text-center text-2xl text-[var(--brand-200)] px-4 mb-16 lg:mb-9">
+        <div class="block font-bold">{{ T "govsec2toptext1" | safeHTML }}</div>
+        <span>{{ T "govsec2toptext2" | safeHTML }}</span>
+    </div>
+    <div dir="ltr" class="flex flex-col lg:flex-row flex-wrap justify-between ">
+      <div class="rulesbox">
+        <div class="w-64 h-64 flex items-center justify-center mx-auto mb-14"><img src="{{ "/images/onchain.png" | relURL }}" alt="On Chain" /></div>
+        <h3 class="text-3xl text-gray-200 mb-5">{{ T "govsec2subtitle1" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] leading-snug">{{ T "govsec2text1" | safeHTML }}</p>
+      </div>
+      <div class="rulesbox">
+        <div class="w-64 h-64 flex items-center justify-center mx-auto mb-14"><img src="{{ "/images/holderled.png" | relURL }}" alt="Holder‑led" /></div>
+        <h3 class="text-3xl text-gray-200 mb-5">{{ T "govsec2subtitle2" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] leading-snug">{{ T "govsec2text2" | safeHTML }}</p>
+      </div>
+      <div class="rulesbox">
+        <div class="w-64 h-64 flex items-center justify-center mx-auto mb-14"><img src="{{ "/images/transparentfunding.png" | relURL }}" alt="On Chain" /></div>
+        <h3 class="text-3xl text-gray-200 mb-5">{{ T "govsec2subtitle3" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] leading-snug">{{ T "govsec2text3" | safeHTML }}</p>
+      </div>
+    </div>
+  </div>
+  <!-- sec 2 end -->
+  <div class="governancecontent">
+    <div  class="max-w-7xl mx-auto py-24">
+        <h2 class="text-3xl lg:text-5xl text-gray-200 text-center mb-5">{{ T "govsec3title" | safeHTML }}</h2>
+        <p class="max-w-xs mx-auto text-[var(--brand-200)] leading-snug text-center">{{ T "govsec3text" | safeHTML }}</p>
+        <div dir="ltr" class="flex flex-col lg:flex-row flex-wrap justify-between ">
+          <div class="votingbox">
+            <h1 class="text-3xl text-gray-200 mb-5">{{ T "govsec3subtitle1" | safeHTML }}</h1>
+            <p class="text-[var(--brand-200)] leading-snug">{{ T "govsec3text1" | safeHTML }}</p>
+          </div>
+          <div class="votingbox">
+            <h1 class="text-3xl text-gray-200 mb-5">{{ T "govsec3subtitle2" | safeHTML }}</h1>
+            <p class="text-[var(--brand-200)] leading-snug mb-10">{{ T "govsec3text2" | safeHTML }}</p>
+            <ul>
+              <li>{{ T "govsec3subtext1" | safeHTML }}</li>
+              <li>{{ T "govsec3subtext2" | safeHTML }}</li>
+            </ul>
+          </div>
+          <div class="votingbox">
+            <h1 class="text-3xl text-gray-200 mb-5">{{ T "govsec3subtitle3" | safeHTML }}</h1>
+            <p class="text-[var(--brand-200)] leading-snug">{{ T "govsec3text3" | safeHTML }}</p>
+          </div>
+        </div>
+        <h3 class="text-2xl lg:text-3xl text-gray-200 text-center my-5">{{ T "govsec3subtitle4" | safeHTML }}</h3>
+        <a href="https://docs.decred.org/proof-of-stake/how-to-stake/" target="_blank" rel="noopener noreferrer" class="w-72 h-9 rounded-lg mx-auto block text-center dm-serif-text-regular text-2xl text-[var(--brand-300)] border border-[var(--brand-600)] hover:bg-[var(--brand-600)] hover:text-[var(--brand-100)] mb-6">{{ T "govsec3link1" | safeHTML }}</a>
+        <a href="https://proposals.decred.org/" target="_blank" rel="noopener noreferrer" class="w-72 h-9 rounded-lg mx-auto block text-center dm-serif-text-regular text-2xl text-[var(--brand-300)] border border-[var(--brand-600)] hover:bg-[var(--brand-600)] hover:text-[var(--brand-100)]">{{ T "govsec3link2" | safeHTML }}</a>
+    </div>
+    <!-- sec 3 end -->
+    <div class="stackcontentcover flex">
+      <div class="w-full mx-auto stackcontentinner">
+        <h2 class="text-3xl lg:text-5xl text-gray-200 text-center mb-10">{{ T "govsec4title" | safeHTML }}</h2>
+        <div dir="ltr" class="boxcover text-[var(--brand-200)] leading-snug text-center flex flex-col justify-between">
+          <div class="w-40 mx-auto text-sm lg:text-lg">{{ T "govsec4text1" | safeHTML }}</div>
+          <div class="flex justify-between text-left">
+            <div class="w-28 sm:w-36 text-sm lg:text-lg">{{ T "govsec4text2" | safeHTML }}</div>
+            <div class="w-28 sm:w-44 text-sm lg:text-lg">{{ T "govsec4text3" | safeHTML }}</div>
+          </div>
+          <div class="max-w-xs mx-auto text-2xl">{{ T "govsec4text4" | safeHTML }}</div>
+        </div>
+      </div>
+    </div>
+    <!-- sec 4 end -->
+  </div>
+  <!-- governancecontent end -->
+  <div class="builderscover flex flex-col items-center justify-center">
+    <h2 class="max-w-sm text-3xl lg:text-5xl text-gray-200 text-center mb-5 sm:mb-36">{{ T "govsec5title" | safeHTML }}</h2>
+    <h3 class="max-w-xs text-xl lg:text-3xl text-[var(--brand-200)] text-center mb-5 sm:mb-11">{{ T "govsec5subtitle" | safeHTML }}</h3>
+    <p class="max-w-xs text-base lg:text-2xl font-semibold text-[var(--brand-200)] text-center">{{ T "govsec5text" | safeHTML }}</p>
+    <a href="https://proposals.decred.org/" target="_blank" rel="noopener noreferrer" class="absolute bottom-0 w-72 h-9 rounded-lg mx-auto block text-center dm-serif-text-regular text-2xl text-[var(--brand-300)] border border-[var(--brand-600)] mb-6 hover:bg-[var(--brand-600)] hover:text-[var(--brand-100)]">{{ T "govsec5link" | safeHTML }}</a>
+  </div>
+  <!-- sec 5 end -->
+  <div class="max-w-7xl mx-auto py-14 lg:py-24">
+    <h2 class="text-3xl lg:text-5xl text-gray-200 text-center mb-10">{{ T "govsec6title" | safeHTML }}</h2>
+    <div dir="ltr" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 xl:gap-20">
+      <div>
+        <p class="font-bold text-[var(--brand-200)] leading-none mb-5">{{ T "govsec6que1" | safeHTML }}</p>
+        <p class="leading-snug text-[var(--brand-200)]">{{ T "govsec6ans1" | safeHTML }}</p>
+      </div>
+      <div>
+        <p class="font-bold text-[var(--brand-200)] leading-none mb-5">{{ T "govsec6que2" | safeHTML }}</p>
+        <p class="leading-snug text-[var(--brand-200)]">{{ T "govsec6ans2" | safeHTML }}</p>
+      </div>
+      <div>
+        <p class="font-bold text-[var(--brand-200)] leading-none mb-5">{{ T "govsec6que3" | safeHTML }}</p>
+        <p class="leading-snug text-[var(--brand-200)]">{{ T "govsec6ans3" | safeHTML }}</p>
+      </div>
+      <div>
+        <p class="font-bold text-[var(--brand-200)] leading-none mb-5">{{ T "govsec6que4" | safeHTML }}</p>
+        <p class="leading-snug text-[var(--brand-200)]">{{ T "govsec6ans4" | safeHTML }}</p>
+      </div>
+    </div>
+  </div>
+  <!-- sec 6 end -->
+</div>
+<!-- px-4 end -->
+<div class="momentumbg px-4 py-14 lg:py-24 flex items-center">
+  <div class="w-full max-w-7xl mx-auto box">
+    <div dir="ltr" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center gap-10 sm:gap-0">
+      <div class="lg:col-start-2 text-center">
+          <h3 class="text-2xl lg:text-4xl text-gray-200 mb-5 lg:mb-10">{{ T "govsec7subtitle" | safeHTML }}</h3>
+          <h2 class="text-4xl lg:text-7xl text-gray-200 mb-8 lg:mb-24">{{ T "govsec7title" | safeHTML }}</h2>
+          <p class="max-w-sm mx-auto text-2xl font-semibold text-[var(--brand-200)]">{{ T "govsec7text" | safeHTML }}</p>
+      </div>
+      <div>
+        <a href="https://docs.decred.org/proof-of-stake/how-to-stake/" target="_blank" rel="noopener noreferrer" class="w-72 h-9 rounded-lg mx-auto block text-center dm-serif-text-regular text-2xl text-[var(--brand-300)] border border-[var(--brand-600)] mb-6 hover:bg-[var(--brand-600)] hover:text-[var(--brand-100)]">{{ T "govsec7link1" | safeHTML }}</a>
+        <a href="https://proposals.decred.org/" target="_blank" rel="noopener noreferrer" class="w-72 h-9 rounded-lg mx-auto block text-center dm-serif-text-regular text-2xl text-[var(--brand-300)] border border-[var(--brand-600)] hover:bg-[var(--brand-600)] hover:text-[var(--brand-100)]">{{ T "govsec7link2" | safeHTML }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- sec 7 end -->
+{{ end }}

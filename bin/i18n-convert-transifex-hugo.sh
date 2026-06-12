@@ -19,4 +19,3 @@ for i in transifex_catalogs/*.json; do
     rm -rf src/content/$lang
     cp -r src/content/en src/content/$lang
 done
-

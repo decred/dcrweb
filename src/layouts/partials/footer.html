@@ -1,42 +1,35 @@
-<footer class="g-0">
-    <div class="container">
-        <div class="row flex-column-reverse flex-xl-row">
-            
-            <div class="col-12 col-xl-3 d-none d-xl-block">
-                <div>
-                    <a href="https://github.com/decred" target="_blank" rel="noopener noreferrer">{{ T "general_copyright" }}</a>
-                </div>
-            </div>
-            
-            <div class="col-12 col-xl-3">
-                <div class="d-flex flex-row flex-wrap flex-xl-column align-items-start">
-                    <a class="footer-link" href="{{ "/brand/" | relLangURL }}">{{ T "nav_brand_resources" }}</a>
-                    <a class="footer-link" href="{{ "/news/"  | relLangURL }}">{{ T "nav_news" }}</a>
-                    <a class="footer-link" href="{{ "/vsp/"   | relLangURL }}">{{ T "nav_vsp" }}</a>
-                    <a class="footer-link" href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">{{ T "nav_become_contributor" }}</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-xl-3">
-                <div class="d-flex flex-row flex-wrap flex-xl-column align-items-start">
-                    <a class="footer-link" href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer">{{ T "nav_tech_overview" }}</a>
-                    <a class="footer-link" href="https://dcrdata.decred.org/"                target="_blank" rel="noopener noreferrer">{{ T "nav_dcrdata" }}</a>
-                    <a class="footer-link" href="https://timestamp.decred.org"               target="_blank" rel="noopener noreferrer">{{ T "nav_time" }}</a>
-                    <a class="footer-link" href="https://bounty.decred.org"                  target="_blank" rel="noopener noreferrer">{{ T "nav_bugbounty" }}</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-xl-3">
-                <div class="d-flex flex-row flex-wrap align-items-start justify-content-between justify-content-xl-start pt-4 pt-md-0">
-                    {{ range where $.Site.Data.community.channels "footer" true }}
-                        <a href="{{ .url }}" class="social-icon d-inline-block {{ .id }}" target="_blank" rel="noopener noreferrer"></a>
-                    {{ end }}
-                    {{ range where $.Site.Data.community.publications "footer" true }}
-                        <a href="{{ .url }}" class="social-icon d-inline-block {{ .id }}" target="_blank" rel="noopener noreferrer"></a>
-                    {{ end }}
-                </div>
-            </div>
-
-        </div>
+<!--footer-start-->
+<footer class="page-footer relative px-4">
+  <div class="max-w-7xl mx-auto p-px bg-[linear-gradient(to_bottom,transparent_60%,#2970FF_100%)] rounded-[45px] ">
+    <div class="bg-[var(--brand-700)] footerbg rounded-[45px] p-6 xl:px-28 pt-28 pb-20 relative">
+      <div class="flex flex-col sm:flex-row gap-10 sm:gap-0 text-center leading-loose">
+          <ul class="flex-1 footerlink">
+            <li><a href="https://github.com/decred" target="_blank" rel="noopener noreferrer">{{ T "footerlink1" | safeHTML }}</a></li>
+            <li><a href="https://decred.org/brand/" target="_blank" rel="noopener noreferrer">{{ T "footerlink2" | safeHTML }}</a></li>
+            <li><a href="https://decred.org/news/" target="_blank" rel="noopener noreferrer">{{ T "footerlink3" | safeHTML }}</a></li>
+          </ul>
+          <ul class="flex-1 footerlink">
+            <li><a href="https://decred.org/vsp/" target="_blank" rel="noopener noreferrer">{{ T "footerlink4" | safeHTML }}</a></li>
+            <li><a href="https://docs.decred.org/contributing/overview/" target="_blank" rel="noopener noreferrer">{{ T "footerlink5" | safeHTML }}</a></li>
+            <li><a href="https://docs.decred.org/research/overview/" target="_blank" rel="noopener noreferrer">{{ T "footerlink6" | safeHTML }}</a></li>
+          </ul>
+          <ul class="flex-1 footerlink">
+            <li><a href="https://dcrdata.decred.org/" target="_blank" rel="noopener noreferrer">{{ T "footerlink7" | safeHTML }}</a></li>
+            <li><a href="https://timestamp.decred.org/" target="_blank" rel="noopener noreferrer">{{ T "footerlink8" | safeHTML }}</a></li>
+            <li><a href="https://bounty.decred.org/" target="_blank" rel="noopener noreferrer">{{ T "footerlink9" | safeHTML }}</a></li>
+          </ul>
+      </div>
+      <div class="absolute left-1/2 -translate-x-1/2 -bottom-14"><img src="{{ "/images/footerlogo.png" | relURL }}" class="decred" /></div>
     </div>
+  </div>
+  <div class="flex justify-center py-20 gap-6 sm:gap-16">
+    <a href="https://www.youtube.com/@DecredTV" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/youtube-icon.png" | relURL }}" alt="You Tube" /></a>
+    <a href="https://discord.gg/dXSmwvYury" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/discord-icon.png" | relURL }}" alt="Discord" /></a>
+    <a href="https://bisonrelay.org/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/bluesky-icon.png" | relURL }}" alt="Blue Sky" /></a>
+    <a href="https://x.com/decredproject" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/Twitter-icon.png" | relURL }}" alt="X" /></a>
+    <a href="https://reddit.com/r/decred" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/reddit-icon.png" | relURL }}" alt="reddit" /></a>
+    <a href="https://chat.decred.org/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/moneycontrol-icon.png" | relURL }}" alt="moneycontrol" /></a>
+    <a href="https://medium.com/decred" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/me-icon.png" | relURL }}" alt="Me" /></a>
+  </div>
 </footer>
+<!--footer-end-->

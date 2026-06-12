@@ -1,0 +1,25 @@
+<div class="self-end ml-8 mr-8 lg:mr-0">
+  <div class="relative w-32">
+    <div
+      id="selectedLang"
+      class="selectlangbg w-full lg:min-h-[36px] bg-[transparent] font-semibold text-base text-[var(--brand-500)] text-brand-400 rounded-lg lg:rounded-full border-b border-[var(--brand-500)] py-2 lg:py-4 px-4 focus:outline-none cursor-pointer"
+    >
+      {{ .Site.Language.LanguageName }}
+    </div>
+
+    <ul
+      id="langList"
+      class="hidden absolute w-full bg-[var(--brand-700)] border border-white/20 rounded mt-1 text-sm shadow"
+    >
+      {{ range $.Site.Home.AllTranslations }}
+      <li
+        data-value="{{ .Lang }}"
+        data-href="{{ .RelPermalink }}"
+        class="px-3 py-1 hover:bg-white/5 cursor-pointer{{ if eq .Language.LanguageName $.Site.Language.LanguageName }} hidden{{ end }}"
+      >
+        {{ .Language.LanguageName }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<header class="relative z-10">
+  <nav class="container mx-auto px-4 flex justify-between">
+    <!-- Logo -->
+    <a href="{{ .Site.BaseURL | relLangURL }}" class="logo">
+      <img src="{{ "/images/logo.png" | relURL }}" alt="Decred" />
+    </a>
+
+    <!-- Desktop Navigation -->
+    <div class="flex ml-auto lg:ml-0">
+      <ul class="mainmenu lg:flex gap-6 xl:gap-20 px-10 xl:px-20 font-semibold text-base items-end text-white border-b border-[var(--brand-500)] rounded-full">
+        <li{{ if eq .Section "wallets" }} class="active"{{ end }}><a href="{{ "/wallets/" | relLangURL }}" class="pb-5 block transition">{{ T "menuitem1" | safeHTML }}</a></li>
+        <li{{ if eq .Section "exchanges" }} class="active"{{ end }}><a href="{{ "/exchanges/" | relLangURL }}" class="pb-5 block transition">{{ T "menuitem2" | safeHTML }}</a></li>
+        <li{{ if eq .Section "governance" }} class="active"{{ end }}><a href="{{ "/governance/" | relLangURL }}" class="pb-5 block transition">{{ T "menuitem3" | safeHTML }}</a></li>
+        <li><a href="https://dcrdata.decred.org" target="_blank" rel="noopener noreferrer" class="pb-5 block transition">{{ T "menuitem4" | safeHTML }}</a></li>
+        <li><a href="https://docs.decred.org" target="_blank" rel="noopener noreferrer" class="pb-5 block transition">{{ T "menuitem5" | safeHTML }}</a></li>
+      </ul>
+      {{ partial "language-switcher.html" . }}
+    </div>
+
+    <!-- Mobile Menu Button (Hamburger) -->
+    <button id="menuBtn" class="lg:hidden pt-5 lg:pt-9 rounded-md focus:outline-none">
+      <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+  </nav>
+</header>

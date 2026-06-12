@@ -4,13 +4,13 @@
 set -e
 
 echo ""
-echo "================================="
-echo "  Building dcrweb docker image   "
-echo "================================="
+echo "==================================="
+echo "  Building decred docker image     "
+echo "==================================="
 echo ""
 
 
-IMAGE_NAME=decred/dcrweb
+IMAGE_NAME=decred/decred-web
 
 if [ "$1" != "" ]; then
     IMAGE_NAME=$1
@@ -23,6 +23,6 @@ echo "==================="
 echo "  Build complete"
 echo "==================="
 echo ""
-echo "You can now run dcrweb with the following command:"
+echo "You can now run the site with the following command:"
 echo "    docker run -d --rm -p <local port>:80 $IMAGE_NAME:latest"
 echo ""

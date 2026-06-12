@@ -7,7 +7,6 @@ ENV HUGO_VERSION="0.152.2"
 
 LABEL description="gohugo build"
 LABEL version="1.0"
-LABEL maintainer="peter@froggle.org"
 
 WORKDIR /tmp
 
@@ -23,15 +22,11 @@ COPY ./ /root/
 RUN bin/build-hugo.sh
 
 # Serve image (stable nginx version)
-# This cannot use Alpine because test/Dockerfile builds on this image and
-# expects it to have apt-get.
 FROM nginx:1.28
 
-LABEL description="dcrweb server"
+LABEL description="decred web server"
 LABEL version="1.0"
-LABEL maintainer="peter@froggle.org"
 
 COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
 
-# /usr/share/nginx/html is also hardcoded in test/run-test.sh
 COPY --from=0 /root/src/public/ /usr/share/nginx/html

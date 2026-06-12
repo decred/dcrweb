@@ -1,74 +1,38 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
+<head>
+<title>{{ block "page-title" . }}{{ T "title" }}{{ end }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" href="{{ "/images/favicon.ico?v=yHh3NA" | relURL }}">
+<!-- Load Tailwind (local, as requested) -->
+{{ $tailwind := resources.Get "js/tailwind-3.4.17.js" }}
+<script src="{{ $tailwind.RelPermalink }}"></script>
+<!--custom-css-->
+{{ $scssOptions := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $style := resources.Get "scss/style.scss" | css.Sass $scssOptions | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<meta charset="UTF-8">
+</head>
+<body>
+<div class="wrapper">
+  {{ partial "header.html" . }}
+  <!-- header end -->
 
-    <head>
-        <meta charset="utf-8">
+  <div class="main">
+    {{ block "main" . }}{{ end }}
+  </div>
+  <!-- Main end -->
 
-        <title>{{ block "page-title" . }}{{ end }}</title>
-        <meta property="og:title"      content="{{ block "page-title" . }}{{ end }}">
-        <meta property="twitter:title" content="{{ block "page-title" . }}{{ end }}">
+  {{ partial "footer.html" . }}
+</div>
+<!-- wrapper end -->
 
-        <meta name="description"         content='{{ T "description" }}'>
-        <meta name="viewport"            content="width=device-width, initial-scale=1">
+{{ $jsFiles := slice }}
+{{ range $.Site.Params.js_resources }}
+    {{ $jsFiles = $jsFiles | append ( resources.Get . ) }}
+{{ end }}
+{{ $js := $jsFiles | resources.Concat "js/main.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-        <meta property="og:type"         content="website" />
-        <meta property="og:url"          content="https://decred.org/" />
-        <meta property="og:image"        content="https://decred.org/og-logo.png"/>
-        <meta property="og:description"  content="{{ T "description" }}" />
-        
-        <meta name="twitter:card"        content="summary_large_image"/>
-        <meta name="twitter:image"       content="https://decred.org/og-logo.png"/>
-        <meta name="twitter:description" content="{{ T "description" }}"/>
-      
-        <link href="/images/32.png" rel="shortcut icon" type="image/x-icon">
-        <link href="/images/256.png" rel="apple-touch-icon">
-      
-        <!-- Compile and load scss. -->
-        {{ $scssOptions := (dict "targetPath" "decred-v6.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-        {{ $v6Style := resources.Get "scss/decred-v6.scss" | css.Sass $scssOptions | resources.Fingerprint }}
-        <link rel="stylesheet" href="{{ $v6Style.Permalink }}" integrity="{{ $v6Style.Data.Integrity }}">
-
-        <!--  Custom favicon  -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png?v=yHh3NA">
-        <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png?v=yHh3NA" sizes="32x32">
-        <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png?v=yHh3NA" sizes="16x16">
-        <link rel="manifest" href="/images/favicon/manifest.json?v=yHh3NA">
-        <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg?v=yHh3NA" color="#2973ff">
-        <link rel="shortcut icon" href="/images/favicon/favicon.ico?v=yHh3NA">
-        <meta name="apple-mobile-web-app-title" content="Decred — Money Evolved">
-        <meta name="application-name" content="Decred — Money Evolved">
-        <meta name="msapplication-TileColor" content="#2973ff">
-        <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png?v=fi5jKKtbwv">
-        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml?v=fi5jKKtbwv">
-        <meta name="theme-color" content="#ffffff">
-      
-        <!-- Link to RSS feed -->
-        {{ with .OutputFormats.Get "rss" }}
-          {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
-        {{ end }}
-
-    </head>
-
-  <body id="top">
-
-    {{ partial "navbar.html" . }}
-    
-    <div class="navbar-margin">
-      {{ block "fronta" . }}
-      {{ end }}
-  
-      {{ block "main" . }}{{ end }}
-      
-      {{ partial "footer.html" . }}
-      
-      {{ $jsFiles := slice }}
-      {{ range $.Site.Params.js_resources }}
-          {{ $jsFiles = $jsFiles | append ( resources.Get . ) }}
-      {{ end }}
-      {{ $js := $jsFiles | resources.Concat "main.js" | resources.Minify | resources.Fingerprint "sha512" }}
-    </div>
-
-    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-
-  </body>
+</body>
 </html>

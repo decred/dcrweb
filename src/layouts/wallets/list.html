@@ -1,112 +1,123 @@
-{{ define "page-title" }}
-   Decred — {{ T "nav_downloads" }}
-{{ end }}
-
-{{ define "fronta" }}
-<div class="subpage-fronta">
-    <div class="gradient1"></div>
-    <div class="wallet-header"></div>
-    <div class="gradient2"></div>
-</div>
-{{ end }}
+{{ define "page-title" }}{{ T "title" }} - {{ T "menuitem1" | safeHTML }}{{ end }}
 
 {{ define "main" }}
-
-{{ $wallets := .Site.Data.wallets.wallets }}
-{{ $tags    := .Site.Data.wallets.tags }}
-
-<div class="subpage-padding body-gradient g-0">
-    <div class="container">
-        
-        <!-- Invisible radio buttons used for filtering -->
-        {{ range $index, $tag := $tags }}
-            <input class="d-none" type="radio" id="{{ $tag }}" name="toggler"  {{ if eq $index 0 }}checked{{end}}/>
-        {{ end }}
-
-        <div class="subpage-header">
-            <div class="subpage-title">{{ T "wallets_title" }}</div>
-
-            <div class="filter-buttons">
-                {{ range $tag := $tags }}
-                    {{ $msg_id := print "downloads_category_" $tag }}
-                    <div class="message {{ $tag }}">{{ T $msg_id  }}</div>
-                {{ end }}
-    
-                {{ range $tag := $tags }}
-                    <label class="filter-button {{ $tag }}" for="{{ $tag }}"></label>
-                {{ end }}
+<div class="walletbanner">
+    <div dir="ltr" class="container mx-auto flex flex-wrap items-center pt-56 sm:pt-[84px] px-4">
+        <div class="w-full lg:w-2/3">
+            <div class="box flex flex-col items-center justify-center">
+                <h3 class="uppercase">{{ T "walletbanner1" | safeHTML }}</h3>
+                <h1 class="uppercase">{{ T "walletbanner2" | safeHTML }}</h1>
+                <div class="my-10 w-32 sm:w-auto"><img src="{{ "/images/walletsbannericon.png" | relURL }}" alt="" /></div>
+                <div class="dm-serif-text-regular text-center text-[var(--brand-200)] text-3xl xl:text-5xl">
+                  <span class="text-xl xl:text-3xl block mb-3 xl:mb-6">{{ T "walletbanner3" | safeHTML }}</span> <span>{{ T "walletbanner4" | safeHTML }}</span></div>
             </div>
         </div>
-
-
-        <!-- Highlighted downloads -->
-        <div class="wallet-cards row g-3 highlight">
-            {{ range where $wallets "highlight" true }}
-                <div class="g-3 col-12 col-md-4 col-xl-3">
-                    
-                    <div class="wallet-card highlight {{ range .tags }} {{.}} {{end}}">
-                        <div class="wallet-card-title">{{ .name }}</div>
-                        {{ $msg_id := print "downloads_app_" .id }}
-                        <div class="wallet-card-description">{{ T $msg_id }}</div>
-                        <div class="wallet-card-links">
-                            <div>
-                                {{ range where .links "is_direct_download" "!=" true }}
-                                <div class="wallet-link">
-                                    <a href="{{ .url }}">{{ .title }}</a>
-                                </div>
-                                {{ end }}
-                            </div>
-                            <div>
-                                {{ range where .links "is_direct_download" true }}
-                                <div class="wallet-link direct-dl">
-                                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}">{{ .title }}<span class="dl-arrow">↓</span></a>
-                                </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            {{ end }}
-        </div>
-
-        <!-- All others -->
-        <div class="wallet-cards row g-3">
-            {{ range where $wallets "highlight" false }}
-                <div class="g-3 col-12 col-md-4 col-xl-3">
-
-                    <div class="wallet-card {{ range .tags }} {{.}} {{end}}">
-                        <div class="wallet-card-title">{{ .name }}</div>
-                        {{ $msg_id := print "downloads_app_" .id }}
-                        <div class="wallet-card-description">{{ T $msg_id }}</div>
-                        <div class="wallet-card-links">
-                            <div>
-                                {{ range where .links "is_direct_download" "!=" true }}
-                                <div class="wallet-link">
-                                    <a href="{{ .url }}">{{ .title }}</a>
-                                </div>
-                                {{ end }}
-                            </div>
-                            <div>
-                                {{ range where .links "is_direct_download" true }}
-                                <div class="wallet-link direct-dl">
-                                    <a target="_blank" rel="noopener noreferrer" href="{{ .url }}">{{ .title }}<span class="dl-arrow">↓</span></a>
-                                </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            {{ end }}
-        </div>
-        
-        <div class="warning">
-            <span class="orange">{{ T "warning" }}:</span>
-            {{ safeHTML (T "downloads_description")  }}
-        </div>
-            
     </div>
 </div>
-
-{{end}}
+<!-- banner end -->
+<div dir="ltr" class="flex border-b border-[var(--brand-500)] rounded-full mx-auto px-8 py-3 w-max text-2xl text-[var(--brand-300)] dm-serif-text-regular relative z-10">
+    <span>{{ T "walletbanner5" | safeHTML }}</span>
+    <img src="{{ "/images/step1.png" | relURL }}" alt="Step1" class="ml-4" />
+</div>
+<!-- sticky progress end -->
+<!-- sec 2 -->
+<div class="topcurvesection">
+    <div class="max-w-7xl mx-auto text-center relative z-10">
+      <h2 class="text-4xl lg:text-5xl mb-9 text-gray-200"><span class="dot"></span><span>{{ T "walletsec2title" | safeHTML }}</span></h2>
+      <div class="mb-10"><img src="{{ "/images/coresoftwarelogo.png" | relURL }}" alt="Core Software" class="block mx-auto" /></div>
+      <div dir="ltr" class="grid grid-cols-1 md:grid-cols-3 text-left gap-8">
+        <div class="lg:w-64">
+            <h3 class="text-2xl lg:text-3xl text-gray-200 mb-12 title relative"><span class="w-64">{{ T "walletsec2toptext" | safeHTML }}</span>
+            <strong>{{ T "walletsec2subtitle1" | safeHTML }}</strong> <img src="{{ "/images/starpip.png" | relURL }}" alt="star" class="absolute top-2 -left-10" /></h3>
+            <p class="text-[var(--brand-200)] leading-tight">{{ T "walletsec2text1" | safeHTML }}</p>
+            <div class="flex justify-start py-12 gap-6 sm:gap-10">
+              <a href="https://github.com/decred/decred-binaries/releases/download/v2.1.5/decrediton-windows-amd64-v2.1.5.exe" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/windows-icon.png" | relURL }}" alt="Windows" /></a>
+              <a href="https://github.com/decred/decred-binaries/releases/download/v2.1.5/decrediton-darwin-arm64-v2.1.5.dmg" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/macos-icon.png" | relURL }}" alt="MacOS" /></a>
+              <a href="https://github.com/decred/decred-binaries/releases/download/v2.1.5/decrediton-linux-amd64-v2.1.5.AppImage" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/linux-icon.png" | relURL }}" alt="Linux" /></a>
+            </div>
+        </div>
+        <div class="lg:w-64">
+          <h3 class="text-2xl lg:text-3xl text-gray-200 mb-12">{{ T "walletsec2subtitle2" | safeHTML }}</h3>
+          <p class="text-[var(--brand-200)] leading-tight">{{ T "walletsec2text2" | safeHTML }}</p>
+          <div class="flex justify-start py-12 gap-6 sm:gap-10">
+            <a href="https://github.com/decred/dcrdex/releases/download/v1.0.4/bisonw-desktop-windows-amd64-v1.0.4.msi" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/windows-icon.png" | relURL }}" alt="Windows" /></a>
+            <a href="https://github.com/decred/dcrdex/releases/download/v1.0.4/bisonw-desktop-darwin-arm64-v1.0.4.dmg" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/macos-icon.png" | relURL }}" alt="MacOS" /></a>
+            <a href="https://github.com/decred/dcrdex/releases/download/v1.0.4/bisonw-desktop-linux-amd64-v1.0.4.deb" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/linux-icon.png" | relURL }}" alt="Linux" /></a>
+            <a href="https://bisonwallet.org/#download" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/bsdos-icon.png" | relURL }}" alt="BsdOS" /></a>
+          </div>
+        </div>
+        <div class="lg:w-64">
+          <h3 class="text-2xl lg:text-3xl text-gray-200 mb-12">{{ T "walletsec2subtitle3" | safeHTML }}</h3>
+          <p class="text-[var(--brand-200)] leading-tight">{{ T "walletsec2text3" | safeHTML }}</p>
+          <div class="flex justify-start py-12 gap-6 sm:gap-10">
+            <a href="https://github.com/decred/decred-release/releases/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/windows-icon.png" | relURL }}" alt="Windows" /></a>
+            <a href="https://github.com/decred/decred-release/releases/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/macos-icon.png" | relURL }}" alt="MacOS" /></a>
+            <a href="https://github.com/decred/decred-release/releases/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/linux-icon.png" | relURL }}" alt="Linux" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- sec 2 end -->
+<!-- sec 3 -->
+<div class="hardwarewrappwer">
+  <div class="hardwarebox">
+      <h2 class="relative z-10 text-4xl lg:text-5xl text-gray-300 mb-6 text-center">{{ T "walletsec3title" | safeHTML }}</h2>
+      <div dir="ltr" class="grid grid-cols-1 lg:grid-cols-[auto_1fr_1fr] xl:grid-cols-3 text-left gap-8 items-center justify-items-center">
+        <div class="curvebox !mb-14 lg:mb-0">{{ T "walletsec3text1" | safeHTML }}</div>
+        <div class="relative w-full max-w-sm sm:max-w-none">
+          <h3 class="text-gray-200 text-2xl lg:text-3xl mb-12">{{ T "walletsec3subtitle2" | safeHTML }}</h3>
+          <div class="flex items-center mb-10">
+            <div class="flex-1 text-[var(--brand-200)] leading-tight font-light max-w-[256px]">{{ T "walletsec3text2" | safeHTML }}</div>
+            <div class="bigdot"></div>
+          </div>
+          <div><a href="https://www.ledger.com/ledger-live/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/file-icon.png" | relURL }}" alt="Ledger Live" /></a></div>
+        </div>
+        <div class="w-full max-w-sm sm:max-w-none">
+          <h3 class="text-gray-200 text-2xl lg:text-3xl mb-12">{{ T "walletsec3subtitle3" | safeHTML }}</h3>
+          <div class="flex items-center mb-10">
+            <div class="flex-1 text-[var(--brand-200)] leading-tight font-light max-w-[256px]">{{ T "walletsec3text3" | safeHTML }}</div>
+            <div class="smalldot"></div>
+          </div>
+          <div><a href="https://trezor.io/" target="_blank" rel="noopener noreferrer"><img src="{{ "/images/icons/file-icon.png" | relURL }}" alt="Trezor" /></a></div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- sec 3 end -->
+<!-- sec 4 -->
+<div class="bottomcurvesection">
+  <div class="max-w-7xl mx-auto text-center relative z-10">
+    <h2 class="text-left sm:text-center text-4xl lg:text-5xl text-gray-200 mb-12">{{ T "walletsec4title" | safeHTML }}</h2>
+    <div dir="ltr" class="grid grid-cols-1 sm:grid-cols-4 text-left gap-8 mb-24 justify-items-center">
+      <div class="w-full max-w-sm sm:max-w-none">
+        <h3 class="text-2xl lg:text-3xl text-gray-200 mb-6">{{ T "walletsec4subtitle2" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] mb-7">{{ T "walletsec4text2" | safeHTML }}</p>
+        <a href="https://www.exodus.com/decred-wallet-dcr" target="_blank" rel="noopener noreferrer" class="text-[var(--brand-300)] hover:text-gray-200 flex"> <span>{{ T "walletsec4link" | safeHTML }}</span> <img src="{{ "/images/icons/exodus-icon.png" | relURL }}" alt="Exodus" class="ml-5" /></a>
+      </div>
+      <div class="w-full max-w-sm sm:max-w-none">
+        <h3 class="text-2xl lg:text-3xl text-gray-200 mb-6">{{ T "walletsec4subtitle3" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] mb-7">{{ T "walletsec4text3" | safeHTML }}</p>
+        <a href="https://www.coinomi.com/en/downloads/" target="_blank" rel="noopener noreferrer" class="text-[var(--brand-300)] hover:text-gray-200 flex"> <span>{{ T "walletsec4link" | safeHTML }}</span> <img src="{{ "/images/icons/coinomi-icon.png" | relURL }}" alt="Coinomi" class="ml-5" /></a>
+      </div>
+      <div class="w-full max-w-sm sm:max-w-none">
+        <h3 class="text-2xl lg:text-3xl text-gray-200 mb-6">{{ T "walletsec4subtitle6" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] mb-7">{{ T "walletsec4text6" | safeHTML }}</p>
+        <a href="https://trustwallet.com/" target="_blank" rel="noopener noreferrer" class="text-[var(--brand-300)] hover:text-gray-200 flex"> <span>{{ T "walletsec4link" | safeHTML }}</span> <img src="{{ "/images/icons/trust-wallet-icon.png" | relURL }}" alt="Trust Wallet" class="ml-5" /></a>
+      </div>
+      <div class="w-full max-w-sm sm:max-w-none">
+        <h3 class="text-2xl lg:text-3xl text-gray-200 mb-6">{{ T "walletsec4subtitle1" | safeHTML }}</h3>
+        <p class="text-[var(--brand-200)] mb-7">{{ T "walletsec4text1" | safeHTML }}</p>
+        <a href="https://cakewallet.com/" target="_blank" rel="noopener noreferrer" class="text-[var(--brand-300)] hover:text-gray-200 flex"> <span>{{ T "walletsec4link" | safeHTML }}</span> <img src="{{ "/images/icons/cake-wallet-icon.png" | relURL }}" alt="Cake Wallet" class="ml-5" /></a>
+      </div>
+    </div>
+    <div class="flex justify-center mb-24">
+      <div class="max-w-sm flex flex-col items-center">
+        <div class="mb-10 max-w-xs bg-[var(--brand-700)] p-6 text-[#008CFF] text-base text-center rounded-3xl">{{ T "walletsec4text5" | safeHTML }}</div>
+        <div><img src="{{ "/images/coresoftwareapp.png" | relURL }}" alt="" /></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- sec 4 end -->
+{{ end }}

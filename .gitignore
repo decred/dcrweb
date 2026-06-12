@@ -3,6 +3,7 @@ src/resources
 src/public
 src/.hugo_build.lock
 src/i18n/*
+!src/i18n/.gitkeep
 node_modules/
 .DS_Store
 *.log

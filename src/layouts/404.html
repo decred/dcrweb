@@ -1,20 +1,11 @@
-{{ define "page-title" }}
-    {{ T "Page not found" }}
-{{ end }}
-
-{{ define "fronta" }}
-{{ end }}
-
-{{ define "main" }}
-<div class="subpage-padding body-gradient g-0">
-    <div class="container">
-
-        <div class="subpage-header">
-            <div class="subpage-title">{{ T "Page not found" }}</div>
-        </div>
-
-        <a href="{{ .Site.BaseURL | relLangURL }}">{{ T "Back to home page" }}</a>
-    
-    </div>
+{{ define "page-title" }}404 - {{ T "title" }}{{ end }} {{ define "main" }}
+<div class="container mx-auto px-4 py-40 text-center">
+  <h1 class="text-7xl text-gray-200 mb-6 dm-serif-text-regular">404</h1>
+  <p class="text-2xl text-[var(--brand-200)] mb-10">Page not found.</p>
+  <a
+    href="{{ .Site.BaseURL | relLangURL }}"
+    class="text-[var(--brand-300)] underline"
+    >Return home</a
+  >
 </div>
 {{ end }}

@@ -1,151 +1,111 @@
-// Detect platform to show appropriate download links.
-document.addEventListener("DOMContentLoaded", function() {
+// Language switcher and mobile menu toggle.
+//
+// The set of supported languages, their display names, and direction (LTR/RTL)
+// are all configured in src/config.yml. The Hugo template renders one <li> per
+// translation; this script is only responsible for opening the dropdown and
+// navigating to the chosen translation's permalink.
 
-	var os = platform.os.family;
-	
-	if (os == "Windows" || os == "Windows Server" || os == "Windows 7" || os == "Windows 7 / Server 2008 R2" || os == "Windows Server 2008 R2 / 7 x64") {
-		elements = document.getElementsByClassName("windl");
-		for (i = 0; i < elements.length; i++) {
-			elements[i].style.display = "block";
-		}
-		elements = document.getElementsByClassName("alldl");
-		for (i = 0; i < elements.length; i++) {
-			elements[i].style.display = "none";
-		}
-	}
+document.addEventListener("DOMContentLoaded", async () => {
+  // ============================
+  // Language dropdown
+  // ============================
+  const selectedLang = document.getElementById("selectedLang");
+  const langList = document.getElementById("langList");
 
-	if (os == "CentOS" || os == "Debian" || os == "Fedora" || os == "Gentoo" || os == "Kubuntu" || os == "Linux Mint" || os == "Red Hat" || os == "SuSE" || os == "Ubuntu" || os == "Ubuntu Chromium" || os == "Xubuntu" || os == "Linux") {
-		elements = document.getElementsByClassName("linuxdl");
-		for (i = 0; i < elements.length; i++) {
-			elements[i].style.display = "block";
-		}
-		elements = document.getElementsByClassName("alldl");
-		for (i = 0; i < elements.length; i++) {
-			elements[i].style.display = "none";
-		}
-	}
+  if (selectedLang && langList) {
+    selectedLang.addEventListener("click", () => {
+      langList.classList.toggle("hidden");
+    });
 
-	if (os == "OS X") {
-		// If we detect OS X, we can't know if the user will want an amd or arm
-		// build. Just show the amd link which will work on both platforms.
-		elements = document.getElementsByClassName("macdl");
-		for (i = 0; i < elements.length; i++) {
-			elements[i].style.display = "block";
-		}
-		elements = document.getElementsByClassName("alldl");
-		for (i = 0; i < elements.length; i++) {
-			elements[i].style.display = "none";
-		}
-	}
+    document.querySelectorAll("#langList li").forEach((item) => {
+      item.addEventListener("click", function () {
+        const href = this.getAttribute("data-href");
+        if (href) {
+          window.location.href = href;
+        }
+      });
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!selectedLang.contains(e.target) && !langList.contains(e.target)) {
+        langList.classList.add("hidden");
+      }
+    });
+  }
+
+  // ============================
+  // Mobile menu toggle
+  // ============================
+  const menuBtn = document.getElementById("menuBtn");
+  if (menuBtn) {
+    menuBtn.addEventListener("click", function () {
+      const mainmenu = document.querySelector(".mainmenu");
+      if (mainmenu) {
+        mainmenu.classList.toggle("show");
+      }
+    });
+  }
+
+  // ============================
+  // Sidebar stats
+  // ============================
+  const API = "https://api.decred.org";
+
+  try {
+    // First API call
+    const webinfoResponse = await fetch(`${API}/api?c=webinfo`);
+    const webinfo = await webinfoResponse.json();
+
+    const supply = webinfo.circulatingsupply;
+
+    const formatted = supply >= 1e6 ? (supply / 1e6).toFixed(0) + "M" : supply.toLocaleString("en-US");
+
+    document.querySelectorAll('[data-stat-name="formatted"]').forEach(el => {
+      el.innerHTML = formatted;
+    });
+
+    console.log("Web Info:", webinfo);
+
+    var mined = Math.round(100 * (webinfo.circulatingsupply / webinfo.ultimatesupply));
+    document.querySelectorAll('[data-stat-name="coins-mined"]').forEach(el => {
+      el.innerHTML = mined + "%";
+    });
+
+    // Percentage staked.
+    var staked = Math.round(100 * (webinfo.stakedsupply / webinfo.circulatingsupply));
+    document.querySelectorAll('[data-stat-name="total-staked"]').forEach(el => {
+      el.innerHTML = staked + "%";
+    });
+
+    // Staking APR — annualized ticket reward. The API has no APR field, so it is
+    // derived from the block subsidy and ticket price using Decred protocol constants.
+    const TICKETS_PER_BLOCK = 5;       // votes (and ticket rewards) paid per block
+    const TARGET_POOL_SIZE = 40960;    // target live ticket pool (TicketPoolSize 8192 * 5)
+    const BLOCKS_PER_DAY = 288;        // ~5-minute blocks
+    const POS_SUBSIDY_SHARE = 0.89;    // PoS share of the subsidy (DCP0010: 1% PoW / 89% PoS / 10% treasury)
+
+    var stakeRewardPerVote = (webinfo.blockreward * POS_SUBSIDY_SHARE) / TICKETS_PER_BLOCK;
+    var meanBlocksToVote = TARGET_POOL_SIZE / TICKETS_PER_BLOCK; // ~8192 blocks (~28.4 days)
+    var votesPerYear = (BLOCKS_PER_DAY * 365.25) / meanBlocksToVote;
+    var apr = (stakeRewardPerVote / webinfo.ticketprice) * votesPerYear * 100;
+
+    document.querySelectorAll('[data-stat-name="staking-apr"]').forEach(el => {
+      el.innerHTML = apr.toFixed(1) + "%";
+    });
+
+    // Second API call
+    const priceResponse = await fetch(`${API}/api?c=price`);
+    const priceinfo = await priceResponse.json();
+
+    console.log("Price Info:", priceinfo);
+
+    // Print both together
+    console.log("Combined Data:", {
+      webinfo,
+      priceinfo
+    });
+
+  } catch (error) {
+    console.error("API Error:", error);
+  }
 });
-
-$(document).ready(function () {
-	var API = 'https://api.decred.org';
-	
-	// Collect data from web api to populate "Quick Stats" section of the homepage.
-	$.ajax({
-		url: API + "/api?c=webinfo",
-		dataType: "json",
-		success: function(webinfo){
-			$.ajax({
-				url: API + "/api?c=price",
-				dataType: "json",
-				success: function(priceinfo){
-					drawStats(webinfo, priceinfo)
-				},
-			});
-		},
-	});
-});
-
-// drawStats accepts data collected from dcrwebapi and populates the "Quick
-// Stats" section of the homepage. The section is only displayed if javascript
-// is enabled and everything completes, otherwise it remains hidden.
-function drawStats(webinfo, priceinfo){
-
-	// Circulating Supply.
-			
-	var circulatingDcr = Math.round(webinfo.circulatingsupply);
-	$('[data-stat-name="circulating-supply-dcr"]').each(function(){
-		this.innerHTML = circulatingDcr.toLocaleString("en-US");
-	});
-
-	// Total coins mined.
-
-	var mined = Math.round(100 * (webinfo.circulatingsupply / webinfo.ultimatesupply));
-	$('[data-stat-name="coins-mined"]').each(function(){
-		this.innerHTML = mined + "%";
-	});
-
-	// Emission per year (very rough estimate).
-
-	const blocksPerYear = 105120;
-	var annualReward = webinfo.blockreward * blocksPerYear;
-	var emission = Math.round(100 * (annualReward / webinfo.circulatingsupply));
-	$('[data-stat-name="coins-emission"]').each(function(){
-		this.innerHTML = emission + "%/YEAR";
-	});
-
-	// Percentage staked.
-
-	var staked = Math.round(100 * (webinfo.stakedsupply / webinfo.circulatingsupply));
-	$('[data-stat-name="total-staked"]').each(function(){
-		this.innerHTML = staked + "%";
-	});
-
-	// Treasury balance.
-
-	var treasuryDcr = Math.round(webinfo.treasury/1000);
-	$('[data-stat-name="treasury-dcr"]').each(function(){
-		this.innerHTML = treasuryDcr + "k";
-	});
-
-	var treasuryUsd = Math.round(webinfo.treasury * priceinfo.decred_usd/1000000);
-	$('[data-stat-name="treasury-usd"]').each(function(){
-		this.innerHTML = "$" + treasuryUsd + "M";
-	});
-
-	// Stake reward per year (very rough estimate).
-	
-	var voteReward = webinfo.blockreward / 100 * 89 / 5;
-	var voteRewardDecimal = voteReward / webinfo.ticketprice;
-
-	var x = 1 + voteRewardDecimal;
-	var y = 365 / 29.07;
-	var annualRewardPercent = Math.round(100 * (Math.pow(x,y) - 1));
-	$('[data-stat-name="stake-reward"]').each(function(){
-		this.innerHTML = annualRewardPercent + "%APY";
-	});
-
-	// Block reward reduction in X days.
-
-	const subsidyReductionInterval = 6144;
-	const blocksPerDay = 288;
-	var blocksUntilChange = subsidyReductionInterval - (webinfo.height%subsidyReductionInterval + 1);
-	var days = Math.round(blocksUntilChange / blocksPerDay);
-	$('[data-stat-name="reward-reduction-days"]').each(function(){
-		var d = " DAY";
-		if (days != 1) {
-			d += "S";
-		}
-
-		this.innerHTML = days + d;
-	});
-
-	$(".hide-stats").removeClass("hide-stats");
-}
-
-var consolestyle = [
-	'background: linear-gradient(to right, #2970ff, #2ED6A1);',
-	'color: #091440',
-	'font-family: monospace',
-	].join(';');
-  
-console.log(`%c
-Stakey needs you! for a bug squishin' mission https://docs.decred.org/contributing/overview/
-┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐    ┌ᴗᴗᴗᴗᴗᴗ┐╭    ┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐╭  ╮┌ᴗᴗᴗᴗᴗᴗ┐    ┌ᴗᴗᴗᴗᴗᴗ┐╭ 
-╭╣● ▄  ●╠╯  ╰╣●    ●╠╯  ╰╣●   ● ╠╮  ╭╣● ▄▄ ●╠╯   ╭╣● ▄▄ ●╠╯  ╰╣●    ●╠╯  ╰╣●   ● ╠╮  ╭╣●  ▄ ●╠╯ 
-╯║      ║    ║   ▄  ║    ║  ▄▄  ║╰  ╯║      ║    ╯║      ║    ║  ▄▄  ║    ║  ▄   ║╰  ╯║      ║  
-╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝     ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝    ╚─┬──┬─╝  
-	┙  ┕        ┕  ┙        ┙  ┙        ┙  ┕         ┙  ┙        ┕  ┕        ┕  ┙        ┙  ┕    `
-, consolestyle);

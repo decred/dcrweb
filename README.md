@@ -1,69 +1,53 @@
-# dcrweb
-[![Build Status](https://github.com/decred/dcrweb/actions/workflows/build.yml/badge.svg)](https://github.com/decred/dcrweb/actions/workflows/build.yml)
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
+# decred-staging — decred site
 
-## Overview
+This is one of three independent Hugo projects under `decred-staging/`. It is
+the source for the staging build of the Decred main site (home, wallets,
+exchanges, governance).
 
-This is the code for the [decred.org](https://decred.org) website.
-It is built using the static site generator [Hugo](https://gohugo.io/) and
-utilizes [Docker](https://www.docker.com/) for testing and deployment.
+It is built with [Hugo](https://gohugo.io/) (extended, v0.152.2) and uses
+[Docker](https://www.docker.com/) for deployment, mirroring the `dcrweb-master`
+template.
 
 ## Development
 
-To start a development web server at <http://localhost:1313>:
+Start a local development web server at <http://localhost:1313>:
 
 ```sh
 ./bin/watch.sh
 ```
 
-Run the HTML validator to ensure all of the generated files are syntactically
-correct:
+The `watch.sh` script will:
 
-```sh
-./bin/test.sh
-```
+1. Convert `transifex_catalogs/*.json` → `src/i18n/*.json`.
+2. Clone `src/content/en` into `src/content/<lang>` for each non-English
+   language declared in `src/config.yml`.
+3. Run `hugo server` against `src/`.
 
 ## Deployment with Docker
 
 ```sh
-# Build the decred/dcrweb image.
+# Build the image.
 ./bin/build.sh
 
 # Start the container.
-docker run -d -p <local port>:80 decred/dcrweb:latest
+docker run -d -p <local port>:80 decred/decred-web:latest
 ```
 
 ## Editing content
 
-The most frequently updated content sections live in the below locations:
+Translation strings are defined in `transifex_catalogs/<lang>.json`
+(flat `key: value` pairs). The English file is the source of truth; other
+languages should mirror its keys.
 
-| Section            | File |
-| ------------------ | ---- |
-| Media Coverage     | `src/data/news/coverage.yml` |
-| Decred Journals    | `src/data/news/decred_journals.yml` |
-| Software releases  | `src/data/news/software_releases.yml` |
-| Press releases     | `src/content/news/*.md` |
-| Wallets            | `src/data/wallets/wallets.yml` |
-| Community channels | `src/data/community/channels.yml` |
-| Support channels   | `src/data/community/support.yml` |
-| Publications       | `src/data/community/publications.yml` |
-| Exchanges          | `src/data/exchanges/*.yml` |
-
-The other sections live under `src/layouts`.
-These pages are implemented as [Hugo templates](https://gohugo.io/templates/)
-and are
-[localized](https://gohugo.io/content-management/multilingual/#translation-of-strings).
-The message catalogs can be found in `src/i18n`.
-When making changes in the templates, you'll want to keep the strings in the
-catalogs, please follow the naming scheme in the existing templates.
+Page templates live in `src/layouts/`. Common chrome (head, header, footer,
+language switcher) is in `src/layouts/_default/baseof.html` and
+`src/layouts/partials/`.
 
 ## Localization
 
-Internationalization (i18n) files for translating dcrweb into languages other
-than English are in the [transifex_catalogs](./transifex_catalogs/)
-directory.
-A README in that directory explains how translation strings should be updated.
+Supported languages are configured in `src/config.yml` under the `languages`
+key. To add a new language:
 
-## License
-
-dcrweb is licensed under the liberal ISC License.
+1. Add an entry to `src/config.yml`.
+2. Drop a `<lang>.json` translation file into `transifex_catalogs/`.
+3. Re-run `./bin/watch.sh`.
