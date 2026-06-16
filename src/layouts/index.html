@@ -1,4 +1,4 @@
-{{ define "page-title" }}{{ T "title" }}{{ end }}
+{{ define "page-title" }}{{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
 <div class="herobanner w-full bg-[url('{{ "/images/banner.jpg" | relURL }}')] bg-top bg-center 2xl:!bg-left bg-no-repeat -mt-[84px] sm:h-[1210px]">

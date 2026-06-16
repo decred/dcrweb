@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
 <head>
-<title>{{ block "page-title" . }}{{ T "title" }}{{ end }}</title>
+<title>{{ block "page-title" . }}{{ .Site.Title }}{{ end }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="shortcut icon" href="{{ "/images/favicon.ico?v=yHh3NA" | relURL }}">
 <!-- Load Tailwind (local, as requested) -->
