@@ -1,0 +1,6 @@
+[build]
+  command = "./bin/build-hugo.sh"
+  publish = "src/public"
+
+[build.environment]
+  HUGO_VERSION = "0.152.2"
