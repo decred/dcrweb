@@ -47,6 +47,47 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   // ============================
+  // Hero scroll cue collision guard
+  // ============================
+  const adjustHeroScrollCue = () => {
+    const cue = document.querySelector(".hero-scroll-cue");
+    const desc = document.querySelector(".banner .desc");
+
+    if (!cue || !desc) {
+      return;
+    }
+
+    cue.style.transform = "";
+
+    if (window.getComputedStyle(cue).position !== "absolute") {
+      return;
+    }
+
+    const minGap = 24;
+    const gap = cue.getBoundingClientRect().top - desc.getBoundingClientRect().bottom;
+
+    if (gap < minGap) {
+      cue.style.transform = `translateY(${Math.ceil(minGap - gap)}px)`;
+    }
+  };
+
+  let heroScrollCueFrame = null;
+  const scheduleHeroScrollCueAdjustment = () => {
+    if (heroScrollCueFrame) {
+      cancelAnimationFrame(heroScrollCueFrame);
+    }
+    heroScrollCueFrame = requestAnimationFrame(adjustHeroScrollCue);
+  };
+
+  scheduleHeroScrollCueAdjustment();
+  window.addEventListener("resize", scheduleHeroScrollCueAdjustment);
+  window.addEventListener("load", scheduleHeroScrollCueAdjustment, { once: true });
+
+  if (document.fonts) {
+    document.fonts.ready.then(scheduleHeroScrollCueAdjustment);
+  }
+
+  // ============================
   // Sidebar stats
   // ============================
   const API = "https://api.decred.org";
