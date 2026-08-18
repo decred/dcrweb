@@ -15,18 +15,18 @@
   links:
     - title: macOS
       platform: macdl
-      url: https://github.com/decred/decred-binaries/releases/download/v2.1.5/decrediton-darwin-arm64-v2.1.5.dmg
+      url: https://github.com/decred/decred-binaries/releases/download/v2.1.6/decrediton-darwin-arm64-v2.1.6.dmg
       is_direct_download: true
     - title: Linux
       platform: linuxdl
-      url: https://github.com/decred/decred-binaries/releases/download/v2.1.5/decrediton-linux-amd64-v2.1.5.AppImage
+      url: https://github.com/decred/decred-binaries/releases/download/v2.1.6/decrediton-linux-amd64-v2.1.6.AppImage
       is_direct_download: true
     - title: Windows
       platform: windl
       url: https://github.com/decred/decred-binaries/releases/download/v2.1.5/decrediton-windows-amd64-v2.1.5.exe
       is_direct_download: true
     - title: Downloads and release notes
-      url: https://github.com/decred/decred-binaries/releases/tag/v2.1.5
+      url: https://github.com/decred/decred-binaries/releases/tag/v2.1.6
 
 - id: bisonw
   name: Bison Wallet
