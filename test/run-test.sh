@@ -11,7 +11,14 @@ fi
 echo
 echo "Validating pages "
 
-FILES=$(find $CONTENT_DIR -name \*.html | grep -v google)
+# Find HTML files to validate, skipping files which are known to fail validation
+# but should not be altered:
+#   - google858b8c931adb8fff.html - verifies site ownership for Google Search.
+#   - micar-whitepaper.html - handcrafted by a third party.
+FILES=$(find $CONTENT_DIR -name \*.html | \
+    grep -v google858b8c931adb8fff      | \
+    grep -v micar-whitepaper)
+
 PATH=node_modules/.bin:$PATH
 
 exit_code=0
