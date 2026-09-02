@@ -70,11 +70,11 @@
   highlight: true
   links:
     - title: Download installer
-      url: https://github.com/decred/decred-release/releases/tag/v2.1.5
+      url: https://github.com/decred/decred-release/releases/tag/v2.1.6
     - title: Installer guide
       url: https://docs.decred.org/wallets/cli/cli-installation/
     - title: Release notes + standalone
-      url: https://github.com/decred/decred-binaries/releases/tag/v2.1.5
+      url: https://github.com/decred/decred-binaries/releases/tag/v2.1.6
 
 - id: trezor
   name: Trezor
