@@ -60,11 +60,6 @@
  name: Flyp
  highlight: false
 -
-  url: "https://www.novadax.com.br/"
-  tags:
-  name: "Novadax"
-  highlight: false
--
   url: "https://dex.decred.org/"
   tags:
     - "high_liquidity"
@@ -126,7 +121,9 @@
   name: Guarda
   highlight: false
 -
-  url: "https://www.bitmart.com/trade/DCR_USDT"
+  url: "https://pro.kraken.com/app/trade/dcr-usd"
   tags:
-  name: BitMart
-  highlight: false
+  - high_liquidity
+  - fiat
+  name: Kraken
+  highlight: true
