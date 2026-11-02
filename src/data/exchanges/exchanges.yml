@@ -130,3 +130,9 @@
   tags:
   name: BitMart
   highlight: false
+-
+  url: "https://swaprocket.io/cryptocurrencies/dcr"
+  tags:
+    - "instant_exchange"
+  name: SwapRocket
+  highlight: false
