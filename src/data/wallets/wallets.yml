@@ -46,22 +46,11 @@
 - id: cryptopower
   name: Cryptopower
   tags:
-    - core_software
-  highlight: true
+    - third_party_wallets
+  highlight: false
   links:
-    - title: iOS
-      url: https://apps.apple.com/us/app/cryptopower-wallet/id6472668308
-      is_direct_download: true
-    - title: Android
-      url: https://play.google.com/store/apps/details?id=com.dreacotdigital.cryptopower.mainnet
-      is_direct_download: true
-    - title: APK
-      url: https://github.com/crypto-power/cryptopower/releases/download/v2.1.1/cryptopower-v2.1.1.apk
-      is_direct_download: true
-    - title: Downloads and release notes
-      url: https://github.com/crypto-power/cryptopower/releases/tag/v2.1.1
-    - title: Website
-      url: https://cryptopower.dev
+    - title: Cryptopower
+      url: https://cryptopower.net
 
 - id: commandline
   name: Command-line app suite
@@ -84,7 +73,7 @@
     - title: Decrediton
       url: https://decred.org/wallets/
     - title: Exodus
-      url: https://www.exodus.com/decred-wallet-dcr
+      url: https://www.exodus.com/
   highlight: false
       
 - id: ledger
@@ -101,8 +90,8 @@
   tags:
     - third_party_wallets
   links:
-    - title: Exodus releases
-      url: https://www.exodus.com/decred-wallet-dcr
+    - title: Exodus
+      url: https://www.exodus.com/
   highlight: false
 
 - id: coinomi
@@ -110,7 +99,7 @@
   tags:
     - third_party_wallets
   links:
-    - title: Coinomi releases
+    - title: Coinomi
       url: https://www.coinomi.com/downloads/
   highlight: false
 
