@@ -130,3 +130,9 @@
   tags:
   name: BitMart
   highlight: false
+-
+  url: "https://ghostswap.io/"
+  tags:
+    - "instant_exchange"
+  name: GhostSwap
+  highlight: false
